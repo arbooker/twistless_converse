@@ -1,0 +1,4 @@
+'AsymptoticClassicalLSeries.coefficient_dirichlet_term' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalLSeries.mellin_dirichlet_term' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalLSeries.entireCompletion_differentiable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalLSeries.entireCompletion_eq_completed' depends on axioms: [propext, Classical.choice, Quot.sound]

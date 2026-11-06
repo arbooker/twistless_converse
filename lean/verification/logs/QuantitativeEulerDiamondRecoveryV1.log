@@ -1,0 +1,8 @@
+'QuantitativeEulerDiamondDecode.finiteCorrection_eq_congruence' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerDiamondDecode.periodCorrection_eq_congruence' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerDiamondDecode.compact_prime_recovery' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerDiamondDecode.compactAction_primeAverage' depends on axioms: [propext, Classical.choice, Quot.sound]

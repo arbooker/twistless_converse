@@ -1,0 +1,20 @@
+{
+  "statement": "N25 eta=-1: every rightmost non-weight pole, or weight-point pole of maximum grid order at least two, has zero denominator-five highest coefficient",
+  "scope": "Excludes one highest-order pole sector; weight point, denominator25 modes and full converse open",
+  "leading_rank": 145,
+  "first_jet_cusp_relation": "r60=-r120/2",
+  "forced_relation": "9*x^2=4*y^2",
+  "minor_gcd": "625*(X - 2)*(X + 2)*(X**2 - 8)*(2*X**4 - 11*X**2 - 17)*(11*X**4 - 20*X**2 - 76)*(X**8 + 24*X**6 - 290*X**4 + 380*X**2 - 144)*(63*X**16 + 950*X**14 - 7151*X**12 + 55992*X**10 + 19064*X**8 - 617786*X**6 + 712800*X**4 - 857640*X**2 + 431136)",
+  "circle_gcd": "U - 4",
+  "coefficient_minor": "-(X**2 - 8)*(X**4 - 2*X**2 - 40)*(2*X**4 - 11*X**2 - 17)*(11*X**4 - 20*X**2 - 76)*(X**8 + 24*X**6 - 290*X**4 + 380*X**2 - 144)*(19*X**8 + 180*X**6 - 868*X**4 + 606*X**2 - 72)",
+  "coefficient_circle_gcd": "1",
+  "source_sha256": {
+    "level25_finish_eta_minus_cusp_poles.py": "b83e160062e84413646cbe949c3ca95a52f11e62b0c3e90bfe829feb8ae05274",
+    "level25_finish_firstjet.py": "9bba9e96cca35b8356161ff88929f6e8ace9fa374520d40a4336bfce9f94cce5",
+    "level25_finish_nonweight_branch.py": "bf66d3b830e208e9e01bf6fd1709e021ef00a06e0f2e85dcaf6164eeeadb883a",
+    "level25_finish_augmented.py": "4dcccb34212352f9effa32da95b93b57becc8f6938adb04e56281fd719780a94",
+    "level25_uniform_continuation.py": "490293b27df705236585208fe1fd2c5f4510cce7499a78e6803e265e11b96515",
+    "level25_finish_minus_higherjet.py": "e7795a551b545bc565817122a4e81b895ebe4b23cf50377fb8bd0885d83831f5"
+  },
+  "third_jet_obstruction": "R5: -25/2, ranks 150 at shifts 0,1,2,3"
+}

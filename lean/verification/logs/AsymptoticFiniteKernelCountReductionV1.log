@@ -1,0 +1,12 @@
+'AsymptoticCompactObservationCount.repeated_totalTrace_tendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticCompactObservationCount.finite_observations_near_kernel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticCompactObservationCount.regular_approx_of_kernel_approx' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticCompactObservationCount.count_littleO_of_kernel_approximation_and_total_dimension' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,16 @@
+'QuantitativeEulerEndpointPrepared.reconstructed_pullback_projection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.reconstructed_pullback_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.reconstructed_pullback_forward' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.reconstructed_pullback_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.reconstructed_pullback_regular' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.reconstructed_pullback_supported' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

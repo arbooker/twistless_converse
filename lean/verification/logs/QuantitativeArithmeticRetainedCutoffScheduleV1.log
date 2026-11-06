@@ -1,0 +1,9 @@
+'QuantitativeArithmeticRetainedCutoffSchedule.fixedMajorant_nonneg' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedCutoffSchedule.lower_mode_bridge' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedCutoffSchedule.upper_cut_bridge' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

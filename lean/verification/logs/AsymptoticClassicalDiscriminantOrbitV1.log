@@ -1,0 +1,5 @@
+'AsymptoticClassicalDiscriminant.translate_eq_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalDiscriminant.orbit_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalDiscriminant.orbit_holomorphic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalDiscriminant.exists_separating_point' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalDiscriminant.orbit_separating_point' depends on axioms: [propext, Classical.choice, Quot.sound]

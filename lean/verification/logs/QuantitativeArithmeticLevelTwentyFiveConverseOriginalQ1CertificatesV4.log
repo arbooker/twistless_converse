@@ -1,0 +1,43 @@
+'QuantitativeArithmeticSmallLevelTwentyFive.OriginalLeading.q1node0_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.OriginalLeading.q1node1_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.OriginalLeading.q1node2_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.OriginalLeading.q1node3_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.OriginalLeading.q1node4_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.OriginalLeading.q1node5_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.OriginalLeading.q1node6_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.OriginalLeading.q1node7_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.OriginalLeading.q1node8_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.OriginalLeading.q1node9_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.OriginalLeading.q1node10_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.OriginalLeading.q1node11_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.OriginalLeading.q1node12_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.OriginalLeading.q1_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

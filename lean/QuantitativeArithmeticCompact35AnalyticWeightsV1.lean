@@ -1,0 +1,4019 @@
+module
+public meta import QuantitativeArithmeticLaurentCertificateCommandsV1
+public import QuantitativeArithmeticSmallLevelThirtyFiveAnalyticPivotDataV1
+public import QuantitativeArithmeticSmallLevelThirtyFiveAnalyticRowIndexDataSeriesV4
+public import QuantitativeArithmeticSmallLevelThirtyFivePositiveAnalyticRowIndexDataSeriesV4
+set_option autoImplicit false
+set_option backward.isDefEq.respectTransparency false
+set_option maxHeartbeats 3000000
+set_option linter.unusedVariables false
+set_option linter.unusedSimpArgs false
+@[expose] public noncomputable section
+
+namespace QuantitativeArithmeticSmallLevelThirtyFiveAnalyticShortRows
+derive_weight_analytic [pivotWeight0]
+#print axioms pivotWeight0_analytic
+derive_weight_analytic [pivotWeight1]
+#print axioms pivotWeight1_analytic
+derive_weight_analytic [pivotWeight2]
+#print axioms pivotWeight2_analytic
+derive_weight_analytic [pivotWeight3]
+#print axioms pivotWeight3_analytic
+derive_weight_analytic [pivotWeight4]
+#print axioms pivotWeight4_analytic
+derive_weight_analytic [pivotWeight5]
+#print axioms pivotWeight5_analytic
+derive_weight_analytic [pivotWeight6]
+#print axioms pivotWeight6_analytic
+derive_weight_analytic [pivotWeight7]
+#print axioms pivotWeight7_analytic
+derive_weight_analytic [pivotWeight8]
+#print axioms pivotWeight8_analytic
+derive_weight_analytic [pivotWeight9]
+#print axioms pivotWeight9_analytic
+derive_weight_analytic [pivotWeight10]
+#print axioms pivotWeight10_analytic
+derive_weight_analytic [pivotWeight11]
+#print axioms pivotWeight11_analytic
+derive_weight_analytic [pivotWeight12]
+#print axioms pivotWeight12_analytic
+derive_weight_analytic [pivotWeight13]
+#print axioms pivotWeight13_analytic
+derive_weight_analytic [pivotWeight14]
+#print axioms pivotWeight14_analytic
+derive_weight_analytic [pivotWeight15]
+#print axioms pivotWeight15_analytic
+derive_weight_analytic [pivotWeight16]
+#print axioms pivotWeight16_analytic
+derive_weight_analytic [pivotWeight17]
+#print axioms pivotWeight17_analytic
+derive_weight_analytic [pivotWeight18]
+#print axioms pivotWeight18_analytic
+derive_weight_analytic [pivotWeight19]
+#print axioms pivotWeight19_analytic
+derive_weight_analytic [pivotWeight20]
+#print axioms pivotWeight20_analytic
+derive_weight_analytic [pivotWeight21]
+#print axioms pivotWeight21_analytic
+derive_weight_analytic [pivotWeight22]
+#print axioms pivotWeight22_analytic
+derive_weight_analytic [pivotWeight23]
+#print axioms pivotWeight23_analytic
+derive_weight_analytic [pivotWeight24]
+#print axioms pivotWeight24_analytic
+derive_weight_analytic [pivotWeight25]
+#print axioms pivotWeight25_analytic
+derive_weight_analytic [pivotWeight26]
+#print axioms pivotWeight26_analytic
+derive_weight_analytic [pivotWeight27]
+#print axioms pivotWeight27_analytic
+derive_weight_analytic [pivotWeight28]
+#print axioms pivotWeight28_analytic
+derive_weight_analytic [pivotWeight29]
+#print axioms pivotWeight29_analytic
+derive_weight_analytic [pivotWeight30]
+#print axioms pivotWeight30_analytic
+derive_weight_analytic [pivotWeight31]
+#print axioms pivotWeight31_analytic
+derive_weight_analytic [pivotWeight32]
+#print axioms pivotWeight32_analytic
+derive_weight_analytic [pivotWeight33]
+#print axioms pivotWeight33_analytic
+derive_weight_analytic [pivotWeight34]
+#print axioms pivotWeight34_analytic
+derive_weight_analytic [pivotWeight35]
+#print axioms pivotWeight35_analytic
+derive_weight_analytic [pivotWeight36]
+#print axioms pivotWeight36_analytic
+derive_weight_analytic [pivotWeight37]
+#print axioms pivotWeight37_analytic
+derive_weight_analytic [pivotWeight38]
+#print axioms pivotWeight38_analytic
+derive_weight_analytic [pivotWeight39]
+#print axioms pivotWeight39_analytic
+derive_weight_analytic [pivotWeight40]
+#print axioms pivotWeight40_analytic
+derive_weight_analytic [pivotWeight41]
+#print axioms pivotWeight41_analytic
+derive_weight_analytic [pivotWeight42]
+#print axioms pivotWeight42_analytic
+derive_weight_analytic [pivotWeight43]
+#print axioms pivotWeight43_analytic
+derive_weight_analytic [pivotWeight44]
+#print axioms pivotWeight44_analytic
+derive_weight_analytic [pivotWeight45]
+#print axioms pivotWeight45_analytic
+derive_weight_analytic [pivotWeight46]
+#print axioms pivotWeight46_analytic
+derive_weight_analytic [pivotWeight47]
+#print axioms pivotWeight47_analytic
+derive_weight_analytic [pivotWeight48]
+#print axioms pivotWeight48_analytic
+derive_weight_analytic [pivotWeight49]
+#print axioms pivotWeight49_analytic
+derive_weight_analytic [pivotWeight50]
+#print axioms pivotWeight50_analytic
+derive_weight_analytic [pivotWeight51]
+#print axioms pivotWeight51_analytic
+derive_weight_analytic [pivotWeight52]
+#print axioms pivotWeight52_analytic
+derive_weight_analytic [pivotWeight53]
+#print axioms pivotWeight53_analytic
+derive_weight_analytic [pivotWeight54]
+#print axioms pivotWeight54_analytic
+derive_weight_analytic [pivotWeight55]
+#print axioms pivotWeight55_analytic
+derive_weight_analytic [pivotWeight56]
+#print axioms pivotWeight56_analytic
+derive_weight_analytic [pivotWeight57]
+#print axioms pivotWeight57_analytic
+derive_weight_analytic [pivotWeight58]
+#print axioms pivotWeight58_analytic
+derive_weight_analytic [pivotWeight59]
+#print axioms pivotWeight59_analytic
+derive_weight_analytic [pivotWeight60]
+#print axioms pivotWeight60_analytic
+derive_weight_analytic [pivotWeight61]
+#print axioms pivotWeight61_analytic
+derive_weight_analytic [pivotWeight62]
+#print axioms pivotWeight62_analytic
+derive_weight_analytic [pivotWeight63]
+#print axioms pivotWeight63_analytic
+derive_weight_analytic [pivotWeight64]
+#print axioms pivotWeight64_analytic
+derive_weight_analytic [pivotWeight65]
+#print axioms pivotWeight65_analytic
+derive_weight_analytic [pivotWeight66]
+#print axioms pivotWeight66_analytic
+derive_weight_analytic [pivotWeight67]
+#print axioms pivotWeight67_analytic
+derive_weight_analytic [pivotWeight68]
+#print axioms pivotWeight68_analytic
+derive_weight_analytic [pivotWeight69]
+#print axioms pivotWeight69_analytic
+derive_weight_analytic [pivotWeight70]
+#print axioms pivotWeight70_analytic
+derive_weight_analytic [pivotWeight71]
+#print axioms pivotWeight71_analytic
+derive_weight_analytic [pivotWeight72]
+#print axioms pivotWeight72_analytic
+derive_weight_analytic [pivotWeight73]
+#print axioms pivotWeight73_analytic
+derive_weight_analytic [pivotWeight74]
+#print axioms pivotWeight74_analytic
+derive_weight_analytic [pivotWeight75]
+#print axioms pivotWeight75_analytic
+derive_weight_analytic [pivotWeight76]
+#print axioms pivotWeight76_analytic
+derive_weight_analytic [pivotWeight77]
+#print axioms pivotWeight77_analytic
+derive_weight_analytic [pivotWeight78]
+#print axioms pivotWeight78_analytic
+derive_weight_analytic [pivotWeight79]
+#print axioms pivotWeight79_analytic
+derive_weight_analytic [pivotWeight80]
+#print axioms pivotWeight80_analytic
+derive_weight_analytic [pivotWeight81]
+#print axioms pivotWeight81_analytic
+derive_weight_analytic [pivotWeight82]
+#print axioms pivotWeight82_analytic
+derive_weight_analytic [pivotWeight83]
+#print axioms pivotWeight83_analytic
+derive_weight_analytic [pivotWeight84]
+#print axioms pivotWeight84_analytic
+derive_weight_analytic [pivotWeight85]
+#print axioms pivotWeight85_analytic
+derive_weight_analytic [pivotWeight86]
+#print axioms pivotWeight86_analytic
+derive_weight_analytic [pivotWeight87]
+#print axioms pivotWeight87_analytic
+derive_weight_analytic [pivotWeight88]
+#print axioms pivotWeight88_analytic
+derive_weight_analytic [pivotWeight89]
+#print axioms pivotWeight89_analytic
+derive_weight_analytic [pivotWeight90]
+#print axioms pivotWeight90_analytic
+derive_weight_analytic [pivotWeight91]
+#print axioms pivotWeight91_analytic
+derive_weight_analytic [pivotWeight92]
+#print axioms pivotWeight92_analytic
+derive_weight_analytic [pivotWeight93]
+#print axioms pivotWeight93_analytic
+derive_weight_analytic [pivotWeight94]
+#print axioms pivotWeight94_analytic
+derive_weight_analytic [pivotWeight95]
+#print axioms pivotWeight95_analytic
+derive_weight_analytic [pivotWeight96]
+#print axioms pivotWeight96_analytic
+derive_weight_analytic [pivotWeight97]
+#print axioms pivotWeight97_analytic
+derive_weight_analytic [pivotWeight98]
+#print axioms pivotWeight98_analytic
+derive_weight_analytic [closedRow0Weight0]
+#print axioms closedRow0Weight0_analytic
+derive_weight_analytic [closedRow0Weight1]
+#print axioms closedRow0Weight1_analytic
+derive_weight_analytic [closedRow0Weight2]
+#print axioms closedRow0Weight2_analytic
+derive_weight_analytic [closedRow0Weight3]
+#print axioms closedRow0Weight3_analytic
+derive_weight_analytic [closedRow0Weight4]
+#print axioms closedRow0Weight4_analytic
+derive_weight_analytic [closedRow0Weight5]
+#print axioms closedRow0Weight5_analytic
+derive_weight_analytic [closedRow0Weight6]
+#print axioms closedRow0Weight6_analytic
+derive_weight_analytic [closedRow0Weight7]
+#print axioms closedRow0Weight7_analytic
+derive_weight_analytic [closedRow0Weight8]
+#print axioms closedRow0Weight8_analytic
+derive_weight_analytic [closedRow0Weight9]
+#print axioms closedRow0Weight9_analytic
+derive_weight_analytic [closedRow0Weight10]
+#print axioms closedRow0Weight10_analytic
+derive_weight_analytic [closedRow0Weight11]
+#print axioms closedRow0Weight11_analytic
+derive_weight_analytic [closedRow0Weight12]
+#print axioms closedRow0Weight12_analytic
+derive_weight_analytic [closedRow0Weight13]
+#print axioms closedRow0Weight13_analytic
+derive_weight_analytic [closedRow0Weight14]
+#print axioms closedRow0Weight14_analytic
+derive_weight_analytic [closedRow0Weight15]
+#print axioms closedRow0Weight15_analytic
+derive_weight_analytic [closedRow0Weight16]
+#print axioms closedRow0Weight16_analytic
+derive_weight_analytic [closedRow0Weight17]
+#print axioms closedRow0Weight17_analytic
+derive_weight_analytic [closedRow0Weight18]
+#print axioms closedRow0Weight18_analytic
+derive_weight_analytic [closedRow0Weight19]
+#print axioms closedRow0Weight19_analytic
+derive_weight_analytic [closedRow0Weight20]
+#print axioms closedRow0Weight20_analytic
+derive_weight_analytic [closedRow0Weight21]
+#print axioms closedRow0Weight21_analytic
+derive_weight_analytic [closedRow0Weight22]
+#print axioms closedRow0Weight22_analytic
+derive_weight_analytic [closedRow0Weight23]
+#print axioms closedRow0Weight23_analytic
+derive_weight_analytic [closedRow0Weight24]
+#print axioms closedRow0Weight24_analytic
+derive_weight_analytic [closedRow0Weight25]
+#print axioms closedRow0Weight25_analytic
+derive_weight_analytic [closedRow0Weight26]
+#print axioms closedRow0Weight26_analytic
+derive_weight_analytic [closedRow0Weight27]
+#print axioms closedRow0Weight27_analytic
+derive_weight_analytic [closedRow0Weight28]
+#print axioms closedRow0Weight28_analytic
+derive_weight_analytic [closedRow0Weight29]
+#print axioms closedRow0Weight29_analytic
+derive_weight_analytic [closedRow0Weight30]
+#print axioms closedRow0Weight30_analytic
+derive_weight_analytic [closedRow0Weight31]
+#print axioms closedRow0Weight31_analytic
+derive_weight_analytic [closedRow0Weight32]
+#print axioms closedRow0Weight32_analytic
+derive_weight_analytic [closedRow0Weight33]
+#print axioms closedRow0Weight33_analytic
+derive_weight_analytic [closedRow0Weight34]
+#print axioms closedRow0Weight34_analytic
+derive_weight_analytic [closedRow0Weight35]
+#print axioms closedRow0Weight35_analytic
+derive_weight_analytic [closedRow0Weight36]
+#print axioms closedRow0Weight36_analytic
+derive_weight_analytic [closedRow0Weight37]
+#print axioms closedRow0Weight37_analytic
+derive_weight_analytic [closedRow0Weight38]
+#print axioms closedRow0Weight38_analytic
+derive_weight_analytic [closedRow0Weight39]
+#print axioms closedRow0Weight39_analytic
+derive_weight_analytic [closedRow0Weight40]
+#print axioms closedRow0Weight40_analytic
+derive_weight_analytic [closedRow0Weight41]
+#print axioms closedRow0Weight41_analytic
+derive_weight_analytic [closedRow0Weight42]
+#print axioms closedRow0Weight42_analytic
+derive_weight_analytic [closedRow0Weight43]
+#print axioms closedRow0Weight43_analytic
+derive_weight_analytic [closedRow0Weight44]
+#print axioms closedRow0Weight44_analytic
+derive_weight_analytic [closedRow0Weight45]
+#print axioms closedRow0Weight45_analytic
+derive_weight_analytic [closedRow0Weight46]
+#print axioms closedRow0Weight46_analytic
+derive_weight_analytic [closedRow0Weight47]
+#print axioms closedRow0Weight47_analytic
+derive_weight_analytic [closedRow0Weight48]
+#print axioms closedRow0Weight48_analytic
+derive_weight_analytic [closedRow0Weight49]
+#print axioms closedRow0Weight49_analytic
+derive_weight_analytic [closedRow0Weight50]
+#print axioms closedRow0Weight50_analytic
+derive_weight_analytic [closedRow0Weight51]
+#print axioms closedRow0Weight51_analytic
+derive_weight_analytic [closedRow0Weight52]
+#print axioms closedRow0Weight52_analytic
+derive_weight_analytic [closedRow0Weight53]
+#print axioms closedRow0Weight53_analytic
+derive_weight_analytic [closedRow0Weight54]
+#print axioms closedRow0Weight54_analytic
+derive_weight_analytic [closedRow0Weight55]
+#print axioms closedRow0Weight55_analytic
+derive_weight_analytic [closedRow0Weight56]
+#print axioms closedRow0Weight56_analytic
+derive_weight_analytic [closedRow0Weight57]
+#print axioms closedRow0Weight57_analytic
+derive_weight_analytic [closedRow0Weight58]
+#print axioms closedRow0Weight58_analytic
+derive_weight_analytic [closedRow0Weight59]
+#print axioms closedRow0Weight59_analytic
+derive_weight_analytic [closedRow0Weight60]
+#print axioms closedRow0Weight60_analytic
+derive_weight_analytic [closedRow0Weight61]
+#print axioms closedRow0Weight61_analytic
+derive_weight_analytic [closedRow0Weight62]
+#print axioms closedRow0Weight62_analytic
+derive_weight_analytic [closedRow0Weight63]
+#print axioms closedRow0Weight63_analytic
+derive_weight_analytic [closedRow0Weight64]
+#print axioms closedRow0Weight64_analytic
+derive_weight_analytic [closedRow0Weight65]
+#print axioms closedRow0Weight65_analytic
+derive_weight_analytic [closedRow0Weight66]
+#print axioms closedRow0Weight66_analytic
+derive_weight_analytic [closedRow0Weight67]
+#print axioms closedRow0Weight67_analytic
+derive_weight_analytic [closedRow0Weight68]
+#print axioms closedRow0Weight68_analytic
+derive_weight_analytic [closedRow0Weight69]
+#print axioms closedRow0Weight69_analytic
+derive_weight_analytic [closedRow0Weight70]
+#print axioms closedRow0Weight70_analytic
+derive_weight_analytic [closedRow0Weight71]
+#print axioms closedRow0Weight71_analytic
+derive_weight_analytic [closedRow0Weight72]
+#print axioms closedRow0Weight72_analytic
+derive_weight_analytic [closedRow0Weight73]
+#print axioms closedRow0Weight73_analytic
+derive_weight_analytic [closedRow0Weight74]
+#print axioms closedRow0Weight74_analytic
+derive_weight_analytic [closedRow0Weight75]
+#print axioms closedRow0Weight75_analytic
+derive_weight_analytic [closedRow0Weight76]
+#print axioms closedRow0Weight76_analytic
+derive_weight_analytic [closedRow0Weight77]
+#print axioms closedRow0Weight77_analytic
+derive_weight_analytic [closedRow0Weight78]
+#print axioms closedRow0Weight78_analytic
+derive_weight_analytic [closedRow0Weight79]
+#print axioms closedRow0Weight79_analytic
+derive_weight_analytic [closedRow0Weight80]
+#print axioms closedRow0Weight80_analytic
+derive_weight_analytic [closedRow0Weight81]
+#print axioms closedRow0Weight81_analytic
+derive_weight_analytic [closedRow0Weight82]
+#print axioms closedRow0Weight82_analytic
+derive_weight_analytic [closedRow0Weight83]
+#print axioms closedRow0Weight83_analytic
+derive_weight_analytic [closedRow0Weight84]
+#print axioms closedRow0Weight84_analytic
+derive_weight_analytic [closedRow0Weight85]
+#print axioms closedRow0Weight85_analytic
+derive_weight_analytic [closedRow0Weight86]
+#print axioms closedRow0Weight86_analytic
+derive_weight_analytic [closedRow0Weight87]
+#print axioms closedRow0Weight87_analytic
+derive_weight_analytic [closedRow0Weight88]
+#print axioms closedRow0Weight88_analytic
+derive_weight_analytic [closedRow0Weight89]
+#print axioms closedRow0Weight89_analytic
+derive_weight_analytic [closedRow0Weight90]
+#print axioms closedRow0Weight90_analytic
+derive_weight_analytic [closedRow0Weight91]
+#print axioms closedRow0Weight91_analytic
+derive_weight_analytic [closedRow0Weight92]
+#print axioms closedRow0Weight92_analytic
+derive_weight_analytic [closedRow0Weight93]
+#print axioms closedRow0Weight93_analytic
+derive_weight_analytic [closedRow13Weight0]
+#print axioms closedRow13Weight0_analytic
+derive_weight_analytic [closedRow13Weight1]
+#print axioms closedRow13Weight1_analytic
+derive_weight_analytic [closedRow13Weight2]
+#print axioms closedRow13Weight2_analytic
+derive_weight_analytic [closedRow13Weight3]
+#print axioms closedRow13Weight3_analytic
+derive_weight_analytic [closedRow13Weight4]
+#print axioms closedRow13Weight4_analytic
+derive_weight_analytic [closedRow13Weight5]
+#print axioms closedRow13Weight5_analytic
+derive_weight_analytic [closedRow13Weight6]
+#print axioms closedRow13Weight6_analytic
+derive_weight_analytic [closedRow13Weight7]
+#print axioms closedRow13Weight7_analytic
+derive_weight_analytic [closedRow13Weight8]
+#print axioms closedRow13Weight8_analytic
+derive_weight_analytic [closedRow13Weight9]
+#print axioms closedRow13Weight9_analytic
+derive_weight_analytic [closedRow13Weight10]
+#print axioms closedRow13Weight10_analytic
+derive_weight_analytic [closedRow13Weight11]
+#print axioms closedRow13Weight11_analytic
+derive_weight_analytic [closedRow13Weight12]
+#print axioms closedRow13Weight12_analytic
+derive_weight_analytic [closedRow13Weight13]
+#print axioms closedRow13Weight13_analytic
+derive_weight_analytic [closedRow13Weight14]
+#print axioms closedRow13Weight14_analytic
+derive_weight_analytic [closedRow13Weight15]
+#print axioms closedRow13Weight15_analytic
+derive_weight_analytic [closedRow13Weight16]
+#print axioms closedRow13Weight16_analytic
+derive_weight_analytic [closedRow13Weight17]
+#print axioms closedRow13Weight17_analytic
+derive_weight_analytic [closedRow13Weight18]
+#print axioms closedRow13Weight18_analytic
+derive_weight_analytic [closedRow13Weight19]
+#print axioms closedRow13Weight19_analytic
+derive_weight_analytic [closedRow13Weight20]
+#print axioms closedRow13Weight20_analytic
+derive_weight_analytic [closedRow13Weight21]
+#print axioms closedRow13Weight21_analytic
+derive_weight_analytic [closedRow13Weight22]
+#print axioms closedRow13Weight22_analytic
+derive_weight_analytic [closedRow13Weight23]
+#print axioms closedRow13Weight23_analytic
+derive_weight_analytic [closedRow13Weight24]
+#print axioms closedRow13Weight24_analytic
+derive_weight_analytic [closedRow13Weight25]
+#print axioms closedRow13Weight25_analytic
+derive_weight_analytic [closedRow13Weight26]
+#print axioms closedRow13Weight26_analytic
+derive_weight_analytic [closedRow13Weight27]
+#print axioms closedRow13Weight27_analytic
+derive_weight_analytic [closedRow13Weight28]
+#print axioms closedRow13Weight28_analytic
+derive_weight_analytic [closedRow13Weight29]
+#print axioms closedRow13Weight29_analytic
+derive_weight_analytic [closedRow13Weight30]
+#print axioms closedRow13Weight30_analytic
+derive_weight_analytic [closedRow13Weight31]
+#print axioms closedRow13Weight31_analytic
+derive_weight_analytic [closedRow13Weight32]
+#print axioms closedRow13Weight32_analytic
+derive_weight_analytic [closedRow13Weight33]
+#print axioms closedRow13Weight33_analytic
+derive_weight_analytic [closedRow13Weight34]
+#print axioms closedRow13Weight34_analytic
+derive_weight_analytic [closedRow13Weight35]
+#print axioms closedRow13Weight35_analytic
+derive_weight_analytic [closedRow13Weight36]
+#print axioms closedRow13Weight36_analytic
+derive_weight_analytic [closedRow13Weight37]
+#print axioms closedRow13Weight37_analytic
+derive_weight_analytic [closedRow13Weight38]
+#print axioms closedRow13Weight38_analytic
+derive_weight_analytic [closedRow13Weight39]
+#print axioms closedRow13Weight39_analytic
+derive_weight_analytic [closedRow13Weight40]
+#print axioms closedRow13Weight40_analytic
+derive_weight_analytic [closedRow13Weight41]
+#print axioms closedRow13Weight41_analytic
+derive_weight_analytic [closedRow13Weight42]
+#print axioms closedRow13Weight42_analytic
+derive_weight_analytic [closedRow13Weight43]
+#print axioms closedRow13Weight43_analytic
+derive_weight_analytic [closedRow13Weight44]
+#print axioms closedRow13Weight44_analytic
+derive_weight_analytic [closedRow13Weight45]
+#print axioms closedRow13Weight45_analytic
+derive_weight_analytic [closedRow13Weight46]
+#print axioms closedRow13Weight46_analytic
+derive_weight_analytic [closedRow13Weight47]
+#print axioms closedRow13Weight47_analytic
+derive_weight_analytic [closedRow13Weight48]
+#print axioms closedRow13Weight48_analytic
+derive_weight_analytic [closedRow13Weight49]
+#print axioms closedRow13Weight49_analytic
+derive_weight_analytic [closedRow13Weight50]
+#print axioms closedRow13Weight50_analytic
+derive_weight_analytic [closedRow13Weight51]
+#print axioms closedRow13Weight51_analytic
+derive_weight_analytic [closedRow13Weight52]
+#print axioms closedRow13Weight52_analytic
+derive_weight_analytic [closedRow13Weight53]
+#print axioms closedRow13Weight53_analytic
+derive_weight_analytic [closedRow13Weight54]
+#print axioms closedRow13Weight54_analytic
+derive_weight_analytic [closedRow13Weight55]
+#print axioms closedRow13Weight55_analytic
+derive_weight_analytic [closedRow13Weight56]
+#print axioms closedRow13Weight56_analytic
+derive_weight_analytic [closedRow13Weight57]
+#print axioms closedRow13Weight57_analytic
+derive_weight_analytic [closedRow13Weight58]
+#print axioms closedRow13Weight58_analytic
+derive_weight_analytic [closedRow13Weight59]
+#print axioms closedRow13Weight59_analytic
+derive_weight_analytic [closedRow13Weight60]
+#print axioms closedRow13Weight60_analytic
+derive_weight_analytic [closedRow13Weight61]
+#print axioms closedRow13Weight61_analytic
+derive_weight_analytic [closedRow13Weight62]
+#print axioms closedRow13Weight62_analytic
+derive_weight_analytic [closedRow13Weight63]
+#print axioms closedRow13Weight63_analytic
+derive_weight_analytic [closedRow13Weight64]
+#print axioms closedRow13Weight64_analytic
+derive_weight_analytic [closedRow13Weight65]
+#print axioms closedRow13Weight65_analytic
+derive_weight_analytic [closedRow13Weight66]
+#print axioms closedRow13Weight66_analytic
+derive_weight_analytic [closedRow13Weight67]
+#print axioms closedRow13Weight67_analytic
+derive_weight_analytic [closedRow13Weight68]
+#print axioms closedRow13Weight68_analytic
+derive_weight_analytic [closedRow13Weight69]
+#print axioms closedRow13Weight69_analytic
+derive_weight_analytic [closedRow13Weight70]
+#print axioms closedRow13Weight70_analytic
+derive_weight_analytic [closedRow13Weight71]
+#print axioms closedRow13Weight71_analytic
+derive_weight_analytic [closedRow13Weight72]
+#print axioms closedRow13Weight72_analytic
+derive_weight_analytic [closedRow13Weight73]
+#print axioms closedRow13Weight73_analytic
+derive_weight_analytic [closedRow13Weight74]
+#print axioms closedRow13Weight74_analytic
+derive_weight_analytic [closedRow13Weight75]
+#print axioms closedRow13Weight75_analytic
+derive_weight_analytic [closedRow13Weight76]
+#print axioms closedRow13Weight76_analytic
+derive_weight_analytic [closedRow13Weight77]
+#print axioms closedRow13Weight77_analytic
+derive_weight_analytic [closedRow13Weight78]
+#print axioms closedRow13Weight78_analytic
+derive_weight_analytic [closedRow13Weight79]
+#print axioms closedRow13Weight79_analytic
+derive_weight_analytic [closedRow13Weight80]
+#print axioms closedRow13Weight80_analytic
+derive_weight_analytic [closedRow13Weight81]
+#print axioms closedRow13Weight81_analytic
+derive_weight_analytic [closedRow13Weight82]
+#print axioms closedRow13Weight82_analytic
+derive_weight_analytic [closedRow13Weight83]
+#print axioms closedRow13Weight83_analytic
+derive_weight_analytic [closedRow13Weight84]
+#print axioms closedRow13Weight84_analytic
+derive_weight_analytic [closedRow14Weight0]
+#print axioms closedRow14Weight0_analytic
+derive_weight_analytic [closedRow14Weight1]
+#print axioms closedRow14Weight1_analytic
+derive_weight_analytic [closedRow14Weight2]
+#print axioms closedRow14Weight2_analytic
+derive_weight_analytic [closedRow14Weight3]
+#print axioms closedRow14Weight3_analytic
+derive_weight_analytic [closedRow14Weight4]
+#print axioms closedRow14Weight4_analytic
+derive_weight_analytic [closedRow14Weight5]
+#print axioms closedRow14Weight5_analytic
+derive_weight_analytic [closedRow14Weight6]
+#print axioms closedRow14Weight6_analytic
+derive_weight_analytic [closedRow14Weight7]
+#print axioms closedRow14Weight7_analytic
+derive_weight_analytic [closedRow14Weight8]
+#print axioms closedRow14Weight8_analytic
+derive_weight_analytic [closedRow14Weight9]
+#print axioms closedRow14Weight9_analytic
+derive_weight_analytic [closedRow14Weight10]
+#print axioms closedRow14Weight10_analytic
+derive_weight_analytic [closedRow14Weight11]
+#print axioms closedRow14Weight11_analytic
+derive_weight_analytic [closedRow14Weight12]
+#print axioms closedRow14Weight12_analytic
+derive_weight_analytic [closedRow14Weight13]
+#print axioms closedRow14Weight13_analytic
+derive_weight_analytic [closedRow14Weight14]
+#print axioms closedRow14Weight14_analytic
+derive_weight_analytic [closedRow14Weight15]
+#print axioms closedRow14Weight15_analytic
+derive_weight_analytic [closedRow14Weight16]
+#print axioms closedRow14Weight16_analytic
+derive_weight_analytic [closedRow14Weight17]
+#print axioms closedRow14Weight17_analytic
+derive_weight_analytic [closedRow14Weight18]
+#print axioms closedRow14Weight18_analytic
+derive_weight_analytic [closedRow14Weight19]
+#print axioms closedRow14Weight19_analytic
+derive_weight_analytic [closedRow14Weight20]
+#print axioms closedRow14Weight20_analytic
+derive_weight_analytic [closedRow14Weight21]
+#print axioms closedRow14Weight21_analytic
+derive_weight_analytic [closedRow14Weight22]
+#print axioms closedRow14Weight22_analytic
+derive_weight_analytic [closedRow14Weight23]
+#print axioms closedRow14Weight23_analytic
+derive_weight_analytic [closedRow14Weight24]
+#print axioms closedRow14Weight24_analytic
+derive_weight_analytic [closedRow14Weight25]
+#print axioms closedRow14Weight25_analytic
+derive_weight_analytic [closedRow14Weight26]
+#print axioms closedRow14Weight26_analytic
+derive_weight_analytic [closedRow14Weight27]
+#print axioms closedRow14Weight27_analytic
+derive_weight_analytic [closedRow14Weight28]
+#print axioms closedRow14Weight28_analytic
+derive_weight_analytic [closedRow14Weight29]
+#print axioms closedRow14Weight29_analytic
+derive_weight_analytic [closedRow14Weight30]
+#print axioms closedRow14Weight30_analytic
+derive_weight_analytic [closedRow14Weight31]
+#print axioms closedRow14Weight31_analytic
+derive_weight_analytic [closedRow14Weight32]
+#print axioms closedRow14Weight32_analytic
+derive_weight_analytic [closedRow14Weight33]
+#print axioms closedRow14Weight33_analytic
+derive_weight_analytic [closedRow14Weight34]
+#print axioms closedRow14Weight34_analytic
+derive_weight_analytic [closedRow14Weight35]
+#print axioms closedRow14Weight35_analytic
+derive_weight_analytic [closedRow14Weight36]
+#print axioms closedRow14Weight36_analytic
+derive_weight_analytic [closedRow14Weight37]
+#print axioms closedRow14Weight37_analytic
+derive_weight_analytic [closedRow14Weight38]
+#print axioms closedRow14Weight38_analytic
+derive_weight_analytic [closedRow14Weight39]
+#print axioms closedRow14Weight39_analytic
+derive_weight_analytic [closedRow14Weight40]
+#print axioms closedRow14Weight40_analytic
+derive_weight_analytic [closedRow14Weight41]
+#print axioms closedRow14Weight41_analytic
+derive_weight_analytic [closedRow14Weight42]
+#print axioms closedRow14Weight42_analytic
+derive_weight_analytic [closedRow14Weight43]
+#print axioms closedRow14Weight43_analytic
+derive_weight_analytic [closedRow14Weight44]
+#print axioms closedRow14Weight44_analytic
+derive_weight_analytic [closedRow14Weight45]
+#print axioms closedRow14Weight45_analytic
+derive_weight_analytic [closedRow14Weight46]
+#print axioms closedRow14Weight46_analytic
+derive_weight_analytic [closedRow14Weight47]
+#print axioms closedRow14Weight47_analytic
+derive_weight_analytic [closedRow14Weight48]
+#print axioms closedRow14Weight48_analytic
+derive_weight_analytic [closedRow14Weight49]
+#print axioms closedRow14Weight49_analytic
+derive_weight_analytic [closedRow14Weight50]
+#print axioms closedRow14Weight50_analytic
+derive_weight_analytic [closedRow14Weight51]
+#print axioms closedRow14Weight51_analytic
+derive_weight_analytic [closedRow14Weight52]
+#print axioms closedRow14Weight52_analytic
+derive_weight_analytic [closedRow14Weight53]
+#print axioms closedRow14Weight53_analytic
+derive_weight_analytic [closedRow14Weight54]
+#print axioms closedRow14Weight54_analytic
+derive_weight_analytic [closedRow14Weight55]
+#print axioms closedRow14Weight55_analytic
+derive_weight_analytic [closedRow14Weight56]
+#print axioms closedRow14Weight56_analytic
+derive_weight_analytic [closedRow14Weight57]
+#print axioms closedRow14Weight57_analytic
+derive_weight_analytic [closedRow14Weight58]
+#print axioms closedRow14Weight58_analytic
+derive_weight_analytic [closedRow14Weight59]
+#print axioms closedRow14Weight59_analytic
+derive_weight_analytic [closedRow14Weight60]
+#print axioms closedRow14Weight60_analytic
+derive_weight_analytic [closedRow14Weight61]
+#print axioms closedRow14Weight61_analytic
+derive_weight_analytic [closedRow14Weight62]
+#print axioms closedRow14Weight62_analytic
+derive_weight_analytic [closedRow14Weight63]
+#print axioms closedRow14Weight63_analytic
+derive_weight_analytic [closedRow14Weight64]
+#print axioms closedRow14Weight64_analytic
+derive_weight_analytic [closedRow14Weight65]
+#print axioms closedRow14Weight65_analytic
+derive_weight_analytic [closedRow14Weight66]
+#print axioms closedRow14Weight66_analytic
+derive_weight_analytic [closedRow14Weight67]
+#print axioms closedRow14Weight67_analytic
+derive_weight_analytic [closedRow14Weight68]
+#print axioms closedRow14Weight68_analytic
+derive_weight_analytic [closedRow14Weight69]
+#print axioms closedRow14Weight69_analytic
+derive_weight_analytic [closedRow14Weight70]
+#print axioms closedRow14Weight70_analytic
+derive_weight_analytic [closedRow14Weight71]
+#print axioms closedRow14Weight71_analytic
+derive_weight_analytic [closedRow14Weight72]
+#print axioms closedRow14Weight72_analytic
+derive_weight_analytic [closedRow14Weight73]
+#print axioms closedRow14Weight73_analytic
+derive_weight_analytic [closedRow14Weight74]
+#print axioms closedRow14Weight74_analytic
+derive_weight_analytic [closedRow14Weight75]
+#print axioms closedRow14Weight75_analytic
+derive_weight_analytic [closedRow14Weight76]
+#print axioms closedRow14Weight76_analytic
+derive_weight_analytic [closedRow14Weight77]
+#print axioms closedRow14Weight77_analytic
+derive_weight_analytic [closedRow14Weight78]
+#print axioms closedRow14Weight78_analytic
+derive_weight_analytic [closedRow14Weight79]
+#print axioms closedRow14Weight79_analytic
+derive_weight_analytic [closedRow14Weight80]
+#print axioms closedRow14Weight80_analytic
+derive_weight_analytic [closedRow14Weight81]
+#print axioms closedRow14Weight81_analytic
+derive_weight_analytic [closedRow14Weight82]
+#print axioms closedRow14Weight82_analytic
+derive_weight_analytic [closedRow14Weight83]
+#print axioms closedRow14Weight83_analytic
+derive_weight_analytic [closedRow14Weight84]
+#print axioms closedRow14Weight84_analytic
+derive_weight_analytic [closedRow163Weight0]
+#print axioms closedRow163Weight0_analytic
+derive_weight_analytic [closedRow163Weight1]
+#print axioms closedRow163Weight1_analytic
+derive_weight_analytic [closedRow163Weight2]
+#print axioms closedRow163Weight2_analytic
+derive_weight_analytic [closedRow163Weight3]
+#print axioms closedRow163Weight3_analytic
+derive_weight_analytic [closedRow163Weight4]
+#print axioms closedRow163Weight4_analytic
+derive_weight_analytic [closedRow163Weight5]
+#print axioms closedRow163Weight5_analytic
+derive_weight_analytic [closedRow163Weight6]
+#print axioms closedRow163Weight6_analytic
+derive_weight_analytic [closedRow163Weight7]
+#print axioms closedRow163Weight7_analytic
+derive_weight_analytic [closedRow163Weight8]
+#print axioms closedRow163Weight8_analytic
+derive_weight_analytic [closedRow163Weight9]
+#print axioms closedRow163Weight9_analytic
+derive_weight_analytic [closedRow163Weight10]
+#print axioms closedRow163Weight10_analytic
+derive_weight_analytic [closedRow163Weight11]
+#print axioms closedRow163Weight11_analytic
+derive_weight_analytic [closedRow163Weight12]
+#print axioms closedRow163Weight12_analytic
+derive_weight_analytic [closedRow163Weight13]
+#print axioms closedRow163Weight13_analytic
+derive_weight_analytic [closedRow163Weight14]
+#print axioms closedRow163Weight14_analytic
+derive_weight_analytic [closedRow163Weight15]
+#print axioms closedRow163Weight15_analytic
+derive_weight_analytic [closedRow163Weight16]
+#print axioms closedRow163Weight16_analytic
+derive_weight_analytic [closedRow163Weight17]
+#print axioms closedRow163Weight17_analytic
+derive_weight_analytic [closedRow163Weight18]
+#print axioms closedRow163Weight18_analytic
+derive_weight_analytic [closedRow163Weight19]
+#print axioms closedRow163Weight19_analytic
+derive_weight_analytic [closedRow163Weight20]
+#print axioms closedRow163Weight20_analytic
+derive_weight_analytic [closedRow163Weight21]
+#print axioms closedRow163Weight21_analytic
+derive_weight_analytic [closedRow163Weight22]
+#print axioms closedRow163Weight22_analytic
+derive_weight_analytic [closedRow163Weight23]
+#print axioms closedRow163Weight23_analytic
+derive_weight_analytic [closedRow163Weight24]
+#print axioms closedRow163Weight24_analytic
+derive_weight_analytic [closedRow163Weight25]
+#print axioms closedRow163Weight25_analytic
+derive_weight_analytic [closedRow163Weight26]
+#print axioms closedRow163Weight26_analytic
+derive_weight_analytic [closedRow163Weight27]
+#print axioms closedRow163Weight27_analytic
+derive_weight_analytic [closedRow163Weight28]
+#print axioms closedRow163Weight28_analytic
+derive_weight_analytic [closedRow163Weight29]
+#print axioms closedRow163Weight29_analytic
+derive_weight_analytic [closedRow163Weight30]
+#print axioms closedRow163Weight30_analytic
+derive_weight_analytic [closedRow163Weight31]
+#print axioms closedRow163Weight31_analytic
+derive_weight_analytic [closedRow163Weight32]
+#print axioms closedRow163Weight32_analytic
+derive_weight_analytic [closedRow163Weight33]
+#print axioms closedRow163Weight33_analytic
+derive_weight_analytic [closedRow163Weight34]
+#print axioms closedRow163Weight34_analytic
+derive_weight_analytic [closedRow163Weight35]
+#print axioms closedRow163Weight35_analytic
+derive_weight_analytic [closedRow163Weight36]
+#print axioms closedRow163Weight36_analytic
+derive_weight_analytic [closedRow163Weight37]
+#print axioms closedRow163Weight37_analytic
+derive_weight_analytic [closedRow163Weight38]
+#print axioms closedRow163Weight38_analytic
+derive_weight_analytic [closedRow163Weight39]
+#print axioms closedRow163Weight39_analytic
+derive_weight_analytic [closedRow163Weight40]
+#print axioms closedRow163Weight40_analytic
+derive_weight_analytic [closedRow163Weight41]
+#print axioms closedRow163Weight41_analytic
+derive_weight_analytic [closedRow163Weight42]
+#print axioms closedRow163Weight42_analytic
+derive_weight_analytic [closedRow163Weight43]
+#print axioms closedRow163Weight43_analytic
+derive_weight_analytic [closedRow163Weight44]
+#print axioms closedRow163Weight44_analytic
+derive_weight_analytic [closedRow163Weight45]
+#print axioms closedRow163Weight45_analytic
+derive_weight_analytic [closedRow163Weight46]
+#print axioms closedRow163Weight46_analytic
+derive_weight_analytic [closedRow163Weight47]
+#print axioms closedRow163Weight47_analytic
+derive_weight_analytic [closedRow163Weight48]
+#print axioms closedRow163Weight48_analytic
+derive_weight_analytic [closedRow163Weight49]
+#print axioms closedRow163Weight49_analytic
+derive_weight_analytic [closedRow163Weight50]
+#print axioms closedRow163Weight50_analytic
+derive_weight_analytic [closedRow163Weight51]
+#print axioms closedRow163Weight51_analytic
+derive_weight_analytic [closedRow163Weight52]
+#print axioms closedRow163Weight52_analytic
+derive_weight_analytic [closedRow163Weight53]
+#print axioms closedRow163Weight53_analytic
+derive_weight_analytic [closedRow163Weight54]
+#print axioms closedRow163Weight54_analytic
+derive_weight_analytic [closedRow163Weight55]
+#print axioms closedRow163Weight55_analytic
+derive_weight_analytic [closedRow163Weight56]
+#print axioms closedRow163Weight56_analytic
+derive_weight_analytic [closedRow163Weight57]
+#print axioms closedRow163Weight57_analytic
+derive_weight_analytic [closedRow163Weight58]
+#print axioms closedRow163Weight58_analytic
+derive_weight_analytic [closedRow163Weight59]
+#print axioms closedRow163Weight59_analytic
+derive_weight_analytic [closedRow163Weight60]
+#print axioms closedRow163Weight60_analytic
+derive_weight_analytic [closedRow163Weight61]
+#print axioms closedRow163Weight61_analytic
+derive_weight_analytic [closedRow163Weight62]
+#print axioms closedRow163Weight62_analytic
+derive_weight_analytic [closedRow163Weight63]
+#print axioms closedRow163Weight63_analytic
+derive_weight_analytic [closedRow163Weight64]
+#print axioms closedRow163Weight64_analytic
+derive_weight_analytic [closedRow163Weight65]
+#print axioms closedRow163Weight65_analytic
+derive_weight_analytic [closedRow163Weight66]
+#print axioms closedRow163Weight66_analytic
+derive_weight_analytic [closedRow163Weight67]
+#print axioms closedRow163Weight67_analytic
+derive_weight_analytic [closedRow163Weight68]
+#print axioms closedRow163Weight68_analytic
+derive_weight_analytic [closedRow163Weight69]
+#print axioms closedRow163Weight69_analytic
+derive_weight_analytic [closedRow163Weight70]
+#print axioms closedRow163Weight70_analytic
+derive_weight_analytic [closedRow163Weight71]
+#print axioms closedRow163Weight71_analytic
+derive_weight_analytic [closedRow163Weight72]
+#print axioms closedRow163Weight72_analytic
+derive_weight_analytic [closedRow163Weight73]
+#print axioms closedRow163Weight73_analytic
+derive_weight_analytic [closedRow163Weight74]
+#print axioms closedRow163Weight74_analytic
+derive_weight_analytic [closedRow163Weight75]
+#print axioms closedRow163Weight75_analytic
+derive_weight_analytic [closedRow163Weight76]
+#print axioms closedRow163Weight76_analytic
+derive_weight_analytic [closedRow163Weight77]
+#print axioms closedRow163Weight77_analytic
+derive_weight_analytic [closedRow163Weight78]
+#print axioms closedRow163Weight78_analytic
+derive_weight_analytic [closedRow163Weight79]
+#print axioms closedRow163Weight79_analytic
+derive_weight_analytic [closedRow163Weight80]
+#print axioms closedRow163Weight80_analytic
+derive_weight_analytic [closedRow163Weight81]
+#print axioms closedRow163Weight81_analytic
+derive_weight_analytic [closedRow163Weight82]
+#print axioms closedRow163Weight82_analytic
+derive_weight_analytic [closedRow163Weight83]
+#print axioms closedRow163Weight83_analytic
+derive_weight_analytic [closedRow163Weight84]
+#print axioms closedRow163Weight84_analytic
+derive_weight_analytic [closedRow163Weight85]
+#print axioms closedRow163Weight85_analytic
+derive_weight_analytic [closedRow163Weight86]
+#print axioms closedRow163Weight86_analytic
+derive_weight_analytic [closedRow163Weight87]
+#print axioms closedRow163Weight87_analytic
+derive_weight_analytic [closedRow163Weight88]
+#print axioms closedRow163Weight88_analytic
+derive_weight_analytic [closedRow163Weight89]
+#print axioms closedRow163Weight89_analytic
+derive_weight_analytic [closedRow163Weight90]
+#print axioms closedRow163Weight90_analytic
+derive_weight_analytic [closedRow163Weight91]
+#print axioms closedRow163Weight91_analytic
+derive_weight_analytic [closedRow163Weight92]
+#print axioms closedRow163Weight92_analytic
+derive_weight_analytic [closedRow163Weight93]
+#print axioms closedRow163Weight93_analytic
+derive_weight_analytic [closedRow164Weight0]
+#print axioms closedRow164Weight0_analytic
+derive_weight_analytic [closedRow164Weight1]
+#print axioms closedRow164Weight1_analytic
+derive_weight_analytic [closedRow164Weight2]
+#print axioms closedRow164Weight2_analytic
+derive_weight_analytic [closedRow164Weight3]
+#print axioms closedRow164Weight3_analytic
+derive_weight_analytic [closedRow164Weight4]
+#print axioms closedRow164Weight4_analytic
+derive_weight_analytic [closedRow164Weight5]
+#print axioms closedRow164Weight5_analytic
+derive_weight_analytic [closedRow164Weight6]
+#print axioms closedRow164Weight6_analytic
+derive_weight_analytic [closedRow164Weight7]
+#print axioms closedRow164Weight7_analytic
+derive_weight_analytic [closedRow164Weight8]
+#print axioms closedRow164Weight8_analytic
+derive_weight_analytic [closedRow164Weight9]
+#print axioms closedRow164Weight9_analytic
+derive_weight_analytic [closedRow164Weight10]
+#print axioms closedRow164Weight10_analytic
+derive_weight_analytic [closedRow164Weight11]
+#print axioms closedRow164Weight11_analytic
+derive_weight_analytic [closedRow164Weight12]
+#print axioms closedRow164Weight12_analytic
+derive_weight_analytic [closedRow164Weight13]
+#print axioms closedRow164Weight13_analytic
+derive_weight_analytic [closedRow164Weight14]
+#print axioms closedRow164Weight14_analytic
+derive_weight_analytic [closedRow164Weight15]
+#print axioms closedRow164Weight15_analytic
+derive_weight_analytic [closedRow164Weight16]
+#print axioms closedRow164Weight16_analytic
+derive_weight_analytic [closedRow164Weight17]
+#print axioms closedRow164Weight17_analytic
+derive_weight_analytic [closedRow164Weight18]
+#print axioms closedRow164Weight18_analytic
+derive_weight_analytic [closedRow164Weight19]
+#print axioms closedRow164Weight19_analytic
+derive_weight_analytic [closedRow164Weight20]
+#print axioms closedRow164Weight20_analytic
+derive_weight_analytic [closedRow164Weight21]
+#print axioms closedRow164Weight21_analytic
+derive_weight_analytic [closedRow164Weight22]
+#print axioms closedRow164Weight22_analytic
+derive_weight_analytic [closedRow164Weight23]
+#print axioms closedRow164Weight23_analytic
+derive_weight_analytic [closedRow164Weight24]
+#print axioms closedRow164Weight24_analytic
+derive_weight_analytic [closedRow164Weight25]
+#print axioms closedRow164Weight25_analytic
+derive_weight_analytic [closedRow164Weight26]
+#print axioms closedRow164Weight26_analytic
+derive_weight_analytic [closedRow164Weight27]
+#print axioms closedRow164Weight27_analytic
+derive_weight_analytic [closedRow164Weight28]
+#print axioms closedRow164Weight28_analytic
+derive_weight_analytic [closedRow164Weight29]
+#print axioms closedRow164Weight29_analytic
+derive_weight_analytic [closedRow164Weight30]
+#print axioms closedRow164Weight30_analytic
+derive_weight_analytic [closedRow164Weight31]
+#print axioms closedRow164Weight31_analytic
+derive_weight_analytic [closedRow164Weight32]
+#print axioms closedRow164Weight32_analytic
+derive_weight_analytic [closedRow164Weight33]
+#print axioms closedRow164Weight33_analytic
+derive_weight_analytic [closedRow164Weight34]
+#print axioms closedRow164Weight34_analytic
+derive_weight_analytic [closedRow164Weight35]
+#print axioms closedRow164Weight35_analytic
+derive_weight_analytic [closedRow164Weight36]
+#print axioms closedRow164Weight36_analytic
+derive_weight_analytic [closedRow164Weight37]
+#print axioms closedRow164Weight37_analytic
+derive_weight_analytic [closedRow164Weight38]
+#print axioms closedRow164Weight38_analytic
+derive_weight_analytic [closedRow164Weight39]
+#print axioms closedRow164Weight39_analytic
+derive_weight_analytic [closedRow164Weight40]
+#print axioms closedRow164Weight40_analytic
+derive_weight_analytic [closedRow164Weight41]
+#print axioms closedRow164Weight41_analytic
+derive_weight_analytic [closedRow164Weight42]
+#print axioms closedRow164Weight42_analytic
+derive_weight_analytic [closedRow164Weight43]
+#print axioms closedRow164Weight43_analytic
+derive_weight_analytic [closedRow164Weight44]
+#print axioms closedRow164Weight44_analytic
+derive_weight_analytic [closedRow164Weight45]
+#print axioms closedRow164Weight45_analytic
+derive_weight_analytic [closedRow164Weight46]
+#print axioms closedRow164Weight46_analytic
+derive_weight_analytic [closedRow164Weight47]
+#print axioms closedRow164Weight47_analytic
+derive_weight_analytic [closedRow164Weight48]
+#print axioms closedRow164Weight48_analytic
+derive_weight_analytic [closedRow164Weight49]
+#print axioms closedRow164Weight49_analytic
+derive_weight_analytic [closedRow164Weight50]
+#print axioms closedRow164Weight50_analytic
+derive_weight_analytic [closedRow164Weight51]
+#print axioms closedRow164Weight51_analytic
+derive_weight_analytic [closedRow164Weight52]
+#print axioms closedRow164Weight52_analytic
+derive_weight_analytic [closedRow164Weight53]
+#print axioms closedRow164Weight53_analytic
+derive_weight_analytic [closedRow164Weight54]
+#print axioms closedRow164Weight54_analytic
+derive_weight_analytic [closedRow164Weight55]
+#print axioms closedRow164Weight55_analytic
+derive_weight_analytic [closedRow164Weight56]
+#print axioms closedRow164Weight56_analytic
+derive_weight_analytic [closedRow164Weight57]
+#print axioms closedRow164Weight57_analytic
+derive_weight_analytic [closedRow164Weight58]
+#print axioms closedRow164Weight58_analytic
+derive_weight_analytic [closedRow164Weight59]
+#print axioms closedRow164Weight59_analytic
+derive_weight_analytic [closedRow164Weight60]
+#print axioms closedRow164Weight60_analytic
+derive_weight_analytic [closedRow164Weight61]
+#print axioms closedRow164Weight61_analytic
+derive_weight_analytic [closedRow164Weight62]
+#print axioms closedRow164Weight62_analytic
+derive_weight_analytic [closedRow164Weight63]
+#print axioms closedRow164Weight63_analytic
+derive_weight_analytic [closedRow164Weight64]
+#print axioms closedRow164Weight64_analytic
+derive_weight_analytic [closedRow164Weight65]
+#print axioms closedRow164Weight65_analytic
+derive_weight_analytic [closedRow164Weight66]
+#print axioms closedRow164Weight66_analytic
+derive_weight_analytic [closedRow164Weight67]
+#print axioms closedRow164Weight67_analytic
+derive_weight_analytic [closedRow164Weight68]
+#print axioms closedRow164Weight68_analytic
+derive_weight_analytic [closedRow164Weight69]
+#print axioms closedRow164Weight69_analytic
+derive_weight_analytic [closedRow164Weight70]
+#print axioms closedRow164Weight70_analytic
+derive_weight_analytic [closedRow164Weight71]
+#print axioms closedRow164Weight71_analytic
+derive_weight_analytic [closedRow164Weight72]
+#print axioms closedRow164Weight72_analytic
+derive_weight_analytic [closedRow164Weight73]
+#print axioms closedRow164Weight73_analytic
+derive_weight_analytic [closedRow164Weight74]
+#print axioms closedRow164Weight74_analytic
+derive_weight_analytic [closedRow164Weight75]
+#print axioms closedRow164Weight75_analytic
+derive_weight_analytic [closedRow164Weight76]
+#print axioms closedRow164Weight76_analytic
+derive_weight_analytic [closedRow164Weight77]
+#print axioms closedRow164Weight77_analytic
+derive_weight_analytic [closedRow164Weight78]
+#print axioms closedRow164Weight78_analytic
+derive_weight_analytic [closedRow164Weight79]
+#print axioms closedRow164Weight79_analytic
+derive_weight_analytic [closedRow164Weight80]
+#print axioms closedRow164Weight80_analytic
+derive_weight_analytic [closedRow164Weight81]
+#print axioms closedRow164Weight81_analytic
+derive_weight_analytic [closedRow164Weight82]
+#print axioms closedRow164Weight82_analytic
+derive_weight_analytic [closedRow164Weight83]
+#print axioms closedRow164Weight83_analytic
+derive_weight_analytic [closedRow164Weight84]
+#print axioms closedRow164Weight84_analytic
+derive_weight_analytic [closedRow164Weight85]
+#print axioms closedRow164Weight85_analytic
+derive_weight_analytic [closedRow16Weight0]
+#print axioms closedRow16Weight0_analytic
+derive_weight_analytic [closedRow16Weight1]
+#print axioms closedRow16Weight1_analytic
+derive_weight_analytic [closedRow16Weight2]
+#print axioms closedRow16Weight2_analytic
+derive_weight_analytic [closedRow16Weight3]
+#print axioms closedRow16Weight3_analytic
+derive_weight_analytic [closedRow16Weight4]
+#print axioms closedRow16Weight4_analytic
+derive_weight_analytic [closedRow16Weight5]
+#print axioms closedRow16Weight5_analytic
+derive_weight_analytic [closedRow16Weight6]
+#print axioms closedRow16Weight6_analytic
+derive_weight_analytic [closedRow16Weight7]
+#print axioms closedRow16Weight7_analytic
+derive_weight_analytic [closedRow16Weight8]
+#print axioms closedRow16Weight8_analytic
+derive_weight_analytic [closedRow16Weight9]
+#print axioms closedRow16Weight9_analytic
+derive_weight_analytic [closedRow16Weight10]
+#print axioms closedRow16Weight10_analytic
+derive_weight_analytic [closedRow16Weight11]
+#print axioms closedRow16Weight11_analytic
+derive_weight_analytic [closedRow16Weight12]
+#print axioms closedRow16Weight12_analytic
+derive_weight_analytic [closedRow16Weight13]
+#print axioms closedRow16Weight13_analytic
+derive_weight_analytic [closedRow16Weight14]
+#print axioms closedRow16Weight14_analytic
+derive_weight_analytic [closedRow16Weight15]
+#print axioms closedRow16Weight15_analytic
+derive_weight_analytic [closedRow16Weight16]
+#print axioms closedRow16Weight16_analytic
+derive_weight_analytic [closedRow16Weight17]
+#print axioms closedRow16Weight17_analytic
+derive_weight_analytic [closedRow16Weight18]
+#print axioms closedRow16Weight18_analytic
+derive_weight_analytic [closedRow16Weight19]
+#print axioms closedRow16Weight19_analytic
+derive_weight_analytic [closedRow16Weight20]
+#print axioms closedRow16Weight20_analytic
+derive_weight_analytic [closedRow16Weight21]
+#print axioms closedRow16Weight21_analytic
+derive_weight_analytic [closedRow16Weight22]
+#print axioms closedRow16Weight22_analytic
+derive_weight_analytic [closedRow16Weight23]
+#print axioms closedRow16Weight23_analytic
+derive_weight_analytic [closedRow16Weight24]
+#print axioms closedRow16Weight24_analytic
+derive_weight_analytic [closedRow16Weight25]
+#print axioms closedRow16Weight25_analytic
+derive_weight_analytic [closedRow16Weight26]
+#print axioms closedRow16Weight26_analytic
+derive_weight_analytic [closedRow16Weight27]
+#print axioms closedRow16Weight27_analytic
+derive_weight_analytic [closedRow16Weight28]
+#print axioms closedRow16Weight28_analytic
+derive_weight_analytic [closedRow16Weight29]
+#print axioms closedRow16Weight29_analytic
+derive_weight_analytic [closedRow16Weight30]
+#print axioms closedRow16Weight30_analytic
+derive_weight_analytic [closedRow16Weight31]
+#print axioms closedRow16Weight31_analytic
+derive_weight_analytic [closedRow16Weight32]
+#print axioms closedRow16Weight32_analytic
+derive_weight_analytic [closedRow16Weight33]
+#print axioms closedRow16Weight33_analytic
+derive_weight_analytic [closedRow16Weight34]
+#print axioms closedRow16Weight34_analytic
+derive_weight_analytic [closedRow16Weight35]
+#print axioms closedRow16Weight35_analytic
+derive_weight_analytic [closedRow16Weight36]
+#print axioms closedRow16Weight36_analytic
+derive_weight_analytic [closedRow16Weight37]
+#print axioms closedRow16Weight37_analytic
+derive_weight_analytic [closedRow16Weight38]
+#print axioms closedRow16Weight38_analytic
+derive_weight_analytic [closedRow16Weight39]
+#print axioms closedRow16Weight39_analytic
+derive_weight_analytic [closedRow16Weight40]
+#print axioms closedRow16Weight40_analytic
+derive_weight_analytic [closedRow16Weight41]
+#print axioms closedRow16Weight41_analytic
+derive_weight_analytic [closedRow16Weight42]
+#print axioms closedRow16Weight42_analytic
+derive_weight_analytic [closedRow16Weight43]
+#print axioms closedRow16Weight43_analytic
+derive_weight_analytic [closedRow16Weight44]
+#print axioms closedRow16Weight44_analytic
+derive_weight_analytic [closedRow16Weight45]
+#print axioms closedRow16Weight45_analytic
+derive_weight_analytic [closedRow16Weight46]
+#print axioms closedRow16Weight46_analytic
+derive_weight_analytic [closedRow16Weight47]
+#print axioms closedRow16Weight47_analytic
+derive_weight_analytic [closedRow16Weight48]
+#print axioms closedRow16Weight48_analytic
+derive_weight_analytic [closedRow16Weight49]
+#print axioms closedRow16Weight49_analytic
+derive_weight_analytic [closedRow16Weight50]
+#print axioms closedRow16Weight50_analytic
+derive_weight_analytic [closedRow16Weight51]
+#print axioms closedRow16Weight51_analytic
+derive_weight_analytic [closedRow16Weight52]
+#print axioms closedRow16Weight52_analytic
+derive_weight_analytic [closedRow16Weight53]
+#print axioms closedRow16Weight53_analytic
+derive_weight_analytic [closedRow16Weight54]
+#print axioms closedRow16Weight54_analytic
+derive_weight_analytic [closedRow16Weight55]
+#print axioms closedRow16Weight55_analytic
+derive_weight_analytic [closedRow16Weight56]
+#print axioms closedRow16Weight56_analytic
+derive_weight_analytic [closedRow16Weight57]
+#print axioms closedRow16Weight57_analytic
+derive_weight_analytic [closedRow16Weight58]
+#print axioms closedRow16Weight58_analytic
+derive_weight_analytic [closedRow16Weight59]
+#print axioms closedRow16Weight59_analytic
+derive_weight_analytic [closedRow16Weight60]
+#print axioms closedRow16Weight60_analytic
+derive_weight_analytic [closedRow16Weight61]
+#print axioms closedRow16Weight61_analytic
+derive_weight_analytic [closedRow16Weight62]
+#print axioms closedRow16Weight62_analytic
+derive_weight_analytic [closedRow16Weight63]
+#print axioms closedRow16Weight63_analytic
+derive_weight_analytic [closedRow16Weight64]
+#print axioms closedRow16Weight64_analytic
+derive_weight_analytic [closedRow16Weight65]
+#print axioms closedRow16Weight65_analytic
+derive_weight_analytic [closedRow16Weight66]
+#print axioms closedRow16Weight66_analytic
+derive_weight_analytic [closedRow16Weight67]
+#print axioms closedRow16Weight67_analytic
+derive_weight_analytic [closedRow16Weight68]
+#print axioms closedRow16Weight68_analytic
+derive_weight_analytic [closedRow16Weight69]
+#print axioms closedRow16Weight69_analytic
+derive_weight_analytic [closedRow16Weight70]
+#print axioms closedRow16Weight70_analytic
+derive_weight_analytic [closedRow16Weight71]
+#print axioms closedRow16Weight71_analytic
+derive_weight_analytic [closedRow16Weight72]
+#print axioms closedRow16Weight72_analytic
+derive_weight_analytic [closedRow16Weight73]
+#print axioms closedRow16Weight73_analytic
+derive_weight_analytic [closedRow16Weight74]
+#print axioms closedRow16Weight74_analytic
+derive_weight_analytic [closedRow16Weight75]
+#print axioms closedRow16Weight75_analytic
+derive_weight_analytic [closedRow16Weight76]
+#print axioms closedRow16Weight76_analytic
+derive_weight_analytic [closedRow16Weight77]
+#print axioms closedRow16Weight77_analytic
+derive_weight_analytic [closedRow16Weight78]
+#print axioms closedRow16Weight78_analytic
+derive_weight_analytic [closedRow16Weight79]
+#print axioms closedRow16Weight79_analytic
+derive_weight_analytic [closedRow16Weight80]
+#print axioms closedRow16Weight80_analytic
+derive_weight_analytic [closedRow16Weight81]
+#print axioms closedRow16Weight81_analytic
+derive_weight_analytic [closedRow16Weight82]
+#print axioms closedRow16Weight82_analytic
+derive_weight_analytic [closedRow16Weight83]
+#print axioms closedRow16Weight83_analytic
+derive_weight_analytic [closedRow16Weight84]
+#print axioms closedRow16Weight84_analytic
+derive_weight_analytic [closedRow16Weight85]
+#print axioms closedRow16Weight85_analytic
+derive_weight_analytic [closedRow16Weight86]
+#print axioms closedRow16Weight86_analytic
+derive_weight_analytic [closedRow16Weight87]
+#print axioms closedRow16Weight87_analytic
+derive_weight_analytic [closedRow16Weight88]
+#print axioms closedRow16Weight88_analytic
+derive_weight_analytic [closedRow16Weight89]
+#print axioms closedRow16Weight89_analytic
+derive_weight_analytic [closedRow16Weight90]
+#print axioms closedRow16Weight90_analytic
+derive_weight_analytic [closedRow16Weight91]
+#print axioms closedRow16Weight91_analytic
+derive_weight_analytic [closedRow16Weight92]
+#print axioms closedRow16Weight92_analytic
+derive_weight_analytic [closedRow19Weight0]
+#print axioms closedRow19Weight0_analytic
+derive_weight_analytic [closedRow19Weight1]
+#print axioms closedRow19Weight1_analytic
+derive_weight_analytic [closedRow19Weight2]
+#print axioms closedRow19Weight2_analytic
+derive_weight_analytic [closedRow19Weight3]
+#print axioms closedRow19Weight3_analytic
+derive_weight_analytic [closedRow19Weight4]
+#print axioms closedRow19Weight4_analytic
+derive_weight_analytic [closedRow19Weight5]
+#print axioms closedRow19Weight5_analytic
+derive_weight_analytic [closedRow19Weight6]
+#print axioms closedRow19Weight6_analytic
+derive_weight_analytic [closedRow19Weight7]
+#print axioms closedRow19Weight7_analytic
+derive_weight_analytic [closedRow19Weight8]
+#print axioms closedRow19Weight8_analytic
+derive_weight_analytic [closedRow19Weight9]
+#print axioms closedRow19Weight9_analytic
+derive_weight_analytic [closedRow19Weight10]
+#print axioms closedRow19Weight10_analytic
+derive_weight_analytic [closedRow19Weight11]
+#print axioms closedRow19Weight11_analytic
+derive_weight_analytic [closedRow19Weight12]
+#print axioms closedRow19Weight12_analytic
+derive_weight_analytic [closedRow19Weight13]
+#print axioms closedRow19Weight13_analytic
+derive_weight_analytic [closedRow19Weight14]
+#print axioms closedRow19Weight14_analytic
+derive_weight_analytic [closedRow19Weight15]
+#print axioms closedRow19Weight15_analytic
+derive_weight_analytic [closedRow19Weight16]
+#print axioms closedRow19Weight16_analytic
+derive_weight_analytic [closedRow19Weight17]
+#print axioms closedRow19Weight17_analytic
+derive_weight_analytic [closedRow19Weight18]
+#print axioms closedRow19Weight18_analytic
+derive_weight_analytic [closedRow19Weight19]
+#print axioms closedRow19Weight19_analytic
+derive_weight_analytic [closedRow19Weight20]
+#print axioms closedRow19Weight20_analytic
+derive_weight_analytic [closedRow19Weight21]
+#print axioms closedRow19Weight21_analytic
+derive_weight_analytic [closedRow19Weight22]
+#print axioms closedRow19Weight22_analytic
+derive_weight_analytic [closedRow19Weight23]
+#print axioms closedRow19Weight23_analytic
+derive_weight_analytic [closedRow19Weight24]
+#print axioms closedRow19Weight24_analytic
+derive_weight_analytic [closedRow19Weight25]
+#print axioms closedRow19Weight25_analytic
+derive_weight_analytic [closedRow19Weight26]
+#print axioms closedRow19Weight26_analytic
+derive_weight_analytic [closedRow19Weight27]
+#print axioms closedRow19Weight27_analytic
+derive_weight_analytic [closedRow19Weight28]
+#print axioms closedRow19Weight28_analytic
+derive_weight_analytic [closedRow19Weight29]
+#print axioms closedRow19Weight29_analytic
+derive_weight_analytic [closedRow19Weight30]
+#print axioms closedRow19Weight30_analytic
+derive_weight_analytic [closedRow19Weight31]
+#print axioms closedRow19Weight31_analytic
+derive_weight_analytic [closedRow19Weight32]
+#print axioms closedRow19Weight32_analytic
+derive_weight_analytic [closedRow19Weight33]
+#print axioms closedRow19Weight33_analytic
+derive_weight_analytic [closedRow19Weight34]
+#print axioms closedRow19Weight34_analytic
+derive_weight_analytic [closedRow19Weight35]
+#print axioms closedRow19Weight35_analytic
+derive_weight_analytic [closedRow19Weight36]
+#print axioms closedRow19Weight36_analytic
+derive_weight_analytic [closedRow19Weight37]
+#print axioms closedRow19Weight37_analytic
+derive_weight_analytic [closedRow19Weight38]
+#print axioms closedRow19Weight38_analytic
+derive_weight_analytic [closedRow19Weight39]
+#print axioms closedRow19Weight39_analytic
+derive_weight_analytic [closedRow19Weight40]
+#print axioms closedRow19Weight40_analytic
+derive_weight_analytic [closedRow19Weight41]
+#print axioms closedRow19Weight41_analytic
+derive_weight_analytic [closedRow19Weight42]
+#print axioms closedRow19Weight42_analytic
+derive_weight_analytic [closedRow19Weight43]
+#print axioms closedRow19Weight43_analytic
+derive_weight_analytic [closedRow19Weight44]
+#print axioms closedRow19Weight44_analytic
+derive_weight_analytic [closedRow19Weight45]
+#print axioms closedRow19Weight45_analytic
+derive_weight_analytic [closedRow19Weight46]
+#print axioms closedRow19Weight46_analytic
+derive_weight_analytic [closedRow19Weight47]
+#print axioms closedRow19Weight47_analytic
+derive_weight_analytic [closedRow19Weight48]
+#print axioms closedRow19Weight48_analytic
+derive_weight_analytic [closedRow19Weight49]
+#print axioms closedRow19Weight49_analytic
+derive_weight_analytic [closedRow19Weight50]
+#print axioms closedRow19Weight50_analytic
+derive_weight_analytic [closedRow19Weight51]
+#print axioms closedRow19Weight51_analytic
+derive_weight_analytic [closedRow19Weight52]
+#print axioms closedRow19Weight52_analytic
+derive_weight_analytic [closedRow19Weight53]
+#print axioms closedRow19Weight53_analytic
+derive_weight_analytic [closedRow19Weight54]
+#print axioms closedRow19Weight54_analytic
+derive_weight_analytic [closedRow19Weight55]
+#print axioms closedRow19Weight55_analytic
+derive_weight_analytic [closedRow19Weight56]
+#print axioms closedRow19Weight56_analytic
+derive_weight_analytic [closedRow19Weight57]
+#print axioms closedRow19Weight57_analytic
+derive_weight_analytic [closedRow19Weight58]
+#print axioms closedRow19Weight58_analytic
+derive_weight_analytic [closedRow19Weight59]
+#print axioms closedRow19Weight59_analytic
+derive_weight_analytic [closedRow19Weight60]
+#print axioms closedRow19Weight60_analytic
+derive_weight_analytic [closedRow19Weight61]
+#print axioms closedRow19Weight61_analytic
+derive_weight_analytic [closedRow19Weight62]
+#print axioms closedRow19Weight62_analytic
+derive_weight_analytic [closedRow19Weight63]
+#print axioms closedRow19Weight63_analytic
+derive_weight_analytic [closedRow19Weight64]
+#print axioms closedRow19Weight64_analytic
+derive_weight_analytic [closedRow19Weight65]
+#print axioms closedRow19Weight65_analytic
+derive_weight_analytic [closedRow19Weight66]
+#print axioms closedRow19Weight66_analytic
+derive_weight_analytic [closedRow19Weight67]
+#print axioms closedRow19Weight67_analytic
+derive_weight_analytic [closedRow19Weight68]
+#print axioms closedRow19Weight68_analytic
+derive_weight_analytic [closedRow19Weight69]
+#print axioms closedRow19Weight69_analytic
+derive_weight_analytic [closedRow19Weight70]
+#print axioms closedRow19Weight70_analytic
+derive_weight_analytic [closedRow19Weight71]
+#print axioms closedRow19Weight71_analytic
+derive_weight_analytic [closedRow19Weight72]
+#print axioms closedRow19Weight72_analytic
+derive_weight_analytic [closedRow19Weight73]
+#print axioms closedRow19Weight73_analytic
+derive_weight_analytic [closedRow19Weight74]
+#print axioms closedRow19Weight74_analytic
+derive_weight_analytic [closedRow19Weight75]
+#print axioms closedRow19Weight75_analytic
+derive_weight_analytic [closedRow19Weight76]
+#print axioms closedRow19Weight76_analytic
+derive_weight_analytic [closedRow19Weight77]
+#print axioms closedRow19Weight77_analytic
+derive_weight_analytic [closedRow19Weight78]
+#print axioms closedRow19Weight78_analytic
+derive_weight_analytic [closedRow19Weight79]
+#print axioms closedRow19Weight79_analytic
+derive_weight_analytic [closedRow19Weight80]
+#print axioms closedRow19Weight80_analytic
+derive_weight_analytic [closedRow19Weight81]
+#print axioms closedRow19Weight81_analytic
+derive_weight_analytic [closedRow19Weight82]
+#print axioms closedRow19Weight82_analytic
+derive_weight_analytic [closedRow19Weight83]
+#print axioms closedRow19Weight83_analytic
+derive_weight_analytic [closedRow19Weight84]
+#print axioms closedRow19Weight84_analytic
+derive_weight_analytic [closedRow19Weight85]
+#print axioms closedRow19Weight85_analytic
+derive_weight_analytic [closedRow19Weight86]
+#print axioms closedRow19Weight86_analytic
+derive_weight_analytic [closedRow19Weight87]
+#print axioms closedRow19Weight87_analytic
+derive_weight_analytic [closedRow19Weight88]
+#print axioms closedRow19Weight88_analytic
+derive_weight_analytic [closedRow19Weight89]
+#print axioms closedRow19Weight89_analytic
+derive_weight_analytic [closedRow19Weight90]
+#print axioms closedRow19Weight90_analytic
+derive_weight_analytic [closedRow19Weight91]
+#print axioms closedRow19Weight91_analytic
+derive_weight_analytic [closedRow19Weight92]
+#print axioms closedRow19Weight92_analytic
+derive_weight_analytic [closedRow21Weight0]
+#print axioms closedRow21Weight0_analytic
+derive_weight_analytic [closedRow21Weight1]
+#print axioms closedRow21Weight1_analytic
+derive_weight_analytic [closedRow21Weight2]
+#print axioms closedRow21Weight2_analytic
+derive_weight_analytic [closedRow21Weight3]
+#print axioms closedRow21Weight3_analytic
+derive_weight_analytic [closedRow21Weight4]
+#print axioms closedRow21Weight4_analytic
+derive_weight_analytic [closedRow21Weight5]
+#print axioms closedRow21Weight5_analytic
+derive_weight_analytic [closedRow21Weight6]
+#print axioms closedRow21Weight6_analytic
+derive_weight_analytic [closedRow21Weight7]
+#print axioms closedRow21Weight7_analytic
+derive_weight_analytic [closedRow21Weight8]
+#print axioms closedRow21Weight8_analytic
+derive_weight_analytic [closedRow21Weight9]
+#print axioms closedRow21Weight9_analytic
+derive_weight_analytic [closedRow21Weight10]
+#print axioms closedRow21Weight10_analytic
+derive_weight_analytic [closedRow21Weight11]
+#print axioms closedRow21Weight11_analytic
+derive_weight_analytic [closedRow21Weight12]
+#print axioms closedRow21Weight12_analytic
+derive_weight_analytic [closedRow21Weight13]
+#print axioms closedRow21Weight13_analytic
+derive_weight_analytic [closedRow21Weight14]
+#print axioms closedRow21Weight14_analytic
+derive_weight_analytic [closedRow21Weight15]
+#print axioms closedRow21Weight15_analytic
+derive_weight_analytic [closedRow21Weight16]
+#print axioms closedRow21Weight16_analytic
+derive_weight_analytic [closedRow21Weight17]
+#print axioms closedRow21Weight17_analytic
+derive_weight_analytic [closedRow21Weight18]
+#print axioms closedRow21Weight18_analytic
+derive_weight_analytic [closedRow21Weight19]
+#print axioms closedRow21Weight19_analytic
+derive_weight_analytic [closedRow21Weight20]
+#print axioms closedRow21Weight20_analytic
+derive_weight_analytic [closedRow21Weight21]
+#print axioms closedRow21Weight21_analytic
+derive_weight_analytic [closedRow21Weight22]
+#print axioms closedRow21Weight22_analytic
+derive_weight_analytic [closedRow21Weight23]
+#print axioms closedRow21Weight23_analytic
+derive_weight_analytic [closedRow21Weight24]
+#print axioms closedRow21Weight24_analytic
+derive_weight_analytic [closedRow21Weight25]
+#print axioms closedRow21Weight25_analytic
+derive_weight_analytic [closedRow21Weight26]
+#print axioms closedRow21Weight26_analytic
+derive_weight_analytic [closedRow21Weight27]
+#print axioms closedRow21Weight27_analytic
+derive_weight_analytic [closedRow21Weight28]
+#print axioms closedRow21Weight28_analytic
+derive_weight_analytic [closedRow21Weight29]
+#print axioms closedRow21Weight29_analytic
+derive_weight_analytic [closedRow21Weight30]
+#print axioms closedRow21Weight30_analytic
+derive_weight_analytic [closedRow21Weight31]
+#print axioms closedRow21Weight31_analytic
+derive_weight_analytic [closedRow21Weight32]
+#print axioms closedRow21Weight32_analytic
+derive_weight_analytic [closedRow21Weight33]
+#print axioms closedRow21Weight33_analytic
+derive_weight_analytic [closedRow21Weight34]
+#print axioms closedRow21Weight34_analytic
+derive_weight_analytic [closedRow21Weight35]
+#print axioms closedRow21Weight35_analytic
+derive_weight_analytic [closedRow21Weight36]
+#print axioms closedRow21Weight36_analytic
+derive_weight_analytic [closedRow21Weight37]
+#print axioms closedRow21Weight37_analytic
+derive_weight_analytic [closedRow21Weight38]
+#print axioms closedRow21Weight38_analytic
+derive_weight_analytic [closedRow21Weight39]
+#print axioms closedRow21Weight39_analytic
+derive_weight_analytic [closedRow21Weight40]
+#print axioms closedRow21Weight40_analytic
+derive_weight_analytic [closedRow21Weight41]
+#print axioms closedRow21Weight41_analytic
+derive_weight_analytic [closedRow21Weight42]
+#print axioms closedRow21Weight42_analytic
+derive_weight_analytic [closedRow21Weight43]
+#print axioms closedRow21Weight43_analytic
+derive_weight_analytic [closedRow21Weight44]
+#print axioms closedRow21Weight44_analytic
+derive_weight_analytic [closedRow21Weight45]
+#print axioms closedRow21Weight45_analytic
+derive_weight_analytic [closedRow21Weight46]
+#print axioms closedRow21Weight46_analytic
+derive_weight_analytic [closedRow21Weight47]
+#print axioms closedRow21Weight47_analytic
+derive_weight_analytic [closedRow21Weight48]
+#print axioms closedRow21Weight48_analytic
+derive_weight_analytic [closedRow21Weight49]
+#print axioms closedRow21Weight49_analytic
+derive_weight_analytic [closedRow21Weight50]
+#print axioms closedRow21Weight50_analytic
+derive_weight_analytic [closedRow21Weight51]
+#print axioms closedRow21Weight51_analytic
+derive_weight_analytic [closedRow21Weight52]
+#print axioms closedRow21Weight52_analytic
+derive_weight_analytic [closedRow21Weight53]
+#print axioms closedRow21Weight53_analytic
+derive_weight_analytic [closedRow21Weight54]
+#print axioms closedRow21Weight54_analytic
+derive_weight_analytic [closedRow21Weight55]
+#print axioms closedRow21Weight55_analytic
+derive_weight_analytic [closedRow21Weight56]
+#print axioms closedRow21Weight56_analytic
+derive_weight_analytic [closedRow21Weight57]
+#print axioms closedRow21Weight57_analytic
+derive_weight_analytic [closedRow21Weight58]
+#print axioms closedRow21Weight58_analytic
+derive_weight_analytic [closedRow21Weight59]
+#print axioms closedRow21Weight59_analytic
+derive_weight_analytic [closedRow21Weight60]
+#print axioms closedRow21Weight60_analytic
+derive_weight_analytic [closedRow21Weight61]
+#print axioms closedRow21Weight61_analytic
+derive_weight_analytic [closedRow21Weight62]
+#print axioms closedRow21Weight62_analytic
+derive_weight_analytic [closedRow21Weight63]
+#print axioms closedRow21Weight63_analytic
+derive_weight_analytic [closedRow21Weight64]
+#print axioms closedRow21Weight64_analytic
+derive_weight_analytic [closedRow21Weight65]
+#print axioms closedRow21Weight65_analytic
+derive_weight_analytic [closedRow21Weight66]
+#print axioms closedRow21Weight66_analytic
+derive_weight_analytic [closedRow21Weight67]
+#print axioms closedRow21Weight67_analytic
+derive_weight_analytic [closedRow21Weight68]
+#print axioms closedRow21Weight68_analytic
+derive_weight_analytic [closedRow21Weight69]
+#print axioms closedRow21Weight69_analytic
+derive_weight_analytic [closedRow21Weight70]
+#print axioms closedRow21Weight70_analytic
+derive_weight_analytic [closedRow21Weight71]
+#print axioms closedRow21Weight71_analytic
+derive_weight_analytic [closedRow21Weight72]
+#print axioms closedRow21Weight72_analytic
+derive_weight_analytic [closedRow21Weight73]
+#print axioms closedRow21Weight73_analytic
+derive_weight_analytic [closedRow21Weight74]
+#print axioms closedRow21Weight74_analytic
+derive_weight_analytic [closedRow21Weight75]
+#print axioms closedRow21Weight75_analytic
+derive_weight_analytic [closedRow21Weight76]
+#print axioms closedRow21Weight76_analytic
+derive_weight_analytic [closedRow21Weight77]
+#print axioms closedRow21Weight77_analytic
+derive_weight_analytic [closedRow21Weight78]
+#print axioms closedRow21Weight78_analytic
+derive_weight_analytic [closedRow21Weight79]
+#print axioms closedRow21Weight79_analytic
+derive_weight_analytic [closedRow21Weight80]
+#print axioms closedRow21Weight80_analytic
+derive_weight_analytic [closedRow21Weight81]
+#print axioms closedRow21Weight81_analytic
+derive_weight_analytic [closedRow21Weight82]
+#print axioms closedRow21Weight82_analytic
+derive_weight_analytic [closedRow21Weight83]
+#print axioms closedRow21Weight83_analytic
+derive_weight_analytic [closedRow21Weight84]
+#print axioms closedRow21Weight84_analytic
+derive_weight_analytic [closedRow21Weight85]
+#print axioms closedRow21Weight85_analytic
+derive_weight_analytic [closedRow21Weight86]
+#print axioms closedRow21Weight86_analytic
+derive_weight_analytic [closedRow21Weight87]
+#print axioms closedRow21Weight87_analytic
+derive_weight_analytic [closedRow21Weight88]
+#print axioms closedRow21Weight88_analytic
+derive_weight_analytic [closedRow21Weight89]
+#print axioms closedRow21Weight89_analytic
+derive_weight_analytic [closedRow21Weight90]
+#print axioms closedRow21Weight90_analytic
+derive_weight_analytic [closedRow21Weight91]
+#print axioms closedRow21Weight91_analytic
+derive_weight_analytic [closedRow21Weight92]
+#print axioms closedRow21Weight92_analytic
+derive_weight_analytic [closedRow26Weight0]
+#print axioms closedRow26Weight0_analytic
+derive_weight_analytic [closedRow26Weight1]
+#print axioms closedRow26Weight1_analytic
+derive_weight_analytic [closedRow26Weight2]
+#print axioms closedRow26Weight2_analytic
+derive_weight_analytic [closedRow26Weight3]
+#print axioms closedRow26Weight3_analytic
+derive_weight_analytic [closedRow26Weight4]
+#print axioms closedRow26Weight4_analytic
+derive_weight_analytic [closedRow26Weight5]
+#print axioms closedRow26Weight5_analytic
+derive_weight_analytic [closedRow26Weight6]
+#print axioms closedRow26Weight6_analytic
+derive_weight_analytic [closedRow26Weight7]
+#print axioms closedRow26Weight7_analytic
+derive_weight_analytic [closedRow26Weight8]
+#print axioms closedRow26Weight8_analytic
+derive_weight_analytic [closedRow26Weight9]
+#print axioms closedRow26Weight9_analytic
+derive_weight_analytic [closedRow26Weight10]
+#print axioms closedRow26Weight10_analytic
+derive_weight_analytic [closedRow26Weight11]
+#print axioms closedRow26Weight11_analytic
+derive_weight_analytic [closedRow26Weight12]
+#print axioms closedRow26Weight12_analytic
+derive_weight_analytic [closedRow26Weight13]
+#print axioms closedRow26Weight13_analytic
+derive_weight_analytic [closedRow26Weight14]
+#print axioms closedRow26Weight14_analytic
+derive_weight_analytic [closedRow26Weight15]
+#print axioms closedRow26Weight15_analytic
+derive_weight_analytic [closedRow26Weight16]
+#print axioms closedRow26Weight16_analytic
+derive_weight_analytic [closedRow26Weight17]
+#print axioms closedRow26Weight17_analytic
+derive_weight_analytic [closedRow26Weight18]
+#print axioms closedRow26Weight18_analytic
+derive_weight_analytic [closedRow26Weight19]
+#print axioms closedRow26Weight19_analytic
+derive_weight_analytic [closedRow26Weight20]
+#print axioms closedRow26Weight20_analytic
+derive_weight_analytic [closedRow26Weight21]
+#print axioms closedRow26Weight21_analytic
+derive_weight_analytic [closedRow26Weight22]
+#print axioms closedRow26Weight22_analytic
+derive_weight_analytic [closedRow26Weight23]
+#print axioms closedRow26Weight23_analytic
+derive_weight_analytic [closedRow26Weight24]
+#print axioms closedRow26Weight24_analytic
+derive_weight_analytic [closedRow26Weight25]
+#print axioms closedRow26Weight25_analytic
+derive_weight_analytic [closedRow26Weight26]
+#print axioms closedRow26Weight26_analytic
+derive_weight_analytic [closedRow26Weight27]
+#print axioms closedRow26Weight27_analytic
+derive_weight_analytic [closedRow26Weight28]
+#print axioms closedRow26Weight28_analytic
+derive_weight_analytic [closedRow26Weight29]
+#print axioms closedRow26Weight29_analytic
+derive_weight_analytic [closedRow26Weight30]
+#print axioms closedRow26Weight30_analytic
+derive_weight_analytic [closedRow26Weight31]
+#print axioms closedRow26Weight31_analytic
+derive_weight_analytic [closedRow26Weight32]
+#print axioms closedRow26Weight32_analytic
+derive_weight_analytic [closedRow26Weight33]
+#print axioms closedRow26Weight33_analytic
+derive_weight_analytic [closedRow26Weight34]
+#print axioms closedRow26Weight34_analytic
+derive_weight_analytic [closedRow26Weight35]
+#print axioms closedRow26Weight35_analytic
+derive_weight_analytic [closedRow26Weight36]
+#print axioms closedRow26Weight36_analytic
+derive_weight_analytic [closedRow26Weight37]
+#print axioms closedRow26Weight37_analytic
+derive_weight_analytic [closedRow26Weight38]
+#print axioms closedRow26Weight38_analytic
+derive_weight_analytic [closedRow26Weight39]
+#print axioms closedRow26Weight39_analytic
+derive_weight_analytic [closedRow26Weight40]
+#print axioms closedRow26Weight40_analytic
+derive_weight_analytic [closedRow26Weight41]
+#print axioms closedRow26Weight41_analytic
+derive_weight_analytic [closedRow26Weight42]
+#print axioms closedRow26Weight42_analytic
+derive_weight_analytic [closedRow26Weight43]
+#print axioms closedRow26Weight43_analytic
+derive_weight_analytic [closedRow26Weight44]
+#print axioms closedRow26Weight44_analytic
+derive_weight_analytic [closedRow26Weight45]
+#print axioms closedRow26Weight45_analytic
+derive_weight_analytic [closedRow26Weight46]
+#print axioms closedRow26Weight46_analytic
+derive_weight_analytic [closedRow26Weight47]
+#print axioms closedRow26Weight47_analytic
+derive_weight_analytic [closedRow26Weight48]
+#print axioms closedRow26Weight48_analytic
+derive_weight_analytic [closedRow26Weight49]
+#print axioms closedRow26Weight49_analytic
+derive_weight_analytic [closedRow26Weight50]
+#print axioms closedRow26Weight50_analytic
+derive_weight_analytic [closedRow26Weight51]
+#print axioms closedRow26Weight51_analytic
+derive_weight_analytic [closedRow26Weight52]
+#print axioms closedRow26Weight52_analytic
+derive_weight_analytic [closedRow26Weight53]
+#print axioms closedRow26Weight53_analytic
+derive_weight_analytic [closedRow26Weight54]
+#print axioms closedRow26Weight54_analytic
+derive_weight_analytic [closedRow26Weight55]
+#print axioms closedRow26Weight55_analytic
+derive_weight_analytic [closedRow26Weight56]
+#print axioms closedRow26Weight56_analytic
+derive_weight_analytic [closedRow26Weight57]
+#print axioms closedRow26Weight57_analytic
+derive_weight_analytic [closedRow26Weight58]
+#print axioms closedRow26Weight58_analytic
+derive_weight_analytic [closedRow26Weight59]
+#print axioms closedRow26Weight59_analytic
+derive_weight_analytic [closedRow26Weight60]
+#print axioms closedRow26Weight60_analytic
+derive_weight_analytic [closedRow26Weight61]
+#print axioms closedRow26Weight61_analytic
+derive_weight_analytic [closedRow26Weight62]
+#print axioms closedRow26Weight62_analytic
+derive_weight_analytic [closedRow26Weight63]
+#print axioms closedRow26Weight63_analytic
+derive_weight_analytic [closedRow26Weight64]
+#print axioms closedRow26Weight64_analytic
+derive_weight_analytic [closedRow26Weight65]
+#print axioms closedRow26Weight65_analytic
+derive_weight_analytic [closedRow26Weight66]
+#print axioms closedRow26Weight66_analytic
+derive_weight_analytic [closedRow26Weight67]
+#print axioms closedRow26Weight67_analytic
+derive_weight_analytic [closedRow26Weight68]
+#print axioms closedRow26Weight68_analytic
+derive_weight_analytic [closedRow26Weight69]
+#print axioms closedRow26Weight69_analytic
+derive_weight_analytic [closedRow26Weight70]
+#print axioms closedRow26Weight70_analytic
+derive_weight_analytic [closedRow26Weight71]
+#print axioms closedRow26Weight71_analytic
+derive_weight_analytic [closedRow26Weight72]
+#print axioms closedRow26Weight72_analytic
+derive_weight_analytic [closedRow26Weight73]
+#print axioms closedRow26Weight73_analytic
+derive_weight_analytic [closedRow26Weight74]
+#print axioms closedRow26Weight74_analytic
+derive_weight_analytic [closedRow26Weight75]
+#print axioms closedRow26Weight75_analytic
+derive_weight_analytic [closedRow26Weight76]
+#print axioms closedRow26Weight76_analytic
+derive_weight_analytic [closedRow26Weight77]
+#print axioms closedRow26Weight77_analytic
+derive_weight_analytic [closedRow26Weight78]
+#print axioms closedRow26Weight78_analytic
+derive_weight_analytic [closedRow26Weight79]
+#print axioms closedRow26Weight79_analytic
+derive_weight_analytic [closedRow26Weight80]
+#print axioms closedRow26Weight80_analytic
+derive_weight_analytic [closedRow26Weight81]
+#print axioms closedRow26Weight81_analytic
+derive_weight_analytic [closedRow26Weight82]
+#print axioms closedRow26Weight82_analytic
+derive_weight_analytic [closedRow26Weight83]
+#print axioms closedRow26Weight83_analytic
+derive_weight_analytic [closedRow26Weight84]
+#print axioms closedRow26Weight84_analytic
+derive_weight_analytic [closedRow26Weight85]
+#print axioms closedRow26Weight85_analytic
+derive_weight_analytic [closedRow26Weight86]
+#print axioms closedRow26Weight86_analytic
+derive_weight_analytic [closedRow26Weight87]
+#print axioms closedRow26Weight87_analytic
+derive_weight_analytic [closedRow26Weight88]
+#print axioms closedRow26Weight88_analytic
+derive_weight_analytic [closedRow26Weight89]
+#print axioms closedRow26Weight89_analytic
+derive_weight_analytic [closedRow26Weight90]
+#print axioms closedRow26Weight90_analytic
+derive_weight_analytic [closedRow26Weight91]
+#print axioms closedRow26Weight91_analytic
+derive_weight_analytic [closedRow26Weight92]
+#print axioms closedRow26Weight92_analytic
+derive_weight_analytic [closedRow3Weight0]
+#print axioms closedRow3Weight0_analytic
+derive_weight_analytic [closedRow3Weight1]
+#print axioms closedRow3Weight1_analytic
+derive_weight_analytic [closedRow3Weight2]
+#print axioms closedRow3Weight2_analytic
+derive_weight_analytic [closedRow3Weight3]
+#print axioms closedRow3Weight3_analytic
+derive_weight_analytic [closedRow3Weight4]
+#print axioms closedRow3Weight4_analytic
+derive_weight_analytic [closedRow3Weight5]
+#print axioms closedRow3Weight5_analytic
+derive_weight_analytic [closedRow3Weight6]
+#print axioms closedRow3Weight6_analytic
+derive_weight_analytic [closedRow3Weight7]
+#print axioms closedRow3Weight7_analytic
+derive_weight_analytic [closedRow3Weight8]
+#print axioms closedRow3Weight8_analytic
+derive_weight_analytic [closedRow3Weight9]
+#print axioms closedRow3Weight9_analytic
+derive_weight_analytic [closedRow3Weight10]
+#print axioms closedRow3Weight10_analytic
+derive_weight_analytic [closedRow3Weight11]
+#print axioms closedRow3Weight11_analytic
+derive_weight_analytic [closedRow3Weight12]
+#print axioms closedRow3Weight12_analytic
+derive_weight_analytic [closedRow3Weight13]
+#print axioms closedRow3Weight13_analytic
+derive_weight_analytic [closedRow3Weight14]
+#print axioms closedRow3Weight14_analytic
+derive_weight_analytic [closedRow3Weight15]
+#print axioms closedRow3Weight15_analytic
+derive_weight_analytic [closedRow3Weight16]
+#print axioms closedRow3Weight16_analytic
+derive_weight_analytic [closedRow3Weight17]
+#print axioms closedRow3Weight17_analytic
+derive_weight_analytic [closedRow3Weight18]
+#print axioms closedRow3Weight18_analytic
+derive_weight_analytic [closedRow3Weight19]
+#print axioms closedRow3Weight19_analytic
+derive_weight_analytic [closedRow3Weight20]
+#print axioms closedRow3Weight20_analytic
+derive_weight_analytic [closedRow3Weight21]
+#print axioms closedRow3Weight21_analytic
+derive_weight_analytic [closedRow3Weight22]
+#print axioms closedRow3Weight22_analytic
+derive_weight_analytic [closedRow3Weight23]
+#print axioms closedRow3Weight23_analytic
+derive_weight_analytic [closedRow3Weight24]
+#print axioms closedRow3Weight24_analytic
+derive_weight_analytic [closedRow3Weight25]
+#print axioms closedRow3Weight25_analytic
+derive_weight_analytic [closedRow3Weight26]
+#print axioms closedRow3Weight26_analytic
+derive_weight_analytic [closedRow3Weight27]
+#print axioms closedRow3Weight27_analytic
+derive_weight_analytic [closedRow3Weight28]
+#print axioms closedRow3Weight28_analytic
+derive_weight_analytic [closedRow3Weight29]
+#print axioms closedRow3Weight29_analytic
+derive_weight_analytic [closedRow3Weight30]
+#print axioms closedRow3Weight30_analytic
+derive_weight_analytic [closedRow3Weight31]
+#print axioms closedRow3Weight31_analytic
+derive_weight_analytic [closedRow3Weight32]
+#print axioms closedRow3Weight32_analytic
+derive_weight_analytic [closedRow3Weight33]
+#print axioms closedRow3Weight33_analytic
+derive_weight_analytic [closedRow3Weight34]
+#print axioms closedRow3Weight34_analytic
+derive_weight_analytic [closedRow3Weight35]
+#print axioms closedRow3Weight35_analytic
+derive_weight_analytic [closedRow3Weight36]
+#print axioms closedRow3Weight36_analytic
+derive_weight_analytic [closedRow3Weight37]
+#print axioms closedRow3Weight37_analytic
+derive_weight_analytic [closedRow3Weight38]
+#print axioms closedRow3Weight38_analytic
+derive_weight_analytic [closedRow3Weight39]
+#print axioms closedRow3Weight39_analytic
+derive_weight_analytic [closedRow3Weight40]
+#print axioms closedRow3Weight40_analytic
+derive_weight_analytic [closedRow3Weight41]
+#print axioms closedRow3Weight41_analytic
+derive_weight_analytic [closedRow3Weight42]
+#print axioms closedRow3Weight42_analytic
+derive_weight_analytic [closedRow3Weight43]
+#print axioms closedRow3Weight43_analytic
+derive_weight_analytic [closedRow3Weight44]
+#print axioms closedRow3Weight44_analytic
+derive_weight_analytic [closedRow3Weight45]
+#print axioms closedRow3Weight45_analytic
+derive_weight_analytic [closedRow3Weight46]
+#print axioms closedRow3Weight46_analytic
+derive_weight_analytic [closedRow3Weight47]
+#print axioms closedRow3Weight47_analytic
+derive_weight_analytic [closedRow3Weight48]
+#print axioms closedRow3Weight48_analytic
+derive_weight_analytic [closedRow3Weight49]
+#print axioms closedRow3Weight49_analytic
+derive_weight_analytic [closedRow3Weight50]
+#print axioms closedRow3Weight50_analytic
+derive_weight_analytic [closedRow3Weight51]
+#print axioms closedRow3Weight51_analytic
+derive_weight_analytic [closedRow3Weight52]
+#print axioms closedRow3Weight52_analytic
+derive_weight_analytic [closedRow3Weight53]
+#print axioms closedRow3Weight53_analytic
+derive_weight_analytic [closedRow3Weight54]
+#print axioms closedRow3Weight54_analytic
+derive_weight_analytic [closedRow3Weight55]
+#print axioms closedRow3Weight55_analytic
+derive_weight_analytic [closedRow3Weight56]
+#print axioms closedRow3Weight56_analytic
+derive_weight_analytic [closedRow3Weight57]
+#print axioms closedRow3Weight57_analytic
+derive_weight_analytic [closedRow3Weight58]
+#print axioms closedRow3Weight58_analytic
+derive_weight_analytic [closedRow3Weight59]
+#print axioms closedRow3Weight59_analytic
+derive_weight_analytic [closedRow3Weight60]
+#print axioms closedRow3Weight60_analytic
+derive_weight_analytic [closedRow3Weight61]
+#print axioms closedRow3Weight61_analytic
+derive_weight_analytic [closedRow3Weight62]
+#print axioms closedRow3Weight62_analytic
+derive_weight_analytic [closedRow3Weight63]
+#print axioms closedRow3Weight63_analytic
+derive_weight_analytic [closedRow3Weight64]
+#print axioms closedRow3Weight64_analytic
+derive_weight_analytic [closedRow3Weight65]
+#print axioms closedRow3Weight65_analytic
+derive_weight_analytic [closedRow3Weight66]
+#print axioms closedRow3Weight66_analytic
+derive_weight_analytic [closedRow3Weight67]
+#print axioms closedRow3Weight67_analytic
+derive_weight_analytic [closedRow3Weight68]
+#print axioms closedRow3Weight68_analytic
+derive_weight_analytic [closedRow3Weight69]
+#print axioms closedRow3Weight69_analytic
+derive_weight_analytic [closedRow3Weight70]
+#print axioms closedRow3Weight70_analytic
+derive_weight_analytic [closedRow3Weight71]
+#print axioms closedRow3Weight71_analytic
+derive_weight_analytic [closedRow3Weight72]
+#print axioms closedRow3Weight72_analytic
+derive_weight_analytic [closedRow3Weight73]
+#print axioms closedRow3Weight73_analytic
+derive_weight_analytic [closedRow3Weight74]
+#print axioms closedRow3Weight74_analytic
+derive_weight_analytic [closedRow9Weight0]
+#print axioms closedRow9Weight0_analytic
+derive_weight_analytic [closedRow9Weight1]
+#print axioms closedRow9Weight1_analytic
+derive_weight_analytic [closedRow9Weight2]
+#print axioms closedRow9Weight2_analytic
+derive_weight_analytic [closedRow9Weight3]
+#print axioms closedRow9Weight3_analytic
+derive_weight_analytic [closedRow9Weight4]
+#print axioms closedRow9Weight4_analytic
+derive_weight_analytic [closedRow9Weight5]
+#print axioms closedRow9Weight5_analytic
+derive_weight_analytic [closedRow9Weight6]
+#print axioms closedRow9Weight6_analytic
+derive_weight_analytic [closedRow9Weight7]
+#print axioms closedRow9Weight7_analytic
+derive_weight_analytic [closedRow9Weight8]
+#print axioms closedRow9Weight8_analytic
+derive_weight_analytic [closedRow9Weight9]
+#print axioms closedRow9Weight9_analytic
+derive_weight_analytic [closedRow9Weight10]
+#print axioms closedRow9Weight10_analytic
+derive_weight_analytic [closedRow9Weight11]
+#print axioms closedRow9Weight11_analytic
+derive_weight_analytic [closedRow9Weight12]
+#print axioms closedRow9Weight12_analytic
+derive_weight_analytic [closedRow9Weight13]
+#print axioms closedRow9Weight13_analytic
+derive_weight_analytic [closedRow9Weight14]
+#print axioms closedRow9Weight14_analytic
+derive_weight_analytic [closedRow9Weight15]
+#print axioms closedRow9Weight15_analytic
+derive_weight_analytic [closedRow9Weight16]
+#print axioms closedRow9Weight16_analytic
+derive_weight_analytic [closedRow9Weight17]
+#print axioms closedRow9Weight17_analytic
+derive_weight_analytic [closedRow9Weight18]
+#print axioms closedRow9Weight18_analytic
+derive_weight_analytic [closedRow9Weight19]
+#print axioms closedRow9Weight19_analytic
+derive_weight_analytic [closedRow9Weight20]
+#print axioms closedRow9Weight20_analytic
+derive_weight_analytic [closedRow9Weight21]
+#print axioms closedRow9Weight21_analytic
+derive_weight_analytic [closedRow9Weight22]
+#print axioms closedRow9Weight22_analytic
+derive_weight_analytic [closedRow9Weight23]
+#print axioms closedRow9Weight23_analytic
+derive_weight_analytic [closedRow9Weight24]
+#print axioms closedRow9Weight24_analytic
+derive_weight_analytic [closedRow9Weight25]
+#print axioms closedRow9Weight25_analytic
+derive_weight_analytic [closedRow9Weight26]
+#print axioms closedRow9Weight26_analytic
+derive_weight_analytic [closedRow9Weight27]
+#print axioms closedRow9Weight27_analytic
+derive_weight_analytic [closedRow9Weight28]
+#print axioms closedRow9Weight28_analytic
+derive_weight_analytic [closedRow9Weight29]
+#print axioms closedRow9Weight29_analytic
+derive_weight_analytic [closedRow9Weight30]
+#print axioms closedRow9Weight30_analytic
+derive_weight_analytic [closedRow9Weight31]
+#print axioms closedRow9Weight31_analytic
+derive_weight_analytic [closedRow9Weight32]
+#print axioms closedRow9Weight32_analytic
+derive_weight_analytic [closedRow9Weight33]
+#print axioms closedRow9Weight33_analytic
+derive_weight_analytic [closedRow9Weight34]
+#print axioms closedRow9Weight34_analytic
+derive_weight_analytic [closedRow9Weight35]
+#print axioms closedRow9Weight35_analytic
+derive_weight_analytic [closedRow9Weight36]
+#print axioms closedRow9Weight36_analytic
+derive_weight_analytic [closedRow9Weight37]
+#print axioms closedRow9Weight37_analytic
+derive_weight_analytic [closedRow9Weight38]
+#print axioms closedRow9Weight38_analytic
+derive_weight_analytic [closedRow9Weight39]
+#print axioms closedRow9Weight39_analytic
+derive_weight_analytic [closedRow9Weight40]
+#print axioms closedRow9Weight40_analytic
+derive_weight_analytic [closedRow9Weight41]
+#print axioms closedRow9Weight41_analytic
+derive_weight_analytic [closedRow9Weight42]
+#print axioms closedRow9Weight42_analytic
+derive_weight_analytic [closedRow9Weight43]
+#print axioms closedRow9Weight43_analytic
+derive_weight_analytic [closedRow9Weight44]
+#print axioms closedRow9Weight44_analytic
+derive_weight_analytic [closedRow9Weight45]
+#print axioms closedRow9Weight45_analytic
+derive_weight_analytic [closedRow9Weight46]
+#print axioms closedRow9Weight46_analytic
+derive_weight_analytic [closedRow9Weight47]
+#print axioms closedRow9Weight47_analytic
+derive_weight_analytic [closedRow9Weight48]
+#print axioms closedRow9Weight48_analytic
+derive_weight_analytic [closedRow9Weight49]
+#print axioms closedRow9Weight49_analytic
+derive_weight_analytic [closedRow9Weight50]
+#print axioms closedRow9Weight50_analytic
+derive_weight_analytic [closedRow9Weight51]
+#print axioms closedRow9Weight51_analytic
+derive_weight_analytic [closedRow9Weight52]
+#print axioms closedRow9Weight52_analytic
+derive_weight_analytic [closedRow9Weight53]
+#print axioms closedRow9Weight53_analytic
+derive_weight_analytic [closedRow9Weight54]
+#print axioms closedRow9Weight54_analytic
+derive_weight_analytic [closedRow9Weight55]
+#print axioms closedRow9Weight55_analytic
+derive_weight_analytic [closedRow9Weight56]
+#print axioms closedRow9Weight56_analytic
+derive_weight_analytic [closedRow9Weight57]
+#print axioms closedRow9Weight57_analytic
+derive_weight_analytic [closedRow9Weight58]
+#print axioms closedRow9Weight58_analytic
+derive_weight_analytic [closedRow9Weight59]
+#print axioms closedRow9Weight59_analytic
+derive_weight_analytic [closedRow9Weight60]
+#print axioms closedRow9Weight60_analytic
+derive_weight_analytic [closedRow9Weight61]
+#print axioms closedRow9Weight61_analytic
+derive_weight_analytic [closedRow9Weight62]
+#print axioms closedRow9Weight62_analytic
+derive_weight_analytic [closedRow9Weight63]
+#print axioms closedRow9Weight63_analytic
+derive_weight_analytic [closedRow9Weight64]
+#print axioms closedRow9Weight64_analytic
+derive_weight_analytic [closedRow9Weight65]
+#print axioms closedRow9Weight65_analytic
+derive_weight_analytic [closedRow9Weight66]
+#print axioms closedRow9Weight66_analytic
+derive_weight_analytic [closedRow9Weight67]
+#print axioms closedRow9Weight67_analytic
+derive_weight_analytic [closedRow9Weight68]
+#print axioms closedRow9Weight68_analytic
+derive_weight_analytic [closedRow9Weight69]
+#print axioms closedRow9Weight69_analytic
+derive_weight_analytic [closedRow9Weight70]
+#print axioms closedRow9Weight70_analytic
+derive_weight_analytic [closedRow9Weight71]
+#print axioms closedRow9Weight71_analytic
+derive_weight_analytic [closedRow9Weight72]
+#print axioms closedRow9Weight72_analytic
+derive_weight_analytic [closedRow9Weight73]
+#print axioms closedRow9Weight73_analytic
+derive_weight_analytic [closedRow9Weight74]
+#print axioms closedRow9Weight74_analytic
+derive_weight_analytic [closedRow9Weight75]
+#print axioms closedRow9Weight75_analytic
+derive_weight_analytic [closedRow9Weight76]
+#print axioms closedRow9Weight76_analytic
+derive_weight_analytic [closedRow9Weight77]
+#print axioms closedRow9Weight77_analytic
+derive_weight_analytic [closedRow9Weight78]
+#print axioms closedRow9Weight78_analytic
+derive_weight_analytic [closedRow9Weight79]
+#print axioms closedRow9Weight79_analytic
+derive_weight_analytic [closedRow9Weight80]
+#print axioms closedRow9Weight80_analytic
+derive_weight_analytic [closedRow9Weight81]
+#print axioms closedRow9Weight81_analytic
+derive_weight_analytic [closedRow9Weight82]
+#print axioms closedRow9Weight82_analytic
+derive_weight_analytic [closedRow9Weight83]
+#print axioms closedRow9Weight83_analytic
+derive_weight_analytic [closedRow9Weight84]
+#print axioms closedRow9Weight84_analytic
+derive_weight_analytic [closedRow9Weight85]
+#print axioms closedRow9Weight85_analytic
+derive_weight_analytic [closedRow9Weight86]
+#print axioms closedRow9Weight86_analytic
+derive_weight_analytic [closedRow9Weight87]
+#print axioms closedRow9Weight87_analytic
+derive_weight_analytic [closedRow9Weight88]
+#print axioms closedRow9Weight88_analytic
+derive_weight_analytic [closedRow9Weight89]
+#print axioms closedRow9Weight89_analytic
+derive_weight_analytic [closedRow9Weight90]
+#print axioms closedRow9Weight90_analytic
+derive_weight_analytic [closedRow9Weight91]
+#print axioms closedRow9Weight91_analytic
+derive_weight_analytic [closedRow9Weight92]
+#print axioms closedRow9Weight92_analytic
+derive_weight_analytic [closedRow9Weight93]
+#print axioms closedRow9Weight93_analytic
+derive_weight_analytic [closedRow9Weight94]
+#print axioms closedRow9Weight94_analytic
+end QuantitativeArithmeticSmallLevelThirtyFiveAnalyticShortRows
+
+namespace QuantitativeArithmeticSmallLevelThirtyFivePositiveAnalyticShortRows
+derive_weight_analytic [closedRow0Weight0]
+#print axioms closedRow0Weight0_analytic
+derive_weight_analytic [closedRow0Weight1]
+#print axioms closedRow0Weight1_analytic
+derive_weight_analytic [closedRow0Weight2]
+#print axioms closedRow0Weight2_analytic
+derive_weight_analytic [closedRow0Weight3]
+#print axioms closedRow0Weight3_analytic
+derive_weight_analytic [closedRow0Weight4]
+#print axioms closedRow0Weight4_analytic
+derive_weight_analytic [closedRow0Weight5]
+#print axioms closedRow0Weight5_analytic
+derive_weight_analytic [closedRow0Weight6]
+#print axioms closedRow0Weight6_analytic
+derive_weight_analytic [closedRow0Weight7]
+#print axioms closedRow0Weight7_analytic
+derive_weight_analytic [closedRow0Weight8]
+#print axioms closedRow0Weight8_analytic
+derive_weight_analytic [closedRow0Weight9]
+#print axioms closedRow0Weight9_analytic
+derive_weight_analytic [closedRow0Weight10]
+#print axioms closedRow0Weight10_analytic
+derive_weight_analytic [closedRow0Weight11]
+#print axioms closedRow0Weight11_analytic
+derive_weight_analytic [closedRow0Weight12]
+#print axioms closedRow0Weight12_analytic
+derive_weight_analytic [closedRow0Weight13]
+#print axioms closedRow0Weight13_analytic
+derive_weight_analytic [closedRow0Weight14]
+#print axioms closedRow0Weight14_analytic
+derive_weight_analytic [closedRow0Weight15]
+#print axioms closedRow0Weight15_analytic
+derive_weight_analytic [closedRow0Weight16]
+#print axioms closedRow0Weight16_analytic
+derive_weight_analytic [closedRow0Weight17]
+#print axioms closedRow0Weight17_analytic
+derive_weight_analytic [closedRow0Weight18]
+#print axioms closedRow0Weight18_analytic
+derive_weight_analytic [closedRow0Weight19]
+#print axioms closedRow0Weight19_analytic
+derive_weight_analytic [closedRow0Weight20]
+#print axioms closedRow0Weight20_analytic
+derive_weight_analytic [closedRow0Weight21]
+#print axioms closedRow0Weight21_analytic
+derive_weight_analytic [closedRow0Weight22]
+#print axioms closedRow0Weight22_analytic
+derive_weight_analytic [closedRow0Weight23]
+#print axioms closedRow0Weight23_analytic
+derive_weight_analytic [closedRow0Weight24]
+#print axioms closedRow0Weight24_analytic
+derive_weight_analytic [closedRow0Weight25]
+#print axioms closedRow0Weight25_analytic
+derive_weight_analytic [closedRow0Weight26]
+#print axioms closedRow0Weight26_analytic
+derive_weight_analytic [closedRow0Weight27]
+#print axioms closedRow0Weight27_analytic
+derive_weight_analytic [closedRow0Weight28]
+#print axioms closedRow0Weight28_analytic
+derive_weight_analytic [closedRow0Weight29]
+#print axioms closedRow0Weight29_analytic
+derive_weight_analytic [closedRow0Weight30]
+#print axioms closedRow0Weight30_analytic
+derive_weight_analytic [closedRow0Weight31]
+#print axioms closedRow0Weight31_analytic
+derive_weight_analytic [closedRow0Weight32]
+#print axioms closedRow0Weight32_analytic
+derive_weight_analytic [closedRow0Weight33]
+#print axioms closedRow0Weight33_analytic
+derive_weight_analytic [closedRow0Weight34]
+#print axioms closedRow0Weight34_analytic
+derive_weight_analytic [closedRow0Weight35]
+#print axioms closedRow0Weight35_analytic
+derive_weight_analytic [closedRow0Weight36]
+#print axioms closedRow0Weight36_analytic
+derive_weight_analytic [closedRow0Weight37]
+#print axioms closedRow0Weight37_analytic
+derive_weight_analytic [closedRow0Weight38]
+#print axioms closedRow0Weight38_analytic
+derive_weight_analytic [closedRow0Weight39]
+#print axioms closedRow0Weight39_analytic
+derive_weight_analytic [closedRow0Weight40]
+#print axioms closedRow0Weight40_analytic
+derive_weight_analytic [closedRow0Weight41]
+#print axioms closedRow0Weight41_analytic
+derive_weight_analytic [closedRow0Weight42]
+#print axioms closedRow0Weight42_analytic
+derive_weight_analytic [closedRow0Weight43]
+#print axioms closedRow0Weight43_analytic
+derive_weight_analytic [closedRow0Weight44]
+#print axioms closedRow0Weight44_analytic
+derive_weight_analytic [closedRow0Weight45]
+#print axioms closedRow0Weight45_analytic
+derive_weight_analytic [closedRow0Weight46]
+#print axioms closedRow0Weight46_analytic
+derive_weight_analytic [closedRow0Weight47]
+#print axioms closedRow0Weight47_analytic
+derive_weight_analytic [closedRow0Weight48]
+#print axioms closedRow0Weight48_analytic
+derive_weight_analytic [closedRow0Weight49]
+#print axioms closedRow0Weight49_analytic
+derive_weight_analytic [closedRow0Weight50]
+#print axioms closedRow0Weight50_analytic
+derive_weight_analytic [closedRow0Weight51]
+#print axioms closedRow0Weight51_analytic
+derive_weight_analytic [closedRow0Weight52]
+#print axioms closedRow0Weight52_analytic
+derive_weight_analytic [closedRow0Weight53]
+#print axioms closedRow0Weight53_analytic
+derive_weight_analytic [closedRow0Weight54]
+#print axioms closedRow0Weight54_analytic
+derive_weight_analytic [closedRow0Weight55]
+#print axioms closedRow0Weight55_analytic
+derive_weight_analytic [closedRow0Weight56]
+#print axioms closedRow0Weight56_analytic
+derive_weight_analytic [closedRow0Weight57]
+#print axioms closedRow0Weight57_analytic
+derive_weight_analytic [closedRow0Weight58]
+#print axioms closedRow0Weight58_analytic
+derive_weight_analytic [closedRow0Weight59]
+#print axioms closedRow0Weight59_analytic
+derive_weight_analytic [closedRow0Weight60]
+#print axioms closedRow0Weight60_analytic
+derive_weight_analytic [closedRow0Weight61]
+#print axioms closedRow0Weight61_analytic
+derive_weight_analytic [closedRow0Weight62]
+#print axioms closedRow0Weight62_analytic
+derive_weight_analytic [closedRow0Weight63]
+#print axioms closedRow0Weight63_analytic
+derive_weight_analytic [closedRow0Weight64]
+#print axioms closedRow0Weight64_analytic
+derive_weight_analytic [closedRow0Weight65]
+#print axioms closedRow0Weight65_analytic
+derive_weight_analytic [closedRow0Weight66]
+#print axioms closedRow0Weight66_analytic
+derive_weight_analytic [closedRow0Weight67]
+#print axioms closedRow0Weight67_analytic
+derive_weight_analytic [closedRow0Weight68]
+#print axioms closedRow0Weight68_analytic
+derive_weight_analytic [closedRow0Weight69]
+#print axioms closedRow0Weight69_analytic
+derive_weight_analytic [closedRow0Weight70]
+#print axioms closedRow0Weight70_analytic
+derive_weight_analytic [closedRow0Weight71]
+#print axioms closedRow0Weight71_analytic
+derive_weight_analytic [closedRow0Weight72]
+#print axioms closedRow0Weight72_analytic
+derive_weight_analytic [closedRow0Weight73]
+#print axioms closedRow0Weight73_analytic
+derive_weight_analytic [closedRow0Weight74]
+#print axioms closedRow0Weight74_analytic
+derive_weight_analytic [closedRow0Weight75]
+#print axioms closedRow0Weight75_analytic
+derive_weight_analytic [closedRow0Weight76]
+#print axioms closedRow0Weight76_analytic
+derive_weight_analytic [closedRow0Weight77]
+#print axioms closedRow0Weight77_analytic
+derive_weight_analytic [closedRow0Weight78]
+#print axioms closedRow0Weight78_analytic
+derive_weight_analytic [closedRow0Weight79]
+#print axioms closedRow0Weight79_analytic
+derive_weight_analytic [closedRow0Weight80]
+#print axioms closedRow0Weight80_analytic
+derive_weight_analytic [closedRow0Weight81]
+#print axioms closedRow0Weight81_analytic
+derive_weight_analytic [closedRow0Weight82]
+#print axioms closedRow0Weight82_analytic
+derive_weight_analytic [closedRow0Weight83]
+#print axioms closedRow0Weight83_analytic
+derive_weight_analytic [closedRow0Weight84]
+#print axioms closedRow0Weight84_analytic
+derive_weight_analytic [closedRow0Weight85]
+#print axioms closedRow0Weight85_analytic
+derive_weight_analytic [closedRow0Weight86]
+#print axioms closedRow0Weight86_analytic
+derive_weight_analytic [closedRow0Weight87]
+#print axioms closedRow0Weight87_analytic
+derive_weight_analytic [closedRow0Weight88]
+#print axioms closedRow0Weight88_analytic
+derive_weight_analytic [closedRow0Weight89]
+#print axioms closedRow0Weight89_analytic
+derive_weight_analytic [closedRow0Weight90]
+#print axioms closedRow0Weight90_analytic
+derive_weight_analytic [closedRow0Weight91]
+#print axioms closedRow0Weight91_analytic
+derive_weight_analytic [closedRow0Weight92]
+#print axioms closedRow0Weight92_analytic
+derive_weight_analytic [closedRow0Weight93]
+#print axioms closedRow0Weight93_analytic
+derive_weight_analytic [closedRow13Weight0]
+#print axioms closedRow13Weight0_analytic
+derive_weight_analytic [closedRow13Weight1]
+#print axioms closedRow13Weight1_analytic
+derive_weight_analytic [closedRow13Weight2]
+#print axioms closedRow13Weight2_analytic
+derive_weight_analytic [closedRow13Weight3]
+#print axioms closedRow13Weight3_analytic
+derive_weight_analytic [closedRow13Weight4]
+#print axioms closedRow13Weight4_analytic
+derive_weight_analytic [closedRow13Weight5]
+#print axioms closedRow13Weight5_analytic
+derive_weight_analytic [closedRow13Weight6]
+#print axioms closedRow13Weight6_analytic
+derive_weight_analytic [closedRow13Weight7]
+#print axioms closedRow13Weight7_analytic
+derive_weight_analytic [closedRow13Weight8]
+#print axioms closedRow13Weight8_analytic
+derive_weight_analytic [closedRow13Weight9]
+#print axioms closedRow13Weight9_analytic
+derive_weight_analytic [closedRow13Weight10]
+#print axioms closedRow13Weight10_analytic
+derive_weight_analytic [closedRow13Weight11]
+#print axioms closedRow13Weight11_analytic
+derive_weight_analytic [closedRow13Weight12]
+#print axioms closedRow13Weight12_analytic
+derive_weight_analytic [closedRow13Weight13]
+#print axioms closedRow13Weight13_analytic
+derive_weight_analytic [closedRow13Weight14]
+#print axioms closedRow13Weight14_analytic
+derive_weight_analytic [closedRow13Weight15]
+#print axioms closedRow13Weight15_analytic
+derive_weight_analytic [closedRow13Weight16]
+#print axioms closedRow13Weight16_analytic
+derive_weight_analytic [closedRow13Weight17]
+#print axioms closedRow13Weight17_analytic
+derive_weight_analytic [closedRow13Weight18]
+#print axioms closedRow13Weight18_analytic
+derive_weight_analytic [closedRow13Weight19]
+#print axioms closedRow13Weight19_analytic
+derive_weight_analytic [closedRow13Weight20]
+#print axioms closedRow13Weight20_analytic
+derive_weight_analytic [closedRow13Weight21]
+#print axioms closedRow13Weight21_analytic
+derive_weight_analytic [closedRow13Weight22]
+#print axioms closedRow13Weight22_analytic
+derive_weight_analytic [closedRow13Weight23]
+#print axioms closedRow13Weight23_analytic
+derive_weight_analytic [closedRow13Weight24]
+#print axioms closedRow13Weight24_analytic
+derive_weight_analytic [closedRow13Weight25]
+#print axioms closedRow13Weight25_analytic
+derive_weight_analytic [closedRow13Weight26]
+#print axioms closedRow13Weight26_analytic
+derive_weight_analytic [closedRow13Weight27]
+#print axioms closedRow13Weight27_analytic
+derive_weight_analytic [closedRow13Weight28]
+#print axioms closedRow13Weight28_analytic
+derive_weight_analytic [closedRow13Weight29]
+#print axioms closedRow13Weight29_analytic
+derive_weight_analytic [closedRow13Weight30]
+#print axioms closedRow13Weight30_analytic
+derive_weight_analytic [closedRow13Weight31]
+#print axioms closedRow13Weight31_analytic
+derive_weight_analytic [closedRow13Weight32]
+#print axioms closedRow13Weight32_analytic
+derive_weight_analytic [closedRow13Weight33]
+#print axioms closedRow13Weight33_analytic
+derive_weight_analytic [closedRow13Weight34]
+#print axioms closedRow13Weight34_analytic
+derive_weight_analytic [closedRow13Weight35]
+#print axioms closedRow13Weight35_analytic
+derive_weight_analytic [closedRow13Weight36]
+#print axioms closedRow13Weight36_analytic
+derive_weight_analytic [closedRow13Weight37]
+#print axioms closedRow13Weight37_analytic
+derive_weight_analytic [closedRow13Weight38]
+#print axioms closedRow13Weight38_analytic
+derive_weight_analytic [closedRow13Weight39]
+#print axioms closedRow13Weight39_analytic
+derive_weight_analytic [closedRow13Weight40]
+#print axioms closedRow13Weight40_analytic
+derive_weight_analytic [closedRow13Weight41]
+#print axioms closedRow13Weight41_analytic
+derive_weight_analytic [closedRow13Weight42]
+#print axioms closedRow13Weight42_analytic
+derive_weight_analytic [closedRow13Weight43]
+#print axioms closedRow13Weight43_analytic
+derive_weight_analytic [closedRow13Weight44]
+#print axioms closedRow13Weight44_analytic
+derive_weight_analytic [closedRow13Weight45]
+#print axioms closedRow13Weight45_analytic
+derive_weight_analytic [closedRow13Weight46]
+#print axioms closedRow13Weight46_analytic
+derive_weight_analytic [closedRow13Weight47]
+#print axioms closedRow13Weight47_analytic
+derive_weight_analytic [closedRow13Weight48]
+#print axioms closedRow13Weight48_analytic
+derive_weight_analytic [closedRow13Weight49]
+#print axioms closedRow13Weight49_analytic
+derive_weight_analytic [closedRow13Weight50]
+#print axioms closedRow13Weight50_analytic
+derive_weight_analytic [closedRow13Weight51]
+#print axioms closedRow13Weight51_analytic
+derive_weight_analytic [closedRow13Weight52]
+#print axioms closedRow13Weight52_analytic
+derive_weight_analytic [closedRow13Weight53]
+#print axioms closedRow13Weight53_analytic
+derive_weight_analytic [closedRow13Weight54]
+#print axioms closedRow13Weight54_analytic
+derive_weight_analytic [closedRow13Weight55]
+#print axioms closedRow13Weight55_analytic
+derive_weight_analytic [closedRow13Weight56]
+#print axioms closedRow13Weight56_analytic
+derive_weight_analytic [closedRow13Weight57]
+#print axioms closedRow13Weight57_analytic
+derive_weight_analytic [closedRow13Weight58]
+#print axioms closedRow13Weight58_analytic
+derive_weight_analytic [closedRow13Weight59]
+#print axioms closedRow13Weight59_analytic
+derive_weight_analytic [closedRow13Weight60]
+#print axioms closedRow13Weight60_analytic
+derive_weight_analytic [closedRow13Weight61]
+#print axioms closedRow13Weight61_analytic
+derive_weight_analytic [closedRow13Weight62]
+#print axioms closedRow13Weight62_analytic
+derive_weight_analytic [closedRow13Weight63]
+#print axioms closedRow13Weight63_analytic
+derive_weight_analytic [closedRow13Weight64]
+#print axioms closedRow13Weight64_analytic
+derive_weight_analytic [closedRow13Weight65]
+#print axioms closedRow13Weight65_analytic
+derive_weight_analytic [closedRow13Weight66]
+#print axioms closedRow13Weight66_analytic
+derive_weight_analytic [closedRow13Weight67]
+#print axioms closedRow13Weight67_analytic
+derive_weight_analytic [closedRow13Weight68]
+#print axioms closedRow13Weight68_analytic
+derive_weight_analytic [closedRow13Weight69]
+#print axioms closedRow13Weight69_analytic
+derive_weight_analytic [closedRow13Weight70]
+#print axioms closedRow13Weight70_analytic
+derive_weight_analytic [closedRow13Weight71]
+#print axioms closedRow13Weight71_analytic
+derive_weight_analytic [closedRow13Weight72]
+#print axioms closedRow13Weight72_analytic
+derive_weight_analytic [closedRow13Weight73]
+#print axioms closedRow13Weight73_analytic
+derive_weight_analytic [closedRow13Weight74]
+#print axioms closedRow13Weight74_analytic
+derive_weight_analytic [closedRow13Weight75]
+#print axioms closedRow13Weight75_analytic
+derive_weight_analytic [closedRow13Weight76]
+#print axioms closedRow13Weight76_analytic
+derive_weight_analytic [closedRow13Weight77]
+#print axioms closedRow13Weight77_analytic
+derive_weight_analytic [closedRow13Weight78]
+#print axioms closedRow13Weight78_analytic
+derive_weight_analytic [closedRow13Weight79]
+#print axioms closedRow13Weight79_analytic
+derive_weight_analytic [closedRow13Weight80]
+#print axioms closedRow13Weight80_analytic
+derive_weight_analytic [closedRow13Weight81]
+#print axioms closedRow13Weight81_analytic
+derive_weight_analytic [closedRow13Weight82]
+#print axioms closedRow13Weight82_analytic
+derive_weight_analytic [closedRow13Weight83]
+#print axioms closedRow13Weight83_analytic
+derive_weight_analytic [closedRow13Weight84]
+#print axioms closedRow13Weight84_analytic
+derive_weight_analytic [closedRow14Weight0]
+#print axioms closedRow14Weight0_analytic
+derive_weight_analytic [closedRow14Weight1]
+#print axioms closedRow14Weight1_analytic
+derive_weight_analytic [closedRow14Weight2]
+#print axioms closedRow14Weight2_analytic
+derive_weight_analytic [closedRow14Weight3]
+#print axioms closedRow14Weight3_analytic
+derive_weight_analytic [closedRow14Weight4]
+#print axioms closedRow14Weight4_analytic
+derive_weight_analytic [closedRow14Weight5]
+#print axioms closedRow14Weight5_analytic
+derive_weight_analytic [closedRow14Weight6]
+#print axioms closedRow14Weight6_analytic
+derive_weight_analytic [closedRow14Weight7]
+#print axioms closedRow14Weight7_analytic
+derive_weight_analytic [closedRow14Weight8]
+#print axioms closedRow14Weight8_analytic
+derive_weight_analytic [closedRow14Weight9]
+#print axioms closedRow14Weight9_analytic
+derive_weight_analytic [closedRow14Weight10]
+#print axioms closedRow14Weight10_analytic
+derive_weight_analytic [closedRow14Weight11]
+#print axioms closedRow14Weight11_analytic
+derive_weight_analytic [closedRow14Weight12]
+#print axioms closedRow14Weight12_analytic
+derive_weight_analytic [closedRow14Weight13]
+#print axioms closedRow14Weight13_analytic
+derive_weight_analytic [closedRow14Weight14]
+#print axioms closedRow14Weight14_analytic
+derive_weight_analytic [closedRow14Weight15]
+#print axioms closedRow14Weight15_analytic
+derive_weight_analytic [closedRow14Weight16]
+#print axioms closedRow14Weight16_analytic
+derive_weight_analytic [closedRow14Weight17]
+#print axioms closedRow14Weight17_analytic
+derive_weight_analytic [closedRow14Weight18]
+#print axioms closedRow14Weight18_analytic
+derive_weight_analytic [closedRow14Weight19]
+#print axioms closedRow14Weight19_analytic
+derive_weight_analytic [closedRow14Weight20]
+#print axioms closedRow14Weight20_analytic
+derive_weight_analytic [closedRow14Weight21]
+#print axioms closedRow14Weight21_analytic
+derive_weight_analytic [closedRow14Weight22]
+#print axioms closedRow14Weight22_analytic
+derive_weight_analytic [closedRow14Weight23]
+#print axioms closedRow14Weight23_analytic
+derive_weight_analytic [closedRow14Weight24]
+#print axioms closedRow14Weight24_analytic
+derive_weight_analytic [closedRow14Weight25]
+#print axioms closedRow14Weight25_analytic
+derive_weight_analytic [closedRow14Weight26]
+#print axioms closedRow14Weight26_analytic
+derive_weight_analytic [closedRow14Weight27]
+#print axioms closedRow14Weight27_analytic
+derive_weight_analytic [closedRow14Weight28]
+#print axioms closedRow14Weight28_analytic
+derive_weight_analytic [closedRow14Weight29]
+#print axioms closedRow14Weight29_analytic
+derive_weight_analytic [closedRow14Weight30]
+#print axioms closedRow14Weight30_analytic
+derive_weight_analytic [closedRow14Weight31]
+#print axioms closedRow14Weight31_analytic
+derive_weight_analytic [closedRow14Weight32]
+#print axioms closedRow14Weight32_analytic
+derive_weight_analytic [closedRow14Weight33]
+#print axioms closedRow14Weight33_analytic
+derive_weight_analytic [closedRow14Weight34]
+#print axioms closedRow14Weight34_analytic
+derive_weight_analytic [closedRow14Weight35]
+#print axioms closedRow14Weight35_analytic
+derive_weight_analytic [closedRow14Weight36]
+#print axioms closedRow14Weight36_analytic
+derive_weight_analytic [closedRow14Weight37]
+#print axioms closedRow14Weight37_analytic
+derive_weight_analytic [closedRow14Weight38]
+#print axioms closedRow14Weight38_analytic
+derive_weight_analytic [closedRow14Weight39]
+#print axioms closedRow14Weight39_analytic
+derive_weight_analytic [closedRow14Weight40]
+#print axioms closedRow14Weight40_analytic
+derive_weight_analytic [closedRow14Weight41]
+#print axioms closedRow14Weight41_analytic
+derive_weight_analytic [closedRow14Weight42]
+#print axioms closedRow14Weight42_analytic
+derive_weight_analytic [closedRow14Weight43]
+#print axioms closedRow14Weight43_analytic
+derive_weight_analytic [closedRow14Weight44]
+#print axioms closedRow14Weight44_analytic
+derive_weight_analytic [closedRow14Weight45]
+#print axioms closedRow14Weight45_analytic
+derive_weight_analytic [closedRow14Weight46]
+#print axioms closedRow14Weight46_analytic
+derive_weight_analytic [closedRow14Weight47]
+#print axioms closedRow14Weight47_analytic
+derive_weight_analytic [closedRow14Weight48]
+#print axioms closedRow14Weight48_analytic
+derive_weight_analytic [closedRow14Weight49]
+#print axioms closedRow14Weight49_analytic
+derive_weight_analytic [closedRow14Weight50]
+#print axioms closedRow14Weight50_analytic
+derive_weight_analytic [closedRow14Weight51]
+#print axioms closedRow14Weight51_analytic
+derive_weight_analytic [closedRow14Weight52]
+#print axioms closedRow14Weight52_analytic
+derive_weight_analytic [closedRow14Weight53]
+#print axioms closedRow14Weight53_analytic
+derive_weight_analytic [closedRow14Weight54]
+#print axioms closedRow14Weight54_analytic
+derive_weight_analytic [closedRow14Weight55]
+#print axioms closedRow14Weight55_analytic
+derive_weight_analytic [closedRow14Weight56]
+#print axioms closedRow14Weight56_analytic
+derive_weight_analytic [closedRow14Weight57]
+#print axioms closedRow14Weight57_analytic
+derive_weight_analytic [closedRow14Weight58]
+#print axioms closedRow14Weight58_analytic
+derive_weight_analytic [closedRow14Weight59]
+#print axioms closedRow14Weight59_analytic
+derive_weight_analytic [closedRow14Weight60]
+#print axioms closedRow14Weight60_analytic
+derive_weight_analytic [closedRow14Weight61]
+#print axioms closedRow14Weight61_analytic
+derive_weight_analytic [closedRow14Weight62]
+#print axioms closedRow14Weight62_analytic
+derive_weight_analytic [closedRow14Weight63]
+#print axioms closedRow14Weight63_analytic
+derive_weight_analytic [closedRow14Weight64]
+#print axioms closedRow14Weight64_analytic
+derive_weight_analytic [closedRow14Weight65]
+#print axioms closedRow14Weight65_analytic
+derive_weight_analytic [closedRow14Weight66]
+#print axioms closedRow14Weight66_analytic
+derive_weight_analytic [closedRow14Weight67]
+#print axioms closedRow14Weight67_analytic
+derive_weight_analytic [closedRow14Weight68]
+#print axioms closedRow14Weight68_analytic
+derive_weight_analytic [closedRow14Weight69]
+#print axioms closedRow14Weight69_analytic
+derive_weight_analytic [closedRow14Weight70]
+#print axioms closedRow14Weight70_analytic
+derive_weight_analytic [closedRow14Weight71]
+#print axioms closedRow14Weight71_analytic
+derive_weight_analytic [closedRow14Weight72]
+#print axioms closedRow14Weight72_analytic
+derive_weight_analytic [closedRow14Weight73]
+#print axioms closedRow14Weight73_analytic
+derive_weight_analytic [closedRow14Weight74]
+#print axioms closedRow14Weight74_analytic
+derive_weight_analytic [closedRow14Weight75]
+#print axioms closedRow14Weight75_analytic
+derive_weight_analytic [closedRow14Weight76]
+#print axioms closedRow14Weight76_analytic
+derive_weight_analytic [closedRow14Weight77]
+#print axioms closedRow14Weight77_analytic
+derive_weight_analytic [closedRow14Weight78]
+#print axioms closedRow14Weight78_analytic
+derive_weight_analytic [closedRow14Weight79]
+#print axioms closedRow14Weight79_analytic
+derive_weight_analytic [closedRow14Weight80]
+#print axioms closedRow14Weight80_analytic
+derive_weight_analytic [closedRow14Weight81]
+#print axioms closedRow14Weight81_analytic
+derive_weight_analytic [closedRow14Weight82]
+#print axioms closedRow14Weight82_analytic
+derive_weight_analytic [closedRow14Weight83]
+#print axioms closedRow14Weight83_analytic
+derive_weight_analytic [closedRow14Weight84]
+#print axioms closedRow14Weight84_analytic
+derive_weight_analytic [closedRow150Weight0]
+#print axioms closedRow150Weight0_analytic
+derive_weight_analytic [closedRow150Weight1]
+#print axioms closedRow150Weight1_analytic
+derive_weight_analytic [closedRow150Weight2]
+#print axioms closedRow150Weight2_analytic
+derive_weight_analytic [closedRow150Weight3]
+#print axioms closedRow150Weight3_analytic
+derive_weight_analytic [closedRow150Weight4]
+#print axioms closedRow150Weight4_analytic
+derive_weight_analytic [closedRow150Weight5]
+#print axioms closedRow150Weight5_analytic
+derive_weight_analytic [closedRow150Weight6]
+#print axioms closedRow150Weight6_analytic
+derive_weight_analytic [closedRow150Weight7]
+#print axioms closedRow150Weight7_analytic
+derive_weight_analytic [closedRow150Weight8]
+#print axioms closedRow150Weight8_analytic
+derive_weight_analytic [closedRow150Weight9]
+#print axioms closedRow150Weight9_analytic
+derive_weight_analytic [closedRow150Weight10]
+#print axioms closedRow150Weight10_analytic
+derive_weight_analytic [closedRow150Weight11]
+#print axioms closedRow150Weight11_analytic
+derive_weight_analytic [closedRow150Weight12]
+#print axioms closedRow150Weight12_analytic
+derive_weight_analytic [closedRow150Weight13]
+#print axioms closedRow150Weight13_analytic
+derive_weight_analytic [closedRow150Weight14]
+#print axioms closedRow150Weight14_analytic
+derive_weight_analytic [closedRow150Weight15]
+#print axioms closedRow150Weight15_analytic
+derive_weight_analytic [closedRow150Weight16]
+#print axioms closedRow150Weight16_analytic
+derive_weight_analytic [closedRow150Weight17]
+#print axioms closedRow150Weight17_analytic
+derive_weight_analytic [closedRow150Weight18]
+#print axioms closedRow150Weight18_analytic
+derive_weight_analytic [closedRow150Weight19]
+#print axioms closedRow150Weight19_analytic
+derive_weight_analytic [closedRow150Weight20]
+#print axioms closedRow150Weight20_analytic
+derive_weight_analytic [closedRow150Weight21]
+#print axioms closedRow150Weight21_analytic
+derive_weight_analytic [closedRow150Weight22]
+#print axioms closedRow150Weight22_analytic
+derive_weight_analytic [closedRow150Weight23]
+#print axioms closedRow150Weight23_analytic
+derive_weight_analytic [closedRow150Weight24]
+#print axioms closedRow150Weight24_analytic
+derive_weight_analytic [closedRow159Weight0]
+#print axioms closedRow159Weight0_analytic
+derive_weight_analytic [closedRow159Weight1]
+#print axioms closedRow159Weight1_analytic
+derive_weight_analytic [closedRow159Weight2]
+#print axioms closedRow159Weight2_analytic
+derive_weight_analytic [closedRow159Weight3]
+#print axioms closedRow159Weight3_analytic
+derive_weight_analytic [closedRow159Weight4]
+#print axioms closedRow159Weight4_analytic
+derive_weight_analytic [closedRow159Weight5]
+#print axioms closedRow159Weight5_analytic
+derive_weight_analytic [closedRow159Weight6]
+#print axioms closedRow159Weight6_analytic
+derive_weight_analytic [closedRow159Weight7]
+#print axioms closedRow159Weight7_analytic
+derive_weight_analytic [closedRow159Weight8]
+#print axioms closedRow159Weight8_analytic
+derive_weight_analytic [closedRow159Weight9]
+#print axioms closedRow159Weight9_analytic
+derive_weight_analytic [closedRow159Weight10]
+#print axioms closedRow159Weight10_analytic
+derive_weight_analytic [closedRow159Weight11]
+#print axioms closedRow159Weight11_analytic
+derive_weight_analytic [closedRow159Weight12]
+#print axioms closedRow159Weight12_analytic
+derive_weight_analytic [closedRow159Weight13]
+#print axioms closedRow159Weight13_analytic
+derive_weight_analytic [closedRow159Weight14]
+#print axioms closedRow159Weight14_analytic
+derive_weight_analytic [closedRow159Weight15]
+#print axioms closedRow159Weight15_analytic
+derive_weight_analytic [closedRow159Weight16]
+#print axioms closedRow159Weight16_analytic
+derive_weight_analytic [closedRow159Weight17]
+#print axioms closedRow159Weight17_analytic
+derive_weight_analytic [closedRow159Weight18]
+#print axioms closedRow159Weight18_analytic
+derive_weight_analytic [closedRow159Weight19]
+#print axioms closedRow159Weight19_analytic
+derive_weight_analytic [closedRow163Weight0]
+#print axioms closedRow163Weight0_analytic
+derive_weight_analytic [closedRow163Weight1]
+#print axioms closedRow163Weight1_analytic
+derive_weight_analytic [closedRow163Weight2]
+#print axioms closedRow163Weight2_analytic
+derive_weight_analytic [closedRow163Weight3]
+#print axioms closedRow163Weight3_analytic
+derive_weight_analytic [closedRow163Weight4]
+#print axioms closedRow163Weight4_analytic
+derive_weight_analytic [closedRow163Weight5]
+#print axioms closedRow163Weight5_analytic
+derive_weight_analytic [closedRow163Weight6]
+#print axioms closedRow163Weight6_analytic
+derive_weight_analytic [closedRow163Weight7]
+#print axioms closedRow163Weight7_analytic
+derive_weight_analytic [closedRow163Weight8]
+#print axioms closedRow163Weight8_analytic
+derive_weight_analytic [closedRow163Weight9]
+#print axioms closedRow163Weight9_analytic
+derive_weight_analytic [closedRow163Weight10]
+#print axioms closedRow163Weight10_analytic
+derive_weight_analytic [closedRow163Weight11]
+#print axioms closedRow163Weight11_analytic
+derive_weight_analytic [closedRow163Weight12]
+#print axioms closedRow163Weight12_analytic
+derive_weight_analytic [closedRow163Weight13]
+#print axioms closedRow163Weight13_analytic
+derive_weight_analytic [closedRow163Weight14]
+#print axioms closedRow163Weight14_analytic
+derive_weight_analytic [closedRow163Weight15]
+#print axioms closedRow163Weight15_analytic
+derive_weight_analytic [closedRow163Weight16]
+#print axioms closedRow163Weight16_analytic
+derive_weight_analytic [closedRow163Weight17]
+#print axioms closedRow163Weight17_analytic
+derive_weight_analytic [closedRow163Weight18]
+#print axioms closedRow163Weight18_analytic
+derive_weight_analytic [closedRow163Weight19]
+#print axioms closedRow163Weight19_analytic
+derive_weight_analytic [closedRow163Weight20]
+#print axioms closedRow163Weight20_analytic
+derive_weight_analytic [closedRow163Weight21]
+#print axioms closedRow163Weight21_analytic
+derive_weight_analytic [closedRow163Weight22]
+#print axioms closedRow163Weight22_analytic
+derive_weight_analytic [closedRow163Weight23]
+#print axioms closedRow163Weight23_analytic
+derive_weight_analytic [closedRow163Weight24]
+#print axioms closedRow163Weight24_analytic
+derive_weight_analytic [closedRow163Weight25]
+#print axioms closedRow163Weight25_analytic
+derive_weight_analytic [closedRow163Weight26]
+#print axioms closedRow163Weight26_analytic
+derive_weight_analytic [closedRow163Weight27]
+#print axioms closedRow163Weight27_analytic
+derive_weight_analytic [closedRow163Weight28]
+#print axioms closedRow163Weight28_analytic
+derive_weight_analytic [closedRow163Weight29]
+#print axioms closedRow163Weight29_analytic
+derive_weight_analytic [closedRow163Weight30]
+#print axioms closedRow163Weight30_analytic
+derive_weight_analytic [closedRow163Weight31]
+#print axioms closedRow163Weight31_analytic
+derive_weight_analytic [closedRow163Weight32]
+#print axioms closedRow163Weight32_analytic
+derive_weight_analytic [closedRow163Weight33]
+#print axioms closedRow163Weight33_analytic
+derive_weight_analytic [closedRow163Weight34]
+#print axioms closedRow163Weight34_analytic
+derive_weight_analytic [closedRow163Weight35]
+#print axioms closedRow163Weight35_analytic
+derive_weight_analytic [closedRow163Weight36]
+#print axioms closedRow163Weight36_analytic
+derive_weight_analytic [closedRow163Weight37]
+#print axioms closedRow163Weight37_analytic
+derive_weight_analytic [closedRow163Weight38]
+#print axioms closedRow163Weight38_analytic
+derive_weight_analytic [closedRow163Weight39]
+#print axioms closedRow163Weight39_analytic
+derive_weight_analytic [closedRow163Weight40]
+#print axioms closedRow163Weight40_analytic
+derive_weight_analytic [closedRow163Weight41]
+#print axioms closedRow163Weight41_analytic
+derive_weight_analytic [closedRow163Weight42]
+#print axioms closedRow163Weight42_analytic
+derive_weight_analytic [closedRow163Weight43]
+#print axioms closedRow163Weight43_analytic
+derive_weight_analytic [closedRow163Weight44]
+#print axioms closedRow163Weight44_analytic
+derive_weight_analytic [closedRow163Weight45]
+#print axioms closedRow163Weight45_analytic
+derive_weight_analytic [closedRow163Weight46]
+#print axioms closedRow163Weight46_analytic
+derive_weight_analytic [closedRow163Weight47]
+#print axioms closedRow163Weight47_analytic
+derive_weight_analytic [closedRow163Weight48]
+#print axioms closedRow163Weight48_analytic
+derive_weight_analytic [closedRow163Weight49]
+#print axioms closedRow163Weight49_analytic
+derive_weight_analytic [closedRow163Weight50]
+#print axioms closedRow163Weight50_analytic
+derive_weight_analytic [closedRow163Weight51]
+#print axioms closedRow163Weight51_analytic
+derive_weight_analytic [closedRow163Weight52]
+#print axioms closedRow163Weight52_analytic
+derive_weight_analytic [closedRow163Weight53]
+#print axioms closedRow163Weight53_analytic
+derive_weight_analytic [closedRow163Weight54]
+#print axioms closedRow163Weight54_analytic
+derive_weight_analytic [closedRow163Weight55]
+#print axioms closedRow163Weight55_analytic
+derive_weight_analytic [closedRow163Weight56]
+#print axioms closedRow163Weight56_analytic
+derive_weight_analytic [closedRow163Weight57]
+#print axioms closedRow163Weight57_analytic
+derive_weight_analytic [closedRow163Weight58]
+#print axioms closedRow163Weight58_analytic
+derive_weight_analytic [closedRow163Weight59]
+#print axioms closedRow163Weight59_analytic
+derive_weight_analytic [closedRow163Weight60]
+#print axioms closedRow163Weight60_analytic
+derive_weight_analytic [closedRow163Weight61]
+#print axioms closedRow163Weight61_analytic
+derive_weight_analytic [closedRow163Weight62]
+#print axioms closedRow163Weight62_analytic
+derive_weight_analytic [closedRow163Weight63]
+#print axioms closedRow163Weight63_analytic
+derive_weight_analytic [closedRow163Weight64]
+#print axioms closedRow163Weight64_analytic
+derive_weight_analytic [closedRow163Weight65]
+#print axioms closedRow163Weight65_analytic
+derive_weight_analytic [closedRow163Weight66]
+#print axioms closedRow163Weight66_analytic
+derive_weight_analytic [closedRow163Weight67]
+#print axioms closedRow163Weight67_analytic
+derive_weight_analytic [closedRow163Weight68]
+#print axioms closedRow163Weight68_analytic
+derive_weight_analytic [closedRow163Weight69]
+#print axioms closedRow163Weight69_analytic
+derive_weight_analytic [closedRow163Weight70]
+#print axioms closedRow163Weight70_analytic
+derive_weight_analytic [closedRow163Weight71]
+#print axioms closedRow163Weight71_analytic
+derive_weight_analytic [closedRow163Weight72]
+#print axioms closedRow163Weight72_analytic
+derive_weight_analytic [closedRow163Weight73]
+#print axioms closedRow163Weight73_analytic
+derive_weight_analytic [closedRow163Weight74]
+#print axioms closedRow163Weight74_analytic
+derive_weight_analytic [closedRow163Weight75]
+#print axioms closedRow163Weight75_analytic
+derive_weight_analytic [closedRow163Weight76]
+#print axioms closedRow163Weight76_analytic
+derive_weight_analytic [closedRow163Weight77]
+#print axioms closedRow163Weight77_analytic
+derive_weight_analytic [closedRow163Weight78]
+#print axioms closedRow163Weight78_analytic
+derive_weight_analytic [closedRow163Weight79]
+#print axioms closedRow163Weight79_analytic
+derive_weight_analytic [closedRow163Weight80]
+#print axioms closedRow163Weight80_analytic
+derive_weight_analytic [closedRow163Weight81]
+#print axioms closedRow163Weight81_analytic
+derive_weight_analytic [closedRow163Weight82]
+#print axioms closedRow163Weight82_analytic
+derive_weight_analytic [closedRow163Weight83]
+#print axioms closedRow163Weight83_analytic
+derive_weight_analytic [closedRow163Weight84]
+#print axioms closedRow163Weight84_analytic
+derive_weight_analytic [closedRow163Weight85]
+#print axioms closedRow163Weight85_analytic
+derive_weight_analytic [closedRow163Weight86]
+#print axioms closedRow163Weight86_analytic
+derive_weight_analytic [closedRow163Weight87]
+#print axioms closedRow163Weight87_analytic
+derive_weight_analytic [closedRow163Weight88]
+#print axioms closedRow163Weight88_analytic
+derive_weight_analytic [closedRow163Weight89]
+#print axioms closedRow163Weight89_analytic
+derive_weight_analytic [closedRow163Weight90]
+#print axioms closedRow163Weight90_analytic
+derive_weight_analytic [closedRow163Weight91]
+#print axioms closedRow163Weight91_analytic
+derive_weight_analytic [closedRow163Weight92]
+#print axioms closedRow163Weight92_analytic
+derive_weight_analytic [closedRow163Weight93]
+#print axioms closedRow163Weight93_analytic
+derive_weight_analytic [closedRow164Weight0]
+#print axioms closedRow164Weight0_analytic
+derive_weight_analytic [closedRow164Weight1]
+#print axioms closedRow164Weight1_analytic
+derive_weight_analytic [closedRow164Weight2]
+#print axioms closedRow164Weight2_analytic
+derive_weight_analytic [closedRow164Weight3]
+#print axioms closedRow164Weight3_analytic
+derive_weight_analytic [closedRow164Weight4]
+#print axioms closedRow164Weight4_analytic
+derive_weight_analytic [closedRow164Weight5]
+#print axioms closedRow164Weight5_analytic
+derive_weight_analytic [closedRow164Weight6]
+#print axioms closedRow164Weight6_analytic
+derive_weight_analytic [closedRow164Weight7]
+#print axioms closedRow164Weight7_analytic
+derive_weight_analytic [closedRow164Weight8]
+#print axioms closedRow164Weight8_analytic
+derive_weight_analytic [closedRow164Weight9]
+#print axioms closedRow164Weight9_analytic
+derive_weight_analytic [closedRow164Weight10]
+#print axioms closedRow164Weight10_analytic
+derive_weight_analytic [closedRow164Weight11]
+#print axioms closedRow164Weight11_analytic
+derive_weight_analytic [closedRow164Weight12]
+#print axioms closedRow164Weight12_analytic
+derive_weight_analytic [closedRow164Weight13]
+#print axioms closedRow164Weight13_analytic
+derive_weight_analytic [closedRow164Weight14]
+#print axioms closedRow164Weight14_analytic
+derive_weight_analytic [closedRow164Weight15]
+#print axioms closedRow164Weight15_analytic
+derive_weight_analytic [closedRow164Weight16]
+#print axioms closedRow164Weight16_analytic
+derive_weight_analytic [closedRow164Weight17]
+#print axioms closedRow164Weight17_analytic
+derive_weight_analytic [closedRow164Weight18]
+#print axioms closedRow164Weight18_analytic
+derive_weight_analytic [closedRow164Weight19]
+#print axioms closedRow164Weight19_analytic
+derive_weight_analytic [closedRow164Weight20]
+#print axioms closedRow164Weight20_analytic
+derive_weight_analytic [closedRow164Weight21]
+#print axioms closedRow164Weight21_analytic
+derive_weight_analytic [closedRow164Weight22]
+#print axioms closedRow164Weight22_analytic
+derive_weight_analytic [closedRow164Weight23]
+#print axioms closedRow164Weight23_analytic
+derive_weight_analytic [closedRow164Weight24]
+#print axioms closedRow164Weight24_analytic
+derive_weight_analytic [closedRow164Weight25]
+#print axioms closedRow164Weight25_analytic
+derive_weight_analytic [closedRow164Weight26]
+#print axioms closedRow164Weight26_analytic
+derive_weight_analytic [closedRow164Weight27]
+#print axioms closedRow164Weight27_analytic
+derive_weight_analytic [closedRow164Weight28]
+#print axioms closedRow164Weight28_analytic
+derive_weight_analytic [closedRow164Weight29]
+#print axioms closedRow164Weight29_analytic
+derive_weight_analytic [closedRow164Weight30]
+#print axioms closedRow164Weight30_analytic
+derive_weight_analytic [closedRow164Weight31]
+#print axioms closedRow164Weight31_analytic
+derive_weight_analytic [closedRow164Weight32]
+#print axioms closedRow164Weight32_analytic
+derive_weight_analytic [closedRow164Weight33]
+#print axioms closedRow164Weight33_analytic
+derive_weight_analytic [closedRow164Weight34]
+#print axioms closedRow164Weight34_analytic
+derive_weight_analytic [closedRow164Weight35]
+#print axioms closedRow164Weight35_analytic
+derive_weight_analytic [closedRow164Weight36]
+#print axioms closedRow164Weight36_analytic
+derive_weight_analytic [closedRow164Weight37]
+#print axioms closedRow164Weight37_analytic
+derive_weight_analytic [closedRow164Weight38]
+#print axioms closedRow164Weight38_analytic
+derive_weight_analytic [closedRow164Weight39]
+#print axioms closedRow164Weight39_analytic
+derive_weight_analytic [closedRow164Weight40]
+#print axioms closedRow164Weight40_analytic
+derive_weight_analytic [closedRow164Weight41]
+#print axioms closedRow164Weight41_analytic
+derive_weight_analytic [closedRow164Weight42]
+#print axioms closedRow164Weight42_analytic
+derive_weight_analytic [closedRow164Weight43]
+#print axioms closedRow164Weight43_analytic
+derive_weight_analytic [closedRow164Weight44]
+#print axioms closedRow164Weight44_analytic
+derive_weight_analytic [closedRow164Weight45]
+#print axioms closedRow164Weight45_analytic
+derive_weight_analytic [closedRow164Weight46]
+#print axioms closedRow164Weight46_analytic
+derive_weight_analytic [closedRow164Weight47]
+#print axioms closedRow164Weight47_analytic
+derive_weight_analytic [closedRow164Weight48]
+#print axioms closedRow164Weight48_analytic
+derive_weight_analytic [closedRow164Weight49]
+#print axioms closedRow164Weight49_analytic
+derive_weight_analytic [closedRow164Weight50]
+#print axioms closedRow164Weight50_analytic
+derive_weight_analytic [closedRow164Weight51]
+#print axioms closedRow164Weight51_analytic
+derive_weight_analytic [closedRow164Weight52]
+#print axioms closedRow164Weight52_analytic
+derive_weight_analytic [closedRow164Weight53]
+#print axioms closedRow164Weight53_analytic
+derive_weight_analytic [closedRow164Weight54]
+#print axioms closedRow164Weight54_analytic
+derive_weight_analytic [closedRow164Weight55]
+#print axioms closedRow164Weight55_analytic
+derive_weight_analytic [closedRow164Weight56]
+#print axioms closedRow164Weight56_analytic
+derive_weight_analytic [closedRow164Weight57]
+#print axioms closedRow164Weight57_analytic
+derive_weight_analytic [closedRow164Weight58]
+#print axioms closedRow164Weight58_analytic
+derive_weight_analytic [closedRow164Weight59]
+#print axioms closedRow164Weight59_analytic
+derive_weight_analytic [closedRow164Weight60]
+#print axioms closedRow164Weight60_analytic
+derive_weight_analytic [closedRow164Weight61]
+#print axioms closedRow164Weight61_analytic
+derive_weight_analytic [closedRow164Weight62]
+#print axioms closedRow164Weight62_analytic
+derive_weight_analytic [closedRow164Weight63]
+#print axioms closedRow164Weight63_analytic
+derive_weight_analytic [closedRow164Weight64]
+#print axioms closedRow164Weight64_analytic
+derive_weight_analytic [closedRow164Weight65]
+#print axioms closedRow164Weight65_analytic
+derive_weight_analytic [closedRow164Weight66]
+#print axioms closedRow164Weight66_analytic
+derive_weight_analytic [closedRow164Weight67]
+#print axioms closedRow164Weight67_analytic
+derive_weight_analytic [closedRow164Weight68]
+#print axioms closedRow164Weight68_analytic
+derive_weight_analytic [closedRow164Weight69]
+#print axioms closedRow164Weight69_analytic
+derive_weight_analytic [closedRow164Weight70]
+#print axioms closedRow164Weight70_analytic
+derive_weight_analytic [closedRow164Weight71]
+#print axioms closedRow164Weight71_analytic
+derive_weight_analytic [closedRow164Weight72]
+#print axioms closedRow164Weight72_analytic
+derive_weight_analytic [closedRow164Weight73]
+#print axioms closedRow164Weight73_analytic
+derive_weight_analytic [closedRow164Weight74]
+#print axioms closedRow164Weight74_analytic
+derive_weight_analytic [closedRow164Weight75]
+#print axioms closedRow164Weight75_analytic
+derive_weight_analytic [closedRow164Weight76]
+#print axioms closedRow164Weight76_analytic
+derive_weight_analytic [closedRow164Weight77]
+#print axioms closedRow164Weight77_analytic
+derive_weight_analytic [closedRow164Weight78]
+#print axioms closedRow164Weight78_analytic
+derive_weight_analytic [closedRow164Weight79]
+#print axioms closedRow164Weight79_analytic
+derive_weight_analytic [closedRow164Weight80]
+#print axioms closedRow164Weight80_analytic
+derive_weight_analytic [closedRow164Weight81]
+#print axioms closedRow164Weight81_analytic
+derive_weight_analytic [closedRow164Weight82]
+#print axioms closedRow164Weight82_analytic
+derive_weight_analytic [closedRow164Weight83]
+#print axioms closedRow164Weight83_analytic
+derive_weight_analytic [closedRow164Weight84]
+#print axioms closedRow164Weight84_analytic
+derive_weight_analytic [closedRow164Weight85]
+#print axioms closedRow164Weight85_analytic
+derive_weight_analytic [closedRow16Weight0]
+#print axioms closedRow16Weight0_analytic
+derive_weight_analytic [closedRow16Weight1]
+#print axioms closedRow16Weight1_analytic
+derive_weight_analytic [closedRow16Weight2]
+#print axioms closedRow16Weight2_analytic
+derive_weight_analytic [closedRow16Weight3]
+#print axioms closedRow16Weight3_analytic
+derive_weight_analytic [closedRow16Weight4]
+#print axioms closedRow16Weight4_analytic
+derive_weight_analytic [closedRow16Weight5]
+#print axioms closedRow16Weight5_analytic
+derive_weight_analytic [closedRow16Weight6]
+#print axioms closedRow16Weight6_analytic
+derive_weight_analytic [closedRow16Weight7]
+#print axioms closedRow16Weight7_analytic
+derive_weight_analytic [closedRow16Weight8]
+#print axioms closedRow16Weight8_analytic
+derive_weight_analytic [closedRow16Weight9]
+#print axioms closedRow16Weight9_analytic
+derive_weight_analytic [closedRow16Weight10]
+#print axioms closedRow16Weight10_analytic
+derive_weight_analytic [closedRow16Weight11]
+#print axioms closedRow16Weight11_analytic
+derive_weight_analytic [closedRow16Weight12]
+#print axioms closedRow16Weight12_analytic
+derive_weight_analytic [closedRow16Weight13]
+#print axioms closedRow16Weight13_analytic
+derive_weight_analytic [closedRow16Weight14]
+#print axioms closedRow16Weight14_analytic
+derive_weight_analytic [closedRow16Weight15]
+#print axioms closedRow16Weight15_analytic
+derive_weight_analytic [closedRow16Weight16]
+#print axioms closedRow16Weight16_analytic
+derive_weight_analytic [closedRow16Weight17]
+#print axioms closedRow16Weight17_analytic
+derive_weight_analytic [closedRow16Weight18]
+#print axioms closedRow16Weight18_analytic
+derive_weight_analytic [closedRow16Weight19]
+#print axioms closedRow16Weight19_analytic
+derive_weight_analytic [closedRow16Weight20]
+#print axioms closedRow16Weight20_analytic
+derive_weight_analytic [closedRow16Weight21]
+#print axioms closedRow16Weight21_analytic
+derive_weight_analytic [closedRow16Weight22]
+#print axioms closedRow16Weight22_analytic
+derive_weight_analytic [closedRow16Weight23]
+#print axioms closedRow16Weight23_analytic
+derive_weight_analytic [closedRow16Weight24]
+#print axioms closedRow16Weight24_analytic
+derive_weight_analytic [closedRow16Weight25]
+#print axioms closedRow16Weight25_analytic
+derive_weight_analytic [closedRow16Weight26]
+#print axioms closedRow16Weight26_analytic
+derive_weight_analytic [closedRow16Weight27]
+#print axioms closedRow16Weight27_analytic
+derive_weight_analytic [closedRow16Weight28]
+#print axioms closedRow16Weight28_analytic
+derive_weight_analytic [closedRow16Weight29]
+#print axioms closedRow16Weight29_analytic
+derive_weight_analytic [closedRow16Weight30]
+#print axioms closedRow16Weight30_analytic
+derive_weight_analytic [closedRow16Weight31]
+#print axioms closedRow16Weight31_analytic
+derive_weight_analytic [closedRow16Weight32]
+#print axioms closedRow16Weight32_analytic
+derive_weight_analytic [closedRow16Weight33]
+#print axioms closedRow16Weight33_analytic
+derive_weight_analytic [closedRow16Weight34]
+#print axioms closedRow16Weight34_analytic
+derive_weight_analytic [closedRow16Weight35]
+#print axioms closedRow16Weight35_analytic
+derive_weight_analytic [closedRow16Weight36]
+#print axioms closedRow16Weight36_analytic
+derive_weight_analytic [closedRow16Weight37]
+#print axioms closedRow16Weight37_analytic
+derive_weight_analytic [closedRow16Weight38]
+#print axioms closedRow16Weight38_analytic
+derive_weight_analytic [closedRow16Weight39]
+#print axioms closedRow16Weight39_analytic
+derive_weight_analytic [closedRow16Weight40]
+#print axioms closedRow16Weight40_analytic
+derive_weight_analytic [closedRow16Weight41]
+#print axioms closedRow16Weight41_analytic
+derive_weight_analytic [closedRow16Weight42]
+#print axioms closedRow16Weight42_analytic
+derive_weight_analytic [closedRow16Weight43]
+#print axioms closedRow16Weight43_analytic
+derive_weight_analytic [closedRow16Weight44]
+#print axioms closedRow16Weight44_analytic
+derive_weight_analytic [closedRow16Weight45]
+#print axioms closedRow16Weight45_analytic
+derive_weight_analytic [closedRow16Weight46]
+#print axioms closedRow16Weight46_analytic
+derive_weight_analytic [closedRow16Weight47]
+#print axioms closedRow16Weight47_analytic
+derive_weight_analytic [closedRow16Weight48]
+#print axioms closedRow16Weight48_analytic
+derive_weight_analytic [closedRow16Weight49]
+#print axioms closedRow16Weight49_analytic
+derive_weight_analytic [closedRow16Weight50]
+#print axioms closedRow16Weight50_analytic
+derive_weight_analytic [closedRow16Weight51]
+#print axioms closedRow16Weight51_analytic
+derive_weight_analytic [closedRow16Weight52]
+#print axioms closedRow16Weight52_analytic
+derive_weight_analytic [closedRow16Weight53]
+#print axioms closedRow16Weight53_analytic
+derive_weight_analytic [closedRow16Weight54]
+#print axioms closedRow16Weight54_analytic
+derive_weight_analytic [closedRow16Weight55]
+#print axioms closedRow16Weight55_analytic
+derive_weight_analytic [closedRow16Weight56]
+#print axioms closedRow16Weight56_analytic
+derive_weight_analytic [closedRow16Weight57]
+#print axioms closedRow16Weight57_analytic
+derive_weight_analytic [closedRow16Weight58]
+#print axioms closedRow16Weight58_analytic
+derive_weight_analytic [closedRow16Weight59]
+#print axioms closedRow16Weight59_analytic
+derive_weight_analytic [closedRow16Weight60]
+#print axioms closedRow16Weight60_analytic
+derive_weight_analytic [closedRow16Weight61]
+#print axioms closedRow16Weight61_analytic
+derive_weight_analytic [closedRow16Weight62]
+#print axioms closedRow16Weight62_analytic
+derive_weight_analytic [closedRow16Weight63]
+#print axioms closedRow16Weight63_analytic
+derive_weight_analytic [closedRow16Weight64]
+#print axioms closedRow16Weight64_analytic
+derive_weight_analytic [closedRow16Weight65]
+#print axioms closedRow16Weight65_analytic
+derive_weight_analytic [closedRow16Weight66]
+#print axioms closedRow16Weight66_analytic
+derive_weight_analytic [closedRow16Weight67]
+#print axioms closedRow16Weight67_analytic
+derive_weight_analytic [closedRow16Weight68]
+#print axioms closedRow16Weight68_analytic
+derive_weight_analytic [closedRow16Weight69]
+#print axioms closedRow16Weight69_analytic
+derive_weight_analytic [closedRow16Weight70]
+#print axioms closedRow16Weight70_analytic
+derive_weight_analytic [closedRow16Weight71]
+#print axioms closedRow16Weight71_analytic
+derive_weight_analytic [closedRow16Weight72]
+#print axioms closedRow16Weight72_analytic
+derive_weight_analytic [closedRow16Weight73]
+#print axioms closedRow16Weight73_analytic
+derive_weight_analytic [closedRow16Weight74]
+#print axioms closedRow16Weight74_analytic
+derive_weight_analytic [closedRow16Weight75]
+#print axioms closedRow16Weight75_analytic
+derive_weight_analytic [closedRow16Weight76]
+#print axioms closedRow16Weight76_analytic
+derive_weight_analytic [closedRow16Weight77]
+#print axioms closedRow16Weight77_analytic
+derive_weight_analytic [closedRow16Weight78]
+#print axioms closedRow16Weight78_analytic
+derive_weight_analytic [closedRow16Weight79]
+#print axioms closedRow16Weight79_analytic
+derive_weight_analytic [closedRow16Weight80]
+#print axioms closedRow16Weight80_analytic
+derive_weight_analytic [closedRow16Weight81]
+#print axioms closedRow16Weight81_analytic
+derive_weight_analytic [closedRow16Weight82]
+#print axioms closedRow16Weight82_analytic
+derive_weight_analytic [closedRow16Weight83]
+#print axioms closedRow16Weight83_analytic
+derive_weight_analytic [closedRow16Weight84]
+#print axioms closedRow16Weight84_analytic
+derive_weight_analytic [closedRow16Weight85]
+#print axioms closedRow16Weight85_analytic
+derive_weight_analytic [closedRow16Weight86]
+#print axioms closedRow16Weight86_analytic
+derive_weight_analytic [closedRow16Weight87]
+#print axioms closedRow16Weight87_analytic
+derive_weight_analytic [closedRow16Weight88]
+#print axioms closedRow16Weight88_analytic
+derive_weight_analytic [closedRow16Weight89]
+#print axioms closedRow16Weight89_analytic
+derive_weight_analytic [closedRow16Weight90]
+#print axioms closedRow16Weight90_analytic
+derive_weight_analytic [closedRow16Weight91]
+#print axioms closedRow16Weight91_analytic
+derive_weight_analytic [closedRow16Weight92]
+#print axioms closedRow16Weight92_analytic
+derive_weight_analytic [closedRow18Weight0]
+#print axioms closedRow18Weight0_analytic
+derive_weight_analytic [closedRow18Weight1]
+#print axioms closedRow18Weight1_analytic
+derive_weight_analytic [closedRow18Weight2]
+#print axioms closedRow18Weight2_analytic
+derive_weight_analytic [closedRow18Weight3]
+#print axioms closedRow18Weight3_analytic
+derive_weight_analytic [closedRow18Weight4]
+#print axioms closedRow18Weight4_analytic
+derive_weight_analytic [closedRow18Weight5]
+#print axioms closedRow18Weight5_analytic
+derive_weight_analytic [closedRow18Weight6]
+#print axioms closedRow18Weight6_analytic
+derive_weight_analytic [closedRow18Weight7]
+#print axioms closedRow18Weight7_analytic
+derive_weight_analytic [closedRow18Weight8]
+#print axioms closedRow18Weight8_analytic
+derive_weight_analytic [closedRow18Weight9]
+#print axioms closedRow18Weight9_analytic
+derive_weight_analytic [closedRow18Weight10]
+#print axioms closedRow18Weight10_analytic
+derive_weight_analytic [closedRow18Weight11]
+#print axioms closedRow18Weight11_analytic
+derive_weight_analytic [closedRow18Weight12]
+#print axioms closedRow18Weight12_analytic
+derive_weight_analytic [closedRow18Weight13]
+#print axioms closedRow18Weight13_analytic
+derive_weight_analytic [closedRow18Weight14]
+#print axioms closedRow18Weight14_analytic
+derive_weight_analytic [closedRow18Weight15]
+#print axioms closedRow18Weight15_analytic
+derive_weight_analytic [closedRow18Weight16]
+#print axioms closedRow18Weight16_analytic
+derive_weight_analytic [closedRow18Weight17]
+#print axioms closedRow18Weight17_analytic
+derive_weight_analytic [closedRow18Weight18]
+#print axioms closedRow18Weight18_analytic
+derive_weight_analytic [closedRow18Weight19]
+#print axioms closedRow18Weight19_analytic
+derive_weight_analytic [closedRow18Weight20]
+#print axioms closedRow18Weight20_analytic
+derive_weight_analytic [closedRow18Weight21]
+#print axioms closedRow18Weight21_analytic
+derive_weight_analytic [closedRow18Weight22]
+#print axioms closedRow18Weight22_analytic
+derive_weight_analytic [closedRow18Weight23]
+#print axioms closedRow18Weight23_analytic
+derive_weight_analytic [closedRow18Weight24]
+#print axioms closedRow18Weight24_analytic
+derive_weight_analytic [closedRow18Weight25]
+#print axioms closedRow18Weight25_analytic
+derive_weight_analytic [closedRow18Weight26]
+#print axioms closedRow18Weight26_analytic
+derive_weight_analytic [closedRow18Weight27]
+#print axioms closedRow18Weight27_analytic
+derive_weight_analytic [closedRow18Weight28]
+#print axioms closedRow18Weight28_analytic
+derive_weight_analytic [closedRow18Weight29]
+#print axioms closedRow18Weight29_analytic
+derive_weight_analytic [closedRow18Weight30]
+#print axioms closedRow18Weight30_analytic
+derive_weight_analytic [closedRow18Weight31]
+#print axioms closedRow18Weight31_analytic
+derive_weight_analytic [closedRow18Weight32]
+#print axioms closedRow18Weight32_analytic
+derive_weight_analytic [closedRow18Weight33]
+#print axioms closedRow18Weight33_analytic
+derive_weight_analytic [closedRow18Weight34]
+#print axioms closedRow18Weight34_analytic
+derive_weight_analytic [closedRow18Weight35]
+#print axioms closedRow18Weight35_analytic
+derive_weight_analytic [closedRow18Weight36]
+#print axioms closedRow18Weight36_analytic
+derive_weight_analytic [closedRow18Weight37]
+#print axioms closedRow18Weight37_analytic
+derive_weight_analytic [closedRow18Weight38]
+#print axioms closedRow18Weight38_analytic
+derive_weight_analytic [closedRow18Weight39]
+#print axioms closedRow18Weight39_analytic
+derive_weight_analytic [closedRow18Weight40]
+#print axioms closedRow18Weight40_analytic
+derive_weight_analytic [closedRow18Weight41]
+#print axioms closedRow18Weight41_analytic
+derive_weight_analytic [closedRow18Weight42]
+#print axioms closedRow18Weight42_analytic
+derive_weight_analytic [closedRow18Weight43]
+#print axioms closedRow18Weight43_analytic
+derive_weight_analytic [closedRow18Weight44]
+#print axioms closedRow18Weight44_analytic
+derive_weight_analytic [closedRow18Weight45]
+#print axioms closedRow18Weight45_analytic
+derive_weight_analytic [closedRow18Weight46]
+#print axioms closedRow18Weight46_analytic
+derive_weight_analytic [closedRow18Weight47]
+#print axioms closedRow18Weight47_analytic
+derive_weight_analytic [closedRow18Weight48]
+#print axioms closedRow18Weight48_analytic
+derive_weight_analytic [closedRow18Weight49]
+#print axioms closedRow18Weight49_analytic
+derive_weight_analytic [closedRow18Weight50]
+#print axioms closedRow18Weight50_analytic
+derive_weight_analytic [closedRow18Weight51]
+#print axioms closedRow18Weight51_analytic
+derive_weight_analytic [closedRow18Weight52]
+#print axioms closedRow18Weight52_analytic
+derive_weight_analytic [closedRow18Weight53]
+#print axioms closedRow18Weight53_analytic
+derive_weight_analytic [closedRow18Weight54]
+#print axioms closedRow18Weight54_analytic
+derive_weight_analytic [closedRow18Weight55]
+#print axioms closedRow18Weight55_analytic
+derive_weight_analytic [closedRow18Weight56]
+#print axioms closedRow18Weight56_analytic
+derive_weight_analytic [closedRow18Weight57]
+#print axioms closedRow18Weight57_analytic
+derive_weight_analytic [closedRow18Weight58]
+#print axioms closedRow18Weight58_analytic
+derive_weight_analytic [closedRow18Weight59]
+#print axioms closedRow18Weight59_analytic
+derive_weight_analytic [closedRow18Weight60]
+#print axioms closedRow18Weight60_analytic
+derive_weight_analytic [closedRow18Weight61]
+#print axioms closedRow18Weight61_analytic
+derive_weight_analytic [closedRow18Weight62]
+#print axioms closedRow18Weight62_analytic
+derive_weight_analytic [closedRow18Weight63]
+#print axioms closedRow18Weight63_analytic
+derive_weight_analytic [closedRow18Weight64]
+#print axioms closedRow18Weight64_analytic
+derive_weight_analytic [closedRow18Weight65]
+#print axioms closedRow18Weight65_analytic
+derive_weight_analytic [closedRow18Weight66]
+#print axioms closedRow18Weight66_analytic
+derive_weight_analytic [closedRow18Weight67]
+#print axioms closedRow18Weight67_analytic
+derive_weight_analytic [closedRow18Weight68]
+#print axioms closedRow18Weight68_analytic
+derive_weight_analytic [closedRow18Weight69]
+#print axioms closedRow18Weight69_analytic
+derive_weight_analytic [closedRow18Weight70]
+#print axioms closedRow18Weight70_analytic
+derive_weight_analytic [closedRow18Weight71]
+#print axioms closedRow18Weight71_analytic
+derive_weight_analytic [closedRow18Weight72]
+#print axioms closedRow18Weight72_analytic
+derive_weight_analytic [closedRow18Weight73]
+#print axioms closedRow18Weight73_analytic
+derive_weight_analytic [closedRow18Weight74]
+#print axioms closedRow18Weight74_analytic
+derive_weight_analytic [closedRow18Weight75]
+#print axioms closedRow18Weight75_analytic
+derive_weight_analytic [closedRow18Weight76]
+#print axioms closedRow18Weight76_analytic
+derive_weight_analytic [closedRow18Weight77]
+#print axioms closedRow18Weight77_analytic
+derive_weight_analytic [closedRow18Weight78]
+#print axioms closedRow18Weight78_analytic
+derive_weight_analytic [closedRow18Weight79]
+#print axioms closedRow18Weight79_analytic
+derive_weight_analytic [closedRow18Weight80]
+#print axioms closedRow18Weight80_analytic
+derive_weight_analytic [closedRow18Weight81]
+#print axioms closedRow18Weight81_analytic
+derive_weight_analytic [closedRow18Weight82]
+#print axioms closedRow18Weight82_analytic
+derive_weight_analytic [closedRow18Weight83]
+#print axioms closedRow18Weight83_analytic
+derive_weight_analytic [closedRow18Weight84]
+#print axioms closedRow18Weight84_analytic
+derive_weight_analytic [closedRow18Weight85]
+#print axioms closedRow18Weight85_analytic
+derive_weight_analytic [closedRow18Weight86]
+#print axioms closedRow18Weight86_analytic
+derive_weight_analytic [closedRow18Weight87]
+#print axioms closedRow18Weight87_analytic
+derive_weight_analytic [closedRow18Weight88]
+#print axioms closedRow18Weight88_analytic
+derive_weight_analytic [closedRow19Weight0]
+#print axioms closedRow19Weight0_analytic
+derive_weight_analytic [closedRow19Weight1]
+#print axioms closedRow19Weight1_analytic
+derive_weight_analytic [closedRow19Weight2]
+#print axioms closedRow19Weight2_analytic
+derive_weight_analytic [closedRow19Weight3]
+#print axioms closedRow19Weight3_analytic
+derive_weight_analytic [closedRow19Weight4]
+#print axioms closedRow19Weight4_analytic
+derive_weight_analytic [closedRow19Weight5]
+#print axioms closedRow19Weight5_analytic
+derive_weight_analytic [closedRow19Weight6]
+#print axioms closedRow19Weight6_analytic
+derive_weight_analytic [closedRow19Weight7]
+#print axioms closedRow19Weight7_analytic
+derive_weight_analytic [closedRow19Weight8]
+#print axioms closedRow19Weight8_analytic
+derive_weight_analytic [closedRow19Weight9]
+#print axioms closedRow19Weight9_analytic
+derive_weight_analytic [closedRow19Weight10]
+#print axioms closedRow19Weight10_analytic
+derive_weight_analytic [closedRow19Weight11]
+#print axioms closedRow19Weight11_analytic
+derive_weight_analytic [closedRow19Weight12]
+#print axioms closedRow19Weight12_analytic
+derive_weight_analytic [closedRow19Weight13]
+#print axioms closedRow19Weight13_analytic
+derive_weight_analytic [closedRow19Weight14]
+#print axioms closedRow19Weight14_analytic
+derive_weight_analytic [closedRow19Weight15]
+#print axioms closedRow19Weight15_analytic
+derive_weight_analytic [closedRow19Weight16]
+#print axioms closedRow19Weight16_analytic
+derive_weight_analytic [closedRow19Weight17]
+#print axioms closedRow19Weight17_analytic
+derive_weight_analytic [closedRow19Weight18]
+#print axioms closedRow19Weight18_analytic
+derive_weight_analytic [closedRow19Weight19]
+#print axioms closedRow19Weight19_analytic
+derive_weight_analytic [closedRow19Weight20]
+#print axioms closedRow19Weight20_analytic
+derive_weight_analytic [closedRow19Weight21]
+#print axioms closedRow19Weight21_analytic
+derive_weight_analytic [closedRow19Weight22]
+#print axioms closedRow19Weight22_analytic
+derive_weight_analytic [closedRow19Weight23]
+#print axioms closedRow19Weight23_analytic
+derive_weight_analytic [closedRow19Weight24]
+#print axioms closedRow19Weight24_analytic
+derive_weight_analytic [closedRow19Weight25]
+#print axioms closedRow19Weight25_analytic
+derive_weight_analytic [closedRow19Weight26]
+#print axioms closedRow19Weight26_analytic
+derive_weight_analytic [closedRow19Weight27]
+#print axioms closedRow19Weight27_analytic
+derive_weight_analytic [closedRow19Weight28]
+#print axioms closedRow19Weight28_analytic
+derive_weight_analytic [closedRow19Weight29]
+#print axioms closedRow19Weight29_analytic
+derive_weight_analytic [closedRow19Weight30]
+#print axioms closedRow19Weight30_analytic
+derive_weight_analytic [closedRow19Weight31]
+#print axioms closedRow19Weight31_analytic
+derive_weight_analytic [closedRow19Weight32]
+#print axioms closedRow19Weight32_analytic
+derive_weight_analytic [closedRow19Weight33]
+#print axioms closedRow19Weight33_analytic
+derive_weight_analytic [closedRow19Weight34]
+#print axioms closedRow19Weight34_analytic
+derive_weight_analytic [closedRow19Weight35]
+#print axioms closedRow19Weight35_analytic
+derive_weight_analytic [closedRow19Weight36]
+#print axioms closedRow19Weight36_analytic
+derive_weight_analytic [closedRow19Weight37]
+#print axioms closedRow19Weight37_analytic
+derive_weight_analytic [closedRow19Weight38]
+#print axioms closedRow19Weight38_analytic
+derive_weight_analytic [closedRow19Weight39]
+#print axioms closedRow19Weight39_analytic
+derive_weight_analytic [closedRow19Weight40]
+#print axioms closedRow19Weight40_analytic
+derive_weight_analytic [closedRow19Weight41]
+#print axioms closedRow19Weight41_analytic
+derive_weight_analytic [closedRow19Weight42]
+#print axioms closedRow19Weight42_analytic
+derive_weight_analytic [closedRow19Weight43]
+#print axioms closedRow19Weight43_analytic
+derive_weight_analytic [closedRow19Weight44]
+#print axioms closedRow19Weight44_analytic
+derive_weight_analytic [closedRow19Weight45]
+#print axioms closedRow19Weight45_analytic
+derive_weight_analytic [closedRow19Weight46]
+#print axioms closedRow19Weight46_analytic
+derive_weight_analytic [closedRow19Weight47]
+#print axioms closedRow19Weight47_analytic
+derive_weight_analytic [closedRow19Weight48]
+#print axioms closedRow19Weight48_analytic
+derive_weight_analytic [closedRow19Weight49]
+#print axioms closedRow19Weight49_analytic
+derive_weight_analytic [closedRow19Weight50]
+#print axioms closedRow19Weight50_analytic
+derive_weight_analytic [closedRow19Weight51]
+#print axioms closedRow19Weight51_analytic
+derive_weight_analytic [closedRow19Weight52]
+#print axioms closedRow19Weight52_analytic
+derive_weight_analytic [closedRow19Weight53]
+#print axioms closedRow19Weight53_analytic
+derive_weight_analytic [closedRow19Weight54]
+#print axioms closedRow19Weight54_analytic
+derive_weight_analytic [closedRow19Weight55]
+#print axioms closedRow19Weight55_analytic
+derive_weight_analytic [closedRow19Weight56]
+#print axioms closedRow19Weight56_analytic
+derive_weight_analytic [closedRow19Weight57]
+#print axioms closedRow19Weight57_analytic
+derive_weight_analytic [closedRow19Weight58]
+#print axioms closedRow19Weight58_analytic
+derive_weight_analytic [closedRow19Weight59]
+#print axioms closedRow19Weight59_analytic
+derive_weight_analytic [closedRow19Weight60]
+#print axioms closedRow19Weight60_analytic
+derive_weight_analytic [closedRow19Weight61]
+#print axioms closedRow19Weight61_analytic
+derive_weight_analytic [closedRow19Weight62]
+#print axioms closedRow19Weight62_analytic
+derive_weight_analytic [closedRow19Weight63]
+#print axioms closedRow19Weight63_analytic
+derive_weight_analytic [closedRow19Weight64]
+#print axioms closedRow19Weight64_analytic
+derive_weight_analytic [closedRow19Weight65]
+#print axioms closedRow19Weight65_analytic
+derive_weight_analytic [closedRow19Weight66]
+#print axioms closedRow19Weight66_analytic
+derive_weight_analytic [closedRow19Weight67]
+#print axioms closedRow19Weight67_analytic
+derive_weight_analytic [closedRow19Weight68]
+#print axioms closedRow19Weight68_analytic
+derive_weight_analytic [closedRow19Weight69]
+#print axioms closedRow19Weight69_analytic
+derive_weight_analytic [closedRow19Weight70]
+#print axioms closedRow19Weight70_analytic
+derive_weight_analytic [closedRow19Weight71]
+#print axioms closedRow19Weight71_analytic
+derive_weight_analytic [closedRow19Weight72]
+#print axioms closedRow19Weight72_analytic
+derive_weight_analytic [closedRow19Weight73]
+#print axioms closedRow19Weight73_analytic
+derive_weight_analytic [closedRow19Weight74]
+#print axioms closedRow19Weight74_analytic
+derive_weight_analytic [closedRow19Weight75]
+#print axioms closedRow19Weight75_analytic
+derive_weight_analytic [closedRow19Weight76]
+#print axioms closedRow19Weight76_analytic
+derive_weight_analytic [closedRow19Weight77]
+#print axioms closedRow19Weight77_analytic
+derive_weight_analytic [closedRow19Weight78]
+#print axioms closedRow19Weight78_analytic
+derive_weight_analytic [closedRow19Weight79]
+#print axioms closedRow19Weight79_analytic
+derive_weight_analytic [closedRow19Weight80]
+#print axioms closedRow19Weight80_analytic
+derive_weight_analytic [closedRow19Weight81]
+#print axioms closedRow19Weight81_analytic
+derive_weight_analytic [closedRow19Weight82]
+#print axioms closedRow19Weight82_analytic
+derive_weight_analytic [closedRow19Weight83]
+#print axioms closedRow19Weight83_analytic
+derive_weight_analytic [closedRow19Weight84]
+#print axioms closedRow19Weight84_analytic
+derive_weight_analytic [closedRow19Weight85]
+#print axioms closedRow19Weight85_analytic
+derive_weight_analytic [closedRow19Weight86]
+#print axioms closedRow19Weight86_analytic
+derive_weight_analytic [closedRow19Weight87]
+#print axioms closedRow19Weight87_analytic
+derive_weight_analytic [closedRow19Weight88]
+#print axioms closedRow19Weight88_analytic
+derive_weight_analytic [closedRow19Weight89]
+#print axioms closedRow19Weight89_analytic
+derive_weight_analytic [closedRow19Weight90]
+#print axioms closedRow19Weight90_analytic
+derive_weight_analytic [closedRow19Weight91]
+#print axioms closedRow19Weight91_analytic
+derive_weight_analytic [closedRow19Weight92]
+#print axioms closedRow19Weight92_analytic
+derive_weight_analytic [closedRow3Weight0]
+#print axioms closedRow3Weight0_analytic
+derive_weight_analytic [closedRow3Weight1]
+#print axioms closedRow3Weight1_analytic
+derive_weight_analytic [closedRow3Weight2]
+#print axioms closedRow3Weight2_analytic
+derive_weight_analytic [closedRow3Weight3]
+#print axioms closedRow3Weight3_analytic
+derive_weight_analytic [closedRow3Weight4]
+#print axioms closedRow3Weight4_analytic
+derive_weight_analytic [closedRow3Weight5]
+#print axioms closedRow3Weight5_analytic
+derive_weight_analytic [closedRow3Weight6]
+#print axioms closedRow3Weight6_analytic
+derive_weight_analytic [closedRow3Weight7]
+#print axioms closedRow3Weight7_analytic
+derive_weight_analytic [closedRow3Weight8]
+#print axioms closedRow3Weight8_analytic
+derive_weight_analytic [closedRow3Weight9]
+#print axioms closedRow3Weight9_analytic
+derive_weight_analytic [closedRow3Weight10]
+#print axioms closedRow3Weight10_analytic
+derive_weight_analytic [closedRow3Weight11]
+#print axioms closedRow3Weight11_analytic
+derive_weight_analytic [closedRow3Weight12]
+#print axioms closedRow3Weight12_analytic
+derive_weight_analytic [closedRow3Weight13]
+#print axioms closedRow3Weight13_analytic
+derive_weight_analytic [closedRow3Weight14]
+#print axioms closedRow3Weight14_analytic
+derive_weight_analytic [closedRow3Weight15]
+#print axioms closedRow3Weight15_analytic
+derive_weight_analytic [closedRow3Weight16]
+#print axioms closedRow3Weight16_analytic
+derive_weight_analytic [closedRow3Weight17]
+#print axioms closedRow3Weight17_analytic
+derive_weight_analytic [closedRow3Weight18]
+#print axioms closedRow3Weight18_analytic
+derive_weight_analytic [closedRow3Weight19]
+#print axioms closedRow3Weight19_analytic
+derive_weight_analytic [closedRow3Weight20]
+#print axioms closedRow3Weight20_analytic
+derive_weight_analytic [closedRow3Weight21]
+#print axioms closedRow3Weight21_analytic
+derive_weight_analytic [closedRow3Weight22]
+#print axioms closedRow3Weight22_analytic
+derive_weight_analytic [closedRow3Weight23]
+#print axioms closedRow3Weight23_analytic
+derive_weight_analytic [closedRow3Weight24]
+#print axioms closedRow3Weight24_analytic
+derive_weight_analytic [closedRow3Weight25]
+#print axioms closedRow3Weight25_analytic
+derive_weight_analytic [closedRow3Weight26]
+#print axioms closedRow3Weight26_analytic
+derive_weight_analytic [closedRow3Weight27]
+#print axioms closedRow3Weight27_analytic
+derive_weight_analytic [closedRow3Weight28]
+#print axioms closedRow3Weight28_analytic
+derive_weight_analytic [closedRow3Weight29]
+#print axioms closedRow3Weight29_analytic
+derive_weight_analytic [closedRow3Weight30]
+#print axioms closedRow3Weight30_analytic
+derive_weight_analytic [closedRow3Weight31]
+#print axioms closedRow3Weight31_analytic
+derive_weight_analytic [closedRow3Weight32]
+#print axioms closedRow3Weight32_analytic
+derive_weight_analytic [closedRow3Weight33]
+#print axioms closedRow3Weight33_analytic
+derive_weight_analytic [closedRow3Weight34]
+#print axioms closedRow3Weight34_analytic
+derive_weight_analytic [closedRow3Weight35]
+#print axioms closedRow3Weight35_analytic
+derive_weight_analytic [closedRow3Weight36]
+#print axioms closedRow3Weight36_analytic
+derive_weight_analytic [closedRow3Weight37]
+#print axioms closedRow3Weight37_analytic
+derive_weight_analytic [closedRow3Weight38]
+#print axioms closedRow3Weight38_analytic
+derive_weight_analytic [closedRow3Weight39]
+#print axioms closedRow3Weight39_analytic
+derive_weight_analytic [closedRow3Weight40]
+#print axioms closedRow3Weight40_analytic
+derive_weight_analytic [closedRow3Weight41]
+#print axioms closedRow3Weight41_analytic
+derive_weight_analytic [closedRow3Weight42]
+#print axioms closedRow3Weight42_analytic
+derive_weight_analytic [closedRow3Weight43]
+#print axioms closedRow3Weight43_analytic
+derive_weight_analytic [closedRow3Weight44]
+#print axioms closedRow3Weight44_analytic
+derive_weight_analytic [closedRow3Weight45]
+#print axioms closedRow3Weight45_analytic
+derive_weight_analytic [closedRow3Weight46]
+#print axioms closedRow3Weight46_analytic
+derive_weight_analytic [closedRow3Weight47]
+#print axioms closedRow3Weight47_analytic
+derive_weight_analytic [closedRow3Weight48]
+#print axioms closedRow3Weight48_analytic
+derive_weight_analytic [closedRow3Weight49]
+#print axioms closedRow3Weight49_analytic
+derive_weight_analytic [closedRow3Weight50]
+#print axioms closedRow3Weight50_analytic
+derive_weight_analytic [closedRow3Weight51]
+#print axioms closedRow3Weight51_analytic
+derive_weight_analytic [closedRow3Weight52]
+#print axioms closedRow3Weight52_analytic
+derive_weight_analytic [closedRow3Weight53]
+#print axioms closedRow3Weight53_analytic
+derive_weight_analytic [closedRow3Weight54]
+#print axioms closedRow3Weight54_analytic
+derive_weight_analytic [closedRow3Weight55]
+#print axioms closedRow3Weight55_analytic
+derive_weight_analytic [closedRow3Weight56]
+#print axioms closedRow3Weight56_analytic
+derive_weight_analytic [closedRow3Weight57]
+#print axioms closedRow3Weight57_analytic
+derive_weight_analytic [closedRow3Weight58]
+#print axioms closedRow3Weight58_analytic
+derive_weight_analytic [closedRow3Weight59]
+#print axioms closedRow3Weight59_analytic
+derive_weight_analytic [closedRow3Weight60]
+#print axioms closedRow3Weight60_analytic
+derive_weight_analytic [closedRow3Weight61]
+#print axioms closedRow3Weight61_analytic
+derive_weight_analytic [closedRow3Weight62]
+#print axioms closedRow3Weight62_analytic
+derive_weight_analytic [closedRow3Weight63]
+#print axioms closedRow3Weight63_analytic
+derive_weight_analytic [closedRow3Weight64]
+#print axioms closedRow3Weight64_analytic
+derive_weight_analytic [closedRow3Weight65]
+#print axioms closedRow3Weight65_analytic
+derive_weight_analytic [closedRow3Weight66]
+#print axioms closedRow3Weight66_analytic
+derive_weight_analytic [closedRow3Weight67]
+#print axioms closedRow3Weight67_analytic
+derive_weight_analytic [closedRow3Weight68]
+#print axioms closedRow3Weight68_analytic
+derive_weight_analytic [closedRow3Weight69]
+#print axioms closedRow3Weight69_analytic
+derive_weight_analytic [closedRow3Weight70]
+#print axioms closedRow3Weight70_analytic
+derive_weight_analytic [closedRow3Weight71]
+#print axioms closedRow3Weight71_analytic
+derive_weight_analytic [closedRow3Weight72]
+#print axioms closedRow3Weight72_analytic
+derive_weight_analytic [closedRow3Weight73]
+#print axioms closedRow3Weight73_analytic
+derive_weight_analytic [closedRow3Weight74]
+#print axioms closedRow3Weight74_analytic
+derive_weight_analytic [closedRow45Weight0]
+#print axioms closedRow45Weight0_analytic
+derive_weight_analytic [closedRow45Weight1]
+#print axioms closedRow45Weight1_analytic
+derive_weight_analytic [closedRow45Weight2]
+#print axioms closedRow45Weight2_analytic
+derive_weight_analytic [closedRow45Weight3]
+#print axioms closedRow45Weight3_analytic
+derive_weight_analytic [closedRow45Weight4]
+#print axioms closedRow45Weight4_analytic
+derive_weight_analytic [closedRow45Weight5]
+#print axioms closedRow45Weight5_analytic
+derive_weight_analytic [closedRow45Weight6]
+#print axioms closedRow45Weight6_analytic
+derive_weight_analytic [closedRow45Weight7]
+#print axioms closedRow45Weight7_analytic
+derive_weight_analytic [closedRow45Weight8]
+#print axioms closedRow45Weight8_analytic
+derive_weight_analytic [closedRow45Weight9]
+#print axioms closedRow45Weight9_analytic
+derive_weight_analytic [closedRow45Weight10]
+#print axioms closedRow45Weight10_analytic
+derive_weight_analytic [closedRow45Weight11]
+#print axioms closedRow45Weight11_analytic
+derive_weight_analytic [closedRow45Weight12]
+#print axioms closedRow45Weight12_analytic
+derive_weight_analytic [closedRow45Weight13]
+#print axioms closedRow45Weight13_analytic
+derive_weight_analytic [closedRow45Weight14]
+#print axioms closedRow45Weight14_analytic
+derive_weight_analytic [closedRow45Weight15]
+#print axioms closedRow45Weight15_analytic
+derive_weight_analytic [closedRow45Weight16]
+#print axioms closedRow45Weight16_analytic
+derive_weight_analytic [closedRow45Weight17]
+#print axioms closedRow45Weight17_analytic
+derive_weight_analytic [closedRow45Weight18]
+#print axioms closedRow45Weight18_analytic
+derive_weight_analytic [closedRow45Weight19]
+#print axioms closedRow45Weight19_analytic
+derive_weight_analytic [closedRow45Weight20]
+#print axioms closedRow45Weight20_analytic
+derive_weight_analytic [closedRow45Weight21]
+#print axioms closedRow45Weight21_analytic
+derive_weight_analytic [closedRow45Weight22]
+#print axioms closedRow45Weight22_analytic
+derive_weight_analytic [closedRow45Weight23]
+#print axioms closedRow45Weight23_analytic
+derive_weight_analytic [closedRow45Weight24]
+#print axioms closedRow45Weight24_analytic
+derive_weight_analytic [closedRow45Weight25]
+#print axioms closedRow45Weight25_analytic
+derive_weight_analytic [closedRow53Weight0]
+#print axioms closedRow53Weight0_analytic
+derive_weight_analytic [closedRow53Weight1]
+#print axioms closedRow53Weight1_analytic
+derive_weight_analytic [closedRow53Weight2]
+#print axioms closedRow53Weight2_analytic
+derive_weight_analytic [closedRow53Weight3]
+#print axioms closedRow53Weight3_analytic
+derive_weight_analytic [closedRow53Weight4]
+#print axioms closedRow53Weight4_analytic
+derive_weight_analytic [closedRow53Weight5]
+#print axioms closedRow53Weight5_analytic
+derive_weight_analytic [closedRow53Weight6]
+#print axioms closedRow53Weight6_analytic
+derive_weight_analytic [closedRow53Weight7]
+#print axioms closedRow53Weight7_analytic
+derive_weight_analytic [closedRow53Weight8]
+#print axioms closedRow53Weight8_analytic
+derive_weight_analytic [closedRow53Weight9]
+#print axioms closedRow53Weight9_analytic
+derive_weight_analytic [closedRow53Weight10]
+#print axioms closedRow53Weight10_analytic
+derive_weight_analytic [closedRow53Weight11]
+#print axioms closedRow53Weight11_analytic
+derive_weight_analytic [closedRow53Weight12]
+#print axioms closedRow53Weight12_analytic
+derive_weight_analytic [closedRow53Weight13]
+#print axioms closedRow53Weight13_analytic
+derive_weight_analytic [closedRow53Weight14]
+#print axioms closedRow53Weight14_analytic
+derive_weight_analytic [closedRow53Weight15]
+#print axioms closedRow53Weight15_analytic
+derive_weight_analytic [closedRow53Weight16]
+#print axioms closedRow53Weight16_analytic
+derive_weight_analytic [closedRow53Weight17]
+#print axioms closedRow53Weight17_analytic
+derive_weight_analytic [closedRow53Weight18]
+#print axioms closedRow53Weight18_analytic
+derive_weight_analytic [closedRow53Weight19]
+#print axioms closedRow53Weight19_analytic
+derive_weight_analytic [closedRow53Weight20]
+#print axioms closedRow53Weight20_analytic
+derive_weight_analytic [closedRow53Weight21]
+#print axioms closedRow53Weight21_analytic
+derive_weight_analytic [closedRow53Weight22]
+#print axioms closedRow53Weight22_analytic
+derive_weight_analytic [closedRow53Weight23]
+#print axioms closedRow53Weight23_analytic
+derive_weight_analytic [closedRow53Weight24]
+#print axioms closedRow53Weight24_analytic
+derive_weight_analytic [closedRow53Weight25]
+#print axioms closedRow53Weight25_analytic
+derive_weight_analytic [closedRow53Weight26]
+#print axioms closedRow53Weight26_analytic
+derive_weight_analytic [closedRow53Weight27]
+#print axioms closedRow53Weight27_analytic
+derive_weight_analytic [closedRow53Weight28]
+#print axioms closedRow53Weight28_analytic
+derive_weight_analytic [closedRow53Weight29]
+#print axioms closedRow53Weight29_analytic
+derive_weight_analytic [closedRow53Weight30]
+#print axioms closedRow53Weight30_analytic
+derive_weight_analytic [closedRow53Weight31]
+#print axioms closedRow53Weight31_analytic
+derive_weight_analytic [closedRow53Weight32]
+#print axioms closedRow53Weight32_analytic
+derive_weight_analytic [closedRow53Weight33]
+#print axioms closedRow53Weight33_analytic
+derive_weight_analytic [closedRow53Weight34]
+#print axioms closedRow53Weight34_analytic
+derive_weight_analytic [closedRow53Weight35]
+#print axioms closedRow53Weight35_analytic
+derive_weight_analytic [closedRow53Weight36]
+#print axioms closedRow53Weight36_analytic
+derive_weight_analytic [closedRow53Weight37]
+#print axioms closedRow53Weight37_analytic
+derive_weight_analytic [closedRow53Weight38]
+#print axioms closedRow53Weight38_analytic
+derive_weight_analytic [closedRow53Weight39]
+#print axioms closedRow53Weight39_analytic
+derive_weight_analytic [closedRow53Weight40]
+#print axioms closedRow53Weight40_analytic
+derive_weight_analytic [closedRow53Weight41]
+#print axioms closedRow53Weight41_analytic
+derive_weight_analytic [closedRow53Weight42]
+#print axioms closedRow53Weight42_analytic
+derive_weight_analytic [closedRow53Weight43]
+#print axioms closedRow53Weight43_analytic
+derive_weight_analytic [closedRow53Weight44]
+#print axioms closedRow53Weight44_analytic
+derive_weight_analytic [closedRow53Weight45]
+#print axioms closedRow53Weight45_analytic
+derive_weight_analytic [closedRow53Weight46]
+#print axioms closedRow53Weight46_analytic
+derive_weight_analytic [closedRow53Weight47]
+#print axioms closedRow53Weight47_analytic
+derive_weight_analytic [closedRow53Weight48]
+#print axioms closedRow53Weight48_analytic
+derive_weight_analytic [closedRow53Weight49]
+#print axioms closedRow53Weight49_analytic
+derive_weight_analytic [closedRow53Weight50]
+#print axioms closedRow53Weight50_analytic
+end QuantitativeArithmeticSmallLevelThirtyFivePositiveAnalyticShortRows

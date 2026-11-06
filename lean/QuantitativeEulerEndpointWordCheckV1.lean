@@ -1,0 +1,9 @@
+module
+
+public import QuantitativeEulerEndpointWordRowsV1
+public import QuantitativeEulerEndpointProjectiveRowsV1
+public import QuantitativeEulerEndpointSoftObstructionV1
+
+#print axioms QuantitativeEulerEndpointPrepared.gamma1_fixed_word_stack_bound
+#print axioms QuantitativeEulerEndpointPrepared.projective_prime_rows_of_height
+#print axioms QuantitativeEulerEndpointSoftObstruction.rational_pair_small_loss

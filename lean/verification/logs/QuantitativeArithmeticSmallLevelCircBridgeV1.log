@@ -1,0 +1,11 @@
+'QuantitativeArithmeticSmallLevelCirc.original_factor_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.original_primeTrace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.original_modular_isCirc' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.original_modular_isCirc_even' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.smallLevelsCirc_of_modular' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

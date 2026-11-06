@@ -1,0 +1,736 @@
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part2_0_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part2_1_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part2_2_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part2_3_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part2_4_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part2_5_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part2_6_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part2_7_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part2_8_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part2_9_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part2_10_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part2_11_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part2_12_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part2_13_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part2_14_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part2_15_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part2_16_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part2_17_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part2_18_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part2_19_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part2_20_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part3_0_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part3_1_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part3_2_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part3_3_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part3_4_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part3_5_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part3_6_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part3_7_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part3_8_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part3_9_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part3_10_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part3_11_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part3_12_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part3_13_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part3_14_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part3_15_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part3_16_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part3_17_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part3_18_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part3_19_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part3_20_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part4_0_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part4_1_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part4_2_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part4_3_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part4_4_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part4_5_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part4_6_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part4_7_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part4_8_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part4_9_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part4_10_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part4_11_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part4_12_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part4_13_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part4_14_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part4_15_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part4_16_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part4_17_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part4_18_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part4_19_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part4_20_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part5_0_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part5_1_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part5_2_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part5_3_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part5_4_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part5_5_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part5_6_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part5_7_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part5_8_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part5_9_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part5_10_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part5_11_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part5_12_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part5_13_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part5_14_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part5_15_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part5_16_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part5_17_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part5_18_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part5_19_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part5_20_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part6_0_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part6_1_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part6_2_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part6_3_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part6_4_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part6_5_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part6_6_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part6_7_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part6_8_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part6_9_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part6_10_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part6_11_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part6_12_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part6_13_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part6_14_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part6_15_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part6_16_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part6_17_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part6_18_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part6_19_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part6_20_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part7_0_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part7_1_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part7_2_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part7_3_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part7_4_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part7_5_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part7_6_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part7_7_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part7_8_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part7_9_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part7_10_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part7_11_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part7_12_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part7_13_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part7_14_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part7_15_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part7_16_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part7_17_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part7_18_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part7_19_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.part7_20_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.rows2_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.rows3_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.rows4_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.rows5_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.rows6_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.rows7_sign_change' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.selected_kernel_gauge_case2' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.selected_kernel_gauge_case3' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.selected_kernel_gauge_case4' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.selected_kernel_gauge_case5' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.selected_kernel_gauge_case6' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.selected_kernel_gauge_case7' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom0_0_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom0_1_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom0_2_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom0_3_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom0_4_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom0_5_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom0_6_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom0_7_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom0_8_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom0_9_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom0_10_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom1_0_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom1_1_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom1_2_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom1_3_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom1_4_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom1_5_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom1_6_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom1_7_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom1_8_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom1_9_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom1_10_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom2_0_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom2_1_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom2_2_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom2_3_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom2_4_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom2_5_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom2_6_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom2_7_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom2_8_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom2_9_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom2_10_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom3_0_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom3_1_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom3_2_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom3_3_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom3_4_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom3_5_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom3_6_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom3_7_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom3_8_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom3_9_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom3_10_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom4_0_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom4_1_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom4_2_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom4_3_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom4_4_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom4_5_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom4_6_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom4_7_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom4_8_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom4_9_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom4_10_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom5_0_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom5_1_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom5_2_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom5_3_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom5_4_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom5_5_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom5_6_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom5_7_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom5_8_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom5_9_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom5_10_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom6_0_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom6_1_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom6_2_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom6_3_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom6_4_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom6_5_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom6_6_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom6_7_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom6_8_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom6_9_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom6_10_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom7_0_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom7_1_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom7_2_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom7_3_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom7_4_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom7_5_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom7_6_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom7_7_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom7_8_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom7_9_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denom7_10_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denominators0_common' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denominators1_common' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denominators2_common' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denominators3_common' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denominators4_common' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denominators5_common' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denominators6_common' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.denominators7_common' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.selectedMatrixV3_0_exists_nonsingular' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.selectedMatrixV3_1_exists_nonsingular' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.selectedMatrixV3_2_exists_nonsingular' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.selectedMatrixV3_3_exists_nonsingular' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.selectedMatrixV3_4_exists_nonsingular' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.selectedMatrixV3_5_exists_nonsingular' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.selectedMatrixV3_6_exists_nonsingular' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.selectedMatrixV3_7_exists_nonsingular' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.selectedMatrixCase_mulVec' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.selectedMatrixCase_exists_nonsingular' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.selectedMatrixCase_shifted_exists_nonsingular' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

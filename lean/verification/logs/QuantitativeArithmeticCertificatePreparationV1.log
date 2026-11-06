@@ -1,0 +1,4 @@
+'QuantitativeArithmetic.exists_prime_shear' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmetic.exists_distinct_prime_shears' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmetic.exists_positive_integer_crt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmetic.exists_fixed_certificate_preparation' depends on axioms: [propext, Classical.choice, Quot.sound]

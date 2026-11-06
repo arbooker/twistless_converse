@@ -1,0 +1,15 @@
+'QuantitativeHolomorphic.normalizedCutCountExpression_ambient_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.polynomialNormalizedReconstruction_transport' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.normalizedReconstructionExpression_complexity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.holomorphicSum_normalizedCutCountExpression' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.regularSum_normalizedReconstructionExpression' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

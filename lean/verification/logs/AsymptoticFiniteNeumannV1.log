@@ -1,0 +1,5 @@
+'AsymptoticReconstruction.power_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticReconstruction.finiteLow_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticReconstruction.finiteLow_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticReconstruction.finiteLow_terminal_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticReconstruction.finiteLow_tendstoUniformly' depends on axioms: [propext, Classical.choice, Quot.sound]

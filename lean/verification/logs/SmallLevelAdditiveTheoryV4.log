@@ -1,0 +1,10 @@
+'SmallLevelAdditive.transform_rapid_halfplane' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelAdditive.original_bounded_halfplane' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelAdditive.phase_add_int' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelAdditive.grid_mod' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelAdditive.fricke_grid_partner' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelAdditive.ramanujanTaylorSum_grid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelAdditive.ramanujan_grid_mod' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelAdditive.full_translate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelAdditive.single_translate_fricke' depends on axioms: [propext, Classical.choice, Quot.sound]
+

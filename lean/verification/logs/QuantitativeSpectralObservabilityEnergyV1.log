@@ -1,0 +1,4 @@
+'QuantitativeSpectralObservability.finite_reconstruction_energy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralObservability.terminalBand_energy' depends on axioms: [propext, Classical.choice, Quot.sound]

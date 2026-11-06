@@ -1,0 +1,6 @@
+'QuantitativeHolomorphic.ExpressionMatrixBound.compose' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.ExpressionMatrixBound.adjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.ExpressionMatrixBound.power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.expressionMatrixBound_observationFilter' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

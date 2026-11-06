@@ -1,0 +1,3 @@
+'SmallLevelTwentySixGrid.PoleSystem.leading_germ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGrid.PoleSystem.pole_in_replay_top' depends on axioms: [propext, Classical.choice, Quot.sound]
+

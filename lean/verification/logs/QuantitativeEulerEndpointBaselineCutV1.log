@@ -1,0 +1,3 @@
+'QuantitativeEulerEndpointPrepared.baselineStack_norm_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.baseline_low_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.baseline_threshold_small' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,4 @@
+'SmallLevelTwentyOneKnownWords.coordinate_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneKnownWords.word_fourier_of_slash' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneKnownWords.original_word_taylor' depends on axioms: [propext, Classical.choice, Quot.sound]
+

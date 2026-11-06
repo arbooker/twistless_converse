@@ -1,0 +1,10 @@
+'QuantitativeArithmeticGoodLabelWindows.good_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticGoodLabelWindows.exists_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticGoodLabelWindows.window_from_small_excess' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticGoodLabelWindows.selected_good_window' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticGoodLabelWindows.exists_uniform_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticGoodLabelWindows.selected_good_window_compatible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,12 @@
+'QuantitativeArithmeticCoherentTaylor.original_coherent_law' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticCoherentTaylor.ramanujan_taylor_rows_of_law' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticCoherentTaylor.finite_sum_taylor_rows_of_law' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticCoherentTaylor.closed_grid_taylor_rows_of_law' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticCoherentTaylor.fricke_sign_of_law' depends on axioms: [propext, Classical.choice, Quot.sound]
+

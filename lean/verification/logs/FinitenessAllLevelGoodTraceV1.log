@@ -1,0 +1,4 @@
+'FinitenessAllLevelGoodTrace.original_complete' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelGoodTrace.original_complete_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelGoodTrace.weighted_cost' depends on axioms: [propext, Classical.choice, Quot.sound]
+

@@ -1,0 +1,86 @@
+{
+  "claim": "All8 fresh Q780 continuation and leading rows; all8 original weight polynomials and weight2 ideals; positive13 first-source rank.",
+  "cases": {
+    "mmm": {
+      "wide_rows": "a2f4f46c74edd749800366fa488c17af077bfeac29ef180c6aae76696afdb77b",
+      "continuation": "09e8df4a9ef1d431d43fee483045d51a49d0e4209aa3148742182501fcfa88f3",
+      "weight_polynomials": "8685a9edaaad80e062023c6fc4efca243f416b5051a3d2f142b4e8c75f2e33b7",
+      "weight_two": "0ecff4596cdffa4cbc29eadc1b66e710aa0a93136d6223d683ab66db057a09ff"
+    },
+    "mmp": {
+      "wide_rows": "438cc9aabd78cfcd9360161b21381ae2d8bf501892ec656936f2f4fe3a53d903",
+      "continuation": "e0aaf762ed088f90fd5ba40866b02f5e02955cff43b4427546e3d5b729cef22d",
+      "weight_polynomials": "8685a9edaaad80e062023c6fc4efca243f416b5051a3d2f142b4e8c75f2e33b7",
+      "weight_two": "56c03c24cdde74fb3e21665684d3901f9b1a3ff82ad4dfaeb0cd279b5498136d",
+      "small_rows": "2edfb97774adb7c783cd26944549c892e50353c507f6f1a9fcb88227e17c0644",
+      "positive_rank": "52896908c8f83f61609a8c5e0c86e3646685d04e74b312b284d7c10a7e337b2f"
+    },
+    "mpm": {
+      "wide_rows": "ca64604ea2844509386c1501ec79b532c08b19097017d5928be6c9c0a7e9ab3b",
+      "continuation": "6a1da6ed3403faa6629813d72975079be93d3faad0add2bc7f582844034d33d5",
+      "weight_polynomials": "8685a9edaaad80e062023c6fc4efca243f416b5051a3d2f142b4e8c75f2e33b7",
+      "weight_two": "adc92c4e95b8ca5cc22a0648a2e7c00dd09eb9fa7693c63d586ba889863e11c2"
+    },
+    "mpp": {
+      "wide_rows": "1cfce4649a141719e349a2876be8fb2368fc8103ced5fc2e6c84cb4cc88b0c72",
+      "continuation": "68183dec4d4ab4ffc41d71f8b7c335a4298eb26567eb1ca7a2d6639d7055206a",
+      "weight_polynomials": "8685a9edaaad80e062023c6fc4efca243f416b5051a3d2f142b4e8c75f2e33b7",
+      "weight_two": "1d91844cf9cd5aa4ad3770d3a65ecf74c1969e6fae8b018a915470d4dce5ec11",
+      "small_rows": "08af9a2f9c5474c4434df53cbda7cd9b71e8a7b7e1c9bf287791ffcb856cef01",
+      "positive_rank": "255fb11e702862192357328f0e71d6d6134fb5a080a895002ed8645c17c88dc4"
+    },
+    "pmm": {
+      "wide_rows": "1977b0fc230af5915ea85b4fee2261908edc0760d1ac6a5877c18b64d122fa8a",
+      "continuation": "87eb6a91ff27e5d924131b9cc1455635654339bf8e845e6ec8f69351dd0a05ce",
+      "weight_polynomials": "8685a9edaaad80e062023c6fc4efca243f416b5051a3d2f142b4e8c75f2e33b7",
+      "weight_two": "41988f66dd02cebb3a8850502b3487699dd15bc355b81740c968fed6dcf0acf8"
+    },
+    "pmp": {
+      "wide_rows": "9d1f6af6aa90441d4c046344c232659316905990a3afff349cd611c674a1d41f",
+      "continuation": "f7e736790d3f4a15ca3b396e9296a0df4e9ece7fac6319073b98aa075aa813fa",
+      "weight_polynomials": "8685a9edaaad80e062023c6fc4efca243f416b5051a3d2f142b4e8c75f2e33b7",
+      "weight_two": "dcec10452d9fb3b942ac7073226ccf8f84f63a4e4c6bdb874c569fbbb9d64836",
+      "small_rows": "21d4345241722b639caf0e27d79dbaa16010767163e604514707d99caa8611c0",
+      "positive_rank": "3f8f22e27b4f04e4736c3bdfc4fccaf2958526d2a14064c960471655fe4cfc96"
+    },
+    "ppm": {
+      "wide_rows": "a2f4f46c74edd749800366fa488c17af077bfeac29ef180c6aae76696afdb77b",
+      "continuation": "644b88a45a8e5a501ad1f7ea13b62be92014a3c1313d0e51f1d6a20e522152b0",
+      "weight_polynomials": "8685a9edaaad80e062023c6fc4efca243f416b5051a3d2f142b4e8c75f2e33b7",
+      "weight_two": "f51f691c62e62133b5539cbe3525322232c70612d4de0109f59a1e11845789eb"
+    },
+    "ppp": {
+      "wide_rows": "438cc9aabd78cfcd9360161b21381ae2d8bf501892ec656936f2f4fe3a53d903",
+      "continuation": "a782c430dbebed4ab410e156496aea4a3f2bbfb3ebe737eaa0f64387a9798cda",
+      "weight_polynomials": "8685a9edaaad80e062023c6fc4efca243f416b5051a3d2f142b4e8c75f2e33b7",
+      "weight_two": "f900cfda4cb5051b0d588dc86a5bfa7cf315b95a3507ecae9bfcf67a2ff28f46",
+      "small_rows": "2edfb97774adb7c783cd26944549c892e50353c507f6f1a9fcb88227e17c0644",
+      "positive_rank": "26ae4b729f533ee283aa713406718018aba8bc69cfdbaf7367af02425983cff1"
+    }
+  },
+  "source_sha256": {
+    "level25_finish_dilation_mellin.tex": "43bce9cf04bfd0313c1775eb5cea23e8484f50dbf653a807b37a1fc5259b1430",
+    "level26_jet_builder.py": "2126355a78086e3863aae39701319695ba73acc0768ec57726f58b0a5a4e6dab",
+    "level26_modularity_agent_complete.py": "3061afa937a95e52bc2a6d6dec407135867f3f8d4532bfd7115ca80956a67a48",
+    "level26_modularity_agent_complete.tex": "63f6be07c43920bd5c49de87d85962187fa70994b893ab23817f25e8620024c7",
+    "level26_modularity_agent_generation.py": "c98d8bbfa36f81b3119497f523351b9fdb81270361573921845befad836f8e56",
+    "level26_prime5_builder.py": "aadc50f88eba7f5bb73844ca497c6387fec288aca278a5e8df68d13038fb9248",
+    "level26_prime5_closed.py": "8944a39fb34718381e0dc306e7304c35a71facf5bf415d3b5cfb5fea8a019def",
+    "level26_prime5_continuation.py": "e22aeb419f94817bd25c1023d0a684dd03bb3c0b5d6976747ed4e984817bd353",
+    "level26_prime5_first_jet.py": "33c4d80a05e8f777b9fc152cc97c2f66bf3d377c3d9a3847a4d0769441ac30cd",
+    "level26_prime5_partial.tex": "92adc3a783f9176dd5bfa5edc117fa2eea4dbf4dc98f5402c708ad326d01fcc5",
+    "level26_prime5_rank.py": "9270caa14c124d2074a900e18da5c700dd9d6736ed0b3d12489ec44c12507f00",
+    "level26_prime5_support.json": "4adb05e057d6aa309c6ab8e87e0bd6d556866aeeae7c16989e4c15762adf9652",
+    "level26_prime5_weightk_eliminate.py": "0c3ea3b5fb5224261c69cdecb0dd9f6cd9af535016d57565eb64a8beafec9a68",
+    "level26_prime5_weightk_probe.py": "7b11e72ace890edfde8c641f9311c348dc686e1fa896df6b3e95454c96bbc526",
+    "level26_prime5_weightk_resultant.py": "81efd2b9bfa3aba27b7a38e2ed458a40ee6da44f68a109677a88715afa33539d",
+    "level26_prime5_wide_certificate.json": "5b1e5542bda618cf3fb54f821765bd6a91fc644e56b96f36ba70cff8c6347ab8",
+    "level26_prime5_wide_closed.py": "76833a79861b4187f0d9a3db80c8f53aaa4e2a96b1738c3dd3c5ff11a90a410f",
+    "level26_prime5_wide_continuation.py": "fcee5635b847c091f4ece66700636ebb76c8eaf5baf6be94ae9abf004de9160a",
+    "level26_prime5_wide_first_jet.py": "e599c3df0553d854e401e54a49f8bf2425156520d5808fa09d02a10451e12e19",
+    "level26_prime5_wide_support.json": "680f6b03a853ac5c5e70353a668fd5ea09537d38eb82bb9fd0b6e6da888ef13a",
+    "level34_closed_continuation.py": "2167d558964c95c0f200105e70cbfc839d1c2543858c4123a3f8bd658fa96d86",
+    "level34_finish_first_jet.py": "3edd3cdc66e31b3ce2191391be4f59b9c9e92f84359f2c49e8ccc057bf270fa8",
+    "level34_finish_grid_builder.py": "32dfee30d5d1f8cd25eb4c2ee078992e8f8918fbf9be3647d6294bdd37ead1a1"
+  }
+}

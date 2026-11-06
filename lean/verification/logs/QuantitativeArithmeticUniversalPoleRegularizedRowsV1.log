@@ -1,0 +1,3 @@
+'QuantitativeArithmeticUniversalPoleVector.IsLeadingVector.regularized_block_rows' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

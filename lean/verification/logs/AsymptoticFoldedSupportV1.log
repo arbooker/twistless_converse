@@ -1,0 +1,4 @@
+'AsymptoticFoldedLow.operator_zero_off_source' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFoldedLow.operator_eq_zero_of_target' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFoldedTerminal.operator_zero_off_source' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFoldedTerminal.operator_eq_zero_of_target' depends on axioms: [propext, Classical.choice, Quot.sound]

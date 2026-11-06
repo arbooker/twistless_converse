@@ -1,0 +1,3 @@
+'AsymptoticClassicalCusp.frickeOldLevel_div_eq_dilationLevel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.trace_mem_primeTraceKernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.trace_mem_partialNewSpace' depends on axioms: [propext, Classical.choice, Quot.sound]

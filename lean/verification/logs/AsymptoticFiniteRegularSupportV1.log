@@ -1,0 +1,6 @@
+'AsymptoticFiniteBranch.regular_left_corner' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.regularSum_lowPart_left_strip' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.regularSum_terminalPart_left_strip' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.regularSum_low_left_strip' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.regularSum_terminal_left_strip' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.regularSum_full_left_strip' depends on axioms: [propext, Classical.choice, Quot.sound]

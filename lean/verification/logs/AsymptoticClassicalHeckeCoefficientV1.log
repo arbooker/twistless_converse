@@ -1,0 +1,2 @@
+'AsymptoticClassicalCusp.dilationTrace_prime_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.coeff_dilationTrace' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,7 @@
+'AsymptoticSubgroupSupport.supported_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticSubgroupSupport.supported_stackGram' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticSubgroupSupport.supported_stackAbsolute' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticSubgroupSupport.supported_stackResolvent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticSubgroupSupport.supported_polarRow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticSubgroupSupport.polar_mixing_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+

@@ -1,0 +1,9 @@
+'QuantitativeSpectralObservability.reconstructed_terminal_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralObservability.reconstructed_norm_on_terminal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralObservability.terminal_input_le_reconstructed_terminal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

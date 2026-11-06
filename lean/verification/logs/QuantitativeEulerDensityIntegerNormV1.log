@@ -1,0 +1,6 @@
+'QuantitativeEulerDensityGenerators.integerAction_integralLabel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerDensityGenerators.compactAction_mul_integral_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

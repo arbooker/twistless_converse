@@ -1,0 +1,16 @@
+'FinitenessAllLevelPolynomialPresentation.entry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelPolynomialPresentation.Presentation.coefficientFunctions_analytic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FinitenessAllLevelPolynomialPresentation.Presentation.map_ringEquation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FinitenessAllLevelPolynomialPresentation.Presentation.map_ringIdeal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FinitenessAllLevelPolynomialPresentation.Presentation.zeroLocus_finite' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FinitenessAllLevelPolynomialPresentation.Presentation.coordinate_eliminant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

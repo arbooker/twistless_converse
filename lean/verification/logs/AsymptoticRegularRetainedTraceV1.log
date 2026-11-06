@@ -1,0 +1,11 @@
+'AsymptoticFiniteBranch.regular_finiteCutFull_left_heightStrip' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticFiniteBranch.regular_finiteAmbient_left_heightStrip' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticFiniteBranch.regular_finiteAmbient_root_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.regular_corner_sandwich_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.regular_finiteUpperCut_trace_eq_retained' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

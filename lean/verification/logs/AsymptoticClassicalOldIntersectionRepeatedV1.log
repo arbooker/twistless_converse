@@ -1,0 +1,8 @@
+'AsymptoticClassicalCusp.fractional_translation_mem_dilationLevel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticClassicalCusp.fractional_translation_not_mem_level' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticClassicalCusp.repeated_old_join_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.repeated_old_intersection_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]

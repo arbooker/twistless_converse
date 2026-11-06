@@ -1,0 +1,3 @@
+'QuantitativeEulerEndpointBoundedIteration.actualFiniteExpression_sector_regular_comparison' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

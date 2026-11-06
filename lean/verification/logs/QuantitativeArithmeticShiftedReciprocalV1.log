@@ -1,0 +1,6 @@
+'QuantitativeArithmetic.not_summable_reciprocalPrimeClass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmetic.not_summable_reciprocalPrimeClass_remove_finset' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmetic.exists_primeClass_packet_sum_gt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmetic.exists_primeClass_packet_product_lt' depends on axioms: [propext, Classical.choice, Quot.sound]

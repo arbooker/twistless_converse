@@ -1,0 +1,5 @@
+'AsymptoticPolarIsometry.rangeIsometry_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticPolarIsometry.rangeIsometry_cogram' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticPolarIsometry.partialIsometry_cogram' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticPolarIsometry.polar_cogram' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.support_trace_eq_of_polar_covariant' depends on axioms: [propext, Classical.choice, Quot.sound]

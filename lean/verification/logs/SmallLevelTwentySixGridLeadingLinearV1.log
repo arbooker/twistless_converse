@@ -1,0 +1,3 @@
+'SmallLevelTwentySixGrid.restrictedLeadingMatrix_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGrid.restrictedLeadingMatrix_mulVec' depends on axioms: [propext, Classical.choice, Quot.sound]
+

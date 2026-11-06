@@ -1,0 +1,4 @@
+'AsymptoticOrbitDensity.lintegral_translate_density' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticOrbitDensity.integral_real_translate_density' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticOrbitDensity.integral_complex_translate_density' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticOrbitDensity.integral_coset_unfold' depends on axioms: [propext, Classical.choice, Quot.sound]

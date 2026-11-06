@@ -1,0 +1,4 @@
+'AsymptoticClassicalCusp.localAtkin_lower_bezout' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.localAtkinLowerSL_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.localAtkinReal_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.localAtkinReal_lower_dilation' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,406 @@
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading117node0_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading117node1_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading117node2_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading117node3_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading117node4_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading117node5_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading117node6_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading117node7_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading117node8_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading117node9_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading117node10_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading117node11_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading117node12_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading117node13_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading117node14_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading117node15_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading117node16_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading117node17_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading117node18_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading117node19_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading117node20_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading117node21_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading117node22_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading117node23_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading117node24_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading117node25_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading117node26_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading117node27_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading117node28_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading117node29_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading117node30_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading117node31_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading117node32_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading117node33_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading117node34_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading117node35_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading117node36_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading117node37_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading117node38_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading117node39_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading117node40_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading117node41_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading117node42_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading117node43_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading117node44_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading117node45_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading117node46_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading117node47_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading117node48_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading117node49_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading117node50_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading6node0_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading6node1_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading6node2_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading6node3_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading6node4_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading6node5_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading6node6_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading6node7_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading6node8_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading6node9_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading6node10_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading6node11_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading6node12_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading6node13_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading6node14_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading6node15_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading6node16_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading6node17_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading6node18_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading6node19_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading6node20_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading6node21_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading6node22_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading6node23_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading6node24_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading6node25_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading6node26_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading6node27_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading6node28_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading6node29_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading6node30_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading6node31_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading6node32_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading6node33_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading6node34_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading6node35_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading6node36_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading6node37_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading6node38_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading6node39_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading6node40_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading6node41_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading6node42_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading85node0_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading85node1_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading85node2_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading85node3_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading85node4_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading85node5_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading85node6_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading85node7_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading85node8_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading85node9_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading85node10_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading85node11_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading85node12_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading85node13_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading85node14_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading85node15_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading85node16_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading85node17_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading85node18_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading85node19_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading85node20_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading85node21_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading85node22_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading85node23_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading85node24_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading85node25_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading85node26_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading85node27_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading85node28_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading85node29_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading85node30_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading85node31_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading85node32_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading85node33_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading85node34_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading85node35_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading85node36_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading85node37_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading85node38_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading85node39_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.leading85node40_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

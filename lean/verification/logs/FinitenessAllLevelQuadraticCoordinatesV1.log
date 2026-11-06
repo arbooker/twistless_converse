@@ -1,0 +1,3 @@
+'FinitenessAllLevelQuadraticCoordinates.evaluate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelQuadraticCoordinates.represent_linear' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelQuadraticCoordinates.represent_product' depends on axioms: [propext, Classical.choice, Quot.sound]

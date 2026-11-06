@@ -1,0 +1,5 @@
+'QuantitativeEulerModularProjection.projection_isStarProjection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerModularProjection.projection_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerModularProjection.projection_fixes' depends on axioms: [propext, Classical.choice, Quot.sound]

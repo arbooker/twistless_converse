@@ -1,0 +1,7 @@
+'SmallLevelPrimeRates.rational_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelPrimeRates.parameter_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelPrimeRates.parameter_add_nat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelPrimeRates.real_part_of_parameter_two_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelPrimeRates.parameter_norm_add_nat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelPrimeRates.parameter_three_square_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelPrimeRates.parameter_nat_add' depends on axioms: [propext, Classical.choice, Quot.sound]

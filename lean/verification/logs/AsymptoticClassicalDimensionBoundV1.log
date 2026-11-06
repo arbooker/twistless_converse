@@ -1,0 +1,4 @@
+'AsymptoticClassicalCusp.norm_degree_eq_index' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.modular_dimension_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.cusp_dimension_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.new_dimension_le' depends on axioms: [propext, Classical.choice, Quot.sound]

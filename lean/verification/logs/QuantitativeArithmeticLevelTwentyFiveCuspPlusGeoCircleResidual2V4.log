@@ -1,0 +1,4 @@
+'QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusLaurent.circle_residual_certificate_2' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

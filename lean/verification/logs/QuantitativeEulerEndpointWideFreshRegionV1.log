@@ -1,0 +1,2 @@
+'QuantitativeEulerEndpointPrepared.wideFreshRegion_compact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.wide_subset_fresh_shifted' depends on axioms: [propext, Classical.choice, Quot.sound]

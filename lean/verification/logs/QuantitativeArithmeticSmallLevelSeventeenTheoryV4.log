@@ -1,0 +1,22 @@
+'QuantitativeArithmeticSmallLevelSeventeen.original_three_reduced' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelSeventeen.original_six_reduced' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelSeventeen.edgeS_checked' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelSeventeen.edgeT_checked' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelSeventeen.gamma0_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelSeventeen.original_defect_elliptic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelSeventeen.elliptic_defect_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelSeventeen.original_A' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelSeventeen.original_B' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelSeventeen.gamma_zero_seventeen' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelSeventeen.level_seventeen' depends on axioms: [propext, Classical.choice, Quot.sound]
+

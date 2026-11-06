@@ -1,0 +1,5 @@
+'QuantitativeEulerEndpointPrepared.wide_gamma0_stack_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.enlarged_detector_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.wide_enlarged_detector_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

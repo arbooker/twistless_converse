@@ -1,0 +1,4 @@
+'AsymptoticCongruenceStrip.frickeSubgroupMap_inv_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceStrip.frickeRelativeMap_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceStrip.frickeRelativeMap_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticNestedQuotients.fricke_projection_zero_of_lower' depends on axioms: [propext, Classical.choice, Quot.sound]

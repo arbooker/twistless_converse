@@ -1,0 +1,24 @@
+'QuantitativeArithmeticSmallLevelThirtyFiveChiFour.target_case0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveChiFour.target_case2' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveChiFour.target_case4' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveChiFour.target_case6' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveChiFour.selected_kernel_case0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveChiFour.selected_kernel_case2' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveChiFour.selected_kernel_case4' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveChiFour.selected_kernel_case6' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

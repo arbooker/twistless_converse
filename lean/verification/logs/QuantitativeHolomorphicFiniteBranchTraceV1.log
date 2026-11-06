@@ -1,0 +1,13 @@
+'QuantitativeHolomorphic.conj_base' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.integral_base_reverse_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.normalized_trace_prefactor_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.translated_branch_integral_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.periodized_integral_matrix_branch_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.normalized_matrix_branch_trace_bound_of_cap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.normalized_matrix_branch_trace_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

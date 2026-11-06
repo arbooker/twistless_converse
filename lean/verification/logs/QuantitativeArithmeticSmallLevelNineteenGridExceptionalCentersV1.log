@@ -1,0 +1,10 @@
+'QuantitativeArithmeticSmallLevelNineteen.original_exceptional_center4' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelNineteen.original_exceptional_center54' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelNineteen.original_exceptional_center111' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

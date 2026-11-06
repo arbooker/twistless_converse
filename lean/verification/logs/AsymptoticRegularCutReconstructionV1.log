@@ -1,0 +1,7 @@
+'AsymptoticRegularReconstruction.cutFull_terminal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularReconstruction.cutExtension_norm_ge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularReconstruction.cutFull_right_terminal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularReconstruction.cutFull_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularReconstruction.cutFull_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularReconstruction.cutFull_covariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularReconstruction.cutFull_matrix_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]

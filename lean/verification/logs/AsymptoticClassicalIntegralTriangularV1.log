@@ -1,0 +1,1 @@
+'AsymptoticClassicalDiscriminant.integral_triangular' depends on axioms: [propext, Classical.choice, Quot.sound]

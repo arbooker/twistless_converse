@@ -1,0 +1,4 @@
+'QuantitativeEulerEndpointPrepared.baseline_row_polynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.exists_baseline_detector_envelope' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

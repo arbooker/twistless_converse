@@ -1,0 +1,21 @@
+'QuantitativeArithmeticRetainedCertificateOperators.primitiveLow_norm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedCertificateOperators.primitiveTerminal_norm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedCertificateOperators.rowLow_norm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedCertificateOperators.rowTerminal_norm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedCertificateOperators.low_norm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedCertificateOperators.terminal_norm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedCertificateOperators.contraction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

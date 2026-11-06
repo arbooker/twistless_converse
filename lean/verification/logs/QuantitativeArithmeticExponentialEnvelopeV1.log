@@ -1,0 +1,3 @@
+'QuantitativeArithmeticEnvelope.Exp.natpow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticEnvelope.Exp.binaryDepth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticEnvelope.Exp.ceil' depends on axioms: [propext, Classical.choice, Quot.sound]

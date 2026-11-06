@@ -1,0 +1,2 @@
+'QuantitativeNewGap.old_projection_product_matrix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeNewGap.old_projections_commute' depends on axioms: [propext, Classical.choice, Quot.sound]

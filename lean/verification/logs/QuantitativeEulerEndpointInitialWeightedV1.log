@@ -1,0 +1,8 @@
+'QuantitativeEulerEndpointInitialWeighted.cap_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointInitialWeighted.energy_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointInitialWeighted.component_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointInitialWeighted.initial_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointInitialWeighted.initial_fixed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointInitialWeighted.component_sandwich_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

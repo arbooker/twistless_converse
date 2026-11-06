@@ -1,0 +1,4 @@
+'QuantitativeArithmeticRetainedIteration.exists_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedIteration.exists_iteration' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedIteration.finite_excess_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedIteration.finite_trace_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

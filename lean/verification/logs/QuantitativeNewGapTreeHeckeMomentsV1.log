@@ -1,0 +1,3 @@
+'QuantitativeNewGap.word_delta' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeNewGap.regularHecke_power_word' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeNewGap.regularHecke_power_root' depends on axioms: [propext, Classical.choice, Quot.sound]

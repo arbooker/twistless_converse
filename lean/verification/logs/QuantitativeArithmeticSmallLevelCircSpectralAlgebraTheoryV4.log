@@ -1,0 +1,12 @@
+'QuantitativeArithmeticSmallLevelCirc.SpectralAlgebra.permutationOperator_isSemisimple' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.SpectralAlgebra.permutation_sum_isSemisimple' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.SpectralAlgebra.semisimple_of_injective_intertwiner' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.SpectralAlgebra.semisimple_of_spanning_images' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

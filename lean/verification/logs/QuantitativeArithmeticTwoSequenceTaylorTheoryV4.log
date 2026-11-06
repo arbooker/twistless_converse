@@ -1,0 +1,16 @@
+'QuantitativeArithmeticTwoSequenceTaylor.matrix_two_series' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticTwoSequenceTaylor.matrix_taylor_bounded_rows' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticTwoSequenceTaylor.matrix_taylor_rows' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticTwoSequenceTaylor.matrix_normalized_rows' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticTwoSequenceTaylor.matrix_normalized_bounded_rows' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticTwoSequenceTaylor.matrix_even_rows' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticTwoSequenceTaylor.matrix_even_bounded_rows' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

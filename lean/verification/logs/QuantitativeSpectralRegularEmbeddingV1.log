@@ -1,0 +1,5 @@
+'QuantitativeSpectralRegularEmbedding.ofFamily' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralRegularEmbedding.representation_ofFamily' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralRegularEmbedding.norm_ofFamily_le' depends on axioms: [propext, Classical.choice, Quot.sound]

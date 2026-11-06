@@ -1,0 +1,1 @@
+'QuantitativeHolomorphic.Schedule.growing_scheduled_geometry' depends on axioms: [propext, Classical.choice, Quot.sound]

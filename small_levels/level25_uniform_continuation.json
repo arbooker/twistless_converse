@@ -1,0 +1,63 @@
+{
+  "source_sha256": "490293b27df705236585208fe1fd2c5f4510cce7499a78e6803e265e11b96515",
+  "level": 25,
+  "grid": 150,
+  "cases": [
+    {
+      "eta": -1,
+      "zero2": false,
+      "zero3": false,
+      "passed": true,
+      "result": "RANK 150 UNIFORM_AUDIT_PASSED -1 False False"
+    },
+    {
+      "eta": -1,
+      "zero2": false,
+      "zero3": true,
+      "passed": true,
+      "result": "RANK 150 UNIFORM_AUDIT_PASSED -1 False True"
+    },
+    {
+      "eta": -1,
+      "zero2": true,
+      "zero3": false,
+      "passed": true,
+      "result": "RANK 150 UNIFORM_AUDIT_PASSED -1 True False"
+    },
+    {
+      "eta": -1,
+      "zero2": true,
+      "zero3": true,
+      "passed": true,
+      "result": "RANK 150 UNIFORM_AUDIT_PASSED -1 True True"
+    },
+    {
+      "eta": 1,
+      "zero2": false,
+      "zero3": false,
+      "passed": true,
+      "result": "RANK 150 UNIFORM_AUDIT_PASSED 1 False False"
+    },
+    {
+      "eta": 1,
+      "zero2": false,
+      "zero3": true,
+      "passed": true,
+      "result": "RANK 150 UNIFORM_AUDIT_PASSED 1 False True"
+    },
+    {
+      "eta": 1,
+      "zero2": true,
+      "zero3": false,
+      "passed": true,
+      "result": "RANK 150 UNIFORM_AUDIT_PASSED 1 True False"
+    },
+    {
+      "eta": 1,
+      "zero2": true,
+      "zero3": true,
+      "passed": true,
+      "result": "RANK 150 UNIFORM_AUDIT_PASSED 1 True True"
+    }
+  ]
+}

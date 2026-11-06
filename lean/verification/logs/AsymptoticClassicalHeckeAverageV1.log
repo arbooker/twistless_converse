@@ -1,0 +1,2 @@
+'AsymptoticClassicalCusp.qParam_branch_power_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.hasSum_heckeAverage' depends on axioms: [propext, Classical.choice, Quot.sound]

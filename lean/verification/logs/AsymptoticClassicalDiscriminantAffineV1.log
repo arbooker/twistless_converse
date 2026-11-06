@@ -1,0 +1,3 @@
+'AsymptoticClassicalDiscriminant.affine_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalDiscriminant.log_affine_div_im_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalDiscriminant.affine_slope_eq' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,21 @@
+'QuantitativeArithmetic.lower_defect_positive_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmetic.lower_defect_negative_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmetic.lower_defect_partial_heights' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmetic.lower_defect_signed_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmetic.PolynomialPrimeCertificate.matrix_recovery' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmetic.PolynomialPrimeCertificate.formal_defect_recovery' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmetic.PolynomialPrimeCertificate.periodic_defect_recovery' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmetic.lower_defect_evaluated_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmetic.telescope_translation_height' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmetic.PolynomialPrimeCertificate.periodic_polynomial_expansion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmetic.fricke_translation_fricke' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmetic.lower_defect_of_fricke' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmetic.fricke_translate_height' depends on axioms: [propext, Classical.choice, Quot.sound]

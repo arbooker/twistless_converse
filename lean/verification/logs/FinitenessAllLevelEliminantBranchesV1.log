@@ -1,0 +1,5 @@
+'FinitenessAllLevelCoefficientRing.polynomialEquation_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelCoefficientRing.polynomialEquation_analytic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FinitenessAllLevelCoefficientRing.eliminant_root_branch' depends on axioms: [propext, Classical.choice, Quot.sound]

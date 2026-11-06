@@ -1,0 +1,8 @@
+'QuantitativeSpectralTriangularAssembly.diagonal_isUnit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralTriangularAssembly.normalizedStrict_below' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralTriangularAssembly.diagonal_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralTriangularAssembly.row_sum_gram' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralTriangularAssembly.contraction_gram' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralTriangularAssembly.row_sum_gram_le' depends on axioms: [propext, Classical.choice, Quot.sound]

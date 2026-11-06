@@ -1,0 +1,6 @@
+'AsymptoticIntegralSubgroup.translationLabel_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticIntegralSubgroup.translationLabel_inv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticIntegralSubgroup.translationLabel_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticIntegralSubgroup.primeLabels_separated' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticMixing.prime_corner_rank_loss' depends on axioms: [propext, Classical.choice, Quot.sound]
+

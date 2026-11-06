@@ -1,0 +1,10 @@
+'QuantitativeArithmeticSmallLevelThirtyThreeKnownWords.gridVector_index' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyThreeKnownWords.gridSample_grid' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyThreeKnownWords.gridHeckeLeading_grid' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

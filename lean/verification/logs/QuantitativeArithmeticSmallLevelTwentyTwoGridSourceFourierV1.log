@@ -1,0 +1,7 @@
+'QuantitativeArithmeticSmallLevelTwentyTwo.grid_source_fourier' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyTwo.original_grid_sources' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

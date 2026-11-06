@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointPrepared.exists_packet_expression_physical' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.exists_sequence_expression_physical' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

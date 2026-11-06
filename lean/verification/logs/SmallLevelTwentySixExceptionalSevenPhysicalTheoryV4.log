@@ -1,0 +1,14 @@
+'SmallLevelTwentySixExceptionalSevenPhysical.row0_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixExceptionalSevenPhysical.row1_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixExceptionalSevenPhysical.row2_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixExceptionalSevenPhysical.row3_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixExceptionalSevenPhysical.row4_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixExceptionalSevenPhysical.row5_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixExceptionalSevenPhysical.row6_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixExceptionalSevenPhysical.no_signed_constant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixExceptionalSevenPhysical.no_signed_exceptional_branches' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

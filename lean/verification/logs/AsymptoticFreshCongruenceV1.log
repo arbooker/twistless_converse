@@ -1,0 +1,6 @@
+'AsymptoticFreshMatrices.canonical_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFreshMatrices.canonical_mem_Gamma0' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFreshMatrices.realMatrix_canonical_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFreshMatrices.fricke_canonical' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFreshMatrices.label_eq_fricke_canonical' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFreshMatrices.fricke_defect_eq' depends on axioms: [propext, Classical.choice, Quot.sound]

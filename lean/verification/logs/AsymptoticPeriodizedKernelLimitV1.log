@@ -1,0 +1,3 @@
+'AsymptoticUnweightedKernel.translated_base_square_summable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticUnweightedKernel.translated_base_power_summable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticUnweightedKernel.periodized_kernel_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]

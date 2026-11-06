@@ -1,0 +1,2 @@
+'AsymptoticCappedGamma.cap_ratio_sub_one_abs_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCappedGamma.ratio_squared_error_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

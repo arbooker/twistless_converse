@@ -1,0 +1,1 @@
+'QuantitativeEulerEndpointPrepared.endpoint_fresh_trace_loss' depends on axioms: [propext, Classical.choice, Quot.sound]

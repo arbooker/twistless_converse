@@ -1,0 +1,12 @@
+'QuantitativeHolomorphic.reconstruction_gram_spectrum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.normalizedReconstruction_gram' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.normalizedReconstruction_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.normalizedReconstruction_reconstruct' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.scaled_reconstruction_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.polynomialNormalizedReconstruction_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.inverseSqrt_polynomial_norm_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.inverseSqrtCFC_normalizes' depends on axioms: [propext, Classical.choice, Quot.sound]

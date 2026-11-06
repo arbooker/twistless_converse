@@ -1,0 +1,10 @@
+'QuantitativeArithmeticSmallLevelTwentySevenZeroJetSecondMinusSourceBinding.input_binding' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySevenZeroJetSecondMinusSourceBinding.leading_support' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySevenZeroJetSecondMinusSourceBinding.depth_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

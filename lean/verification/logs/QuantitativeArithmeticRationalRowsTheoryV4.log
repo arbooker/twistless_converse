@@ -1,0 +1,4 @@
+'QuantitativeArithmeticRationalRows.certificate_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRationalRows.eval_extend_eq_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRationalRows.eval_bounded_eq_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRationalRows.kernel_of_certificates' depends on axioms: [propext, Classical.choice, Quot.sound]

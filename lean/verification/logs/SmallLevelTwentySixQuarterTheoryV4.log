@@ -1,0 +1,5 @@
+'SmallLevelTwentySixQuarter.quarter_fricke_of_P' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixQuarter.quarter_fourier' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixQuarter.original_quarter_entire' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixQuarter.original_quarter_continuation' depends on axioms: [propext, Classical.choice, Quot.sound]
+

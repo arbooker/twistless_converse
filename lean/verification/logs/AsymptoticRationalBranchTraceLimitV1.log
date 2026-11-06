@@ -1,0 +1,2 @@
+'AsymptoticUnweightedKernel.indicator_coefficient_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticUnweightedKernel.rational_branch_trace_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]

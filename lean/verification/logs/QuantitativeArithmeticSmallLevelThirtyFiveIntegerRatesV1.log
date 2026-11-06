@@ -1,0 +1,10 @@
+'QuantitativeArithmeticSmallLevelThirtyFiveKnownWords.integer_det_pos' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveKnownWords.word_partner_integer' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveKnownWords.wordCoefficient_rational' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

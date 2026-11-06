@@ -1,0 +1,5 @@
+'AsymptoticRegularTrace.matrix_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.covariant_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.covariant_tsum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.matrix_comp_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.matrix_tsum_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]

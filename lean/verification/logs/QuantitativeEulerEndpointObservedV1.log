@@ -1,0 +1,12 @@
+'QuantitativeEulerEndpointPrepared.prepared_observed_certificates' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.certificate_translation_height' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.certificate_first_transport_height' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.certificate_observed_compact_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

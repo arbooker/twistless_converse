@@ -1,0 +1,8 @@
+'SmallLevelTwentyOneKnownWords.augmentedTaylor_rate_certificate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneKnownWords.fullTaylor_leading_laurent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneKnownWords.fullTaylor_first_shift_laurent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

@@ -1,0 +1,3 @@
+'QuantitativeEulerOldProjectionClassicalDimension.partial_dimension_bounded_difference' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

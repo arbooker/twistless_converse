@@ -1,0 +1,10 @@
+'QuantitativeEulerEndpointPrepared.reconstructed_terminal_regular' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.reconstructed_terminal_supported' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.terminal_source_trace_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.reconstructed_baseline_mass_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

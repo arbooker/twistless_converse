@@ -1,0 +1,6 @@
+'QuantitativeArithmeticFourNinePhysicalPowers.physical_power_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticFourNinePhysicalPowers.excluded_interval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

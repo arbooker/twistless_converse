@@ -1,0 +1,4 @@
+'QuantitativeEulerEndpointPrimeBlocks.envelope_base' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrimeBlocks.envelope_height' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrimeBlocks.envelope_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrimeBlocks.envelope_log' depends on axioms: [propext, Classical.choice, Quot.sound]

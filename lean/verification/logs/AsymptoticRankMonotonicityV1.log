@@ -1,0 +1,5 @@
+'AsymptoticPolarIsometry.restricted_output_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticPolarIsometry.restricted_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.restricted_rank_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.ae_zero_of_support_trace_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+

@@ -1,0 +1,2 @@
+'AsymptoticClassicalCusp.fricke_quotient_swap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.fricke_trace_swap' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,2 @@
+'QuantitativeHolomorphic.Schedule.upperCutError_split' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.Schedule.scheduled_upper_mass' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,10 @@
+'QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusThreePoint.selected_actual_source_0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusThreePoint.selected_actual_jet1_0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusThreePoint.selected_actual_jet2_0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

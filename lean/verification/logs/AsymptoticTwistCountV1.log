@@ -1,0 +1,4 @@
+'AsymptoticTwistCount.observations_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticTwistCount.sector_annihilated' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticTwistCount.count_le_traces' depends on axioms: [propext, Classical.choice, Quot.sound]
+

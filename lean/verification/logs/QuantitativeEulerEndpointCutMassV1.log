@@ -1,0 +1,4 @@
+'QuantitativeEulerEndpointCornerCut.cut_trace_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointCornerCut.spectral_mass_high_trace_sandwich' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,2 @@
+'SmallLevelGenerators.three_orbit_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelGenerators.four_orbit_lift' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,3 @@
+'SmallLevelTwentySixGrid.raw_word_fourier' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGrid.raw_word_taylor_of_fricke' depends on axioms: [propext, Classical.choice, Quot.sound]
+

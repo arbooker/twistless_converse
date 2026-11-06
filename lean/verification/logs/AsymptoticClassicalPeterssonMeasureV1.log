@@ -1,0 +1,6 @@
+'AsymptoticClassicalPetersson.ae_strip_of_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalPetersson.density_orbit_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalPetersson.density_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalPetersson.quotientMeasure_univ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalPetersson.quotientMeasure_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalPetersson.density_pos' depends on axioms: [propext, Classical.choice, Quot.sound]

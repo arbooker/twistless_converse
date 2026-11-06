@@ -1,0 +1,3 @@
+'AsymptoticCongruenceQuotient.projection_trace_toReal_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceOldSpace.newSpace_trace_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceOldSpace.newSpace_root_of_trace' depends on axioms: [propext, Classical.choice, Quot.sound]

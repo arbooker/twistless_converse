@@ -1,0 +1,3 @@
+'AsymptoticQuotientOperators.projection_diagonal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticQuotientOperators.projection_comp_word' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticQuotientOperators.common_corner_diagonal_le' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,4 @@
+'FinitenessPaper2.closure_fullCoefficients_envelope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessPaper2.fourier_disk_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessPaper2.closure_diskSeries_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+

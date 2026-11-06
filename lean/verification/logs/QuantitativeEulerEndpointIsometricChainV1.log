@@ -1,0 +1,5 @@
+'QuantitativeEulerEndpointIsometricImage.closed_image_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointIsometricImage.closed_image_chain' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointIsometricImage.image_chain_projection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

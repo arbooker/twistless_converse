@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointPrepared.simpleTraceRow_mem_localRowSpan' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.simpleTraceRow_certificate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

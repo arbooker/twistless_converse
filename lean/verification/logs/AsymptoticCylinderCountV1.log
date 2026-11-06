@@ -1,0 +1,4 @@
+'AsymptoticCylinder.eulerCylinder_independent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCylinder.eulerCylinder_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCylinder.euler_count_le_cylinder_sectors' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCylinder.euler_count_le_observation_traces' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,1 @@
+'QuantitativeEulerOldProjectionHolomorphic.trace_coeFn' depends on axioms: [propext, Classical.choice, Quot.sound]

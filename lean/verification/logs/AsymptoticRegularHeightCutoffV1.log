@@ -1,0 +1,5 @@
+'AsymptoticOrbitDiagonal.corner_comp_of_subset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularHeightCutoff.projection_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularHeightCutoff.projection_covariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularHeightCutoff.projection_matrix_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularHeightCutoff.inclusion_cut_error' depends on axioms: [propext, Classical.choice, Quot.sound]

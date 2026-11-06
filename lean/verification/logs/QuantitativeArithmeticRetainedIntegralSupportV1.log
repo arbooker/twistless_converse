@@ -1,0 +1,28 @@
+'QuantitativeArithmeticRetainedIntegralSupport.primitive_fold_integral' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedIntegralSupport.retained_fold_integral' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedIntegralSupport.low_supported' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedIntegralSupport.terminal_supported' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedIntegralSupport.extension_supported' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedIntegralSupport.normalized_supported' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedIntegralSupport.image_supported' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedBaseline.baseline_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedBaseline.baseline_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedBaseline.baseline_supported' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedBaseline.baseline_kernel_survives' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedBaseline.exists_baseline_chain_trace_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

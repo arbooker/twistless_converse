@@ -1,0 +1,3 @@
+'SpanningCompactConcentration.concentration_of_local_exclusion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,3 @@
+'FinitenessAllLevelAnalyticBranch.analytic_branch' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelAnalyticBranch.scalar_isInvertible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelAnalyticBranch.simple_branch' depends on axioms: [propext, Classical.choice, Quot.sound]

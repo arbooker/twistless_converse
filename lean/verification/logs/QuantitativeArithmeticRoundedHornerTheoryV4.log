@@ -1,0 +1,6 @@
+'QuantitativeArithmeticRoundedHorner.roundDown_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRoundedHorner.step_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRoundedHorner.error_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRoundedHorner.steps' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRoundedHorner.polynomial_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRoundedHorner.polynomial_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

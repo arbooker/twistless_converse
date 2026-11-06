@@ -1,0 +1,7 @@
+'AsymptoticFreshResidues.residue_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFreshResidues.residueEquiv_val' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFreshEquation.level_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFreshEquation.reflected_label_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFreshEquation.twist_eq_sums' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFreshEquation.averaged_eq_negative_twist' depends on axioms: [propext, Classical.choice, Quot.sound]
+

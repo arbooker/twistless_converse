@@ -1,0 +1,4 @@
+'QuantitativeArithmeticSmallLevelThirteen.scales_independent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelThirteen.irrational_scale_logs' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

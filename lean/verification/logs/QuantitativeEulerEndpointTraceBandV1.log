@@ -1,0 +1,5 @@
+'QuantitativeEulerEndpointTraceMass.band_retained_physical' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointTraceMass.band_retained_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointTraceMass.band_expression_trace_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

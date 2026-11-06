@@ -1,0 +1,5 @@
+'QuantitativeHolomorphic.norm_integral_near_far_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.bergman_integral_of_sublevel_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.norm_integral_near_far' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.bergman_integral_of_sublevel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.bergman_integral_cube_root_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

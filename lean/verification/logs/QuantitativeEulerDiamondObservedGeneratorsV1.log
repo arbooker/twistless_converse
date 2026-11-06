@@ -1,0 +1,6 @@
+'QuantitativeEulerDensityGenerators.gamma0_generated_by_observed_matrices' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerDensityGenerators.observedGenerators_closure' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

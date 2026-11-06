@@ -1,0 +1,7 @@
+'AsymptoticSectorComparison.linearUpper_of_even_index' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCompactObservationCount.count_upper_of_regular_approximation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticCompactObservationCount.count_littleO_of_regular_approximation_and_total_dimension' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

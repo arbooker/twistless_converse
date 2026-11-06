@@ -1,0 +1,11 @@
+'SmallLevelTwentyOneChiFive.entire_of_continued_grid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneChiFive.entire_of_old_grid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneChiFive.denominator_quadratic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneChiFive.uniform_finiteOrder' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneChiFive.original_uniform_entire_laws' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneChiFive.original_quadratic_fricke' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneChiFive.second_pair_law' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneChiFive.second_pair_slash' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneChiFive.first_pair_law' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneChiFive.first_pair_slash' depends on axioms: [propext, Classical.choice, Quot.sound]
+

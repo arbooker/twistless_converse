@@ -1,0 +1,2 @@
+'AsymptoticStripCoordinates.coordinates_preserving' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticStripCoordinates.cylinder_preserving' depends on axioms: [propext, Classical.choice, Quot.sound]

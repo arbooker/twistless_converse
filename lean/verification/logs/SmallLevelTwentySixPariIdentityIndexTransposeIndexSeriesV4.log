@@ -1,0 +1,2 @@
+'SmallLevelTwentySixPariIdentity017Transpose1.binding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixPariIdentity021Transpose1.binding' depends on axioms: [propext, Classical.choice, Quot.sound]

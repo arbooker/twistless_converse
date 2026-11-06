@@ -1,0 +1,4 @@
+'QuantitativeArithmeticSmallLevelNineteen.original_four_reduced' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

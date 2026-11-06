@@ -1,0 +1,3 @@
+'AsymptoticObservation.compression_trace_summable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticObservation.compression_trace_le_gram' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticObservation.reconstructed_finrank_le_trace' depends on axioms: [propext, Classical.choice, Quot.sound]

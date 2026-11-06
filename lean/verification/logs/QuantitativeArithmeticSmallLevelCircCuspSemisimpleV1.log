@@ -1,0 +1,9 @@
+'QuantitativeArithmeticSmallLevelCirc.CuspSpectral.symmetric_isSemisimple' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.CuspSpectral.cuspCornerHecke_isSemisimple' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.CuspSpectral.cuspCornerInclusion_intertwine' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

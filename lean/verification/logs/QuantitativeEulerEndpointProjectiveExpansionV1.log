@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointPrepared.projective_inverse_letter_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.compact_word_multiplier_expand' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

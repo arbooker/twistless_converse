@@ -1,0 +1,6 @@
+'QuantitativeArithmeticSmallLevelCirc.primeTrace_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.space' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.isCirc_iff_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.original_modular_mem_space' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

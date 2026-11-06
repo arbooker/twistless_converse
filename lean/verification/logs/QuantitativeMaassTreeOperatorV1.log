@@ -1,0 +1,5 @@
+'QuantitativeMaass.l2Permutation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeMaass.TreeWord.step_involutive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeMaass.treeAdjacency_selfAdjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeMaass.treeAdjacency_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeMaass.treeAdjacency_power_root' depends on axioms: [propext, Classical.choice, Quot.sound]

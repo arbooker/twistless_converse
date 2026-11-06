@@ -1,0 +1,5 @@
+'AsymptoticClassicalCusp.dilationLevel_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.dilationLevel_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.scalar_conjugate_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.dilation_fricke_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.frickeOldLevel_eq_dilationLevel' depends on axioms: [propext, Classical.choice, Quot.sound]

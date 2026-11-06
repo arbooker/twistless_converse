@@ -1,0 +1,19 @@
+'QuantitativeArithmeticSmallLevelTwentySevenKnownWords.original_seeds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySevenKnownWords.original_words' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySevenKnownWords.original_word_fourier' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySevenKnownWords.original_word_taylor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySevenKnownWords.word_infinity_entire' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySevenKnownWords.word_zero_entire' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

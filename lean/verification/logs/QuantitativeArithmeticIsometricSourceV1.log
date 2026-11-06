@@ -1,0 +1,6 @@
+'QuantitativeArithmeticIsometricSource.inverse_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticIsometricSource.pullback_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticIsometricSource.pullback_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticIsometricSource.pullback_forward' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticIsometricSource.pullback_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticIsometricSource.pullback_trace' depends on axioms: [propext, Classical.choice, Quot.sound]

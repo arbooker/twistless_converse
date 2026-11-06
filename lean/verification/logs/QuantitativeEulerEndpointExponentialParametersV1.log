@@ -1,0 +1,12 @@
+'QuantitativeEulerEndpointExponentialParameters.cut_log' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointExponentialParameters.cut_conditions' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointExponentialParameters.attenuation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointExponentialParameters.power_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointExponentialParameters.sharpness_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointExponentialParameters.sharpness_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

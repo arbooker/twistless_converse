@@ -1,0 +1,16 @@
+'QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.operations_checked_20' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.operations_checked_21' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.operations_checked_22' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.operations_checked_23' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.operations_checked_24' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

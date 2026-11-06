@@ -1,0 +1,11 @@
+'AsymptoticRegularObservation.prefixKernelSpace_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.prefixKernelSpace_antitone' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.globalKernelSpace_le_prefix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.globalKernelSpace_eq_iInf_prefix' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticRegularObservation.prefixKernelSpace_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.prefixKernelProjection_supported' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

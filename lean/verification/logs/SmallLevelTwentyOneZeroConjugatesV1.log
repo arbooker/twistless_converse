@@ -1,0 +1,3 @@
+'SmallLevelTwentyOneZero.conjugate_checked' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneZero.partner_invariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+

@@ -1,0 +1,5 @@
+'QuantitativeSpectralObservabilityDecoded.sampling_decode' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralObservabilityDecoded.sampling_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralObservabilityDecoded.sampling_fresh_supported' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,5 @@
+'FinitenessAllLevelBoundaryCoordinates.coordinate_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelBoundaryCoordinates.selector_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelBoundaryCoordinates.selector_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelBoundaryCoordinates.qParam_coordinate' depends on axioms: [propext, Classical.choice, Quot.sound]
+

@@ -1,0 +1,4 @@
+'QuantitativeArithmeticSmallLevelCirc.primeTrace_smul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.original_two_cusps' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.of_modular_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+

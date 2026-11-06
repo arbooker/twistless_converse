@@ -1,0 +1,6 @@
+module
+
+public import QuantitativeEulerEndpointGeneratorRightV1
+
+#print axioms QuantitativeEulerEndpointPrepared.good_prime_full_generator_stack_bound
+#print axioms QuantitativeEulerEndpointPrepared.good_prime_generator_right_stack_bound

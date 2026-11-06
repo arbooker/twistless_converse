@@ -1,0 +1,14 @@
+'AsymptoticPositiveCoordinateWeight.region_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticPositiveCoordinateWeight.region_exhaust' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticPositiveCoordinateWeight.coefficient_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticPositiveCoordinateWeight.coefficient_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticPositiveCoordinateWeight.multiplier_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticPositiveCoordinateWeight.multiplier_on_cut' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticPositiveCoordinateWeight.multiplier_injective_on_cut' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticPositiveCoordinateWeight.multiplier_covariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticPositiveCoordinateWeight.multiplier_matrix_measurable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

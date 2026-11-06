@@ -1,0 +1,23 @@
+module
+
+public import QuantitativeEulerEndpointTerminalCheckV1
+public import QuantitativeEulerEndpointOriginalStepV1
+public import QuantitativeEulerEndpointBaselineExclusionsV1
+public import QuantitativeEulerEndpointCommonSourceV1
+
+/- Focused audit: actual compressed-source regularity, exact original-row
+fresh update and one-prime trace loss. The full endpoint Euler-count bound,
+new/sign target and quantitative iteration/transfer remain open. -/
+#print axioms QuantitativeEulerEndpointPrepared.baseline_absolute_regular
+#print axioms QuantitativeEulerEndpointPrepared.baseline_absolute_supported
+#print axioms QuantitativeEulerEndpointPrepared.baseline_survivor_regular
+#print axioms QuantitativeEulerEndpointPrepared.baseline_survivor_supported
+#print axioms QuantitativeEulerEndpointPrepared.baseline_survivor_trace_finite
+#print axioms QuantitativeEulerEndpointPrepared.good_baseline_survivor_trace
+#print axioms QuantitativeEulerEndpointPrepared.source_prime_trace_loss
+#print axioms QuantitativeEulerEndpointPrepared.endpoint_fresh_trace_loss
+#print axioms QuantitativeEulerEndpointPrepared.fresh_source_mixed_eq_original
+#print axioms QuantitativeEulerEndpointPrepared.fresh_step_source_regular
+#print axioms QuantitativeEulerEndpointPrepared.fresh_step_source_supported
+#print axioms QuantitativeEulerEndpointPrepared.good_prime_avoids_baseline
+#print axioms QuantitativeEulerEndpointPrepared.common_baseline_source_observability

@@ -1,0 +1,1 @@
+'QuantitativeSpectralLogError.log_quotient_le_survivor' depends on axioms: [propext, Classical.choice, Quot.sound]

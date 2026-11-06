@@ -1,0 +1,5 @@
+'QuantitativeArithmeticSmallLevelTwentyTwo.original_even_hecke' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyTwo.ramanujan_five' depends on axioms: [propext, Classical.choice, Quot.sound]
+

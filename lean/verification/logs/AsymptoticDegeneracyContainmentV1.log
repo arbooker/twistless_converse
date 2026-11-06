@@ -1,0 +1,10 @@
+'AsymptoticCongruenceLabels.rationalGL_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceLabels.integralLabel_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceLabels.dilation_translation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceStrip.gamma_le_integralGroup' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceStrip.fractional_translation_not_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceStrip.fractional_translation_mem_degeneracy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticCongruenceStrip.degeneracyGroup_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceStrip.degeneracyGroup_relIndex' depends on axioms: [propext, Classical.choice, Quot.sound]

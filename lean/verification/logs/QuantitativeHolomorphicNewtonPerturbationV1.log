@@ -1,0 +1,5 @@
+'QuantitativeHolomorphic.polynomial_aeval_difference_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.gram_difference_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.finite_polynomial_normalization_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

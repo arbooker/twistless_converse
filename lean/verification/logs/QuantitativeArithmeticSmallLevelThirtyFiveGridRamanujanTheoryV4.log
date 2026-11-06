@@ -1,0 +1,32 @@
+'QuantitativeArithmeticSmallLevelThirtyFiveGridRamanujan.taylorSpecs_valid' depends on axioms: [propext]
+'QuantitativeArithmeticSmallLevelThirtyFiveGridRamanujan.original_taylor_system' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveGridRamanujan.rowCoefficient_analytic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveGridRamanujan.original_entire_rows' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveGridRamanujan.normalized_additive_bad_hecke' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveGridRamanujan.original_hecke_grid' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveGridRamanujan.original_selected_hecke_rows' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveGridRamanujan.selected_root_scalar' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveGridRamanujan.rate_certificate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveGridRamanujan.rowCoefficient_complex' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveGridRamanujan.rowCoefficient_case0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

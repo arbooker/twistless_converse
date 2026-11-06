@@ -1,0 +1,8 @@
+'AsymptoticRegularObservation.cutTraceErrorBound_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticRegularObservation.cutPositive_trace_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.cutPositive_trace_tendstoUniformly' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticRegularObservation.cutPositive_trace_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]

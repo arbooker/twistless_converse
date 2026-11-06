@@ -1,0 +1,5 @@
+'QuantitativeEulerModularEmbedding.eLpNorm_amplitude' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerModularEmbedding.representativeEmbedding_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerModularEmbedding.isometry_coeFn' depends on axioms: [propext, Classical.choice, Quot.sound]

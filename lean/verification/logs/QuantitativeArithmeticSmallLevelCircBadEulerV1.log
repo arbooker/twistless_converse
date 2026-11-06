@@ -1,0 +1,7 @@
+'QuantitativeArithmeticSmallLevelCirc.primeHecke_bad_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.prime_eigen_bad_coefficient_square' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.prime_eigen_original_of_fricke' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

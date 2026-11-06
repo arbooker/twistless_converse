@@ -1,0 +1,4 @@
+'FinitenessAllLevelFormalContinuation.test_curve_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelAnalyticSubstitution.finite_linear_joint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelFormalContinuation.chart_test_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+

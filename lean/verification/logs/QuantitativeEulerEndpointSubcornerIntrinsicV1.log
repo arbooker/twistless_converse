@@ -1,0 +1,25 @@
+'QuantitativeEulerEndpointSubcornerIntrinsic.blockElements_projection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointSubcornerIntrinsic.blockElements_orthogonal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointSubcornerIntrinsic.blockElements_sum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointSubcornerIntrinsic.rowElements_left' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointSubcornerIntrinsic.rowElements_diagonal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointSubcornerIntrinsic.rowElements_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointSubcornerIntrinsic.strictElement_below' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointSubcornerIntrinsic.diagonalElement_isUnit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointSubcornerIntrinsic.factorization' depends on axioms: [propext, Classical.choice, Quot.sound]

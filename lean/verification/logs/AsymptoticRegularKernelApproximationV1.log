@@ -1,0 +1,15 @@
+'AsymptoticRegularObservation.repeatedPositive_eq_amplified' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.repeatedPositive_strong_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.repeatedPositive_matrix_measurable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticRegularObservation.jointKernelProjection_matrix_measurable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticRegularObservation.reconstructionGramRoot_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.repeatedPositive_root_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.jointKernelProjection_trace_finite' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticRegularObservation.repeatedPositive_trace_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+

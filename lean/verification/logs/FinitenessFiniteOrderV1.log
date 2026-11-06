@@ -1,0 +1,4 @@
+'FinitenessFiniteOrder.mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessFiniteOrder.exp_linear' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessFiniteOrder.strip_double_exp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessFiniteOrder.pow_mul' depends on axioms: [propext, Classical.choice, Quot.sound]

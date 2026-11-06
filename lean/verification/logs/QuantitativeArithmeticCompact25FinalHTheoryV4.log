@@ -1,0 +1,7 @@
+'QuantitativeArithmeticCompact25FinalH.eval_hornerPolynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticCompact25FinalH.eval_combine' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticCompact25FinalH.combination_eq_of_polynomial_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticCompact25FinalH.inputPolynomial_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticCompact25FinalH.polynomial_identity' does not depend on any axioms

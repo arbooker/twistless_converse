@@ -1,0 +1,28 @@
+'QuantitativeArithmeticTriangularMeromorphicReconstruction.solve_correct' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticTriangularMeromorphicReconstruction.solve_add' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticTriangularMeromorphicReconstruction.solve_smul' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticTriangularMeromorphicReconstruction.solve_meromorphic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticTriangularMeromorphicReconstruction.solve_finite_rhs' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticTriangularMeromorphicReconstruction.reconstruction_action' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticTriangularMeromorphicReconstruction.reconstruction_meromorphic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticTriangularMeromorphicReconstruction.solve_cleared' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticTriangularMeromorphicReconstruction.reconstruction_cleared' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

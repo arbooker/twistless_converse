@@ -1,0 +1,2 @@
+'FinitenessTwistedPrimeFactor.split_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessTwistedPrimeFactor.prime_factor_step' depends on axioms: [propext, Classical.choice, Quot.sound]

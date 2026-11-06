@@ -1,0 +1,6 @@
+'FinitenessAllLevelPolynomialPresentation.entire_fiber_coefficients' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FinitenessAllLevelPolynomialPresentation.entire_monic_relation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

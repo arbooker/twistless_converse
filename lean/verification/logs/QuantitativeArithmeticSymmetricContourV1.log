@@ -1,0 +1,4 @@
+'QuantitativeArithmeticSymmetricContour.equal_limits' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSymmetricContour.horizontal_zero_of_eventual_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

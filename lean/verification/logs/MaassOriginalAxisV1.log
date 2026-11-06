@@ -1,0 +1,3 @@
+'MaassOriginal.completed_series' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MaassOriginal.weighted_summable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MaassOriginal.axis_inversion' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,3 @@
+'FinitenessStripDecay.bounded_strip' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessStripDecay.weighted_strip' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessStripDecay.vertical_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]

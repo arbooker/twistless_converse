@@ -1,0 +1,18 @@
+'QuantitativeArithmetic.unit_indexed_density_polynomial_certificates' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmetic.shiftedDivisorClasses_density_of_prime_classes' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmetic.finite_density_polynomial_certificates' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmetic.finite_uniform_polynomial_certificates' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmetic.simultaneous_shifted_classes_with_exclusions' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmetic.exists_prepared_natural_matrix_family' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

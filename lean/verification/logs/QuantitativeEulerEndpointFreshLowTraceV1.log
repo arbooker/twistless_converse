@@ -1,0 +1,2 @@
+'QuantitativeSpectralFreshStep.absolute_comp_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.fresh_step_of_low_trace' depends on axioms: [propext, Classical.choice, Quot.sound]

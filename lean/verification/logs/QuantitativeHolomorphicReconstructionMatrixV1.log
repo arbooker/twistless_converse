@@ -1,0 +1,5 @@
+'QuantitativeHolomorphic.certificateExpressions_matrix_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.cutFullExpression_matrix_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.scaledCutCountExpression_matrix_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

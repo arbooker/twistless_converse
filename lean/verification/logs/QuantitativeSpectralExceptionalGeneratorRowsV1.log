@@ -1,0 +1,9 @@
+'QuantitativeSpectralExceptionalReducedRows.generatorRecombine_stack' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralExceptionalReducedRows.generatorRecombine_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralExceptionalReducedRows.fundamental_generator_factorization' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

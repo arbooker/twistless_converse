@@ -1,0 +1,114 @@
+{
+  "status": "PASS exact sign transport of all raw closed rows and Taylor sources",
+  "map": "(eta,sigma2,sigma13,z) -> (-eta,sigma2,-sigma13,-z)",
+  "cases": [
+    {
+      "positive_signs": [
+        -1,
+        -1,
+        1
+      ],
+      "negative_signs": [
+        1,
+        -1,
+        -1
+      ],
+      "coordinates": 320,
+      "rows": 3277,
+      "row_types": {
+        "g": 2623,
+        "ginf": 52,
+        "R": 15,
+        "F": 376,
+        "H": 211
+      },
+      "leading": "PASS",
+      "source_orders_1_2": "PASS",
+      "shift_commutation_1_2": "PASS"
+    },
+    {
+      "positive_signs": [
+        -1,
+        1,
+        1
+      ],
+      "negative_signs": [
+        1,
+        1,
+        -1
+      ],
+      "coordinates": 320,
+      "rows": 3277,
+      "row_types": {
+        "g": 2623,
+        "ginf": 52,
+        "R": 15,
+        "F": 376,
+        "H": 211
+      },
+      "leading": "PASS",
+      "source_orders_1_2": "PASS",
+      "shift_commutation_1_2": "PASS"
+    },
+    {
+      "positive_signs": [
+        1,
+        -1,
+        1
+      ],
+      "negative_signs": [
+        -1,
+        -1,
+        -1
+      ],
+      "coordinates": 320,
+      "rows": 3277,
+      "row_types": {
+        "g": 2623,
+        "ginf": 52,
+        "R": 15,
+        "F": 376,
+        "H": 211
+      },
+      "leading": "PASS",
+      "source_orders_1_2": "PASS",
+      "shift_commutation_1_2": "PASS"
+    },
+    {
+      "positive_signs": [
+        1,
+        1,
+        1
+      ],
+      "negative_signs": [
+        -1,
+        1,
+        -1
+      ],
+      "coordinates": 320,
+      "rows": 3277,
+      "row_types": {
+        "g": 2623,
+        "ginf": 52,
+        "R": 15,
+        "F": 376,
+        "H": 211
+      },
+      "leading": "PASS",
+      "source_orders_1_2": "PASS",
+      "shift_commutation_1_2": "PASS"
+    }
+  ],
+  "elapsed_seconds": 26.0893160039559,
+  "source_sha256": {
+    "level26_positive_repair_check.py": "e25392b50572bda85f932d9d15ff83bfe369a86d8e00038c47dc825a62f78252",
+    "level26_positive_repair_proof.tex": "dc5d6c29a5b7593858e9eb7ba5c0729db560ab407ec3d38c2579d60c585e7596",
+    "level26_jet_builder.py": "2126355a78086e3863aae39701319695ba73acc0768ec57726f58b0a5a4e6dab",
+    "level26_prime5_builder.py": "aadc50f88eba7f5bb73844ca497c6387fec288aca278a5e8df68d13038fb9248",
+    "level26_prime5_wide_closed.py": "76833a79861b4187f0d9a3db80c8f53aaa4e2a96b1738c3dd3c5ff11a90a410f",
+    "level26_prime5_wide_support.json": "680f6b03a853ac5c5e70353a668fd5ea09537d38eb82bb9fd0b6e6da888ef13a",
+    "level34_finish_grid_builder.py": "32dfee30d5d1f8cd25eb4c2ee078992e8f8918fbf9be3647d6294bdd37ead1a1",
+    "level26_finish_higher.py": "2ac3765efe0ef58eec7bc3f1a872a81186307007fefd56afbecfd3a485df9f3b",
+    "level26_negative_poles_backend.m": "2382dc5995c5445413cff0777bdf4836bec856418a29dbb34d495fca7fe4fbe8"
+  }
+}

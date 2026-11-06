@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointPrepared.sectorSampling_distance_le_detector' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.exists_sector_source_observability' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

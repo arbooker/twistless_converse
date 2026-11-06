@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointCommonReconstruction.double_exp_sandwich_cost' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointCommonReconstruction.exists_horizon_sandwich_cost' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

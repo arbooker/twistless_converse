@@ -1,0 +1,3 @@
+'AsymptoticTotalNewCorner.localSpace_root_eq_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticTotalNewCorner.coefficient_eq_arithmetic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticTotalNewCorner.totalTrace_le_arithmetic' depends on axioms: [propext, Classical.choice, Quot.sound]

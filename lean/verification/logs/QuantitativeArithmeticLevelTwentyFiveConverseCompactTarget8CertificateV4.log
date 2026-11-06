@@ -1,0 +1,4 @@
+'QuantitativeArithmeticSmallLevelTwentyFive.PositiveChart.CompactSource.target_zero8' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

@@ -1,0 +1,4 @@
+'FinitenessNormalizedTwistProduct.reciprocal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessNormalizedTwistProduct.product_entire' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessNormalizedTwistProduct.product_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessNormalizedTwistProduct.completed_identity' depends on axioms: [propext, Classical.choice, Quot.sound]

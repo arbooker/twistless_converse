@@ -1,0 +1,7 @@
+'QuantitativeArithmeticSmallLevelThirtyFiveKnownWords.source_zero_and_six_germs' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveKnownWords.lowerCombination_analytic_germ' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

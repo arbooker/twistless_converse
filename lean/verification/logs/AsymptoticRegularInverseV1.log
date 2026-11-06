@@ -1,0 +1,2 @@
+'AsymptoticRegularTrace.inverse_covariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.inverse_matrix_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]

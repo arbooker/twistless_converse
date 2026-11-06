@@ -1,0 +1,4 @@
+'QuantitativeHolomorphic.inverseSqrtPolynomial_degree_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.inverseSqrt_invariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.inverseSqrt_defect_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.inverseSqrt_uniform_scalar_error' depends on axioms: [propext, Classical.choice, Quot.sound]

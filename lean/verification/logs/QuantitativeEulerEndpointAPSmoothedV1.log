@@ -1,0 +1,2 @@
+'QuantitativeEulerEndpointAP.primeLog_pole_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointAP.primeDirichlet_dyadic_lower' depends on axioms: [propext, Classical.choice, Quot.sound]

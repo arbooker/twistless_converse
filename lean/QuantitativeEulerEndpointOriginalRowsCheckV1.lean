@@ -1,0 +1,21 @@
+module
+
+public import QuantitativeEulerEndpointPreparedCheckV1
+public import QuantitativeEulerEndpointOriginalRowsV1
+public import QuantitativeEulerEndpointAveragedV1
+public import QuantitativeEulerEndpointInverseRegionV1
+
+/-! Focused audit of the endpoint arithmetic/certificate family and its
+actual original-row realization. The averaged inverse has uniform cost
+three on an explicit compact union. Arithmetic correction terms and the
+global spectral/counting estimates remain; no full count is asserted. -/
+#print axioms QuantitativeEulerEndpointPrepared.compact_lower_fricke_identity
+#print axioms QuantitativeEulerEndpointPrepared.compact_lower_fricke_norm
+#print axioms QuantitativeEulerEndpointPrepared.compact_prime_fricke_bound
+#print axioms QuantitativeEulerEndpointPrepared.inverse_prime_branch_integer_bound
+#print axioms QuantitativeEulerEndpointPrepared.canonical_multiplied_original_norm
+#print axioms QuantitativeEulerEndpointPrepared.compact_prime_original_rows_bound
+#print axioms QuantitativeEulerEndpointPrepared.rational_translation_transport_norm
+#print axioms QuantitativeEulerEndpointPrepared.compact_prime_inverse_bound
+#print axioms QuantitativeEulerEndpointPrepared.prime_branch_averaged_bound
+#print axioms QuantitativeEulerEndpointPrepared.inverseRegion_strip

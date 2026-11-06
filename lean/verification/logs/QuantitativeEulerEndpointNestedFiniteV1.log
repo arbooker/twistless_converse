@@ -1,0 +1,7 @@
+'QuantitativeEulerEndpointNestedExpression.bounds_upto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointNestedExpression.bounds_double_exp_upto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointNestedExpression.regular_iteration_upto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

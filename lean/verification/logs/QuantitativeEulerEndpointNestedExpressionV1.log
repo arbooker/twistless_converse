@@ -1,0 +1,3 @@
+'QuantitativeEulerEndpointNestedExpression.budget_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointNestedExpression.bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointNestedExpression.regular_iteration' depends on axioms: [propext, Classical.choice, Quot.sound]

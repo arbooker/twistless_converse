@@ -1,0 +1,7 @@
+'QuantitativeArithmeticSmallLevelTwentySevenFourthSourceFamily.shift_action' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySevenFourthSourceFamily.coefficient_analytic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

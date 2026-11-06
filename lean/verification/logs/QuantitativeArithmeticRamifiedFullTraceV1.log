@@ -1,0 +1,8 @@
+'QuantitativeArithmeticRamifiedFullTrace.complete_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRamifiedFullTrace.complete_of_row' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRamifiedFullTrace.original_complete' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRamifiedFullTrace.original_complete_even' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRamifiedFullTrace.multiplier_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRamifiedFullTrace.multiplier_values' depends on axioms: [propext, Classical.choice, Quot.sound]

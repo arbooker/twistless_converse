@@ -1,0 +1,3 @@
+'AsymptoticCoefficientGrowth.coefficient_le_circle_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCoefficientGrowth.coefficient_le_height_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCoefficientGrowth.uniform_degree' depends on axioms: [propext, Classical.choice, Quot.sound]

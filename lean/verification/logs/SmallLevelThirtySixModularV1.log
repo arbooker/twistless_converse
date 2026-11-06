@@ -1,0 +1,4 @@
+'SmallLevelThirtySix.original_bounded_at_cusp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtySix.originalModular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtySix.level_thirty_six' depends on axioms: [propext, Classical.choice, Quot.sound]
+

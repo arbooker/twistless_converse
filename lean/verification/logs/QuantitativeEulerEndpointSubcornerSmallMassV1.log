@@ -1,0 +1,9 @@
+'QuantitativeEulerEndpointSubcornerSmallMass.packet_source_small_mass' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointSubcornerSmallMass.packet_trace_log_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointSubcornerSmallMass.packet_small_mass' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

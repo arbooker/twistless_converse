@@ -1,0 +1,7 @@
+'QuantitativeArithmeticSmallLevelTwentySevenFourthSourceFamily.matrix_shift_normalized' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySevenFourthSourceFamily.ramanujan_shift_normalized' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

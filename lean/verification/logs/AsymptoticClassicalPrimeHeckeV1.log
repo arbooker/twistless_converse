@@ -1,0 +1,3 @@
+'AsymptoticClassicalCusp.coeff_primeHecke' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.first_primeHecke' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.primeHecke_commute' depends on axioms: [propext, Classical.choice, Quot.sound]

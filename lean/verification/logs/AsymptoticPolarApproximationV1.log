@@ -1,0 +1,9 @@
+'AsymptoticPolarIsometry.penaltyRoot_gram' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticPolarIsometry.penaltyRoot_ker' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticPolarIsometry.resolvent_normal_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticPolarIsometry.resolvent_equation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticPolarIsometry.resolvent_strong_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticPolarIsometry.polar_zero_on_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticPolarIsometry.regularizedPolar_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticPolarIsometry.regularizedPolar_strong_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+

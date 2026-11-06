@@ -1,0 +1,6 @@
+'AsymptoticCongruenceStrip.double_degeneracy_index' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceStrip.lower_degeneracy_index' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceStrip.repeated_join_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceStrip.repeated_join_index' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceStrip.square_two_join_index' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceStrip.higher_join_index' depends on axioms: [propext, Classical.choice, Quot.sound]

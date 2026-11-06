@@ -1,0 +1,4 @@
+'QuantitativeArithmeticRetainedGrid.prime_coset_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedGrid.detect_from_windows' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedGrid.exists_buffered_grid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedGrid.grid_difference_detector' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,7 @@
+'QuantitativeSpectralDistribution.small_mass_of_log_integral_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralDistribution.high_mass_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralDistribution.fresh_high_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralDistribution.fresh_high_mass_theta' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralDistribution.small_mass_of_log_integral' depends on axioms: [propext, Classical.choice, Quot.sound]

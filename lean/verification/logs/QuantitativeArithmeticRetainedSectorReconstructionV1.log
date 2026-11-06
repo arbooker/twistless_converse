@@ -1,0 +1,18 @@
+'QuantitativeArithmeticRetainedSectorReconstruction.sector_normalized' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedSectorReconstruction.ramifiedParameter_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedSectorReconstruction.sector_complete' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedSectorReconstruction.sector_finiteDimensional' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedSectorReconstruction.cylinderSector_finrank' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedSectorReconstruction.sector_reconstructed' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

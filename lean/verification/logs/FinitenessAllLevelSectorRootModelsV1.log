@@ -1,0 +1,4 @@
+'FinitenessAllLevelPolynomialPresentation.Presentation.exists_rootModel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FinitenessAllLevelConstraintLocus.sector_root_models' depends on axioms: [propext, Classical.choice, Quot.sound]

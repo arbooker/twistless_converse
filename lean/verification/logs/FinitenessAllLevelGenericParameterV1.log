@@ -1,0 +1,5 @@
+'FinitenessAllLevelGenericParameter.zeros_countable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelGenericParameter.generic_parameter' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelGenericParameter.generic_polynomial_relations' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

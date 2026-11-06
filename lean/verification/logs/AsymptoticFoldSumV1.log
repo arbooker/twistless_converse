@@ -1,0 +1,4 @@
+'AsymptoticFoldSum.ascending_power_sum_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFoldSum.centered_sum_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFoldSum.sum_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFoldSum.power_sum_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,9 @@
+'QuantitativeEulerOldProjectionHolomorphic.weighted_slash_det_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerOldProjectionHolomorphic.phase_integralLabel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerOldProjectionHolomorphic.weighted_phase_invariant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

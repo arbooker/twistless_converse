@@ -1,0 +1,3 @@
+'QuantitativeEulerEndpointPrepared.compressed_baseline_source_observability' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

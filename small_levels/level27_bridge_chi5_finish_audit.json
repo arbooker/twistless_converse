@@ -1,0 +1,33 @@
+{
+  "status": "PASS_INDEPENDENT_STATE_CERTIFICATES_NORMALIZATION_AND_CONDITIONAL_FINISH",
+  "state_certificates": 16,
+  "paired_operator": [
+    [
+      10,
+      3,
+      -15,
+      -2
+    ],
+    [
+      20,
+      -1,
+      -15,
+      2
+    ]
+  ],
+  "elliptic_matrix_projective": [
+    13,
+    14,
+    -12,
+    -11
+  ],
+  "trace_squared_over_determinant": "4/25",
+  "chi5_FE_proved": false,
+  "sources": {
+    "level27_bridge_chi5_finish_check.py": "fe4fe7cf6103f85c36f8e4b196c952b3b097e7249819b452b1460c86bce26bee",
+    "level27_bridge_chi5_finish.tex": "4e6b21d8a24bed36343d561a72178ed2d8b0b98a1e7dad78b3f08192880ae069",
+    "level27_root_chi5_defect.py": "e50e025795440811b27336c19b58df41e051481e78bb3c65ff14b58d7fbd56d1",
+    "level27_defects_single_obstruction.tex": "031b41c0310fb9f2baf9ab59d9d72f80f50821b1d21c83bc0481f9f4e66dd332",
+    "level27_bridge_chi5_reduction.tex": "4f39d56703f39a923e96b26215d69fff5963254ea397d222866689d8ba98daba"
+  }
+}

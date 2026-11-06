@@ -1,0 +1,4 @@
+'SmallLevelEvenScale.scaled_antiperiod' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelEvenScale.scaled_fricke' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelEvenScale.scaled_T' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelEvenScale.scaled_lower' depends on axioms: [propext, Classical.choice, Quot.sound]

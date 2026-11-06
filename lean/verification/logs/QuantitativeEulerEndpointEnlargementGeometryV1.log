@@ -1,0 +1,7 @@
+'QuantitativeEulerEndpointPrepared.wideCompactCover_subset_labels' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.sourceHeightScale_div' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.enlarged_new_region_geometry' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

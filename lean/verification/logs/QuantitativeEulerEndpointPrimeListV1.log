@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointPrepared.goodPrimeList_nodup' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.goodPrimeList_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.goodPrimeList_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.goodPrimeList_prepared_product' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

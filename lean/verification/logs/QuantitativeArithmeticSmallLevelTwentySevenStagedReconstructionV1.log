@@ -1,0 +1,10 @@
+'QuantitativeArithmeticSmallLevelTwentySevenPlusGenericStages.stage_relation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySevenPlusGenericStages.stages_recover' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySevenPlusGenericStages.staged_matrix_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

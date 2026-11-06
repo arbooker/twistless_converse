@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointPrepared.good_prime_full_generator_stack_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.good_prime_generator_right_stack_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

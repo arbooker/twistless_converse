@@ -1,0 +1,4 @@
+'SmallLevelEleven.positive_branch' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelEleven.negative_branch' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelEleven.elliptic_branch' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelEleven.original_defect_elliptic' depends on axioms: [propext, Classical.choice, Quot.sound]

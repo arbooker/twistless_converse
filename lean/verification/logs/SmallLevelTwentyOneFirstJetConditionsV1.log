@@ -1,0 +1,3 @@
+'SmallLevelTwentyOneFirstJet.conditions_of_three_residuals' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneFirstJet.written_sign_value' depends on axioms: [propext, Classical.choice, Quot.sound]
+

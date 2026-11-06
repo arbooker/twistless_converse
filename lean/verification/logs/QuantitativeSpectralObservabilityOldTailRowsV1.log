@@ -1,0 +1,4 @@
+'QuantitativeSpectralObservability.oldTailRow_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralObservability.oldTailRow_norm_le_sampling' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

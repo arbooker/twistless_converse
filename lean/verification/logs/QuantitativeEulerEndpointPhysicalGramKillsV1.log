@@ -1,0 +1,2 @@
+'QuantitativeEulerEndpointPhysicalGram.normalized_gram_kills' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPhysicalGram.weighted_gram_kills' depends on axioms: [propext, Classical.choice, Quot.sound]

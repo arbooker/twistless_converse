@@ -1,0 +1,8 @@
+'QuantitativeEulerEndpointPrepared.canonical_entry_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.branch_canonical_height' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.swapped_canonical_height' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.defect_integer_action' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.defect_integer_height' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.translation_label_integer_action' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

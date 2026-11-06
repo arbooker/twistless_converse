@@ -1,0 +1,6 @@
+'QuantitativeSpectralObservability.fundamentalInduction_cogram' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralObservability.fundamentalInduction_adjoint_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

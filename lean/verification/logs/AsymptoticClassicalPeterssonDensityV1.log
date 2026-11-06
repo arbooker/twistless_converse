@@ -1,0 +1,3 @@
+'AsymptoticClassicalPetersson.integrand_invariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalPetersson.normalized_density_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalPetersson.inner_eq_integral_density' depends on axioms: [propext, Classical.choice, Quot.sound]

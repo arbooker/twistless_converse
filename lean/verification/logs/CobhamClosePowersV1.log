@@ -1,0 +1,1 @@
+'CobhamClosePowers.close_powers' depends on axioms: [propext, Classical.choice, Quot.sound]

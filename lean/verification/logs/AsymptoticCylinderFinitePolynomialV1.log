@@ -1,0 +1,10 @@
+'AsymptoticCylinderObservation.finiteCutNormal_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCylinderObservation.finitePolynomialErrorFactor_nonneg' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticCylinderObservation.finiteCutPolynomialTrace_normalized_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticCylinderObservation.finiteCutPolynomialTrace_approximation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

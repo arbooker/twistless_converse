@@ -1,0 +1,3 @@
+'FinitenessHeightEnvelope.localization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessHeightEnvelope.sSup_zero_of_contraction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessHeightEnvelope.pointwise_global_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

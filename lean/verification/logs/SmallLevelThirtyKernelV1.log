@@ -1,0 +1,5 @@
+'SmallLevelThirty.original_generators' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirty.representatives_eigen' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirty.kernel_invariance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirty.original_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+

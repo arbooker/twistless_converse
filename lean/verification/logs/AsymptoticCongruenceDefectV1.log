@@ -1,0 +1,6 @@
+'AsymptoticCongruenceDefect.operator_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceDefect.operator_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceDefect.operator_decode' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceDefect.all_compact_zero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceDefect.global_individual_le_remaining' depends on axioms: [propext, Classical.choice, Quot.sound]
+

@@ -1,0 +1,12 @@
+'QuantitativeSpectralExceptionalReconstructionTail.boundary_area' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralExceptionalReconstructionTail.terminal_rank' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralExceptionalReconstructionTail.boundary_rank' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralExceptionalReconstructionTail.boundary_survivor_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

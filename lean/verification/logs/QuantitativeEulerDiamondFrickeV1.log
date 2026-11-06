@@ -1,0 +1,3 @@
+'QuantitativeEulerDiamondDecode.compactAction_untwisted' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerDiamondDecode.canonical_residual_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerDiamondDecode.compact_canonical_recovery' depends on axioms: [propext, Classical.choice, Quot.sound]

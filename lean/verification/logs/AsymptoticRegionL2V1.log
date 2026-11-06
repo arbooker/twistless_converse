@@ -1,0 +1,5 @@
+'AsymptoticRegionL2.projection_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegionL2.projection_adjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegionL2.projection_eq_self_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegionL2.projection_eq_zero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegionL2.restrict' depends on axioms: [propext, Classical.choice, Quot.sound]

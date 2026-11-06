@@ -1,0 +1,9 @@
+'QuantitativeHolomorphic.finiteNormalizedRegularAmbient_norm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.finiteNormalizedRegularAmbient_right_terminal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.finiteNormalizedRegularAmbient_gram_trace_finite' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

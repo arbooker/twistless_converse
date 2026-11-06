@@ -1,0 +1,8 @@
+'QuantitativeEulerDiamondPolynomial.averagedResidual_sub_correction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerDiamondPolynomial.diamond_recovery' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerDiamondPolynomial.periodic_diamond_recovery' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerDiamondPolynomial.fricke_canonical_recovery' depends on axioms: [propext]

@@ -1,0 +1,2 @@
+'QuantitativeEulerEndpointSieve.weights_lambdaSquared_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointSieve.sifted_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

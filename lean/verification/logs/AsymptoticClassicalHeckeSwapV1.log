@@ -1,0 +1,4 @@
+'AsymptoticClassicalCusp.slash_positiveScalarReal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.heckeNormalizer_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.slash_heckeNormalizer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.slash_dilation_heckeNormalizer' depends on axioms: [propext, Classical.choice, Quot.sound]

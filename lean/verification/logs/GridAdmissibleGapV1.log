@@ -1,0 +1,2 @@
+'GridAdmissibleGap.levelPart_dvd_scaled' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GridAdmissibleGap.level_gap' depends on axioms: [propext, Classical.choice, Quot.sound]

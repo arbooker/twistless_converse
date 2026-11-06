@@ -1,0 +1,13 @@
+'QuantitativeHolomorphic.physical_low_fold_truncation_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.physical_terminal_fold_truncation_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.regular_low_fold_truncation_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.regular_terminal_fold_truncation_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.fold_operator_tail_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.fold_operator_power_tail_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.integerSquareTail_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.fold_majorant_tail_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.fold_majorant_power_tail_sum' depends on axioms: [propext, Classical.choice, Quot.sound]

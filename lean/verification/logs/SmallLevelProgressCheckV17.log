@@ -1,0 +1,52 @@
+SmallLevelOriginal.SmallLevelsTheorem : Prop
+SmallLevelAdditive.original_common_halfplane {N k : ℕ} {f : ℕ → ℂ} (hf : FinitenessOriginalInput.IsSolution N k f) :
+  ∃ B,
+    ∀ (r : ℝ) (s : ℂ),
+      B < s.re →
+        AnalyticAt ℂ (SmallLevelAdditive.original k f r) s ∧
+          mellin
+              (fun t =>
+                FinitenessFourierConstruction.fourier (FinitenessOriginalFourier.fullCoefficients f k)
+                  (↑r + ↑t * Complex.I))
+              s =
+            SmallLevelAdditive.original k f r s
+'SmallLevelAdditive.original_common_halfplane' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelAdditive.mellin_eq_transform' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelContinuation.normalForm_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelContinuation.halfplane_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelContinuation.determinant_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelContinuation.adjugate_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelContinuation.matrixSolve_meromorphic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelContinuation.matrixSolve_eq_germ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelContinuation.determinant_nonzero_germ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelContinuation.matrix_halfplane_extension' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelContinuation.halfplane_glue' depends on axioms: [propext, Classical.choice, Quot.sound]
+SmallLevelContinuation.closed_system_continuation.{u_1} {ι : Type u_1} [Fintype ι] [DecidableEq ι] (B : ℝ)
+  (F : ℂ → ι → ℂ) (A : ℂ → Matrix ι ι ℂ) (C : ℕ → ℂ → Matrix ι ι ℂ) (H : ℕ → ℂ → ι → ℂ)
+  (hF : ∀ (i : ι) (z : ℂ), B < z.re → AnalyticAt ℂ (fun w => F w i) z)
+  (hA : ∀ (x : ℂ) (i j : ι), AnalyticAt ℂ (fun z => A z i j) x) (hd : ∃ y, (A y).det ≠ 0)
+  (hC : ∀ (m : ℕ) (x : ℂ) (i j : ι), AnalyticAt ℂ (fun z => C m z i j) x)
+  (hH : ∀ (n : ℕ) (i : ι) (z : ℂ), B - (↑n + 1) < z.re → AnalyticAt ℂ (fun w => H n w i) z)
+  (hrow :
+    ∀ (n : ℕ) (z : ℂ),
+      B < z.re →
+        ∀ (i : ι), ∑ j, A z i j * F z j = H n z i + ∑ m ∈ Finset.range n, ∑ j, C m z i j * F (z + (↑m + 1)) j) :
+  ∃ G, (∀ (i : ι) (x : ℂ), MeromorphicNFAt (fun z => G z i) x) ∧ ∀ (z : ℂ), B < z.re → G z = F z
+'SmallLevelContinuation.closed_system_continuation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelContinuation.mellin_remainder_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+SmallLevelContinuation.closed_system_of_mellin_remainders.{u_1} {ι : Type u_1} [Fintype ι] [DecidableEq ι] (B : ℝ)
+  (F : ℂ → ι → ℂ) (A : ℂ → Matrix ι ι ℂ) (C : ℕ → ℂ → Matrix ι ι ℂ) (R : ℕ → ι → ℝ → ℂ) (a : ℕ → ι → ℝ)
+  (hF : ∀ (i : ι) (z : ℂ), B < z.re → AnalyticAt ℂ (fun w => F w i) z)
+  (hA : ∀ (x : ℂ) (i j : ι), AnalyticAt ℂ (fun z => A z i j) x) (hd : ∃ y, (A y).det ≠ 0)
+  (hC : ∀ (m : ℕ) (x : ℂ) (i j : ι), AnalyticAt ℂ (fun z => C m z i j) x) (ha : ∀ (n : ℕ) (i : ι), 0 < a n i)
+  (hlocal : ∀ (n : ℕ) (i : ι), MeasureTheory.LocallyIntegrableOn (R n i) (Set.Ioi 0) MeasureTheory.volume)
+  (htop : ∀ (n : ℕ) (i : ι), R n i =O[Filter.atTop] fun t => Real.exp (-a n i * t))
+  (hzero : ∀ (n : ℕ) (i : ι), R n i =O[nhdsWithin 0 (Set.Ioi 0)] fun t => t ^ (↑n + 1 - B))
+  (hrow :
+    ∀ (n : ℕ) (z : ℂ),
+      B < z.re →
+        ∀ (i : ι),
+          ∑ j, A z i j * F z j = mellin (R n i) z + ∑ m ∈ Finset.range n, ∑ j, C m z i j * F (z + (↑m + 1)) j) :
+  ∃ G, (∀ (i : ι) (x : ℂ), MeromorphicNFAt (fun z => G z i) x) ∧ ∀ (z : ℂ), B < z.re → G z = F z
+'SmallLevelContinuation.closed_system_of_mellin_remainders' depends on axioms: [propext, Classical.choice, Quot.sound]
+

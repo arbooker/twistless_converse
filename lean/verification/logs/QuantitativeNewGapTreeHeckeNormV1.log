@@ -1,0 +1,2 @@
+'QuantitativeNewGap.regularHecke_sharp_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeNewGap.arithmetic_old_cross_gram_sharp' depends on axioms: [propext, Classical.choice, Quot.sound]

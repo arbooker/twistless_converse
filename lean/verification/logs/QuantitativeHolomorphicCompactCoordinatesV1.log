@@ -1,0 +1,3 @@
+'QuantitativeHolomorphic.compactDenominatorLower_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.compactDenominatorLower_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.compact_image_coordinates' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,13 @@
+{
+  "scope": "Conditional N25 modularity from only-simple-weight-k poles at -1/5 and -3/25; these analytic premises remain unproved in general.",
+  "checks": [
+    "Root fresh matrix checker PASS Ramanujan pair signs, hyperbolic transformation, Hecke recurrence and exact index30.",
+    "Root analytic review of finite Taylor-Mellin transport, cutoff and remainder estimates from original polynomial Fourier growth, and finite-dimensional dilation/Fourier-Laplace argument."
+  ],
+  "source_sha256": {
+    "reconstruction.tex": "d364eada1100766ad80ef1b05f9234d71bd439a30dd36dd933bdbbfd8767e199",
+    "level25_aux_modularity_matrix.tex": "e8fbeb1f5b2743191e9fb8a26589094b6400e090e84bacb9a423fa5e94c164bd",
+    "level25_aux_modularity_matrix.py": "4ef4a5c2260caad2362053eedffa176d1be16a8365e96bb2c0086792b409e32b",
+    "level25_finish_dilation_mellin.tex": "43bce9cf04bfd0313c1775eb5cea23e8484f50dbf653a807b37a1fc5259b1430"
+  }
+}

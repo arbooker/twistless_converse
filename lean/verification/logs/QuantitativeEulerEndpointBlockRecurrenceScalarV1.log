@@ -1,0 +1,1 @@
+'QuantitativeEulerEndpointBlockRecurrence.soft_block_excess' depends on axioms: [propext, Classical.choice, Quot.sound]

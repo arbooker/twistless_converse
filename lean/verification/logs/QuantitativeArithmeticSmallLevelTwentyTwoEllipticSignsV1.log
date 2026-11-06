@@ -1,0 +1,5 @@
+'QuantitativeArithmeticSmallLevelTwentyTwo.Z_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyTwo.V_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyTwo.Z_eigen_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyTwo.V_eigen_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+

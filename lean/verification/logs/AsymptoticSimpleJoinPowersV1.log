@@ -1,0 +1,5 @@
+'AsymptoticSimpleJoin.witness_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticSimpleJoin.scaled_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticSimpleJoin.scaled_pow_mod' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticSimpleJoin.scaled_pow_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticSimpleJoin.witness_pow_not_integral' depends on axioms: [propext, Classical.choice, Quot.sound]

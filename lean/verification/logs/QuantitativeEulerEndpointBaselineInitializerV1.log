@@ -1,0 +1,11 @@
+'QuantitativeEulerEndpointBaselineInitializer.detector_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointBaselineInitializer.detector_gram' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointBaselineInitializer.detector_kills_of_rows' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointBaselineInitializer.rows_supported' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointBaselineInitializer.initial_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointBaselineInitializer.initial_detector_budget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointBaselineInitializer.initial_fixed' depends on axioms: [propext, Classical.choice, Quot.sound]

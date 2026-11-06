@@ -1,0 +1,6 @@
+'AsymptoticCongruenceLabels.dilationGL_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceLabels.fricke_mul_dilation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceLabels.inv_dilation_mul_fricke' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceStrip.frickeOldGroup_eq_degeneracy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceStrip.gamma_le_degeneracyGroup' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceStrip.degeneracyGroup_index' depends on axioms: [propext, Classical.choice, Quot.sound]

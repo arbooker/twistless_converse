@@ -1,0 +1,7 @@
+'QuantitativeEulerEndpointTerminalExpression.iterate_regular_right_support' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointTerminalExpression.trace_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointBoundedIteration.actualFiniteExpression_trace_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

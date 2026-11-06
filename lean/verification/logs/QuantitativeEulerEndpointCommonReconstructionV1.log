@@ -1,0 +1,12 @@
+'QuantitativeEulerEndpointCommonReconstruction.scheduled_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointCommonReconstruction.regular_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointCommonReconstruction.physical_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointCommonReconstruction.regular_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointCommonReconstruction.physical_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointCommonReconstruction.regular_right_terminal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

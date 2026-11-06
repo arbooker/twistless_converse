@@ -1,0 +1,11 @@
+'AsymptoticRegularObservation.observations_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.positive_isPositive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.positive_norm_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.positive_fixes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.includedExtension_eq_full_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.includedExtension_adjoint_norm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticRegularObservation.positive_re_inner_le_full_gram' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.positive_trace_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+

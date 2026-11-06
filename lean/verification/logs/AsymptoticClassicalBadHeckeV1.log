@@ -1,0 +1,4 @@
+'AsymptoticClassicalCusp.upperDilation_translation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.upperTrace_bad_slash' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.upperTrace_bad_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.coeff_upperTrace_bad' depends on axioms: [propext, Classical.choice, Quot.sound]

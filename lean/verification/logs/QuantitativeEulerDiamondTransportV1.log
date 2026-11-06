@@ -1,0 +1,7 @@
+'QuantitativeEulerDiamondDecode.decodedEvaluation_right_symbol' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerDiamondDecode.compactAction_mul_symbol' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerDiamondDecode.compactAction_mul_symbol_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

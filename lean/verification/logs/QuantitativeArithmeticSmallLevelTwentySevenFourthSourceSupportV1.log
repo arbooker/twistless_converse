@@ -1,0 +1,7 @@
+'QuantitativeArithmeticSmallLevelTwentySevenFourthSourceFamily.formalRow_congr' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySevenFourthSourceFamily.formalHigher_congr' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

@@ -1,0 +1,7 @@
+'QuantitativeArithmeticSmallLevelTwentySevenZeroJetSecondPlusStages.pivot_factorization' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySevenZeroJetSecondPlusStages.pivot_nonzero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

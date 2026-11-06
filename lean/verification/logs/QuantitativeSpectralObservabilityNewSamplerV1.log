@@ -1,0 +1,6 @@
+'QuantitativeSpectralObservability.totalNew_equivariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralObservability.totalNew_projection_regular' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralObservability.newSampling_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralObservability.observability_projected' depends on axioms: [propext, Classical.choice, Quot.sound]

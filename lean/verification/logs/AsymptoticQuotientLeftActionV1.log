@@ -1,0 +1,8 @@
+'AsymptoticNestedQuotients.leftMulEquiv_classOf' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticPermutationEigenvectors.inner_eq_zero_of_eigenvalues' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticPermutationEigenvectors.inner_eq_zero_of_signs' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticPermutationEigenvectors.inner_eq_zero_of_neg_signs' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

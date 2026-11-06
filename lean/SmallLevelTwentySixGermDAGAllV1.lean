@@ -1,0 +1,11 @@
+module
+public import QuantitativeArithmeticCompact26GermPrimitiveV1
+set_option autoImplicit false
+set_option synthInstance.maxSize 2048
+set_option maxRecDepth 32768
+set_option maxHeartbeats 5000000
+@[expose] public noncomputable section
+namespace SmallLevelTwentySixGermDAG
+open QuantitativeArithmeticSevenLaurentRows SmallLevelLaurentDerivation
+
+end SmallLevelTwentySixGermDAG

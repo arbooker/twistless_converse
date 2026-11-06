@@ -1,0 +1,6 @@
+'SmallLevelLaurentPhysicalSubstitution.monomial_physical' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelLaurentPhysicalSubstitution.eval_physical' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelLaurentPhysicalSubstitution.unit_normalization_germ' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

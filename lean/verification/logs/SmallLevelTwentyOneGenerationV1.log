@@ -1,0 +1,4 @@
+'SmallLevelTwentyOneGeneration.row_primitive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneGeneration.edgeS_checked' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneGeneration.edgeT_checked' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneGeneration.gamma0_mem' depends on axioms: [propext, Classical.choice, Quot.sound]

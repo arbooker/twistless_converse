@@ -1,0 +1,1 @@
+'SmallLevelFiniteShift.allowed_simple_pole_tail' depends on axioms: [propext, Classical.choice, Quot.sound]

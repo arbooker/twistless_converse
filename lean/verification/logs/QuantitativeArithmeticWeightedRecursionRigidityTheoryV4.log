@@ -1,0 +1,12 @@
+'QuantitativeArithmeticWeightedRecursionRigidity.weighted_recursion_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticWeightedRecursionRigidity.expanding_recursion_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticWeightedRecursionRigidity.forcing_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticWeightedRecursionRigidity.expanding_recursion_constant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

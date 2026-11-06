@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointPrepared.commonRegion_subset_labels' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.enlargedRegion_subset_labels' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

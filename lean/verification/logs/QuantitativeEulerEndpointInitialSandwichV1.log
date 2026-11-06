@@ -1,0 +1,7 @@
+'QuantitativeEulerEndpointInitialSandwich.detector_norm_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointInitialSandwich.weighted_sandwich_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointInitialSandwich.actual_detector_norm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

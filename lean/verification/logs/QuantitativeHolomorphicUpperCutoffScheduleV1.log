@@ -1,0 +1,4 @@
+'QuantitativeHolomorphic.Schedule.normalized_massBound_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.Schedule.normalized_massBound_budget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

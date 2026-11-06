@@ -1,0 +1,4 @@
+'SmallLevelOriginal.fourierFunction_eq_series' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelOriginal.fourierFunction_holomorphic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelOriginal.fourierFunction_zeroAtInfty' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelOriginal.level_one' depends on axioms: [propext, Classical.choice, Quot.sound]

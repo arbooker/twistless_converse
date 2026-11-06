@@ -1,0 +1,20 @@
+{
+  "status": "PASS independent deterministic characteristic-zero final algebra replay",
+  "statement": "Under original X\u22121 andY+1 nonvanishing, 21 exact inputs imply X=4,A=\u22123, contradicting A=\u2212X/L\u2212L for L>0. No J,D division or saturation routine used.",
+  "completion": {
+    "completed": true,
+    "returncode": 0
+  },
+  "sources_and_outputs": {
+    "research/small_levels/level19_cusp_exact_final_replay.m": "62365c03e934f01d0e2e284ce80b161c91141c647c75fdd935b12e1d0398b4a6",
+    "research/small_levels/level19_cusp_exact_final_audit.tex": "142019c6db246e162300cf99116d90db6b2b0bc87addbea461e20a99f0b178f7",
+    "research/small_levels/level19_sparse_poles_many_unsat.m": "b6d5fdb7f8a6c197b94761002aad05f98cd945909108042a4453b0a4bfe98c79",
+    "research/small_levels/level19_exact_membership_sparse_prepare.py": "7ce3dd37a0b97fe68cf0a1ec8d64ba7816b23e91c6c939aafc1dc2d8b1dd58dc",
+    "research/small_levels/level19_sparse_poles_compact.py": "0d0e7fc474a5e7b50881d0a9f5694a74c42da654e85b050c94d96d7204a4bb67",
+    "/tmp/level19_sparse_poles_compactall_fast.m": "18c55f340093dfb91f49ba2ec2f7814fc28f6d98aa622f041f2d73f666155c37",
+    "/tmp/level19_exact_membership_sparse_fast.m": "d7711714d4253dc20105d130afe8429ba13f10d5b452e3b82125375f1006909a",
+    "/tmp/level19_cusp_exact_final_replay.basis": "e4961199d36466d293d9343f38c6e0744474e3b224555131b24f368658dc0618",
+    "/tmp/level19_cusp_exact_final_replay.log": "0140507bfcadda3c974e59119aab243d6f06687e328067c4fd7e590a7b485343"
+  },
+  "source_chain_note": "Independent full original60x6 matrix\u2192sparse syzygies replay is owned by level19_finish; this manifest binds its production inputs for comparison."
+}

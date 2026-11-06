@@ -1,0 +1,15 @@
+'QuantitativeArithmeticRetainedTerminalSandwich.rep_trace_finite' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedTerminalSandwich.positive_sandwich_le_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedTerminalSandwich.sandwich_trace_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedTerminalSandwich.retained_sandwich_le_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedTerminalSandwich.normalized_sandwich_le_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,3 @@
+'QuantitativeNewGap.repeated_containing_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeNewGap.repeated_coset_old_gap_all' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeNewGap.prime_coset_old_gap' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,4 @@
+'QuantitativeSpectralExceptionalWide.row_factorization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralExceptionalWide.stack_factorization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralExceptionalWide.boundary_output_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralExceptionalWide.boundary_stack_rank' depends on axioms: [propext, Classical.choice, Quot.sound]

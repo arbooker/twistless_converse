@@ -1,0 +1,4 @@
+'QuantitativeArithmeticSmallLevelCirc.prime_eigen_fricke_sign' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.eigenform_isSolution' depends on axioms: [propext, Classical.choice, Quot.sound]

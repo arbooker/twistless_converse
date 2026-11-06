@@ -1,0 +1,6 @@
+'FinitenessAllLevelFormalContinuation.test_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelFormalContinuation.test_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelFormalContinuation.testLinear' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelFormalContinuation.test_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelFormalContinuation.testCLM' depends on axioms: [propext, Classical.choice, Quot.sound]
+

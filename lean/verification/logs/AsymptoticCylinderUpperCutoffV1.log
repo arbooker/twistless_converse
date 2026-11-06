@@ -1,0 +1,3 @@
+'AsymptoticCylinder.upper_adjoint_gram_summable_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCylinder.factored_gram_summable_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCylinder.factored_upperCut_trace_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,20 @@
+'QuantitativeArithmeticEnvelope.Poly.toLinearExp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticEnvelope.Exp.compPoly' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticEnvelope.Exp.natpowExp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticEnvelope.full_filter_growth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticEnvelope.filter_cost_growth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedGrowingEnvelope.normalizer_mass_growth' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedGrowingEnvelope.normalizer_length_growth' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedGrowingEnvelope.actual_complexity_growth' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedGrowingEnvelope.normalizer_growth' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedGrowingEnvelope.actual_matrix_growth' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

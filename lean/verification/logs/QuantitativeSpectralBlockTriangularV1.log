@@ -1,0 +1,12 @@
+'QuantitativeSpectralBlockTriangular.below_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralBlockTriangular.trace_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralBlockTriangular.trace_pow_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralBlockTriangular.trace_log_block_unipotent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralBlockTriangular.trace_log_block_congruence' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralBlockTriangular.below_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralBlockTriangular.eq_zero_of_blocks' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralBlockTriangular.pow_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]

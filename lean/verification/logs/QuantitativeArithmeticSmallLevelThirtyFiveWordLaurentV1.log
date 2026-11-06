@@ -1,0 +1,10 @@
+'QuantitativeArithmeticSmallLevelThirtyFiveKnownWords.rational_four_prime_power' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveKnownWords.word_leading_laurent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveKnownWords.word_first_shift_laurent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

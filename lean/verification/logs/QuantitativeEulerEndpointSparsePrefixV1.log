@@ -1,0 +1,4 @@
+'QuantitativeEulerEndpointSparsePrefix.value_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointSparsePrefix.value_antitone' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointSparsePrefix.prepared_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointSparsePrefix.preparedPrefix_value' depends on axioms: [propext, Classical.choice, Quot.sound]

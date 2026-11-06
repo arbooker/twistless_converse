@@ -1,0 +1,6 @@
+'AsymptoticStrongConvergence.antitone_projection_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticStrongConvergence.projection_norm_le_of_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.projection_root_eq_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.trace_toReal_tendsto_antitone_projections' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

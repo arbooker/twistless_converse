@@ -1,0 +1,10 @@
+'QuantitativeArithmeticSmallLevelThirtyFiveKnownWords.frickeFifth_coefficient' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveKnownWords.seven_coefficient' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveKnownWords.seven_hecke_row' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

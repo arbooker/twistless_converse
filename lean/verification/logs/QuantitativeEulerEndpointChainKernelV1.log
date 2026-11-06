@@ -1,0 +1,7 @@
+'QuantitativeEulerEndpointPrepared.baseline_kernel_survives' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.closed_baseline_kernel_survives' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.primeChain_kernel_survives' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

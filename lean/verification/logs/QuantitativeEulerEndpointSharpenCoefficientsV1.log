@@ -1,0 +1,5 @@
+'QuantitativeEulerEndpointBernstein.one_sub_X_coeff_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointBernstein.bernstein_coeff_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointBernstein.tail_coeff_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointBernstein.sharpen_coeff_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointBernstein.sharpen_coefficient_mass' depends on axioms: [propext, Classical.choice, Quot.sound]

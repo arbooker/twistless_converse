@@ -1,0 +1,3 @@
+'AsymptoticClassicalDimension.empty_dimension_littleO' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalDimension.partialNewSpace_singleton' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalDimension.two_dimension_littleO' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,4 @@
+'QuantitativeNewGap.heckeSwap_selfAdjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeNewGap.regularHecke_eq_compression' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeNewGap.regularHecke_selfAdjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeNewGap.regularHecke_cfc_equivariant' depends on axioms: [propext, Classical.choice, Quot.sound]

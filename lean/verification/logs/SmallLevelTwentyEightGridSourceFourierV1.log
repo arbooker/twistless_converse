@@ -1,0 +1,3 @@
+'SmallLevelTwentyEightGrid.grid_source_fourier' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightGrid.original_grid_sources' depends on axioms: [propext, Classical.choice, Quot.sound]
+

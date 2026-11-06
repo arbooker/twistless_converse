@@ -1,0 +1,5 @@
+'QuantitativeHolomorphic.contraction_product_le_exp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.affine_recurrence_exp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.contraction_logarithmic_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.prime_product_dvd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.excluded_prime_reciprocal_mass' depends on axioms: [propext, Classical.choice, Quot.sound]

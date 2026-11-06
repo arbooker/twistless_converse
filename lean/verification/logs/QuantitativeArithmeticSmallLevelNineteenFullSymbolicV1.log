@@ -1,0 +1,7 @@
+'QuantitativeArithmeticSmallLevelNineteenFullSystem.actual_leading_rows' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelNineteenFullSystem.actual_first_rows' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

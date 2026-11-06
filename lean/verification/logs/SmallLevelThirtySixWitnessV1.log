@@ -1,0 +1,9 @@
+'SmallLevelThirtySix.witness_word' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtySix.witness_coefficients' does not depend on any axioms
+'SmallLevelThirtySix.witness_action' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtySix.finite_zero_action' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtySix.finite_one_action' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtySix.finite_two_action' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtySix.finite_three_action' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtySix.finite_four_action' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtySix.infinity_action' depends on axioms: [propext, Classical.choice, Quot.sound]

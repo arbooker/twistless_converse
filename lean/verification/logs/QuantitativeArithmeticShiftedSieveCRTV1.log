@@ -1,0 +1,13 @@
+'QuantitativeArithmeticShiftedSieveCRT.fixed_residue_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticShiftedSieveCRT.allowedUnits_totient_proportion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticShiftedSieveCRT.allowedUnits_proportion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticShiftedSieveCRT.finset_allowedUnits_card' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticShiftedSieveCRT.allowedUnits_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticShiftedSieveCRT.avoidance_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticShiftedSieveCRT.crt_predicate_card' depends on axioms: [propext, Classical.choice, Quot.sound]

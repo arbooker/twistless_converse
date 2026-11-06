@@ -1,0 +1,11 @@
+'SmallLevelSixEigen.root_six_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelSixEigen.root_six_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelSixEigen.root_six_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelSixEigen.eigen_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelSixEigen.thirty_three_A' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelSixEigen.thirty_three_B' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelSixEigen.thirty_four_A' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelSixEigen.thirty_four_B' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelSixEigen.thirty_five_A' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelSixEigen.thirty_five_B' depends on axioms: [propext, Classical.choice, Quot.sound]
+

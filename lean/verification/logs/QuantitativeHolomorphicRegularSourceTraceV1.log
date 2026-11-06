@@ -1,0 +1,10 @@
+'QuantitativeHolomorphic.observationRegularFilter_trace_eq_source' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.observationRegularFilter_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.observationRegularFilter_trace_finite' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.observationRegularFilter_retained_trace_le_source' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

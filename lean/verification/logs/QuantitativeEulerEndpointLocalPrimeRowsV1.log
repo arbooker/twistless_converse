@@ -1,0 +1,8 @@
+'QuantitativeEulerEndpointPrepared.oldGroup_cosetTrace_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.primeOldRingRow_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.compactAction_primeOldRingRow' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.primeOldRingRow_original_control' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

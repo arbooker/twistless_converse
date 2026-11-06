@@ -1,0 +1,7 @@
+'QuantitativeArithmeticSmallLevelThirtyFiveKnownWords.coordinate_zero_of_germ' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveKnownWords.pole_hecke_two' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

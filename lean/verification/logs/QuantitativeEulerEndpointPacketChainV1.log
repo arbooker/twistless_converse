@@ -1,0 +1,3 @@
+'QuantitativeEulerEndpointPrepared.chain_list_full' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.primeChain_eq_fold' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.primeChain_eq_packet' depends on axioms: [propext, Classical.choice, Quot.sound]

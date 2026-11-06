@@ -1,0 +1,3 @@
+'AsymptoticClassicalCusp.localAtkin_primeOld_invariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.localAtkin_old_invariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.localAtkin_mem_newSpace' depends on axioms: [propext, Classical.choice, Quot.sound]

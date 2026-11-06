@@ -1,0 +1,3 @@
+'QuantitativeSpectralExceptionalUnweight.data_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralExceptionalUnweight.unweight_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralExceptionalUnweight.unweight_regular' depends on axioms: [propext, Classical.choice, Quot.sound]

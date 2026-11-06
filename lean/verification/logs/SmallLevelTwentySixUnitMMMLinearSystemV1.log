@@ -1,0 +1,2 @@
+'SmallLevelTwentySixUnitMMM.leadingMatrix_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixUnitMMM.leadingMatrix_kernel_exists' depends on axioms: [propext, Classical.choice, Quot.sound]

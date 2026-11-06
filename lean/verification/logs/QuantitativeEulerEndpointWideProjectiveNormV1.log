@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointPrepared.wide_projective_lower_fricke_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.wide_projective_canonical_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

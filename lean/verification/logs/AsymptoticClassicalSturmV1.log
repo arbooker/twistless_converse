@@ -1,0 +1,3 @@
+'AsymptoticClassicalNorm.order_le_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalNorm.sturm_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalNorm.eq_zero_of_coefficients' depends on axioms: [propext, Classical.choice, Quot.sound]

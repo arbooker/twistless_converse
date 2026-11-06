@@ -1,0 +1,5 @@
+'QuantitativeEulerEndpointPrepared.wide_original_control_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.wide_original_control_inverse' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.wide_original_control_mul' depends on axioms: [propext, Classical.choice, Quot.sound]

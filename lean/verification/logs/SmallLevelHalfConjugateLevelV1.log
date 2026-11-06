@@ -1,0 +1,1 @@
+'SmallLevelGenerators.original_halfConjugate_of_lcm' depends on axioms: [propext, Classical.choice, Quot.sound]

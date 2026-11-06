@@ -1,0 +1,3 @@
+'AsymptoticSectorComparison.count_from_total_dimension' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticSectorComparison.sum_sign_traces' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticSectorComparison.sum_grouped_sign_traces' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,2 @@
+'QuantitativeEulerEndpointBlocks.prepared_blockLoss_summable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointBlocks.prepared_block_product' depends on axioms: [propext, Classical.choice, Quot.sound]

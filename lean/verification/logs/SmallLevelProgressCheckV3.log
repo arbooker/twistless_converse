@@ -1,0 +1,20 @@
+SmallLevelOriginal.SmallLevelsTheorem : Prop
+SmallLevelThirtySix.level_thirty_six {k : ℕ} (hk : 0 < k) (heven : Even k) {f : ℕ → ℂ}
+  (hf : FinitenessOriginalInput.IsSolution 36 k f) : SmallLevelOriginal.IsModular 36 k f
+SmallLevelThirtySix.originalModular (m : ℕ) (hm : 0 < m) (f : ↑(FinitenessOriginalInput.S 36 (2 * m))) :
+  ModularForm (Subgroup.map (Matrix.SpecialLinearGroup.mapGL ℝ) (CongruenceSubgroup.Gamma0 36)) ↑(2 * m)
+SmallLevelOriginal.modular_of_transformations {N m : ℕ} (hN : 0 < N) {f : ℕ → ℂ}
+  (hf : FinitenessOriginalInput.IsSolution N (2 * m) f)
+  (hs :
+    ∀ γ ∈ CongruenceSubgroup.Gamma0 N,
+      SlashAction.map (↑(2 * m)) γ (SmallLevelOriginal.fourierFunction (2 * m) f) =
+        SmallLevelOriginal.fourierFunction (2 * m) f) :
+  SmallLevelOriginal.IsModular N (2 * m) f
+'SmallLevelCuspGrowth.bounded_of_q_mul_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelCuspGrowth.upper_bounded_of_polynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelCuspGrowth.slash_polynomial_strip' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelOriginal.inverse_height_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelOriginal.modular_of_transformations' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtySix.originalModular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtySix.level_thirty_six' depends on axioms: [propext, Classical.choice, Quot.sound]
+

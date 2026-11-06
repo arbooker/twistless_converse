@@ -1,0 +1,8 @@
+'QuantitativeEulerEndpointPrepared.rectangle_subset_shifted' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.common_subset_fresh_shifted' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.prime_residual_restrict_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.fricke_row_restrict_norm' depends on axioms: [propext, Classical.choice, Quot.sound]

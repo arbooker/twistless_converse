@@ -1,0 +1,23 @@
+'SmallLevelTwentySixOdd.original_odd_hecke' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixOdd.third_continuation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixOdd.even_half_weight_continuation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixOdd.thirdNumerator_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixOdd.inverseTwoScalar_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixOdd.third_product_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixOdd.third_finiteOrder' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixOdd.thirdFactor_reflection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixOdd.quarterFactor_reflection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixOdd.sqrt_conductor_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixOdd.thirdNumerator_reflection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixOdd.third_reflection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixOdd.third_matrix_conjugate' depends on axioms: [propext, Classical.choice, Quot.sound]
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+'SmallLevelTwentySixOdd.third_coherent_entire' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixOdd.third_individual_law' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixOdd.modular_of_P_and_entire_third' depends on axioms: [propext, Classical.choice, Quot.sound]
+

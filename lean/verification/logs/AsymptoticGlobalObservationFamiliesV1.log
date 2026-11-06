@@ -1,0 +1,19 @@
+'AsymptoticRegularObservationRows.row_restrict' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservationRows.row_kernel_restrict' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservationRows.exhaustion_zero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.familyRegions_compact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.globalKernelSpace_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.globalKernelSpace_exhaustion_independent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticRegularObservation.globalKernelSpace_le_of_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.globalKernelProjection_matrix_measurable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticRegularObservation.globalKernelProjection_covariant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticRegularObservation.globalKernelProjection_trace_finite' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

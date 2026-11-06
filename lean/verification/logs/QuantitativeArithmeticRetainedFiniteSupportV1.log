@@ -1,0 +1,9 @@
+'QuantitativeArithmeticRetainedFiniteExpressions.full_left_strip' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedFiniteExpressions.full_right_terminal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedFiniteExpressions.regular_full_right_terminal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

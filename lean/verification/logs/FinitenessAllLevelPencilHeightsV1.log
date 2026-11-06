@@ -1,0 +1,4 @@
+'FinitenessAllLevelPencilHeights.lift_representative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelPencilHeights.rows_agree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelPencilHeights.heights_exist' depends on axioms: [propext, Classical.choice, Quot.sound]
+

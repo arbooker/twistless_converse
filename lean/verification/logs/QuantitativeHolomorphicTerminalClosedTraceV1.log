@@ -1,0 +1,9 @@
+'QuantitativeHolomorphic.Terminal.sector_finrank_le_regular_source_trace_of_replacement' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.Terminal.sector_finrank_le_regular_source_trace_quantified' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.Terminal.sector_finrank_le_regular_source_trace_closed' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

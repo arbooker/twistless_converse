@@ -1,0 +1,97 @@
+'SmallLevelTwentySixResultantBatchedMMMZeroGrouped.row2_x34' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantBatchedMMMZeroGrouped.row2_coefficient34' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantBatchedMMMZeroGrouped.row2_x35' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantBatchedMMMZeroGrouped.row2_coefficient35' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantBatchedMMMZeroGrouped.row3_x33' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantBatchedMMMZeroGrouped.row3_coefficient33' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantBatchedMMMZeroGrouped.row3_x34' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantBatchedMMMZeroGrouped.row3_coefficient34' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantBatchedMMMZeroGrouped.row3_x35' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantBatchedMMMZeroGrouped.row3_coefficient35' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantBatchedMMMZeroGrouped.row4_x31' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantBatchedMMMZeroGrouped.row4_coefficient31' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantBatchedMMMZeroGrouped.row4_x32' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantBatchedMMMZeroGrouped.row4_coefficient32' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantBatchedMMMZeroGrouped.row4_x33' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantBatchedMMMZeroGrouped.row4_coefficient33' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantBatchedMMMZeroGrouped.row4_x34' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantBatchedMMMZeroGrouped.row4_coefficient34' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantBatchedMMMZeroGrouped.row5_x00' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantBatchedMMMZeroGrouped.row5_coefficient00' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantBatchedMMMZeroGrouped.row5_x30' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantBatchedMMMZeroGrouped.row5_coefficient30' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantBatchedMMMZeroGrouped.row5_x31' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantBatchedMMMZeroGrouped.row5_coefficient31' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantBatchedMMMZeroGrouped.row5_x32' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantBatchedMMMZeroGrouped.row5_coefficient32' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantBatchedMMMZeroGrouped.row5_x33' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantBatchedMMMZeroGrouped.row5_coefficient33' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantBatchedMMMZeroGrouped.row5_x34' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantBatchedMMMZeroGrouped.row5_coefficient34' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantBatchedMMMZeroGrouped.row5_x35' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantBatchedMMMZeroGrouped.row5_coefficient35' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantBatchedMMMZeroGrouped.row6_x00' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantBatchedMMMZeroGrouped.row6_coefficient00' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantBatchedMMMZeroGrouped.row6_x29' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantBatchedMMMZeroGrouped.row6_coefficient29' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantBatchedMMMZeroGrouped.row6_x30' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantBatchedMMMZeroGrouped.row6_coefficient30' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantBatchedMMMZeroGrouped.row6_x31' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantBatchedMMMZeroGrouped.row6_coefficient31' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantBatchedMMMZeroGrouped.row6_x32' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantBatchedMMMZeroGrouped.row6_coefficient32' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantBatchedMMMZeroGrouped.row6_x33' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantBatchedMMMZeroGrouped.row6_coefficient33' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantBatchedMMMZeroGrouped.row6_x34' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantBatchedMMMZeroGrouped.row6_coefficient34' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantBatchedMMMZeroGrouped.row6_x35' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantBatchedMMMZeroGrouped.row6_coefficient35' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

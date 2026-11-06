@@ -1,0 +1,15 @@
+'AsymptoticRegularObservation.finiteCutNormal_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.finiteCutNormal_covariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.finiteCutNormal_matrix_measurable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticRegularObservation.finiteCutNormal_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.finitePolynomialErrorFactor_nonneg' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticRegularObservation.finiteCutPolynomialTerminal_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticRegularObservation.finiteCutPolynomialTerminal_approximation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

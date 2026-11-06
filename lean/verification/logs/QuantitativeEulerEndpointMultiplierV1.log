@@ -1,0 +1,9 @@
+'QuantitativeEulerEndpointPrepared.transported_prime_power_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.transported_prime_inverse_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.transported_prime_correction_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

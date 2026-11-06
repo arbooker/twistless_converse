@@ -1,0 +1,7 @@
+'QuantitativeEulerEndpointTerminalTrace.contraction_gram_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointTerminalTrace.rep_trace_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointTerminalTrace.positive_sandwich_le_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

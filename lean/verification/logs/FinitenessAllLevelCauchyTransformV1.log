@@ -1,0 +1,5 @@
+'FinitenessAllLevelCauchyTransform.positive_differentiableOn' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelCauchyTransform.positive_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelCauchyTransform.positive_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelCauchyTransform.toDisk_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+

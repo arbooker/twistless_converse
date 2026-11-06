@@ -1,0 +1,6 @@
+'QuantitativeArithmeticUniversalPoleVector.IsLeadingVector.scale' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticUniversalPoleVector.IsLeadingVector.normalize' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

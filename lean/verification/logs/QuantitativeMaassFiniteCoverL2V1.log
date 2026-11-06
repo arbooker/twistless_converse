@@ -1,0 +1,2 @@
+'QuantitativeMaass.AutomorphicL2.coverOperator_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeMaass.AutomorphicL2.coverOperator_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]

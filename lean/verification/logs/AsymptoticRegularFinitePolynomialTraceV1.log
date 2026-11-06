@@ -1,0 +1,19 @@
+'AsymptoticRegularObservation.finiteCutPolynomialTerminal_covariant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticRegularObservation.finiteCutPolynomialTerminal_matrix_measurable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticRegularObservation.finiteCutPolynomialTerminal_right_terminal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticRegularObservation.finiteCutPolynomialTerminal_norm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticRegularObservation.finiteCutPolynomialTrace_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.finiteCutPolynomialTrace_approximation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticRegularObservation.finiteCut_positive_trace_approximation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

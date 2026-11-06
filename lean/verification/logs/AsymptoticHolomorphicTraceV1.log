@@ -1,0 +1,3 @@
+'AsymptoticObservation.gram_bound_of_weighted_factorization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticObservation.holomorphic_trace_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticObservation.holomorphic_finrank_le_trace' depends on axioms: [propext, Classical.choice, Quot.sound]

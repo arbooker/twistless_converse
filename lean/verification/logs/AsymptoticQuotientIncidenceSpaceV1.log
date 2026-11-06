@@ -1,0 +1,5 @@
+'AsymptoticQuotientIncidence.fricke_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticQuotientIncidence.ramified_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticQuotientIncidence.space_closed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticQuotientIncidence.space_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticQuotientIncidence.induction_mem_space' depends on axioms: [propext, Classical.choice, Quot.sound]

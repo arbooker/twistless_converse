@@ -1,0 +1,9 @@
+'QuantitativeArithmeticRetainedTraceRemoval.remove_auxiliary_traces' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedTraceRemoval.exists_initial_with_retained' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedTraceRemoval.retained_zero_of_bounded_axis' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

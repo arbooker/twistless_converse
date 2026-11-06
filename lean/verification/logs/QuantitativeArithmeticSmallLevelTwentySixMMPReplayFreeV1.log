@@ -1,0 +1,3 @@
+'QuantitativeArithmeticSmallLevelTwentySixMMPReplay.source_zero_of_replay_free' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

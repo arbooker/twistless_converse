@@ -1,0 +1,7 @@
+'QuantitativeArithmeticSmallLevelTwentySixMMPNormalizedInput.signed_original_input_germ' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySixMMPNormalizedInput.signed_original_derived_germ' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

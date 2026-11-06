@@ -1,0 +1,2 @@
+'QuantitativeMaass.HeckeL2.inclusion_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeMaass.HeckeL2.operator_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]

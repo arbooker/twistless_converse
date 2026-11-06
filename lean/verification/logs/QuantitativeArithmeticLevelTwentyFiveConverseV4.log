@@ -1,0 +1,310 @@
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeGenericSmall.no_generic_physical' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+case refine_2
+u Y X : ℂ
+⊢ 1 * u ^ 2 * Y * X ^ 2 + -8 * u ^ 2 * Y * X + 16 * u ^ 2 * Y + 4 * u ^ 2 * X ^ 3 + -17 * u ^ 2 * X ^ 2 +
+                  4 * u ^ 2 * X +
+                2 * u * Y * X ^ 2 +
+              -10 * u * Y * X +
+            8 * u * Y +
+          3 * u * X ^ 3 +
+        -30 * u * X ^ 2 +
+      72 * u * X =
+    u * (X - 4) * (1 * u * Y * X + -4 * u * Y + 4 * u * X ^ 2 + -1 * u * X + 2 * Y * X + -2 * Y + 3 * X ^ 2 + -18 * X)
+case refine_4
+u Y X : ℂ
+⊢ -4 * u * Y * X ^ 2 + 64 * u * Y + 9 * u * X ^ 3 + -36 * u * X ^ 2 = u * (X - 4) * (-4 * Y * X + -16 * Y + 9 * X ^ 2)
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeMinusTwoSmall.reduced_relations' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeMinusTwoSmall.source0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeMinusTwoSmall.source1' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeMinusTwoSmall.source2' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeMinusTwoSmall.source3' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeMinusTwoSmall.no_physical' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.first_chart_forces_minus_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.first_chart_parameters' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeNonzeroTwoRows.no_first_chart' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeGridSystem.actual_rank_negative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeGridSystem.original_grid_continuation_negative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeZeroTwoFive.result3454_eq_jet' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeZeroTwoFive.result3137_eq_jet' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.ZeroTwoFive.five_force_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeZeroTwoFive.normalized4' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeZeroTwoFive.coordinate295_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeZeroTwoFive.coordinate757_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeZeroTwoFive.leading_and_two_jets_force_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeZeroTwoFive.lower3454_physical' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeZeroTwoFive.result3454_physical' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeZeroTwoFive.lower3137_physical' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeZeroTwoFive.result3137_physical' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeZeroTwoFive.physical_force_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.OriginalLeading.first_source_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.OriginalLeading.first_source_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.OriginalLeading.residual16_source_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.OriginalLeading.residual6_source_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.OriginalLeading.residual9_source_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.OriginalLeading.source1_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.OriginalLeading.source2_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.OriginalLeading.source3_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.OriginalFirstJet.result147_source_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.OriginalFirstJet.result147_source_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.OriginalFirstJet.result201_source_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.OriginalFirstJet.result201_source_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.PositiveChart.CompactSource.from_initial' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.PositiveChart.CompactSource.initial_from_six' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.PositiveChart.CompactSource.no_physical_six_sources' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.OriginalLeading.no_physical_original_first_chart' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.OriginalCertificates.regularized_original_rows' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.OriginalFirstJet.lower147_physical' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.OriginalFirstJet.result147_physical' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.OriginalFirstJet.lower201_physical' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.OriginalFirstJet.result201_physical' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.OriginalCertificates.regularized_no_first_chart' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.OriginalCertificates.allowed_no_first_chart' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.SecondChart.two_branches' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.SecondChart.normalized5' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.SecondChart.minus_one_values' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.SecondChart.minus_two_values' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.SecondChart.minus_two_no_physical' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.SecondChart.original_second_chart_values' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.FactoredJet.no_physical_original_second_chart' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.OriginalCertificates.regularized_no_second_chart' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.OriginalCertificates.allowed_no_second_chart' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.OriginalCertificates.allowed_no_positive_nonzero_two' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.OriginalCertificates.regularized_weight_no_positive_nonzero_two' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.OriginalCertificates.strict_no_positive_nonzero_two_above_weight' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.OriginalCertificates.global_positive_nonzero_two_pole_orders' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.ZeroTwoFive.result3293_eq_jet' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.ZeroTwoFive.result3128_eq_jet' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.ZeroTwoFive.coordinate_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.ZeroTwoFive.leading_and_two_jets_force_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.ZeroTwoFive.lower3293_physical' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.ZeroTwoFive.result3293_physical' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.ZeroTwoFive.lower3128_physical' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.ZeroTwoFive.result3128_physical' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.ZeroTwoFive.physical_force_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.OriginalCertificates.allowed_no_positive_zero_two_at_zero_cusp' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.OriginalCertificates.regularized_no_positive_zero_two_at_zero_cusp' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.OriginalCertificates.strict_no_positive_zero_two_above_weight' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.OriginalCertificates.global_positive_all_pole_orders' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.GridSystem.actual_rank_positive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.GridSystem.original_grid_continuation_positive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.ContinuationPositiveZeroTwo.source_rows_kernel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.ContinuationPositiveZeroTwo.common_factor_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.ContinuationPositiveZeroTwo.source_rows_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.GridSystem.actual_rank_positive_zero_two' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.GridSystem.original_grid_continuation_positive_all' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.OriginalCertificates.original_positive_all_continued_poles' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.MinusOriginalCertificates.allowed_no_negative_zero_two_at_zero_cusp' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.MinusOriginalCertificates.regularized_no_negative_zero_two_at_zero_cusp' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.MinusOriginalCertificates.strict_no_negative_zero_two_above_weight' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.MinusOriginalCertificates.global_negative_zero_two_pole_orders' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.MinusOriginalCertificates.original_negative_zero_two_continued_poles' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.MinusOriginalCertificates.allowed_negative_first_parameters' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.MinusOriginalCertificates.regularized_negative_first_parameters' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.MinusOriginalCertificates.allowed_no_negative_first_chart' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.MinusOriginalCertificates.regularized_no_negative_first_chart' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.MinusOriginalCertificates.allowed_no_negative_second_chart' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.MinusOriginalCertificates.regularized_no_negative_second_chart' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.MinusOriginalCertificates.allowed_no_negative_nonzero_two_at_zero_cusp' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.MinusOriginalCertificates.regularized_no_negative_nonzero_two_at_zero_cusp' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.MinusOriginalCertificates.strict_no_negative_nonzero_two_above_weight' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.MinusOriginalCertificates.global_negative_nonzero_two_pole_orders' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.MinusOriginalCertificates.original_negative_nonzero_two_continued_poles' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.MinusOriginalCertificates.original_negative_all_continued_poles' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.original_modular' depends on axioms: [propext, Classical.choice, Quot.sound]
+

@@ -1,0 +1,3 @@
+'AsymptoticObservation.normal_range_top' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticObservation.normalEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticObservation.inverse_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]

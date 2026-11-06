@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointPrepared.SectorPacketWitness.inverseCut_le_polynomial' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.SectorPacketWitness.inverseCut_isBigO' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

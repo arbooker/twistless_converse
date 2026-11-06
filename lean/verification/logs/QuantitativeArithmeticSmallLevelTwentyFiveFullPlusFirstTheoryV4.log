@@ -1,0 +1,10 @@
+'QuantitativeArithmeticSmallLevelTwentyFive.FullPlusFirst.original_germs' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.FullPlusFirst.original_first_shift_allowed' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.FullPlusFirst.original_regularized_first_shift' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

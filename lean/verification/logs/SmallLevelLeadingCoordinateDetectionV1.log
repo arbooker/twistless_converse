@@ -1,0 +1,6 @@
+'SmallLevelLeadingCoordinateDetection.coordinate_zero_of_germ' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelLeadingCoordinateDetection.pole_in_detecting_coordinates' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

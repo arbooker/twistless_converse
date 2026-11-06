@@ -1,0 +1,9 @@
+'QuantitativeEulerEndpointPrepared.compact_right_common_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.compact_lower_fricke_common_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.canonical_common_original_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

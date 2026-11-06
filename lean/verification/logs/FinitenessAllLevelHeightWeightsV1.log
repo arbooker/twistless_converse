@@ -1,0 +1,3 @@
+'FinitenessAllLevelHeightWeights.weighted_two_dilations' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelHeightWeights.reconstruct_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+

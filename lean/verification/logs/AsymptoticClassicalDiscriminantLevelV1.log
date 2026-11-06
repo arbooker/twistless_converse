@@ -1,0 +1,4 @@
+'AsymptoticClassicalDiscriminant.dilation_action' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalDiscriminant.atLevel_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalDiscriminant.atLevel_slash_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalDiscriminant.atLevel_log_decay' depends on axioms: [propext, Classical.choice, Quot.sound]

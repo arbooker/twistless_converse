@@ -1,0 +1,9 @@
+'FinitenessAllLevelCauchyConstraints.differentiableOn_of_identities' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FinitenessAllLevelCauchyConstraints.identities_of_differentiableOn' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FinitenessAllLevelCauchyConstraints.formal_circleIntegrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelCauchyConstraints.formal_identities_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+

@@ -1,0 +1,2 @@
+'QuantitativeArithmeticSimplePole.entire_regularization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSimplePole.entire_part' depends on axioms: [propext, Classical.choice, Quot.sound]

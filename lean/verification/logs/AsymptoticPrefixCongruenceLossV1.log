@@ -1,0 +1,2 @@
+'AsymptoticRegularObservation.prefix_congruence_loss' depends on axioms: [propext, Classical.choice, Quot.sound]
+

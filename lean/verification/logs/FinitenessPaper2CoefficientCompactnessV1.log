@@ -1,0 +1,6 @@
+'FinitenessPaper2.coefficient_closure_isCompact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessPaper2.closure_growth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessPaper2.closure_multiplicative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessPaper2.closure_recurrence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessPaper2.closure_bad_primes' depends on axioms: [propext, Classical.choice, Quot.sound]
+

@@ -1,0 +1,46 @@
+module
+
+public import FinitenessAllLevelClosedLocusV1
+public import FinitenessAllLevelDiskCoordinatesV1
+
+set_option autoImplicit false
+@[expose] public noncomputable section
+
+namespace FinitenessAllLevelConstraintLocus
+
+open Complex Set Metric FinitenessAllLevelDiskAlgebra FinitenessAllLevelBoundaryCoordinates
+  FinitenessAllLevelGlobalHeight FinitenessAllLevelFormalContinuation
+  FinitenessAllLevelCertificatePencil FinitenessOriginalInput
+  QuantitativeArithmeticRetainedCertificate
+
+/-- Each exact sector has compact inverse image of every closed eigenvalue
+disk inside its displayed recovery bound. This uses original-solution properness
+and the proved closedness of the exact analytic locus. -/
+theorem sector_bounded_isCompact {N Q p : ℕ} {hQ : 0 < Q}
+    (hN : 0 < N) (hp : p.Prime) (hgood : ¬ p ∣ N) (hlarge : N < p ^ 2)
+    (hpQ : p ∣ Q) (A : Certificate N {p} Q hQ)
+    {L : ℝ} (P : Parameters A L) {a b : ℝ} (hb : 0 < b) (hba : b < a) (hae : a ≤ P.ε)
+    {m : ℕ} (hm : 0 < m) (s : Fin (Q + 1) → Bool) {B : ℝ} (hBL : B ≤ L) :
+    IsCompact {t : ℂ × space (radius a) |
+      t ∈ sectorLocus hN A P hb hba m s ∧ ‖t.1‖ ≤ B} := by
+  let c := FinitenessAllLevelDiskCoordinates.coordinates N (2 * m) p
+    (radius_pos a) (radius_lt_one (hb.trans hba))
+  have hc : Continuous c := FinitenessAllLevelDiskCoordinates.coordinates_continuous
+    hN hp hgood hlarge m (radius_pos a) (radius_lt_one (hb.trans hba))
+  have hK : IsCompact ((fun f : S N (2 * m) => f.val p) ⁻¹' closedBall 0 B) :=
+    (FinitenessAllLevelProperness.eigenvalue_isProperMap hN hp hgood hlarge hm).isCompact_preimage
+      (isCompact_closedBall 0 B)
+  apply (hK.image hc).of_isClosed_subset
+  · exact (constrained_locus_isClosed hN hp A P hb hba hae (sector Q m s) m).inter
+      (isClosed_le continuous_fst.norm continuous_const)
+  · intro t ht
+    obtain ⟨f, he, hF⟩ := constraints_recover hN hp hpQ hm A P (hb.trans hba) hae
+      (sector Q m s) t.1 t.2 (fun q _ => sector_norm Q m s q)
+      (ht.2.trans hBL) (sector_signs Q m s 1) ht.1.2
+    refine ⟨f, ?_, ?_⟩
+    · simpa only [mem_preimage, mem_closedBall, dist_zero_right, he] using ht.2
+    · exact Prod.ext he hF
+
+#print axioms sector_bounded_isCompact
+
+end FinitenessAllLevelConstraintLocus

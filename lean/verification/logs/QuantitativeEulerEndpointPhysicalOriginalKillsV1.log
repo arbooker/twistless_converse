@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointPrepared.original_packet_gram_kills' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointInitialExpression.original_energy_kills' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

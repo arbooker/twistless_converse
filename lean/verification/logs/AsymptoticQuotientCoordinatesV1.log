@@ -1,0 +1,9 @@
+'AsymptoticCongruenceQuotient.weight_fold' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceQuotient.cap_fold' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceQuotient.coordinate_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceQuotient.coordinate_induction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceQuotient.pointwise_weight_preserves_quotient' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticCongruenceQuotient.coordinate_normalizer' depends on axioms: [propext, Classical.choice, Quot.sound]
+

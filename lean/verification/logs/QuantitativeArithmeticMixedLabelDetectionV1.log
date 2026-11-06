@@ -1,0 +1,4 @@
+'QuantitativeArithmeticMixedLabelDetection.primeHit_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticMixedLabelDetection.mixed_label_detect' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

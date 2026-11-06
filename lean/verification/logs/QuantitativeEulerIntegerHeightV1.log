@@ -1,0 +1,4 @@
+'QuantitativeEulerIntegerHeight.clear_entries' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerIntegerHeight.integer_action_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerIntegerHeight.fold_integer_height' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerIntegerHeight.finite_family_height' depends on axioms: [propext, Classical.choice, Quot.sound]

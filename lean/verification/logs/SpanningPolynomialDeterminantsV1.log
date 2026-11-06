@@ -1,0 +1,2 @@
+'SpanningPolynomialDeterminants.mixed_determinants_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpanningPolynomialDeterminants.determinant_degree_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

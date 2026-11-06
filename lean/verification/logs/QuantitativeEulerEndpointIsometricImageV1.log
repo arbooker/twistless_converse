@@ -1,0 +1,4 @@
+'QuantitativeEulerEndpointIsometricImage.image_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointIsometricImage.restricted_gram' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointIsometricImage.restricted_cogram' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointIsometricImage.image_trace' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,30 @@
+SmallLevelOriginal.SmallLevelsTheorem : Prop
+SmallLevelThirtySix.original_obstruction_zero {f : ℕ → ℂ} (m : ℕ) (hm : 0 < m)
+  (hf : FinitenessOriginalInput.IsSolution 36 (2 * m) f)
+  (hS :
+    SlashAction.map (↑(2 * m)) ModularGroup.S (SmallLevelThirtySix.scaledFunction (2 * m) f) =
+      -SmallLevelThirtySix.scaledFunction (2 * m) f) :
+  SmallLevelThirtySix.obstruction m (SmallLevelThirtySix.scaledFunction (2 * m) f) = 0
+SmallLevelThirtySix.original_congruence {f : ℕ → ℂ} (m : ℕ) (hm : 0 < m)
+  (hf : FinitenessOriginalInput.IsSolution 36 (2 * m) f) (γ : Matrix.SpecialLinearGroup (Fin 2) ℤ)
+  (hγ : SmallLevelThirtySix.reductionSix γ = 1 ∨ SmallLevelThirtySix.reductionSix γ = -1) :
+  SlashAction.map (↑(2 * m)) γ (SmallLevelThirtySix.scaledFunction (2 * m) f) =
+    SmallLevelThirtySix.scaledFunction (2 * m) f
+SmallLevelThirtySix.original_gamma_zero {f : ℕ → ℂ} (m : ℕ) (hm : 0 < m)
+  (hf : FinitenessOriginalInput.IsSolution 36 (2 * m) f) (γ : Matrix.SpecialLinearGroup (Fin 2) ℤ)
+  (hγ : γ ∈ CongruenceSubgroup.Gamma0 36) :
+  SlashAction.map (↑(2 * m)) γ (SmallLevelOriginal.fourierFunction (2 * m) f) =
+    SmallLevelOriginal.fourierFunction (2 * m) f
+SmallLevelThirtySix.original_cusp_antiperiod {f : ℕ → ℂ} (m : ℕ) (hm : 0 < m)
+  (hf : FinitenessOriginalInput.IsSolution 36 (2 * m) f) (γ : Matrix.SpecialLinearGroup (Fin 2) ℤ) :
+  SlashAction.map (↑(2 * m)) (ModularGroup.T ^ 3)
+      (SlashAction.map (↑(2 * m)) γ (SmallLevelThirtySix.scaledFunction (2 * m) f)) =
+    -SlashAction.map (↑(2 * m)) γ (SmallLevelThirtySix.scaledFunction (2 * m) f)
+'SmallLevelThirtySix.original_hecke_five' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtySix.original_obstruction_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtySix.residue_S' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtySix.residue_T' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtySix.original_congruence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtySix.original_gamma_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtySix.original_cusp_antiperiod' depends on axioms: [propext, Classical.choice, Quot.sound]
+

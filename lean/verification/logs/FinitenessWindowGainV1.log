@@ -1,0 +1,4 @@
+'FinitenessWindowGain.row_horizontal_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessWindowGain.individual_gain' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessWindowGain.certificate_gain' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessWindowGain.reflected_height_gain' depends on axioms: [propext, Classical.choice, Quot.sound]

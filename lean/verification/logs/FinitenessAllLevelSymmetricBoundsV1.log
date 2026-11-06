@@ -1,0 +1,9 @@
+'FinitenessAllLevelPolynomialPresentation.root_product_coeff_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FinitenessAllLevelPolynomialPresentation.fiberPolynomial_monic_degree' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FinitenessAllLevelPolynomialPresentation.fiberPolynomial_coeff_growth' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

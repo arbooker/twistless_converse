@@ -1,0 +1,2 @@
+'AsymptoticRegularTrace.norm_signedTrace_sub_le_corner' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.signedTrace_tendsto_of_corner' depends on axioms: [propext, Classical.choice, Quot.sound]

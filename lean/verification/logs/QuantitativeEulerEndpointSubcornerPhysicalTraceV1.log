@@ -1,0 +1,2 @@
+'QuantitativeEulerEndpointTraceMass.represented_signedTrace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointTraceMass.subcorner_trace_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

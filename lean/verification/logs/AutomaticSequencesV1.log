@@ -1,0 +1,7 @@
+'AutomaticSequences.automatic_envelope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AutomaticSequences.envelope_on_block' depends on axioms: [propext, Quot.sound]
+'AutomaticSequences.exists_block' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AutomaticSequences.envelope_has_finite_automaton' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AutomaticSequences.exists_digits' depends on axioms: [propext, Quot.sound]
+'AutomaticSequences.envelope_has_msb_automaton' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AutomaticSequences.exists_msb_digits' depends on axioms: [propext, Quot.sound]

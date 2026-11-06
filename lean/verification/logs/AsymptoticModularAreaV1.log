@@ -1,0 +1,5 @@
+'AsymptoticModularDomain.openRegion_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticModularDomain.open_domain_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticModularDomain.open_region_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticModularDomain.open_domain_area' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticModularDomain.closed_domain_area' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,6 @@
+'QuantitativeArithmeticSmallLevelCirc.semisimple_joint_family' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.normalized_joint_basis_of_good_semisimple' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

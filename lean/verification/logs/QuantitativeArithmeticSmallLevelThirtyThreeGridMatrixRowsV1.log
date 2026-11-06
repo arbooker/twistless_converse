@@ -1,0 +1,4 @@
+'QuantitativeArithmeticSmallLevelThirtyThreeKnownWords.grid_matrix_rows_of_fricke' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

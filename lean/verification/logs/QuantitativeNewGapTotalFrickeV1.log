@@ -1,0 +1,3 @@
+'QuantitativeNewGap.totalNewSpace_eq_jointList' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeNewGap.globalFricke_localNew_invariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeNewGap.globalFricke_totalNew_invariant' depends on axioms: [propext, Classical.choice, Quot.sound]

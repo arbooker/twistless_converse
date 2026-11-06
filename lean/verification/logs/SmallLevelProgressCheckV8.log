@@ -1,0 +1,11 @@
+SmallLevelOriginal.SmallLevelsTheorem : Prop
+SmallLevelThirtyTwo.original_A {k : ℕ} (hk : 0 < k) {f : ℕ → ℂ} (hf : FinitenessOriginalInput.IsSolution 32 k f) :
+  SlashAction.map (↑k) SmallLevelThirtyTwo.A (SmallLevelEvenScale.scaledFunction k f) =
+    SmallLevelEvenScale.scaledFunction k f
+'SmallLevelThirtyTwo.actual_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtyTwo.actual_defect_elliptic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtyTwo.original_A' depends on axioms: [propext, Classical.choice, Quot.sound]
+SmallLevelOriginal.level_thirty_two {k : ℕ} (hk : 0 < k) (heven : Even k) {f : ℕ → ℂ}
+  (hf : FinitenessOriginalInput.IsSolution 32 k f) : SmallLevelOriginal.IsModular 32 k f
+'SmallLevelOriginal.level_thirty_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+

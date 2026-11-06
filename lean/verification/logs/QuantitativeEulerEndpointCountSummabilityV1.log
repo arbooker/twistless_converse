@@ -1,0 +1,3 @@
+'QuantitativeEulerEndpointAP.summable_reciprocal_of_block_counts' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

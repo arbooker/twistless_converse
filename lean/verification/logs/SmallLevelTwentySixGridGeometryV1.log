@@ -1,0 +1,3 @@
+'SmallLevelTwentySixGrid.gridGroup_geometry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGrid.gridGroup_partner_transform' depends on axioms: [propext, Classical.choice, Quot.sound]
+

@@ -1,0 +1,7 @@
+'QuantitativeSpectralExceptionalFricke.exists_weightedRow_residual' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralExceptionalFricke.sampledRow_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralExceptionalFricke.sampledTail_source_rank' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

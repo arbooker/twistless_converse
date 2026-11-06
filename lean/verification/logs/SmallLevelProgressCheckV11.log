@@ -1,0 +1,9 @@
+SmallLevelOriginal.SmallLevelsTheorem : Prop
+SmallLevelOriginal.level_fifteen {k : ℕ} (hk : 0 < k) (heven : Even k) {f : ℕ → ℂ}
+  (hf : FinitenessOriginalInput.IsSolution 15 k f) : SmallLevelOriginal.IsModular 15 k f
+'SmallLevelNormalized.original_fifteen_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelFifteen.actual_defect_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelFifteen.original_A' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelFifteen.original_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelFifteen.gamma0_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelOriginal.level_fifteen' depends on axioms: [propext, Classical.choice, Quot.sound]

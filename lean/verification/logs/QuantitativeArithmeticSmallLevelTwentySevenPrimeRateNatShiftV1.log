@@ -1,0 +1,7 @@
+'QuantitativeArithmeticSmallLevelTwentySevenPlusGenericStages.primeRate_sub_nat' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySevenPlusGenericStages.primeRate_resonance_layer' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

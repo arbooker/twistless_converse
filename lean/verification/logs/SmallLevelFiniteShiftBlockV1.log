@@ -1,0 +1,2 @@
+'SmallLevelFiniteShift.blockLeading_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelFiniteShift.continued_block_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]

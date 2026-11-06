@@ -1,0 +1,4 @@
+'QuantitativeSpectralObservability.projectiveBranch_label' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralObservability.exists_oldProjection_residual' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

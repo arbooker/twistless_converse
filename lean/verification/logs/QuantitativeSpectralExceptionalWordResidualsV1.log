@@ -1,0 +1,6 @@
+'QuantitativeSpectralExceptionalReducedRows.correction_word_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralExceptionalReducedRows.correctionFamily_word_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,7 @@
+'FinitenessAllLevelFormalContinuation.step_tail_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelFormalContinuation.iterate_uniform_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelFormalContinuation.formal_uniform_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelFormalContinuation.formalOperator_uniform_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

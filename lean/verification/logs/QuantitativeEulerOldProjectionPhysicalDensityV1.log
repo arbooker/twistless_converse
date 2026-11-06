@@ -1,0 +1,6 @@
+'QuantitativeEulerOldProjectionPhysical.extensionDensity_normalized' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerOldProjectionPhysical.repeatedJoinDensity_normalized' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

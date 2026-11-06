@@ -1,0 +1,63 @@
+{
+  "observed_utc": "2026-11-05T12:26:12.604082+00:00",
+  "lean_version": "Lean (version 4.35.0-rc2, arm64-apple-darwin24.6.0, commit 11acb17ec6b07a8f9e9173e6845197929540936b, Release)",
+  "packages": {
+    "mathlib": {
+      "path": "/Users/minlee/lean-ramanujan/ramanujan/.lake/packages/mathlib",
+      "expected_rev": "065356127b1dc0016f66b7283ce0ce2c4055aa55",
+      "actual_rev": "065356127b1dc0016f66b7283ce0ce2c4055aa55",
+      "tracked_clean": true
+    },
+    "plausible": {
+      "path": "/Users/minlee/lean-ramanujan/ramanujan/.lake/packages/plausible",
+      "expected_rev": "e50948299c4dc4a4c21b1c34b6a6a4fddc19f912",
+      "actual_rev": "e50948299c4dc4a4c21b1c34b6a6a4fddc19f912",
+      "tracked_clean": true
+    },
+    "LeanSearchClient": {
+      "path": "/Users/minlee/lean-ramanujan/ramanujan/.lake/packages/LeanSearchClient",
+      "expected_rev": "95e037bfdc31d3916ac615446847fb01960e2719",
+      "actual_rev": "95e037bfdc31d3916ac615446847fb01960e2719",
+      "tracked_clean": true
+    },
+    "importGraph": {
+      "path": "/Users/minlee/lean-ramanujan/ramanujan/.lake/packages/importGraph",
+      "expected_rev": "10930f8138f0462dbd744a91fc03a16fae0e046f",
+      "actual_rev": "10930f8138f0462dbd744a91fc03a16fae0e046f",
+      "tracked_clean": true
+    },
+    "proofwidgets": {
+      "path": "/Users/minlee/lean-ramanujan/ramanujan/.lake/packages/proofwidgets",
+      "expected_rev": "4c70ac059693669e5756e32a7a94b57ee1e99dc5",
+      "actual_rev": "4c70ac059693669e5756e32a7a94b57ee1e99dc5",
+      "tracked_clean": true
+    },
+    "aesop": {
+      "path": "/Users/minlee/lean-ramanujan/ramanujan/.lake/packages/aesop",
+      "expected_rev": "75d936c7af167cc93fac0d31237682fc2204591d",
+      "actual_rev": "75d936c7af167cc93fac0d31237682fc2204591d",
+      "tracked_clean": true
+    },
+    "Qq": {
+      "path": "/Users/minlee/lean-ramanujan/ramanujan/.lake/packages/Qq",
+      "expected_rev": "786b7acdca7eb4e9c76c5d1d5bd810e7e5c56334",
+      "actual_rev": "786b7acdca7eb4e9c76c5d1d5bd810e7e5c56334",
+      "tracked_clean": true
+    },
+    "batteries": {
+      "path": "/Users/minlee/lean-ramanujan/ramanujan/.lake/packages/batteries",
+      "expected_rev": "ed9b316aabe389fec1ef43c3326ab48c7e59be42",
+      "actual_rev": "ed9b316aabe389fec1ef43c3326ab48c7e59be42",
+      "tracked_clean": true
+    },
+    "Cli": {
+      "path": "/Users/minlee/lean-ramanujan/ramanujan/.lake/packages/Cli",
+      "expected_rev": "2842b9871b04862f944c032e34052cb9448ccb71",
+      "actual_rev": "2842b9871b04862f944c032e34052cb9448ccb71",
+      "tracked_clean": true
+    }
+  },
+  "scope": "Installed compiler version and dependency Git revisions/tracked source cleanliness; does not rebuild Mathlib",
+  "lean_toolchain_sha256": "8dc8d6f560141069d9073e370611716ef77ada0da8ffa37e2149f44b2e63ac7a",
+  "lake_manifest_sha256": "6938eeb538df3fb8eb7863496db498ee0f33524abe4a1beca7f87d8d40327fa0"
+}

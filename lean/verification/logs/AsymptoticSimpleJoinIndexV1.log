@@ -1,0 +1,3 @@
+'AsymptoticSimpleJoin.witness_mem_join' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticSimpleJoin.witness_pow_not_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticSimpleJoin.simple_join_relIndex' depends on axioms: [propext, Classical.choice, Quot.sound]

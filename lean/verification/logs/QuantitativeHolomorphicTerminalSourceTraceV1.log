@@ -1,0 +1,3 @@
+'QuantitativeHolomorphic.finiteRegularFilter_retained_trace_le_source' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

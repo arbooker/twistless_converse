@@ -1,0 +1,9 @@
+'SmallLevelTwentyOneKnownWords.rational_three_prime_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneKnownWords.certificate_leading_laurent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneKnownWords.certificate_first_shift_laurent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneKnownWords.fullTaylorCoefficient_rational' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

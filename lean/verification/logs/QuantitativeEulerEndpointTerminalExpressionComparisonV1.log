@@ -1,0 +1,4 @@
+'QuantitativeEulerEndpointTerminalExpression.regular_comparison' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointTerminalExpression.bounds' depends on axioms: [propext, Classical.choice, Quot.sound]

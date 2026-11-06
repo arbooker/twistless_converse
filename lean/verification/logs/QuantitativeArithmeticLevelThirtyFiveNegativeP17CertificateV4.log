@@ -1,0 +1,19 @@
+'QuantitativeArithmeticSmallLevelThirtyFiveJetCertificate.generic_p17_product0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveJetCertificate.generic_p17_product1' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveJetCertificate.generic_p17_product2' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveJetCertificate.generic_p17_sum1' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveJetCertificate.generic_p17_sum2' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveJetCertificate.generic_p17_certificate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

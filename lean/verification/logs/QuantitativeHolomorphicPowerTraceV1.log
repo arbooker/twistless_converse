@@ -1,0 +1,7 @@
+'QuantitativeHolomorphic.retained_expression_power_trace_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.periodization_far_of_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.geometric_tail_le_trace_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.diagonal_denominator_le_trace_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.uniformRetainedTraceError_le_power' depends on axioms: [propext, Classical.choice, Quot.sound]

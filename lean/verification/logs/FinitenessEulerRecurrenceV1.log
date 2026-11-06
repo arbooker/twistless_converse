@@ -1,0 +1,2 @@
+'FinitenessEulerRecurrence.full_recurrence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessEulerRecurrence.eq_of_prime_eq' depends on axioms: [propext, Classical.choice, Quot.sound]

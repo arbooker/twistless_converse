@@ -1,0 +1,2 @@
+'AsymptoticNestedQuotients.fibre_sum_eq_coset_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticNestedQuotients.projection_eq_zero_iff_coset_sums' depends on axioms: [propext, Classical.choice, Quot.sound]

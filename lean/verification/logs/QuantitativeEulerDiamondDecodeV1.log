@@ -1,0 +1,3 @@
+'QuantitativeEulerDiamondDecode.evaluate_left_symbol' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerDiamondDecode.decodedEvaluation_periodic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerDiamondDecode.decoded_diamond_recovery' depends on axioms: [propext, Classical.choice, Quot.sound]

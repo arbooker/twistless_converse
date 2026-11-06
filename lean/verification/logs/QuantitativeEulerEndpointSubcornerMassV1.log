@@ -1,0 +1,5 @@
+'QuantitativeEulerEndpointSubcornerMass.initial_trace_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointSubcornerMass.initial_trace_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointSubcornerMass.survivor_mass_le_initial' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

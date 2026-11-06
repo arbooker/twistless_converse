@@ -1,0 +1,8 @@
+'AsymptoticRegularCertificate.lowPart_zero_off_strip' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularCertificate.terminalPart_zero_off_strip' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularCertificate.low_zero_off_strip' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularCertificate.terminal_zero_off_strip' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularReconstruction.extension_zero_off_strip' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularReconstruction.includedExtension_zero_off_strip' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

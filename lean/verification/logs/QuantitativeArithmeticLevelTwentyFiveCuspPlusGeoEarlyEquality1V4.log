@@ -1,0 +1,40 @@
+'QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_lookup_named_6' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.aux_lookup_named_6' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_lookup_named_7' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.aux_lookup_named_7' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_lookup_named_8' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.aux_lookup_named_8' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_lookup_named_9' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.aux_lookup_named_9' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_lookup_named_10' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.aux_lookup_named_10' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_lookup_named_11' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.aux_lookup_named_11' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_eq_bounded_block_1' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

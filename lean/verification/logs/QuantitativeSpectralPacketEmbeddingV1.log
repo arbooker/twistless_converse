@@ -1,0 +1,8 @@
+'QuantitativeSpectralPacketEmbedding.projectionElement' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralPacketEmbedding.representation_projectionElement' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralPacketEmbedding.rowElement' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralPacketEmbedding.representation_rowElement' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

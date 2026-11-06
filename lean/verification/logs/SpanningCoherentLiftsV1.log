@@ -1,0 +1,3 @@
+'SpanningCoherentLifts.TraceLift.ofStationary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpanningCoherentLifts.TraceLift.restriction_identification' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpanningCoherentLifts.TraceLift.word_substitution' depends on axioms: [propext, Classical.choice, Quot.sound]

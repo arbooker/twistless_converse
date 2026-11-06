@@ -1,0 +1,6 @@
+'AsymptoticCylinderModeComparison.localized_mode_distance_sq_exp_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticCylinderModeComparison.localized_mode_difference_summable_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

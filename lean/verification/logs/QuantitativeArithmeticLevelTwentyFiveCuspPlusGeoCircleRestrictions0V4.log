@@ -1,0 +1,10 @@
+'QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusLaurent.circle_residual_restrict_0_1' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusLaurent.circle_residual_restrict_0_2' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusLaurent.circle_residual_restrict_0_3' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

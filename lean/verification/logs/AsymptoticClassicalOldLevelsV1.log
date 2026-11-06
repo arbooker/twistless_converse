@@ -1,0 +1,3 @@
+'AsymptoticClassicalCusp.level_antitone' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.fricke_reverse_intertwine' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.level_le_frickeOldLevel' depends on axioms: [propext, Classical.choice, Quot.sound]

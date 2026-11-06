@@ -1,0 +1,9 @@
+'QuantitativeSpectralTraceResolvent.affine_isUnit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralTraceResolvent.continuousOn_resolvent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralTraceResolvent.integrable_resolvent_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralTraceResolvent.integrable_resolvent_sandwich' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralTraceResolvent.trace_integral_resolvent_sandwich' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

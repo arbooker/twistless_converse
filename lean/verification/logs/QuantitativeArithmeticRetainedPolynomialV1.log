@@ -1,0 +1,25 @@
+'QuantitativeArithmeticRetainedTerminalAlgebra.half_projection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedTerminalAlgebra.half_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedTerminalAlgebra.half_le_terminal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedTerminalAlgebra.half_supported' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedTerminalAlgebra.half_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedPolynomial.value_unitGram' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedPolynomial.value_unitNext' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedPolynomial.exists_next' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedPolynomial.logCost_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedPolynomial.exists_scheduled_next' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedPolynomial.combined_rows_supported' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedPolynomial.combined_gram_supported' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedPolynomial.next_supported' depends on axioms: [propext, Classical.choice, Quot.sound]

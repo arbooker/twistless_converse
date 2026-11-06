@@ -1,0 +1,5 @@
+'QuantitativeMaass.finite_orthonormal_energy_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeMaass.energy_change_basis_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeMaass.energy_change_basis' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeMaass.left_comp_energy_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeMaass.right_comp_energy_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,3 @@
+'QuantitativeArithmeticCompact33.compile_correct' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticCompact33.normalized_compile_correct' depends on axioms: [propext, Classical.choice, Quot.sound]
+

@@ -1,0 +1,4 @@
+'QuantitativeEulerEndpointMassTransfer.sqrt_gram' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointMassTransfer.compressed_energy_mass' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

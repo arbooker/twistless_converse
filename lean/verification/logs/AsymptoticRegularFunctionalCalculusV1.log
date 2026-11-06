@@ -1,0 +1,5 @@
+'AsymptoticRegularTrace.real_polynomial_covariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.real_polynomial_matrix_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.cfc_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.sqrt_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+

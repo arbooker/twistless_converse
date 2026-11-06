@@ -1,0 +1,6 @@
+'AsymptoticRegularReconstruction.finiteCutFull_gram_trace_finite' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticRegularObservation.finiteCutPolynomialAmbient_trace_eq_terminal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

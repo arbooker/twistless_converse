@@ -1,0 +1,7 @@
+'QuantitativeArithmeticSmallLevelTwentySixMMPOriginalKernel.replay_top' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySixMMPOriginalKernel.original_leading_kernel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

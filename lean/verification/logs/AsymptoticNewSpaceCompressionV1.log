@@ -1,0 +1,5 @@
+'AsymptoticCongruenceOldSpace.newSpace_induction_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceOldSpace.newSpace_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceOldSpace.newSpace_projection_compression' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,2 @@
+'SmallLevelGenerators.halfConjugate_of_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelGenerators.original_halfConjugate' depends on axioms: [propext, Classical.choice, Quot.sound]

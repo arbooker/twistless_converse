@@ -1,0 +1,4 @@
+'QuantitativeArithmeticRetainedFiniteExpressions.low_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedFiniteExpressions.terminal_mass' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

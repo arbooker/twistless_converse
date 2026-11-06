@@ -1,0 +1,13 @@
+'QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusCircleMatrix.inverse_checked_1_0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusCircleMatrix.inverse_checked_1_1' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusCircleMatrix.inverse_checked_1_2' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusCircleMatrix.inverse_checked_1_3' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

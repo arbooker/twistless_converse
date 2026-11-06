@@ -1,0 +1,13 @@
+'QuantitativeSpectralPacketIntrinsic.blockElements_projection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralPacketIntrinsic.blockElements_orthogonal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralPacketIntrinsic.blockElements_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralPacketIntrinsic.rowElements_left' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralPacketIntrinsic.rowElements_diagonal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralPacketIntrinsic.rowElements_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralPacketIntrinsic.strictElement_below' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralPacketIntrinsic.diagonalElement_isUnit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralPacketIntrinsic.factorization' depends on axioms: [propext, Classical.choice, Quot.sound]

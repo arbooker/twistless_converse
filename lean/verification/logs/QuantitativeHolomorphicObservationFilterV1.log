@@ -1,0 +1,5 @@
+'QuantitativeHolomorphic.normalizedObservationGram_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.normalizedObservationFilter_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.normalizedObservationFilter_sector_fixes' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

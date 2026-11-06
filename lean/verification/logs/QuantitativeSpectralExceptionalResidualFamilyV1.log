@@ -1,0 +1,12 @@
+'QuantitativeSpectralExceptionalReducedRows.retained_family_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralExceptionalReducedRows.correctionFamily_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralExceptionalReducedRows.retained_twist_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralExceptionalReducedRows.retained_bad_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

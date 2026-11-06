@@ -1,0 +1,7 @@
+'QuantitativeArithmeticSmallLevelTwentySixMMPOriginalConstraint6.signed_original_constraint_germ' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySixMMPOriginalConstraint7.signed_original_constraint_germ' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

@@ -1,0 +1,3 @@
+'FinitenessGammaDecay.norm_le_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessGammaDecay.weighted_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessGammaDecay.vertical_line' depends on axioms: [propext, Classical.choice, Quot.sound]

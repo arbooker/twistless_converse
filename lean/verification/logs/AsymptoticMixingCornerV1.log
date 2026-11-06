@@ -1,0 +1,6 @@
+'AsymptoticRegularTrace.support_matrix_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.stack_support_matrix_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticMixing.stack_comp_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticMixing.normalizedMixed_comp_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticMixing.corner_rank_loss' depends on axioms: [propext, Classical.choice, Quot.sound]
+

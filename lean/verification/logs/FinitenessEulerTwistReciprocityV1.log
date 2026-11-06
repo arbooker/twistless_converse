@@ -1,0 +1,3 @@
+'FinitenessEulerTwistReciprocity.good_reciprocity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessEulerTwistReciprocity.bad_reciprocity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessEulerTwistReciprocity.zero_bad_polynomial_succ' depends on axioms: [propext, Classical.choice, Quot.sound]

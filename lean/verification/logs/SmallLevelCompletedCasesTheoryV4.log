@@ -1,0 +1,6 @@
+'SmallLevelCompletedCases.completed_card' depends on axioms: [propext, Quot.sound]
+'SmallLevelCompletedCases.completed_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelCompletedCases.modular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelCompletedCases.circ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelCompletedCases.exact_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+

@@ -1,0 +1,7 @@
+'QuantitativeArithmetic.good_prime_mass_of_relative_density_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmetic.good_prime_product_of_relative_density_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmetic.finite_family_product_of_density_one' depends on axioms: [propext, Classical.choice, Quot.sound]

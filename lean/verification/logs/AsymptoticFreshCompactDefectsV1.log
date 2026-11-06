@@ -1,0 +1,11 @@
+'AsymptoticFreshCompactDefects.matrixBranch_label' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFreshCompactDefects.reflectedBranch_label' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFreshCompactDefects.identityBranch_label' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFreshCompactDefects.rowBound_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFreshCompactDefects.row_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFreshCompactDefects.row_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFreshCompactDefects.row_supported' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFreshCompactDefects.translated_matrix_row' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFreshCompactDefects.translated_identity_row' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFreshCompactDefects.averaged_rows' depends on axioms: [propext, Classical.choice, Quot.sound]
+

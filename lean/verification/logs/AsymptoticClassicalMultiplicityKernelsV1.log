@@ -1,0 +1,4 @@
+'AsymptoticClassicalCusp.arithmeticTrace_kernel_group_congr' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.primeTraceKernel_eq_twoTraceKernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.restrict_mem_cross_twoTraceKernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.frickeOperator_mem_primeTraceKernel' depends on axioms: [propext, Classical.choice, Quot.sound]

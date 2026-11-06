@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointBoundedIteration.normalizedPhysicalSector_original_solution' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointBoundedIteration.actualFiniteExpression_sector_paid' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

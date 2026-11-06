@@ -1,0 +1,18 @@
+'QuantitativeEulerEndpointPrepared.cosetTraceRow_mem_of_sections' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.cosetTraceRow_fricke_mem_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.simple_lower_cosetTrace_mem' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.simple_fricke_cosetTrace_mem' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.repeated_fricke_cosetTrace_mem' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.repeated_lower_cosetTrace_mem' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

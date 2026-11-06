@@ -1,0 +1,4 @@
+'QuantitativeEulerEndpointBoundedTerminal.scaled_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointBoundedTerminal.scaled_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointBoundedTerminal.gram_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointBoundedTerminal.rep_gram' depends on axioms: [propext, Classical.choice, Quot.sound]

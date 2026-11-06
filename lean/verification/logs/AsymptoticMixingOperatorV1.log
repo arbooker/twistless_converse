@@ -1,0 +1,13 @@
+'AsymptoticMixing.translation_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticMixing.translation_adjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticMixing.translated_inner' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticMixing.aggregation_comp_stack' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticMixing.aggregation_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticMixing.normalizedAggregation_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticMixing.normalizedMixed_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticMixing.normalizedMixed_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticMixing.normalizedMixed_polar_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticMixing.normalizedMixed_output_polar' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticMixing.mixed_polar_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticMixing.normalizedMixed_polar_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+

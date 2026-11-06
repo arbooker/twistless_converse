@@ -1,0 +1,9 @@
+'AsymptoticCompactFamilyTranslation.right_label' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCompactFamilyTranslation.compact_translate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCompactFamilyTranslation.shifted_compact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCompactFamilyTranslation.preimage_shifted' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCompactFamilyTranslation.compact_translate_shifted' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticCompactFamilyTranslation.compact_eq_of_label' depends on axioms: [propext, Classical.choice, Quot.sound]
+

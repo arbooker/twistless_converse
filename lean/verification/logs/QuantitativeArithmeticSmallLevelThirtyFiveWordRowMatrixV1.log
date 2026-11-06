@@ -1,0 +1,7 @@
+'QuantitativeArithmeticSmallLevelThirtyFiveKnownWords.wordLeadingRow_apply' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveKnownWords.finite_word_matrix_germs' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

@@ -1,0 +1,4 @@
+'QuantitativeEulerEndpointPrepared.observed_word_mem_gamma0' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.terminal_original_fresh_energy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

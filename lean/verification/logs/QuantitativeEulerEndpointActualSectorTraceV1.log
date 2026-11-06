@@ -1,0 +1,9 @@
+'QuantitativeEulerEndpointApproximateTrace.ambient_sector_residual' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointApproximateTrace.ambient_sector_finrank_mul_le_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointBoundedIteration.actualFiniteExpression_sector_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

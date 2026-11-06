@@ -1,0 +1,4 @@
+'SmallLevelTwentyFour.halve_fricke' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyFour.scaled_twist_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyFour.original_pair_fricke' depends on axioms: [propext, Classical.choice, Quot.sound]
+

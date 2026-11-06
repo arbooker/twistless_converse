@@ -1,0 +1,4 @@
+'SmallLevelPolynomialCoefficientAssembly.eq_of_bounded_coefficients' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelPolynomialCoefficientAssembly.coeff_mul_range' depends on axioms: [propext, Classical.choice, Quot.sound]

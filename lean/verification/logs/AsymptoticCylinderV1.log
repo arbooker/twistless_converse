@@ -1,0 +1,1 @@
+'AsymptoticCylinder.modeLp_norm_sq' depends on axioms: [propext, Classical.choice, Quot.sound]

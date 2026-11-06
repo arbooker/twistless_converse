@@ -1,0 +1,2 @@
+'QuantitativeSpectralObservability.wideCompactCover_re_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralObservability.sampling_polynomial_norm' depends on axioms: [propext, Classical.choice, Quot.sound]

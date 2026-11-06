@@ -1,0 +1,4 @@
+'QuantitativeEulerEndpointPrepared.lowAt_positive_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.highAt_positive_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.removed_positive_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.nextSpace_positive_scale' depends on axioms: [propext, Classical.choice, Quot.sound]

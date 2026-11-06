@@ -1,0 +1,7 @@
+'QuantitativeSpectralObservability.openCover_subset_wide_split' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralObservability.wideTailCover_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralObservability.finite_terminal_words_wide' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

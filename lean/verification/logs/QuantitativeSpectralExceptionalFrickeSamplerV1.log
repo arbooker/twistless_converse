@@ -1,0 +1,9 @@
+'QuantitativeSpectralExceptionalFricke.countingRow_equivariant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralExceptionalFricke.signedNew_projection_regular' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralExceptionalFricke.signedSampling_regular' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

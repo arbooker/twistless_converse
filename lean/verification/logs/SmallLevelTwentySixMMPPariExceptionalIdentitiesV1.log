@@ -1,0 +1,9 @@
+'SmallLevelTwentySixMMPPariExceptional.identity0' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixMMPPariExceptional.identity1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixMMPPariExceptional.identity2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixMMPPariExceptional.identity3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixMMPPariExceptional.identity4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixMMPPariExceptional.constant_binding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixMMPPariExceptional.factorization0' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixMMPPariExceptional.factorization1' depends on axioms: [propext, Classical.choice, Quot.sound]
+

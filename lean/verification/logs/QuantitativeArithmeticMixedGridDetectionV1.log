@@ -1,0 +1,2 @@
+'QuantitativeArithmeticMixedGridDetection.prime_coset_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticMixedGridDetection.mixed_grid_detect' depends on axioms: [propext, Classical.choice, Quot.sound]

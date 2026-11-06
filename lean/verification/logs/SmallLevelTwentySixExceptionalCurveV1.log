@@ -1,0 +1,12 @@
+'SmallLevelTwentySixExceptionalCurve.curve_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixExceptionalCurve.low_curve_of_constant_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixExceptionalCurve.no_factor6_constant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixExceptionalCurve.exceptional_resultant_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixExceptionalCurve.exceptional_resultant_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

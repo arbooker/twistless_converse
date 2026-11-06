@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointNestedPerturbation.iteration_difference' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointBoundedIteration.exists_actual_comparison_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

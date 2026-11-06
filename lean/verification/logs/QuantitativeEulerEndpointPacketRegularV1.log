@@ -1,0 +1,2 @@
+'QuantitativeEulerEndpointPrepared.packet_sequence_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.packet_sequence_norm' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,13 @@
+'QuantitativeArithmeticSmallLevelTwentySixMMPFinalEliminant.factorization' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySixMMPFinalEliminant.first_resultant_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySixMMPFinalEliminant.second_resultant_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySixMMPFinalEliminant.eliminant_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

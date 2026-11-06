@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointControlledIteration.incoming_defect_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointControlledIteration.finite_iteration_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

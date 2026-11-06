@@ -1,0 +1,3 @@
+'AsymptoticClassicalDiscriminant.pow_slash_SL2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalDiscriminant.family_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalDiscriminant.family_slash' depends on axioms: [propext, Classical.choice, Quot.sound]

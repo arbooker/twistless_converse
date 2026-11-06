@@ -1,0 +1,4 @@
+'AsymptoticClassicalCusp.partialNewSpace_complete' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.projection_intertwine_of_adjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.restrict_partial_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.restrict_partial_range' depends on axioms: [propext, Classical.choice, Quot.sound]

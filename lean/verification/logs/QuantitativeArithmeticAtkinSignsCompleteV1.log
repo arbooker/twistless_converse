@@ -1,0 +1,8 @@
+'QuantitativeArithmeticAtkinSigns.own_old_iff_level' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticAtkinSigns.other_old_iff_level' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticAtkinSigns.localAtkin_fricke_commutator_mem_level' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticAtkinSigns.localAtkin_pair_commutator_mem_level' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,5 @@
+'QuantitativeEulerEndpointPrepared.compactAction_translation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.compact_lower_fricke_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.compact_lower_fricke_norm' depends on axioms: [propext, Classical.choice, Quot.sound]

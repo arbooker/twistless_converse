@@ -1,0 +1,3 @@
+'AsymptoticGammaMoments.moment_sub_one_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticGammaMoments.normalized_integral_moment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticGammaMoments.squared_error_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

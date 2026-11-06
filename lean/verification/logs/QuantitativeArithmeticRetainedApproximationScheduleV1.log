@@ -1,0 +1,24 @@
+'QuantitativeArithmeticRetainedApproximationSchedule.logAccuracy_growth' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedApproximationSchedule.fixed_source_rate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedApproximationSchedule.tolerance_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedApproximationSchedule.logAccuracy_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedApproximationSchedule.filter_error_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedApproximationSchedule.filter_error_le_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedApproximationSchedule.majorant_growth' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedApproximationSchedule.approximation_rate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

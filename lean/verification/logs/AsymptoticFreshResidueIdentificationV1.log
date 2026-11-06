@@ -1,0 +1,4 @@
+'AsymptoticFreshResidues.integerIndex_val' depends on axioms: [propext, Quot.sound]
+'AsymptoticFreshResidues.index_eq_of_cast_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFreshResidues.permutation_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFreshResidues.canonical_indices' depends on axioms: [propext, Classical.choice, Quot.sound]

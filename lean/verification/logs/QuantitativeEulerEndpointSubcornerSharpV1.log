@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointSubcornerSharp.rooted_projection_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointSubcornerSharp.packet_source_sharp_log_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

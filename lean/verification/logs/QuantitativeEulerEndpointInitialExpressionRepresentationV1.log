@@ -1,0 +1,9 @@
+'QuantitativeEulerEndpointInitialExpression.restricted_gram_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointInitialExpression.energy_representation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointInitialExpression.regular_initial_energy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

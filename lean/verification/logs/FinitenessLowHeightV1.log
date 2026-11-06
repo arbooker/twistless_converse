@@ -1,0 +1,3 @@
+'FinitenessLowHeight.weighted_twist' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessLowHeight.reconstruct_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessLowHeight.from_FE' depends on axioms: [propext, Classical.choice, Quot.sound]

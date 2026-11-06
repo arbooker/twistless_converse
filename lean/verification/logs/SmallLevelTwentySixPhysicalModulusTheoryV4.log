@@ -1,0 +1,15 @@
+'SmallLevelTwentySixPhysicalModulus.physical_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixPhysicalModulus.interval_excludes_physical' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixPhysicalModulus.saved_interval_20' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixPhysicalModulus.physical_power_comparison' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixPhysicalModulus.physical_sharp_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixPhysicalModulus.physical_sharp_squared_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixPhysicalModulus.sharp_interval_excludes_physical' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

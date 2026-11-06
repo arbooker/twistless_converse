@@ -1,0 +1,7 @@
+'QuantitativeArithmetic.log_eighth_power_comparison' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmetic.progressionPrimeCount_upper_of_threshold' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmetic.eventually_progressionPrimeCount_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

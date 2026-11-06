@@ -1,0 +1,5 @@
+'SmallLevelTaylor.fricke_deformation_point' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTaylor.fricke_deformed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTaylor.fricke_taylor_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTaylor.fricke_taylor_small' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTaylor.original_fricke_taylor_small' depends on axioms: [propext, Classical.choice, Quot.sound]

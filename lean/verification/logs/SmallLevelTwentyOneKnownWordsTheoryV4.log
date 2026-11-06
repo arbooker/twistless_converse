@@ -1,0 +1,57 @@
+'SmallLevelTwentyOneKnownWords.firstJetCertificate_all_signs' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneKnownWords.actual_first_jet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneKnownWords.original_first_jet_restrictions' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneKnownWords.primeParameter_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneKnownWords.primeParameter_on_line' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneKnownWords.physical_first_jet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneKnownWords.actual_exceptional_candidate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneKnownWords.actual_weight_pole_candidate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneKnownWords.original_leading_pole_any_grid' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneKnownWords.normalize_regularized_vector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneKnownWords.normalized_rightmost_any_grid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneKnownWords.jetBlock_kernel_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneKnownWords.actual_rightmost_pole_at_weight' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneKnownWords.shifted_monomial_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneKnownWords.laurentShift_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneKnownWords.selected_regularized_first_shift' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneKnownWords.FirstJetCertificate.regularized_pole_conditions' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneKnownWords.higher_weight_pole_candidate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneKnownWords.weightOneTaylorQuot_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneKnownWords.weightOneTaylorQuot_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneKnownWords.regularizedJetScale_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneKnownWords.actual_regularizedBlockRow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneKnownWords.rightmost_weight_pole_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneKnownWords.any_pole_reaches_weight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneKnownWords.global_weight_pole_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneKnownWords.augmentedShift_zero_at_weight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneKnownWords.augmented_regular_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneKnownWords.regular_selected_first_shift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneKnownWords.regular_selected_laurent_first_shift' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneKnownWords.regular_augmented_leading_pole' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneKnownWords.FirstJetCertificate.regular_pole_conditions' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneKnownWords.regular_original_leading_pole' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneKnownWords.weightTwo_no_offweight_pole' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneKnownWords.any_pole_exceptional_parameters' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneKnownWords.any_grid_full_pole_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneKnownWords.original_full_pole_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneKnownWords.tenth_exchange_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneKnownWords.original_tenth_exchange' depends on axioms: [propext, Classical.choice, Quot.sound]
+

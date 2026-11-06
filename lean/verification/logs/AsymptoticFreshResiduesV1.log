@@ -1,0 +1,6 @@
+'AsymptoticFreshResidues.permutation_relation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFreshResidues.permutation_divisibility' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFreshResidues.quotient_relation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFreshResidues.index_coprime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFreshResidues.indexUnit_val' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFreshResidues.permutation_unit' depends on axioms: [propext, Classical.choice, Quot.sound]

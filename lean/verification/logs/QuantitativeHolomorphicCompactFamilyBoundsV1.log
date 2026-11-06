@@ -1,0 +1,10 @@
+'QuantitativeHolomorphic.compactFamilyDataExpression_physical' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.compactFamilyDataExpression_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.compactFamilyDataExpression_complexity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.compactFamily_uniform_integer_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

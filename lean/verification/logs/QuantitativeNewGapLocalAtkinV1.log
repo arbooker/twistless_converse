@@ -1,0 +1,3 @@
+'QuantitativeNewGap.localAtkinLabel_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeNewGap.localAtkin_globalFricke_commute' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeNewGap.localAtkinEquivs_commute' depends on axioms: [propext, Classical.choice, Quot.sound]

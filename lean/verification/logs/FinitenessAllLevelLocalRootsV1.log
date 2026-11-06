@@ -1,0 +1,3 @@
+'FinitenessAllLevelLocalRoots.le_of_geometric_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelLocalRoots.root_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelLocalRoots.good_prime_roots' depends on axioms: [propext, Classical.choice, Quot.sound]

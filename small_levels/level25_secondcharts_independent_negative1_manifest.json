@@ -1,0 +1,117 @@
+{
+  "status": "PASS_FINAL_NEGATIVE_FIRST_CHART_GENERIC_TRANSFER",
+  "checked_at_utc": "2026-10-14T21:05:45.817193+00:00",
+  "claim": "Fresh original-source chain yields the exact14 relations; Uzero excluded by S squared; all15 positive obstruction rows transfer directly with nonvanishing denominators. Positive saturation extends by t=1/(AXY), preserving physical X,Y. Exceptional negative strata use separately audited root manifest. Level25 target M_k.",
+  "prior_source_chain_manifest_sha256": "7adf3449e405f81e4e7c125b74828ee5ac8c5ad796d6464d0965a128621aa276",
+  "prior_positive_firstchart_manifest_sha256": "fbcd4dbeb50b08f06943bfebaf120d755ba2bb55f6aba09447f7ef9fcc631f19",
+  "exceptional_strata_manifest_sha256": "707dbb275b174de098c0a371442b483d658936145433b7afd6c474ae1532a704",
+  "runs": [
+    {
+      "stage": "normalize",
+      "status": "PASS",
+      "elapsed_seconds": 12.055531691992655,
+      "sources": {
+        "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_cusp_aux_minus_even_prepare.py": "4229d87d6dc78def9f6498bce2c76900f7f50e9195d5446ae8069cb1d00928a7"
+      },
+      "inputs": {
+        "/tmp/level25_secondcharts_independent_cusp_aux_minus_seed0_chart1.txt": "7042a33856e12e8e99f59998d2f924464d84cc59ae6a5c5a7482bcd04d3d6dca"
+      },
+      "outputs": {
+        "/tmp/level25_secondcharts_independent_cusp_aux_minus_even1_rational_pure.m": "562b73c888709a8826637b6a942b3baa3491a350bd567800fc161f4a586a814a"
+      }
+    },
+    {
+      "stage": "reduce",
+      "status": "PASS",
+      "elapsed_seconds": 0.16715737711638212,
+      "sources": {
+        "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_plus_poles_negative1_generic_audit_prepare.py": "c6b3c3f06c75fe25d0568e95da484db8c09823113a298a5b63dcc9e7fc334689"
+      },
+      "inputs": {
+        "/tmp/level25_secondcharts_independent_cusp_aux_minus_even1_rational_pure.m": "562b73c888709a8826637b6a942b3baa3491a350bd567800fc161f4a586a814a"
+      },
+      "outputs": {
+        "/tmp/level25_secondcharts_independent_plus_poles_negative1_generic_audit_export.m": "0b079fd7c4ba6c6827ce1477d104a1841d9bcdbcdf5e1282b8c13f2f0f86c7e2"
+      }
+    }
+  ],
+  "literal_input_comparison": {
+    "status": "PASS_LITERAL_INPUT_PROVENANCE",
+    "transfer_source_sha256": "fb6978b46bf68d730cec3ead371e4457b5319b73c07d53e9de3d29bf5900761b",
+    "fresh14_sha256": "a879b195514f6ab5c34e8647ec52cfec9ae352bae40af9e874630af635e9e363",
+    "positive15_sha256": "1b17bd3ec372808bf37443dc857b321e4f51bffe4b0d6d295a1f9832b5738719",
+    "negative14_literal_equality": true,
+    "positive15_literal_equality": true,
+    "transfer_copy_sha256": "fb6978b46bf68d730cec3ead371e4457b5319b73c07d53e9de3d29bf5900761b",
+    "builder_sha256": "5b7ab121cc00df3d251d605572503edea0741a2a8350de9e59ff589035ca3e40"
+  },
+  "native_batches": [
+    {
+      "native": {
+        "command": "magma -b -l500000000 -t1 /tmp/level25_secondcharts_independent_plus_poles_negative1_generic_audit_export_20261014T210419282234Z.m",
+        "completion": "/tmp/level25_secondcharts_independent_plus_poles_negative1_generic_audit_export_20261014T210419282234Z.completion.json",
+        "log": "/tmp/level25_secondcharts_independent_plus_poles_negative1_generic_audit_export_20261014T210419282234Z.log",
+        "batch": "/tmp/level25_secondcharts_independent_plus_poles_negative1_generic_audit_export_20261014T210419282234Z.m",
+        "batch_sha256": "f7ccb6f3e967dbc709a82353f49efa8a878b8b6804fdf54b4a44b5dcad013869"
+      },
+      "completion": {
+        "source": "/tmp/level25_secondcharts_independent_plus_poles_negative1_generic_audit_export.m",
+        "source_sha256": "0b079fd7c4ba6c6827ce1477d104a1841d9bcdbcdf5e1282b8c13f2f0f86c7e2",
+        "completed": true,
+        "status": "PASS",
+        "returncode": 0
+      },
+      "log_sha256": "41b26d0625ecd8efb4ba2a23903c6cb3b3f0839db4f4f2827e84783ae6f37dda",
+      "verified_markers": [
+        "PASS_INDEPENDENT_INPUT_AND_CRAMER",
+        "PASS_INDEPENDENT_GENERIC_RELATIONS 14"
+      ]
+    },
+    {
+      "native": {
+        "command": "magma -b -l500000000 -t1 /tmp/level25_secondcharts_independent_negative1_transfer_20261014T210445410424Z.m",
+        "completion": "/tmp/level25_secondcharts_independent_negative1_transfer_20261014T210445410424Z.completion.json",
+        "log": "/tmp/level25_secondcharts_independent_negative1_transfer_20261014T210445410424Z.log",
+        "batch": "/tmp/level25_secondcharts_independent_negative1_transfer_20261014T210445410424Z.m",
+        "batch_sha256": "b06ccdb862bb626d8788b6c278ab833495ec09ee818f1d51188f5d636796d4ed"
+      },
+      "completion": {
+        "source": "/tmp/level25_secondcharts_independent_negative1_transfer.m",
+        "source_sha256": "fb6978b46bf68d730cec3ead371e4457b5319b73c07d53e9de3d29bf5900761b",
+        "completed": true,
+        "status": "PASS",
+        "returncode": 0
+      },
+      "log_sha256": "320ff786fe9b59e66ed6bc54735215ebf5a63703c0efaf8d737eba81eb406ad1",
+      "verified_markers": [
+        "NOSAT_GB 35",
+        "PASS_U_NONZERO_FROM_S_SQUARED",
+        "PASS_NEGATIVE_TO_POSITIVE_ALL15",
+        "PASS_TRANSFER_ROW 1\n",
+        "PASS_TRANSFER_ROW 2\n",
+        "PASS_TRANSFER_ROW 3\n",
+        "PASS_TRANSFER_ROW 4\n",
+        "PASS_TRANSFER_ROW 5\n",
+        "PASS_TRANSFER_ROW 6\n",
+        "PASS_TRANSFER_ROW 7\n",
+        "PASS_TRANSFER_ROW 8\n",
+        "PASS_TRANSFER_ROW 9\n",
+        "PASS_TRANSFER_ROW 10\n",
+        "PASS_TRANSFER_ROW 11\n",
+        "PASS_TRANSFER_ROW 12\n",
+        "PASS_TRANSFER_ROW 13\n",
+        "PASS_TRANSFER_ROW 14\n",
+        "PASS_TRANSFER_ROW 15\n"
+      ]
+    }
+  ],
+  "proof_hashes": {
+    "level25_plus_poles_negative1_generic_audit.tex": "6027ce2afa46af493e36e045fb954152e1363d3af2bb84c89b7531037facc42b",
+    "level25_secondcharts_independent_negative1_audit.tex": "bfd5cdc469a8017e681bd80edc00f72c2d16da12dcaae48d278e7ad0f3a3db14"
+  },
+  "audit_source_hashes": {
+    "level25_secondcharts_independent_negative1_run.py": "431cbe8dd84eadb0190dbb5a1aa3a3a529551c0c23bfd1a41552678057912bff",
+    "level25_secondcharts_independent_negative1_transfer.py": "5b7ab121cc00df3d251d605572503edea0741a2a8350de9e59ff589035ca3e40",
+    "level25_secondcharts_independent_negative1_manifest.py": "9591aeab67d5b424a2f6a50c8334324feba1ff934b682276fe7997cdb6a60c7a"
+  }
+}

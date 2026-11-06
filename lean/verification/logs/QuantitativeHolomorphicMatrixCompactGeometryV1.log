@@ -1,0 +1,5 @@
+'QuantitativeHolomorphic.integer_denominator_norm_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.IntegerAction.im_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.IntegerAction.det_one_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.IntegerAction.height_distortion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.IntegerAction.image_re_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

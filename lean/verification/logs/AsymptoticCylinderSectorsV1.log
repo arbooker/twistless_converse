@@ -1,0 +1,5 @@
+'AsymptoticCylinder.coefficientDiskMap_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCylinder.coefficientSector_finiteDimensional' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCylinder.sectorCylinderMap_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCylinder.euler_mem_coefficientSpace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCylinder.euler_sector_cover' depends on axioms: [propext, Classical.choice, Quot.sound]

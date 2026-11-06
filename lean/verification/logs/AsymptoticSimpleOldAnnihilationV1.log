@@ -1,0 +1,5 @@
+'AsymptoticAtkinLehner.simple_lower_projection_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticSectorSigns.delta_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceOldSpace.simple_incidence_lower_projection_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

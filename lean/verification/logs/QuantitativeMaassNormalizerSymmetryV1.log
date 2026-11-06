@@ -1,0 +1,6 @@
+'QuantitativeMaass.AutomorphicL2.normalizerIsometry_involutive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeMaass.AutomorphicL2.normalizerIsometry_selfAdjoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

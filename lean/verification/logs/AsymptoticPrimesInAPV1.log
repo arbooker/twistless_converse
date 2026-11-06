@@ -1,0 +1,2 @@
+'AsymptoticPrimesInAP.scaled_log_le_inv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticPrimesInAP.not_summable_reciprocal' depends on axioms: [propext, Classical.choice, Quot.sound]

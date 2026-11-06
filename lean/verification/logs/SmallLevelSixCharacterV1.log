@@ -1,0 +1,7 @@
+'SmallLevelSixCharacter.diagonal_odd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelSixCharacter.sign_T' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelSixCharacter.sign_U' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelSixCharacter.sign_Z' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelSixCharacter.sign_C' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelSixCharacter.rescaled_sign' depends on axioms: [propext, Classical.choice, Quot.sound]
+

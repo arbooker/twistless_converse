@@ -1,0 +1,2 @@
+'AsymptoticClassicalCusp.constant_of_small_periods' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.zero_of_small_periods' depends on axioms: [propext, Classical.choice, Quot.sound]

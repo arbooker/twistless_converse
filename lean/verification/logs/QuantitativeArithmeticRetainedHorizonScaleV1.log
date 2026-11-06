@@ -1,0 +1,15 @@
+'QuantitativeArithmeticRetainedHorizonScale.lower_inverse_growth' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedHorizonScale.exists_horizon_trace_geometry' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedHorizonScale.exists_horizon_trace_scale' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedHorizonScale.exists_horizon_analytic_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedHorizonScale.exists_horizon_analytic_scale' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,5 @@
+'FurstenbergMinimal.exists_minimal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FurstenbergMinimal.orbit_dense' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FurstenbergMinimal.finite_of_torsion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FurstenbergMinimal.difference_full' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FurstenbergMinimal.translate_mem_of_infinite' depends on axioms: [propext, Classical.choice, Quot.sound]

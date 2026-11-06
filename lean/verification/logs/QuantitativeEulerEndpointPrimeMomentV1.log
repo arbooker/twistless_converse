@@ -1,0 +1,7 @@
+'QuantitativeEulerEndpointSieve.denominator_ge_half_product_of_pow' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointSieve.prime_log_reciprocal_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointSieve.denominator_ge_half_product_of_cutoff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

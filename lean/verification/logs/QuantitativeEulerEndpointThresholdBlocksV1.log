@@ -1,0 +1,7 @@
+'QuantitativeEulerEndpointThresholdBlocks.Prefix.lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointThresholdBlocks.Prefix.cap_meets' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointThresholdBlocks.Prefix.cutoff_mass_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointThresholdBlocks.Prefix.block_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointThresholdBlocks.Prefix.cutoff_size' depends on axioms: [propext, Classical.choice, Quot.sound]

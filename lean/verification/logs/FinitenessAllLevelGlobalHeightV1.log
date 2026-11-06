@@ -1,0 +1,3 @@
+'FinitenessAllLevelGlobalHeight.parameters_exist' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelGlobalHeight.pointwise' depends on axioms: [propext, Classical.choice, Quot.sound]
+

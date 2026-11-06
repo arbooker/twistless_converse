@@ -1,0 +1,5 @@
+'AsymptoticCongruenceCover.modular_orbit_meets_terminal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceCover.cover_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceCover.orbit_meets_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceCover.cover_volume_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+

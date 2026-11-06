@@ -1,0 +1,4 @@
+'AsymptoticRegularTrace.remaining_root_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.remaining_trace_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticMixing.global_rank_loss' depends on axioms: [propext, Classical.choice, Quot.sound]
+

@@ -1,0 +1,10 @@
+'QuantitativeArithmeticSmallLevelTwentyTwo.M0_X' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyTwo.M1_X' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyTwo.M0_Y' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyTwo.M1_Y' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyTwo.A5_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyTwo.C5_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyTwo.branch_A0' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyTwo.branch_B0' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyTwo.branch_C0' depends on axioms: [propext, Classical.choice, Quot.sound]
+

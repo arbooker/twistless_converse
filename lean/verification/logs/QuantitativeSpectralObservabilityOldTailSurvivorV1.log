@@ -1,0 +1,9 @@
+'QuantitativeSpectralObservability.source_trace_le_remaining_add_rank' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralObservability.oldTailStack_survivor_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralObservability.oldTailStack_survivor_regular' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

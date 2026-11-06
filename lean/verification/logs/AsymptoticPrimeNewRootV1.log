@@ -1,0 +1,3 @@
+'AsymptoticQuotientOperators.simple_new_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticQuotientOperators.square_two_new_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticQuotientOperators.higher_two_new_root' depends on axioms: [propext, Classical.choice, Quot.sound]

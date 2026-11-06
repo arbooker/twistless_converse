@@ -1,0 +1,7 @@
+'AsymptoticQuotientOperators.equivariant_diagonal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticQuotientOperators.equivariant_old' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticQuotientOperators.equivariant_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticQuotientOperators.equivariant_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticQuotientOperators.equivariant_adjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticQuotientOperators.equivariant_joint_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+

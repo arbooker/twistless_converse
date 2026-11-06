@@ -1,0 +1,4 @@
+'QuantitativeMaass.HeckeUpper.projectiveGamma_iff_translation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeMaass.HeckeUpper.cosetWalks_root_eq_tree' depends on axioms: [propext, Classical.choice, Quot.sound]

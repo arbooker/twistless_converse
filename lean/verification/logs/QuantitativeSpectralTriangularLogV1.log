@@ -1,0 +1,9 @@
+'QuantitativeSpectralTriangularLog.trace_gram_inverse_derivative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralTriangularLog.trace_log_unipotent_gram' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralTriangularLog.trace_log_unipotent_congruence' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralTriangularLog.nilpotent_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralTriangularLog.trace_nilpotent_resolvent' depends on axioms: [propext, Classical.choice, Quot.sound]

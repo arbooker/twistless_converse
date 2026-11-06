@@ -1,0 +1,4 @@
+'FinitenessAllLevelGoodCoefficients.good_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelGoodCoefficients.fullCoefficients_good_mul' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

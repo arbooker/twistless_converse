@@ -1,0 +1,2 @@
+'FinitenessExponentialCutoff.contraction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessExponentialCutoff.polynomial_decay_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

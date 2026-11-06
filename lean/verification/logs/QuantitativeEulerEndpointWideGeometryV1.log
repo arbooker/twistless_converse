@@ -1,0 +1,8 @@
+'QuantitativeEulerEndpointPrepared.wide_integer_row_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.wide_integer_height_distortion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.wide_integer_image_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.wideImageRegion_compact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.branchImage_subset_wide' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.wideImageRegion_unit' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,6 @@
+'QuantitativeArithmeticLogSector.extend_flat_sector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticLogSector.cone_angles' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticLogSector.negative_inverse_geometry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticLogSector.affine_cone_geometry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticLogSector.inverse_affine_decay' depends on axioms: [propext, Classical.choice, Quot.sound]
+

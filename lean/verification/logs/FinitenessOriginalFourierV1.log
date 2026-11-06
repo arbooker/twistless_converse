@@ -1,0 +1,3 @@
+'FinitenessOriginalFourier.polynomial_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessOriginalFourier.laplace_eq_fourier' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessOriginalFourier.solution_axis' depends on axioms: [propext, Classical.choice, Quot.sound]

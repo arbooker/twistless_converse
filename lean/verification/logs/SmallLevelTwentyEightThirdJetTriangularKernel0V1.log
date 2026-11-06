@@ -1,0 +1,1 @@
+'SmallLevelTwentyEightThirdJetTriangular.kernel0' depends on axioms: [propext, Classical.choice, Quot.sound]

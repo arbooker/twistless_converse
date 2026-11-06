@@ -1,0 +1,6 @@
+'SmallLevelTwentyOneKnownWords.augmentedLeading_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneKnownWords.augmentedShift_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneKnownWords.augmented_first_shift_constraint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

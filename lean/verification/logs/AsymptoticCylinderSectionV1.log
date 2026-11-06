@@ -1,0 +1,4 @@
+'AsymptoticStripCoordinates.section_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticStripCoordinates.section_cylinder' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticStripCoordinates.section_preserving' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCylinderLift.pullback_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]

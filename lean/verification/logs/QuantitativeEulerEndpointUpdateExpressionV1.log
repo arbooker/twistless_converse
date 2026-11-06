@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointUpdateExpression.regular_update' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointUpdateExpression.holomorphic_update' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointUpdateExpression.map_update' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointUpdateExpression.sharpened_mass' depends on axioms: [propext, Classical.choice, Quot.sound]

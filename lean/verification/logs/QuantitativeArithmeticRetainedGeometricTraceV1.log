@@ -1,0 +1,52 @@
+'QuantitativeArithmeticRetainedGeometricTrace.original_count_le_source' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedGeometricTrace.normalizerMatrixHeight_nonneg' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedGeometricTrace.quantified_sector_le_source' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedGeometricTrace.sector_le_source' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedGeometricTrace.finiteAmbient_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedGeometricTrace.finiteAmbient_terminal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedGeometricTrace.finiteAmbient_trace_finite' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedGeometricTrace.fixed_source_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedGeometricTrace.retained_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedGeometricTrace.geometric_comparison' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedGeometricTrace.retained_source_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedGeometricTrace.regularFilter_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedGeometricTrace.regularFilter_measurable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedGeometricTrace.regularFilter_positive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedGeometricTrace.regularFilter_trace_finite' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedGeometricTrace.retained_le_source' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedGeometricTrace.finite_retained_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedGeometricTrace.cylinderFilter_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

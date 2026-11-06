@@ -1,0 +1,2 @@
+'SmallLevelRamifiedTwo.eigen_of_fricke' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelRamifiedTwo.original_eigen' depends on axioms: [propext, Classical.choice, Quot.sound]

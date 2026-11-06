@@ -1,0 +1,22 @@
+{
+  "statement": "N25 eta=+1: every rightmost non-weight pole, or weight-point pole of maximum grid order at least two, has zero denominator-five highest coefficient",
+  "scope": "Excludes one highest-order pole sector; denominator25 modes, simple cusp constants, and full converse remain open",
+  "germ_relation": "9*x^2=4*y^2",
+  "circle_minor_gcds": [
+    "1",
+    "U - 4",
+    "1"
+  ],
+  "second_jet_obstruction": "-125*(9*x^2-104)/(4*x^2)",
+  "exceptional_branch": "h=1,lambda2=-3,lambda3=-4",
+  "exceptional_three_level_rank": 450,
+  "source_sha256": {
+    "level25_finish_eta_plus_cusp_poles.py": "2aa29bbbf78632edc6651f59e4ad0f1fbfcdeae6cea11a3dd6ed737a64ecd1fc",
+    "level25_finish_plus_germ.py": "c98d5c1555d4cf30de6b26d24c9d684dfcb54061afe4c1cac409e86b4a79b119",
+    "level25_finish_plus_higherjet.py": "50f1f35cd6235ffa596cadca346373fb6061100eb307950a8e7c360a31749fb7",
+    "level25_finish_plus_exceptional.py": "73866bba2279d63c210a94f7168e7dc35ff37e8e066cffd28696db6924d8dc2d",
+    "level25_finish_firstjet.py": "9bba9e96cca35b8356161ff88929f6e8ace9fa374520d40a4336bfce9f94cce5",
+    "level25_finish_augmented.py": "4dcccb34212352f9effa32da95b93b57becc8f6938adb04e56281fd719780a94",
+    "level25_uniform_continuation.py": "490293b27df705236585208fe1fd2c5f4510cce7499a78e6803e265e11b96515"
+  }
+}

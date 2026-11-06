@@ -1,0 +1,14 @@
+'QuantitativeEulerEndpointPrepared.prime_correction_expansion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.correction_scalar_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.triangular_vector_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.compact_prime_correction_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.difference_multiplier_inverse_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.period_multiplier_correction_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

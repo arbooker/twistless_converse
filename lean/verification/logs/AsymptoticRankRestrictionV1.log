@@ -1,0 +1,3 @@
+'AsymptoticCornerKernel.restricted_comp_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCornerKernel.remaining_restricted' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.rank_restriction' depends on axioms: [propext, Classical.choice, Quot.sound]

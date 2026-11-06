@@ -1,0 +1,4 @@
+'SmallLevelTwentySixGrid.gridVector_index' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGrid.gridSample_grid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGrid.gridHeckeLeading_grid' depends on axioms: [propext, Classical.choice, Quot.sound]
+

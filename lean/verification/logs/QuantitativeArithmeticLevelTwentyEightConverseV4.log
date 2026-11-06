@@ -1,0 +1,475 @@
+'QuantitativeArithmeticSmallLevelTwentyEight.quarter_matrix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyEight.seven_signed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyEight.odd_action_of_quarter' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyEight.gamma_zero_of_quarter' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyEight.modular_of_quarter' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyEight.oddMode_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyEight.linear_row_quotient' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyEight.matrix_quotient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyEight.quotientGrid_even' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyEight.original_quotient_halfplane' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyEightJetBlock.kernel_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightGrid.grid_source_taylor_of_fricke' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightGrid.original_grid_source_taylor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightGrid.gridGroup_geometry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightGrid.gridGroup_partner_transform' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightGrid.grid_matrix_rows_of_fricke' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightGrid.original_grid_matrix_rows' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightGrid.original_grid_fricke_laws' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightGrid.grid_fricke_of_laws' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightGrid.grid_ramanujan_taylor_of_laws' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightGrid.gridTaylorSpecs_valid' depends on axioms: [propext]
+'SmallLevelTwentyEightGrid.grid_ramanujan_rows_of_laws' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightGrid.grid_ramanujan_system_of_laws' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightParameters.root_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightParameters.root_seven' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightParameters.sigmaSeven_sign' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightParameters.phase_sign' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.leading_mode' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.positive_taylor_mode' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.leading_quotient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.positive_taylor_quotient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.leading_quotient_gauge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.leadingMatrix_mulVec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.positiveTaylorMatrix_mulVec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.leadingMatrix_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.positiveTaylorMatrix_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.kernel_case0' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.kernel_case1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.kernel_case2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.kernel_case3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.residual_some_point' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.residual_case0' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.kernel_zero_case0' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.residual_case1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.kernel_zero_case1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.residual_case2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.kernel_zero_case2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.residual_case3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.kernel_zero_case3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.core_kernel_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.core_kernel_coordinate_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.core_residual_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.coreMatrix_det_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.coreMatrix_nonsingular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightSystem.extendedLeading_actual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightSystem.extendedShift_actual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightSystem.extendedLeading_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightSystem.extendedShift_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightSystem.coreLeading_nonsingular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightJetBlock.actual_jetBlockRow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightJetBlock.actual_block_kernel_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.first_of_raw0' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.second_of_raw0' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.residual_of_raw0' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.first_of_raw1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.second_of_raw1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.residual_of_raw1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.first_of_raw2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.second_of_raw2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.residual_of_raw2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.first_of_raw3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.second_of_raw3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.residual_of_raw3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.jet0_0_syzygy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.jet0_0_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.jet0_1_syzygy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.jet0_1_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.jet1_0_syzygy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.jet1_0_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.jet1_1_syzygy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.jet1_1_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.jet2_0_syzygy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.jet2_0_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.jet2_1_syzygy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.jet2_1_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.jet3_0_syzygy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.jet3_0_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.jet3_1_syzygy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.jet3_1_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.jet0_0_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.jet0_0_necessary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.jet0_1_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.jet0_1_necessary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.jet1_0_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.jet1_0_necessary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.jet1_1_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.jet1_1_necessary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.jet2_0_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.jet2_0_necessary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.jet2_1_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.jet2_1_necessary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.jet3_0_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.jet3_0_necessary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.jet3_1_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.jet3_1_necessary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightFirstJet.exclude_opposite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightFirstJet.physical' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.firstJet_equations' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.physical_candidate' depends on axioms: [propext, Classical.choice, Quot.sound]
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+'SmallLevelTwentyEightSystem.firstRows_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightSystem.firstShift_actual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightSystem.selected_regular_polynomial_first_shift' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyEightSystem.candidate_of_regular_tails' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightGrid.original_grid_entire_rows' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightGrid.original_grid_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightGrid.original_grid_hecke_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightGrid.coherent_raw_system' depends on axioms: [propext, Classical.choice, Quot.sound]
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+'SmallLevelTwentyEightParameters.groupRate_complex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightParameters.taylorRate_complex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightParameters.matrixScalar_leading' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightParameters.taylorScalar_leading' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightParameters.taylor_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightParameters.leadingRows_actual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightParameters.matrixScalar_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightParameters.taylorScalar_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+'SmallLevelTwentyEightParameters.gridShiftRows_actual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightSystem.shifted_quotient_row' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightSystem.coherent_quotient_system' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightSystem.grid_continuation_of_laws' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightSystem.continued_extended_system' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightSystem.exists_poleSystem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightSystem.PoleSystem.regular_tail_pole_at_weight' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyEightSystem.PoleSystem.rightmost_pole_at_weight' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyEightSystem.PoleSystem.regular_above_weight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.firstRows_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.firstRows_basis' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightSystem.selected_regularized_polynomial_first_shift' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyEightSystem.candidate_of_regularized_vector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.positiveTaylorRows_basis' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightJetBlock.weightOneTaylorQuot_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightJetBlock.weightOneTaylorQuot_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightJetBlock.actual_regularizedBlockRow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightSystem.PoleSystem.weight_pole_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightSystem.extendedShift_zero_at_weight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightSystem.PoleSystem.regular_off_weight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.residual_normalized' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.quarterConstraint_incompatible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightLaurent.core_quarter_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightSystem.weight_three_square_ne_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightSystem.PoleSystem.entire_of_quarter_regular' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyEightTwelfth.original_twelfth_entire' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightTwelfth.original_twelfth_continuation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightQuarter.original_quarter_hecke' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightQuarter.original_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightQuarter.denominator_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightQuarter.quarter_continuation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightQuarter.numerator_reflection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightQuarter.quarter_functional_equation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightSystem.quotientGrid_quarter' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightSystem.PoleSystem.quarter_matches' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightSystem.PoleSystem.entire' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightQuarter.uniform_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightQuarter.quarter_finiteOrder' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightQuarter.quarter_branch' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightQuarter.scaled_quarter' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightQuarter.transformation_of_quarter_fricke' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyEightQuarter.quarter_from_system' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelOriginal.level_twenty_eight' depends on axioms: [propext, Classical.choice, Quot.sound]
+

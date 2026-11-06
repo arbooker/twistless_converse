@@ -1,0 +1,2 @@
+'QuantitativeEulerEndpointCornerIteration.order' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointCornerIteration.ambient_step' depends on axioms: [propext, Classical.choice, Quot.sound]

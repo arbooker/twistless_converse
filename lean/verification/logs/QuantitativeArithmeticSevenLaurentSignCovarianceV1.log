@@ -1,0 +1,5 @@
+'QuantitativeArithmeticSevenLaurentRows.monomial_sign_covariance' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSevenLaurentRows.eval_sign_covariance' depends on axioms: [propext, Classical.choice, Quot.sound]
+

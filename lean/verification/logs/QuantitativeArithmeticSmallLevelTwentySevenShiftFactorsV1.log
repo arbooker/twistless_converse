@@ -1,0 +1,16 @@
+'QuantitativeArithmeticSmallLevelTwentySevenShiftSource.observation_basis' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySevenShiftSource.Ramanujan.shift_factor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySevenShiftSource.Ramanujan.coefficient_analytic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySevenShiftSource.Matrix.shift_factor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySevenShiftSource.Matrix.coefficient_analytic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

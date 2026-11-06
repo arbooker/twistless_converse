@@ -1,0 +1,4 @@
+'AsymptoticObservation.operator_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticObservation.operator_norm_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticObservation.operator_fixes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticObservation.operator_re_inner_le_gram' depends on axioms: [propext, Classical.choice, Quot.sound]

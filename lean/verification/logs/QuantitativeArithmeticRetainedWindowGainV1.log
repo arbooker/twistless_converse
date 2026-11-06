@@ -1,0 +1,8 @@
+'QuantitativeArithmeticRetainedWindowGain.certificate_gain' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedWindowGain.certificate_denominator_gain' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedWindowGain.prime_reciprocal_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedWindowGain.prime_height_gain' depends on axioms: [propext, Classical.choice, Quot.sound]

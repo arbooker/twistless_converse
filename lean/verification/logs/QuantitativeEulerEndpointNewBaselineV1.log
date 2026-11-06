@@ -1,0 +1,12 @@
+'QuantitativeEulerEndpointPrepared.newBaselineDetector_regular' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.newBaselineDetector_supported' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.primeOldOriginalEnergy_split' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.newBaselineSurvivor_energy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

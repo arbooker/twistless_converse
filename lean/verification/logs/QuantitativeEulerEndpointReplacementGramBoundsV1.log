@@ -1,0 +1,4 @@
+'QuantitativeEulerEndpointPrepared.combined_mass_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.combined_matrix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.regular_combined_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.physical_combined_support' depends on axioms: [propext, Classical.choice, Quot.sound]

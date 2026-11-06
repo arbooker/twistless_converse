@@ -1,0 +1,2 @@
+'SmallLevelTwentySixGrid.laurentRows_sign_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+

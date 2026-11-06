@@ -1,0 +1,7 @@
+'AsymptoticRegionL2.projection_diff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCylinder.upperProjection_eq_terminal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.retainedProjection_eq_region' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.retainedProjection_adjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.retainedProjection_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.retainedRegion_eq_diff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.lift_retainedProjection' depends on axioms: [propext, Classical.choice, Quot.sound]

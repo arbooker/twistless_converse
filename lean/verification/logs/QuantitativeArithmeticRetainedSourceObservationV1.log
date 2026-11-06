@@ -1,0 +1,12 @@
+'QuantitativeArithmeticRetainedSourceObservation.reconstructed_terminal_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedSourceObservation.reconstructed_norm_on_terminal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedSourceObservation.terminal_input_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedSourceObservation.exists_original_observability' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

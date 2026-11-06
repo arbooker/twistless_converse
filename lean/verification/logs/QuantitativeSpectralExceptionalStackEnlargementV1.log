@@ -1,0 +1,6 @@
+'QuantitativeSpectralExceptionalReducedRows.commonResidualStack_enlarged' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralExceptionalReducedRows.commonResidualStack_norm_le_enlarged' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

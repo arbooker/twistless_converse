@@ -1,0 +1,2 @@
+'QuantitativeNewGap.projection_energy_of_angle' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeNewGap.projection_complement_gap' depends on axioms: [propext, Classical.choice, Quot.sound]

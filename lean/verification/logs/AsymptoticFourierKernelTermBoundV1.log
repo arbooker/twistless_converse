@@ -1,0 +1,3 @@
+'AsymptoticUnweightedKernel.hyperbolicKernelTerm_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticUnweightedKernel.hyperbolicKernelTerm_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticUnweightedKernel.termMajorant_summable' depends on axioms: [propext, Classical.choice, Quot.sound]

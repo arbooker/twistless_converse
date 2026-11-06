@@ -1,0 +1,6 @@
+'AsymptoticClassicalCusp.upperTrace_coset_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.upperDilationLevel_lower_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.upperDilationLevel_lower_subgroup' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.upperLowerCosetEquiv_mk' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.dilation_upper_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.upper_translate_dilationLevel' depends on axioms: [propext, Classical.choice, Quot.sound]

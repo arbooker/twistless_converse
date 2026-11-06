@@ -1,0 +1,12 @@
+'QuantitativeArithmeticRetainedTraceComparison.finite_reconstruction_trace_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedTraceComparison.finite_upper_trace_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedTraceComparison.weighted_trace_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedTraceComparison.trace_le_unweighted' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

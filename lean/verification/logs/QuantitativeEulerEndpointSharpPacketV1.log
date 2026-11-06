@@ -1,0 +1,4 @@
+'QuantitativeEulerEndpointSharpPacket.excess_after_block' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointSharpPacket.packet_source_sharp_log_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

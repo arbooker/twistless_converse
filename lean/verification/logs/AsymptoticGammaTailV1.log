@@ -1,0 +1,1 @@
+'AsymptoticGammaTail.half_kernel_below' depends on axioms: [propext, Classical.choice, Quot.sound]

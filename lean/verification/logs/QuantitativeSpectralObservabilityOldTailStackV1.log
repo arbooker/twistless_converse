@@ -1,0 +1,4 @@
+'QuantitativeSpectralObservability.oldTailStack_source_rank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralObservability.oldTailStack_absolute_regular' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

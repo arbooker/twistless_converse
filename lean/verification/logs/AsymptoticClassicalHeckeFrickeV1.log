@@ -1,0 +1,3 @@
+'AsymptoticClassicalCusp.fricke_degeneracy_inner' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.dilationTrace_fricke_commute' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.dilationTrace_prime_fricke_commute' depends on axioms: [propext, Classical.choice, Quot.sound]

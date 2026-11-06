@@ -1,0 +1,5 @@
+'AsymptoticCertificateBranches.cell_index_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCertificateBranches.cell_index_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCertificateBranches.matrix_action' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCertificateBranches.reconstruct_row' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCertificateBranches.reconstruct_strip' depends on axioms: [propext, Classical.choice, Quot.sound]

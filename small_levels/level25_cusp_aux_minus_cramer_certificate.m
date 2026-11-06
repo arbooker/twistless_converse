@@ -1,0 +1,20 @@
+// Literal first and third normalized pure rows, exact Cramer identities.
+Alarm(45);SetMemoryLimit(500000000);SetNthreads(1);SetQuitOnError(true);
+R<u,B,A,Y,X,t>:=PolynomialRing(Rationals(),6,"grevlex");
+f:=(1*A*X-1*A*Y+1*A*Y*X-1*A^2*Y+1*A^2*Y*X-1*A^3*X-1*B*X^2-1*B*A*X^2+1*u*X-2*u*X^2-1*u*Y*X+1*u*A*X-1*u*A*X^2-1*u*A*Y*X+1*u*A^2*X^2+1*u*A^2*Y+1*u*A^3*Y);
+g:=(1*A*X-1*A*X^2-1*A*Y+2*A*Y*X-1*A*Y*X^2-1*A^2*X+1*A^2*X^2-1*A^2*Y*X^2-1*B*X^2+1*B*X^3-1*B*Y*X^2+1*u*X-3*u*X^2+2*u*X^3-1*u*Y*X^2-1*u*Y^2*X+1*u*A*X^2-1*u*A*X^3-1*u*A*Y*X+1*u*A*Y*X^3+1*u*A^2*Y);
+assert IsDivisibleBy(f,A+1);f:=f div (A+1);
+fu:=Evaluate(f,[R!1,R!0,A,Y,X,t])-Evaluate(f,[R!0,R!0,A,Y,X,t]);
+fb:=Evaluate(f,[R!0,R!1,A,Y,X,t])-Evaluate(f,[R!0,R!0,A,Y,X,t]);
+f0:=Evaluate(f,[R!0,R!0,A,Y,X,t]);
+gu:=Evaluate(g,[R!1,R!0,A,Y,X,t])-Evaluate(g,[R!0,R!0,A,Y,X,t]);
+gb:=Evaluate(g,[R!0,R!1,A,Y,X,t])-Evaluate(g,[R!0,R!0,A,Y,X,t]);
+g0:=Evaluate(g,[R!0,R!0,A,Y,X,t]);
+assert f eq fb*B+fu*u+f0;assert g eq gb*B+gu*u+g0;
+D0:=A*(X-Y)+X^3-X^2-X;U:=A*X*(X-1)+X*Y+X-Y;
+V:=A^3*X*Y - A^3*X + A^2*X*Y + 2*A^2*X - A^2*Y + A*X^3*Y - A*X^3 - 2*A*X^2*Y + 3*A*X^2 - 2*A*X + A*Y - 2*X^2*Y - 2*X^2 - X*Y^2 + 2*X*Y + X + Y^2 - Y;
+assert fb*gu-gb*fu eq -A*X^2*Y*D0;
+assert -f0*gu+g0*fu eq -A*X*Y*V;
+assert -fb*g0+gb*f0 eq -A*X^2*Y*U;
+print "PASS_NEGATIVE_GENERIC_CRAMER_IDENTITIES";
+quit;

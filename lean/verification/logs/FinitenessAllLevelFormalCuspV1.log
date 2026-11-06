@@ -1,0 +1,6 @@
+'FinitenessAllLevelFormalContinuation.formal_periodic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelFormalContinuation.formal_zero_at_inf' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelFormalContinuation.formal_cusp_holomorphic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

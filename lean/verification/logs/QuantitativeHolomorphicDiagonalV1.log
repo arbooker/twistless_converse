@@ -1,0 +1,4 @@
+'QuantitativeHolomorphic.periodized_diagonal_error_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.periodized_diagonal_integral_error_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

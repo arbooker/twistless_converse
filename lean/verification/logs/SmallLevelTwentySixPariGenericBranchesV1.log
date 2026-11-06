@@ -1,0 +1,4 @@
+'SmallLevelTwentySixPariGenericBranches.degree21_of_eliminant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

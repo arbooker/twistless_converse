@@ -1,0 +1,358 @@
+{
+  "status": "PASS_BOTH_SECOND_CHARTS_FROM_ORIGINAL_SOURCE",
+  "checked_at_utc": "2026-10-14T20:53:05.665054+00:00",
+  "scope": "Fricke signs plus/minus, lambda2 nonzero, second projective charts only. No first-chart conclusion. Level25 target M_k.",
+  "source_hashes": {
+    "level25_cusp_aux_magma_firstjet_export.py": "9c29922f9df17cc022255cd11fffe8e39bae36f69e400d862867e6ebb0a49a4d",
+    "level25_cusp_aux_prime7_symbolic.py": "f1032122314f72733d0f10303c3b764c93fbbe61b4c015a9041e9f2581deefb5",
+    "level25_finish_augmented.py": "4dcccb34212352f9effa32da95b93b57becc8f6938adb04e56281fd719780a94",
+    "level25_uniform_continuation.py": "490293b27df705236585208fe1fd2c5f4510cce7499a78e6803e265e11b96515",
+    "level25_cusp_aux_magma_firstjet_backend.m": "eca9f6198085b3dc5934eaff2d7f652dc9ff74ff2bdd461ce82f3f3fe2ddd293",
+    "level25_plus_poles_prepare.py": "d27a8d07ad62106b63b54c062069a054bd87a4c17e3a428d56db39498a794fb3",
+    "level25_plus_poles_checkpoint.m": "17fa4cea9c3faf13baf6fa50cd26c5d54e1ef6c69c656163d593ca0a18adb169",
+    "level25_plus_poles_syzygy_prepare.py": "2807463e2c90387745ab95cecbe73b8198baeaf6552abcba0b3f53ddecea6509",
+    "level25_plus_poles_residual_syzygies.m": "f64caf4fbae23d7a852a1257a50c64e65b49ba905ab5c871aabdaa63672f755b",
+    "level25_plus_poles_even_prepare.py": "2c73abd94afb7394b81ffff865a2ab375f2ed58680cec8037078f84e9f64bb40",
+    "level25_plus_poles_chart2_certificate.py": "617f9b41cd715b71c2895864d177941fa6017f1601b5464a91ee04f98236945a",
+    "level25_plus_poles_chart2_roots.py": "cfbb1736620f6eb5b70c34bfbb7cda1f5be77d1d2dcc8ed8496bc424ee6abd05",
+    "level25_cusp_aux_minus_prepare.py": "084568cdf899236c18378efcd45e6d60cdeef0debab719edeffa64358c56ef29",
+    "level25_cusp_aux_minus_syzygy_prepare.py": "d0b63b3df9d8aa7e605af4555658e4b897214c2844d93033851c2c19c35dc5b0",
+    "level25_cusp_aux_minus_polyload_prepare.py": "ef8b7e84a9d0d939e9a7b68ec0676ecf5c99ac981b8ae575527808e3bf2bb748",
+    "level25_plus_poles_negative2_prepare.py": "09c82f6d9591f6c96b85c9122b0200fe3cddaf4b1bde44c724a7d12c94e0edc3",
+    "level25_plus_poles_negative2_certificate.m": "82ec94fe74ad1f567161f5a588f31c8b8312be6c6b2af25a57e29ab6d855d55b"
+  },
+  "audit_source_hashes": {
+    "level25_secondcharts_independent_run.py": "351f9219a4aa52eddf57ed475b387b7b8977a6190d4b355c555a2da00b7b8934",
+    "level25_secondcharts_independent_native.py": "0a9dc0444d31d10048b244f19876b67df1193765fa84aa96edb9169543a2f799",
+    "level25_secondcharts_independent_manifest.py": "9c0cdb91f7c272d013165d094400ac4dcc196ead0c0f2ab8f098f1761a2fe74d"
+  },
+  "runs": [
+    {
+      "stage": "export",
+      "sign": "plus",
+      "status": "PASS",
+      "elapsed_seconds": 29.743614045903087,
+      "sources": {
+        "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_cusp_aux_magma_firstjet_export.py": "9c29922f9df17cc022255cd11fffe8e39bae36f69e400d862867e6ebb0a49a4d",
+        "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_cusp_aux_prime7_symbolic.py": "f1032122314f72733d0f10303c3b764c93fbbe61b4c015a9041e9f2581deefb5",
+        "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_finish_augmented.py": "4dcccb34212352f9effa32da95b93b57becc8f6938adb04e56281fd719780a94",
+        "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_uniform_continuation.py": "490293b27df705236585208fe1fd2c5f4510cce7499a78e6803e265e11b96515",
+        "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_cusp_aux_magma_firstjet_backend.m": "eca9f6198085b3dc5934eaff2d7f652dc9ff74ff2bdd461ce82f3f3fe2ddd293"
+      },
+      "inputs": {},
+      "outputs": {
+        "/tmp/level25_secondcharts_independent_cusp_aux_magma_firstjet_1_nonzero2.m": "c85a273945a3e916cd2aefa406956064c8c5e101f641c42758f4e578e8d74eec"
+      },
+      "additional_source_free_assertions": true
+    },
+    {
+      "stage": "checkpoint",
+      "sign": "plus",
+      "status": "PASS",
+      "elapsed_seconds": 0.04715753486379981,
+      "sources": {
+        "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_plus_poles_prepare.py": "d27a8d07ad62106b63b54c062069a054bd87a4c17e3a428d56db39498a794fb3",
+        "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_cusp_aux_magma_firstjet_backend.m": "eca9f6198085b3dc5934eaff2d7f652dc9ff74ff2bdd461ce82f3f3fe2ddd293",
+        "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_plus_poles_checkpoint.m": "17fa4cea9c3faf13baf6fa50cd26c5d54e1ef6c69c656163d593ca0a18adb169"
+      },
+      "inputs": {
+        "/tmp/level25_secondcharts_independent_cusp_aux_magma_firstjet_1_nonzero2.m": "c85a273945a3e916cd2aefa406956064c8c5e101f641c42758f4e578e8d74eec"
+      },
+      "outputs": {
+        "/tmp/level25_secondcharts_independent_plus_poles_nonzero2_checkpoint.m": "be54343068765d05fd84eab0c35071a69b94d0176c1ba5ac3a3deeca4fbaef28"
+      },
+      "additional_source_free_assertions": false
+    },
+    {
+      "stage": "syzygy",
+      "sign": "plus",
+      "status": "PASS",
+      "elapsed_seconds": 0.9393641799688339,
+      "sources": {
+        "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_plus_poles_syzygy_prepare.py": "2807463e2c90387745ab95cecbe73b8198baeaf6552abcba0b3f53ddecea6509",
+        "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_cusp_aux_magma_firstjet_backend.m": "eca9f6198085b3dc5934eaff2d7f652dc9ff74ff2bdd461ce82f3f3fe2ddd293",
+        "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_plus_poles_residual_syzygies.m": "f64caf4fbae23d7a852a1257a50c64e65b49ba905ab5c871aabdaa63672f755b"
+      },
+      "inputs": {
+        "/tmp/level25_secondcharts_independent_plus_poles_reduced.m": "b47062946a2918800c55e0dfed7bf3a7d16de7684e7af062cbfca83e7d4f2959"
+      },
+      "outputs": {
+        "/tmp/level25_secondcharts_independent_plus_poles_reduced_stream.m": "f33b7e30479f7504c32f6ff027e4102ea06468cec2d10a34eded9f0d062b2924",
+        "/tmp/level25_secondcharts_independent_plus_poles_primitive.m": "ff747b97d760f9dfc0303a6e5336b7e6b322d9bc6cac76bd9aed1fda978a472b"
+      },
+      "additional_source_free_assertions": false
+    },
+    {
+      "stage": "even",
+      "sign": "plus",
+      "status": "PASS",
+      "elapsed_seconds": 0.021912106778472662,
+      "sources": {
+        "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_plus_poles_even_prepare.py": "2c73abd94afb7394b81ffff865a2ab375f2ed58680cec8037078f84e9f64bb40"
+      },
+      "inputs": {
+        "/tmp/level25_secondcharts_independent_plus_poles_seed0_chart2.txt": "329e884c5cc8ddc7257b78f64aaf8a7054a71013f8ed4aca62e9bdd7d7a19173"
+      },
+      "outputs": {
+        "/tmp/level25_secondcharts_independent_plus_poles_even_chart2_rational.m": "2ebb43f667226efb72c653fd269eef35cfdb1c1d1964b21572efdc7702a099d3"
+      },
+      "additional_source_free_assertions": false
+    },
+    {
+      "stage": "certificate",
+      "sign": "plus",
+      "status": "PASS",
+      "elapsed_seconds": 0.014034549007192254,
+      "sources": {
+        "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_plus_poles_chart2_certificate.py": "617f9b41cd715b71c2895864d177941fa6017f1601b5464a91ee04f98236945a"
+      },
+      "inputs": {
+        "/tmp/level25_secondcharts_independent_plus_poles_even_chart2_rational.m": "2ebb43f667226efb72c653fd269eef35cfdb1c1d1964b21572efdc7702a099d3"
+      },
+      "outputs": {
+        "/tmp/level25_secondcharts_independent_plus_poles_chart2_certificate.m": "14fb92c9466515a5a98c998244067611f579e796d0e182c02177aa1ab41bc773"
+      },
+      "additional_source_free_assertions": false
+    },
+    {
+      "stage": "roots",
+      "sign": "plus",
+      "status": "PASS",
+      "elapsed_seconds": 0.02031870884820819,
+      "sources": {
+        "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_plus_poles_chart2_roots.py": "cfbb1736620f6eb5b70c34bfbb7cda1f5be77d1d2dcc8ed8496bc424ee6abd05"
+      },
+      "inputs": {},
+      "outputs": {},
+      "additional_source_free_assertions": false
+    },
+    {
+      "stage": "export",
+      "sign": "minus",
+      "status": "PASS",
+      "elapsed_seconds": 26.582286569988355,
+      "sources": {
+        "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_cusp_aux_magma_firstjet_export.py": "9c29922f9df17cc022255cd11fffe8e39bae36f69e400d862867e6ebb0a49a4d",
+        "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_cusp_aux_prime7_symbolic.py": "f1032122314f72733d0f10303c3b764c93fbbe61b4c015a9041e9f2581deefb5",
+        "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_finish_augmented.py": "4dcccb34212352f9effa32da95b93b57becc8f6938adb04e56281fd719780a94",
+        "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_uniform_continuation.py": "490293b27df705236585208fe1fd2c5f4510cce7499a78e6803e265e11b96515",
+        "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_cusp_aux_magma_firstjet_backend.m": "eca9f6198085b3dc5934eaff2d7f652dc9ff74ff2bdd461ce82f3f3fe2ddd293"
+      },
+      "inputs": {},
+      "outputs": {
+        "/tmp/level25_secondcharts_independent_cusp_aux_magma_firstjet_-1_nonzero2.m": "bde312b9da4f6c88cf997acbefd49ff6e6d72f9a7b22110314da9a572bc9b75a"
+      },
+      "additional_source_free_assertions": true
+    },
+    {
+      "stage": "checkpoint",
+      "sign": "minus",
+      "status": "PASS",
+      "elapsed_seconds": 0.0776242499705404,
+      "sources": {
+        "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_cusp_aux_minus_prepare.py": "084568cdf899236c18378efcd45e6d60cdeef0debab719edeffa64358c56ef29",
+        "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_cusp_aux_magma_firstjet_backend.m": "eca9f6198085b3dc5934eaff2d7f652dc9ff74ff2bdd461ce82f3f3fe2ddd293",
+        "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_plus_poles_checkpoint.m": "17fa4cea9c3faf13baf6fa50cd26c5d54e1ef6c69c656163d593ca0a18adb169"
+      },
+      "inputs": {
+        "/tmp/level25_secondcharts_independent_cusp_aux_magma_firstjet_-1_nonzero2.m": "bde312b9da4f6c88cf997acbefd49ff6e6d72f9a7b22110314da9a572bc9b75a"
+      },
+      "outputs": {
+        "/tmp/level25_secondcharts_independent_cusp_aux_minus_nonzero2_checkpoint.m": "cb10d5971e6077357179d88ab4370a131598696b9b33b3b89a60313c54683dee"
+      },
+      "additional_source_free_assertions": false
+    },
+    {
+      "stage": "syzygy",
+      "sign": "minus",
+      "status": "PASS",
+      "elapsed_seconds": 4.754946915898472,
+      "sources": {
+        "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_cusp_aux_minus_syzygy_prepare.py": "d0b63b3df9d8aa7e605af4555658e4b897214c2844d93033851c2c19c35dc5b0",
+        "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_cusp_aux_magma_firstjet_backend.m": "eca9f6198085b3dc5934eaff2d7f652dc9ff74ff2bdd461ce82f3f3fe2ddd293",
+        "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_plus_poles_residual_syzygies.m": "f64caf4fbae23d7a852a1257a50c64e65b49ba905ab5c871aabdaa63672f755b"
+      },
+      "inputs": {
+        "/tmp/level25_secondcharts_independent_cusp_aux_minus_reduced.m": "565246830122407d414aa8a6ecf9f5601bd854af51dc8fe1930c880fbd8acc62"
+      },
+      "outputs": {
+        "/tmp/level25_secondcharts_independent_cusp_aux_minus_reduced_stream.m": "ec2afa491ae5c26a869d2db0a854b7fef52035fe26f7e98b1b74ddb48b10506a",
+        "/tmp/level25_secondcharts_independent_cusp_aux_minus_primitive.m": "6959b81a65c88338a6ce9ae9fbadc55107bdafa05b8ac9a380d5f52a05dd20d4"
+      },
+      "additional_source_free_assertions": false
+    },
+    {
+      "stage": "polyload",
+      "sign": "minus",
+      "status": "PASS",
+      "elapsed_seconds": 4.042006484000012,
+      "sources": {
+        "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_cusp_aux_minus_polyload_prepare.py": "ef8b7e84a9d0d939e9a7b68ec0676ecf5c99ac981b8ae575527808e3bf2bb748"
+      },
+      "inputs": {
+        "/tmp/level25_secondcharts_independent_cusp_aux_minus_reduced_stream.m": "ec2afa491ae5c26a869d2db0a854b7fef52035fe26f7e98b1b74ddb48b10506a",
+        "/tmp/level25_secondcharts_independent_cusp_aux_minus_primitive.m": "6959b81a65c88338a6ce9ae9fbadc55107bdafa05b8ac9a380d5f52a05dd20d4"
+      },
+      "outputs": {
+        "/tmp/level25_secondcharts_independent_cusp_aux_minus_reduced_poly.m": "076c69e13fd4f0ae830e1189e06dbf0712b1f74ee65e49433c39d1b60b1edf5f",
+        "/tmp/level25_secondcharts_independent_cusp_aux_minus_primitive_poly.m": "6959b81a65c88338a6ce9ae9fbadc55107bdafa05b8ac9a380d5f52a05dd20d4"
+      },
+      "additional_source_free_assertions": false
+    },
+    {
+      "stage": "negative2",
+      "sign": "minus",
+      "status": "PASS",
+      "elapsed_seconds": 6.969544496154413,
+      "sources": {
+        "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_plus_poles_negative2_prepare.py": "09c82f6d9591f6c96b85c9122b0200fe3cddaf4b1bde44c724a7d12c94e0edc3",
+        "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_plus_poles_negative2_certificate.m": "82ec94fe74ad1f567161f5a588f31c8b8312be6c6b2af25a57e29ab6d855d55b"
+      },
+      "inputs": {
+        "/tmp/level25_secondcharts_independent_cusp_aux_minus_seed0_chart2.txt": "b2d9fb99e6e0af225a21a4881e1b33fdfb5eddcdc986627d28cd7747feedb7c0"
+      },
+      "outputs": {
+        "/tmp/level25_secondcharts_independent_plus_poles_negative2_even2_rational_full.m": "c4fc719f1c07ca65e061af0d44e4fbf62d853e751bbf0c01786ae38ece5274d4"
+      },
+      "additional_source_free_assertions": false
+    }
+  ],
+  "native_batches": [
+    {
+      "input": {
+        "source": "/tmp/level25_secondcharts_independent_plus_poles_nonzero2_checkpoint.m",
+        "source_sha256": "be54343068765d05fd84eab0c35071a69b94d0176c1ba5ac3a3deeca4fbaef28",
+        "completed": true,
+        "status": "PASS",
+        "returncode": 0
+      },
+      "native": {
+        "command": "magma -b -l500000000 -t1 /tmp/level25_secondcharts_independent_plus_poles_nonzero2_checkpoint_20261014T204824996813Z.m",
+        "completion": "/tmp/level25_secondcharts_independent_plus_poles_nonzero2_checkpoint_20261014T204824996813Z.completion.json",
+        "log": "/tmp/level25_secondcharts_independent_plus_poles_nonzero2_checkpoint_20261014T204824996813Z.log",
+        "batch": "/tmp/level25_secondcharts_independent_plus_poles_nonzero2_checkpoint_20261014T204824996813Z.m",
+        "batch_sha256": "8683d7b880c65169fa75968846639a23a0f45968d9553d545512ffc6c9192910"
+      },
+      "log_sha256": "ea81e2234b6c928bb2930d355cbd75414fd77181b71a9408e0b44ccb86f5f432",
+      "verified_marker": "REDUCED_TABLES_SAVED 400 404"
+    },
+    {
+      "input": {
+        "source": "/tmp/level25_secondcharts_independent_plus_poles_primitive.m",
+        "source_sha256": "ff747b97d760f9dfc0303a6e5336b7e6b322d9bc6cac76bd9aed1fda978a472b",
+        "completed": true,
+        "status": "PASS",
+        "returncode": 0
+      },
+      "native": {
+        "command": "magma -b -l500000000 -t1 /tmp/level25_secondcharts_independent_plus_poles_primitive_20261014T204855012531Z.m",
+        "completion": "/tmp/level25_secondcharts_independent_plus_poles_primitive_20261014T204855012531Z.completion.json",
+        "log": "/tmp/level25_secondcharts_independent_plus_poles_primitive_20261014T204855012531Z.log",
+        "batch": "/tmp/level25_secondcharts_independent_plus_poles_primitive_20261014T204855012531Z.m",
+        "batch_sha256": "21231f327417620dfe21b1f9e9e6c6f99319670fc22751bb088f9a006a8f8f98"
+      },
+      "log_sha256": "a3ca56db4b8fef77864175e15ad84e855dcefee2252833d5366036feaa03b89d",
+      "verified_marker": "PRIMITIVE_GERM_ROWS 400 CONSTRAINTS 801"
+    },
+    {
+      "input": {
+        "source": "/tmp/level25_secondcharts_independent_plus_poles_chart2_certificate.m",
+        "source_sha256": "14fb92c9466515a5a98c998244067611f579e796d0e182c02177aa1ab41bc773",
+        "completed": true,
+        "status": "PASS",
+        "returncode": 0
+      },
+      "native": {
+        "command": "magma -b -l500000000 -t1 /tmp/level25_secondcharts_independent_plus_poles_chart2_certificate_20261014T204940680104Z.m",
+        "completion": "/tmp/level25_secondcharts_independent_plus_poles_chart2_certificate_20261014T204940680104Z.completion.json",
+        "log": "/tmp/level25_secondcharts_independent_plus_poles_chart2_certificate_20261014T204940680104Z.log",
+        "batch": "/tmp/level25_secondcharts_independent_plus_poles_chart2_certificate_20261014T204940680104Z.m",
+        "batch_sha256": "7d89e043fe59ca36bc50f86ed689b585dd4ee61546d0342b390d214fec1fc29a"
+      },
+      "log_sha256": "0f2ceccf629ac72475faed6feee670ff3dc25967362cdc4e4899791ddbc66ce2",
+      "verified_marker": "PASS_EXACT_POSITIVE_CHART2_ALGEBRA"
+    },
+    {
+      "input": {
+        "source": "/tmp/level25_secondcharts_independent_cusp_aux_minus_nonzero2_checkpoint.m",
+        "source_sha256": "cb10d5971e6077357179d88ab4370a131598696b9b33b3b89a60313c54683dee",
+        "completed": true,
+        "status": "PASS",
+        "returncode": 0
+      },
+      "native": {
+        "command": "magma -b -l500000000 -t1 /tmp/level25_secondcharts_independent_cusp_aux_minus_nonzero2_checkpoint_20261014T205043123186Z.m",
+        "completion": "/tmp/level25_secondcharts_independent_cusp_aux_minus_nonzero2_checkpoint_20261014T205043123186Z.completion.json",
+        "log": "/tmp/level25_secondcharts_independent_cusp_aux_minus_nonzero2_checkpoint_20261014T205043123186Z.log",
+        "batch": "/tmp/level25_secondcharts_independent_cusp_aux_minus_nonzero2_checkpoint_20261014T205043123186Z.m",
+        "batch_sha256": "100a23983e7181f08b79848efd01e57254427650b4254d3a9f802e3aa511d402"
+      },
+      "log_sha256": "9d04a2989416def75b6958adb0af7ec964c8e56d67f453ab1268915ee4972163",
+      "verified_marker": "REDUCED_TABLES_SAVED 439"
+    },
+    {
+      "input": {
+        "source": "/tmp/level25_secondcharts_independent_cusp_aux_minus_primitive_poly.m",
+        "source_sha256": "6959b81a65c88338a6ce9ae9fbadc55107bdafa05b8ac9a380d5f52a05dd20d4",
+        "completed": true,
+        "status": "PASS",
+        "returncode": 0
+      },
+      "native": {
+        "command": "magma -b -l500000000 -t1 /tmp/level25_secondcharts_independent_cusp_aux_minus_primitive_poly_20261014T205124286031Z.m",
+        "completion": "/tmp/level25_secondcharts_independent_cusp_aux_minus_primitive_poly_20261014T205124286031Z.completion.json",
+        "log": "/tmp/level25_secondcharts_independent_cusp_aux_minus_primitive_poly_20261014T205124286031Z.log",
+        "batch": "/tmp/level25_secondcharts_independent_cusp_aux_minus_primitive_poly_20261014T205124286031Z.m",
+        "batch_sha256": "2126942564ae767b644216d856d14c0ed05907a8664c51a2ab84b1c5c0d7bd63"
+      },
+      "log_sha256": "c29462f2d020899d502ef0dbbf21578d7add369cf3d24c9b94e7c1d954133386",
+      "verified_marker": "PRIMITIVE_GERM_ROWS 439"
+    },
+    {
+      "input": {
+        "source": "/tmp/level25_secondcharts_independent_plus_poles_negative2_even2_rational_full.m",
+        "source_sha256": "c4fc719f1c07ca65e061af0d44e4fbf62d853e751bbf0c01786ae38ece5274d4",
+        "completed": true,
+        "status": "PASS",
+        "returncode": 0
+      },
+      "native": {
+        "command": "magma -b -l500000000 -t1 /tmp/level25_secondcharts_independent_plus_poles_negative2_even2_rational_full_20261014T205229618285Z.m",
+        "completion": "/tmp/level25_secondcharts_independent_plus_poles_negative2_even2_rational_full_20261014T205229618285Z.completion.json",
+        "log": "/tmp/level25_secondcharts_independent_plus_poles_negative2_even2_rational_full_20261014T205229618285Z.log",
+        "batch": "/tmp/level25_secondcharts_independent_plus_poles_negative2_even2_rational_full_20261014T205229618285Z.m",
+        "batch_sha256": "0aeb2e93f0eefedeb159e8f131794be5e2fb663f9e5b816d647e7cf505aca8e2"
+      },
+      "log_sha256": "1c33e1b6581ac2aac4f69a0644bc48f1fd856abef02068c75eb1ecf4dd355695",
+      "verified_marker": "PASS_EXACT_NEGATIVE_CHART2_UNIT_IDEAL"
+    }
+  ],
+  "worker_table_comparisons": [
+    {
+      "name": "plus_poles_reduced.m",
+      "byte_identical": true,
+      "sha256": "b47062946a2918800c55e0dfed7bf3a7d16de7684e7af062cbfca83e7d4f2959"
+    },
+    {
+      "name": "plus_poles_seed0_chart2.txt",
+      "byte_identical": true,
+      "sha256": "329e884c5cc8ddc7257b78f64aaf8a7054a71013f8ed4aca62e9bdd7d7a19173"
+    },
+    {
+      "name": "cusp_aux_minus_reduced.m",
+      "byte_identical": true,
+      "sha256": "565246830122407d414aa8a6ecf9f5601bd854af51dc8fe1930c880fbd8acc62"
+    },
+    {
+      "name": "cusp_aux_minus_seed0_chart2.txt",
+      "byte_identical": true,
+      "sha256": "b2d9fb99e6e0af225a21a4881e1b33fdfb5eddcdc986627d28cd7747feedb7c0"
+    }
+  ],
+  "proof_hashes": {
+    "level25_plus_poles_chart2.tex": "7182004bff510a50b4373e499c8504be325f12f0c1c91aa85d4b5ad1b85675e9",
+    "level25_plus_poles_negative2.tex": "7e616d07b7632b91675cea99f3a3ec838680e9ac67a2c21e386ea6c3ea53f8fd",
+    "level25_secondcharts_independent_audit.tex": "7e439b3a288f1d5b005f53e75feeef499bdee712f2d19b5a59131bfeacf56d6a"
+  },
+  "root_exclusion_log_sha256": "8b037aa39f6109f90c1ab58251970951dc3a30db0755692623d5a5cc52f4a6ff"
+}

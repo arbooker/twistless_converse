@@ -1,0 +1,8 @@
+'QuantitativeArithmeticQuadraticMatrices.quadraticMatrix_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticQuadraticMatrices.signed_slash' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticQuadraticMatrices.liftMatrix_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticQuadraticMatrices.lift_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticQuadraticMatrices.lift_signed_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticQuadraticMatrices.upperFinite_slash' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticQuadraticMatrices.upperInfinity_slash' depends on axioms: [propext, Classical.choice, Quot.sound]
+

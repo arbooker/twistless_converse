@@ -1,0 +1,6 @@
+'QuantitativeSpectralExceptionalGeometry.finite_cover_family_words' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralExceptionalGeometry.finite_retained_family_words' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

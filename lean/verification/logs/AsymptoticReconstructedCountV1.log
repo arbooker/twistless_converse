@@ -1,0 +1,8 @@
+'AsymptoticReconstructedCount.parameters_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticReconstructedCount.parameters_hyperbolic_contraction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticReconstructedCount.reconstruction_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticReconstructedCount.terminal_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticReconstructedCount.reconstruct_sector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticReconstructedCount.count_le_traces' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,4 @@
+'QuantitativeEulerDensityGenerators.canonical_fricke_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerDensityGenerators.canonical_same_prime_difference' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

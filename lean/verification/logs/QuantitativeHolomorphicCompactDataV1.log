@@ -1,0 +1,2 @@
+'QuantitativeHolomorphic.regular_compact_data_independent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.physical_compact_data_independent' depends on axioms: [propext, Classical.choice, Quot.sound]

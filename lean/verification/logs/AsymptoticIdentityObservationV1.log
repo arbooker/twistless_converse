@@ -1,0 +1,4 @@
+'AsymptoticObservation.normal_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticObservation.normal_identity_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticObservation.operator_identity_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.identity_observation_regular' depends on axioms: [propext, Classical.choice, Quot.sound]

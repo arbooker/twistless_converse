@@ -1,0 +1,4 @@
+'QuantitativeHolomorphic.integerAction_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.IntegerAction.mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.IntegerAction.inv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.matrix_entry_bound_adjugate' depends on axioms: [propext, Classical.choice, Quot.sound]

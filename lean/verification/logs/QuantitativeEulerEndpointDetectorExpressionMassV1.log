@@ -1,0 +1,9 @@
+'QuantitativeEulerEndpointInitialExpression.baseline_stack_norm_ge_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointInitialExpression.row_squares_le_detector' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointInitialExpression.normalized_initial_mass_le_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

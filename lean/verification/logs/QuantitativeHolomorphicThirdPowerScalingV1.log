@@ -1,0 +1,4 @@
+'QuantitativeHolomorphic.bridgeErrorThird_at_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.isBigO_of_third_power_two_parameter_bound_along' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

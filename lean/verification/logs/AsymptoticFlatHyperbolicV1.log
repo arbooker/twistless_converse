@@ -1,0 +1,3 @@
+'AsymptoticFlatHyperbolic.height_memLp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFlatHyperbolic.heightMapLinear_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFlatHyperbolic.heightMap_coeFn' depends on axioms: [propext, Classical.choice, Quot.sound]

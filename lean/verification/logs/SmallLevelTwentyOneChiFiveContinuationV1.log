@@ -1,0 +1,4 @@
+'SmallLevelTwentyOneChiFive.denominator_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneChiFive.original_quotient_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneChiFive.original_quadratic_continuation' depends on axioms: [propext, Classical.choice, Quot.sound]
+

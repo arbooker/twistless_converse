@@ -1,0 +1,4 @@
+'IndependentBases.independent_of_coprime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IndependentBases.homogeneous_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IndependentBases.homogeneous_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IndependentBases.equal_offset_unique' depends on axioms: [propext, Classical.choice, Quot.sound]

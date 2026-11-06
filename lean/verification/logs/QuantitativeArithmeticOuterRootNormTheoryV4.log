@@ -1,0 +1,4 @@
+'QuantitativeArithmeticOuterRootNorm.polynomial_six_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticOuterRootNorm.negative_disk_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticOuterRootNorm.root_factor_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticOuterRootNorm.quadratic_outer_lower' depends on axioms: [propext, Classical.choice, Quot.sound]

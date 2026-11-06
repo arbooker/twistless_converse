@@ -1,0 +1,5 @@
+'QuantitativeArithmeticAtkinSigns.localAtkin_eq_dilation_inv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticAtkinSigns.localAtkin_eq_trace_dilation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticAtkinSigns.localAtkin_rationalMap' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,12 @@
+'FinitenessAllLevelAnalyticAtlas.Chart.linear_coordinate_analytic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FinitenessAllLevelAnalyticAtlas.Chart.linear_coordinate_transition' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FinitenessAllLevelConstraintLocus.global_sector_coefficients' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FinitenessAllLevelConstraintLocus.global_sector_two_prime_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,5 @@
+'QuantitativeArithmeticCrossPrime.first_first_permute' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticCrossPrime.first_second_permute' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticCrossPrime.second_first_permute' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticCrossPrime.second_second_permute' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticCrossPrime.oldGroups_permute' depends on axioms: [propext, Classical.choice, Quot.sound]

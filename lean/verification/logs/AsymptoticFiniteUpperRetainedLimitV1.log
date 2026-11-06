@@ -1,0 +1,3 @@
+'AsymptoticFiniteBranch.finiteUpperCut_trace_tendsto_retained' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

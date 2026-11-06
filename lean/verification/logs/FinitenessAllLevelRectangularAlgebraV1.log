@@ -1,0 +1,13 @@
+'FinitenessAllLevelFiniteFiberAlgebra.eval_map_observable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelFiniteFiberAlgebra.mem_rectangle_zeroLocus' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FinitenessAllLevelFiniteFiberAlgebra.rectangle_zeroLocus_finite' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FinitenessAllLevelFiniteFiberAlgebra.rectangular_residual_certificate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FinitenessAllLevelFiniteFiberAlgebra.eval_residual_certificate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

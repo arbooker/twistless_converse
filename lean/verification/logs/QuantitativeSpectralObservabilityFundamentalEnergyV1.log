@@ -1,0 +1,9 @@
+'QuantitativeSpectralObservability.finite_terminal_fundamental_words' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralObservability.terminalBand_fundamental_energy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralObservability.exists_polynomial_fundamental_observability' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

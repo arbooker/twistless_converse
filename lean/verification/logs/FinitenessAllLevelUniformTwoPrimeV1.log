@@ -1,0 +1,5 @@
+'FinitenessAllLevelTwoPrimeBounds.uniform_ceiling_comparison' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelTwoPrimeBounds.original_ceiling_comparison' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FinitenessAllLevelTwoPrimeBounds.original_two_prime_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]

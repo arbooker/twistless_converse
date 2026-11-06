@@ -1,0 +1,4 @@
+'QuantitativeArithmetic.eventually_primesBelow_chebyshev_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmetic.exists_absolute_primesBelow_lower' depends on axioms: [propext, Classical.choice, Quot.sound]

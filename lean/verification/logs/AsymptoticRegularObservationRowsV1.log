@@ -1,0 +1,5 @@
+'AsymptoticRegularObservationRows.realMatrix_ramified' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservationRows.row_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservationRows.row_covariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservationRows.row_matrix_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+

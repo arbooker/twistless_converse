@@ -1,0 +1,4 @@
+'QuantitativeSpectralExceptionalGeometry.compact_height_band' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralExceptionalGeometry.finite_compact_branch_reduction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

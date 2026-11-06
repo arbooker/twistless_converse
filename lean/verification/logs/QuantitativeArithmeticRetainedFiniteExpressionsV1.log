@@ -1,0 +1,12 @@
+'QuantitativeArithmeticRetainedFiniteExpressions.retainedLow_holomorphic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedFiniteExpressions.retainedTerminal_holomorphic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedFiniteExpressions.retainedLow_regular' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedFiniteExpressions.retainedTerminal_regular' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

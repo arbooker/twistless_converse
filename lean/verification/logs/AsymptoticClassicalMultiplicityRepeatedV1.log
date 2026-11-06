@@ -1,0 +1,7 @@
+'AsymptoticClassicalCusp.restrict_range_group_congr' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.primeOldIntersection_repeated_finrank' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticClassicalCusp.primeKernel_repeated_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.two_lower_index_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.twoKernel_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]

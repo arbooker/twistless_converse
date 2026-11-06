@@ -1,0 +1,5 @@
+'QuantitativeEulerEndpointBernstein.bands_separated' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointBernstein.exists_light_band' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointBernstein.exists_polynomial_sharpening' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

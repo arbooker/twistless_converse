@@ -1,0 +1,4 @@
+'FinitenessAllLevelTaylorGrowth.taylor_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelTaylorGrowth.taylor_polynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelTaylorGrowth.polynomialBound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelTaylorGrowth.sum_taylor' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,6 @@
+'FinitenessAllLevelFormalContinuation.initial_cusp_agree_closed' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FinitenessAllLevelFormalContinuation.representative_recovered' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,9 @@
+'AsymptoticClassicalDimension.prime_coprime_div_of_square_not_dvd' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticClassicalDimension.allPrimeList_simple' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalDimension.oddPrimeList_simple' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalDimension.oddPrimeList_coprime_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalDimension.oddPrimeList_ne_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalDimension.allPrimeList_covers' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalDimension.oddPrimeList_covers' depends on axioms: [propext, Classical.choice, Quot.sound]

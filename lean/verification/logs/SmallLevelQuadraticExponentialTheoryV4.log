@@ -1,0 +1,6 @@
+'SmallLevelQuadraticExponential.quadratic_factorization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelQuadraticExponential.finiteOrder_of_quadratic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelQuadraticExponential.finiteOrder_of_base_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelQuadraticExponential.finiteOrder_of_quadratic_base' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

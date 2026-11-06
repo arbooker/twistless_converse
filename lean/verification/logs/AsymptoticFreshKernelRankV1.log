@@ -1,0 +1,4 @@
+'AsymptoticSectorSigns.multiplier_fresh' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFreshKernelRank.finite_prior_loss' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFreshKernelRank.infinite_prior_loss' depends on axioms: [propext, Classical.choice, Quot.sound]
+

@@ -1,0 +1,2 @@
+'AsymptoticCylinder.coefficient_modes_summable_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCylinder.fourierSum_coeFn' depends on axioms: [propext, Classical.choice, Quot.sound]

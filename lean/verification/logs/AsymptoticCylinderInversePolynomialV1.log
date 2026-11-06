@@ -1,0 +1,8 @@
+'AsymptoticObservation.normal_norm_le_of_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticObservation.normal_inverse_eq_series' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCylinderObservation.cutNormal_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCylinderObservation.cutTerminalInverse_eq_series' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCylinderObservation.cutInversePolynomial_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCylinderObservation.cutInversePolynomial_tendstoUniformly' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

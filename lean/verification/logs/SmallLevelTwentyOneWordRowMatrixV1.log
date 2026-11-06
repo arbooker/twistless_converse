@@ -1,0 +1,3 @@
+'SmallLevelTwentyOneKnownWords.wordLeadingRow_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneKnownWords.finite_word_matrix_germs' depends on axioms: [propext, Classical.choice, Quot.sound]
+

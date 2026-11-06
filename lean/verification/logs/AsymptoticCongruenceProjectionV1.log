@@ -1,0 +1,7 @@
+'AsymptoticCongruenceQuotient.projection_matrix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceQuotient.projection_diagonal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceQuotient.projection_matrix_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceQuotient.classOf_right_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceQuotient.projection_covariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceQuotient.projection_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+

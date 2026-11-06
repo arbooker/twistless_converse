@@ -1,0 +1,12 @@
+'QuantitativeArithmeticSmallLevelCirc.CuspSpectral.boundaryDifference_toModular' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.CuspSpectral.modularBoundaryDifference_mem' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.CuspSpectral.cornerBoundaryResolvent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.CuspSpectral.split_of_cuspidal_defect' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

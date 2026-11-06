@@ -1,0 +1,2 @@
+'AsymptoticCongruenceLabels.projective_det_one_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceStrip.ofMatrix_mem_gamma_integral' depends on axioms: [propext, Classical.choice, Quot.sound]

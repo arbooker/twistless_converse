@@ -1,0 +1,3 @@
+'QuantitativeEulerEndpointPrepared.wide_projective_prime_rows_of_height' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

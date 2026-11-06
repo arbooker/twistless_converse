@@ -1,0 +1,4 @@
+'QuantitativeEulerEndpointPrepared.wide_matrix_polynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.baseline_matrix_height_polynomial' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,3 @@
+'AsymptoticSectorSigns.card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticSectorSigns.multiplier_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticSectorSigns.euler_sector' depends on axioms: [propext, Classical.choice, Quot.sound]

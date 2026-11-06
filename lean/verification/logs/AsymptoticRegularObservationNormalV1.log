@@ -1,0 +1,4 @@
+'AsymptoticObservation.completedNormal_coercive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.wholeNormal_coercive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.wholeNormal_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+

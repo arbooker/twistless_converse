@@ -1,0 +1,35 @@
+'SmallLevelTwentySixExceptionalSevenXRoot.pRoot_monic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixExceptionalSevenXRoot.pRoot_degree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixExceptionalSevenXRoot.node0_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixExceptionalSevenXRoot.node0_distance_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixExceptionalSevenXRoot.node1_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixExceptionalSevenXRoot.node1_distance_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixExceptionalSevenXRoot.node2_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixExceptionalSevenXRoot.node2_distance_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixExceptionalSevenXRoot.node3_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixExceptionalSevenXRoot.node3_distance_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixExceptionalSevenXRoot.node4_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixExceptionalSevenXRoot.node4_distance_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixExceptionalSevenXRoot.node5_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixExceptionalSevenXRoot.node5_distance_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixExceptionalSevenXRoot.node6_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixExceptionalSevenXRoot.node6_distance_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixExceptionalSevenXRoot.center_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixExceptionalSevenXRoot.pRoot_root_in_disk' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixExceptionalSevenXRoot.polynomial_binding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixExceptionalSevenXRoot.root_norm_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+

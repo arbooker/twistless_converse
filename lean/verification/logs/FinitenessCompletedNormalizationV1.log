@@ -1,0 +1,3 @@
+'FinitenessCompletedNormalization.completed_exponential' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessCompletedNormalization.normalize_series' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessCompletedNormalization.normalize_FE' depends on axioms: [propext, Classical.choice, Quot.sound]

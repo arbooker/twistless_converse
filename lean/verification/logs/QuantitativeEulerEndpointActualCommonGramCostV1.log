@@ -1,0 +1,3 @@
+'QuantitativeEulerEndpointBoundedIteration.exists_actual_common_gram_cost' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

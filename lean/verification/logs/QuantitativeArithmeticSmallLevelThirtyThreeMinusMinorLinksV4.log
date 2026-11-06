@@ -1,0 +1,19 @@
+'QuantitativeArithmeticSmallLevelThirtyThreeMinusElimination.minor0_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyThreeMinusElimination.minor3_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyThreeMinusElimination.minor6_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyThreeMinusElimination.minor12_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyThreeMinusElimination.minor16_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyThreeMinusElimination.minor25_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

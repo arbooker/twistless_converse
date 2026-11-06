@@ -1,0 +1,9 @@
+'QuantitativeEulerEndpointTracialProduct.trace_product_sqrt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointTracialProduct.trace_product_nonneg' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointTracialProduct.trace_product_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointTracialProduct.defect_product_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointTracialProduct.sandwich_trace_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

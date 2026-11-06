@@ -1,0 +1,3 @@
+'AsymptoticObservation.compressedSandwich_diagonal_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticObservation.compressedSandwich_summable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticObservation.compressedSandwich_trace_error' depends on axioms: [propext, Classical.choice, Quot.sound]

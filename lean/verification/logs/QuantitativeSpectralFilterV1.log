@@ -1,0 +1,3 @@
+'QuantitativeSpectralFilter.filter_le_exp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralFilter.filter_integral_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralFilter.tail_le_error' depends on axioms: [propext, Classical.choice, Quot.sound]

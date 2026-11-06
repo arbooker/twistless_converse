@@ -1,0 +1,33 @@
+'QuantitativeArithmeticRetainedCommonExpression.physicalExact_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedCommonExpression.physical_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedCommonExpression.physical_right_terminal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedIteration.actualGramExpressions_physical_order' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedIteration.actualGramExpressions_physical_support' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedIteration.actualFinitePrefix_physical_order' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedIteration.actualFiniteExpression_physical_order' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedExpressionIteration.physical_residual' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedIteration.actualFiniteExpression_physical_residual' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedIteration.actualFiniteExpression_original_residual' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedIteration.actualFiniteExpression_original_paid' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

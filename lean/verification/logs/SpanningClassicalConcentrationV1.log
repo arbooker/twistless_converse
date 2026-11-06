@@ -1,0 +1,2 @@
+'SpanningClassicalConcentration.words_concentrate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpanningClassicalConcentration.stationary_concentration' depends on axioms: [propext, Classical.choice, Quot.sound]

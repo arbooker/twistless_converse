@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointPrepared.absolute_stack_composed_gram' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.normalized_combined_gram_expansion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

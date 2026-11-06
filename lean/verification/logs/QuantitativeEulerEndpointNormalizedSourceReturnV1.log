@@ -1,0 +1,12 @@
+'QuantitativeEulerEndpointPrepared.normalized_source_packet_eq_pullback' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.normalized_source_packet_eq_closed_pullback' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.normalized_source_packet_mass' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.normalized_source_packet_regular' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

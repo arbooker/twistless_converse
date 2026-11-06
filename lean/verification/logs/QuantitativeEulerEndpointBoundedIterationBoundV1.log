@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointBoundedIteration.finite_excess_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointBoundedIteration.finite_trace_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

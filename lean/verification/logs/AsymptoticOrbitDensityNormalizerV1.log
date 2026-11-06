@@ -1,0 +1,3 @@
+'AsymptoticOrbitDensity.normalizerEquiv' depends on axioms: [propext]
+'AsymptoticOrbitDensity.translated_density_normalized' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticOrbitDensity.integral_normalizer' depends on axioms: [propext, Classical.choice, Quot.sound]

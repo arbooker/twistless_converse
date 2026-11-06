@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointCommonReconstruction.regular_gram_trace_finite' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointCommonReconstruction.retained_regular_le_terminal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

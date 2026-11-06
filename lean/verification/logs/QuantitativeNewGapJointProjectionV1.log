@@ -1,0 +1,4 @@
+'QuantitativeNewGap.inter_projection_of_commute' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeNewGap.inter_projection_distance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeNewGap.jointListSpace_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeNewGap.jointListSpace_distance' depends on axioms: [propext, Classical.choice, Quot.sound]

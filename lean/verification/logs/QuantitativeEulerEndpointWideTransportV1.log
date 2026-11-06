@@ -1,0 +1,5 @@
+'QuantitativeEulerEndpointPrepared.branchTransport_wide_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.compactAction_mul_symbol_wide_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.compact_right_wide_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

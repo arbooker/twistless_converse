@@ -1,0 +1,5 @@
+'AsymptoticClassicalCusp.prime_eigen_first_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.prime_eigen_recurrence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.prime_eigenvalue' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.prime_eigen_multiplicative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.prime_eigen_prime_power' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,3 @@
+'QuantitativeArithmeticCurvedTaylor.continued_models' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticCurvedTaylor.continued_sum_extension' depends on axioms: [propext, Classical.choice, Quot.sound]
+

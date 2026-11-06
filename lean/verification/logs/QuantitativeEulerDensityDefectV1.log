@@ -1,0 +1,4 @@
+'QuantitativeEulerDensityGenerators.rightTranslate_periodic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerDensityGenerators.Prepared.original_defect' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerDensityGenerators.Prepared.prime_defect' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerDensityGenerators.generator_defect' depends on axioms: [propext, Classical.choice, Quot.sound]

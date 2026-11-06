@@ -1,0 +1,5 @@
+'AsymptoticLocalCongruence.lower_integral_mem_outside' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticLocalCongruence.gamma_lower_le_projectiveOutside' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticLocalCongruence.dilationConjugateSL_label' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticLocalCongruence.dilationConjugateSL_mem_outside' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticLocalCongruence.degeneracy_le_projectiveOutside' depends on axioms: [propext, Classical.choice, Quot.sound]

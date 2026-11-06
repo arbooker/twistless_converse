@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointPrepared.localOriginalEnergy_le_primeOld' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.wide_primeOld_rows_original_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,5 @@
+'QuantitativeArithmeticExponentialDominance.sum_pow_lt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticExponentialDominance.signed_sum_nonzero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

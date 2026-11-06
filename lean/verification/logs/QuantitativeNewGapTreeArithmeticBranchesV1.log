@@ -1,0 +1,3 @@
+'QuantitativeNewGap.dilation_trace_label' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeNewGap.trace_upper_coset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeNewGap.old_cross_gram_hecke' depends on axioms: [propext, Classical.choice, Quot.sound]

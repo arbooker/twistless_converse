@@ -1,0 +1,5 @@
+'QuantitativeSpectralCutRow.removed_coercive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralCutRow.removed_gram_retained' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralCutRow.cutNormalizer_contracts' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralCutRow.cutNormalizer_diagonal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralCutRow.cutNormalizer_retained' depends on axioms: [propext, Classical.choice, Quot.sound]

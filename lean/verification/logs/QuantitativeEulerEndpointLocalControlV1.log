@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointPrepared.wide_local_control_of_energy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.wide_local_translated_control' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

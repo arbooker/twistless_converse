@@ -1,0 +1,3 @@
+'AsymptoticClassicalLSeries.exponential_bound_on_Ici' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalLSeries.axis_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalLSeries.cusp_axis_exponential_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

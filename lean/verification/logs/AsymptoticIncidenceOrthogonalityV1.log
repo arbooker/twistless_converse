@@ -1,0 +1,2 @@
+'AsymptoticQuotientIncidence.inner_eq_zero_of_ne' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticQuotientIncidence.space_le_orthogonal' depends on axioms: [propext, Classical.choice, Quot.sound]

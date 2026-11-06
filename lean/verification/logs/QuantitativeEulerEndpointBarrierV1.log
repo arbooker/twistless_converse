@@ -1,0 +1,5 @@
+'QuantitativeEulerEndpointBarrier.envelope_floor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointBarrier.endpoint_requires_quadratic_budget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointBarrier.linear_budget_obstruction' depends on axioms: [propext, Classical.choice, Quot.sound]

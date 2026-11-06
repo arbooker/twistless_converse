@@ -1,0 +1,6 @@
+'FinitenessAllLevelCoefficientFunctional.coefficient_representative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FinitenessAllLevelCoefficientFunctional.normalized_representative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

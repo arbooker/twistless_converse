@@ -1,0 +1,2 @@
+'CobhamPeriodTransfer.period_up' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CobhamPeriodTransfer.period_down' depends on axioms: [propext, Classical.choice, Quot.sound]

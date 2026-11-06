@@ -1,0 +1,4 @@
+'AsymptoticRegularTrace.energy_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.trace_adjoint_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.rational_trace_adjoint_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.trace_gram_faithful' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,7 @@
+'AsymptoticLocalCongruence.projectiveOutside_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticLocalCongruence.projectiveOutside_empty' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticLocalCongruence.gamma_le_projectiveOutside' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticLocalCongruence.projectiveOutside_inf' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticLocalCongruence.projectiveOutside_disjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticLocalCongruence.projectiveOutside_sup_le_union' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticLocalCongruence.single_prime_meet_generated_le' depends on axioms: [propext, Classical.choice, Quot.sound]

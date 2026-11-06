@@ -1,0 +1,2 @@
+'QuantitativeEulerEndpointPrepared.baseline_survivor_le_band' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.baseline_survivor_energy' depends on axioms: [propext, Classical.choice, Quot.sound]

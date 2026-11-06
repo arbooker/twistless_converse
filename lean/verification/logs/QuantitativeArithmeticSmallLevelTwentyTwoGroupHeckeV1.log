@@ -1,0 +1,5 @@
+'QuantitativeArithmeticSmallLevelTwentyTwo.M_slash' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyTwo.original_ramified_slash' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

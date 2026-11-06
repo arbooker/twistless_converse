@@ -1,0 +1,6 @@
+'QuantitativeHolomorphic.regularSum_countObservationFilterExpression' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.countObservationFilterExpression_regular_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

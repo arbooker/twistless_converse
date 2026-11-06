@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointRegularBase.action_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointRegularBase.action_preserving' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointRegularBase.region_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointRegularBase.packetRows_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointRegularBase.packetRows_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointRegularBase.trace_eq' depends on axioms: [propext, Classical.choice, Quot.sound]

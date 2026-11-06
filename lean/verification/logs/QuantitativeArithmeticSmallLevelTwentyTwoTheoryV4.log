@@ -1,0 +1,12 @@
+'QuantitativeArithmeticSmallLevelTwentyTwo.kernel_relation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyTwo.edgeSRow_checked' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyTwo.edgeTRow_checked' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyTwo.original_grid_word_taylor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyTwo.gridSourceRaw_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyTwo.gridSource_coordinates' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyTwo.gridSource_sign' depends on axioms: [propext, Classical.choice, Quot.sound]
+

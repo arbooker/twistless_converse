@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointCornerAmbient.restricted_power' depends on axioms: [propext]
+'QuantitativeEulerEndpointCornerAmbient.corner_update_eq' depends on axioms: [propext]
+'QuantitativeEulerEndpointCornerAmbient.polynomial_right_support' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointCornerAmbient.corner_sharpened_eq' depends on axioms: [propext, Classical.choice, Quot.sound]

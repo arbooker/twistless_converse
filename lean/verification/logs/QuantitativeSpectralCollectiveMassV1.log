@@ -1,0 +1,4 @@
+'QuantitativeSpectralCollectiveMass.small_mass_of_trace_log_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralCollectiveMass.collective_small_mass' depends on axioms: [propext, Classical.choice, Quot.sound]

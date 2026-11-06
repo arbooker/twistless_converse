@@ -1,0 +1,3 @@
+'SpanningPrimitiveComplete.complete_of_primitive_at' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpanningPrimitiveComplete.complete_kernel_of_primitive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpanningPrimitiveComplete.kernel_equivalence' depends on axioms: [propext, Classical.choice, Quot.sound]

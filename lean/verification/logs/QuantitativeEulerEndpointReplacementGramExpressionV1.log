@@ -1,0 +1,9 @@
+'QuantitativeEulerEndpointPrepared.regular_combinedGramExpression' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.holomorphic_combinedGramExpression' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.exists_replacement_gram_rows' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

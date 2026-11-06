@@ -1,0 +1,7 @@
+'QuantitativeEulerEndpointControlledPacket.primeProduct_le_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointControlledPacket.next_supported' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointControlledPacket.exists_packet_update' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

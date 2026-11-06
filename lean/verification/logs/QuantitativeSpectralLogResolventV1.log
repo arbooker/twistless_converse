@@ -1,0 +1,13 @@
+'QuantitativeSpectralLogResolvent.affine_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralLogResolvent.scalar_log_resolvent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralLogResolvent.scalar_inverse_resolvent_sq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralLogResolvent.operator_log_resolvent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralLogResolvent.resolvent_integrand_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralLogResolvent.operator_log_eq_integral_inverse' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralLogResolvent.operator_inverse_eq_integral_resolvent_sq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

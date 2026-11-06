@@ -1,0 +1,7 @@
+'FinitenessAllLevelCoefficientRing.polynomial_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelCoefficientRing.representative_agrees' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelCoefficientRing.representative_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelCoefficientRing.evaluation_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelCoefficientRing.exists_injective_evaluation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

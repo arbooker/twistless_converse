@@ -1,0 +1,9 @@
+'QuantitativeArithmeticSmallLevelEisenstein.finiteCuspBoundary' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelEisenstein.finiteCuspBoundary_recovers' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelEisenstein.finiteCuspBoundary_ker' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

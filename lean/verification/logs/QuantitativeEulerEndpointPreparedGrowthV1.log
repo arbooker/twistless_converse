@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointPrepared.wide_geometry_transport_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.prepared_geometry_log_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

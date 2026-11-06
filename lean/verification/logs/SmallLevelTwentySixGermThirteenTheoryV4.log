@@ -1,0 +1,10 @@
+'SmallLevelTwentySixGermThirteen.rows_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermThirteen.rows_primitive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermThirteen.eval_replay_top' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermThirteen.first_coordinate_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermThirteen.pole_first_chart' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermThirteen.original_full_chart' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermThirteen.rows_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermThirteen.original_rows_germs' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermThirteen.original_top_chart' depends on axioms: [propext, Classical.choice, Quot.sound]
+

@@ -1,0 +1,4 @@
+'FinitenessAllLevelAnalyticIntegral.differentiableAt_integral_local' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

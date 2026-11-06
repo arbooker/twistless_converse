@@ -1,0 +1,5 @@
+'QuantitativeArithmeticSmallLevelTwentyTwo.original_tenth_fricke' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyTwo.tenth_fourier' depends on axioms: [propext, Classical.choice, Quot.sound]
+

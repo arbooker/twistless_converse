@@ -1,0 +1,15 @@
+'QuantitativeArithmeticRetainedIteration.sectorLeadingCoefficient_nonneg' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedIteration.exists_actual_sector_scale' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedIteration.actual_sector_endpoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedIteration.sum_sectorLeadingCoefficient_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedIteration.actual_total_sector_endpoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

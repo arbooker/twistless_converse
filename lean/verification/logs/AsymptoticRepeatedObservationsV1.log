@@ -1,0 +1,5 @@
+'AsymptoticObservation.operator_eq_of_gram' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticObservation.nat_scaled_gram' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticObservationStack.repeated_stack_gram' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticObservationStack.repeated_square_gram' depends on axioms: [propext, Classical.choice, Quot.sound]
+

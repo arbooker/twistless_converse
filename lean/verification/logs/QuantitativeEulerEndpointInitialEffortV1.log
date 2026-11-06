@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointInitialPower.powerPolynomial_degree' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointInitialPower.powerPolynomial_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointInitialWeighted.effort_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointInitialWeighted.effort_degree' depends on axioms: [propext, Classical.choice, Quot.sound]

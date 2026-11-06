@@ -1,0 +1,12 @@
+'QuantitativeEulerEndpointPrepared.polynomial_normalization_supported' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.scaled_reconstruction_ambient_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.normalized_reconstruction_supported' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.reconstructed_source_supported' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,4 @@
+'QuantitativeArithmeticSmallLevelThirtyFiveKnownWords.all_roots_one_of_negative_bad_signs' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

@@ -1,0 +1,15 @@
+SmallLevelOriginal.SmallLevelsTheorem : Prop
+SmallLevelOriginal.levels_one_to_nine {N k : ℕ} (hN : 0 < N) (hbound : N ≤ 9) (heven : Even k) {f : ℕ → ℂ}
+  (hf : FinitenessOriginalInput.IsSolution N k f) : SmallLevelOriginal.IsModular N k f
+SmallLevelOriginal.level_twelve {k : ℕ} (heven : Even k) {f : ℕ → ℂ} (hf : FinitenessOriginalInput.IsSolution 12 k f) :
+  SmallLevelOriginal.IsModular 12 k f
+SmallLevelOriginal.level_sixteen {k : ℕ} (heven : Even k) {f : ℕ → ℂ} (hf : FinitenessOriginalInput.IsSolution 16 k f) :
+  SmallLevelOriginal.IsModular 16 k f
+SmallLevelThirtySix.level_thirty_six {k : ℕ} (hk : 0 < k) (heven : Even k) {f : ℕ → ℂ}
+  (hf : FinitenessOriginalInput.IsSolution 36 k f) : SmallLevelOriginal.IsModular 36 k f
+'SmallLevelGenerators.lower_eigen_of_fricke' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelGenerators.three_signed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelGenerators.four_signed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelOriginal.level_twelve' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelOriginal.level_sixteen' depends on axioms: [propext, Classical.choice, Quot.sound]
+

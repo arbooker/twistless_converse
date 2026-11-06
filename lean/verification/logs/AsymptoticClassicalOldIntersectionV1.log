@@ -1,0 +1,5 @@
+'AsymptoticClassicalCusp.mem_restrict_range_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.mem_restrict_intersection_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.restrict_intersection_eq_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.restrict_intersection_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.mem_primeOldIntersection_iff' depends on axioms: [propext, Classical.choice, Quot.sound]

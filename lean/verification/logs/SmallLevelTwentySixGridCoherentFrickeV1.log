@@ -1,0 +1,4 @@
+'SmallLevelTwentySixGrid.original_grid_fricke_laws' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGrid.grid_fricke_of_laws' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGrid.grid_ramanujan_taylor_of_laws' depends on axioms: [propext, Classical.choice, Quot.sound]
+

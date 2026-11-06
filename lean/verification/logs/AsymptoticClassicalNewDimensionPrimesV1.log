@@ -1,0 +1,3 @@
+'AsymptoticClassicalDimension.SimplePrimesAt.tail' depends on axioms: [propext]
+'AsymptoticClassicalDimension.SimplePrimesAt.tail_div' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalDimension.base_dvd_div' depends on axioms: [propext, Quot.sound]

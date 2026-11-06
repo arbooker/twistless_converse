@@ -1,0 +1,8 @@
+'AsymptoticPartitionSupport.supported_absolute' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticPartitionSupport.supported_penaltyRoot' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticPartitionSupport.supported_resolvent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticPartitionSupport.supported_polar' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticPartitionSupport.supported_kernelComplement' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticPartitionSupport.supported_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticPartitionSupport.supported_outputProjection' depends on axioms: [propext, Classical.choice, Quot.sound]
+

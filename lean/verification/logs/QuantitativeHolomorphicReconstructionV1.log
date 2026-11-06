@@ -1,0 +1,31 @@
+'QuantitativeHolomorphic.physical_low_certificate_truncation_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.physical_terminal_certificate_truncation_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.regular_low_certificate_truncation_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.regular_terminal_certificate_truncation_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.physical_neumann_fold_truncation_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.regular_neumann_fold_truncation_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.physical_reconstruction_explicit_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.regular_reconstruction_explicit_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.expressionBound_neumann' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.expressionBound_inversePolynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.expressionBound_fullExpression' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.expressionBound_cutFullExpression' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.finiteAmbientExpression_quantitative_trace_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

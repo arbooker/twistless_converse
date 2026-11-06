@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointAP.badPrimeLoss_finite_intersection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointAP.simultaneous_shifted_classes_exception_summable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

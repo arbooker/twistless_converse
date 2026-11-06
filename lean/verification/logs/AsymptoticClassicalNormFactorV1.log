@@ -1,0 +1,1 @@
+'AsymptoticClassicalNorm.norm_eq_mul_remainder' depends on axioms: [propext, Classical.choice, Quot.sound]

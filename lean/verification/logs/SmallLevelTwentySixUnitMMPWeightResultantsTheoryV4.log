@@ -1,0 +1,11 @@
+'SmallLevelTwentySixUnitMMP.WeightResultants.necessary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixUnitMMP.WeightResultants.source_kernel_resultants' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixUnitMMP.WeightResultants.source_kernel_weight_two_plus' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixUnitMMP.WeightResultants.source_kernel_weight_two_minus' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

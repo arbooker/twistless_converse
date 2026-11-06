@@ -1,0 +1,4 @@
+'QuantitativeSpectralExceptionalGeometry.branch_numerator_positive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralExceptionalGeometry.branch_affine_chart' depends on axioms: [propext, Classical.choice, Quot.sound]

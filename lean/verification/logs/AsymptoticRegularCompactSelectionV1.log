@@ -1,0 +1,3 @@
+'AsymptoticRegularCompactBranch.operator_selected' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularCompactBranch.operator_data_independent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularCompactBranch.operator_left_corner' depends on axioms: [propext, Classical.choice, Quot.sound]

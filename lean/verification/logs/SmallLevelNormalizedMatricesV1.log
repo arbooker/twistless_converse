@@ -1,0 +1,3 @@
+'SmallLevelNormalized.det_one_slash' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelNormalized.translation_point' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelNormalized.fricke_point' depends on axioms: [propext, Classical.choice, Quot.sound]

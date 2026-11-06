@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointPrepared.full_gamma0_generator_stack_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerDensityGenerators.observedGenerators_closure' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

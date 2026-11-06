@@ -1,0 +1,6 @@
+'QuantitativeHolomorphic.quantifiedCountFilterExpression_total_complexity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.sector_finrank_le_regular_source_trace_quantified' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

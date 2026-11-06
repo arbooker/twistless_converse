@@ -1,0 +1,7 @@
+'AsymptoticObservation.amplified_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticObservation.amplified_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticObservation.amplified_adjoint_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticObservation.amplified_adjoint_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticObservation.reconstruction_range_closed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticObservation.amplified_fixes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticObservation.amplified_zero_of_orthogonal' depends on axioms: [propext, Classical.choice, Quot.sound]

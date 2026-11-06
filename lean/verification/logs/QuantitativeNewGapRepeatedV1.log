@@ -1,0 +1,2 @@
+'QuantitativeNewGap.repeatedBase_index' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeNewGap.repeated_old_block_gap' depends on axioms: [propext, Classical.choice, Quot.sound]

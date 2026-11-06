@@ -1,0 +1,4 @@
+'QuantitativeHolomorphic.cutFiniteCountReconstruction_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.cut_normalizedCountReconstruction_closed_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

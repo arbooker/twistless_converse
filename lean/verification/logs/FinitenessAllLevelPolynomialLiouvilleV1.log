@@ -1,0 +1,6 @@
+'FinitenessAllLevelPolynomialPresentation.iteratedDeriv_zero_of_polynomial_growth' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FinitenessAllLevelPolynomialPresentation.polynomial_of_entire_growth' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

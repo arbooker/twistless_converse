@@ -1,0 +1,2 @@
+'QuantitativeEulerEndpointTraceMass.wide_trace_geometry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointTraceMass.wide_trace_at_scale' depends on axioms: [propext, Classical.choice, Quot.sound]

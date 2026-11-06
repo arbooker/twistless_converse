@@ -1,0 +1,11 @@
+'QuantitativeArithmeticRetainedSignPatterns.norm_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedSignPatterns.restriction_on' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedSignPatterns.restriction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedSignPatterns.cover_of_complete' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedSignPatterns.count_of_complete' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedSignPatterns.cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedSignPatterns.count' depends on axioms: [propext, Classical.choice, Quot.sound]

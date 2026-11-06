@@ -1,0 +1,4 @@
+'AsymptoticQuotientOperators.word_supported' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticQuotientOperators.word_equivariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticQuotientOperators.gram_diagonal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticQuotientOperators.word_norm_sq' depends on axioms: [propext, Classical.choice, Quot.sound]

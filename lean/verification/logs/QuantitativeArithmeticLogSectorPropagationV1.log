@@ -1,0 +1,3 @@
+'QuantitativeArithmeticLogSector.compact_angle_decay' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticLogSector.flat_sector' depends on axioms: [propext, Classical.choice, Quot.sound]
+

@@ -1,0 +1,7 @@
+'AsymptoticCongruenceLabels.gamma0_mem_dvd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceLabels.lowerSL_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceLabels.lowerSL_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceLabels.lowerSL_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceLabels.lowerSL_inv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceLabels.lowerSL_inv_mul_bottom' depends on axioms: [propext, Classical.choice, Quot.sound]
+

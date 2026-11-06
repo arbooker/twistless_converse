@@ -1,0 +1,5 @@
+'AsymptoticCongruenceStrip.gamma_le_frickeOldGroup' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceStrip.frickeOldGroup_index' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceStrip.repeated_frickeOldGroup_index' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceStrip.coprime_frickeOldGroup_index' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceOldSpace.frickeSpace_trace' depends on axioms: [propext, Classical.choice, Quot.sound]

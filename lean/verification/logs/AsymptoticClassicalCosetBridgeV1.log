@@ -1,0 +1,6 @@
+'AsymptoticClassicalCosets.imageEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCosets.imageEquiv_mk' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCosets.projectiveEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCosets.matrixEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCosets.traceEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCosets.traceEquiv_mk' depends on axioms: [propext, Classical.choice, Quot.sound]

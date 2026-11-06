@@ -1,0 +1,4 @@
+'FinitenessAllLevelMellinDirichlet.axis_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelMellinDirichlet.axis_mellin' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelMellinDirichlet.polynomial_growth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelMellinDirichlet.summable_norm_div' depends on axioms: [propext, Classical.choice, Quot.sound]

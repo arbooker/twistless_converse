@@ -1,0 +1,2 @@
+'QuantitativeHolomorphic.matrix_entry_bound_word' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.strip_matrix_denominator_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

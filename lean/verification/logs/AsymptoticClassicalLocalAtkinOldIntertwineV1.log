@@ -1,0 +1,6 @@
+'AsymptoticClassicalCusp.localAtkinReal_trace_dilation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.localAtkin_restrict' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.localAtkin_degeneracy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.localAtkin_slash_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.localAtkin_slash_degeneracy_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.mem_frickeOld_range_iff' depends on axioms: [propext, Classical.choice, Quot.sound]

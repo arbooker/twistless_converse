@@ -1,0 +1,3 @@
+'QuantitativeEulerOldProjectionHolomorphic.realization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerOldProjectionHolomorphic.space_closed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerOldProjectionHolomorphic.trace_realization' depends on axioms: [propext, Classical.choice, Quot.sound]

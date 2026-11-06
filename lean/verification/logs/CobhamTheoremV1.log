@@ -1,0 +1,2 @@
+'CobhamTheorem.cobham' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CobhamTheorem.cobhamInput' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,3 @@
+'AsymptoticCylinder.normalized_affine_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCylinder.upperCompression_normalized_eventually' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCylinder.upperCompression_normalized_small' depends on axioms: [propext, Classical.choice, Quot.sound]

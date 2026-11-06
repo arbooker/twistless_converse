@@ -1,0 +1,204 @@
+'QuantitativeArithmeticPrimeSmallTwist.character_partner_weight' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.individual_of_paired_character_sums' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.additive_laws_of_character_FE' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.closure_eq_twoCosetSubgroup' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.mem_closure_iff_two_cosets' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.normalized_fricke_intertwine' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.normalized_fricke_normalizes' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.mem_frickeExtension_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.exists_small_denominator_circle' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.prime_circle_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.exists_small_denominator_residual' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.prime_exterior_height' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.exists_max_of_finite_superlevel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.prime_orbit_max_height' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.frickeExtension_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.frickeExtension_lower_rows' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.frickeExtension_lower_left_gap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.finite_lattice_rows' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.lower_row_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.frickeExtension_finite_height_superlevel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.frickeExtension_stabilizer_mem' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.height_imaginary_axis_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.eq_of_prime_circles' depends on axioms: [propext, Classical.choice, Quot.sound]
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+'QuantitativeArithmeticPrimeSmallTwist.additive_fricke_matrix_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.prime_circle_integer_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.prime_small_denominator_generation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.fricke_not_mem_realGamma0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.invariant_of_small_branches' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.normalized_branch_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.branch_invariance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.slash_translation_intCast_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.slash_residueTranslation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.unit_partner_of_branch' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.branch_invariance_of_residue_laws' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.untwisted_of_small_twists' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.gamma0_invariance_of_small_twists' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.primitive_gauss_product' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.primitive_gauss_ne_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.characterTwisted_primitive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.completeWeighted_primitive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.completeWeighted_divisors' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.primitiveWeighted_moebius' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.characterTwisted_changeLevel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.primitiveWeighted_induced_formula' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.characterTwisted_induced_formula' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.completed_primitive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.primitive_root_conversion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.primitive_continuations' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.good_power_shift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.twisted_good_power_shift' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.LSeries_insert' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.shifted_prime_power_series' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.shifted_series_product' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.induced_series_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.completedInducedMultiplier_entire' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.completedInducedMultiplier_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.induced_completed_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.completedInducedMultiplier_factorization' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.inducedMultiplier_local' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.localInducedPolynomial_reciprocal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.induced_entire_continuation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.completedInducedMultiplier_reciprocal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.induced_pair_functional_equation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.CharacterContinuation.unique' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.induced_pair_continuations' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.all_character_continuations' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.prime_cusp_factorization' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.prime_all_cusp_vanishing' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.smallTwistCuspForm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.smallTwistCuspForm_coe' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.small_prime_window' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.small_conductor_converse' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.primitive_to_all_small_twists' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.primitive_small_conductor_converse' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

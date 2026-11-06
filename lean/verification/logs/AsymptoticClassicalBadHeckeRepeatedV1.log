@@ -1,0 +1,4 @@
+'AsymptoticClassicalCusp.trace_target_congr' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.upperTrace_repeated_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.upperTrace_repeated_zero_of_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.upperTrace_repeated_new_zero' depends on axioms: [propext, Classical.choice, Quot.sound]

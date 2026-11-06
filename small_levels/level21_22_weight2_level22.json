@@ -1,0 +1,18 @@
+{
+  "theorem": "All original Q66 additive twists are entire at N22, including the sole exceptional weight2 case",
+  "rank": 330,
+  "finite_field": 1000003,
+  "parameters": {
+    "eta": -1,
+    "sigma2": -1,
+    "sigma11": 1,
+    "lambda3": "-7/3",
+    "lambda5": "-19/5"
+  },
+  "sha256": {
+    "level21_22_weight2_level22.py": "428d6041f9f265c6e997a6b4d41f6b62d82d8e9e51ab41aa843fc7dede646844",
+    "level21_22_weight2_chi5_22.py": "4c2723e58c51098dde86f1fe3a71ff64c3c969f2addc7d1273c95656eca0983f",
+    "level21_22_extra_prime5.py": "449802d8e98a34787aa8c61804fd32ca91737769dd9969987a0a416aae982846",
+    "level22_uniform_continuation.py": "370231bc5e1911417acd907eb168bf7a3dd2cb3a5c15dff956ee185cba5a2a1e"
+  }
+}

@@ -1,0 +1,7 @@
+'AsymptoticFiniteBranch.observation_translation_matrix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.observation_reflected_matrix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.observation_ramified_matrix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.observation_identity_matrix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.compactFamilyHolomorphic_twist' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.compactFamilyHolomorphic_ramified' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.cylinder_rowExpression' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,4 @@
+'QuantitativeEulerEndpointHorizon.remove_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointHorizon.eventual_endpoint_of_horizon_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

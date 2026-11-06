@@ -1,0 +1,4 @@
+'QuantitativeHolomorphic.finiteRowFilter_sourceProduct_difference' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.regularRetained_trace_le_full' depends on axioms: [propext, Classical.choice, Quot.sound]

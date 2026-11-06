@@ -1,0 +1,24 @@
+'QuantitativeArithmeticRetainedDilationOperator.terminal_norm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedDilationOperator.terminal_coeFn' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedDilationOperator.folded_value' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedDilationOperator.folded_coeFn' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedDilationOperator.normalized_amplitude' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedDilationOperator.weighted_norm_le_rho' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedDilationOperator.selected_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedDilationOperator.height_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedDilationOperator.normalized_branch' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedDilationOperator.term_coeFn' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedDilationOperator.weighted_norm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedDilationOperator.contraction' depends on axioms: [propext, Classical.choice, Quot.sound]

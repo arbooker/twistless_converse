@@ -1,0 +1,4 @@
+'AsymptoticRegularBranchFamily.compact_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularBranchFamily.family_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularBranchFamily.family_covariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularBranchFamily.family_matrix_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]

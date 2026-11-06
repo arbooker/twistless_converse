@@ -1,0 +1,7 @@
+'QuantitativeArithmeticSmallLevelThirtyThreePlusElimination.all_pivot_certificates' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyThreePlusElimination.pivot_rows_of_sources' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

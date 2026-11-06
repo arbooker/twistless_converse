@@ -1,0 +1,5 @@
+'QuantitativeEulerEndpointSieve.powerset_moment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointSieve.powerset_truncated_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointSieve.truncated_squarefree_product_mass' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

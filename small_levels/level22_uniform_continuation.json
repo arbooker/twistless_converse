@@ -1,0 +1,135 @@
+{
+  "source_sha256": "370231bc5e1911417acd907eb168bf7a3dd2cb3a5c15dff956ee185cba5a2a1e",
+  "level": 22,
+  "grid": 66,
+  "cases": [
+    {
+      "eta": -1,
+      "bad2": -1,
+      "bad11": -1,
+      "zero3": false,
+      "passed": true,
+      "result": "RANK 66 UNIFORM_AUDIT_PASSED -1 -1 -1 False"
+    },
+    {
+      "eta": -1,
+      "bad2": -1,
+      "bad11": -1,
+      "zero3": true,
+      "passed": true,
+      "result": "RANK 66 UNIFORM_AUDIT_PASSED -1 -1 -1 True"
+    },
+    {
+      "eta": -1,
+      "bad2": -1,
+      "bad11": 1,
+      "zero3": false,
+      "passed": true,
+      "result": "RANK 66 UNIFORM_AUDIT_PASSED -1 -1 1 False"
+    },
+    {
+      "eta": -1,
+      "bad2": -1,
+      "bad11": 1,
+      "zero3": true,
+      "passed": true,
+      "result": "RANK 66 UNIFORM_AUDIT_PASSED -1 -1 1 True"
+    },
+    {
+      "eta": -1,
+      "bad2": 1,
+      "bad11": -1,
+      "zero3": false,
+      "passed": true,
+      "result": "RANK 66 UNIFORM_AUDIT_PASSED -1 1 -1 False"
+    },
+    {
+      "eta": -1,
+      "bad2": 1,
+      "bad11": -1,
+      "zero3": true,
+      "passed": true,
+      "result": "RANK 66 UNIFORM_AUDIT_PASSED -1 1 -1 True"
+    },
+    {
+      "eta": -1,
+      "bad2": 1,
+      "bad11": 1,
+      "zero3": false,
+      "passed": true,
+      "result": "RANK 66 UNIFORM_AUDIT_PASSED -1 1 1 False"
+    },
+    {
+      "eta": -1,
+      "bad2": 1,
+      "bad11": 1,
+      "zero3": true,
+      "passed": true,
+      "result": "RANK 66 UNIFORM_AUDIT_PASSED -1 1 1 True"
+    },
+    {
+      "eta": 1,
+      "bad2": -1,
+      "bad11": -1,
+      "zero3": false,
+      "passed": true,
+      "result": "RANK 66 UNIFORM_AUDIT_PASSED 1 -1 -1 False"
+    },
+    {
+      "eta": 1,
+      "bad2": -1,
+      "bad11": -1,
+      "zero3": true,
+      "passed": true,
+      "result": "RANK 66 UNIFORM_AUDIT_PASSED 1 -1 -1 True"
+    },
+    {
+      "eta": 1,
+      "bad2": -1,
+      "bad11": 1,
+      "zero3": false,
+      "passed": true,
+      "result": "RANK 66 UNIFORM_AUDIT_PASSED 1 -1 1 False"
+    },
+    {
+      "eta": 1,
+      "bad2": -1,
+      "bad11": 1,
+      "zero3": true,
+      "passed": true,
+      "result": "RANK 66 UNIFORM_AUDIT_PASSED 1 -1 1 True"
+    },
+    {
+      "eta": 1,
+      "bad2": 1,
+      "bad11": -1,
+      "zero3": false,
+      "passed": true,
+      "result": "RANK 66 UNIFORM_AUDIT_PASSED 1 1 -1 False"
+    },
+    {
+      "eta": 1,
+      "bad2": 1,
+      "bad11": -1,
+      "zero3": true,
+      "passed": true,
+      "result": "RANK 66 UNIFORM_AUDIT_PASSED 1 1 -1 True"
+    },
+    {
+      "eta": 1,
+      "bad2": 1,
+      "bad11": 1,
+      "zero3": false,
+      "passed": true,
+      "result": "RANK 66 UNIFORM_AUDIT_PASSED 1 1 1 False"
+    },
+    {
+      "eta": 1,
+      "bad2": 1,
+      "bad11": 1,
+      "zero3": true,
+      "passed": true,
+      "result": "RANK 66 UNIFORM_AUDIT_PASSED 1 1 1 True"
+    }
+  ]
+}

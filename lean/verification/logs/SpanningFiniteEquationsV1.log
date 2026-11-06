@@ -1,0 +1,6 @@
+'SpanningFiniteEquations.integer_system_mod_large_primes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpanningFiniteEquations.integer_system_finite_field_rational' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpanningFiniteEquations.span_top_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpanningFiniteEquations.finite_equations' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,2 @@
+'AsymptoticLocalCongruence.integral_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticLocalCongruence.integral_mem_outside' depends on axioms: [propext, Classical.choice, Quot.sound]

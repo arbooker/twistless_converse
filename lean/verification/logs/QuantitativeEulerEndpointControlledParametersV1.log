@@ -1,0 +1,12 @@
+'QuantitativeEulerEndpointControlledParameters.scheduled_scalars' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointControlledParameters.scheduled_relative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointControlledParameters.incoming_sharpness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointControlledParameters.scheduled_additive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

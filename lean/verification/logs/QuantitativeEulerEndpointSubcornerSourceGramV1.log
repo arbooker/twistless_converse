@@ -1,0 +1,10 @@
+'QuantitativeEulerEndpointSubcornerSourceGram.gramElement' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointSubcornerSourceGram.representation_gramElement' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointSubcornerSourceGram.gramElement_nonneg' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointSubcornerSourceGram.gramElement_norm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

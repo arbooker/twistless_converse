@@ -1,0 +1,5 @@
+'AsymptoticAtkinLehner.bezout_relation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticAtkinLehner.complement_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticAtkinLehner.comparison_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticAtkinLehner.comparison_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticAtkinLehner.label_eq_comparison_complement' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,10 @@
+'AsymptoticCompactTranslation.label_action' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCompactTranslation.label_im' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCompactTranslation.cap_translate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCompactTranslation.product_action' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCompactTranslation.product_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCompactTranslation.fold_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCompactTranslation.coefficient_translate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCompactTranslation.operator_translate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCompactTranslation.preimage_compact' depends on axioms: [propext, Classical.choice, Quot.sound]
+

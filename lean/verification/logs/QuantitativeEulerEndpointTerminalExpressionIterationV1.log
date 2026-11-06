@@ -1,0 +1,5 @@
+'QuantitativeEulerEndpointTerminalExpression.regular_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointTerminalExpression.physical_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointTerminalExpression.regular_ambient_step' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

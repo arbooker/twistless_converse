@@ -1,0 +1,5 @@
+'QuantitativeHolomorphic.finiteFilter_upperCut_explicit_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.finiteNormalizedCount_left_height' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.finiteFilter_upperCut_trace_error' depends on axioms: [propext, Classical.choice, Quot.sound]

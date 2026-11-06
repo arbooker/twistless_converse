@@ -1,0 +1,5 @@
+'AsymptoticCongruenceLabels.gamma0_finitely_generated' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceLabels.exists_generators' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceLabels.triangular_label' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceLabels.gamma0_invariance_of_generators' depends on axioms: [propext, Classical.choice, Quot.sound]
+

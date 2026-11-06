@@ -1,0 +1,22 @@
+SmallLevelOriginal.SmallLevelsTheorem : Prop
+SmallLevelOriginal.levels_one_to_nine {N k : ℕ} (hN : 0 < N) (hbound : N ≤ 9) (heven : Even k) {f : ℕ → ℂ}
+  (hf : FinitenessOriginalInput.IsSolution N k f) : SmallLevelOriginal.IsModular N k f
+SmallLevelOriginal.level_five {k : ℕ} (heven : Even k) {f : ℕ → ℂ} (hf : FinitenessOriginalInput.IsSolution 5 k f) :
+  SmallLevelOriginal.IsModular 5 k f
+SmallLevelOriginal.level_six {k : ℕ} (heven : Even k) {f : ℕ → ℂ} (hf : FinitenessOriginalInput.IsSolution 6 k f) :
+  SmallLevelOriginal.IsModular 6 k f
+SmallLevelOriginal.level_seven {k : ℕ} (heven : Even k) {f : ℕ → ℂ} (hf : FinitenessOriginalInput.IsSolution 7 k f) :
+  SmallLevelOriginal.IsModular 7 k f
+SmallLevelOriginal.level_eight {k : ℕ} (heven : Even k) {f : ℕ → ℂ} (hf : FinitenessOriginalInput.IsSolution 8 k f) :
+  SmallLevelOriginal.IsModular 8 k f
+SmallLevelOriginal.level_nine {k : ℕ} (heven : Even k) {f : ℕ → ℂ} (hf : FinitenessOriginalInput.IsSolution 9 k f) :
+  SmallLevelOriginal.IsModular 9 k f
+'SmallLevelGenerators.original_odd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelGenerators.original_halfConjugate_of_lcm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelOriginal.level_five' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelOriginal.level_six' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelOriginal.level_seven' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelOriginal.level_eight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelOriginal.level_nine' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelOriginal.levels_one_to_nine' depends on axioms: [propext, Classical.choice, Quot.sound]
+

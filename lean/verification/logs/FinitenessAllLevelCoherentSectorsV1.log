@@ -1,0 +1,9 @@
+'FinitenessAllLevelOriginalPencil.fixedPoint_of_original_laws' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FinitenessAllLevelOriginalPencil.constraints_of_original_laws' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FinitenessAllLevelOriginalPencil.original_finite_constrained_pencil' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

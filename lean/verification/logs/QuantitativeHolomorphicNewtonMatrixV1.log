@@ -1,0 +1,5 @@
+'QuantitativeHolomorphic.expressionMatrixBound_inverseSqrt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.expressionMatrixBound_normalized' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.countObservationFilterExpression_matrix_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

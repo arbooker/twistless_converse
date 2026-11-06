@@ -1,0 +1,4 @@
+'AsymptoticObservationStack.component_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticObservationStack.polarRow_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticObservationStack.polarRow_outputSpace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.stack_rank_le_sum' depends on axioms: [propext, Classical.choice, Quot.sound]

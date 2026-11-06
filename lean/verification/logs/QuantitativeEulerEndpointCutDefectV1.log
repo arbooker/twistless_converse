@@ -1,0 +1,2 @@
+'QuantitativeEulerEndpointCornerCut.half_cut_defect_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointCornerCut.half_cut_trace_error' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,13 @@
+'AsymptoticCylinderReconstruction.finiteExtension_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCylinderReconstruction.finiteExtension_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticReconstructedCount.finiteReconstruction_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticReconstructedCount.cutBaseReconstruction_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticReconstructedCount.finiteCutBaseReconstruction_norm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticReconstructedCount.finiteCutReconstruction_norm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticReconstructedCount.finiteCutBaseReconstruction_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

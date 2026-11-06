@@ -1,0 +1,4 @@
+'FinitenessAllLevelFiniteFiberAlgebra.fiberBaseChange' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelFiniteFiberAlgebra.finiteDimensional_descent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,3 @@
+'SmallLevelTwentySixGrid.rawWord_coordinates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGrid.primitive_word_coordinates' depends on axioms: [propext, Classical.choice, Quot.sound]
+

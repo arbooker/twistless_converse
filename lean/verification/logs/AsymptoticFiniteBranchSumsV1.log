@@ -1,0 +1,4 @@
+'AsymptoticFiniteBranch.holomorphicSum_ofFinset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.regularSum_ofFinset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.holomorphicSum_sumExpressions' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.regularSum_sumExpressions' depends on axioms: [propext, Classical.choice, Quot.sound]

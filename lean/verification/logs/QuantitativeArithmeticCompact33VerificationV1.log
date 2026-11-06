@@ -1,0 +1,3 @@
+'QuantitativeArithmeticCompact33.allRowsVerified_true' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticCompact33.compiled_eq_source' depends on axioms: [propext, Classical.choice, Quot.sound]
+

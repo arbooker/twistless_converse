@@ -1,0 +1,6 @@
+'QuantitativeSpectralExceptionalGeometry.finite_compact_fd_reduction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralExceptionalGeometry.finite_wide_box_fd_reduction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

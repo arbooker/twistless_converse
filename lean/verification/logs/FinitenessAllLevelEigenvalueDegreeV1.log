@@ -1,0 +1,3 @@
+'FinitenessAllLevelEigenvalueDegree.DegreeBound.param_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelEigenvalueDegree.sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+

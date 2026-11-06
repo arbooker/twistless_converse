@@ -1,0 +1,2 @@
+'QuantitativeSpectralFiniteReduction.finite_reduction_words' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralFiniteReduction.finite_reduction' depends on axioms: [propext, Classical.choice, Quot.sound]

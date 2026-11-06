@@ -1,0 +1,4 @@
+'QuantitativeEulerDensityGenerators.canonical_eq_observed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerDensityGenerators.PolynomialPrimeCertificate.canonical_eq_observed' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

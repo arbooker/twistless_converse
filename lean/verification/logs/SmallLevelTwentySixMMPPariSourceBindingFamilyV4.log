@@ -1,0 +1,3 @@
+'SmallLevelTwentySixMMPPariSourceBinding6.binding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixMMPPariSourceBinding7.binding' depends on axioms: [propext, Classical.choice, Quot.sound]
+

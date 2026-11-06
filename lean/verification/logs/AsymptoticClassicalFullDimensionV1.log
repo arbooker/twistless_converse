@@ -1,0 +1,2 @@
+'AsymptoticClassicalDimension.cusp_dimension_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalDimension.cusp_dimension_littleO' depends on axioms: [propext, Classical.choice, Quot.sound]

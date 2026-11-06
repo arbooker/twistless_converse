@@ -1,0 +1,3 @@
+'SpanningActualKernel.kernel_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpanningActualKernel.augmented_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpanningActualKernel.zero_at_multiples' depends on axioms: [propext, Classical.choice, Quot.sound]

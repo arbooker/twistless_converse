@@ -1,0 +1,6 @@
+'QuantitativeHolomorphic.Schedule.normalizedCountMatrixHeight_growth' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.Schedule.growing_normalized_matrix_height' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

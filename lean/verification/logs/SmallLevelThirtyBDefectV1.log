@@ -1,0 +1,4 @@
+'SmallLevelThirtyB.B_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtyB.defect_eigen' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtyB.actual_defect_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+

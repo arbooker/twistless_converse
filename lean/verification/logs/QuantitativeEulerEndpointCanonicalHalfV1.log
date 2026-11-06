@@ -1,0 +1,8 @@
+'QuantitativeEulerEndpointCanonicalHalf.projection_isStarProjection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointCanonicalHalf.projection_representation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointCanonicalHalf.space_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointCanonicalHalf.space_le_baseline' depends on axioms: [propext, Classical.choice, Quot.sound]

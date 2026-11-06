@@ -1,0 +1,5 @@
+'QuantitativeEulerEndpointMassTransfer.represented_trace_finite' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointMassTransfer.high_trace_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointMassTransfer.hard_to_soft_mass' depends on axioms: [propext, Classical.choice, Quot.sound]

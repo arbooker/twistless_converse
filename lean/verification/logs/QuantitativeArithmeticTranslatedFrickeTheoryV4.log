@@ -1,0 +1,9 @@
+'QuantitativeArithmeticTranslatedFricke.translated_slash' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticTranslatedFricke.formula_of_slash' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticTranslatedFricke.translated_mellin_entire' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticTranslatedFricke.translated_slash_eigen' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

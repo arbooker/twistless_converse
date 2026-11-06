@@ -1,0 +1,4 @@
+'QuantitativeHolomorphic.scalar_kernel_normalization_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.normalized_identity_branch_trace_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

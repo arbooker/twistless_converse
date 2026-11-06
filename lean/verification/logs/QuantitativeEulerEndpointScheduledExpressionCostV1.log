@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointNestedExpression.scheduled_cost_sum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointNestedExpression.scheduled_cost_geometric' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

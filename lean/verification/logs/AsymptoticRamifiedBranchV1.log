@@ -1,0 +1,3 @@
+'AsymptoticRamifiedBranch.branch_action' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRamifiedBranch.branch_phase' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRamifiedBranch.normalized_branch' depends on axioms: [propext, Classical.choice, Quot.sound]

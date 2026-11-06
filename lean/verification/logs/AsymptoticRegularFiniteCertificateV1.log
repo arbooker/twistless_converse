@@ -1,0 +1,14 @@
+'AsymptoticRegularCertificate.finiteLowPart_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularCertificate.finiteLow_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularCertificate.finiteLow_tendstoUniformly' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularCertificate.finiteTerminalPart_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularCertificate.finiteTerminal_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularCertificate.finiteTerminal_tendstoUniformly' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticRegularCertificate.finiteLow_covariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularCertificate.finiteLow_matrix_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularCertificate.finiteTerminal_covariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularCertificate.finiteTerminal_matrix_measurable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

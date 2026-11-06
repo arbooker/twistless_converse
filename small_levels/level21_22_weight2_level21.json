@@ -1,0 +1,12 @@
+{
+  "theorem": "N21 original Q42 twists are entire also in the exceptional k2 case; new Q126 twists then entire",
+  "new_elliptic_trace": "4/5",
+  "h1_finite_field": 1000003,
+  "h1_rank": 126,
+  "old_zero_uniform_rank": 126,
+  "sha256": {
+    "level21_22_weight2_level21.py": "3837f02ca6e3644b4c02ef742faad95ea02bc3d42fa03d3aa180b0acb5d2722a",
+    "level21_22_weight2_chi5.py": "71a996b50443dadd5c09d7c118a83b70c057d458ce47ff71ff7a7f1053792784",
+    "level21_augmented_builder.py": "cbff6c17b0cfbf2009a59784f27f882e63fb0f1acc139289a19f1abaad26d849"
+  }
+}

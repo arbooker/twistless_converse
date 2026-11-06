@@ -1,0 +1,4 @@
+'AsymptoticClassicalCusp.fricke_inverse_normalizes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.frickeOperator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.frickeOperator_coe' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.frickeOperator_apply' depends on axioms: [propext, Classical.choice, Quot.sound]

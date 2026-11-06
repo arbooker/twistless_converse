@@ -1,0 +1,5 @@
+'QuantitativeEulerEndpointSubcorner.ofFamily' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointSubcorner.pointwise_le_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointSubcorner.rootedTrace_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointSubcorner.rootedTrace_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointSubcorner.log_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,2 @@
+'AsymptoticFiniteFoldAssembly.tendstoUniformly' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteFoldAssembly.norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]

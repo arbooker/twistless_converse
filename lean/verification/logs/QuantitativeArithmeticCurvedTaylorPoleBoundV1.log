@@ -1,0 +1,5 @@
+'QuantitativeArithmeticCurvedTaylor.continued_sum_weight_order' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticCurvedTaylor.weight_pole_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+

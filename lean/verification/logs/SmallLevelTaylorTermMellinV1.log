@@ -1,0 +1,5 @@
+'SmallLevelTaylor.taylorCoeff_convergent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTaylor.taylorTerm_mellin' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTaylor.taylorTerm_convergent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTaylor.taylorTerm_additive_mellin' depends on axioms: [propext, Classical.choice, Quot.sound]
+

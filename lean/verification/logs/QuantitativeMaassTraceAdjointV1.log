@@ -1,0 +1,2 @@
+'QuantitativeMaass.AutomorphicL2.trace_pairing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeMaass.AutomorphicL2.coverOperator_adjoint_apply' depends on axioms: [propext, Classical.choice, Quot.sound]

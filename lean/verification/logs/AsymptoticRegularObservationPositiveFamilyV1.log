@@ -1,0 +1,7 @@
+'AsymptoticRegularObservation.includedFull_eq_extension_adjoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticRegularObservation.positive_eq_whole' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.positive_covariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.positive_matrix_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+

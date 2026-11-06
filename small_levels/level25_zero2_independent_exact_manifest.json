@@ -1,0 +1,25 @@
+{
+  "status": "PASS_DETERMINISTIC_ALL_FOUR_UNIT_IDEALS",
+  "checked_at_utc": "2026-10-14T20:22:36.668536+00:00",
+  "prior_source_rebuild_manifest_sha256": "9e3880e034c9034e9f870a38bba18022fe609a5449e237f241dd5d7651d29556",
+  "source_hashes_unchanged": {
+    "level25_cusp_aux_prime7_firstjet.py": "434f1df3635455ae39d6d49930d1bab2ac7aa9933d18586df3d8f0002d30f17e",
+    "level25_cusp_aux_prime7_symbolic.py": "f1032122314f72733d0f10303c3b764c93fbbe61b4c015a9041e9f2581deefb5",
+    "level25_finish_augmented.py": "4dcccb34212352f9effa32da95b93b57becc8f6938adb04e56281fd719780a94",
+    "level25_uniform_continuation.py": "490293b27df705236585208fe1fd2c5f4510cce7499a78e6803e265e11b96515",
+    "level25_finish_firstjet.py": "9bba9e96cca35b8356161ff88929f6e8ace9fa374520d40a4336bfce9f94cce5",
+    "level25_cusp_aux_prime7_jetrank.py": "9127b4321147a0dd1fd2fce2204da08fd942a169a678a97a31bcb2def6c57d36",
+    "level25_cusp_aux_prime7_jetideals.py": "4663aaeffe69b25270db038f4e4d75f8455fb132fdb4a60966f58efbdc3d253a"
+  },
+  "command": "magma -b -l500000000 -t1 /tmp/level25_zero2_independent_exact_all_charts.m",
+  "magma_source_sha256": "185ce3b10b1ef66a71a11d931babb89759f537d6cffb941f1df30c1d5f470a7a",
+  "magma_output_sha256": "287cfc65fa33d8cdf3566daeefc06279ebdf58ff11f060594c80827fb262bd62",
+  "global_modular": false,
+  "checks": [
+    "Global modular algorithm disabled process-wide",
+    "Four explicit rational GroebnerBasis calls with GlobalModular false",
+    "Each resulting basis asserted exactly [1]",
+    "Four original unit-ideal membership assertions retained",
+    "Original independently regenerated polynomial lists unchanged"
+  ]
+}

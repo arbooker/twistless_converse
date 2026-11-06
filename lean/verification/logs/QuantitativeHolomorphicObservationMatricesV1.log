@@ -1,0 +1,4 @@
+'QuantitativeHolomorphic.translation_integer_action' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.reflected_integer_action' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.ramified_integer_action' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.reflected_integer_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

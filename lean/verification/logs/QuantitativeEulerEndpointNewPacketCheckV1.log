@@ -1,0 +1,13 @@
+'QuantitativeEulerEndpointPrepared.exists_new_original_low_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.newTailCost_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.exists_new_prime_trace_loss' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.endpoint_new_chain_trace_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.prepared_new_packet_trace_decay' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

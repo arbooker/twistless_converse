@@ -1,0 +1,6 @@
+'AsymptoticCongruenceQuotient.factors' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceQuotient.foldLabel_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceQuotient.foldLabel_class' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceQuotient.foldLabel_self' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceQuotient.range_of_decode' depends on axioms: [propext, Classical.choice, Quot.sound]
+

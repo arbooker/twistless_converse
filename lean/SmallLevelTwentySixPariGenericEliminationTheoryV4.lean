@@ -1,0 +1,176 @@
+module
+
+public import SmallLevelTwentySixPariFirstGcdV1
+public import SmallLevelTwentySixPariIdentityFamilyV4
+public import SmallLevelTwentySixPariIdentityIndexDataSeriesV4
+public import SmallLevelTwentySixPariRootRemainderV1
+
+/-! Consolidated chapter: SmallLevelTwentySixPariGenericElimination. Original declarations and local scopes are retained. -/
+
+/-! ## SmallLevelTwentySixPariGenericEliminationLowIndexBindingSeriesV4 -/
+section
+@[expose] public noncomputable section
+section
+set_option autoImplicit false
+set_option maxHeartbeats 5000000
+set_option maxRecDepth 32768
+set_option linter.unusedSimpArgs false
+
+namespace SmallLevelTwentySixPariGenericElimination
+theorem low87_binding (x y z w a b u : ℂ) :
+    SmallLevelTwentySixPariIdentity017.p0 x y z w a b u=
+      SmallLevelTwentySixPariIdentity007.p1 x y z w a b u := by
+  simp only [SmallLevelTwentySixPariIdentity017.p0,SmallLevelTwentySixPariIdentity017.coefficients0,SmallLevelTwentySixPariIdentity017.c0_0,SmallLevelTwentySixPariIdentity017.c0_1,SmallLevelTwentySixPariIdentity017.c0_2,SmallLevelTwentySixPariIdentity017.c0_3,SmallLevelTwentySixPariIdentity007.p1,SmallLevelPolynomialCoefficientCertificate.evaluate]
+  ring
+#print axioms low87_binding
+
+theorem low89_binding (x y z w a b u : ℂ) :
+    SmallLevelTwentySixPariIdentity021.p0 x y z w a b u=
+      SmallLevelTwentySixPariIdentity007.p1 x y z w a b u := by
+  simp only [SmallLevelTwentySixPariIdentity021.p0,SmallLevelTwentySixPariIdentity021.coefficients0,SmallLevelTwentySixPariIdentity021.c0_0,SmallLevelTwentySixPariIdentity021.c0_1,SmallLevelTwentySixPariIdentity021.c0_2,SmallLevelTwentySixPariIdentity021.c0_3,SmallLevelTwentySixPariIdentity007.p1,SmallLevelPolynomialCoefficientCertificate.evaluate]
+  ring
+#print axioms low89_binding
+end SmallLevelTwentySixPariGenericElimination
+end
+end
+end
+
+/-! ## SmallLevelTwentySixPariGenericEliminationReducedIndexBindingSeriesV4 -/
+section
+@[expose] public noncomputable section
+section
+set_option autoImplicit false
+set_option maxHeartbeats 5000000
+set_option maxRecDepth 32768
+set_option linter.unusedSimpArgs false
+
+namespace SmallLevelTwentySixPariGenericElimination
+theorem reduced87_binding (x y z w a b u : ℂ) :
+    SmallLevelTwentySixPariIdentity017.p2 x y z w a b u=
+      SmallLevelTwentySixPariIdentity011.p1 x y z w a b u := by
+  simp only [SmallLevelTwentySixPariIdentity017.p2,SmallLevelTwentySixPariIdentity017.coefficients2,SmallLevelTwentySixPariIdentity017.c2_0,SmallLevelTwentySixPariIdentity017.c2_1,SmallLevelTwentySixPariIdentity017.c2_2,SmallLevelTwentySixPariIdentity017.c2_3,SmallLevelTwentySixPariIdentity017.c2_4,SmallLevelTwentySixPariIdentity017.c2_5,SmallLevelTwentySixPariIdentity017.c2_6,SmallLevelTwentySixPariIdentity017.c2_7,SmallLevelTwentySixPariIdentity017.c2_8,SmallLevelTwentySixPariIdentity017.c2_9,SmallLevelTwentySixPariIdentity017.c2_10,SmallLevelTwentySixPariIdentity011.p1,SmallLevelPolynomialCoefficientCertificate.evaluate]
+  ring
+#print axioms reduced87_binding
+
+theorem reduced89_binding (x y z w a b u : ℂ) :
+    SmallLevelTwentySixPariIdentity021.p2 x y z w a b u=
+      SmallLevelTwentySixPariIdentity015.p1 x y z w a b u := by
+  simp only [SmallLevelTwentySixPariIdentity021.p2,SmallLevelTwentySixPariIdentity021.coefficients2,SmallLevelTwentySixPariIdentity021.c2_0,SmallLevelTwentySixPariIdentity021.c2_1,SmallLevelTwentySixPariIdentity021.c2_2,SmallLevelTwentySixPariIdentity021.c2_3,SmallLevelTwentySixPariIdentity021.c2_4,SmallLevelTwentySixPariIdentity021.c2_5,SmallLevelTwentySixPariIdentity021.c2_6,SmallLevelTwentySixPariIdentity021.c2_7,SmallLevelTwentySixPariIdentity021.c2_8,SmallLevelTwentySixPariIdentity021.c2_9,SmallLevelTwentySixPariIdentity021.c2_10,SmallLevelTwentySixPariIdentity015.p1,SmallLevelPolynomialCoefficientCertificate.evaluate]
+  ring
+#print axioms reduced89_binding
+end SmallLevelTwentySixPariGenericElimination
+end
+end
+end
+
+/-! ## SmallLevelTwentySixPariGenericEliminationTheoryV4 -/
+section
+/-! Consolidated chapter: SmallLevelTwentySixPariGenericElimination. Original declarations and local scopes are retained. -/
+
+/-! ## SmallLevelTwentySixPariGenericEliminationGcdBindingV1 -/
+section
+set_option autoImplicit false
+set_option maxHeartbeats 5000000
+set_option maxRecDepth 32768
+set_option linter.unusedSimpArgs false
+@[expose] public noncomputable section
+namespace SmallLevelTwentySixPariGenericElimination
+theorem gcd_binding (x y z w a b u : ℂ) :
+    SmallLevelTwentySixPariIdentity022.p0 x y z w a b u=
+      SmallLevelTwentySixPariIdentity020.p4 x y z w a b u := by
+  simp only [SmallLevelTwentySixPariIdentity022.p0,SmallLevelTwentySixPariIdentity022.coefficients0,SmallLevelTwentySixPariIdentity022.c0_0,SmallLevelTwentySixPariIdentity022.c0_1,SmallLevelTwentySixPariIdentity022.c0_2,SmallLevelTwentySixPariIdentity022.c0_3,SmallLevelTwentySixPariIdentity022.c0_4,SmallLevelTwentySixPariIdentity022.c0_5,SmallLevelTwentySixPariIdentity022.c0_6,SmallLevelTwentySixPariIdentity022.c0_7,SmallLevelTwentySixPariIdentity022.c0_8,SmallLevelTwentySixPariIdentity022.c0_9,SmallLevelTwentySixPariIdentity022.c0_10,SmallLevelTwentySixPariIdentity022.c0_11,SmallLevelTwentySixPariIdentity022.c0_12,SmallLevelTwentySixPariIdentity022.c0_13,SmallLevelTwentySixPariIdentity022.c0_14,SmallLevelTwentySixPariIdentity022.c0_15,SmallLevelTwentySixPariIdentity022.c0_16,SmallLevelTwentySixPariIdentity022.c0_17,SmallLevelTwentySixPariIdentity022.c0_18,SmallLevelTwentySixPariIdentity022.c0_19,SmallLevelTwentySixPariIdentity022.c0_20,SmallLevelTwentySixPariIdentity022.c0_21,SmallLevelTwentySixPariIdentity022.c0_22,SmallLevelTwentySixPariIdentity022.c0_23,SmallLevelTwentySixPariIdentity022.c0_24,SmallLevelTwentySixPariIdentity022.c0_25,SmallLevelTwentySixPariIdentity022.c0_26,SmallLevelTwentySixPariIdentity022.c0_27,SmallLevelTwentySixPariIdentity022.c0_28,SmallLevelTwentySixPariIdentity022.c0_29,SmallLevelTwentySixPariIdentity022.c0_30,SmallLevelTwentySixPariIdentity022.c0_31,SmallLevelTwentySixPariIdentity022.c0_32,SmallLevelTwentySixPariIdentity022.c0_33,SmallLevelTwentySixPariIdentity022.c0_34,SmallLevelTwentySixPariIdentity022.c0_35,SmallLevelTwentySixPariIdentity022.c0_36,SmallLevelTwentySixPariIdentity022.c0_37,SmallLevelTwentySixPariIdentity022.c0_38,SmallLevelTwentySixPariIdentity022.c0_39,SmallLevelTwentySixPariIdentity022.c0_40,SmallLevelTwentySixPariIdentity022.c0_41,SmallLevelTwentySixPariIdentity022.c0_42,SmallLevelTwentySixPariIdentity022.c0_43,SmallLevelTwentySixPariIdentity022.c0_44,SmallLevelTwentySixPariIdentity022.c0_45,SmallLevelTwentySixPariIdentity022.c0_46,SmallLevelTwentySixPariIdentity022.c0_47,SmallLevelTwentySixPariIdentity022.c0_48,SmallLevelTwentySixPariIdentity022.c0_49,SmallLevelTwentySixPariIdentity022.c0_50,SmallLevelTwentySixPariIdentity022.c0_51,SmallLevelTwentySixPariIdentity022.c0_52,SmallLevelTwentySixPariIdentity022.c0_53,SmallLevelTwentySixPariIdentity022.c0_54,SmallLevelTwentySixPariIdentity022.c0_55,SmallLevelTwentySixPariIdentity022.c0_56,SmallLevelTwentySixPariIdentity022.c0_57,SmallLevelTwentySixPariIdentity022.c0_58,SmallLevelTwentySixPariIdentity022.c0_59,SmallLevelTwentySixPariIdentity022.c0_60,SmallLevelTwentySixPariIdentity022.c0_61,SmallLevelTwentySixPariIdentity022.c0_62,SmallLevelTwentySixPariIdentity022.c0_63,SmallLevelTwentySixPariIdentity022.c0_64,SmallLevelTwentySixPariIdentity022.c0_65,SmallLevelTwentySixPariIdentity022.c0_66,SmallLevelTwentySixPariIdentity022.c0_67,SmallLevelTwentySixPariIdentity022.c0_68,SmallLevelTwentySixPariIdentity022.c0_69,SmallLevelTwentySixPariIdentity022.c0_70,SmallLevelTwentySixPariIdentity022.c0_71,SmallLevelTwentySixPariIdentity022.c0_72,SmallLevelTwentySixPariIdentity022.c0_73,SmallLevelTwentySixPariIdentity022.c0_74,SmallLevelTwentySixPariIdentity022.c0_75,SmallLevelTwentySixPariIdentity022.c0_76,SmallLevelTwentySixPariIdentity022.c0_77,SmallLevelTwentySixPariIdentity022.c0_78,SmallLevelTwentySixPariIdentity022.c0_79,SmallLevelTwentySixPariIdentity022.c0_80,SmallLevelTwentySixPariIdentity022.c0_81,SmallLevelTwentySixPariIdentity022.c0_82,SmallLevelTwentySixPariIdentity022.c0_83,SmallLevelTwentySixPariIdentity022.c0_84,SmallLevelTwentySixPariIdentity022.c0_85,SmallLevelTwentySixPariIdentity022.c0_86,SmallLevelTwentySixPariIdentity022.c0_87,SmallLevelTwentySixPariIdentity022.c0_88,SmallLevelTwentySixPariIdentity022.c0_89,SmallLevelTwentySixPariIdentity022.c0_90,SmallLevelTwentySixPariIdentity022.c0_91,SmallLevelTwentySixPariIdentity022.c0_92,SmallLevelTwentySixPariIdentity022.c0_93,SmallLevelTwentySixPariIdentity022.c0_94,SmallLevelTwentySixPariIdentity022.c0_95,SmallLevelTwentySixPariIdentity022.c0_96,SmallLevelTwentySixPariIdentity022.c0_97,SmallLevelTwentySixPariIdentity022.c0_98,SmallLevelTwentySixPariIdentity022.c0_99,SmallLevelTwentySixPariIdentity022.c0_100,SmallLevelTwentySixPariIdentity022.c0_101,SmallLevelTwentySixPariIdentity022.c0_102,SmallLevelTwentySixPariIdentity022.c0_103,SmallLevelTwentySixPariIdentity022.c0_104,SmallLevelTwentySixPariIdentity022.c0_105,SmallLevelTwentySixPariIdentity022.c0_106,SmallLevelTwentySixPariIdentity022.c0_107,SmallLevelTwentySixPariIdentity022.c0_108,SmallLevelTwentySixPariIdentity022.c0_109,SmallLevelTwentySixPariIdentity022.c0_110,SmallLevelTwentySixPariIdentity022.c0_111,SmallLevelTwentySixPariIdentity022.c0_112,SmallLevelTwentySixPariIdentity022.c0_113,SmallLevelTwentySixPariIdentity022.c0_114,SmallLevelTwentySixPariIdentity022.c0_115,SmallLevelTwentySixPariIdentity022.c0_116,SmallLevelTwentySixPariIdentity022.c0_117,SmallLevelTwentySixPariIdentity022.c0_118,SmallLevelTwentySixPariIdentity022.c0_119,SmallLevelTwentySixPariIdentity022.c0_120,SmallLevelTwentySixPariIdentity022.c0_121,SmallLevelTwentySixPariIdentity022.c0_122,SmallLevelTwentySixPariIdentity022.c0_123,SmallLevelTwentySixPariIdentity022.c0_124,SmallLevelTwentySixPariIdentity022.c0_125,SmallLevelTwentySixPariIdentity022.c0_126,SmallLevelTwentySixPariIdentity022.c0_127,SmallLevelTwentySixPariIdentity022.c0_128,SmallLevelTwentySixPariIdentity022.c0_129,SmallLevelTwentySixPariIdentity022.c0_130,SmallLevelTwentySixPariIdentity022.c0_131,SmallLevelTwentySixPariIdentity022.c0_132,SmallLevelTwentySixPariIdentity022.c0_133,SmallLevelTwentySixPariIdentity022.c0_134,SmallLevelTwentySixPariIdentity022.c0_135,SmallLevelTwentySixPariIdentity022.c0_136,SmallLevelTwentySixPariIdentity022.c0_137,SmallLevelTwentySixPariIdentity022.c0_138,SmallLevelTwentySixPariIdentity022.c0_139,SmallLevelTwentySixPariIdentity022.c0_140,SmallLevelTwentySixPariIdentity022.c0_141,SmallLevelTwentySixPariIdentity022.c0_142,SmallLevelTwentySixPariIdentity022.c0_143,SmallLevelTwentySixPariIdentity022.c0_144,SmallLevelTwentySixPariIdentity022.c0_145,SmallLevelTwentySixPariIdentity022.c0_146,SmallLevelTwentySixPariIdentity022.c0_147,SmallLevelTwentySixPariIdentity022.c0_148,SmallLevelTwentySixPariIdentity022.c0_149,SmallLevelTwentySixPariIdentity022.c0_150,SmallLevelTwentySixPariIdentity020.p4,SmallLevelPolynomialCoefficientCertificate.evaluate]
+  ring
+#print axioms gcd_binding
+end SmallLevelTwentySixPariGenericElimination
+end
+end
+
+/-! ## SmallLevelTwentySixPariGenericEliminationResultant89BindingV1 -/
+section
+set_option autoImplicit false
+set_option maxHeartbeats 5000000
+set_option maxRecDepth 32768
+set_option linter.unusedSimpArgs false
+@[expose] public noncomputable section
+namespace SmallLevelTwentySixPariGenericElimination
+theorem resultant89_binding (x y z w a b u : ℂ) :
+    SmallLevelTwentySixPariIdentity022.p2 x y z w a b u=
+      SmallLevelTwentySixPariIdentity021.p4 x y z w a b u := by
+  simp only [SmallLevelTwentySixPariIdentity022.p2,SmallLevelTwentySixPariIdentity022.coefficients2,SmallLevelTwentySixPariIdentity022.c2_0,SmallLevelTwentySixPariIdentity022.c2_1,SmallLevelTwentySixPariIdentity022.c2_2,SmallLevelTwentySixPariIdentity022.c2_3,SmallLevelTwentySixPariIdentity022.c2_4,SmallLevelTwentySixPariIdentity022.c2_5,SmallLevelTwentySixPariIdentity022.c2_6,SmallLevelTwentySixPariIdentity022.c2_7,SmallLevelTwentySixPariIdentity022.c2_8,SmallLevelTwentySixPariIdentity022.c2_9,SmallLevelTwentySixPariIdentity022.c2_10,SmallLevelTwentySixPariIdentity022.c2_11,SmallLevelTwentySixPariIdentity022.c2_12,SmallLevelTwentySixPariIdentity022.c2_13,SmallLevelTwentySixPariIdentity022.c2_14,SmallLevelTwentySixPariIdentity022.c2_15,SmallLevelTwentySixPariIdentity022.c2_16,SmallLevelTwentySixPariIdentity022.c2_17,SmallLevelTwentySixPariIdentity022.c2_18,SmallLevelTwentySixPariIdentity022.c2_19,SmallLevelTwentySixPariIdentity022.c2_20,SmallLevelTwentySixPariIdentity022.c2_21,SmallLevelTwentySixPariIdentity022.c2_22,SmallLevelTwentySixPariIdentity022.c2_23,SmallLevelTwentySixPariIdentity022.c2_24,SmallLevelTwentySixPariIdentity022.c2_25,SmallLevelTwentySixPariIdentity022.c2_26,SmallLevelTwentySixPariIdentity022.c2_27,SmallLevelTwentySixPariIdentity022.c2_28,SmallLevelTwentySixPariIdentity022.c2_29,SmallLevelTwentySixPariIdentity022.c2_30,SmallLevelTwentySixPariIdentity022.c2_31,SmallLevelTwentySixPariIdentity022.c2_32,SmallLevelTwentySixPariIdentity022.c2_33,SmallLevelTwentySixPariIdentity022.c2_34,SmallLevelTwentySixPariIdentity022.c2_35,SmallLevelTwentySixPariIdentity022.c2_36,SmallLevelTwentySixPariIdentity022.c2_37,SmallLevelTwentySixPariIdentity022.c2_38,SmallLevelTwentySixPariIdentity022.c2_39,SmallLevelTwentySixPariIdentity022.c2_40,SmallLevelTwentySixPariIdentity022.c2_41,SmallLevelTwentySixPariIdentity022.c2_42,SmallLevelTwentySixPariIdentity022.c2_43,SmallLevelTwentySixPariIdentity022.c2_44,SmallLevelTwentySixPariIdentity022.c2_45,SmallLevelTwentySixPariIdentity022.c2_46,SmallLevelTwentySixPariIdentity022.c2_47,SmallLevelTwentySixPariIdentity022.c2_48,SmallLevelTwentySixPariIdentity022.c2_49,SmallLevelTwentySixPariIdentity022.c2_50,SmallLevelTwentySixPariIdentity022.c2_51,SmallLevelTwentySixPariIdentity022.c2_52,SmallLevelTwentySixPariIdentity022.c2_53,SmallLevelTwentySixPariIdentity022.c2_54,SmallLevelTwentySixPariIdentity022.c2_55,SmallLevelTwentySixPariIdentity022.c2_56,SmallLevelTwentySixPariIdentity022.c2_57,SmallLevelTwentySixPariIdentity022.c2_58,SmallLevelTwentySixPariIdentity022.c2_59,SmallLevelTwentySixPariIdentity022.c2_60,SmallLevelTwentySixPariIdentity022.c2_61,SmallLevelTwentySixPariIdentity022.c2_62,SmallLevelTwentySixPariIdentity022.c2_63,SmallLevelTwentySixPariIdentity022.c2_64,SmallLevelTwentySixPariIdentity022.c2_65,SmallLevelTwentySixPariIdentity022.c2_66,SmallLevelTwentySixPariIdentity022.c2_67,SmallLevelTwentySixPariIdentity022.c2_68,SmallLevelTwentySixPariIdentity022.c2_69,SmallLevelTwentySixPariIdentity022.c2_70,SmallLevelTwentySixPariIdentity022.c2_71,SmallLevelTwentySixPariIdentity022.c2_72,SmallLevelTwentySixPariIdentity022.c2_73,SmallLevelTwentySixPariIdentity022.c2_74,SmallLevelTwentySixPariIdentity022.c2_75,SmallLevelTwentySixPariIdentity022.c2_76,SmallLevelTwentySixPariIdentity022.c2_77,SmallLevelTwentySixPariIdentity022.c2_78,SmallLevelTwentySixPariIdentity022.c2_79,SmallLevelTwentySixPariIdentity022.c2_80,SmallLevelTwentySixPariIdentity022.c2_81,SmallLevelTwentySixPariIdentity022.c2_82,SmallLevelTwentySixPariIdentity022.c2_83,SmallLevelTwentySixPariIdentity022.c2_84,SmallLevelTwentySixPariIdentity022.c2_85,SmallLevelTwentySixPariIdentity022.c2_86,SmallLevelTwentySixPariIdentity022.c2_87,SmallLevelTwentySixPariIdentity022.c2_88,SmallLevelTwentySixPariIdentity022.c2_89,SmallLevelTwentySixPariIdentity022.c2_90,SmallLevelTwentySixPariIdentity022.c2_91,SmallLevelTwentySixPariIdentity022.c2_92,SmallLevelTwentySixPariIdentity022.c2_93,SmallLevelTwentySixPariIdentity022.c2_94,SmallLevelTwentySixPariIdentity022.c2_95,SmallLevelTwentySixPariIdentity022.c2_96,SmallLevelTwentySixPariIdentity022.c2_97,SmallLevelTwentySixPariIdentity022.c2_98,SmallLevelTwentySixPariIdentity022.c2_99,SmallLevelTwentySixPariIdentity022.c2_100,SmallLevelTwentySixPariIdentity022.c2_101,SmallLevelTwentySixPariIdentity022.c2_102,SmallLevelTwentySixPariIdentity022.c2_103,SmallLevelTwentySixPariIdentity022.c2_104,SmallLevelTwentySixPariIdentity022.c2_105,SmallLevelTwentySixPariIdentity022.c2_106,SmallLevelTwentySixPariIdentity022.c2_107,SmallLevelTwentySixPariIdentity022.c2_108,SmallLevelTwentySixPariIdentity022.c2_109,SmallLevelTwentySixPariIdentity022.c2_110,SmallLevelTwentySixPariIdentity022.c2_111,SmallLevelTwentySixPariIdentity022.c2_112,SmallLevelTwentySixPariIdentity022.c2_113,SmallLevelTwentySixPariIdentity022.c2_114,SmallLevelTwentySixPariIdentity022.c2_115,SmallLevelTwentySixPariIdentity022.c2_116,SmallLevelTwentySixPariIdentity022.c2_117,SmallLevelTwentySixPariIdentity022.c2_118,SmallLevelTwentySixPariIdentity022.c2_119,SmallLevelTwentySixPariIdentity022.c2_120,SmallLevelTwentySixPariIdentity022.c2_121,SmallLevelTwentySixPariIdentity022.c2_122,SmallLevelTwentySixPariIdentity022.c2_123,SmallLevelTwentySixPariIdentity022.c2_124,SmallLevelTwentySixPariIdentity022.c2_125,SmallLevelTwentySixPariIdentity022.c2_126,SmallLevelTwentySixPariIdentity022.c2_127,SmallLevelTwentySixPariIdentity022.c2_128,SmallLevelTwentySixPariIdentity022.c2_129,SmallLevelTwentySixPariIdentity022.c2_130,SmallLevelTwentySixPariIdentity022.c2_131,SmallLevelTwentySixPariIdentity022.c2_132,SmallLevelTwentySixPariIdentity022.c2_133,SmallLevelTwentySixPariIdentity022.c2_134,SmallLevelTwentySixPariIdentity022.c2_135,SmallLevelTwentySixPariIdentity022.c2_136,SmallLevelTwentySixPariIdentity022.c2_137,SmallLevelTwentySixPariIdentity022.c2_138,SmallLevelTwentySixPariIdentity022.c2_139,SmallLevelTwentySixPariIdentity022.c2_140,SmallLevelTwentySixPariIdentity022.c2_141,SmallLevelTwentySixPariIdentity022.c2_142,SmallLevelTwentySixPariIdentity022.c2_143,SmallLevelTwentySixPariIdentity022.c2_144,SmallLevelTwentySixPariIdentity022.c2_145,SmallLevelTwentySixPariIdentity022.c2_146,SmallLevelTwentySixPariIdentity022.c2_147,SmallLevelTwentySixPariIdentity022.c2_148,SmallLevelTwentySixPariIdentity022.c2_149,SmallLevelTwentySixPariIdentity022.c2_150,SmallLevelTwentySixPariIdentity022.c2_151,SmallLevelTwentySixPariIdentity022.c2_152,SmallLevelTwentySixPariIdentity022.c2_153,SmallLevelTwentySixPariIdentity021.p4,SmallLevelTwentySixPariIdentity021.coefficients4,SmallLevelTwentySixPariIdentity021.c4_0,SmallLevelPolynomialCoefficientCertificate.evaluate]
+  ring
+#print axioms resultant89_binding
+end SmallLevelTwentySixPariGenericElimination
+end
+end
+
+/-! ## SmallLevelTwentySixPariGenericEliminationV1 -/
+section
+set_option autoImplicit false
+set_option maxHeartbeats 5000000
+set_option maxRecDepth 32768
+@[expose] public noncomputable section
+namespace SmallLevelTwentySixPariGenericElimination
+open SmallLevelPolynomialCoefficientCertificate SmallLevelTwentySixPariFirstChart
+
+theorem resultant87_zero (x y z w a b u : ℂ)
+    (hc : lowCurve x y z w a b u=0)
+    (hr : SmallLevelTwentySixPariIdentity011.p1 x y z w a b u=0) :
+    SmallLevelTwentySixPariIdentity017.p4 x y z w a b u=0 := by
+  have he:=SmallLevelTwentySixPariIdentity017.identity x y z w a b u
+  rw [low87_binding,reduced87_binding] at he
+  change SmallLevelTwentySixPariIdentity007.p1 x y z w a b u=0 at hc
+  rw [hc,hr] at he
+  simpa only [SmallLevelTwentySixPariIdentity017.p6,
+    SmallLevelTwentySixPariIdentity017.coefficients6,evaluate,
+    zero_mul,mul_zero,zero_add,add_zero] using he.symm
+
+theorem resultant89_zero (x y z w a b u : ℂ)
+    (hc : lowCurve x y z w a b u=0)
+    (hr : SmallLevelTwentySixPariIdentity015.p1 x y z w a b u=0) :
+    SmallLevelTwentySixPariIdentity021.p4 x y z w a b u=0 := by
+  have he:=SmallLevelTwentySixPariIdentity021.identity x y z w a b u
+  rw [low89_binding,reduced89_binding] at he
+  change SmallLevelTwentySixPariIdentity007.p1 x y z w a b u=0 at hc
+  rw [hc,hr] at he
+  simpa only [SmallLevelTwentySixPariIdentity021.p6,
+    SmallLevelTwentySixPariIdentity021.coefficients6,evaluate,
+    zero_mul,mul_zero,zero_add,add_zero] using he.symm
+
+/-- The two reduced source rows and low curve imply the final eliminant.
+Deriving these premises from the original germ equations is separate. -/
+theorem eliminant_zero (x y z w a b u : ℂ)
+    (hc : lowCurve x y z w a b u=0)
+    (h87 : SmallLevelTwentySixPariIdentity011.p1 x y z w a b u=0)
+    (h89 : SmallLevelTwentySixPariIdentity015.p1 x y z w a b u=0) :
+    SmallLevelTwentySixPariIdentity022.p4 x y z w a b u=0 := by
+  have hg:=SmallLevelTwentySixPariFirstGcd.first_gcd_zero x y z w a b u
+    (resultant87_zero x y z w a b u hc h87)
+  have h89r:=resultant89_zero x y z w a b u hc h89
+  have he:=SmallLevelTwentySixPariIdentity022.identity x y z w a b u
+  rw [gcd_binding,resultant89_binding,hg,h89r] at he
+  simpa only [SmallLevelTwentySixPariIdentity022.p6,
+    SmallLevelTwentySixPariIdentity022.coefficients6,evaluate,
+    zero_mul,mul_zero,zero_add,add_zero] using he.symm
+
+theorem no_signed_reduced_rows (m : ℕ) (s u z w a b θ : ℂ)
+    (hu : u=1 ∨ u= -1)
+    (hx2 : u*SmallLevelPrimeRates.parameter 2 m s≠2)
+    (hc : lowCurve (u*SmallLevelPrimeRates.parameter 2 m s)
+      ((SmallLevelPrimeRates.parameter 3 m s)^2) z w a b θ=0)
+    (h87 : SmallLevelTwentySixPariIdentity011.p1
+      (u*SmallLevelPrimeRates.parameter 2 m s)
+      ((SmallLevelPrimeRates.parameter 3 m s)^2) z w a b θ=0)
+    (h89 : SmallLevelTwentySixPariIdentity015.p1
+      (u*SmallLevelPrimeRates.parameter 2 m s)
+      ((SmallLevelPrimeRates.parameter 3 m s)^2) z w a b θ=0) : False := by
+  exact SmallLevelTwentySixPariRootRemainder.no_signed_generic m s u z w a b θ hu hx2
+    hc h87 (eliminant_zero _ _ _ _ _ _ _ hc h87 h89)
+
+#print axioms resultant87_zero
+#print axioms resultant89_zero
+#print axioms eliminant_zero
+#print axioms no_signed_reduced_rows
+end SmallLevelTwentySixPariGenericElimination
+end
+end
+end

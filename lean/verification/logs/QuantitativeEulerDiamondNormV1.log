@@ -1,0 +1,2 @@
+'QuantitativeEulerDiamondDecode.compactAction_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerDiamondDecode.compactAction_mul_norm' depends on axioms: [propext, Classical.choice, Quot.sound]

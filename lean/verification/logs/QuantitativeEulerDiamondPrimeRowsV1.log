@@ -1,0 +1,7 @@
+'QuantitativeEulerDiamondDecode.primeAverage_eq_finiteAverage' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerDiamondDecode.evaluate_primeAverage_reflected' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerDiamondDecode.decoded_prime_recovery' depends on axioms: [propext, Classical.choice, Quot.sound]

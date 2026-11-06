@@ -1,0 +1,3 @@
+'QuantitativeEulerEndpointPrepared.compact_prime_fricke_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

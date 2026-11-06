@@ -1,0 +1,37 @@
+'QuantitativeArithmeticRetainedRegularOperators.low_covariant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedRegularOperators.low_matrix_measurable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedRegularOperators.terminal_covariant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedRegularOperators.terminal_matrix_measurable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedRegularOperators.primitiveLow_norm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedRegularOperators.primitiveTerminal_norm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedRegularOperators.retainedLow_norm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedRegularOperators.retainedTerminal_norm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedRegularOperators.rowLow_norm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedRegularOperators.rowTerminal_norm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedRegularOperators.low_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedRegularOperators.terminal_norm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedRegularOperators.common_contraction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

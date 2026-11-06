@@ -1,0 +1,80 @@
+{
+  "status": "PASS_POSITIVE_FIRST_CHART_FROM_ORIGINAL_Q1050_SOURCE",
+  "checked_at_utc": "2026-10-14T20:54:22.015694+00:00",
+  "prior_source_chain_manifest_sha256": "7adf3449e405f81e4e7c125b74828ee5ac8c5ad796d6464d0965a128621aa276",
+  "runs": [
+    {
+      "stage": "even1",
+      "sign": "plus",
+      "status": "PASS",
+      "elapsed_seconds": 0.11901505617424846,
+      "sources": {
+        "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_plus_poles_even_prepare.py": "2c73abd94afb7394b81ffff865a2ab375f2ed58680cec8037078f84e9f64bb40"
+      },
+      "inputs": {
+        "/tmp/level25_secondcharts_independent_plus_poles_seed0_chart1.txt": "6a46549d348ad3e248951d85beb2a3d6dcbc2bb8537a068d2d19a46d7f39e63e"
+      },
+      "outputs": {
+        "/tmp/level25_secondcharts_independent_plus_poles_even_chart1_rational.m": "cab47bdf228217684e306500052145882d37d97b6518337174428e46d69d186a"
+      },
+      "additional_source_free_assertions": false
+    },
+    {
+      "stage": "certificate1",
+      "sign": "plus",
+      "status": "PASS",
+      "elapsed_seconds": 0.12430170783773065,
+      "sources": {
+        "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_plus_poles_chart1_certificate.py": "8efeced7861819d82f2d52d92e0c9d6c85b72049f5d4b41345df2b338459d7c3",
+        "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_plus_poles_chart1_rows.json": "1b17bd3ec372808bf37443dc857b321e4f51bffe4b0d6d295a1f9832b5738719",
+        "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_plus_poles_chart1_shape.json": "41e8be36f2f43b2c3a0351233e47b87ed6b500c52b960e5eea7dca3f81bc6bde"
+      },
+      "inputs": {
+        "/tmp/level25_secondcharts_independent_plus_poles_even_chart1_rational.m": "cab47bdf228217684e306500052145882d37d97b6518337174428e46d69d186a"
+      },
+      "outputs": {
+        "/tmp/level25_secondcharts_independent_plus_poles_chart1_certificate.m": "a771109f76e0d838df59a6b1ce7076f55e66b322936a79db68c0d057fc2b1fbc"
+      },
+      "additional_source_free_assertions": false
+    },
+    {
+      "stage": "modulus1",
+      "sign": "plus",
+      "status": "PASS",
+      "elapsed_seconds": 9.89830697211437,
+      "sources": {
+        "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_root_chart1_modulus.py": "8472def6647e38996a331276f60d2a2b524d7a46efc396b3de16a9df45303027",
+        "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_plus_poles_chart1_shape.json": "41e8be36f2f43b2c3a0351233e47b87ed6b500c52b960e5eea7dca3f81bc6bde",
+        "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_root_chart1_modulus_certificate.json": "0d776be132381387ed17804c249e2fb0b37ee5c53df4cf6d3281c8a2f11f05e0"
+      },
+      "inputs": {},
+      "outputs": {
+        "/tmp/level25_secondcharts_independent_root_chart1_modulus_result.json": "0d776be132381387ed17804c249e2fb0b37ee5c53df4cf6d3281c8a2f11f05e0",
+        "/tmp/level25_secondcharts_independent_root_chart1_modulus_certificate.json": "0d776be132381387ed17804c249e2fb0b37ee5c53df4cf6d3281c8a2f11f05e0",
+        "/tmp/level25_secondcharts_independent_root_chart1_modulus.pass": "07091a2049a6980f8d2548ae65853e1eb46f13c25ee7aef2b9560b40c05001b2"
+      },
+      "additional_source_free_assertions": false
+    }
+  ],
+  "native_batch": {
+    "command": "magma -b -l500000000 -t1 /tmp/level25_secondcharts_independent_plus_poles_chart1_certificate_20261014T205204739216Z.m",
+    "completion": "/tmp/level25_secondcharts_independent_plus_poles_chart1_certificate_20261014T205204739216Z.completion.json",
+    "log": "/tmp/level25_secondcharts_independent_plus_poles_chart1_certificate_20261014T205204739216Z.log",
+    "batch": "/tmp/level25_secondcharts_independent_plus_poles_chart1_certificate_20261014T205204739216Z.m",
+    "batch_sha256": "4969c7544eee047eae42a5c1ea56806c48fed78bdab6039acc9213c4a90b6bce"
+  },
+  "completion": {
+    "source": "/tmp/level25_secondcharts_independent_plus_poles_chart1_certificate.m",
+    "source_sha256": "a771109f76e0d838df59a6b1ce7076f55e66b322936a79db68c0d057fc2b1fbc",
+    "completed": true,
+    "status": "PASS",
+    "returncode": 0
+  },
+  "native_log_sha256": "a60a2db8d0888be80b7d6896d7a6a268f46baa7b47d921682a5882d61d2991b9",
+  "original_chart_bytes_identical": true,
+  "original_chart_sha256": "6a46549d348ad3e248951d85beb2a3d6dcbc2bb8537a068d2d19a46d7f39e63e",
+  "root_certificate_sha256": "0d776be132381387ed17804c249e2fb0b37ee5c53df4cf6d3281c8a2f11f05e0",
+  "proof_note_sha256": "196b1e6f91d6fcbd4330692cb45af3e7890ceab92c56bca1451502b8f131a713",
+  "audit_builder_sha256": "a370d6f0a988175eb4f6a8f6c3bc2d0c1c7f810042888f6b7288c3e7685e26c3",
+  "claim": "Full freshly regenerated402-row ideal contains all15 shape-certificate rows; exact X4 branch and degree67 necessary locus; all67 physical modulus contradictions independently rechecked. No claim about first negative chart."
+}

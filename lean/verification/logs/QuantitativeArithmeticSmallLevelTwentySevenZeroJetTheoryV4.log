@@ -1,0 +1,16 @@
+'QuantitativeArithmeticSmallLevelTwentySevenZeroJet.eval_firstPoly' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySevenZeroJet.eval_leadingPoly' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySevenZeroJet.eval_jetPolynomial' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySevenZeroJet.formalJet_original' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySevenZeroJet.jetPolynomial_original' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

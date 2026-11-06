@@ -1,0 +1,5 @@
+'SmallLevelFifteen.square_matrix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelFifteen.conjugate_T' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelFifteen.conjugate_U' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelFifteen.original_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+

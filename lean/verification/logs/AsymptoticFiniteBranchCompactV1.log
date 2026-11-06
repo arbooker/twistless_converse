@@ -1,0 +1,6 @@
+'AsymptoticFiniteBranch.holomorphic_compactFold' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.regular_compactFold' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.holomorphicSum_compactRawExpression' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.regularSum_compactRawExpression' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.holomorphicSum_compactExpression' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.regularSum_compactExpression' depends on axioms: [propext, Classical.choice, Quot.sound]

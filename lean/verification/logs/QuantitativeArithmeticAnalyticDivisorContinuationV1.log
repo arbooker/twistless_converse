@@ -1,0 +1,6 @@
+'QuantitativeArithmeticAnalyticDivisorContinuation.nonzero_germ' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticAnalyticDivisorContinuation.halfplane_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

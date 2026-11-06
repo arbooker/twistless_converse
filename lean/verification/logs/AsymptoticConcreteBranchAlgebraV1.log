@@ -1,0 +1,4 @@
+'AsymptoticConcreteRationalBranch.operator_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticConcreteRationalBranch.operator_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticConcreteRationalBranch.operator_one_label' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticConcreteRationalBranch.operator_unit_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]

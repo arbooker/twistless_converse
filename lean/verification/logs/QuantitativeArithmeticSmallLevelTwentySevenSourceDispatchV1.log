@@ -1,0 +1,8 @@
+'QuantitativeArithmeticSmallLevelTwentySevenSourceDispatch.source_exists' depends on axioms: [propext, Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySevenSourceDispatch.row_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySevenSourceDispatch.originalRows_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

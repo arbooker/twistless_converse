@@ -1,0 +1,3 @@
+'AsymptoticFourierNorm.bounded_exp_summable_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFourierNorm.capped_exp_summable_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFourierNorm.upperMass_summable_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,9 @@
+'QuantitativeEulerEndpointNormalizedThreshold.normalized_range' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointNormalizedThreshold.normalized_inverse_square' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointNormalizedThreshold.logarithmic_cost' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

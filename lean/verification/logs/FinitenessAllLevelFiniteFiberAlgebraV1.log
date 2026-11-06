@@ -1,0 +1,7 @@
+'FinitenessAllLevelFiniteFiberAlgebra.coordinate_monic_relation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FinitenessAllLevelFiniteFiberAlgebra.coordinate_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelFiniteFiberAlgebra.finiteDimensional_quotient' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

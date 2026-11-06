@@ -1,0 +1,7 @@
+'QuantitativeArithmeticSmallLevelTwentyTwo.dilation_of_four_term' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyTwo.defect_zero_of_four_term' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

@@ -1,0 +1,3 @@
+'AsymptoticCongruenceLabels.fricke_lower_div' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRamifiedCosets.frickeRepresentative_inv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticOrbitDecode.ramifiedLabel_mul_dilation' depends on axioms: [propext, Classical.choice, Quot.sound]

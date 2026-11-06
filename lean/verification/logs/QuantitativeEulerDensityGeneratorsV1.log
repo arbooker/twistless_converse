@@ -1,0 +1,6 @@
+'QuantitativeEulerDensityGenerators.generators_closure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerDensityGenerators.family_leading_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerDensityGenerators.family_matrix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerDensityGenerators.family_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerDensityGenerators.family_residue_dvd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerDensityGenerators.generator_recovery' depends on axioms: [propext, Classical.choice, Quot.sound]

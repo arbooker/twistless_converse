@@ -1,0 +1,2 @@
+'CobhamColoring.scalingColoring' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CobhamColoring.bounded_repeated_pairs' depends on axioms: [propext, Classical.choice, Quot.sound]

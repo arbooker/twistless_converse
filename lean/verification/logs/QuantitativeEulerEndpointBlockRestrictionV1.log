@@ -1,0 +1,9 @@
+'QuantitativeEulerEndpointBlockRestriction.step_eq_of_restriction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointBlockRestriction.chain_restrict_initial' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointBlockRestriction.restricted_projectionFamily' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,4 @@
+'QuantitativeArithmeticSmallLevelTwentySevenZeroJetCommonPlusStages.all_leading_nonzero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

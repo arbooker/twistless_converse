@@ -1,0 +1,4 @@
+'QuantitativeArithmeticRationalRecurrence.Certificate.rowMap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRationalRecurrence.Certificate.analytic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

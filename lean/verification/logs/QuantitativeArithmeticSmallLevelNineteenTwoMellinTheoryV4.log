@@ -1,0 +1,13 @@
+'QuantitativeArithmeticSmallLevelNineteenTwoMellin.two_axis_relation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelNineteenTwoMellin.two_pair_strong' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelNineteenTwoMellin.two_mellin_entire' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelNineteenTwoMellin.matrix_center_entire' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

@@ -1,0 +1,34 @@
+'QuantitativeArithmeticComplexHornerBounds.eval_hornerPolynomial' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticComplexHornerBounds.horner_error_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticComplexHornerBounds.polynomial_bound_of_horner_certificates' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticComplexHornerBounds.monic_natDegree_horner' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticComplexHornerBounds.horner_value_and_difference_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticComplexHornerBounds.squared_norm_error_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticComplexHornerBounds.ratResidual_cast' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticComplexHornerBounds.polynomial_bound_of_rational_certificate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticComplexHornerBounds.polynomial_error_of_rational_certificate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticComplexHornerBounds.polynomial_difference_of_rational_envelope' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticComplexHornerBounds.polynomial_disk_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticComplexHornerBounds.squared_norm_enclosure_of_rational_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

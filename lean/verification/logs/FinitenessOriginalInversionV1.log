@@ -1,0 +1,4 @@
+'FinitenessOriginalInversion.normalized_absolute' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessOriginalInversion.inversion_with_sign' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessOriginalInversion.inversion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessOriginalInversion.solution_inversion' depends on axioms: [propext, Classical.choice, Quot.sound]

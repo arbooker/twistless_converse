@@ -1,0 +1,5 @@
+'QuantitativeEulerEndpointSoftUpdate.update_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointSoftUpdate.update_fixed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointSoftUpdate.compressed_energy_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointSoftUpdate.compressed_energy_kills' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointSoftUpdate.exists_sharpened_update' depends on axioms: [propext, Classical.choice, Quot.sound]

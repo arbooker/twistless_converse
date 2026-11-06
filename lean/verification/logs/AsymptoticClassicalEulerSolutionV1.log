@@ -1,0 +1,2 @@
+'AsymptoticClassicalLSeries.coefficients_continuation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalLSeries.coefficients_isSolution' depends on axioms: [propext, Classical.choice, Quot.sound]

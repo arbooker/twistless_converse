@@ -1,0 +1,4 @@
+'AsymptoticAtkinLehner.localSquare_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticAtkinLehner.localAtkin_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticAtkinLehner.localAtkin_square_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticAtkinLehner.local_inv_conj_mem' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,9 @@
+'QuantitativeEulerEndpointInitialActual.gram_kills' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointInitialActual.filter_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointInitialActual.filter_fixed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointInitialActual.filter_detector_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointInitialActual.filter_detector_budget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

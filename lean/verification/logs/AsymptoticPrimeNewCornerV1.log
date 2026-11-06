@@ -1,0 +1,5 @@
+'AsymptoticCongruenceOldSpace.incidence_fricke_projection_zero_of_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticCongruenceOldSpace.simple_incidence_le_newSpace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceOldSpace.prime_incidence_le_newSpace' depends on axioms: [propext, Classical.choice, Quot.sound]

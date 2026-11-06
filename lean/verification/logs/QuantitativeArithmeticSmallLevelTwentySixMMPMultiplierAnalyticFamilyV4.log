@@ -1,0 +1,30 @@
+'QuantitativeArithmeticSmallLevelTwentySixMMPMultiplierAnalytic6.multiplier0_analytic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySixMMPMultiplierAnalytic6.multiplier2_analytic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySixMMPMultiplierAnalytic6.multiplier4_analytic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySixMMPMultiplierAnalytic6.multiplier6_analytic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySixMMPMultiplierAnalytic6.multiplier8_analytic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySixMMPMultiplierAnalytic7.multiplier0_analytic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySixMMPMultiplierAnalytic7.multiplier2_analytic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySixMMPMultiplierAnalytic7.multiplier4_analytic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySixMMPMultiplierAnalytic7.multiplier6_analytic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySixMMPMultiplierAnalytic7.multiplier8_analytic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

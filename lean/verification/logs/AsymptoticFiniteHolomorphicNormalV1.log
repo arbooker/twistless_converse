@@ -1,0 +1,9 @@
+'AsymptoticFiniteBranch.holomorphicRows_comp_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.holomorphicSum_rowGram' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.holomorphicSum_completedNormalExpression' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticFiniteBranch.holomorphicSum_finiteNormalExpression' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticFiniteBranch.finiteNormal_intertwines' depends on axioms: [propext, Classical.choice, Quot.sound]

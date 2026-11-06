@@ -1,0 +1,19 @@
+module
+
+public import SmallLevelProgressCheckV2
+public import SmallLevelThirtySixModularV1
+public import SmallLevelModularCriterionV1
+
+@[expose] public section
+
+#check SmallLevelOriginal.SmallLevelsTheorem
+#check SmallLevelThirtySix.level_thirty_six
+#check SmallLevelThirtySix.originalModular
+#check SmallLevelOriginal.modular_of_transformations
+#print axioms SmallLevelCuspGrowth.bounded_of_q_mul_zero
+#print axioms SmallLevelCuspGrowth.upper_bounded_of_polynomial
+#print axioms SmallLevelCuspGrowth.slash_polynomial_strip
+#print axioms SmallLevelOriginal.inverse_height_exists
+#print axioms SmallLevelOriginal.modular_of_transformations
+#print axioms SmallLevelThirtySix.originalModular
+#print axioms SmallLevelThirtySix.level_thirty_six

@@ -1,0 +1,8 @@
+'AsymptoticReconstructedCount.includedReconstruction_terminal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticReconstructedCount.includedReconstruction_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticReconstructedCount.cutReconstruction_terminal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticReconstructedCount.cutReconstruction_norm_ge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticReconstructedCount.cutReconstruction_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticReconstructedCount.cutReconstruction_error' depends on axioms: [propext, Classical.choice, Quot.sound]

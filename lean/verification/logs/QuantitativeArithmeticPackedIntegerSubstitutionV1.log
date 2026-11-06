@@ -1,0 +1,7 @@
+'QuantitativeArithmeticPackedIntegerSubstitution.eval_merge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticPackedIntegerSubstitution.eval_substitutePacked' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPackedIntegerSubstitution.substitution_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

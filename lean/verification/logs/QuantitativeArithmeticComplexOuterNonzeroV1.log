@@ -1,0 +1,2 @@
+'QuantitativeArithmeticComplexOuterNonzero.linear_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticComplexOuterNonzero.quadratic_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]

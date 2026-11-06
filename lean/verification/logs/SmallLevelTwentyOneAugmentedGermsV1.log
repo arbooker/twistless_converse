@@ -1,0 +1,3 @@
+'SmallLevelTwentyOneKnownWords.augmented_row_germs' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneKnownWords.augmented_matrix_germs' depends on axioms: [propext, Classical.choice, Quot.sound]
+

@@ -1,0 +1,42 @@
+'QuantitativeArithmeticSmallLevelTwentyFive.SelectedWords.words_exact' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.SelectedWords.original_invariant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.SelectedWords.group_valid' depends on axioms: [propext, Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.SelectedWords.infinity_valid' depends on axioms: [propext, Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.SelectedWords.group_conditions' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.SelectedWords.original_selected_taylor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.SelectedWords.original_selected_entire' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.SelectedWords.group_partner' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.SelectedWords.original_selected_group_rows' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.SelectedWords.original_grid_hecke' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.SelectedWords.groupCoefficient_analytic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.SelectedWords.original_group_system' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.SelectedWords.heckeSpecs_valid' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.SelectedWords.original_grid_five' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.SelectedWords.original_selected_hecke' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

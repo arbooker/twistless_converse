@@ -1,0 +1,2 @@
+'AsymptoticRegularTrace.trace_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.trace_monotone_limit' depends on axioms: [propext, Classical.choice, Quot.sound]

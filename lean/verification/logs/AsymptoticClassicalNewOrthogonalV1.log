@@ -1,0 +1,3 @@
+'AsymptoticClassicalCusp.primeTraceKernel_eq_orthogonal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.newSpace_eq_orthogonal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.old_new_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]

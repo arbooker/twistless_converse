@@ -1,0 +1,10 @@
+'QuantitativeArithmeticSmallLevelTwentySixSourcePolynomial89.part_column_16' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySixSourcePolynomial89.part_column_17' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySixSourcePolynomial89.polynomial_binding' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

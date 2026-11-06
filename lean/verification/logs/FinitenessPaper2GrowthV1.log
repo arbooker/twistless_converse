@@ -1,0 +1,4 @@
+'FinitenessPaper2.good_prime_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessPaper2.exists_large_good_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessPaper2.exponent_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessPaper2.finite_of_exponent_neg' depends on axioms: [propext, Classical.choice, Quot.sound]

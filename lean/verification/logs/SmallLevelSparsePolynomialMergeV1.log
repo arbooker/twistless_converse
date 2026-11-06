@@ -1,0 +1,3 @@
+'SmallLevelSparsePolynomialMerge.merge_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelSparsePolynomialMerge.eval_sort' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelSparsePolynomialMerge.eval_independent' depends on axioms: [propext, Classical.choice, Quot.sound]

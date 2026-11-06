@@ -1,0 +1,4 @@
+'SmallLevelSparseCoefficientAssembly.eval_liftX' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelSparseCoefficientAssembly.assemble_eval_polynomial' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,7 @@
+'QuantitativeArithmeticMatrixInfinityMellin.matrix_source_convergent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticMatrixInfinityMellin.matrix_source_entire' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

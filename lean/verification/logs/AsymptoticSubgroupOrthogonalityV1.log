@@ -1,0 +1,6 @@
+'AsymptoticSubgroupSupport.translation_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticSubgroupSupport.translation_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticSubgroupSupport.translated_columns_orthogonal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticSubgroupSupport.translated_cross_root_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticSubgroupSupport.translated_root_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+

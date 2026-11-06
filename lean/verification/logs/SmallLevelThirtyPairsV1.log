@@ -1,0 +1,4 @@
+'SmallLevelThirty.original_pair_four_exact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirty.original_pair_six' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirty.original_pair_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+

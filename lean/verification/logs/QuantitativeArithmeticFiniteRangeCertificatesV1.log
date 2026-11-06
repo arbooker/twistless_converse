@@ -1,0 +1,6 @@
+'QuantitativeArithmeticFiniteRangeCertificates.join' depends on axioms: [propext, Quot.sound]
+'QuantitativeArithmeticFiniteRangeCertificates.block_shift' depends on axioms: [propext, Quot.sound]
+'QuantitativeArithmeticFiniteRangeCertificates.block_join' depends on axioms: [propext, Quot.sound]
+'QuantitativeArithmeticFiniteRangeCertificates.selected_shift' depends on axioms: [propext, Quot.sound]
+'QuantitativeArithmeticFiniteRangeCertificates.selected_join' depends on axioms: [propext, Quot.sound]
+'QuantitativeArithmeticFiniteRangeCertificates.singleton' depends on axioms: [propext]

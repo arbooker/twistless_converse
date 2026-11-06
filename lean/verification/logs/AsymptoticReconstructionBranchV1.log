@@ -1,0 +1,4 @@
+'AsymptoticReconstructionBranch.branch_action' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticReconstructionBranch.inverse_height' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticReconstructionBranch.folded_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticReconstructionBranch.ratio_forward' depends on axioms: [propext, Classical.choice, Quot.sound]

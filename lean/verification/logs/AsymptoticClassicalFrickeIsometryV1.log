@@ -1,0 +1,2 @@
+'AsymptoticClassicalPetersson.inner_frickeOperator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalPetersson.inner_newFrickeOperator' depends on axioms: [propext, Classical.choice, Quot.sound]

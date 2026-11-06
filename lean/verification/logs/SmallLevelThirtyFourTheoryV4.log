@@ -1,0 +1,10 @@
+'SmallLevelThirtyFour.fricke_branch_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtyFour.fricke_branch_neg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtyFour.original_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtyFour.B_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtyFour.actual_defect_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtyFour.E_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtyFour.elliptic_defect_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtyFour.invariant_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtyFour.original_A' depends on axioms: [propext, Classical.choice, Quot.sound]
+

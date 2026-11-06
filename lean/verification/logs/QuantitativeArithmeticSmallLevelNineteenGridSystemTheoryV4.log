@@ -1,0 +1,25 @@
+'QuantitativeArithmeticSmallLevelNineteenGridSystem.leadingMatrix_mulVec' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelNineteenGridSystem.shiftMatrix_mulVec' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelNineteenGridSystem.leadingMatrix_analytic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelNineteenGridSystem.shiftMatrix_analytic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelNineteenGridSystem.original_matrix_system' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelNineteenGridSystem.groupCoefficient_laurent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelNineteenGridSystem.taylorCoefficient_laurent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelNineteenGridSystem.actual_leading_rows' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

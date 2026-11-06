@@ -1,0 +1,12 @@
+'QuantitativeEulerEndpointPrepared.reconstructed_chain_pullback_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.reconstructed_chain_pullback_regular' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.reconstructed_chain_pullback_mass' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.reconstructed_chain_pullback_supported' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

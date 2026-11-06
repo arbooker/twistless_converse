@@ -1,0 +1,4 @@
+'FinitenessAllLevelCoefficientRing.exceptional_scalar' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelCoefficientRing.representative_nonzero_punctured' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

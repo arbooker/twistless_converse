@@ -1,0 +1,3 @@
+'AsymptoticCylinder.modes_sum_eq_original_fourier' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCylinder.mode_even_eq_qCylinder' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCylinder.uniform_weight_fourierSum_eq_disk_ae' depends on axioms: [propext, Classical.choice, Quot.sound]

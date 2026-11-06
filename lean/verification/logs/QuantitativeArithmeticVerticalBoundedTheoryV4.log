@@ -1,0 +1,34 @@
+'QuantitativeArithmeticVerticalBounded.exponential' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticVerticalBounded.Bounded.zpow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticVerticalBounded.binomial_polynomial_growth' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticVerticalBounded.PolynomialOn.sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticVerticalBounded.StripPolynomial.sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticVerticalBounded.PolynomialOn.comp_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticVerticalBounded.polynomial_strip_of_tail' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticVerticalBounded.PolynomialOn.fill_divisor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticVerticalBounded.quadratic_substrip_step' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticVerticalBounded.stripPolynomial_of_half_step' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticVerticalBounded.Cleared.uniform' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticVerticalBounded.quartic_inverse_factors' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticVerticalBounded.regularized_shift_polynomial' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticVerticalBounded.taylorRowScalar_stripPolynomial' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticVerticalBounded.Cleared.uniform_positive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

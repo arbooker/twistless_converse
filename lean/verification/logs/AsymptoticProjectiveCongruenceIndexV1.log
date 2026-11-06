@@ -1,0 +1,2 @@
+'AsymptoticCongruenceLabels.integralLabel_ker_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceStrip.gamma_relIndex' depends on axioms: [propext, Classical.choice, Quot.sound]

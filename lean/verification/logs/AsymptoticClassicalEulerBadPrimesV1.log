@@ -1,0 +1,2 @@
+'AsymptoticClassicalLSeries.coefficients_badPrimeConditions' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalLSeries.coefficients_eulerData' depends on axioms: [propext, Classical.choice, Quot.sound]

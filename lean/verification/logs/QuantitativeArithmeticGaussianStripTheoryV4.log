@@ -1,0 +1,42 @@
+'QuantitativeArithmeticGaussianStrip.gaussian_polynomial_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticGaussianStrip.kernel_weight_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticGaussianStrip.norm_le_kernel_center' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticGaussianStrip.kernel_signed_exponential' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticGaussianStrip.kernel_absolute_exponential' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticGaussianStrip.exponential_right_propagation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticGaussianStrip.exponential_left_propagation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticGaussianStrip.localized_polynomial_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticGaussianStrip.localized_decay_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticGaussianStrip.midpoint_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticGaussianStrip.rapid_midpoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticGaussianStrip.rapid_all_lines' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticGaussianStrip.RapidLine.polynomial_mul' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticGaussianStrip.RapidLine.sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticGaussianStrip.rapid_strip' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticGaussianStrip.RapidLine.vertical_integrable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticGaussianStrip.quotient_vertical_integrable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticGaussianStrip.entire_quotient_regular_part' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticGaussianStrip.rapid_quotient_mellin_shift' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

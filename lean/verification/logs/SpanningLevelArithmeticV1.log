@@ -1,0 +1,1 @@
+'SpanningLevelArithmetic.level_coprime_mul' depends on axioms: [propext, Quot.sound]

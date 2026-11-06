@@ -1,0 +1,4 @@
+'SmallLevelThirty.original_two_exact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirty.root_four_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirty.original_C_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+

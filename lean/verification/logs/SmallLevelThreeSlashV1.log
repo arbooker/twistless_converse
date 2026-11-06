@@ -1,0 +1,3 @@
+'SmallLevelThree.upperBranch_slash' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThree.lowerBranch_slash' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThree.original_pair_slash' depends on axioms: [propext, Classical.choice, Quot.sound]

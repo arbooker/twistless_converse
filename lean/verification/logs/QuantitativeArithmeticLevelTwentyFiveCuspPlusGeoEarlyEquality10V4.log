@@ -1,0 +1,4 @@
+'QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_eq_bounded_block_10' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

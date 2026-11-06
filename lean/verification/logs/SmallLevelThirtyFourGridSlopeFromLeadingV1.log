@@ -1,0 +1,4 @@
+'SmallLevelThirtyFourGrid.slopeFromLeading_actual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtyFourUnitMMM.scaled_sourceSlopeRows_actual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtyFourUnitMMP.scaled_sourceSlopeRows_actual' depends on axioms: [propext, Classical.choice, Quot.sound]
+

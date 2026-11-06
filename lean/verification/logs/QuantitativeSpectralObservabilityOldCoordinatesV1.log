@@ -1,0 +1,2 @@
+'QuantitativeSpectralObservability.oldProjection_coordinate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralObservability.oldProjection_range' depends on axioms: [propext, Classical.choice, Quot.sound]

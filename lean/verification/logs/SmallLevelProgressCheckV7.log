@@ -1,0 +1,33 @@
+SmallLevelOriginal.SmallLevelsTheorem : Prop
+SmallLevelThree.original_pair {N k : ℕ} (hN : 0 < N) (hgood : ¬3 ∣ N) {f : ℕ → ℂ}
+  (hf : FinitenessOriginalInput.IsSolution N k f) (z : UpperHalfPlane) :
+  FinitenessFourierConstruction.fourier (FinitenessOriginalFourier.fullCoefficients f k) ((↑z + 1) / 3) +
+      FinitenessFourierConstruction.fourier (FinitenessOriginalFourier.fullCoefficients f k) ((↑z - 1) / 3) =
+    3 ^ k *
+        (FinitenessFourierConstruction.fourier (FinitenessOriginalFourier.fullCoefficients f k)
+            ↑(SmallLevelThree.lowerBranch N 1 • z) /
+          (↑N * ↑z + 1) ^ k) +
+      3 ^ k *
+        (FinitenessFourierConstruction.fourier (FinitenessOriginalFourier.fullCoefficients f k)
+            ↑(SmallLevelThree.lowerBranch N (-1) • z) /
+          (-↑N * ↑z + 1) ^ k)
+SmallLevelThree.original_pair_slash {N k : ℕ} (hN : 0 < N) (hgood : ¬3 ∣ N) {f : ℕ → ℂ}
+  (hf : FinitenessOriginalInput.IsSolution N k f) :
+  SlashAction.map (↑k) (SmallLevelThree.upperBranch 1) (SmallLevelOriginal.fourierFunction k f) +
+      SlashAction.map (↑k) (SmallLevelThree.upperBranch (-1)) (SmallLevelOriginal.fourierFunction k f) =
+    SlashAction.map (↑k) (SmallLevelThree.lowerBranch N 1) (SmallLevelOriginal.fourierFunction k f) +
+      SlashAction.map (↑k) (SmallLevelThree.lowerBranch N (-1)) (SmallLevelOriginal.fourierFunction k f)
+SmallLevelEleven.elliptic_defect_zero {F : ℂ → ℂ} {k : ℕ} (hF : AnalyticOnNhd ℂ F {z | 0 < z.im}) (hk : 0 < k)
+  (he : ∀ (z : ℂ), 0 < z.im → F ((4 * z + 5 / 3) / (-11 * z - 13 / 3)) = (-11 * z - 13 / 3) ^ k * F z) (z : ℂ) :
+  0 < z.im → F z = 0
+'SmallLevelThree.original_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThree.original_pair_slash' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelEleven.matrix_relation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelEleven.elliptic_defect_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+SmallLevelOriginal.level_eleven {k : ℕ} (hk : 0 < k) (heven : Even k) {f : ℕ → ℂ}
+  (hf : FinitenessOriginalInput.IsSolution 11 k f) : SmallLevelOriginal.IsModular 11 k f
+'SmallLevelEleven.original_defect_elliptic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelEleven.original_A' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelEleven.gamma0_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelOriginal.level_eleven' depends on axioms: [propext, Classical.choice, Quot.sound]
+

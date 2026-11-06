@@ -1,0 +1,7 @@
+'QuantitativeEulerEndpointPrepared.generatorHeight_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.generatorTransportConstant_pos' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.generator_transport_height' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

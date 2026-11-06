@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointAP.primeDirichlet_le_finite_add_tail' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointAP.finite_primeReciprocal_dyadic_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

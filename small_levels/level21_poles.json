@@ -1,0 +1,159 @@
+{
+  "scope": "N21 Q42 pole restrictions; modularity and one simple weight-2 pole remain open",
+  "checks": [
+    {
+      "script": "level21_augmented_first_jet.py",
+      "signs": [
+        -1,
+        -1,
+        -1
+      ],
+      "result": "FIRST_JET_CERTIFICATE_VERIFIED -1 -1 -1"
+    },
+    {
+      "script": "level21_weight_pole.py",
+      "signs": [
+        -1,
+        -1,
+        -1
+      ],
+      "result": "WEIGHT_POLE_CERTIFICATE_VERIFIED -1 -1 -1"
+    },
+    {
+      "script": "level21_augmented_first_jet.py",
+      "signs": [
+        -1,
+        -1,
+        1
+      ],
+      "result": "FIRST_JET_CERTIFICATE_VERIFIED -1 -1 1"
+    },
+    {
+      "script": "level21_weight_pole.py",
+      "signs": [
+        -1,
+        -1,
+        1
+      ],
+      "result": "WEIGHT_POLE_CERTIFICATE_VERIFIED -1 -1 1"
+    },
+    {
+      "script": "level21_augmented_first_jet.py",
+      "signs": [
+        -1,
+        1,
+        -1
+      ],
+      "result": "FIRST_JET_CERTIFICATE_VERIFIED -1 1 -1"
+    },
+    {
+      "script": "level21_weight_pole.py",
+      "signs": [
+        -1,
+        1,
+        -1
+      ],
+      "result": "WEIGHT_POLE_CERTIFICATE_VERIFIED -1 1 -1"
+    },
+    {
+      "script": "level21_augmented_first_jet.py",
+      "signs": [
+        -1,
+        1,
+        1
+      ],
+      "result": "FIRST_JET_CERTIFICATE_VERIFIED -1 1 1"
+    },
+    {
+      "script": "level21_weight_pole.py",
+      "signs": [
+        -1,
+        1,
+        1
+      ],
+      "result": "WEIGHT_POLE_CERTIFICATE_VERIFIED -1 1 1"
+    },
+    {
+      "script": "level21_augmented_first_jet.py",
+      "signs": [
+        1,
+        -1,
+        -1
+      ],
+      "result": "FIRST_JET_CERTIFICATE_VERIFIED 1 -1 -1"
+    },
+    {
+      "script": "level21_weight_pole.py",
+      "signs": [
+        1,
+        -1,
+        -1
+      ],
+      "result": "WEIGHT_POLE_CERTIFICATE_VERIFIED 1 -1 -1"
+    },
+    {
+      "script": "level21_augmented_first_jet.py",
+      "signs": [
+        1,
+        -1,
+        1
+      ],
+      "result": "FIRST_JET_CERTIFICATE_VERIFIED 1 -1 1"
+    },
+    {
+      "script": "level21_weight_pole.py",
+      "signs": [
+        1,
+        -1,
+        1
+      ],
+      "result": "WEIGHT_POLE_CERTIFICATE_VERIFIED 1 -1 1"
+    },
+    {
+      "script": "level21_augmented_first_jet.py",
+      "signs": [
+        1,
+        1,
+        -1
+      ],
+      "result": "FIRST_JET_CERTIFICATE_VERIFIED 1 1 -1"
+    },
+    {
+      "script": "level21_weight_pole.py",
+      "signs": [
+        1,
+        1,
+        -1
+      ],
+      "result": "WEIGHT_POLE_CERTIFICATE_VERIFIED 1 1 -1"
+    },
+    {
+      "script": "level21_augmented_first_jet.py",
+      "signs": [
+        1,
+        1,
+        1
+      ],
+      "result": "FIRST_JET_CERTIFICATE_VERIFIED 1 1 1"
+    },
+    {
+      "script": "level21_weight_pole.py",
+      "signs": [
+        1,
+        1,
+        1
+      ],
+      "result": "WEIGHT_POLE_CERTIFICATE_VERIFIED 1 1 1"
+    },
+    {
+      "script": "level21_exceptional_jet.py",
+      "output": "rows 474\nmonomial rank 41 free [6] residual 28\nrhs reduced 0.32\norder 1 rank 42 obstructions []\norder 2 rank 42 obstructions []\norder 3 rank 42 obstructions [(('R', 7), -1029), (('F', 7, -2), 28812), (('F', 7, -3), -153664/3), (('F', 7, 4), 28812)]\nN21_EXCEPTIONAL_JET_VERIFIED\n"
+    }
+  ],
+  "sha256": {
+    "level21_augmented_builder.py": "cbff6c17b0cfbf2009a59784f27f882e63fb0f1acc139289a19f1abaad26d849",
+    "level21_augmented_first_jet.py": "9cd58c04cf78ef070a373795676e3843ad43b6a9b36e255b34ad127e33456b32",
+    "level21_weight_pole.py": "8ebc1d171995df21797e4ec68336e4d5162b905ab7e45f24d3eb3782ba2d5129",
+    "level21_exceptional_jet.py": "c7c319a59c74263a67185671e2f9c7ff365dfafc1dabfbe1f8149862766ece54"
+  }
+}

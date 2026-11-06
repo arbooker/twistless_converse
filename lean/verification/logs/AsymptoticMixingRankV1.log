@@ -1,0 +1,8 @@
+'AsymptoticMixing.translation_covariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticMixing.mixed_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticMixing.normalizedMixed_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticMixing.normalizedMixed_polar_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticMixing.normalizedMixed_rank_loss' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticMixing.normalizedMixed_ker' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticMixing.mixed_rank_loss' depends on axioms: [propext, Classical.choice, Quot.sound]
+

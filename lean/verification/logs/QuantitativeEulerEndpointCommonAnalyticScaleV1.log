@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointCommonReconstruction.horizon_sqrt_error_at_scale' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointCommonReconstruction.exists_horizon_analytic_scale' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

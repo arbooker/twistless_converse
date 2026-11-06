@@ -1,0 +1,7 @@
+'QuantitativeArithmeticSmallLevelThirtyThreeKnownWords.raw_word_fourier' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyThreeKnownWords.raw_word_taylor_of_fricke' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

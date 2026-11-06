@@ -1,0 +1,3 @@
+'AsymptoticUnweightedKernel.branch_diagonal_summable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticUnweightedKernel.liftedTrace_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticUnweightedKernel.liftedTrace_list_sum' depends on axioms: [propext, Classical.choice, Quot.sound]

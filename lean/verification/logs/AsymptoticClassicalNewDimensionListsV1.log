@@ -1,0 +1,5 @@
+'AsymptoticClassicalDimension.partialNewSpace_eq_new_of_covers' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticClassicalDimension.new_dimension_all_list' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalDimension.new_dimension_odd_list' depends on axioms: [propext, Classical.choice, Quot.sound]

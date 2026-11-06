@@ -1,0 +1,6 @@
+'QuantitativeArithmeticSmallLevelCirc.CuspSpectral.restrict_inner' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.CuspSpectral.weight_two_boundary_eigen_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,88 @@
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+'QuantitativeArithmeticDilationLaplace.integral_Ioi_translate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticDilationLaplace.transform_shift' depends on axioms: [propext, Classical.choice, Quot.sound]
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+'QuantitativeArithmeticDilationLaplace.integrable_shift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticDilationLaplace.recurrence_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticDilationLaplace.polynomial_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticDilationLaplace.recurrencePolynomial_ne_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticDilationLaplace.segment_entire' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticDilationLaplace.numerator_entire' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticDilationLaplace.segment_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticDilationLaplace.numerator_strip_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+'QuantitativeArithmeticDilationLaplace.weighted_segment_norm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticDilationLaplace.numerator_exterior_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+'QuantitativeArithmeticDilationLaplace.denominator_exterior_lower_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticDilationLaplace.pole_subtracted_constant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticDilationLaplace.continued_recurrence_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticDilationLaplace.constant_of_recurrence_continuation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticDilationLaplace.transform_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticDilationLaplace.polar_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticDilationLaplace.pole_subtracted_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+'QuantitativeArithmeticDilationLaplace.fourier_positiveWeight' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticDilationLaplace.zero_of_transform_line' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticDilationLaplace.constant_of_pole_subtracted_continuation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticDilationLaplace.constant_of_meromorphic_continuation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticDilationLaplace.zero_of_meromorphic_continuation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticDilationLaplace.exponential_growth_integrable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticDilationLaplace.constant_of_exponential_growth' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,131 @@
+SmallLevelOriginal.SmallLevelsTheorem : Prop
+'SmallLevelTaylor.integrated_series' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTaylor.deformed_mellin_envelope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTaylor.deformed_mellin_series' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTaylor.coefficients_of_real_binomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+SmallLevelTaylor.taylorCoeff_additive_mellin (k : ℕ) {a : ℕ → ℂ} (ha : FinitenessPolynomialSeries.PolynomialBound a)
+  (ha0 : a 0 = 0) {c : ℝ} (hc : 0 < c) :
+  ∃ B,
+    ∀ (β : ℝ) (s : ℂ),
+      B < s.re →
+        ∀ (n : ℕ),
+          mellin (fun y => SmallLevelTaylor.taylorCoeff k a β c y n) s =
+            Ring.choose (s - ↑k) n * ↑c ^ s * SmallLevelAdditive.transform a β s
+'SmallLevelTaylor.taylorCoeff_additive_mellin' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTaylor.taylorTerm_convergent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTaylor.taylorTerm_additive_mellin' depends on axioms: [propext, Classical.choice, Quot.sound]
+SmallLevelTaylor.all_taylor_mellin_rows {L r : ℝ} (hL : 0 < L) (hr : r ≠ 0) (k : ℕ) {a : ℕ → ℂ}
+  (ha : FinitenessPolynomialSeries.PolynomialBound a) (ha0 : a 0 = 0) (χ : ℂ)
+  (hF :
+    ∀ (z : ℂ),
+      0 < z.im →
+        FinitenessFourierConstruction.fourier a z =
+          χ / (↑√L * z) ^ k * FinitenessFourierConstruction.fourier a (-1 / (↑L * z))) :
+  ∃ B,
+    ∀ (M : ℕ),
+      AnalyticOnNhd ℂ (mellin (SmallLevelTaylor.frickeError k a L r χ M)) {s | B - ↑M < s.re} ∧
+        ∀ (s : ℂ),
+          B < s.re →
+            SmallLevelAdditive.transform a r s -
+                χ / (↑√L * ↑r) ^ k *
+                  ∑ n ∈ Finset.range M, SmallLevelTaylor.mellinTaylorTerm k a (-1 / (L * r)) (L * r ^ 2) r n s =
+              mellin (SmallLevelTaylor.frickeError k a L r χ M) s
+'SmallLevelTaylor.all_taylor_mellin_rows' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTaylor.normalized_taylor_mellin_rows' depends on axioms: [propext, Classical.choice, Quot.sound]
+SmallLevelTaylor.original_finite_sum_taylor_rows {N k : ℕ} (hN : 0 < N) (hk : Even k) {f : ℕ → ℂ}
+  (hf : FinitenessOriginalInput.IsSolution N k f) :
+  ∃ ε,
+    (ε = 1 ∨ ε = -1) ∧
+      ∀ (q : ℕ),
+        0 < q →
+          ∀ (r : ℝ),
+            r ≠ 0 →
+              ∃ B,
+                ∀ (M : ℕ),
+                  AnalyticOnNhd ℂ
+                      (mellin
+                        (SmallLevelTaylor.frickeError k
+                          (FinitenessOriginalFourier.fullCoefficients (FinitenessRamanujanFourier.twisted f q) k)
+                          (↑(N.lcm (q ^ 2))) r (FinitenessNormalizedTwistProduct.root N f q * ε * Complex.I ^ k) M))
+                      {s | B - ↑M < s.re} ∧
+                    ∀ (s : ℂ),
+                      B < s.re →
+                        SmallLevelTaylor.ramanujanAdditive k f q r s -
+                            FinitenessNormalizedTwistProduct.root N f q * ε * Complex.I ^ k *
+                                ↑(↑(N.lcm (q ^ 2)) * r ^ 2) ^ (s - ↑k / 2) *
+                              SmallLevelTaylor.ramanujanTaylorSum k f q (↑(N.lcm (q ^ 2))) r M s =
+                          mellin
+                            (SmallLevelTaylor.frickeError k
+                              (FinitenessOriginalFourier.fullCoefficients (FinitenessRamanujanFourier.twisted f q) k)
+                              (↑(N.lcm (q ^ 2))) r (FinitenessNormalizedTwistProduct.root N f q * ε * Complex.I ^ k) M)
+                            s
+'SmallLevelTaylor.original_finite_sum_taylor_rows' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTaylor.taylorRowScalar_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelAdditive.grid_mod' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelAdditive.fricke_grid_partner' depends on axioms: [propext, Classical.choice, Quot.sound]
+SmallLevelTaylor.original_closed_grid_taylor_rows {N k : ℕ} (hN : 0 < N) (hk : Even k) {f : ℕ → ℂ}
+  (hf : FinitenessOriginalInput.IsSolution N k f) :
+  ∃ ε,
+    (ε = 1 ∨ ε = -1) ∧
+      ∀ (Q q : ℕ),
+        0 < Q →
+          0 < q →
+            q ∣ Q →
+              ∀ (t d : ℤ),
+                t ≠ 0 →
+                  ↑(N.lcm (q ^ 2)) * d = ↑Q ^ 2 →
+                    t ∣ d →
+                      ∃ B,
+                        ∀ (M : ℕ),
+                          AnalyticOnNhd ℂ
+                              (mellin
+                                (SmallLevelTaylor.frickeError k
+                                  (FinitenessOriginalFourier.fullCoefficients (FinitenessRamanujanFourier.twisted f q)
+                                    k)
+                                  (↑(N.lcm (q ^ 2))) (↑t / ↑Q)
+                                  (FinitenessNormalizedTwistProduct.root N f q * ε * Complex.I ^ k) (M + 1)))
+                              {s | B - (↑M + 1) < s.re} ∧
+                            ∀ (s : ℂ),
+                              B < s.re →
+                                SmallLevelTaylor.gridSum k f Q q t s -
+                                    SmallLevelTaylor.taylorRowScalar k (↑(N.lcm (q ^ 2))) (↑t / ↑Q)
+                                        (FinitenessNormalizedTwistProduct.root N f q * ε * Complex.I ^ k) 0 s *
+                                      SmallLevelTaylor.gridSum k f Q q (-(d / t)) s =
+                                  mellin
+                                      (SmallLevelTaylor.frickeError k
+                                        (FinitenessOriginalFourier.fullCoefficients
+                                          (FinitenessRamanujanFourier.twisted f q) k)
+                                        (↑(N.lcm (q ^ 2))) (↑t / ↑Q)
+                                        (FinitenessNormalizedTwistProduct.root N f q * ε * Complex.I ^ k) (M + 1))
+                                      s +
+                                    ∑ n ∈ Finset.range M,
+                                      SmallLevelTaylor.taylorRowScalar k (↑(N.lcm (q ^ 2))) (↑t / ↑Q)
+                                          (FinitenessNormalizedTwistProduct.root N f q * ε * Complex.I ^ k) (n + 1) s *
+                                        SmallLevelTaylor.gridSum k f Q q (-(d / t)) (s + (↑n + 1))
+'SmallLevelTaylor.original_closed_grid_taylor_rows' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTaylor.original_ramanujan_entire' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTaylor.normalized_additive_hecke' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOne.taylorSpecs_valid' depends on axioms: [propext]
+SmallLevelTwentyOne.original_taylor_system {k : ℕ} (hk : Even k) {f : ℕ → ℂ}
+  (hf : FinitenessOriginalInput.IsSolution 21 k f) :
+  ∃ ε,
+    (ε = 1 ∨ ε = -1) ∧
+      ∃ B,
+        ∀ (i : Fin 28) (M : ℕ),
+          AnalyticOnNhd ℂ (SmallLevelTwentyOne.rowError k f ε i M) {s | B - (↑M + 1) < s.re} ∧
+            ∀ (s : ℂ),
+              B < s.re →
+                SmallLevelTaylor.gridSum k f 42 (SmallLevelTwentyOne.rowQ i) (SmallLevelTwentyOne.rowT i) s -
+                    SmallLevelTwentyOne.rowCoefficient k f ε i 0 s *
+                      SmallLevelTaylor.gridSum k f 42 (SmallLevelTwentyOne.rowQ i) (SmallLevelTwentyOne.rowPartner i)
+                        s =
+                  SmallLevelTwentyOne.rowError k f ε i M s +
+                    ∑ n ∈ Finset.range M,
+                      SmallLevelTwentyOne.rowCoefficient k f ε i (n + 1) s *
+                        SmallLevelTaylor.gridSum k f 42 (SmallLevelTwentyOne.rowQ i) (SmallLevelTwentyOne.rowPartner i)
+                          (s + (↑n + 1))
+'SmallLevelTwentyOne.original_taylor_system' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOne.original_entire_rows' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOne.original_hecke_grid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOne.original_selected_hecke_rows' depends on axioms: [propext, Classical.choice, Quot.sound]
+

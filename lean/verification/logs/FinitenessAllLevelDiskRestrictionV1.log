@@ -1,0 +1,9 @@
+'FinitenessAllLevelDiskRestriction.fderiv_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelDiskRestriction.restrictC_lipschitz' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelDiskRestriction.restrictC_isCompactOperator' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FinitenessAllLevelDiskRestriction.restrict_isCompactOperator' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

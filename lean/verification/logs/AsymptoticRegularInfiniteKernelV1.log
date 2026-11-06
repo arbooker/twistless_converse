@@ -1,0 +1,17 @@
+'AsymptoticRegularTrace.covariant_of_strong_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.finiteKernelProjection_strong_limit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticRegularObservation.infiniteKernelProjection_matrix_measurable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticRegularObservation.jointKernelProjection_covariant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticRegularObservation.infiniteKernelProjection_covariant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticRegularObservation.finiteKernelTrace_tendsto_infinite' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

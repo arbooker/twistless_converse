@@ -1,0 +1,6 @@
+'FinitenessAllLevelPolynomialPresentation.Presentation.mem_zeroLocus' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FinitenessAllLevelPolynomialPresentation.Presentation.finiteDimensional_fiber' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

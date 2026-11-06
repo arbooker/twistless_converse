@@ -1,0 +1,1 @@
+'QuantitativeEulerEndpointSpectralWindow.window_trace_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]

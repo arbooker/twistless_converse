@@ -1,0 +1,3 @@
+'SmallLevelLaurentGermOperations.eval_germ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelLaurentGermOperations.checked_combination_germ' depends on axioms: [propext, Classical.choice, Quot.sound]
+

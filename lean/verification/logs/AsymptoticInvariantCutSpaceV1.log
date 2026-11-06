@@ -1,0 +1,6 @@
+'AsymptoticCoordinateCut.cutSpace_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCoordinateCut.complement_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCoordinateCut.cutSpace_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCoordinateCut.cutSpace_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCoordinateCut.cutSpace_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+

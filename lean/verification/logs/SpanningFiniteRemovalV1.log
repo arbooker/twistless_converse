@@ -1,0 +1,1 @@
+'SpanningFiniteRemoval.remove_finite_traces' depends on axioms: [propext, Classical.choice, Quot.sound]

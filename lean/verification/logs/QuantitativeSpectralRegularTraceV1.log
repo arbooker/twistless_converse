@@ -1,0 +1,2 @@
+'QuantitativeSpectralRegularTrace.trace_cut_majorant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralRegularTrace.fresh_cut_trace' depends on axioms: [propext, Classical.choice, Quot.sound]

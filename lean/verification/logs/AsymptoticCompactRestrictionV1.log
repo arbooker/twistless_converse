@@ -1,0 +1,7 @@
+'AsymptoticRegularBranchFamily.compact_restrict' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularBranchFamily.family_restrict' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFreshRank.row_restrict' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFreshRank.twist_restrict' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFreshRank.individual_ker_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFreshRank.twist_ker_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+

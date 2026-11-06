@@ -1,0 +1,3 @@
+'QuantitativeArithmeticThreePointJetScale.scale_binomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticThreePointJetScale.normalize_cancel' depends on axioms: [propext, Classical.choice, Quot.sound]
+

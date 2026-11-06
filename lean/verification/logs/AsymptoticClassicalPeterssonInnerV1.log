@@ -1,0 +1,8 @@
+'AsymptoticClassicalPetersson.cusp_complete' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalPetersson.newSpace_closed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalPetersson.newSpace_complete' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalPetersson.weighted_inner' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalPetersson.cuspNormedAddCommGroup' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalPetersson.cuspInnerProductSpace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalPetersson.inner_eq_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalPetersson.integrable_petersson' depends on axioms: [propext, Classical.choice, Quot.sound]

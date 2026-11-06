@@ -1,0 +1,4 @@
+'GridPrimeParts.part_complement' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GridPrimeParts.parts_coprime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GridPrimeParts.divisor_dvd_part' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GridPrimeParts.part_dvd_part' depends on axioms: [propext, Classical.choice, Quot.sound]

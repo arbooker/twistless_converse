@@ -1,0 +1,5 @@
+'FinitenessAllLevelBoundaryGeometry.frickeSource_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelBoundaryGeometry.frickeWeight_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelBoundaryGeometry.frickeSample' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelBoundaryGeometry.dilationSample' depends on axioms: [propext, Classical.choice, Quot.sound]
+

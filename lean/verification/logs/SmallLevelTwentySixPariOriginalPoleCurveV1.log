@@ -1,0 +1,2 @@
+'SmallLevelTwentySixGermDAG.original_pole_low_curve_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+

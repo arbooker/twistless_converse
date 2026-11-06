@@ -1,0 +1,2 @@
+'QuantitativeEulerEndpointLevelOne.signed_S_is_fixed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointLevelOne.signed_S_periodic_modular' depends on axioms: [propext, Classical.choice, Quot.sound]

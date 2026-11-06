@@ -1,0 +1,3 @@
+'QuantitativeNewGap.quotient_root_faithful' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeNewGap.quotient_gram_root_faithful' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeNewGap.regularHecke_equivariant' depends on axioms: [propext, Classical.choice, Quot.sound]

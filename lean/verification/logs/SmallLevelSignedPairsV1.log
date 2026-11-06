@@ -1,0 +1,6 @@
+'SmallLevelSignedPairs.inverse_pairs_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelSignedPairs.pair_reduction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelSignedPairs.inverse_pairs' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFivePairs.inverse_pairs' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

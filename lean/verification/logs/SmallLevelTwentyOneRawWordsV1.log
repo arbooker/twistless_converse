@@ -1,0 +1,6 @@
+'SmallLevelTwentyOneKnownWords.seed_raw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneKnownWords.inverse_val_adjugate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneKnownWords.value_raw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneKnownWords.raw_det_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneKnownWords.raw_det_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+

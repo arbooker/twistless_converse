@@ -1,0 +1,26 @@
+module
+
+public import SmallLevelProgressCheckV6
+public import SmallLevelThreePairV1
+public import SmallLevelThreeSlashV1
+public import SmallLevelElevenEllipticV1
+public import SmallLevelElevenDefectV1
+public import SmallLevelElevenRigidityV1
+public import SmallLevelElevenGeneratorsV1
+public import SmallLevelElevenModularV1
+
+@[expose] public section
+
+#check SmallLevelOriginal.SmallLevelsTheorem
+#check SmallLevelThree.original_pair
+#check SmallLevelThree.original_pair_slash
+#check SmallLevelEleven.elliptic_defect_zero
+#print axioms SmallLevelThree.original_pair
+#print axioms SmallLevelThree.original_pair_slash
+#print axioms SmallLevelEleven.matrix_relation
+#print axioms SmallLevelEleven.elliptic_defect_zero
+#check SmallLevelOriginal.level_eleven
+#print axioms SmallLevelEleven.original_defect_elliptic
+#print axioms SmallLevelEleven.original_A
+#print axioms SmallLevelEleven.gamma0_mem
+#print axioms SmallLevelOriginal.level_eleven

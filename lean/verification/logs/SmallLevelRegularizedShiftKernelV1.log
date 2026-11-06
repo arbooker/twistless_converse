@@ -1,0 +1,1 @@
+'SmallLevelFiniteShift.regularized_block_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]

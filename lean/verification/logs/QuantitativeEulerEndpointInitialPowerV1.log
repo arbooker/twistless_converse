@@ -1,0 +1,7 @@
+'QuantitativeEulerEndpointInitialPower.scalar_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointInitialPower.powerFilter_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointInitialPower.powerFilter_fixed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointInitialPower.energy_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointInitialPower.sandwiched_energy_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

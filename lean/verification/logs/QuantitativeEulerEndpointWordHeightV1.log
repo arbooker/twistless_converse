@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointPrepared.wordTransportHeight_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.inverse_letter_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.inverse_letter_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.finite_sum_squared_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

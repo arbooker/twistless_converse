@@ -1,0 +1,6 @@
+'QuantitativeArithmeticGeneralDimension.partial_dimension_bounded' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticGeneralDimension.new_dimension_bounded' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointPrepared.compact_prime_recovery_combined' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.fixed_prime_residual_squared' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

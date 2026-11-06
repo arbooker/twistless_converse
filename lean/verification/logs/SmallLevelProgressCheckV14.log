@@ -1,0 +1,27 @@
+SmallLevelOriginal.SmallLevelsTheorem : Prop
+SmallLevelThirtyB.original_A (m : ℕ) (hm : 0 < m) {f : ℕ → ℂ} (hf : FinitenessOriginalInput.IsSolution 30 (2 * m) f) :
+  ∃ δ,
+    (δ = 1 ∨ δ = -1) ∧
+      SlashAction.map (↑(2 * m)) SmallLevelThirtyB.A (SmallLevelOriginal.fourierFunction (2 * m) f) =
+        δ • SmallLevelOriginal.fourierFunction (2 * m) f
+SmallLevelThirtyC.original_C (m : ℕ) (hm : 0 < m) {f : ℕ → ℂ} (hf : FinitenessOriginalInput.IsSolution 30 (2 * m) f) :
+  SlashAction.map (↑(2 * m)) SmallLevelThirtyC.C (SmallLevelOriginal.fourierFunction (2 * m) f) =
+    FinitenessNormalizedTwistProduct.root 30 f 4 • SmallLevelOriginal.fourierFunction (2 * m) f
+SmallLevelThirty.original_C_two (m : ℕ) (hm : 0 < m) {f : ℕ → ℂ}
+  (hf : FinitenessOriginalInput.IsSolution 30 (2 * m) f) :
+  SlashAction.map (↑(2 * m)) SmallLevelThirtyC.C (SmallLevelOriginal.fourierFunction (2 * m) f) =
+    FinitenessNormalizedTwistProduct.root 30 f 2 • SmallLevelOriginal.fourierFunction (2 * m) f
+'SmallLevelThirty.original_pair_six' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirty.original_pair_four_exact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtyB.original_A' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelNormalized.double_coset_defect' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtyC.actual_defect_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtyC.original_C' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirty.original_two_exact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirty.original_C_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+SmallLevelOriginal.level_thirty {k : ℕ} (hk : 0 < k) (heven : Even k) {f : ℕ → ℂ}
+  (hf : FinitenessOriginalInput.IsSolution 30 k f) : SmallLevelOriginal.IsModular 30 k f
+'SmallLevelThirty.normalized_edge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirty.original_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirty.gamma0_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelOriginal.level_thirty' depends on axioms: [propext, Classical.choice, Quot.sound]

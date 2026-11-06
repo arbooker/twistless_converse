@@ -1,0 +1,4 @@
+'FinitenessAllLevelEigenvalueDegree.coefficient_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelEigenvalueDegree.polynomial_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelEigenvalueDegree.DegreeBound.global_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+

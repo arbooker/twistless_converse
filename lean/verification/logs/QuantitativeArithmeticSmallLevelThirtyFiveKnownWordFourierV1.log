@@ -1,0 +1,10 @@
+'QuantitativeArithmeticSmallLevelThirtyFiveKnownWords.coordinate_det' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveKnownWords.word_fourier_of_slash' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveKnownWords.original_word_taylor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

@@ -1,0 +1,9 @@
+'QuantitativeSpectralExceptionalReconstructionTail.composition_rank_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralExceptionalReconstructionTail.row_rank_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralExceptionalReconstructionTail.survivor_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

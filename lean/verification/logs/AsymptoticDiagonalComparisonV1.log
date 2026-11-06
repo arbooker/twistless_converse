@@ -1,0 +1,3 @@
+'AsymptoticDiagonalComparison.product_summable_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticDiagonalComparison.diagonal_sub_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticDiagonalComparison.trace_difference_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

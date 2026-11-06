@@ -1,0 +1,4 @@
+'QuantitativeEulerEndpointPrepared.packetChain_mass_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.prepared_packet_trace_decay' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

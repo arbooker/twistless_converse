@@ -1,0 +1,9 @@
+'QuantitativeEulerEndpointBoundedIteration.exists_actual_logarithmic_cost' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointBoundedIteration.exists_actual_sharpness_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointBoundedIteration.exists_actual_coefficient_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,10 @@
+'QuantitativeHolomorphic.normalizedRegularAmbientCountReconstruction_gram' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.normalizedRegularAmbientCountReconstruction_norm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.normalizedRegularAmbientCountReconstruction_trace_gram' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.regularSourceFilter_regular' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,6 @@
+'QuantitativeSpectralObservability.fundamentalTail_source_rank' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralObservability.oldSampledTail_source_rank' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,18 @@
+'QuantitativeArithmeticSparsePolynomialCertificate.eval_mergeFuel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSparsePolynomialCertificate.eval_shift' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSparsePolynomialCertificate.of_certificate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSparsePolynomialCertificate.of_bounded_certificate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSparsePolynomialCertificate.eval_product' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSparsePolynomialCertificate.eval_of_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

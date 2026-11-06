@@ -1,0 +1,6 @@
+'AsymptoticObservationStack.component_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticObservationStack.stack_component' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticObservationStack.polar_rows_gram' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticObservationStack.regularizedRow_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticObservationStack.polarRow_strong_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+

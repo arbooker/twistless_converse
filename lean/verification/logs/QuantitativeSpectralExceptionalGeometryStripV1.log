@@ -1,0 +1,6 @@
+'QuantitativeSpectralExceptionalGeometry.finite_strip_branch_words' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralExceptionalGeometry.finite_strip_family_words' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

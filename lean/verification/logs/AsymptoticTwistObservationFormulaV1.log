@@ -1,0 +1,3 @@
+'AsymptoticTwistObservation.translations_on_section' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticTwistObservation.reflections_on_section' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticTwistObservation.residual_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]

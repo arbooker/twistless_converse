@@ -1,0 +1,4 @@
+'QuantitativeEulerEndpointLevelOne.level_one_endpoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.prepared_sector_packet_diagonal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

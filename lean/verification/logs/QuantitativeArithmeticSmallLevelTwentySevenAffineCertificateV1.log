@@ -1,0 +1,6 @@
+'QuantitativeArithmeticSmallLevelTwentySevenAffineCertificate.certificate_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySevenAffineCertificate.target_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

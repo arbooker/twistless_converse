@@ -1,0 +1,3 @@
+'SmallLevelTwentyEightTwelfth.original_twelfth_fricke' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightTwelfth.twelfth_fourier' depends on axioms: [propext, Classical.choice, Quot.sound]
+

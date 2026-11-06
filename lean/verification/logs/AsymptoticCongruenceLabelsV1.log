@@ -1,0 +1,7 @@
+'AsymptoticCongruenceLabels.rationalGL_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceLabels.rationalGL_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceLabels.upper_label' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceLabels.canonical_label' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceLabels.fricke_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceLabels.reduction_labels' depends on axioms: [propext, Classical.choice, Quot.sound]
+

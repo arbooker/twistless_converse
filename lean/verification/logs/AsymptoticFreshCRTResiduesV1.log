@@ -1,0 +1,3 @@
+'AsymptoticFreshCRT.topLeft_isUnit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFreshCRT.generator_residue' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFreshCRT.residue_descends' depends on axioms: [propext, Classical.choice, Quot.sound]

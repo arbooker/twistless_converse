@@ -1,0 +1,3 @@
+'SmallLevelTwenty.five_signed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwenty.rescaled_sign' depends on axioms: [propext, Classical.choice, Quot.sound]
+

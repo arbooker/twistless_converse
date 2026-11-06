@@ -1,0 +1,3 @@
+'AsymptoticAtkinLehner.localConjugate_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticAtkinLehner.local_conjugate_label' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticAtkinLehner.local_conj_mem' depends on axioms: [propext, Classical.choice, Quot.sound]

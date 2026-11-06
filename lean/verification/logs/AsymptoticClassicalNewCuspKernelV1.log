@@ -1,0 +1,3 @@
+'AsymptoticClassicalCusp.prime_trace_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.new_disjoint_first_old' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.new_disjoint_second_old' depends on axioms: [propext, Classical.choice, Quot.sound]

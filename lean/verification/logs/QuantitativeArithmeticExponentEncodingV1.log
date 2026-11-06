@@ -1,0 +1,3 @@
+'QuantitativeArithmeticExponentEncoding.decode_encode' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticExponentEncoding.encode_add' depends on axioms: [propext, Quot.sound]
+'QuantitativeArithmeticExponentEncoding.decode_add' depends on axioms: [propext, Classical.choice, Quot.sound]

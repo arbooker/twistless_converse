@@ -1,0 +1,9 @@
+'QuantitativeArithmeticSmallLevelEisenstein.integral_hecke_indicator' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelEisenstein.integral_hecke_weights' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelEisenstein.prime_boundary_weights' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

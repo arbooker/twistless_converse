@@ -1,0 +1,13 @@
+'QuantitativeEulerEndpointPrepared.normalized_reconstruction_norm_on' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.reconstructed_image_projection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.reconstructed_image_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.reconstructed_image_regular' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.reconstructed_image_supported' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

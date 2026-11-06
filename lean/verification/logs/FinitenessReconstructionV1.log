@@ -1,0 +1,1 @@
+'FinitenessReconstruction.reconstruct_periodic' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,4 @@
+'SmallLevelTwentySixPariFinalFactors.factorization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixPariFinalFactors.branches' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixPariFinalFactors.target_binding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixPariFinalFactors.root_branch' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,10 @@
+'QuantitativeArithmeticMellinTransport.inverted_mellin' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticMellinTransport.logarithmic_mellin' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticMellinTransport.reflected_pole_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticMellinTransport.inverted_cutoff_integral' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticMellinTransport.curved_laplace_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

@@ -1,0 +1,5 @@
+'QuantitativeArithmeticSmallLevelCirc.allPrimeHecke_mem_space' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.allHecke' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.allHecke_commute' depends on axioms: [propext, Classical.choice, Quot.sound]

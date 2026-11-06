@@ -1,0 +1,9 @@
+'QuantitativeArithmeticSmallLevelCirc.ModularHecke.dilationTrace_fricke_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.ModularHecke.frickeOperator_involutive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.dilationTrace_eq_primeHecke' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

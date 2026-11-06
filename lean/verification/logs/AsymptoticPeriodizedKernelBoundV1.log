@@ -1,0 +1,2 @@
+'AsymptoticUnweightedKernel.translated_base_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticUnweightedKernel.periodized_kernel_norm_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

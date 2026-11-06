@@ -1,0 +1,4 @@
+'SmallLevelThirtySix.combo_T' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtySix.combo_S' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtySix.combo_Tinv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtySix.original_word' depends on axioms: [propext, Classical.choice, Quot.sound]

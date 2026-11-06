@@ -1,0 +1,4 @@
+'AsymptoticFoldedTerminal.coefficient_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFoldedTerminal.term_norm_summable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFoldedTerminal.operator_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFoldedTerminal.operator_coeFn' depends on axioms: [propext, Classical.choice, Quot.sound]

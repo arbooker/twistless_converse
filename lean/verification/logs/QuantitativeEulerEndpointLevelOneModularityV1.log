@@ -1,0 +1,1 @@
+'QuantitativeEulerEndpointLevelOne.solutionFunction_modular' depends on axioms: [propext, Classical.choice, Quot.sound]

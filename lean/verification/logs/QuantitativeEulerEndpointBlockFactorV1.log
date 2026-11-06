@@ -1,0 +1,2 @@
+'QuantitativeEulerEndpointBlocks.detecting_block_product_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointBlocks.detecting_block_contraction' depends on axioms: [propext, Classical.choice, Quot.sound]

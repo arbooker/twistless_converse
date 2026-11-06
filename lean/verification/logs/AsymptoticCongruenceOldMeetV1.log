@@ -1,0 +1,2 @@
+'AsymptoticCongruenceOldSpace.space_sup' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceOldSpace.space_inf_eq_bot' depends on axioms: [propext, Classical.choice, Quot.sound]

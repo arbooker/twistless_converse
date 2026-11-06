@@ -1,0 +1,6 @@
+'AsymptoticGeometricReconstruction.forcing_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticGeometricReconstruction.finiteExtension_terminal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticGeometricReconstruction.finiteExtension_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticGeometricReconstruction.finiteExtension_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularReconstruction.finiteFull_terminal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularReconstruction.finiteFull_error' depends on axioms: [propext, Classical.choice, Quot.sound]

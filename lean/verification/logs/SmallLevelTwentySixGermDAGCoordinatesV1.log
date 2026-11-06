@@ -1,0 +1,4 @@
+'SmallLevelTwentySixGermDAG.baseCoordinate_support' depends on axioms: [propext]
+'SmallLevelTwentySixGermDAG.decode_encode' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermDAG.encodedVector_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+

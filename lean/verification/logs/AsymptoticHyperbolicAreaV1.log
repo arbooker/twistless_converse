@@ -1,0 +1,5 @@
+'AsymptoticHyperbolicArea.closed_terminal_area' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticHyperbolicArea.closed_terminal_trace_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticHyperbolicArea.terminal_area' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticHyperbolicArea.terminal_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticHyperbolicArea.terminal_trace_finite' depends on axioms: [propext, Classical.choice, Quot.sound]

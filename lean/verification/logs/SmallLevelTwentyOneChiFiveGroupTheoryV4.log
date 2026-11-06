@@ -1,0 +1,7 @@
+'SmallLevelTwentyOneChiFiveGroup.original_E' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneChiFiveGroup.original_C_D' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneChiFiveGroup.A_branch_infinity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneChiFiveGroup.original_A' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneChiFiveGroup.separated_first_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneChiFiveGroup.original_A_B' depends on axioms: [propext, Classical.choice, Quot.sound]
+

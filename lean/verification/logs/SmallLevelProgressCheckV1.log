@@ -1,0 +1,30 @@
+SmallLevelOriginal.SmallLevelsTheorem : Prop
+SmallLevelOriginal.level_one {k : ℕ} (heven : Even k) {f : ℕ → ℂ} (hf : FinitenessOriginalInput.IsSolution 1 k f) :
+  SmallLevelOriginal.IsModular 1 k f
+SmallLevelThirtySix.original_orbit_data {f : ℕ → ℂ} (m : ℕ) (hf : FinitenessOriginalInput.IsSolution 36 (2 * m) f) :
+  MDiff (SmallLevelThirtySix.scaledFunction (2 * m) f) ∧
+    SlashAction.map (↑(2 * m)) ModularGroup.T
+          (SlashAction.map (↑(2 * m)) ModularGroup.T (SmallLevelThirtySix.scaledFunction (2 * m) f)) =
+        SlashAction.map (↑(2 * m)) ModularGroup.T (SmallLevelThirtySix.scaledFunction (2 * m) f) -
+          SmallLevelThirtySix.scaledFunction (2 * m) f ∧
+      ∃ χ,
+        (χ = 1 ∨ χ = -1) ∧
+          SlashAction.map (↑(2 * m)) ModularGroup.S (SmallLevelThirtySix.scaledFunction (2 * m) f) =
+              χ • SmallLevelThirtySix.scaledFunction (2 * m) f ∧
+            (χ = -1 →
+              ∀ (γ : Matrix.SpecialLinearGroup (Fin 2) ℤ),
+                SlashAction.map (↑(2 * m)) γ
+                    (SmallLevelThirtySix.obstruction m (SmallLevelThirtySix.scaledFunction (2 * m) f)) =
+                  SmallLevelThirtySix.obstruction m (SmallLevelThirtySix.scaledFunction (2 * m) f))
+SmallLevelAnalyticRigidity.hecke_filter_eq_zero {f : ℂ → ℂ} {k : ℕ} {A B : ℂ} (hf : AnalyticOnNhd ℂ f {z | 0 < z.im})
+  (hk : 0 < k) (hp : ∀ (z : ℂ), 0 < z.im → f (z + 1) = f z) (hS : ∀ (z : ℂ), 0 < z.im → f (-1 / z) = z ^ k * f z)
+  (he :
+    ∀ (z : ℂ),
+      0 < z.im →
+        A * f (5 * z) - 2 * f ((z + 6) / 5) + f ((z + 12) / 5) - f ((z + 18) / 5) + f ((z + 24) / 5) + B * f z = 0)
+  (z : ℂ) : 0 < z.im → f z = 0
+'SmallLevelOriginal.level_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelAnalyticRigidity.multiplier_eq_derivative_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelAnalyticRigidity.rational_trace_eqOn_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelAnalyticRigidity.hecke_filter_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtySix.original_orbit_data' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,3 @@
+'QuantitativeEulerEndpointBoundedIteration.exists_bounded_prime_block_iteration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

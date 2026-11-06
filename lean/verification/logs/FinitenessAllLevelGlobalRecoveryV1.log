@@ -1,0 +1,6 @@
+'FinitenessAllLevelConstraintLocus.constraints_recover_global' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FinitenessAllLevelConstraintLocus.global_finite_locus_iff_original' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

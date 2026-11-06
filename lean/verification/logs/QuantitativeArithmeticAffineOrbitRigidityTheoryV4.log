@@ -1,0 +1,20 @@
+'QuantitativeArithmeticAffineOrbitRigidity.dilation_recursion_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticAffineOrbitRigidity.dilation_recursion_constant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticAffineOrbitRigidity.sector_orbit_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticAffineOrbitRigidity.SectorDecay.add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticAffineOrbitRigidity.SectorDecay.bounded_mul' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticAffineOrbitRigidity.SectorDecay.translate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticAffineOrbitRigidity.inverse_affine_multiplier' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

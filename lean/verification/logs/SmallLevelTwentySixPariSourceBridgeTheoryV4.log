@@ -1,0 +1,14 @@
+'SmallLevelTwentySixPariSourceBridge.pivot87Four_binding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixPariSourceBridge.pivot8Four_binding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixPariSourceBridge.pivot87Raw_binding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixPariSourceBridge.pivot8Raw_binding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixPariSourceBridge.pivot87Six_binding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixPariSourceBridge.pivot8Six_binding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixPariSourceBridge.w87Left_binding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixPariSourceBridge.w87Right_binding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixPariSourceBridge.resultant87Source_binding' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixPariSourceBridge.resultant87W_binding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixPariSourceBridge.source87_resultant_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+

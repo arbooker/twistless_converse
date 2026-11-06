@@ -1,0 +1,3 @@
+'SmallLevelGenerators.lower_of_fricke' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelGenerators.original_T' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelGenerators.original_lower' depends on axioms: [propext, Classical.choice, Quot.sound]

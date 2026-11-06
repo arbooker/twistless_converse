@@ -1,0 +1,5 @@
+'QuantitativeArithmeticSmallLevelCirc.ModularHecke.localAtkin_fricke_commute' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.primeHecke_fricke_circ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.frickeLinear_val' depends on axioms: [propext, Classical.choice, Quot.sound]

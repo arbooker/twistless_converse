@@ -1,0 +1,9 @@
+'QuantitativeArithmeticSmallLevelEisenstein.integral_triangularGL' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelEisenstein.boundary_integral_term' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelEisenstein.triangularFactor_prime' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

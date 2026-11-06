@@ -1,0 +1,7 @@
+'QuantitativeSpectralPacketFactorization.strictFactor_below' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralPacketFactorization.diagonalFactor_isUnit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralPacketFactorization.factorization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralPacketFactorization.rows_gram_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralPacketFactorization.factor_gram_le' depends on axioms: [propext, Classical.choice, Quot.sound]

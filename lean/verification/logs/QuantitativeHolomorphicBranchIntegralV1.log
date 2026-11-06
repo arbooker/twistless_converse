@@ -1,0 +1,4 @@
+'QuantitativeHolomorphic.integral_matrix_branch_integral_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.fractional_branch_integral_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

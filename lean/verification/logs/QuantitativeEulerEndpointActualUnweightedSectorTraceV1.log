@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointApproximateTrace.sector_finrank_le_unweighted_expression' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointBoundedIteration.actualFiniteExpression_sector_unweighted_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

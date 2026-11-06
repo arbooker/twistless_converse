@@ -1,0 +1,4 @@
+'FinitenessPolynomialSeries.radius_ge_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessPolynomialSeries.holomorphic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessPolynomialSeries.summable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessPolynomialSeries.coefficients_unique' depends on axioms: [propext, Classical.choice, Quot.sound]

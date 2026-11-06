@@ -1,0 +1,5 @@
+'SpanningFiniteDimensions.traceIso' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpanningFiniteDimensions.stationary_dimensions' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpanningFiniteDimensions.surjective_of_injective_equal_dimension' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

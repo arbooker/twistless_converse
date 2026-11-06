@@ -1,0 +1,4 @@
+'QuantitativeEulerEndpointHighInverse.highInverse_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointHighInverse.hard_to_soft_high_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

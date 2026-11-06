@@ -1,0 +1,10 @@
+'QuantitativeArithmeticSmallLevelCirc.ModularHecke.trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.ModularHecke.translateLinear' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.ModularHecke.degeneracy_injective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.ModularHecke.dilationTrace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

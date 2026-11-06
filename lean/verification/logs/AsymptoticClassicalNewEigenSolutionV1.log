@@ -1,0 +1,2 @@
+'AsymptoticClassicalCusp.new_prime_eigen_fricke_sign' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.new_prime_eigen_isSolution' depends on axioms: [propext, Classical.choice, Quot.sound]

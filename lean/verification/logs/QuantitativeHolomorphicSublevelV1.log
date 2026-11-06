@@ -1,0 +1,9 @@
+'QuantitativeHolomorphic.quadratic_sublevel_volume' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.fractional_displacement_quadratic_volume' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.affine_displacement_linear_volume' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.translation_displacement_sublevel_empty' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.integral_matrix_displacement_volume' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,3 @@
+'QuantitativeSpectralExceptionalFricke.family_energy_le_detector' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,4 @@
+'SmallLevelTwentySixSource89SmallBridge.source89_resultant_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

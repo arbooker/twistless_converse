@@ -1,0 +1,5 @@
+'SmallLevelTwentySixGrid.grid_ramanujan_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGrid.badParameter_two_sign' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGrid.badParameter_thirteen_sign' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGrid.ramified_scalar' depends on axioms: [propext, Classical.choice, Quot.sound]
+

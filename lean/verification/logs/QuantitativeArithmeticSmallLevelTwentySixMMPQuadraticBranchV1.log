@@ -1,0 +1,4 @@
+'QuantitativeArithmeticSmallLevelTwentySixMMPQuadraticBranch.y_eq_nine' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

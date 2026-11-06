@@ -1,0 +1,8 @@
+'QuantitativeSpectralDeflationChain.chain_antitone' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralDeflationChain.sum_removed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralDeflationChain.packetRow_gram_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralDeflationChain.packetRow_diagonal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralDeflationChain.packetRow_left_supported' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralDeflationChain.packetRow_later' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralDeflationChain.packetRow_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralDeflationChain.kernel_survives' depends on axioms: [propext, Classical.choice, Quot.sound]

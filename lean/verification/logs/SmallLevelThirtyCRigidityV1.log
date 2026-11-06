@@ -1,0 +1,3 @@
+'SmallLevelThirtyC.invariant_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtyC.original_C' depends on axioms: [propext, Classical.choice, Quot.sound]
+

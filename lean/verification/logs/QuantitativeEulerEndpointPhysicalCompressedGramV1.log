@@ -1,0 +1,9 @@
+'QuantitativeEulerEndpointPhysicalNormalization.holomorphic_combined_compression' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPhysicalNormalization.compression_residual' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPhysicalNormalization.original_gram_kills' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

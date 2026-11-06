@@ -1,0 +1,6 @@
+'AsymptoticFiberIsometry.operator_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiberIsometry.adjoint_delta' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiberIsometry.adjoint_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiberIsometry.projection_apply_delta' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiberIsometry.projection_diagonal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiberIsometry.operator_cogram' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,5 @@
+'AsymptoticOrbitDensity.inducedDensity_normalized' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticOrbitDensity.inducedDensity_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticOrbitDensity.inducedDensity_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticOrbitDensity.inducedDensity_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticOrbitDensity.integral_inducedDensity' depends on axioms: [propext, Classical.choice, Quot.sound]

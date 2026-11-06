@@ -1,0 +1,9 @@
+'QuantitativeEulerEndpointTraceMass.retained_branch_mass_trace_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointTraceMass.retained_expression_mass_trace_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointTraceMass.retained_expression_mass_uniform_trace_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

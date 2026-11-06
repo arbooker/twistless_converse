@@ -1,0 +1,12 @@
+'QuantitativeArithmeticRetainedAnalyticReconstruction.equation_of_FE' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedAnalyticReconstruction.primitive_coeFn' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedAnalyticReconstruction.row_coeFn' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedAnalyticReconstruction.reconstruction_coeFn' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

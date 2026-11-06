@@ -1,0 +1,8 @@
+'QuantitativeEulerEndpointKernelMass.totalRegularTrace_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointKernelMass.totalKernelTrace_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointKernelMass.totalInfiniteKernelTrace_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointKernelMass.universal_kernel_total_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

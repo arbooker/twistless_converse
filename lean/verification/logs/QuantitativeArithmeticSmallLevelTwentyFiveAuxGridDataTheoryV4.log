@@ -1,0 +1,16 @@
+'QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource895' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource896' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource2500' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource4599' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

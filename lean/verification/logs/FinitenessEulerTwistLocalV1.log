@@ -1,0 +1,2 @@
+'FinitenessEulerTwistLocal.local_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessEulerTwistLocal.local_polynomial' depends on axioms: [propext, Classical.choice, Quot.sound]

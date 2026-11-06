@@ -1,0 +1,6 @@
+'SpanningLinearKernels.kernelFiniteEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpanningLinearKernels.augmentedFiniteEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpanningLinearKernels.traceOnAugmented_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpanningLinearKernels.kernelSubmodule' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpanningLinearKernels.augmentedSubmodule' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpanningLinearKernels.traceOnKernel' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,7 @@
+'QuantitativeArithmeticSmallLevelTwentyTwo.original_tenth_entire' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyTwo.original_tenth_continuation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

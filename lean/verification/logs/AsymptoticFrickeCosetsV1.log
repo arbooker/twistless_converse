@@ -1,0 +1,4 @@
+'AsymptoticCongruenceLabels.integralLabel_mem_gamma_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceStrip.fricke_conj_mem_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRamifiedCosets.frickeCoset_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRamifiedCosets.frickeCoset_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]

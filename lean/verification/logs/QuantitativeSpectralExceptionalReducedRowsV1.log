@@ -1,0 +1,5 @@
+'QuantitativeSpectralExceptionalReducedRows.rawBranch_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralExceptionalReducedRows.correction_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralExceptionalReducedRows.retained_branch_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

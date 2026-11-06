@@ -1,0 +1,6 @@
+'AsymptoticTotalNewCorner.stripSpace_le_quotient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticTotalNewCorner.incidence_le_stripSpace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticTotalNewCorner.stripSpace_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticTotalNewCorner.stripSpace_trace_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticTotalNewCorner.totalTrace_le_stripSpace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticTotalNewCorner.totalTrace_le_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointPrepared.reconstructed_image_trace_le_terminal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.reconstructed_image_trace_finite' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

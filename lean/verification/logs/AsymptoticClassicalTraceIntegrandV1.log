@@ -1,0 +1,3 @@
+'AsymptoticClassicalPetersson.quotient_integrand_mk' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalPetersson.quotient_integrand' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalPetersson.trace_integrand' depends on axioms: [propext, Classical.choice, Quot.sound]

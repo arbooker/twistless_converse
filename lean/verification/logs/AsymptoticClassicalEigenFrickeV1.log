@@ -1,0 +1,4 @@
+'AsymptoticClassicalLSeries.frickeReal_action' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalLSeries.frickeReal_axis' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalLSeries.axial_fricke_of_eigen' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalLSeries.entireCompletion_fricke_eigen' depends on axioms: [propext, Classical.choice, Quot.sound]

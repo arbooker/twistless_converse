@@ -1,0 +1,12 @@
+'AsymptoticRegularObservation.finiteCutPolynomialAmbient_diagonal_integrable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticRegularObservation.finiteCutPolynomialAmbient_norm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticRegularObservation.finiteUpperCutPolynomialTrace_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticRegularObservation.finiteUpperCutPolynomialTrace_approximation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

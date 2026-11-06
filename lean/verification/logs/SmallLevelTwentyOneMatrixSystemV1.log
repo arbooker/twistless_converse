@@ -1,0 +1,3 @@
+'SmallLevelTwentyOne.leadingMatrix_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOne.shiftMatrix_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+

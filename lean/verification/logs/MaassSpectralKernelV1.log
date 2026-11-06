@@ -1,0 +1,3 @@
+'MaassSpectral.order_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MaassSpectral.W_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MaassSpectral.W_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]

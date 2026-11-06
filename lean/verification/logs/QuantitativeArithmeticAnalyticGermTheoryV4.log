@@ -1,0 +1,45 @@
+'QuantitativeArithmeticAnalyticGerm.HasAnalyticGerm.shift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticAnalyticGerm.first_shift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticAnalyticGerm.HasAnalyticGerm.order_nonneg' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticAnalyticGerm.HasAnalyticGerm.analyticAt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticAnalyticGerm.HasAnalyticGerm.combine' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticAnalyticGerm.leading_taylor_germ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticAnalyticGerm.HasAnalyticGerm.sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticAnalyticGerm.order_lower_of_unit_relation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticAnalyticGerm.analytic_multiplier_order_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticAnalyticGerm.order_lower_of_analytic_factor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticAnalyticGerm.two_row_order_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticAnalyticGerm.order_lower_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticAnalyticGerm.four_row_order_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticAnalyticGerm.multiplier_zero_at_pole' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticAnalyticGerm.vanishing_mul_simple_pole' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticAnalyticGerm.freeze_simple_pole_coefficient' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticAnalyticGerm.freeze_simple_pole_anchor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticAnalyticGerm.profile_row_germ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticAnalyticGerm.regularized_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticAnalyticGerm.regularized_order_nonneg_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticAnalyticGerm.regularized_order_ge_neg_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticAnalyticGerm.simple_residue_zero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticAnalyticGerm.exists_simple_residue_vector' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

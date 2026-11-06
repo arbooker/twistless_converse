@@ -1,0 +1,4 @@
+'AsymptoticRegularObservation.cutFull_tendstoUniformly' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.cutErrorBound_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.cutNormal_tendstoUniformly' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.cutInverse_tendstoUniformly' depends on axioms: [propext, Classical.choice, Quot.sound]

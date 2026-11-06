@@ -1,0 +1,3 @@
+'SmallLevelTwentySix.P_factor4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySix.P_factor6' depends on axioms: [propext, Classical.choice, Quot.sound]
+

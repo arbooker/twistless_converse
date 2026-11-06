@@ -1,0 +1,20 @@
+{
+  "status": "PASS exact SL2(Z/6) factorization",
+  "cases": {
+    "positive": {
+      "SL2_mod6_elements": 144,
+      "representation_image_size": 24,
+      "Gamma6_invariant": true,
+      "minus_identity_trivial": true,
+      "T_cube": "-identity"
+    },
+    "negative_after_H_zero": {
+      "SL2_mod6_elements": 144,
+      "representation_image_size": 6,
+      "Gamma6_invariant": true,
+      "minus_identity_trivial": true,
+      "T_cube": "-identity"
+    }
+  },
+  "source_sha256": "0ad03e774db606d8c5f47e7536fec699a8f3febdef033e0c0871eac462403ec3"
+}

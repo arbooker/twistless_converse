@@ -1,0 +1,9 @@
+'QuantitativeSpectralObservability.fundamentalSet_isFundamental' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralObservability.fundamentalCompact_subset_wide' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralObservability.fundamentalSet_subset_compact_tail' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

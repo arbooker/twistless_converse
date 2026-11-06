@@ -1,0 +1,6 @@
+'AsymptoticFiniteBranch.holomorphicSum_retainedExpression' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.regularSum_retainedExpression' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.retainedExpression_diagonal_summable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.retainedExpression_root_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.retainedExpression_signedTrace_cons' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.retainedExpression_trace_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]

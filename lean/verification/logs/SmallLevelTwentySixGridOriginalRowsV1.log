@@ -1,0 +1,3 @@
+'SmallLevelTwentySixGrid.original_source_row' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGrid.original_source_system' depends on axioms: [propext, Classical.choice, Quot.sound]
+

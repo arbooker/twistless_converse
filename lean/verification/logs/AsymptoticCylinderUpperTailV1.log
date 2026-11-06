@@ -1,0 +1,4 @@
+'AsymptoticCylinder.upperProjection_mode_norm_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCylinder.upperProjection_unitMode_norm_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCylinder.upperCompression_diagonal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCylinder.upperCompression_trace_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

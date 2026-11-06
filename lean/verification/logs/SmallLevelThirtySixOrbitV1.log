@@ -1,0 +1,4 @@
+'SmallLevelThirtySix.slash_neg_one_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtySix.slash_TST_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtySix.obstruction_invariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtySix.obstruction_modular' depends on axioms: [propext, Classical.choice, Quot.sound]

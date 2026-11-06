@@ -1,0 +1,9 @@
+'QuantitativeEulerEndpointNestedPerturbation.errorBudget_le_comparisonBudget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointBoundedIteration.actualFiniteExpression_original_residual' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointBoundedIteration.actualFiniteExpression_original_paid' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

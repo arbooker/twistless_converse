@@ -1,0 +1,1 @@
+'QuantitativeSpectralMinmax.trace_le_high_cut' depends on axioms: [propext, Classical.choice, Quot.sound]

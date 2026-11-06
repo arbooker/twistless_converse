@@ -1,0 +1,2 @@
+'FinitenessTwistedAnalyticBridge.laws_of_continuations' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessTwistedAnalyticBridge.disk_mem_space' depends on axioms: [propext, Classical.choice, Quot.sound]

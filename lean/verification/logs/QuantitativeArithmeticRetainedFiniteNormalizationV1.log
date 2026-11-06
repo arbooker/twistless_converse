@@ -1,0 +1,30 @@
+'QuantitativeArithmeticRetainedFiniteNormalization.normalizedError_schedule' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedFiniteNormalization.scheduled_physical_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedFiniteNormalization.scheduled_regular_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedFiniteNormalization.cylinderFinite_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedFiniteNormalization.physicalScaled_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedFiniteNormalization.regularScaled_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedFiniteNormalization.physicalScaled_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedFiniteNormalization.regularScaled_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedFiniteNormalization.physical_normalized_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedFiniteNormalization.regular_normalized_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,4 @@
+'QuantitativeHolomorphic.weighted_sum_le_of_prefix_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.eventual_prefix_comparison_weighted' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.good_prime_mass_of_count_density' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.good_prime_product_of_count_density' depends on axioms: [propext, Classical.choice, Quot.sound]

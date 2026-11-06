@@ -1,0 +1,3 @@
+'QuantitativeHolomorphic.finiteRowGram_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.finiteRowFilter_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.finiteRowFilter_sandwich_difference' depends on axioms: [propext, Classical.choice, Quot.sound]

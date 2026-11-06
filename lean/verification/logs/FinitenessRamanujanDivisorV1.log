@@ -1,0 +1,2 @@
+'FinitenessRamanujanDivisor.complete_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessRamanujanDivisor.sum_divisors' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,6 @@
+'FinitenessAllLevelCauchyOperator.projectLinear_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelCauchyOperator.project_isCompactOperator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelCauchyOperator.project_eq_of_boundary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelCauchyOperator.pencil_isCompactOperator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelCauchyOperator.pencil_differentiable' depends on axioms: [propext, Classical.choice, Quot.sound]
+

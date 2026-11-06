@@ -1,0 +1,10 @@
+'QuantitativeArithmeticSmallLevelTwentyTwo.tenth_fricke_of_signs' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyTwo.original_scaled_reflections' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyTwo.original_unscaled_reflections' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

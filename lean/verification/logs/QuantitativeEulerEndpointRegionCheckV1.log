@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointPrepared.good_prime_fresh_stack_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.certificate_common_heights' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

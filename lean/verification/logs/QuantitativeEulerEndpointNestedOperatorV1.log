@@ -1,0 +1,3 @@
+'QuantitativeEulerEndpointNestedOperator.filter_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointNestedOperator.filter_step_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointNestedOperator.filter_apply_fixed' depends on axioms: [propext, Classical.choice, Quot.sound]

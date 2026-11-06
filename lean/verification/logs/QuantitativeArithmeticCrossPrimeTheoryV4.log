@@ -1,0 +1,5 @@
+'QuantitativeArithmeticCrossPrime.factor_of_relIndex_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticCrossPrime.permutes_of_relIndex_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticCrossPrime.permutes_map' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticCrossPrime.gamma_gamma_permute' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticCrossPrime.gamma_degeneracy_permute' depends on axioms: [propext, Classical.choice, Quot.sound]

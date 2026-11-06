@@ -1,0 +1,139 @@
+module
+public meta import QuantitativeArithmeticCompactCommandsV1
+public meta import QuantitativeArithmeticKernelRangeCommandsV4
+
+public import SmallLevelSignedPairsV1
+public meta import QuantitativeArithmeticFiniteRangeCommandsV4
+public import QuantitativeArithmeticPrimitiveResiduePairV4
+
+public import Mathlib.Analysis.Complex.Basic
+public import Mathlib.Analysis.Complex.Norm
+public import Mathlib.Analysis.SpecialFunctions.ExpDeriv
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+public import Mathlib.Tactic
+public import Mathlib.Tactic.FieldSimp
+public import Mathlib.Tactic.LinearCombination
+public import Mathlib.Tactic.Ring
+public import QuantitativeArithmeticCompact25FinalHTheoryV4
+public import QuantitativeArithmeticSmallLevelTwentyFiveFullPlusLeadingTheoryV4
+public import QuantitativeArithmeticComplexHornerBoundsTheoryV4
+public import QuantitativeArithmeticFiniteAnalyticWitnessV1
+public import QuantitativeArithmeticFiniteRangeCertificatesV1
+public import QuantitativeArithmeticFourNinePhysicalPowersTheoryV4
+public import QuantitativeArithmeticLevelNineteenConverseV4
+public import QuantitativeArithmeticPolynomialRootCoverTheoryV4
+public import QuantitativeArithmeticPrimePowerTorsionV1
+public import QuantitativeArithmeticRegularizedJetScaleV1
+public import QuantitativeArithmeticSevenLaurentRowsTheoryV4
+public import QuantitativeArithmeticSlashLaplaceTheoryV4
+public import QuantitativeArithmeticSmallLevelTwentyFiveAuxGridModelTheoryV4
+public import QuantitativeArithmeticSmallLevelTwentyFiveAuxGridDataTheoryV4
+public import QuantitativeArithmeticSmallLevelTwentyFiveAuxMinusLaurentTheoryV4
+public import QuantitativeArithmeticSmallLevelTwentyFiveAuxPlusLaurentTheoryV4
+public import QuantitativeArithmeticSmallLevelTwentyFiveAuxSymbolicEvaluationV1
+public import QuantitativeArithmeticSmallLevelTwentyFiveContinuationNegativeTheoryV4
+public import QuantitativeArithmeticSmallLevelTwentyFiveContinuationPositiveTheoryV4
+public import QuantitativeArithmeticSmallLevelTwentyFiveCuspGridLiftV1
+public import QuantitativeArithmeticSmallLevelTwentyFiveCuspMinusLaurentTheoryV4
+public import QuantitativeArithmeticSmallLevelTwentyFiveCuspMinusLowerResidualCheck1V1
+public import QuantitativeArithmeticSmallLevelTwentyFiveCuspMinusLowerResidualCheck2V1
+public import QuantitativeArithmeticSmallLevelTwentyFiveCuspMinusLowerResidualCheck3V1
+public import QuantitativeArithmeticSmallLevelTwentyFiveCuspMinusLowerResidualCheck4V1
+public import QuantitativeArithmeticSmallLevelTwentyFiveCuspMinusLowerResidualCheck5V1
+public import QuantitativeArithmeticSmallLevelTwentyFiveCuspMinusLowerResidualTheoryV4
+public import QuantitativeArithmeticSmallLevelTwentyFiveCuspPlusExceptionalBlockTheoryV4
+public import QuantitativeArithmeticSmallLevelTwentyFiveCuspPlusLaurentTheoryV4
+public import QuantitativeArithmeticSmallLevelTwentyFiveFactoredJetTheoryV4
+public import QuantitativeArithmeticSmallLevelTwentyFiveFullMinusLeadingTheoryV4
+public import QuantitativeArithmeticSmallLevelTwentyFiveGridSystemTheoryV4
+public import QuantitativeArithmeticSmallLevelTwentyFiveKnownWordsTheoryV4
+public import QuantitativeArithmeticSmallLevelTwentyFiveMinusOriginalCertificatesTheoryV4
+public import QuantitativeArithmeticSmallLevelTwentyFiveNegativeNonzeroTwoRowsTheoryV4
+public import QuantitativeArithmeticSmallLevelTwentyFiveNegativeDZeroAlgebraTheoryV4
+public import QuantitativeArithmeticSmallLevelTwentyFiveNegativeExtraMinusOneRowsTheoryV4
+public import QuantitativeArithmeticSmallLevelTwentyFiveNegativeSecondAlgebraTheoryV4
+public import QuantitativeArithmeticSmallLevelTwentyFiveNegativeZeroTwoFiveTheoryV4
+public import QuantitativeArithmeticSmallLevelTwentyFiveOriginalFirstJetTheoryV4
+public import QuantitativeArithmeticSmallLevelTwentyFiveOriginalLeadingQIndexCompactBundleSeriesV4
+public import QuantitativeArithmeticSmallLevelTwentyFiveOriginalCertificatesTheoryV4
+public import QuantitativeArithmeticSmallLevelTwentyFivePositiveChartCompactSourceTheoryV4
+public import QuantitativeArithmeticSmallLevelTwentyFivePositiveChartTheoryV4
+public import QuantitativeArithmeticSmallLevelTwentyFivePositiveChartRecurrenceTheoryV4
+public import QuantitativeArithmeticSmallLevelTwentyFivePositiveChartSixSourceTheoryV4
+public import QuantitativeArithmeticSmallLevelTwentyFivePositiveChartMinimalSixTheoryV4
+public import QuantitativeArithmeticSmallLevelTwentyFivePositiveRootH66DataV1
+public import QuantitativeArithmeticSmallLevelTwentyFivePositiveRootTheoryV4
+public import QuantitativeArithmeticSmallLevelTwentyFivePositiveRootP67DataV1
+public import QuantitativeArithmeticSmallLevelTwentyFiveContinuationPositiveZeroTwoTheoryV4
+public import QuantitativeArithmeticSmallLevelTwentyFiveSelectedWordsTheoryV4
+public import QuantitativeArithmeticSmallLevelTwentyFiveZeroTwoFiveTheoryV4
+public import QuantitativeArithmeticThreePointJetScaleV1
+public import QuantitativeArithmeticUniversalPoleAllowedFirstShiftV1
+public import QuantitativeArithmeticUniversalPoleBlockRowsV1
+public import QuantitativeArithmeticUniversalPoleClosureV1
+public import QuantitativeArithmeticUniversalPoleRegularBlockRowsV1
+public import QuantitativeArithmeticUniversalPoleRegularizedProjectionV1
+public import QuantitativeArithmeticUniversalPoleRegularizedRowsV1
+public import QuantitativeArithmeticUniversalPoleTopProjectionV1
+public import SmallLevelContinuationTheoryV4
+public import SmallLevelElevenDefectV1
+public import SmallLevelFiniteShiftBlockV1
+public import SmallLevelGoodHeckeTwoV1
+public import SmallLevelModularCriterionV1
+public import SmallLevelPoleGridTheoryV4
+public import SmallLevelSixPairV1
+public import SmallLevelThirtySixOrbitV1
+public import SmallLevelTransversalV1
+public import SmallLevelTwentyOneThirdShiftScaleV1
+public import SmallLevelUniversalFactoredFirstShiftV1
+public import SmallLevelUniversalHigherPoleVectorV1
+public import SmallLevelUniversalPoleDetectionV1
+
+public import QuantitativeArithmeticLevelTwentyFiveAuxiliaryTheoryV4
+set_option Elab.async false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
+set_option linter.unusedSimpArgs false
+
+set_option Elab.async false
+
+/-! Consolidated converse argument. Large exact certificates remain
+in their own modules; declarations and proof bodies are preserved. -/
+
+/-! ## TwentyFiveFactoredJetIdentity -/
+section
+set_option autoImplicit false
+set_option synthInstance.maxSize 2048
+set_option maxRecDepth 32768
+set_option maxHeartbeats 6000000
+@[expose] public noncomputable section
+namespace QuantitativeArithmeticSmallLevelTwentyFive.FactoredJet
+open QuantitativeArithmeticSevenLaurentRows OriginalCertificates
+open QuantitativeArithmeticSmallLevelTwentyFiveAuxGridModel QuantitativeArithmeticSmallLevelTwentyFiveFiniteGrid
+compact_certificate theorem left278_support : ∀ t ∈ left278,t.2.1<4518 := by decide +kernel
+ theorem left278_jet_support : ∀ t ∈ left278,t.2.1 ∈ jetIndices := by decide +kernel
+ theorem right278_support : ∀ t ∈ right278,t.2.1<4518 := by decide +kernel
+ theorem lower278_operations : lower278node12Ops=left278 := by decide +kernel
+ theorem lower278_result : lower278node12Result=lowerResult278 := by decide +kernel
+ theorem mixed278_operations : mixed278node32Ops=left278 ++
+    reindex (fun j => j+4518) (shift (-1) (0,0,0,0,0,0,0) right278) := by decide +kernel
+ theorem mixed278_result : mixed278node32Result=result278 := by decide +kernel
+compact_certificate theorem left226_support : ∀ t ∈ left226,t.2.1<4518 := by decide +kernel
+ theorem left226_jet_support : ∀ t ∈ left226,t.2.1 ∈ jetIndices := by decide +kernel
+ theorem right226_support : ∀ t ∈ right226,t.2.1<4518 := by decide +kernel
+ theorem lower226_operations : lower226node14Ops=left226 := by decide +kernel
+ theorem lower226_result : lower226node14Result=lowerResult226 := by decide +kernel
+ theorem mixed226_operations : mixed226node38Ops=left226 ++
+    reindex (fun j => j+4518) (shift (-1) (0,0,0,0,0,0,0) right226) := by decide +kernel
+ theorem mixed226_result : mixed226node38Result=result226 := by decide +kernel
+compact_certificate theorem left392_support : ∀ t ∈ left392,t.2.1<4518 := by decide +kernel
+ theorem left392_jet_support : ∀ t ∈ left392,t.2.1 ∈ jetIndices := by decide +kernel
+ theorem right392_support : ∀ t ∈ right392,t.2.1<4518 := by decide +kernel
+ theorem lower392_operations : lower392node30Ops=left392 := by decide +kernel
+ theorem lower392_result : lower392node30Result=lowerResult392 := by decide +kernel
+ theorem mixed392_operations : mixed392node74Ops=left392 ++
+    reindex (fun j => j+4518) (shift (-1) (0,0,0,0,0,0,0) right392) := by decide +kernel
+ theorem mixed392_result : mixed392node74Result=result392 := by decide +kernel
+end QuantitativeArithmeticSmallLevelTwentyFive.FactoredJet
+end
+end

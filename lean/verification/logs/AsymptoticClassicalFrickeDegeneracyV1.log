@@ -1,0 +1,2 @@
+'AsymptoticClassicalCusp.fricke_restrict_degeneracy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.fricke_degeneracy_restrict' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,6 @@
+'QuantitativeArithmeticPrimeSmallTwist.character_reconstruction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.individual_function_eq_of_all_character_sums' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

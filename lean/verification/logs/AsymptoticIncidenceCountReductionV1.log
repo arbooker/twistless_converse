@@ -1,0 +1,7 @@
+'AsymptoticQuotientIncidence.space_trace_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCompactObservationCount.totalInfiniteKernelTrace_le_incidence' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticCompactObservationCount.count_littleO_of_incidence_bound_and_total_dimension' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

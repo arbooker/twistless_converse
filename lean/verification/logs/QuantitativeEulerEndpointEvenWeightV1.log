@@ -1,0 +1,4 @@
+'QuantitativeEulerEndpointHorizon.loglog_double_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointHorizon.endpoint_upper_of_even_index' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

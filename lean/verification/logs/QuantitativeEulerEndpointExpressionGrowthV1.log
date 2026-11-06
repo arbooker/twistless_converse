@@ -1,0 +1,5 @@
+'QuantitativeEulerEndpointExpressionGrowth.exponent_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointExpressionGrowth.power_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointExpressionGrowth.sharpened_common_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

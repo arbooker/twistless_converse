@@ -1,0 +1,6 @@
+'AsymptoticCongruenceOldSpace.projection_diagonal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceOldSpace.projection_matrix_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceOldSpace.projection_covariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceOldSpace.projection_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceOldSpace.projection_trace_toReal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceOldSpace.projection_trace_finite' depends on axioms: [propext, Classical.choice, Quot.sound]

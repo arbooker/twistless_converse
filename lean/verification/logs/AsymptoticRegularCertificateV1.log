@@ -1,0 +1,7 @@
+'AsymptoticRegularCertificate.low_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularCertificate.terminal_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularCertificate.common_contraction_parameters' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularCertificate.low_covariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularCertificate.terminal_covariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularCertificate.low_matrix_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularCertificate.terminal_matrix_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]

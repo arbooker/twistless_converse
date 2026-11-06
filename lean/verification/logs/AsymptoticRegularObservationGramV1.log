@@ -1,0 +1,5 @@
+'AsymptoticObservationStack.stack_gram' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.gram_eq_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.gram_covariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.gram_matrix_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+

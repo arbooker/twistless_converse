@@ -1,0 +1,12 @@
+# Written proofs are distributed as PDFs.
+*.tex
+*.bib
+*.sty
+*.cls
+*.bst
+*.bbl
+# Local build products
+.lake/
+*.olean
+*.ilean
+__pycache__/

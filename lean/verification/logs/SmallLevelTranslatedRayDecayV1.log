@@ -1,0 +1,2 @@
+'SmallLevelTranslatedRay.weighted_rapid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTranslatedRay.inverted_weighted_first_order' depends on axioms: [propext, Classical.choice, Quot.sound]

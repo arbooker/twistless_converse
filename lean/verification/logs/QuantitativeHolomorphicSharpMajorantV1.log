@@ -1,0 +1,9 @@
+'QuantitativeHolomorphic.Sharp.inverseSqrtPolynomial_gram_norm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.Sharp.finiteCountWeightedNormalizer_norm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.Sharp.finiteCountReconstruction_fourier_gram' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,4 @@
+'AsymptoticUnweightedKernel.unitRepresentative_coeFn' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticUnweightedKernel.kernelTerm_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticUnweightedKernel.kernelTerm_summable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticUnweightedKernel.fourierKernel_formula' depends on axioms: [propext, Classical.choice, Quot.sound]

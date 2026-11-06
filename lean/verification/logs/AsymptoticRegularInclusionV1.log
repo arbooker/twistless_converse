@@ -1,0 +1,4 @@
+'AsymptoticRegularInclusion.inclusion_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularInclusion.inclusion_covariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularInclusion.inclusion_matrix_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularInclusion.corner_inclusion' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,1 @@
+'SpanningKernelDifferences.exists_grid_difference_detector' depends on axioms: [propext, Classical.choice, Quot.sound]

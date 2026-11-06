@@ -1,0 +1,3 @@
+'AsymptoticNestedQuotients.forget_classOf' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticNestedQuotients.decomposition_fst' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticNestedQuotients.fibre_card' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,3 @@
+'QuantitativeHolomorphic.observationScale_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.isBigO_of_two_parameter_bound_along' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.isBigO_of_two_parameter_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

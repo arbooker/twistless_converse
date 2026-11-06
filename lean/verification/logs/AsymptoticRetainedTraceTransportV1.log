@@ -1,0 +1,2 @@
+'AsymptoticFiniteBranch.retained_lift_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.retained_finiteAmbient_trace' depends on axioms: [propext, Classical.choice, Quot.sound]

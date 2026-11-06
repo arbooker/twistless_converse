@@ -1,0 +1,4 @@
+'FinitenessMellinContour.integral_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessMellinContour.integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessMellinContour.inversion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessMellinContour.mellin_inversion' depends on axioms: [propext, Classical.choice, Quot.sound]

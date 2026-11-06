@@ -1,0 +1,13 @@
+{
+  "status": "Preserved exact mathematical companion data; not a new CAS execution",
+  "source": "/tmp/level25_cusp_aux_minus_seed0_chart2.txt",
+  "stored": "research/small_levels/release_companion_data/level25_cusp_aux_minus_seed0_chart2.txt.gz",
+  "destination_filename": "level25_cusp_aux_minus_seed0_chart2.txt",
+  "uncompressed_bytes": 7410266,
+  "compressed_bytes": 1758495,
+  "sha256": "b2d9fb99e6e0af225a21a4881e1b33fdfb5eddcdc986627d28cd7747feedb7c0",
+  "compressed_sha256": "0700b752461f5288e62519b3261df0dcca70ff40fea30e915c86eb5aa3b2de31",
+  "matched_historical_manifest": "research/small_levels/level25_secondcharts_independent_manifest.json",
+  "historical_entry": "cusp_aux_minus_seed0_chart2.txt",
+  "observed_utc": "2026-11-05T12:28:29.163126+00:00"
+}

@@ -1,0 +1,6 @@
+'AsymptoticConcreteRationalBranch.operator_coeFn' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticConcreteRationalBranch.operator_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticConcreteRationalBranch.retained_operator_mode' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticConcreteRationalBranch.retained_operator_trace_tendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

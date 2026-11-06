@@ -1,0 +1,6 @@
+'QuantitativeHolomorphic.Schedule.compactKernelBound_le_common' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.Schedule.tracePowerCoefficient_le_common' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,6 @@
+'FinitenessAllLevelDiskCoordinates.coordinates_isProperMap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelDiskCoordinates.coordinates_isClosedEmbedding' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FinitenessAllLevelDiskCoordinates.locus_isClosed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelDiskCoordinates.projection_isProperMap' depends on axioms: [propext, Classical.choice, Quot.sound]

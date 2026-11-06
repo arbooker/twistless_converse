@@ -1,0 +1,5 @@
+'SmallLevelTaylor.taylorCoeff_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTaylor.taylorCoeff_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTaylor.taylorCoeff_hasSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTaylor.deformed_mellin_series' depends on axioms: [propext, Classical.choice, Quot.sound]
+

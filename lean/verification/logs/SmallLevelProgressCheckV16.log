@@ -1,0 +1,42 @@
+SmallLevelOriginal.SmallLevelsTheorem : Prop
+'SmallLevelPoleGrid.meromorphic_vector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelPoleGrid.leading_vector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelPoleGrid.rightmost_pole' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelPoleGrid.leading_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelPoleGrid.no_poles_of_leading_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelPoleGrid.target_extension_of_row_span' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelPoleGrid.shifted_source_extension' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelPoleGrid.leading_kernel_of_shifted_rows' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelPoleGrid.reflected_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelPoleGrid.pole_on_right' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelPoleGrid.combination_pole' depends on axioms: [propext, Classical.choice, Quot.sound]
+SmallLevelPoleGrid.target_no_poles_of_central_rows.{u_1, u_2} {ι : Type u_1} {ρ : Type u_2} [Fintype ι] [Fintype ρ]
+  (F : ι → ℂ → ℂ) (w : ι → ℂ) (a : ℂ → ℂ) (K σ : ℝ) (hF : ∀ (i : ι) (x : ℂ), MeromorphicAt (F i) x)
+  (hhalf : ∀ (i : ι) (z : ℂ), σ < z.re → AnalyticAt ℂ (F i) z) (ha : ∀ (x : ℂ), AnalyticAt ℂ a x)
+  (ha0 : ∀ (x : ℂ), a x ≠ 0) (hfe : ∀ (z : ℂ), ∑ i, w i * F i z = a z * ∑ i, w i * F i (↑K - z)) (A : ℂ → ρ → ι → ℂ)
+  (H : ρ → ℂ → ℂ) (hA : ∀ (x : ℂ) (r : ρ) (i : ι), AnalyticAt ℂ (fun z => A z r i) x)
+  (hrows : ∀ (x : ℂ) (r : ρ), ∀ᶠ (z : ℂ) in nhdsWithin x {x}ᶜ, ∑ i, A z r i * F i z = H r z)
+  (hsource :
+    ∀ (x : ℂ),
+      (∀ (j : ℕ), 0 < j → ∀ (i : ι), 0 ≤ meromorphicOrderAt (F i) (x + ↑j)) →
+        ∀ (r : ρ), ∃ G, AnalyticAt ℂ G x ∧ H r =ᶠ[nhdsWithin x {x}ᶜ] G)
+  (hcentral : ∀ (x : ℂ) (v : ι → ℂ), v ≠ 0 → (∀ (r : ρ), ∑ i, A x r i * v i = 0) → x.re = K / 2)
+  (helim :
+    ∀ (x : ℂ),
+      x.re = K / 2 →
+        ∃ b,
+          (∀ (r : ρ), AnalyticAt ℂ (fun z => b z r) x) ∧
+            ∀ᶠ (z : ℂ) in nhdsWithin x {x}ᶜ, ∀ (i : ι), w i = ∑ r, b z r * A z r i)
+  (x : ℂ) : 0 ≤ meromorphicOrderAt (fun z => ∑ i, w i * F i z) x
+'SmallLevelPoleGrid.target_no_poles_of_central_rows' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelPoleGrid.entire_extension_of_no_poles' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelPoleGrid.combination_entire_extension' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelPoleGrid.entire_reflection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtyFivePole.badProduct_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtyFivePole.residual_cpow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtyFivePole.original_residual_central' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtyFivePole.original_residual_not_identically_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelThirtyFivePole.central_of_residual_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+

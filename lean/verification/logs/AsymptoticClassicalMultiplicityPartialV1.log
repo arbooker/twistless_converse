@@ -1,0 +1,6 @@
+'AsymptoticClassicalCusp.mem_partialNewSpace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.partialNewSpace_univ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.partialNewSpace_empty' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.restrict_mem_cross_primeTraceKernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.frickeOperator_mem_partialNewSpace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.restrict_mem_partialNewSpace' depends on axioms: [propext, Classical.choice, Quot.sound]

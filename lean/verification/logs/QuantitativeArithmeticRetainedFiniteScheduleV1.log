@@ -1,0 +1,7 @@
+'QuantitativeArithmeticRetainedFiniteSchedule.matrix_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedFiniteSchedule.error_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedFiniteSchedule.expression_mass' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedFiniteSchedule.physical_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedFiniteSchedule.regular_error' depends on axioms: [propext, Classical.choice, Quot.sound]

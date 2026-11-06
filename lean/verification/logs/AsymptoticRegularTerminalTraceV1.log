@@ -1,0 +1,14 @@
+'AsymptoticRegularObservation.terminalTraceOperator_diagonal_integrable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticRegularObservation.terminal_signedTrace_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.positive_trace_toReal_eq_terminal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticRegularObservation.terminalTraceOperator_right_terminal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticRegularObservation.terminalTraceOperator_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.terminalTraceOperator_matrix_measurable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

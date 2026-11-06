@@ -1,0 +1,7 @@
+'QuantitativeArithmeticSmallLevelTwentySixMMPSyzygyGerm6.constraint_germ' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySixMMPSyzygyGerm7.constraint_germ' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

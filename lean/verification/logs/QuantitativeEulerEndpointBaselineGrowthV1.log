@@ -1,0 +1,5 @@
+'QuantitativeEulerEndpointPrepared.wideRowBound_polynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.wideTwistBound_polynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.wideRamifiedBound_polynomial' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

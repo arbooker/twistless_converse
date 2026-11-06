@@ -1,0 +1,8 @@
+SmallLevelOriginal.SmallLevelsTheorem : Prop
+SmallLevelOriginal.level_twenty {k : ℕ} (hk : 0 < k) (heven : Even k) {f : ℕ → ℂ}
+  (hf : FinitenessOriginalInput.IsSolution 20 k f) : SmallLevelOriginal.IsModular 20 k f
+'SmallLevelTwenty.actual_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwenty.actual_defect_elliptic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwenty.original_A' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwenty.five_signed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelOriginal.level_twenty' depends on axioms: [propext, Classical.choice, Quot.sound]

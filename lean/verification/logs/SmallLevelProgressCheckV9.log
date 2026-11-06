@@ -1,0 +1,15 @@
+SmallLevelOriginal.SmallLevelsTheorem : Prop
+SmallLevelRamifiedTwo.original_eigen {N a k : ℕ} (hN : 0 < N) (ha : 2 * a = N + 2) (hL : N.lcm (2 ^ 2) = 2 * N)
+  {f : ℕ → ℂ} (hf : FinitenessOriginalInput.IsSolution N k f) :
+  ∃ δ,
+    (δ = 1 ∨ δ = -1) ∧
+      SlashAction.map (↑k) (SmallLevelRamifiedTwo.Q N a ha) (SmallLevelOriginal.fourierFunction k f) =
+        δ • SmallLevelOriginal.fourierFunction k f
+'SmallLevelRamifiedTwo.original_eigen' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTen.original_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+SmallLevelOriginal.level_ten {k : ℕ} (heven : Even k) {f : ℕ → ℂ} (hf : FinitenessOriginalInput.IsSolution 10 k f) :
+  SmallLevelOriginal.IsModular 10 k f
+'SmallLevelOriginal.level_ten' depends on axioms: [propext, Classical.choice, Quot.sound]
+SmallLevelOriginal.levels_one_to_twelve {N k : ℕ} (hN : 0 < N) (hbound : N ≤ 12) (hk : 0 < k) (heven : Even k)
+  {f : ℕ → ℂ} (hf : FinitenessOriginalInput.IsSolution N k f) : SmallLevelOriginal.IsModular N k f
+'SmallLevelOriginal.levels_one_to_twelve' depends on axioms: [propext, Classical.choice, Quot.sound]

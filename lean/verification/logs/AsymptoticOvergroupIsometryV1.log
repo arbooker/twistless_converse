@@ -1,0 +1,5 @@
+'AsymptoticNestedQuotients.classOf_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticNestedQuotients.index_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticNestedQuotients.isometry_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticNestedQuotients.isometry_range_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticNestedQuotients.projection_matrix' depends on axioms: [propext, Classical.choice, Quot.sound]

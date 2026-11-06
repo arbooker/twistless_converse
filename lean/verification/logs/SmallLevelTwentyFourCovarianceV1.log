@@ -1,0 +1,5 @@
+'SmallLevelTwentyFour.square_matrix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyFour.actual_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyFour.actual_C' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyFour.six_signed' depends on axioms: [propext, Classical.choice, Quot.sound]
+

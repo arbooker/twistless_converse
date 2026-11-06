@@ -1,0 +1,7 @@
+'QuantitativeEulerEndpointApproximateTrace.sqrt_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointApproximateTrace.finite_diagonal_le_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointApproximateTrace.finrank_mul_le_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

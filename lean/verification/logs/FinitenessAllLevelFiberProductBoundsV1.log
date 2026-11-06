@@ -1,0 +1,10 @@
+'FinitenessAllLevelPolynomialPresentation.codiscrete_escaping_sequence' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FinitenessAllLevelPolynomialPresentation.fiber_product_forward' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FinitenessAllLevelPolynomialPresentation.fiber_product_reverse' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FinitenessAllLevelPolynomialPresentation.observable_one_le' depends on axioms: [propext, Classical.choice, Quot.sound]

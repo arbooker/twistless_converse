@@ -1,0 +1,8 @@
+'QuantitativeArithmeticSmallLevelThirtyFiveGroupHecke.finite_branch_slash' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveGroupHecke.infinity_branch_slash' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelGoodHeckeTwo.original_hecke_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+

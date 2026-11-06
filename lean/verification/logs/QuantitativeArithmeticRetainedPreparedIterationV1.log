@@ -1,0 +1,9 @@
+'QuantitativeArithmeticRetainedPacket.combined_rows_wide_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedIteration.exists_prepared_bounded_iteration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedIteration.exists_bounded_prime_block_iteration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,3 @@
+'SmallLevelGenerators.edge9S_checked' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelGenerators.edge9T_checked' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelGenerators.gamma0_9_mem' depends on axioms: [propext, Classical.choice, Quot.sound]

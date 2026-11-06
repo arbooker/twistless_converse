@@ -1,0 +1,5 @@
+'AsymptoticClassicalHeckeCoefficients.down_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalHeckeCoefficients.down_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalHeckeCoefficients.down_up' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalHeckeCoefficients.down_down' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalHeckeCoefficients.hecke_commute' depends on axioms: [propext, Classical.choice, Quot.sound]

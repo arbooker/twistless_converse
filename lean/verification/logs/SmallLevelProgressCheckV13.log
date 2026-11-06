@@ -1,0 +1,9 @@
+SmallLevelOriginal.SmallLevelsTheorem : Prop
+SmallLevelOriginal.level_twenty_four {k : ℕ} (hk : 0 < k) (heven : Even k) {f : ℕ → ℂ}
+  (hf : FinitenessOriginalInput.IsSolution 24 k f) : SmallLevelOriginal.IsModular 24 k f
+'SmallLevelTwentyFour.original_pair_fricke' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyFour.actual_defect_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyFour.original_A' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyFour.actual_C' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyFour.six_signed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelOriginal.level_twenty_four' depends on axioms: [propext, Classical.choice, Quot.sound]

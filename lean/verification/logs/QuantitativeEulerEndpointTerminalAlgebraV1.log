@@ -1,0 +1,5 @@
+'QuantitativeEulerEndpointTerminalAlgebra.terminal_area' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointTerminalAlgebra.tr_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointTerminalAlgebra.tr_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointTerminalAlgebra.tr_cyclic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointTerminalAlgebra.rep_one' depends on axioms: [propext, Classical.choice, Quot.sound]

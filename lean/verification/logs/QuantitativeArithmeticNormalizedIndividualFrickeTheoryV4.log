@@ -1,0 +1,7 @@
+'QuantitativeArithmeticNormalizedIndividualFricke.single_of_fricke' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticNormalizedIndividualFricke.single_eigen_of_fricke' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

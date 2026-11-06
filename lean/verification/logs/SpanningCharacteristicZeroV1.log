@@ -1,0 +1,4 @@
+'SpanningCharacteristicZero.integer_system_restrict_scalars' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpanningCharacteristicZero.rational_augmented_zero_of_spectral_count' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

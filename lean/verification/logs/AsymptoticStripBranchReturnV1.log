@@ -1,0 +1,3 @@
+'AsymptoticUnweightedKernel.translate_eq_iff_of_strip' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticUnweightedKernel.ae_strip_return_iff_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticUnweightedKernel.ae_nonidentity_strip_nonreturn' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,6 @@
+'QuantitativeSpectralObservability.fundamentalReducedFamily_coordinate_row' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralObservability.selectedFundamentalFamily_coordinate_row' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

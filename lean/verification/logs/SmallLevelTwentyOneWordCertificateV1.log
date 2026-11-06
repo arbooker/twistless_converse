@@ -1,0 +1,4 @@
+'SmallLevelTwentyOneKnownWords.certificateCoefficient_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneKnownWords.pole_certificate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneKnownWords.pole_infinity_certificate' depends on axioms: [propext, Classical.choice, Quot.sound]
+

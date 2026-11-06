@@ -1,0 +1,2 @@
+'SmallLevelGenerators.odd_of_fricke' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelGenerators.original_odd' depends on axioms: [propext, Classical.choice, Quot.sound]

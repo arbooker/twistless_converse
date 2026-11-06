@@ -1,0 +1,4 @@
+'QuantitativeArithmeticRetainedTraceCutoff.finite_left_height' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedTraceCutoff.upper_cut_error' depends on axioms: [propext, Classical.choice, Quot.sound]

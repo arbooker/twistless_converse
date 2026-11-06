@@ -1,0 +1,9 @@
+'FinitenessAllLevelConstraintLocus.sector_projection_dichotomy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FinitenessAllLevelConstraintLocus.sector_bounded_finite_of_discrete_projection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FinitenessAllLevelConstraintLocus.sector_surjective_or_bounded_finite' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

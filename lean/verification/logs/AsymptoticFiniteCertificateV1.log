@@ -1,0 +1,8 @@
+'AsymptoticCertificateOperators.finiteLowPart_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCertificateOperators.finiteLow_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCertificateOperators.finiteLow_tendstoUniformly' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCertificateOperators.finiteTerminalPart_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCertificateOperators.finiteTerminal_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCertificateOperators.finiteTerminal_tendstoUniformly' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

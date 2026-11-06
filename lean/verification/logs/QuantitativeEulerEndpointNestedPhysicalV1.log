@@ -1,0 +1,3 @@
+'QuantitativeEulerEndpointNestedPhysical.energy_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointNestedPhysical.filter_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointNestedPhysical.filter_sector_fixes' depends on axioms: [propext, Classical.choice, Quot.sound]

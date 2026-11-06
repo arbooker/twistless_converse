@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointHighInverse.clippedInverse_continuous' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointHighInverse.inverse_defect' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointHighInverse.highInverse_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointHighInverse.highInverse_norm' depends on axioms: [propext, Classical.choice, Quot.sound]

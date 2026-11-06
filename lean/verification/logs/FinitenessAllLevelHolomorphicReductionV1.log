@@ -1,0 +1,6 @@
+'FinitenessAllLevelFredholmReduction.inverse_block_differentiableAt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FinitenessAllLevelFredholmReduction.lift_differentiableAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelFredholmReduction.matrix_differentiableAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelFredholmReduction.local_reduction' depends on axioms: [propext, Classical.choice, Quot.sound]

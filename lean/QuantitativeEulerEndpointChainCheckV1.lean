@@ -1,0 +1,18 @@
+module
+
+public import QuantitativeEulerEndpointRegularCheckV1
+public import QuantitativeEulerEndpointChainDecayV1
+public import QuantitativeEulerEndpointChainKernelV1
+public import QuantitativeEulerEndpointCutBudgetV1
+
+/- Actual successive original-twist cuts and logarithmic excess trace
+relative to the full quotient. New/sign target and quantitative transfer
+to the literal Euler count remain unproved. -/
+#print axioms QuantitativeEulerEndpointPrepared.primeChain_regular
+#print axioms QuantitativeEulerEndpointPrepared.primeChain_supported
+#print axioms QuantitativeEulerEndpointPrepared.primeChain_trace_bound
+#print axioms QuantitativeEulerEndpointPrepared.endpoint_chain_trace_bound
+#print axioms QuantitativeEulerEndpointPrepared.goodPrimeList_prepared_product
+#print axioms QuantitativeEulerEndpointPrepared.prepared_chain_trace_decay
+#print axioms QuantitativeEulerEndpointPrepared.primeChain_kernel_survives
+#print axioms QuantitativeEulerEndpointPrepared.primeCut_inverse_le

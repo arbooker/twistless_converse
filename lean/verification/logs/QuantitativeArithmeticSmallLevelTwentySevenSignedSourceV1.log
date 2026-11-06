@@ -1,0 +1,7 @@
+'QuantitativeArithmeticSmallLevelTwentySevenSourceDispatch.physical_signed' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySevenSourceDispatch.physical_zero_signed' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

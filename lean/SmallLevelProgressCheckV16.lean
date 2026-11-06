@@ -1,0 +1,32 @@
+module
+
+public import SmallLevelProgressCheckV15
+public import SmallLevelPoleGridTheoryV4
+public import QuantitativeArithmeticLevelThirtyFiveConverseV4
+
+@[expose] public section
+
+-- These are analytic bridges. The level-specific continuation and finite
+-- certificates have not yet been instantiated, so full modularity remains open.
+#check SmallLevelOriginal.SmallLevelsTheorem
+#print axioms SmallLevelPoleGrid.meromorphic_vector
+#print axioms SmallLevelPoleGrid.leading_vector
+#print axioms SmallLevelPoleGrid.rightmost_pole
+#print axioms SmallLevelPoleGrid.leading_kernel
+#print axioms SmallLevelPoleGrid.no_poles_of_leading_kernel
+#print axioms SmallLevelPoleGrid.target_extension_of_row_span
+#print axioms SmallLevelPoleGrid.shifted_source_extension
+#print axioms SmallLevelPoleGrid.leading_kernel_of_shifted_rows
+#print axioms SmallLevelPoleGrid.reflected_order
+#print axioms SmallLevelPoleGrid.pole_on_right
+#print axioms SmallLevelPoleGrid.combination_pole
+#check SmallLevelPoleGrid.target_no_poles_of_central_rows
+#print axioms SmallLevelPoleGrid.target_no_poles_of_central_rows
+#print axioms SmallLevelPoleGrid.entire_extension_of_no_poles
+#print axioms SmallLevelPoleGrid.combination_entire_extension
+#print axioms SmallLevelPoleGrid.entire_reflection
+#print axioms SmallLevelThirtyFivePole.badProduct_norm
+#print axioms SmallLevelThirtyFivePole.residual_cpow
+#print axioms SmallLevelThirtyFivePole.original_residual_central
+#print axioms SmallLevelThirtyFivePole.original_residual_not_identically_zero
+#print axioms SmallLevelThirtyFivePole.central_of_residual_kernel

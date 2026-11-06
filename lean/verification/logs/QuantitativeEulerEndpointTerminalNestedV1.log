@@ -1,0 +1,11 @@
+'QuantitativeEulerEndpointTerminalAlgebra.nested_filter_order' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointTerminalAlgebra.nested_filter_step_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointTerminalAlgebra.nested_trace_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointTerminalAlgebra.rep_aeval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointTerminalAlgebra.rep_update' depends on axioms: [propext, Classical.choice, Quot.sound]

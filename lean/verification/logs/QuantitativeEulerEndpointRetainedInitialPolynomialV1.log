@@ -1,0 +1,4 @@
+'QuantitativeEulerEndpointBernstein.scalar_power_composition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointInitialActual.exists_initial_polynomial_scalar' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

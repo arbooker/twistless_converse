@@ -1,0 +1,2 @@
+'SmallLevelTwentyOnePartnerModels.original_partner_models' depends on axioms: [propext, Classical.choice, Quot.sound]
+

@@ -1,0 +1,16 @@
+'QuantitativeArithmeticSmallLevelCirc.modularCoefficient_separates' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.coefficient_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.HasPrimeRecurrence.first_kernel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.HasPrimeRecurrence.unique' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.HasPrimeRecurrence.normalize' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.HasPrimeRecurrence.multiplicative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

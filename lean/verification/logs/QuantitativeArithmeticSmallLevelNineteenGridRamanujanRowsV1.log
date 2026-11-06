@@ -1,0 +1,7 @@
+'QuantitativeArithmeticSmallLevelNineteenGridRamanujan.original_taylor_rows' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelNineteenGridRamanujan.original_entire_rows' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

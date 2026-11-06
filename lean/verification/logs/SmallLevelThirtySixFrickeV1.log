@@ -1,0 +1,3 @@
+'SmallLevelThirtySix.scaledFunction_T' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtySix.scaledFunction_quadratic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtySix.scaledFunction_sign' depends on axioms: [propext, Classical.choice, Quot.sound]

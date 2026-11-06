@@ -1,0 +1,6 @@
+'QuantitativeArithmeticQuadraticTwistQuotient.finiteOrder_of_exponential_factor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticQuadraticTwistQuotient.finiteOrder_of_two_factor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

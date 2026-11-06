@@ -1,0 +1,6 @@
+'AsymptoticTotalNewCorner.localSpace_mul_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticTotalNewCorner.localSpace_supported' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticTotalNewCorner.localSpace_equivariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticTotalNewCorner.space_le_local' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticTotalNewCorner.incidence_induction_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticTotalNewCorner.diagonal_le_product' depends on axioms: [propext, Classical.choice, Quot.sound]

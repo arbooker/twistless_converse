@@ -1,0 +1,3 @@
+'QuantitativeArithmeticUniversalPoleVector.exists_regularized_leading_vector' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

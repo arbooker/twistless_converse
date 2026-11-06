@@ -1,0 +1,4 @@
+'AsymptoticFoldedLow.coefficient_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFoldedLow.term_norm_summable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFoldedLow.operator_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFoldedLow.operator_coeFn' depends on axioms: [propext, Classical.choice, Quot.sound]

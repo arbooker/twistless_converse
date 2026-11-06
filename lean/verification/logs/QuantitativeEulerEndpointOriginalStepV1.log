@@ -1,0 +1,10 @@
+'QuantitativeEulerEndpointPrepared.fresh_source_mixed_eq_original' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.fresh_step_source_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.fresh_step_source_supported' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.fresh_step_source_trace_finite' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

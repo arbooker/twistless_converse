@@ -1,0 +1,5 @@
+'SmallLevelTwentySixPariRawSource87.integer_binding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixPariRawSource87.raw_zero_of_integer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixPariRawSource89.integer_binding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixPariRawSource89.raw_zero_of_integer' depends on axioms: [propext, Classical.choice, Quot.sound]
+

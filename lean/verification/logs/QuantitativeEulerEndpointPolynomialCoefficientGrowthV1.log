@@ -1,0 +1,9 @@
+'QuantitativeEulerEndpointPolynomialGrowth.coefficient_envelope' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPolynomialGrowth.initial_coefficient_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPolynomialGrowth.initial_degree_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

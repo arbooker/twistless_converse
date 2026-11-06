@@ -1,0 +1,3 @@
+'MaassMellin.gammaPair_normalization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MaassMellin.parity_mellin' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MaassMellin.parity_inverse_mellin' depends on axioms: [propext, Classical.choice, Quot.sound]

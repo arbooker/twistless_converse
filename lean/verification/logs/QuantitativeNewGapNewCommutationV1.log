@@ -1,0 +1,2 @@
+'QuantitativeNewGap.kernelProjections_commute' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeNewGap.new_projections_commute_of_permutable' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,3 @@
+'SpanningCoherentLifts.TraceLift.digitMap_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpanningCoherentLifts.traceDigitAction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpanningCoherentLifts.periodic_trace_words' depends on axioms: [propext, Classical.choice, Quot.sound]

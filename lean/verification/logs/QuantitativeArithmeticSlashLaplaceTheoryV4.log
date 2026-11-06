@@ -1,0 +1,21 @@
+'QuantitativeArithmeticSlashLaplace.slash_raw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSlashLaplace.slash_laplace_continuation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSlashLaplace.real_slash_polynomial_strip' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSlashLaplace.logarithmic_slash_continuous' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSlashLaplace.fourier_logarithmic_growth' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSlashLaplace.Data.sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSlashLaplace.nonempty_data_of_slash' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSlashLaplace.Data.zero_eigenfunction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSlashLaplace.zero_of_logarithmic_ray' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSlashLaplace.constant_of_logarithmic_line' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

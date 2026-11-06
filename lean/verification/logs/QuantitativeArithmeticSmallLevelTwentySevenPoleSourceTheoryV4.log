@@ -1,0 +1,16 @@
+'QuantitativeArithmeticSmallLevelTwentySevenPoleSource.original_family' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySevenPoleSource.family_selection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySevenPoleSource.sourceCoefficient_analytic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySevenPoleSource.sourceShift_action' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySevenPoleSource.family_at_sign' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

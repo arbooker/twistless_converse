@@ -1,0 +1,4 @@
+'SmallLevelTwentySixContinuationMinorMMP.minor_nonzero_on_curve' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixContinuationMinorMMP.minor_determinant' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,7 @@
+'QuantitativeEulerDiamondDecode.branchTransport_norm_of_ratio' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerDiamondDecode.branchTransport_integer_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerDiamondDecode.compactAction_mul_symbol_integer_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

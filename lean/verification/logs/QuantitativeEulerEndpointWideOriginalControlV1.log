@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointPrepared.wide_observed_matrix_original_control' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.wide_gamma1_original_control' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

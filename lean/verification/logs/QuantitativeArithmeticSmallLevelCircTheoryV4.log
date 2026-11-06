@@ -1,0 +1,15 @@
+'QuantitativeArithmeticSmallLevelCirc.boundaryCornerHecke_isSemisimple' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.allHecke_good_isSemisimple' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.normalized_joint_basis' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.modularSolutions_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.modular_solutions_are_eigenbasis' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.original_count_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.smallLevels_count_eq_of_modular' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

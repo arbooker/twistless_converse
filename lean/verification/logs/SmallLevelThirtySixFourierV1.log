@@ -1,0 +1,3 @@
+'SmallLevelThirtySix.square_prime_average_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtySix.scaled_antiperiod_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtySix.scaled_translation_quadratic' depends on axioms: [propext, Classical.choice, Quot.sound]

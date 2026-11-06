@@ -1,0 +1,5 @@
+'FinitenessAllLevelFormalContinuation.initial_cusp_agree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelFormalContinuation.coefficients_of_height' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelFormalContinuation.normalized_growth_of_polynomial' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

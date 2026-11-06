@@ -1,0 +1,14 @@
+module
+public import FinitenessPaper2Main1V1
+public import QuantitativeArithmeticRadicalCircCountV1
+public import QuantitativeArithmeticSmallLevelAllCasesV1
+public import QuantitativeArithmeticPrimeSmallTwistCorollaryV1
+
+#print axioms FinitenessPaper2.main1_original
+#print axioms QuantitativeArithmeticRadicalCircCount.theorem12
+#print axioms QuantitativeArithmeticSmallLevelAllCases.theorem13
+#print axioms QuantitativeArithmeticSmallLevelAllCases.modular
+#print axioms QuantitativeArithmeticSmallLevelAllCases.circ
+#print axioms QuantitativeArithmeticSmallLevelAllCases.exact_count
+#print axioms QuantitativeArithmeticPrimeSmallTwist.small_conductor_converse
+#print axioms QuantitativeArithmeticPrimeSmallTwist.primitive_euler_corollary

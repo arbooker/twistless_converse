@@ -1,0 +1,10 @@
+'QuantitativeArithmeticSmallLevelTwentySevenAffine.all_source_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySevenAffine.affine_target_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySevenAffine.affine_defect' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

@@ -1,0 +1,8 @@
+'QuantitativeArithmeticSmallLevelCirc.recurrence_of_prime_eigen' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.prime_eigen_normalize' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.prime_eigen_prime_power' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.prime_eigen_isSolution' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,2 @@
+'QuantitativeEulerEndpointCornerPolynomial.map_pow_corner' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointCornerPolynomial.map_aeval_corner' depends on axioms: [propext, Classical.choice, Quot.sound]

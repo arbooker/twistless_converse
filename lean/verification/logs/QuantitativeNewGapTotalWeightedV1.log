@@ -1,0 +1,3 @@
+'QuantitativeNewGap.weightedLocalOldEnergy_induction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeNewGap.totalNew_induction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeNewGap.totalNew_induction_distance' depends on axioms: [propext, Classical.choice, Quot.sound]

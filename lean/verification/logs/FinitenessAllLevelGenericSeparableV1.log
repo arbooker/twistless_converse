@@ -1,0 +1,4 @@
+'FinitenessAllLevelCoefficientRing.eval_radical_eliminant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelCoefficientRing.generic_separable_eliminants' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

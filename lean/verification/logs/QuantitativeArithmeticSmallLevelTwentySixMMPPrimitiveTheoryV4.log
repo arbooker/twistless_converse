@@ -1,0 +1,10 @@
+'QuantitativeArithmeticSmallLevelTwentySixMMPPrimitive.normalization_certificate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySixMMPPrimitive.raw_binding' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySixMMPPrimitive.signed_original_primitive_germs' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

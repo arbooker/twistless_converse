@@ -1,0 +1,202 @@
+{
+  "claim": "For bad13=+1 the leading and normalized first-source rows have full column rank for every nonzero exponential tuple; only simple weight-k poles remain analytically",
+  "cases": {
+    "mmp": {
+      "signs": [
+        -1,
+        -1,
+        1
+      ],
+      "jet_monomial_pivot": [
+        13,
+        0,
+        "234/y**2"
+      ],
+      "remaining_column": 1,
+      "scalar_rows": [
+        0,
+        4,
+        5,
+        8,
+        16,
+        18,
+        19,
+        24,
+        25,
+        26,
+        27,
+        35,
+        39
+      ],
+      "polynomials": [
+        "A**2*x + A*Y*x + 2*A*Y - 2*Y*x**2 - 3*Y*x - 2*Y - 2*x**4 - 2*x**3 - 4*x**2 - x",
+        "A*x**3 + A*x - 2*A + Y*x**3 - 2*Y*x**2 + Y*x - x**3 - x + 2",
+        "A*x**2 + A*x + 2*A + Y*x**2 - Y*x - x**2 - x - 2",
+        "A*x - 2*A - 9*x**2/5 + 13*x/5 + 2",
+        "A**2 + A*x + 2*A - 4*x**2 - 3*x - 3",
+        "A**2*x - 2*A**2 - 9*A*x**2/5 + 13*A*x/5 + 2*A",
+        "A*Y*x - 2*A*Y - 42*A*x**2/5 + 84*A*x/5 - 9*Y*x**2/5 + 13*Y*x/5 + 2*Y + 12*x**3 - 156*x**2/5 + 72*x/5",
+        "A**2*x + A*Y*x/3 - 2*A*Y/3 - 9*A*x**2/5 + 38*A*x/5 - 3*Y*x**2/5 + 13*Y*x/15 + 2*Y/3 - 67*x**2/5 + 9*x/5",
+        "A**2*x - 2*A**2 + A*Y*x/3 - 2*A*Y/3 - 9*A*x**2/5 + 28*A*x/5 - 4*A - 3*Y*x**2/5 + 13*Y*x/15 + 2*Y/3 - 27*x**2/5 + 39*x/5 + 6",
+        "A**2*x**2 - 2*A**2*x + 4*A**2 + A*Y*x**2/3 - 4*A*Y*x/3 + 4*A*Y/3 - 9*A*x**3/5 + 56*A*x**2/5 - 26*A*x/5 - 4*A - 3*Y*x**3/5 + 31*Y*x**2/15 - 16*Y*x/15 - 4*Y/3 - 67*x**3/5 + 9*x**2/5",
+        "A**2*x**2 - 2*A**2*x + 4*A**2 + A*Y*x**2/3 - 2*A*Y*x/3 - 9*A*x**3/5 + 28*A*x**2/5 + 6*A*x - 4*A - 3*Y*x**3/5 + 13*Y*x**2/15 + 2*Y*x/3 - 27*x**3/5 - 19*x**2 + 48*x/5",
+        "A*Y*x - 2*A*Y + 9*A*x - 18*A - 9*Y*x**2/5 + 13*Y*x/5 + 2*Y - 81*x**2/5 + 117*x/5 + 18",
+        "A*Y*x - 2*A*Y - 9*A*x + 18*A - 9*Y*x**2/5 + 13*Y*x/5 + 2*Y + 81*x**2/5 - 117*x/5 - 18"
+      ],
+      "groebner_basis": [
+        "A - 1",
+        "x"
+      ],
+      "x_remainder": "0",
+      "claim": "Full rank for leading plus first-source equations at every nonzero exponential tuple; simple weight-k poles not excluded"
+    },
+    "mpp": {
+      "signs": [
+        -1,
+        1,
+        1
+      ],
+      "jet_monomial_pivot": [
+        13,
+        0,
+        "234/y**2"
+      ],
+      "remaining_column": 1,
+      "scalar_rows": [
+        0,
+        4,
+        5,
+        8,
+        16,
+        18,
+        19,
+        24,
+        25,
+        26,
+        27,
+        36,
+        40
+      ],
+      "polynomials": [
+        "A**2*x + A*Y*x - 2*A*Y + 2*Y*x**2 - 3*Y*x + 2*Y + 2*x**4 - 2*x**3 + 4*x**2 - x",
+        "A*x**3 + A*x + 2*A + Y*x**3 + 2*Y*x**2 + Y*x - x**3 - x - 2",
+        "A*x**2 - A*x + 2*A + Y*x**2 + Y*x - x**2 + x - 2",
+        "A*x + 2*A + 9*x**2/5 + 13*x/5 - 2",
+        "A**2 - A*x + 2*A - 4*x**2 + 3*x - 3",
+        "A**2*x + 2*A**2 + 9*A*x**2/5 + 13*A*x/5 - 2*A",
+        "A*Y*x + 2*A*Y + 42*A*x**2/5 + 84*A*x/5 + 9*Y*x**2/5 + 13*Y*x/5 - 2*Y + 12*x**3 + 156*x**2/5 + 72*x/5",
+        "A**2*x + A*Y*x/3 + 2*A*Y/3 + 9*A*x**2/5 + 38*A*x/5 + 3*Y*x**2/5 + 13*Y*x/15 - 2*Y/3 + 67*x**2/5 + 9*x/5",
+        "A**2*x + 2*A**2 + A*Y*x/3 + 2*A*Y/3 + 9*A*x**2/5 + 28*A*x/5 + 4*A + 3*Y*x**2/5 + 13*Y*x/15 - 2*Y/3 + 27*x**2/5 + 39*x/5 - 6",
+        "A**2*x**2 + 2*A**2*x + 4*A**2 + A*Y*x**2/3 + 4*A*Y*x/3 + 4*A*Y/3 + 9*A*x**3/5 + 56*A*x**2/5 + 26*A*x/5 - 4*A + 3*Y*x**3/5 + 31*Y*x**2/15 + 16*Y*x/15 - 4*Y/3 + 67*x**3/5 + 9*x**2/5",
+        "A**2*x**2 + 2*A**2*x + 4*A**2 + A*Y*x**2/3 + 2*A*Y*x/3 + 9*A*x**3/5 + 28*A*x**2/5 - 6*A*x - 4*A + 3*Y*x**3/5 + 13*Y*x**2/15 - 2*Y*x/3 + 27*x**3/5 - 19*x**2 - 48*x/5",
+        "A*Y*x + 2*A*Y + 9*A*x + 18*A + 9*Y*x**2/5 + 13*Y*x/5 - 2*Y + 81*x**2/5 + 117*x/5 - 18",
+        "A*Y*x + 2*A*Y - 9*A*x - 18*A + 9*Y*x**2/5 + 13*Y*x/5 - 2*Y - 81*x**2/5 - 117*x/5 + 18"
+      ],
+      "groebner_basis": [
+        "A - 1",
+        "x"
+      ],
+      "x_remainder": "0",
+      "claim": "Full rank for leading plus first-source equations at every nonzero exponential tuple; simple weight-k poles not excluded"
+    },
+    "pmp": {
+      "signs": [
+        1,
+        -1,
+        1
+      ],
+      "jet_monomial_pivot": [
+        13,
+        0,
+        "-234/y**2"
+      ],
+      "remaining_column": 1,
+      "scalar_rows": [
+        0,
+        4,
+        5,
+        8,
+        16,
+        18,
+        19,
+        24,
+        25,
+        26,
+        27,
+        36,
+        40
+      ],
+      "polynomials": [
+        "A**2*x + A*Y*x + 2*A*Y - 2*Y*x**2 - 3*Y*x - 2*Y - 2*x**4 - 2*x**3 - 4*x**2 - x",
+        "A*x**3 + A*x - 2*A + Y*x**3 - 2*Y*x**2 + Y*x - x**3 - x + 2",
+        "A*x**2 + A*x + 2*A + Y*x**2 - Y*x - x**2 - x - 2",
+        "A*x - 2*A - 9*x**2/5 + 13*x/5 + 2",
+        "A**2 + A*x + 2*A - 4*x**2 - 3*x - 3",
+        "A**2*x - 2*A**2 - 9*A*x**2/5 + 13*A*x/5 + 2*A",
+        "A*Y*x - 2*A*Y - 42*A*x**2/5 + 84*A*x/5 - 9*Y*x**2/5 + 13*Y*x/5 + 2*Y + 12*x**3 - 156*x**2/5 + 72*x/5",
+        "A**2*x + A*Y*x/3 - 2*A*Y/3 - 9*A*x**2/5 + 38*A*x/5 - 3*Y*x**2/5 + 13*Y*x/15 + 2*Y/3 - 67*x**2/5 + 9*x/5",
+        "A**2*x - 2*A**2 + A*Y*x/3 - 2*A*Y/3 - 9*A*x**2/5 + 28*A*x/5 - 4*A - 3*Y*x**2/5 + 13*Y*x/15 + 2*Y/3 - 27*x**2/5 + 39*x/5 + 6",
+        "A**2*x**2 - 2*A**2*x + 4*A**2 + A*Y*x**2/3 - 4*A*Y*x/3 + 4*A*Y/3 - 9*A*x**3/5 + 56*A*x**2/5 - 26*A*x/5 - 4*A - 3*Y*x**3/5 + 31*Y*x**2/15 - 16*Y*x/15 - 4*Y/3 - 67*x**3/5 + 9*x**2/5",
+        "A**2*x**2 - 2*A**2*x + 4*A**2 + A*Y*x**2/3 - 2*A*Y*x/3 - 9*A*x**3/5 + 28*A*x**2/5 + 6*A*x - 4*A - 3*Y*x**3/5 + 13*Y*x**2/15 + 2*Y*x/3 - 27*x**3/5 - 19*x**2 + 48*x/5",
+        "A*Y*x - 2*A*Y + 9*A*x - 18*A - 9*Y*x**2/5 + 13*Y*x/5 + 2*Y - 81*x**2/5 + 117*x/5 + 18",
+        "A*Y*x - 2*A*Y - 9*A*x + 18*A - 9*Y*x**2/5 + 13*Y*x/5 + 2*Y + 81*x**2/5 - 117*x/5 - 18"
+      ],
+      "groebner_basis": [
+        "A - 1",
+        "x"
+      ],
+      "x_remainder": "0",
+      "claim": "Full rank for leading plus first-source equations at every nonzero exponential tuple; simple weight-k poles not excluded"
+    },
+    "ppp": {
+      "signs": [
+        1,
+        1,
+        1
+      ],
+      "jet_monomial_pivot": [
+        13,
+        0,
+        "234/y**2"
+      ],
+      "remaining_column": 1,
+      "scalar_rows": [
+        0,
+        4,
+        5,
+        8,
+        16,
+        18,
+        19,
+        24,
+        25,
+        26,
+        27,
+        35,
+        39
+      ],
+      "polynomials": [
+        "A**2*x + A*Y*x - 2*A*Y + 2*Y*x**2 - 3*Y*x + 2*Y + 2*x**4 - 2*x**3 + 4*x**2 - x",
+        "A*x**3 + A*x + 2*A + Y*x**3 + 2*Y*x**2 + Y*x - x**3 - x - 2",
+        "A*x**2 - A*x + 2*A + Y*x**2 + Y*x - x**2 + x - 2",
+        "A*x + 2*A + 9*x**2/5 + 13*x/5 - 2",
+        "A**2 - A*x + 2*A - 4*x**2 + 3*x - 3",
+        "A**2*x + 2*A**2 + 9*A*x**2/5 + 13*A*x/5 - 2*A",
+        "A*Y*x + 2*A*Y + 42*A*x**2/5 + 84*A*x/5 + 9*Y*x**2/5 + 13*Y*x/5 - 2*Y + 12*x**3 + 156*x**2/5 + 72*x/5",
+        "A**2*x + A*Y*x/3 + 2*A*Y/3 + 9*A*x**2/5 + 38*A*x/5 + 3*Y*x**2/5 + 13*Y*x/15 - 2*Y/3 + 67*x**2/5 + 9*x/5",
+        "A**2*x + 2*A**2 + A*Y*x/3 + 2*A*Y/3 + 9*A*x**2/5 + 28*A*x/5 + 4*A + 3*Y*x**2/5 + 13*Y*x/15 - 2*Y/3 + 27*x**2/5 + 39*x/5 - 6",
+        "A**2*x**2 + 2*A**2*x + 4*A**2 + A*Y*x**2/3 + 4*A*Y*x/3 + 4*A*Y/3 + 9*A*x**3/5 + 56*A*x**2/5 + 26*A*x/5 - 4*A + 3*Y*x**3/5 + 31*Y*x**2/15 + 16*Y*x/15 - 4*Y/3 + 67*x**3/5 + 9*x**2/5",
+        "A**2*x**2 + 2*A**2*x + 4*A**2 + A*Y*x**2/3 + 2*A*Y*x/3 + 9*A*x**3/5 + 28*A*x**2/5 - 6*A*x - 4*A + 3*Y*x**3/5 + 13*Y*x**2/15 - 2*Y*x/3 + 27*x**3/5 - 19*x**2 - 48*x/5",
+        "A*Y*x + 2*A*Y + 9*A*x + 18*A + 9*Y*x**2/5 + 13*Y*x/5 - 2*Y + 81*x**2/5 + 117*x/5 - 18",
+        "A*Y*x + 2*A*Y - 9*A*x - 18*A + 9*Y*x**2/5 + 13*Y*x/5 - 2*Y - 81*x**2/5 - 117*x/5 + 18"
+      ],
+      "groebner_basis": [
+        "A - 1",
+        "x"
+      ],
+      "x_remainder": "0",
+      "claim": "Full rank for leading plus first-source equations at every nonzero exponential tuple; simple weight-k poles not excluded"
+    }
+  },
+  "rank_source_sha256": "9270caa14c124d2074a900e18da5c700dd9d6736ed0b3d12489ec44c12507f00"
+}

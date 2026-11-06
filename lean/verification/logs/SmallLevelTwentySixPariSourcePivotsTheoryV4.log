@@ -1,0 +1,4 @@
+'SmallLevelTwentySixPariSourcePivots.original_pivots' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixPariSourcePivots.thirteen_rows_reduced' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixPariSourcePivots.thirteen_low_equations' depends on axioms: [propext, Classical.choice, Quot.sound]
+

@@ -1,0 +1,9 @@
+'QuantitativeEulerEndpointApproximateTrace.terminalCompression_norm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointApproximateTrace.ambient_sector_finrank_le_retained' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointBoundedIteration.actualFiniteExpression_sector_retained_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

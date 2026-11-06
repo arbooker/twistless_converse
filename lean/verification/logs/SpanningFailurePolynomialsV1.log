@@ -1,0 +1,1 @@
+'SpanningFailurePolynomials.relation_in_coordinates' depends on axioms: [propext, Classical.choice, Quot.sound]

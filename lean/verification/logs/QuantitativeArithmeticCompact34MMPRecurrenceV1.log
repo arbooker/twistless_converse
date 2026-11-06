@@ -1,0 +1,2 @@
+'QuantitativeArithmeticCompact34MMPRecurrence.before' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticCompact34MMPRecurrence.recurrence' depends on axioms: [propext, Classical.choice, Quot.sound]

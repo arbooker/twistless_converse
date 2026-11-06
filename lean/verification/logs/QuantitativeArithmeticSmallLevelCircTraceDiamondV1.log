@@ -1,0 +1,6 @@
+'QuantitativeArithmeticSmallLevelCirc.ModularHecke.trace_restrict_diamond' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.ModularHecke.ordinary_cross_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

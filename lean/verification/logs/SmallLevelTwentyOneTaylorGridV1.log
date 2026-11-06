@@ -1,0 +1,4 @@
+'SmallLevelTwentyOne.taylorSpecs_valid' depends on axioms: [propext]
+'SmallLevelTwentyOne.original_taylor_system' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOne.rowCoefficient_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+

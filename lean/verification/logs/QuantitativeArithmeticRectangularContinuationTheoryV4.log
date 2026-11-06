@@ -1,0 +1,9 @@
+'QuantitativeArithmeticRectangularContinuation.left_matrix_of_kernel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRectangularContinuation.meromorphic_continuation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRectangularContinuation.continued_meromorphic_rows' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

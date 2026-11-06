@@ -1,0 +1,2 @@
+'CompleteRowCosets.rowEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CompleteRowCosets.trace_coset_sum' depends on axioms: [propext, Classical.choice, Quot.sound]

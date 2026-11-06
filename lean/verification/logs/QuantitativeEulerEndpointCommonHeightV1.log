@@ -1,0 +1,8 @@
+'QuantitativeEulerEndpointPrepared.localTransportConstant_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.transportConstant_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.localTransportConstant_pos' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.certificate_common_heights' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

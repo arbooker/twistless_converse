@@ -1,0 +1,74 @@
+{
+  "scope": "Excludes s=k poles except k=2, signs(-1,-1,1), lambda3=-7/3. No modularity claim.",
+  "sources": {
+    "level22_weight_pole.py": "7a191526de33c5cd69859a462544a10dcefc74250e18167fcaf5cab4f29525d4",
+    "level22_pole_kernel.py": "46e6152053d04b07313a2a1bd3c26914db2a7a1de55dbdd18a6c9b781dc4fc83",
+    "level22_uniform_continuation.py": "370231bc5e1911417acd907eb168bf7a3dd2cb3a5c15dff956ee185cba5a2a1e"
+  },
+  "checks": [
+    {
+      "signs": [
+        -1,
+        -1,
+        -1
+      ],
+      "result": "WEIGHT_POLE_EXCLUSION_VERIFIED -1 -1 -1"
+    },
+    {
+      "signs": [
+        -1,
+        -1,
+        1
+      ],
+      "result": "WEIGHT_POLE_EXCLUSION_VERIFIED -1 -1 1"
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        -1
+      ],
+      "result": "WEIGHT_POLE_EXCLUSION_VERIFIED -1 1 -1"
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        1
+      ],
+      "result": "WEIGHT_POLE_EXCLUSION_VERIFIED -1 1 1"
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        -1
+      ],
+      "result": "WEIGHT_POLE_EXCLUSION_VERIFIED 1 -1 -1"
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        1
+      ],
+      "result": "WEIGHT_POLE_EXCLUSION_VERIFIED 1 -1 1"
+    },
+    {
+      "signs": [
+        1,
+        1,
+        -1
+      ],
+      "result": "WEIGHT_POLE_EXCLUSION_VERIFIED 1 1 -1"
+    },
+    {
+      "signs": [
+        1,
+        1,
+        1
+      ],
+      "result": "WEIGHT_POLE_EXCLUSION_VERIFIED 1 1 1"
+    }
+  ]
+}

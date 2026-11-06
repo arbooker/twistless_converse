@@ -1,0 +1,4 @@
+'QuantitativeEulerEndpointPrepared.compactAction_ramified' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.localOriginalEnergy_nonneg' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

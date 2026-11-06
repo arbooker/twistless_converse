@@ -1,0 +1,5 @@
+'SmallLevelTwentyOneChiFive.denominator_reflection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneChiFive.numerator_reflection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneChiFive.original_numerator_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneChiFive.original_reflected_continuation' depends on axioms: [propext, Classical.choice, Quot.sound]
+

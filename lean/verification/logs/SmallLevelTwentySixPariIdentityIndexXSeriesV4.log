@@ -1,0 +1,3 @@
+'SmallLevelTwentySixPariIdentity017X.identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixPariIdentity021X.identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+

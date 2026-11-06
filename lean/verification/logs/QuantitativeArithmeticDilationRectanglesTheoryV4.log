@@ -1,0 +1,21 @@
+'QuantitativeArithmeticDilationRectangles.bound_from_rectangles' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticDilationRectangles.constant_from_rectangles' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticDilationRectangles.constant_of_periodic_denominator' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticDilationRectangles.constant_of_polar_periodic_denominator' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticDilationRectangles.polynomial_exponential_periodic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticDilationRectangles.polynomial_exponential_horizontal_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticDilationRectangles.constant_of_polynomial_denominator' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

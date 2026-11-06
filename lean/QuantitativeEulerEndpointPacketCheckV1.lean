@@ -1,0 +1,18 @@
+module
+
+public import QuantitativeEulerEndpointChainCheckV1
+public import QuantitativeEulerEndpointPacketTraceV1
+
+/- Exact fixed-threshold packet realization and original-row Gram control.
+The full endpoint small-spectrum/newspace/count transfer remains open. -/
+#print axioms QuantitativeEulerEndpointPrepared.lowAt_positive_scale
+#print axioms QuantitativeEulerEndpointPrepared.nextSpace_positive_scale
+#print axioms QuantitativeEulerEndpointPrepared.primeRescaling_cut
+#print axioms QuantitativeEulerEndpointPrepared.freshStep_eq_packet
+#print axioms QuantitativeEulerEndpointPrepared.primeChain_eq_packet
+#print axioms QuantitativeEulerEndpointPrepared.packet_twist_row_norm
+#print axioms QuantitativeEulerEndpointPrepared.packet_twist_row_eq
+#print axioms QuantitativeEulerEndpointPrepared.actual_packet_gram_le
+#print axioms QuantitativeEulerEndpointPrepared.packet_sequence_regular
+#print axioms QuantitativeEulerEndpointPrepared.packet_sequence_norm
+#print axioms QuantitativeEulerEndpointPrepared.prepared_packet_trace_decay

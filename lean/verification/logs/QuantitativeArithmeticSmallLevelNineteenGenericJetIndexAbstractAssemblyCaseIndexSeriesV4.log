@@ -1,0 +1,18 @@
+'QuantitativeArithmeticSmallLevelNineteenGenericJet109.abstract_upper_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelNineteenGenericJet115.abstract_upper_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelNineteenGenericJet200.abstract_upper_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelNineteenGenericJet201.abstract_upper_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelNineteenGenericJet202.abstract_upper_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelNineteenGenericJet43.abstract_upper_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

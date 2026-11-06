@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointPrepared.compact_right_symbol_congr' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.compact_right_multiplier_congr' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

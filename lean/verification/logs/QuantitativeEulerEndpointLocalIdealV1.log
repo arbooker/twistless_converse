@@ -1,0 +1,10 @@
+'QuantitativeEulerEndpointPrepared.localRowSpan_mul_right' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.localRowSpan_fricke_conjugate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.repeated_translation_trace_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.repeated_translation_trace_mem' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

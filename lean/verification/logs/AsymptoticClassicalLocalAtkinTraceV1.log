@@ -1,0 +1,4 @@
+'AsymptoticClassicalCusp.trace_coe_congr' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.localAtkin_trace_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.localAtkin_upper_branch' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.upperTrace_localAtkin' depends on axioms: [propext, Classical.choice, Quot.sound]

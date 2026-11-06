@@ -1,0 +1,9 @@
+'QuantitativeSpectralExceptionalReducedRows.reducedFamily_regular' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralExceptionalReducedRows.compact_row_factorization' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralExceptionalReducedRows.compact_row_error_rank' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

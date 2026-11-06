@@ -1,0 +1,9 @@
+'QuantitativeSpectralExceptionalReducedRows.difference_source_corners' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralExceptionalReducedRows.terminal_word_sum_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralExceptionalReducedRows.exists_enlarged_source_observability' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

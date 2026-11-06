@@ -1,0 +1,10 @@
+'QuantitativeArithmeticPolynomialRootCover.monic_root_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticPolynomialRootCover.monic_root_cover_of_coordinate_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPolynomialRootCover.nodal_eval_bound_of_separations' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPolynomialRootCover.monic_root_cover_of_separations' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

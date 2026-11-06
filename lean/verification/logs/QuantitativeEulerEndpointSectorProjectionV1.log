@@ -1,0 +1,12 @@
+'QuantitativeEulerEndpointSector.physicalSector_finiteDimensional' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointSector.physicalSectorProjection_mem' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointSector.physicalSectorProjection_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointSector.row_projection_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointSector.packet_projection_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointSector.baseline_projection_zero' depends on axioms: [propext, Classical.choice, Quot.sound]

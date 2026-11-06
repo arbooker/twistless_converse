@@ -1,0 +1,6 @@
+'QuantitativeHolomorphic.Schedule.rawReconstructionLength_growth' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.Schedule.growing_raw_reconstruction_length' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

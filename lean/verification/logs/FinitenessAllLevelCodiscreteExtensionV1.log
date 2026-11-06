@@ -1,0 +1,3 @@
+'FinitenessAllLevelPolynomialPresentation.codiscrete_entire_extension' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

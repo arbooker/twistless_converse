@@ -1,0 +1,8 @@
+'FinitenessAllLevelGlobalHeight.parameters_change_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelFormalContinuation.depth_parameters_congr' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelFormalContinuation.formal_parameters_congr' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FinitenessAllLevelConstraintLocus.constraints_parameters_congr' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,2 @@
+'QuantitativeNewGap.localSpace_old_energy_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeNewGap.finite_local_energy_gap' depends on axioms: [propext, Classical.choice, Quot.sound]

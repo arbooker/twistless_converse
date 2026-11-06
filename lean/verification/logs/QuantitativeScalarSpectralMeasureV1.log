@@ -1,0 +1,10 @@
+'QuantitativeScalarSpectralMeasure.integral_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeScalarSpectralMeasure.measure_real_univ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeScalarSpectralMeasure.measure_univ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeScalarSpectralMeasure.realMeasure_univ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeScalarSpectralMeasure.realMeasure_probability' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeScalarSpectralMeasure.realMeasure_compl_spectrum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeScalarSpectralMeasure.integral_realMeasure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeScalarSpectralMeasure.moment' depends on axioms: [propext, Classical.choice, Quot.sound]

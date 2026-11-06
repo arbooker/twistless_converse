@@ -1,0 +1,2 @@
+'SmallLevelTwentySixGrid.initial_system_of_laws' depends on axioms: [propext, Classical.choice, Quot.sound]
+

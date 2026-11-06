@@ -1,0 +1,10 @@
+'QuantitativeArithmeticSmallLevelThirtyThreeKnownWords.gridMatrixScalar_analytic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyThreeKnownWords.gridTaylorCoefficient_analytic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyThreeKnownWords.grid_matrix_system_of_laws' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

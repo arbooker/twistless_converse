@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointPrepared.sectorThresholdPolynomial_degree' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.sectorThresholdPolynomial_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

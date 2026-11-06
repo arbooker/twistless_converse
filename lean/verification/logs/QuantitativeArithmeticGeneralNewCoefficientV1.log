@@ -1,0 +1,12 @@
+'QuantitativeArithmeticGeneralNewCoefficient.repeated_new_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticGeneralNewCoefficient.repeated_new_root' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticGeneralNewCoefficient.localSpace_root_eq_factor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticGeneralNewCoefficient.coefficient_eq_arithmetic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

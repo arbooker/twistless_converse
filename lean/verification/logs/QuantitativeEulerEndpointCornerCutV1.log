@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointCornerCut.representation_cfc' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointCornerCut.cutElement' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointCornerCut.cutElement_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointCornerCut.intrinsic_window_sandwich' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,3 @@
+'AsymptoticClassicalCusp.frickeEvenIsometry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.fricke_partial_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.fricke_map_old_range' depends on axioms: [propext, Classical.choice, Quot.sound]

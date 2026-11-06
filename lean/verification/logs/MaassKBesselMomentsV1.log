@@ -1,0 +1,3 @@
+'MaassKBessel.moment_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MaassKBessel.moment_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MaassKBessel.K_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]

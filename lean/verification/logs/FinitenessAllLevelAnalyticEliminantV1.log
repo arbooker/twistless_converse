@@ -1,0 +1,8 @@
+'FinitenessAllLevelCoefficientRing.representative_not_identically_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FinitenessAllLevelCoefficientRing.eval_eliminant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelCoefficientRing.analytic_coordinate_eliminant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FinitenessAllLevelCoefficientRing.leading_nonzero_punctured' depends on axioms: [propext, Classical.choice, Quot.sound]

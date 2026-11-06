@@ -1,0 +1,20 @@
+'QuantitativeArithmeticRetainedImageTrace.ambient_gram' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedImageTrace.image_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedImageTrace.image_subspace_trace_finite' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedImageTrace.exists_image_energy_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedFreshLow.exists_image_fresh_low_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedPrimeStep.exists_image_prime_trace_loss' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedPrimeStep.exists_common_image_prime_loss' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedPrimeStep.exists_image_chain_trace_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

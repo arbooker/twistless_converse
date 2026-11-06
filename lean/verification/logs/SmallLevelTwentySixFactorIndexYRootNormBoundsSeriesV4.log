@@ -1,0 +1,5 @@
+'SmallLevelTwentySixFactor6YRoot.squarefree_binding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixFactor6YRoot.root_norm_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixFactor7YRoot.squarefree_binding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixFactor7YRoot.root_norm_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+

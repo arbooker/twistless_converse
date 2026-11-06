@@ -1,0 +1,5 @@
+'SmallLevelTwentySixGermDAG.original_pole_x_ne_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermDAG.original_signed_mmm_no_pole_small' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

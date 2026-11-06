@@ -1,0 +1,2 @@
+'QuantitativeHolomorphic.Schedule.normalizedLength_growth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.Schedule.scalarFilter_growth' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,7 @@
+'AsymptoticIntegralSubgroup.integralEntries_adjugate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticIntegralSubgroup.integralGL_of_entries_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticIntegralSubgroup.integer_matrix_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticIntegralSubgroup.fricke_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticIntegralSubgroup.reconstruction_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticIntegralSubgroup.reconstruction_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticIntegralSubgroup.ramified_integral' depends on axioms: [propext, Classical.choice, Quot.sound]

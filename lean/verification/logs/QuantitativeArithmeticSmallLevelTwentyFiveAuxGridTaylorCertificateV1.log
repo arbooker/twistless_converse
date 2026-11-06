@@ -1,0 +1,10 @@
+'QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.taylor_certificate_leading' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.taylor_coefficient_analytic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.taylor_certificate_rows' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

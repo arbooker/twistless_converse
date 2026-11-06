@@ -1,0 +1,4 @@
+'QuantitativeMaass.HeckeL2.operator_pairing_dilation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeMaass.AutomorphicL2.denseEmbedding_inner' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeMaass.HeckeL2.inclusion_on_representatives' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeMaass.HeckeL2.operator_pairing' depends on axioms: [propext, Classical.choice, Quot.sound]

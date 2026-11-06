@@ -1,0 +1,3 @@
+'AsymptoticFoldSelection.fold_mem_strip_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFoldSelection.periodic_fold' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFoldSelection.strip_tsum' depends on axioms: [propext, Classical.choice, Quot.sound]

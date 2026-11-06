@@ -1,0 +1,5 @@
+'AsymptoticOrbitDecode.family_decode' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticOrbitDecode.all_compact_family_zero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticOrbitDecode.reflected_one_label' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticOrbitDecode.all_compact_untwisted_zero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+

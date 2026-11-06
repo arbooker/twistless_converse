@@ -1,0 +1,6 @@
+'QuantitativeSpectralExceptionalRows.retained_add_omitted' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralExceptionalRows.omitted_output_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralExceptionalRows.omitted_rank_le_area' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralExceptionalRows.omitted_stack_rank_le_area' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,5 @@
+'SmallLevelTwentySixGermDAG.source_rows_match' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermDAG.source_rows_match_layer0' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermDAG.source_rows_match_layer1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermDAG.source_rows_match_layer2' depends on axioms: [propext, Classical.choice, Quot.sound]
+

@@ -1,0 +1,6 @@
+'AsymptoticClassicalLSeries.coefficients_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalLSeries.coefficients_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalLSeries.coefficients_recover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalLSeries.coefficients_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalLSeries.coefficients_isBigO' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalLSeries.coefficients_growth' depends on axioms: [propext, Classical.choice, Quot.sound]

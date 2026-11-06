@@ -1,0 +1,3624 @@
+{
+  "status": "Static read/write-site review; inferred paths may be dynamic and control-flow is not evaluated",
+  "observed_utc": "2026-11-05T12:30:54.439230+00:00",
+  "reads": [
+    {
+      "source": "level19_central_x_check.py",
+      "line": 6,
+      "kind": "read",
+      "expression": "Path('research/small_levels/level19_pole_probe.py')",
+      "inferred_path": "research/small_levels/level19_pole_probe.py",
+      "existing_companion": "level19_pole_probe.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level19_central_y_check.py",
+      "line": 3,
+      "kind": "read",
+      "expression": "Path('research/small_levels/level19_pole_probe.py')",
+      "inferred_path": "research/small_levels/level19_pole_probe.py",
+      "existing_companion": "level19_pole_probe.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level19_exact_membership_sparse_prepare.py",
+      "line": 5,
+      "kind": "read",
+      "expression": "original",
+      "inferred_path": "/tmp/level19_firstjet_certificate.m",
+      "existing_companion": null,
+      "absolute_temporary_path": true,
+      "possible_writer_sites": [
+        {
+          "source": "level19_firstjet_certificate.py",
+          "line": 67
+        }
+      ]
+    },
+    {
+      "source": "level19_exact_membership_sparse_prepare.py",
+      "line": 62,
+      "kind": "read",
+      "expression": "original",
+      "inferred_path": "/tmp/level19_firstjet_certificate.m",
+      "existing_companion": null,
+      "absolute_temporary_path": true,
+      "possible_writer_sites": [
+        {
+          "source": "level19_firstjet_certificate.py",
+          "line": 67
+        }
+      ]
+    },
+    {
+      "source": "level19_exact_membership_sparse_prepare.py",
+      "line": 64,
+      "kind": "read",
+      "expression": "p",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level19_opposite_compact_check.py",
+      "line": 12,
+      "kind": "read",
+      "expression": "Path('/tmp/level19_opposite_firstjet_certificate.m')",
+      "inferred_path": "/tmp/level19_opposite_firstjet_certificate.m",
+      "existing_companion": null,
+      "absolute_temporary_path": true,
+      "possible_writer_sites": [
+        {
+          "source": "level19_opposite_firstjet_export.py",
+          "line": 66
+        }
+      ]
+    },
+    {
+      "source": "level19_opposite_compact_check.py",
+      "line": 14,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level19_opposite_syzygies.json')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level19_opposite_syzygies.json",
+      "existing_companion": "level19_opposite_syzygies.json",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level19_opposite_compact_check.py",
+      "line": 49,
+      "kind": "read",
+      "expression": "out",
+      "inferred_path": "/tmp/level19_opposite_compact_verified.m",
+      "existing_companion": null,
+      "absolute_temporary_path": true,
+      "possible_writer_sites": [
+        {
+          "source": "level19_opposite_compact_check.py",
+          "line": 47
+        }
+      ]
+    },
+    {
+      "source": "level19_opposite_gzero_check.py",
+      "line": 9,
+      "kind": "read",
+      "expression": "Path('/tmp/level19_opposite_firstjet_certificate.m')",
+      "inferred_path": "/tmp/level19_opposite_firstjet_certificate.m",
+      "existing_companion": null,
+      "absolute_temporary_path": true,
+      "possible_writer_sites": [
+        {
+          "source": "level19_opposite_firstjet_export.py",
+          "line": 66
+        }
+      ]
+    },
+    {
+      "source": "level19_opposite_gzero_check.py",
+      "line": 24,
+      "kind": "read",
+      "expression": "out",
+      "inferred_path": "/tmp/level19_opposite_gzero_verified.m",
+      "existing_companion": null,
+      "absolute_temporary_path": true,
+      "possible_writer_sites": [
+        {
+          "source": "level19_opposite_gzero_check.py",
+          "line": 22
+        }
+      ]
+    },
+    {
+      "source": "level19_real_top_check.py",
+      "line": 10,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level19_pole_probe.py')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level19_pole_probe.py",
+      "existing_companion": "level19_pole_probe.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level19_zero2_central_check.py",
+      "line": 8,
+      "kind": "read",
+      "expression": "Path('research/small_levels/level19_pole_probe.py')",
+      "inferred_path": "research/small_levels/level19_pole_probe.py",
+      "existing_companion": "level19_pole_probe.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level19_zero2_firstjet_check.py",
+      "line": 7,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level19_pole_probe.py')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level19_pole_probe.py",
+      "existing_companion": "level19_pole_probe.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level21_22_extra_prime5.py",
+      "line": 14,
+      "kind": "read",
+      "expression": "Path(__file__).with_name(file)",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level21_22_extra_prime5_poles.py",
+      "line": 11,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level21_22_extra_prime5.py')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level21_22_extra_prime5.py",
+      "existing_companion": "level21_22_extra_prime5.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level21_22_modularity_generic21.py",
+      "line": 15,
+      "kind": "read",
+      "expression": "source_dir / 'level21_22_modularity_chi5.py'",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level21_22_modularity_generic21.py",
+      "line": 25,
+      "kind": "read",
+      "expression": "source_dir / 'level19_generation.py'",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level21_22_modularity_zero21_certificate.py",
+      "line": 13,
+      "kind": "read",
+      "expression": "ROOT / 'level21_22_modularity_zero21_closure.json'",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level21_22_modularity_zero21_certificate.py",
+      "line": 14,
+      "kind": "read",
+      "expression": "ROOT / 'level21_22_modularity_zero21_words.json'",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level21_22_weight2_chi5.py",
+      "line": 14,
+      "kind": "read",
+      "expression": "base / 'level21_22_extra_prime5_poles.py'",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level21_22_extra_prime5_poles.py",
+      "existing_companion": "level21_22_extra_prime5_poles.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level21_22_weight2_chi5.py",
+      "line": 45,
+      "kind": "read",
+      "expression": "base / f",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level21_22_weight2_chi5_22.py",
+      "line": 11,
+      "kind": "read",
+      "expression": "base / 'level21_22_extra_prime5_poles.py'",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level21_22_extra_prime5_poles.py",
+      "existing_companion": "level21_22_extra_prime5_poles.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level21_22_weight2_chi5_22.py",
+      "line": 58,
+      "kind": "read",
+      "expression": "base / f",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level21_22_weight2_level21.py",
+      "line": 26,
+      "kind": "read",
+      "expression": "base / 'level21_augmented_builder.py'",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level21_augmented_builder.py",
+      "existing_companion": "level21_augmented_builder.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level21_22_weight2_level21.py",
+      "line": 78,
+      "kind": "read",
+      "expression": "base / f",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level21_22_weight2_level22.py",
+      "line": 13,
+      "kind": "read",
+      "expression": "base / 'level21_22_extra_prime5.py'",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level21_22_extra_prime5.py",
+      "existing_companion": "level21_22_extra_prime5.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level21_22_weight2_level22.py",
+      "line": 56,
+      "kind": "read",
+      "expression": "base / f",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level21_augmented_first_jet.py",
+      "line": 7,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level21_augmented_builder.py')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level21_augmented_builder.py",
+      "existing_companion": "level21_augmented_builder.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level21_exceptional_jet.py",
+      "line": 7,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level21_augmented_first_jet.py')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level21_augmented_first_jet.py",
+      "existing_companion": "level21_augmented_first_jet.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level21_weight_pole.py",
+      "line": 6,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level21_augmented_first_jet.py')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level21_augmented_first_jet.py",
+      "existing_companion": "level21_augmented_first_jet.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level22_exceptional_jet.py",
+      "line": 7,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level22_first_taylor.py')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level22_first_taylor.py",
+      "existing_companion": "level22_first_taylor.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level22_first_taylor.py",
+      "line": 6,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level22_uniform_continuation.py')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level22_uniform_continuation.py",
+      "existing_companion": "level22_uniform_continuation.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level22_pole_kernel.py",
+      "line": 5,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level22_uniform_continuation.py')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level22_uniform_continuation.py",
+      "existing_companion": "level22_uniform_continuation.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level22_weight_pole.py",
+      "line": 8,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level22_pole_kernel.py')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level22_pole_kernel.py",
+      "existing_companion": "level22_pole_kernel.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_cusp_aux_prime7_firstjet.py",
+      "line": 11,
+      "kind": "read",
+      "expression": "base / 'level25_cusp_aux_prime7_symbolic.py'",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_cusp_aux_prime7_symbolic.py",
+      "existing_companion": "level25_cusp_aux_prime7_symbolic.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_cusp_aux_prime7_firstjet.py",
+      "line": 18,
+      "kind": "read",
+      "expression": "base / 'level25_finish_firstjet.py'",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_finish_firstjet.py",
+      "existing_companion": "level25_finish_firstjet.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_cusp_aux_prime7_jetideals.py",
+      "line": 6,
+      "kind": "read",
+      "expression": "Path('/tmp/' + prefix + 'reduced_' + str(eta) + suffix + '.json')",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_cusp_aux_prime7_jetrank.py",
+      "line": 6,
+      "kind": "read",
+      "expression": "Path('/tmp/' + jet_prefix + str(eta) + jet_suffix + '.json')",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_cusp_aux_prime7_symbolic.py",
+      "line": 7,
+      "kind": "read",
+      "expression": "base / 'level25_finish_augmented.py'",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_finish_augmented.py",
+      "existing_companion": "level25_finish_augmented.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_cusp_aux_prime7_symbolic.py",
+      "line": 9,
+      "kind": "read",
+      "expression": "base / 'level25_uniform_continuation.py'",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_uniform_continuation.py",
+      "existing_companion": "level25_uniform_continuation.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_finish_eta_minus_cusp_poles.py",
+      "line": 10,
+      "kind": "read",
+      "expression": "base / 'level25_finish_firstjet.py'",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_finish_firstjet.py",
+      "existing_companion": "level25_finish_firstjet.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_finish_eta_minus_cusp_poles.py",
+      "line": 26,
+      "kind": "read",
+      "expression": "base / 'level25_finish_nonweight_branch.py'",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_finish_nonweight_branch.py",
+      "existing_companion": "level25_finish_nonweight_branch.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_finish_eta_minus_cusp_poles.py",
+      "line": 56,
+      "kind": "read",
+      "expression": "base / name",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_finish_eta_minus_cusp_poles.py",
+      "line": 57,
+      "kind": "read",
+      "expression": "base / 'level25_finish_minus_higherjet.py'",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_finish_minus_higherjet.py",
+      "existing_companion": "level25_finish_minus_higherjet.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_finish_eta_plus_cusp_poles.py",
+      "line": 8,
+      "kind": "read",
+      "expression": "base / 'level25_finish_plus_germ.py'",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_finish_plus_germ.py",
+      "existing_companion": "level25_finish_plus_germ.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_finish_eta_plus_cusp_poles.py",
+      "line": 21,
+      "kind": "read",
+      "expression": "base / 'level25_finish_plus_higherjet.py'",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_finish_plus_higherjet.py",
+      "existing_companion": "level25_finish_plus_higherjet.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_finish_eta_plus_cusp_poles.py",
+      "line": 39,
+      "kind": "read",
+      "expression": "base / 'level25_finish_plus_exceptional.py'",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_finish_plus_exceptional.py",
+      "existing_companion": "level25_finish_plus_exceptional.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_finish_eta_plus_cusp_poles.py",
+      "line": 50,
+      "kind": "read",
+      "expression": "base / name",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_finish_minus_higherjet.py",
+      "line": 9,
+      "kind": "read",
+      "expression": "base / 'level25_finish_augmented.py'",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_finish_augmented.py",
+      "existing_companion": "level25_finish_augmented.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_plus_poles_chart1_certificate.py",
+      "line": 10,
+      "kind": "read",
+      "expression": "base / 'level25_plus_poles_chart1_rows.json'",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_plus_poles_chart1_rows.json",
+      "existing_companion": "level25_plus_poles_chart1_rows.json",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_plus_poles_chart1_certificate.py",
+      "line": 11,
+      "kind": "read",
+      "expression": "base / 'level25_plus_poles_chart1_shape.json'",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_plus_poles_chart1_shape.json",
+      "existing_companion": "level25_plus_poles_chart1_shape.json",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_plus_poles_chart1_certificate.py",
+      "line": 13,
+      "kind": "read",
+      "expression": "Path('/tmp/level25_plus_poles_even_chart1_rational.m')",
+      "inferred_path": "/tmp/level25_plus_poles_even_chart1_rational.m",
+      "existing_companion": null,
+      "absolute_temporary_path": true,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_plus_poles_chart2_certificate.py",
+      "line": 8,
+      "kind": "read",
+      "expression": "Path('/tmp/level25_plus_poles_even_chart2_rational.m')",
+      "inferred_path": "/tmp/level25_plus_poles_even_chart2_rational.m",
+      "existing_companion": null,
+      "absolute_temporary_path": true,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_plus_poles_negative1_dzero_certificate.py",
+      "line": 9,
+      "kind": "read",
+      "expression": "Path('/tmp/level25_cusp_aux_minus_even1_rational_pure.m')",
+      "inferred_path": "/tmp/level25_cusp_aux_minus_even1_rational_pure.m",
+      "existing_companion": null,
+      "absolute_temporary_path": true,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_plus_poles_negative2_prepare.py",
+      "line": 17,
+      "kind": "read",
+      "expression": "source",
+      "inferred_path": "/tmp/level25_cusp_aux_minus_seed{seed}_chart{chart}.txt",
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_plus_poles_negative2_prepare.py",
+      "line": 72,
+      "kind": "read",
+      "expression": "Path(__file__).parent / 'level25_plus_poles_negative2_certificate.m'",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_plus_poles_negative2_certificate.m",
+      "existing_companion": "level25_plus_poles_negative2_certificate.m",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_root_chart1_modulus.py",
+      "line": 18,
+      "kind": "read",
+      "expression": "SOURCE",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_root_chart1_modulus.py",
+      "line": 77,
+      "kind": "read",
+      "expression": "saved",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_root_chart1_modulus.py",
+      "line": 79,
+      "kind": "read",
+      "expression": "CENTERS",
+      "inferred_path": "/tmp/level25_root_chart1_centers.txt",
+      "existing_companion": null,
+      "absolute_temporary_path": true,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_root_chart1_modulus.py",
+      "line": 117,
+      "kind": "read",
+      "expression": "SOURCE",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_root_chart1_modulus.py",
+      "line": 118,
+      "kind": "read",
+      "expression": "Path(__file__)",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_root_chart1_modulus.py",
+      "existing_companion": "level25_root_chart1_modulus.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_root_negative_quartic.py",
+      "line": 30,
+      "kind": "read",
+      "expression": "Path(__file__)",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_root_negative_quartic.py",
+      "existing_companion": "level25_root_negative_quartic.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_first_jet.py",
+      "line": 4,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level26_jet_builder.py')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_jet_builder.py",
+      "existing_companion": "level26_jet_builder.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_negative_poles_eliminate.py",
+      "line": 14,
+      "kind": "read",
+      "expression": "src",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_negative_poles_eliminate.py",
+      "line": 52,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level26_negative_poles_backend.m')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_negative_poles_backend.m",
+      "existing_companion": "level26_negative_poles_backend.m",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_negative_poles_extract.py",
+      "line": 12,
+      "kind": "read",
+      "expression": "source",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_negative_poles_extract.py",
+      "line": 23,
+      "kind": "read",
+      "expression": "dest",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_negative_poles_extract.py",
+      "line": 28,
+      "kind": "read",
+      "expression": "source",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_negative_poles_extract.py",
+      "line": 29,
+      "kind": "read",
+      "expression": "dest",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_negative_poles_extract.py",
+      "line": 30,
+      "kind": "read",
+      "expression": "Path(__file__)",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_negative_poles_extract.py",
+      "existing_companion": "level26_negative_poles_extract.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_negative_poles_generate.py",
+      "line": 17,
+      "kind": "read",
+      "expression": "base / 'level26_root_prime5_higher.py'",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_root_prime5_higher.py",
+      "existing_companion": "level26_root_prime5_higher.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_negative_poles_signs.py",
+      "line": 9,
+      "kind": "read",
+      "expression": "base / ('level26_negative_poles_' + c + '_projection.json')",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_negative_poles_signs.py",
+      "line": 31,
+      "kind": "read",
+      "expression": "audit_path",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_root_modulus_mmm.json",
+      "existing_companion": "level26_root_modulus_mmm.json",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_negative_poles_signs.py",
+      "line": 33,
+      "kind": "read",
+      "expression": "projection",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_negative_poles_mmm_projection.json",
+      "existing_companion": "level26_negative_poles_mmm_projection.json",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_negative_poles_signs.py",
+      "line": 36,
+      "kind": "read",
+      "expression": "p",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_positive_repair_check.py",
+      "line": 20,
+      "kind": "read",
+      "expression": "base / 'level26_prime5_wide_closed.py'",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_prime5_wide_closed.py",
+      "existing_companion": "level26_prime5_wide_closed.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_positive_repair_check.py",
+      "line": 107,
+      "kind": "read",
+      "expression": "base / n",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_root_modulus_audit.py",
+      "line": 20,
+      "kind": "read",
+      "expression": "source",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_root_modulus_audit.py",
+      "line": 80,
+      "kind": "read",
+      "expression": "source",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_root_modulus_audit.py",
+      "line": 81,
+      "kind": "read",
+      "expression": "Path(__file__)",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_root_modulus_audit.py",
+      "existing_companion": "level26_root_modulus_audit.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level27_root_affine_check.py",
+      "line": 12,
+      "kind": "read",
+      "expression": "source",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level27_root_affine_check.py",
+      "line": 50,
+      "kind": "read",
+      "expression": "certificate_path",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level27_root_affine_check.py",
+      "line": 80,
+      "kind": "read",
+      "expression": "p",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level28_cusp_probe_poles_chi4.py",
+      "line": 9,
+      "kind": "read",
+      "expression": "base / 'level28_root_weight_probe.py'",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level28_root_weight_probe.py",
+      "existing_companion": "level28_root_weight_probe.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level28_cusp_probe_support.py",
+      "line": 8,
+      "kind": "read",
+      "expression": "base / 'level28_root_probe.py'",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level28_root_probe.py",
+      "existing_companion": "level28_root_probe.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level28_cusp_probe_weight.py",
+      "line": 8,
+      "kind": "read",
+      "expression": "base / 'level28_root_weight_probe.py'",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level28_root_weight_probe.py",
+      "existing_companion": "level28_root_weight_probe.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level28_first_jet.py",
+      "line": 4,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level28_jet_builder.py')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level28_jet_builder.py",
+      "existing_companion": "level28_jet_builder.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level28_pole_reduction.py",
+      "line": 5,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level28_jet_builder.py')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level28_jet_builder.py",
+      "existing_companion": "level28_jet_builder.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level28_root_constraints.py",
+      "line": 4,
+      "kind": "read",
+      "expression": "base / 'level28_pole_reduction.py'",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level28_pole_reduction.py",
+      "existing_companion": "level28_pole_reduction.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level28_root_exceptional_jet.py",
+      "line": 6,
+      "kind": "read",
+      "expression": "base / 'level28_root_constraints.py'",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level28_root_constraints.py",
+      "existing_companion": "level28_root_constraints.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level28_root_probe.py",
+      "line": 4,
+      "kind": "read",
+      "expression": "base / 'level28_pole_reduction.py'",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level28_pole_reduction.py",
+      "existing_companion": "level28_pole_reduction.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level28_root_weight_probe.py",
+      "line": 4,
+      "kind": "read",
+      "expression": "base / 'level28_pole_reduction.py'",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level28_pole_reduction.py",
+      "existing_companion": "level28_pole_reduction.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level33_exceptional_jet.py",
+      "line": 7,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level33_first_jet.py')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level33_first_jet.py",
+      "existing_companion": "level33_first_jet.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level33_first_jet.py",
+      "line": 5,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level33_jet_builder.py')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level33_jet_builder.py",
+      "existing_companion": "level33_jet_builder.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level33_uniform_continuation.py",
+      "line": 5,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level33_jet_builder.py')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level33_jet_builder.py",
+      "existing_companion": "level33_jet_builder.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level33_weight_chain.py",
+      "line": 6,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level33_first_jet.py')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level33_first_jet.py",
+      "existing_companion": "level33_first_jet.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level34_closed_continuation.py",
+      "line": 5,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level34_jet_builder.py')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level34_jet_builder.py",
+      "existing_companion": "level34_jet_builder.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level34_finish_prime5_critical.py",
+      "line": 8,
+      "kind": "read",
+      "expression": "Path('/tmp/level34_finish_prime5_rows_510_' + code + '.json')",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level35_firstjet_projection.py",
+      "line": 5,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level35_full_continuation.py')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level35_full_continuation.py",
+      "existing_companion": "level35_full_continuation.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level35_leading_projection.py",
+      "line": 6,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level35_full_continuation.py')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level35_full_continuation.py",
+      "existing_companion": "level35_full_continuation.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level35_modularity_chi4.py",
+      "line": 8,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level35_full_continuation.py')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level35_full_continuation.py",
+      "existing_companion": "level35_full_continuation.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level35_positive_gap1.py",
+      "line": 4,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level35_positive_gap1_rows.json')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level35_positive_gap1_rows.json",
+      "existing_companion": "level35_positive_gap1_rows.json",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level35_positive_gap1.py",
+      "line": 5,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level35_firstjet_projection.py')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level35_firstjet_projection.py",
+      "existing_companion": "level35_firstjet_projection.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level35_positive_gap1.py",
+      "line": 8,
+      "kind": "read",
+      "expression": "fresh",
+      "inferred_path": "/tmp/level35_firstjet_positive.json",
+      "existing_companion": null,
+      "absolute_temporary_path": true,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level35_positive_gap1_roots.py",
+      "line": 6,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level35_positive_gap1_disks.json')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level35_positive_gap1_disks.json",
+      "existing_companion": "level35_positive_gap1_disks.json",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level35_positive_residue.py",
+      "line": 11,
+      "kind": "read",
+      "expression": "root / 'level35_positive_rows.json'",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level35_positive_residue.py",
+      "line": 11,
+      "kind": "read",
+      "expression": "Path('/tmp/level35_firstjet_positive.json')",
+      "inferred_path": "/tmp/level35_firstjet_positive.json",
+      "existing_companion": null,
+      "absolute_temporary_path": true,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level35_positive_residue.py",
+      "line": 12,
+      "kind": "read",
+      "expression": "root / n",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level35_positive_residue.py",
+      "line": 21,
+      "kind": "read",
+      "expression": "root / 'level35_unshifted_rows.json'",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level35_positive_residue.py",
+      "line": 38,
+      "kind": "read",
+      "expression": "root / 'level35_positive_root_disks.json'",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level35_positive_roots.py",
+      "line": 6,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level35_positive_root_disks.json')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level35_positive_root_disks.json",
+      "existing_companion": "level35_positive_root_disks.json",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level35_sign_symmetry.py",
+      "line": 11,
+      "kind": "read",
+      "expression": "SRC",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level35_full_continuation.py",
+      "existing_companion": "level35_full_continuation.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level35_sign_symmetry.py",
+      "line": 52,
+      "kind": "read",
+      "expression": "SRC",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level35_full_continuation.py",
+      "existing_companion": "level35_full_continuation.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level35_unshifted_residue.py",
+      "line": 12,
+      "kind": "read",
+      "expression": "root / 'level35_unshifted_rows.json'",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level35_unshifted_residue.py",
+      "line": 14,
+      "kind": "read",
+      "expression": "root / name",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level35_unshifted_residue.py",
+      "line": 15,
+      "kind": "read",
+      "expression": "Path('/tmp/level35_firstjet_reduced.json')",
+      "inferred_path": "/tmp/level35_firstjet_reduced.json",
+      "existing_companion": null,
+      "absolute_temporary_path": true,
+      "possible_writer_sites": [
+        {
+          "source": "level35_firstjet_projection.py",
+          "line": 68
+        }
+      ]
+    },
+    {
+      "source": "level35_unshifted_residue.py",
+      "line": 53,
+      "kind": "read",
+      "expression": "root / 'level35_unshifted_root_disks.json'",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level35_unshifted_roots.py",
+      "line": 6,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level35_unshifted_root_disks.json')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level35_unshifted_root_disks.json",
+      "existing_companion": "level35_unshifted_root_disks.json",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level35_weight_point.py",
+      "line": 7,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level35_weight_rows.json')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level35_weight_rows.json",
+      "existing_companion": "level35_weight_rows.json",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level35_weight_point.py",
+      "line": 8,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level35_leading_projection.py')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level35_leading_projection.py",
+      "existing_companion": "level35_leading_projection.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level35_weight_point.py",
+      "line": 13,
+      "kind": "read",
+      "expression": "fresh",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level36_congruence_check.py",
+      "line": 38,
+      "kind": "read",
+      "expression": "Path(__file__)",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level36_congruence_check.py",
+      "existing_companion": "level36_congruence_check.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level36_hecke_check.py",
+      "line": 53,
+      "kind": "read",
+      "expression": "Path(__file__)",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level36_hecke_check.py",
+      "existing_companion": "level36_hecke_check.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level19_firstjet_certificate.py",
+      "line": 11,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level19_pole_probe.py')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level19_pole_probe.py",
+      "existing_companion": "level19_pole_probe.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level19_opposite_firstjet_export.py",
+      "line": 11,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level19_pole_probe.py')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level19_pole_probe.py",
+      "existing_companion": "level19_pole_probe.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level19_rootind_sparse_all_prepare.py",
+      "line": 4,
+      "kind": "read",
+      "expression": "Path(p)",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level19_rootind_sparse_all_prepare.py",
+      "line": 6,
+      "kind": "read",
+      "expression": "Path('/tmp/level19_rootind_sparse_source_completion.json')",
+      "inferred_path": "/tmp/level19_rootind_sparse_source_completion.json",
+      "existing_companion": null,
+      "absolute_temporary_path": true,
+      "possible_writer_sites": [
+        {
+          "source": "level19_rootind_sparse_prepare.py",
+          "line": 104
+        }
+      ]
+    },
+    {
+      "source": "level19_rootind_sparse_all_prepare.py",
+      "line": 75,
+      "kind": "read",
+      "expression": "oldfast",
+      "inferred_path": "/tmp/level19_sparse_poles_compactall_fast.m",
+      "existing_companion": null,
+      "absolute_temporary_path": true,
+      "possible_writer_sites": [
+        {
+          "source": "level19_sparse_poles_compact.py",
+          "line": 54
+        }
+      ]
+    },
+    {
+      "source": "level19_rootind_sparse_all_prepare.py",
+      "line": 75,
+      "kind": "read",
+      "expression": "fast",
+      "inferred_path": "/tmp/level19_exact_membership_sparse_fast.m",
+      "existing_companion": null,
+      "absolute_temporary_path": true,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level19_rootind_sparse_all_prepare.py",
+      "line": 75,
+      "kind": "read",
+      "expression": "head",
+      "inferred_path": "/tmp/level19_rootind_sparse_header.m",
+      "existing_companion": null,
+      "absolute_temporary_path": true,
+      "possible_writer_sites": [
+        {
+          "source": "level19_rootind_sparse_prepare.py",
+          "line": 27
+        },
+        {
+          "source": "level19_rootind_sparse_prepare.py",
+          "line": 40
+        }
+      ]
+    },
+    {
+      "source": "level19_rootind_sparse_manifest.py",
+      "line": 5,
+      "kind": "read",
+      "expression": "Path(p)",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level19_rootind_sparse_manifest.py",
+      "line": 6,
+      "kind": "read",
+      "expression": "Path('/tmp/level19_rootind_sparse_all_prepared.json')",
+      "inferred_path": "/tmp/level19_rootind_sparse_all_prepared.json",
+      "existing_companion": null,
+      "absolute_temporary_path": true,
+      "possible_writer_sites": [
+        {
+          "source": "level19_rootind_sparse_all_prepare.py",
+          "line": 79
+        }
+      ]
+    },
+    {
+      "source": "level19_rootind_sparse_manifest.py",
+      "line": 12,
+      "kind": "read",
+      "expression": "Path('/tmp/level19_rootind_sparse_all_native.pass')",
+      "inferred_path": "/tmp/level19_rootind_sparse_all_native.pass",
+      "existing_companion": null,
+      "absolute_temporary_path": true,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level19_rootind_sparse_manifest.py",
+      "line": 14,
+      "kind": "read",
+      "expression": "Path('/tmp/level19_rootind_sparse_all_native.log')",
+      "inferred_path": "/tmp/level19_rootind_sparse_all_native.log",
+      "existing_companion": null,
+      "absolute_temporary_path": true,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level19_rootind_sparse_prepare.py",
+      "line": 10,
+      "kind": "read",
+      "expression": "Path(p)",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level19_rootind_sparse_prepare.py",
+      "line": 18,
+      "kind": "read",
+      "expression": "HERE / 'level19_firstjet_certificate.py'",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level19_rootind_sparse_prepare.py",
+      "line": 28,
+      "kind": "read",
+      "expression": "Path('/tmp/level19_firstjet_certificate.m')",
+      "inferred_path": "/tmp/level19_firstjet_certificate.m",
+      "existing_companion": null,
+      "absolute_temporary_path": true,
+      "possible_writer_sites": [
+        {
+          "source": "level19_firstjet_certificate.py",
+          "line": 67
+        }
+      ]
+    },
+    {
+      "source": "level19_rootind_sparse_prepare.py",
+      "line": 82,
+      "kind": "read",
+      "expression": "fast",
+      "inferred_path": "/tmp/level19_exact_membership_sparse_fast.m",
+      "existing_companion": null,
+      "absolute_temporary_path": true,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_finish_firstjet.py",
+      "line": 11,
+      "kind": "read",
+      "expression": "base / 'level25_finish_augmented.py'",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_finish_augmented.py",
+      "existing_companion": "level25_finish_augmented.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_finish_augmented.py",
+      "line": 23,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level25_uniform_continuation.py')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_uniform_continuation.py",
+      "existing_companion": "level25_uniform_continuation.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_finish_nonweight_branch.py",
+      "line": 8,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level25_finish_firstjet.py')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_finish_firstjet.py",
+      "existing_companion": "level25_finish_firstjet.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_finish_plus_exceptional.py",
+      "line": 9,
+      "kind": "read",
+      "expression": "base / 'level25_finish_augmented.py'",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_finish_augmented.py",
+      "existing_companion": "level25_finish_augmented.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_finish_plus_germ.py",
+      "line": 8,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level25_finish_firstjet.py')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_finish_firstjet.py",
+      "existing_companion": "level25_finish_firstjet.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_finish_plus_higherjet.py",
+      "line": 8,
+      "kind": "read",
+      "expression": "base / 'level25_finish_firstjet.py'",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_finish_firstjet.py",
+      "existing_companion": "level25_finish_firstjet.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_plus_poles_even_prepare.py",
+      "line": 15,
+      "kind": "read",
+      "expression": "Path(f'/tmp/level25_plus_poles_seed0_chart{chart}.txt')",
+      "inferred_path": "/tmp/level25_plus_poles_seed0_chart{chart}.txt",
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_cusp_aux_magma_firstjet_export.py",
+      "line": 5,
+      "kind": "read",
+      "expression": "base / 'level25_cusp_aux_prime7_symbolic.py'",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_cusp_aux_prime7_symbolic.py",
+      "existing_companion": "level25_cusp_aux_prime7_symbolic.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_cusp_aux_magma_firstjet_export.py",
+      "line": 25,
+      "kind": "read",
+      "expression": "base / 'level25_cusp_aux_magma_firstjet_backend.m'",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_cusp_aux_magma_firstjet_backend.m",
+      "existing_companion": "level25_cusp_aux_magma_firstjet_backend.m",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_cusp_aux_minus_polyload_prepare.py",
+      "line": 9,
+      "kind": "read",
+      "expression": "Path('/tmp/level25_cusp_aux_minus_reduced_stream.m')",
+      "inferred_path": "/tmp/level25_cusp_aux_minus_reduced_stream.m",
+      "existing_companion": null,
+      "absolute_temporary_path": true,
+      "possible_writer_sites": [
+        {
+          "source": "level25_cusp_aux_minus_syzygy_prepare.py",
+          "line": 25
+        }
+      ]
+    },
+    {
+      "source": "level25_cusp_aux_minus_polyload_prepare.py",
+      "line": 30,
+      "kind": "read",
+      "expression": "Path('/tmp/level25_cusp_aux_minus_primitive.m')",
+      "inferred_path": "/tmp/level25_cusp_aux_minus_primitive.m",
+      "existing_companion": null,
+      "absolute_temporary_path": true,
+      "possible_writer_sites": [
+        {
+          "source": "level25_cusp_aux_minus_syzygy_prepare.py",
+          "line": 54
+        }
+      ]
+    },
+    {
+      "source": "level25_cusp_aux_minus_prepare.py",
+      "line": 14,
+      "kind": "read",
+      "expression": "source",
+      "inferred_path": "/tmp/level25_cusp_aux_magma_firstjet_-1_nonzero2.m",
+      "existing_companion": null,
+      "absolute_temporary_path": true,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_cusp_aux_minus_prepare.py",
+      "line": 51,
+      "kind": "read",
+      "expression": "backend",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_cusp_aux_magma_firstjet_backend.m",
+      "existing_companion": "level25_cusp_aux_magma_firstjet_backend.m",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_cusp_aux_minus_prepare.py",
+      "line": 64,
+      "kind": "read",
+      "expression": "base / 'level25_plus_poles_checkpoint.m'",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_plus_poles_checkpoint.m",
+      "existing_companion": "level25_plus_poles_checkpoint.m",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_cusp_aux_minus_prepare.py",
+      "line": 69,
+      "kind": "read",
+      "expression": "base / 'level25_plus_poles_germ_backend.m'",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_plus_poles_germ_backend.m",
+      "existing_companion": "level25_plus_poles_germ_backend.m",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_cusp_aux_minus_prepare.py",
+      "line": 89,
+      "kind": "read",
+      "expression": "backend",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_cusp_aux_magma_firstjet_backend.m",
+      "existing_companion": "level25_cusp_aux_magma_firstjet_backend.m",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_cusp_aux_minus_prepare.py",
+      "line": 90,
+      "kind": "read",
+      "expression": "out",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_cusp_aux_minus_syzygy_prepare.py",
+      "line": 12,
+      "kind": "read",
+      "expression": "Path('/tmp/level25_cusp_aux_minus_reduced.m')",
+      "inferred_path": "/tmp/level25_cusp_aux_minus_reduced.m",
+      "existing_companion": null,
+      "absolute_temporary_path": true,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_cusp_aux_minus_syzygy_prepare.py",
+      "line": 26,
+      "kind": "read",
+      "expression": "base / 'level25_cusp_aux_magma_firstjet_backend.m'",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_cusp_aux_magma_firstjet_backend.m",
+      "existing_companion": "level25_cusp_aux_magma_firstjet_backend.m",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_cusp_aux_minus_syzygy_prepare.py",
+      "line": 51,
+      "kind": "read",
+      "expression": "base / 'level25_plus_poles_residual_syzygies.m'",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_plus_poles_residual_syzygies.m",
+      "existing_companion": "level25_plus_poles_residual_syzygies.m",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_plus_poles_prepare.py",
+      "line": 14,
+      "kind": "read",
+      "expression": "source",
+      "inferred_path": "/tmp/level25_cusp_aux_magma_firstjet_1_nonzero2.m",
+      "existing_companion": null,
+      "absolute_temporary_path": true,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_plus_poles_prepare.py",
+      "line": 51,
+      "kind": "read",
+      "expression": "backend",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_cusp_aux_magma_firstjet_backend.m",
+      "existing_companion": "level25_cusp_aux_magma_firstjet_backend.m",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_plus_poles_prepare.py",
+      "line": 64,
+      "kind": "read",
+      "expression": "base / 'level25_plus_poles_checkpoint.m'",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_plus_poles_checkpoint.m",
+      "existing_companion": "level25_plus_poles_checkpoint.m",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_plus_poles_prepare.py",
+      "line": 69,
+      "kind": "read",
+      "expression": "base / 'level25_plus_poles_germ_backend.m'",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_plus_poles_germ_backend.m",
+      "existing_companion": "level25_plus_poles_germ_backend.m",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_plus_poles_prepare.py",
+      "line": 89,
+      "kind": "read",
+      "expression": "backend",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_cusp_aux_magma_firstjet_backend.m",
+      "existing_companion": "level25_cusp_aux_magma_firstjet_backend.m",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_plus_poles_prepare.py",
+      "line": 90,
+      "kind": "read",
+      "expression": "out",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_plus_poles_syzygy_prepare.py",
+      "line": 12,
+      "kind": "read",
+      "expression": "Path('/tmp/level25_plus_poles_reduced.m')",
+      "inferred_path": "/tmp/level25_plus_poles_reduced.m",
+      "existing_companion": null,
+      "absolute_temporary_path": true,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_plus_poles_syzygy_prepare.py",
+      "line": 26,
+      "kind": "read",
+      "expression": "base / 'level25_cusp_aux_magma_firstjet_backend.m'",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_cusp_aux_magma_firstjet_backend.m",
+      "existing_companion": "level25_cusp_aux_magma_firstjet_backend.m",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_plus_poles_syzygy_prepare.py",
+      "line": 51,
+      "kind": "read",
+      "expression": "base / 'level25_plus_poles_residual_syzygies.m'",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_plus_poles_residual_syzygies.m",
+      "existing_companion": "level25_plus_poles_residual_syzygies.m",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_secondcharts_independent_manifest.py",
+      "line": 5,
+      "kind": "read",
+      "expression": "Path(p)",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_secondcharts_independent_manifest.py",
+      "line": 6,
+      "kind": "read",
+      "expression": "Path(p)",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_secondcharts_independent_manifest.py",
+      "line": 19,
+      "kind": "read",
+      "expression": "p",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_secondcharts_independent_manifest.py",
+      "line": 22,
+      "kind": "read",
+      "expression": "roots",
+      "inferred_path": "/tmp/level25_secondcharts_independent_plus_roots.log",
+      "existing_companion": null,
+      "absolute_temporary_path": true,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_secondcharts_independent_manifest.py",
+      "line": 32,
+      "kind": "read",
+      "expression": "Path(d['log'])",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_secondcharts_independent_manifest.py",
+      "line": 37,
+      "kind": "read",
+      "expression": "fresh",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_secondcharts_independent_manifest.py",
+      "line": 37,
+      "kind": "read",
+      "expression": "old",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_secondcharts_independent_native.py",
+      "line": 5,
+      "kind": "read",
+      "expression": "p",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_secondcharts_independent_native.py",
+      "line": 8,
+      "kind": "read",
+      "expression": "p",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_secondcharts_independent_native.py",
+      "line": 16,
+      "kind": "read",
+      "expression": "batch",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_secondcharts_independent_run.py",
+      "line": 22,
+      "kind": "read",
+      "expression": "actual",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_secondcharts_independent_run.py",
+      "line": 30,
+      "kind": "read",
+      "expression": "actual",
+      "inferred_path": "/tmp/level25_secondcharts_independent_root_chart1_modulus_certificate.json",
+      "existing_companion": null,
+      "absolute_temporary_path": true,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_secondcharts_independent_run.py",
+      "line": 35,
+      "kind": "read",
+      "expression": "source",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_zero2_independent_compare.py",
+      "line": 9,
+      "kind": "read",
+      "expression": "reference",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_zero2_independent_compare.py",
+      "line": 10,
+      "kind": "read",
+      "expression": "reference",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_zero2_independent_compare.py",
+      "line": 13,
+      "kind": "read",
+      "expression": "source",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_zero2_independent_compare.py",
+      "line": 17,
+      "kind": "read",
+      "expression": "source",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_zero2_independent_compare.py",
+      "line": 17,
+      "kind": "read",
+      "expression": "checked",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_zero2_independent_manifest.py",
+      "line": 9,
+      "kind": "read",
+      "expression": "p",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_zero2_independent_manifest.py",
+      "line": 11,
+      "kind": "read",
+      "expression": "Path(name)",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_zero2_independent_manifest.py",
+      "line": 14,
+      "kind": "read",
+      "expression": "Path(name)",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_zero2_independent_manifest.py",
+      "line": 16,
+      "kind": "read",
+      "expression": "log",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_zero2_independent_manifest.py",
+      "line": 22,
+      "kind": "read",
+      "expression": "log",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_zero2_independent_manifest.py",
+      "line": 25,
+      "kind": "read",
+      "expression": "p",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_zero2_independent_manifest.py",
+      "line": 26,
+      "kind": "read",
+      "expression": "ref",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_zero2_independent_manifest.py",
+      "line": 28,
+      "kind": "read",
+      "expression": "magmalog",
+      "inferred_path": "/tmp/level25_zero2_independent_all_charts_pass.log",
+      "existing_companion": null,
+      "absolute_temporary_path": true,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_zero2_independent_manifest.py",
+      "line": 32,
+      "kind": "read",
+      "expression": "p",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_zero2_independent_manifest.py",
+      "line": 32,
+      "kind": "read",
+      "expression": "base / p",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_zero2_independent_manifest.py",
+      "line": 32,
+      "kind": "read",
+      "expression": "Path('/tmp/level25_zero2_independent_all_charts.m')",
+      "inferred_path": "/tmp/level25_zero2_independent_all_charts.m",
+      "existing_companion": null,
+      "absolute_temporary_path": true,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_zero2_independent_manifest.py",
+      "line": 32,
+      "kind": "read",
+      "expression": "magmalog",
+      "inferred_path": "/tmp/level25_zero2_independent_all_charts_pass.log",
+      "existing_companion": null,
+      "absolute_temporary_path": true,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_zero2_independent_run.py",
+      "line": 17,
+      "kind": "read",
+      "expression": "actual",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_zero2_independent_run.py",
+      "line": 21,
+      "kind": "read",
+      "expression": "actual",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_zero2_independent_run.py",
+      "line": 25,
+      "kind": "read",
+      "expression": "source",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_root_positive_audit.py",
+      "line": 15,
+      "kind": "read",
+      "expression": "ROOT / 'level26_prime5_wide_certificate.json'",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_root_positive_audit.py",
+      "line": 16,
+      "kind": "read",
+      "expression": "ROOT / 'level26_prime5_weightk_certificate.json'",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_root_positive_audit.py",
+      "line": 17,
+      "kind": "read",
+      "expression": "ROOT / 'level26_prime5_resume_data.json'",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_root_positive_audit.py",
+      "line": 26,
+      "kind": "read",
+      "expression": "log",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_root_positive_audit.py",
+      "line": 33,
+      "kind": "read",
+      "expression": "Path('/tmp/level26_prime5_rows_780_' + code + '.json')",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_root_positive_audit.py",
+      "line": 36,
+      "kind": "read",
+      "expression": "Path('/tmp/level26_prime5_wide_continuation_' + code + '.json')",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_root_positive_audit.py",
+      "line": 39,
+      "kind": "read",
+      "expression": "Path('/tmp/level26_prime5_weightk_polys_' + code + '.json')",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_root_positive_audit.py",
+      "line": 42,
+      "kind": "read",
+      "expression": "Path('/tmp/level26_prime5_weightk_' + code + '_1.json')",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_root_positive_audit.py",
+      "line": 57,
+      "kind": "read",
+      "expression": "ROOT / name",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_finish_higher.py",
+      "line": 8,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level26_finish_first_consistency.py')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_finish_first_consistency.py",
+      "existing_companion": "level26_finish_first_consistency.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_prime5_builder.py",
+      "line": 5,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level26_jet_builder.py')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_jet_builder.py",
+      "existing_companion": "level26_jet_builder.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_prime5_wide_closed.py",
+      "line": 4,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level26_prime5_builder.py')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_prime5_builder.py",
+      "existing_companion": "level26_prime5_builder.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_prime5_wide_closed.py",
+      "line": 6,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level26_prime5_wide_support.json')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_prime5_wide_support.json",
+      "existing_companion": "level26_prime5_wide_support.json",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_prime5_wide_closed.py",
+      "line": 7,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level34_finish_grid_builder.py')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level34_finish_grid_builder.py",
+      "existing_companion": "level34_finish_grid_builder.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_root_prime5_higher.py",
+      "line": 12,
+      "kind": "read",
+      "expression": "base / ('level26_prime5_wide_closed.py' if 'grid780' in __import__('sys').argv else 'level26_prime5_closed.py')",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_root_prime5_higher.py",
+      "line": 13,
+      "kind": "read",
+      "expression": "base / 'level34_finish_first_jet.py'",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level34_finish_first_jet.py",
+      "existing_companion": "level34_finish_first_jet.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_root_prime5_higher.py",
+      "line": 18,
+      "kind": "read",
+      "expression": "base / 'level26_finish_higher.py'",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_finish_higher.py",
+      "existing_companion": "level26_finish_higher.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level34_finish_first_jet.py",
+      "line": 11,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level34_finish_wide_builder.py')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level34_finish_wide_builder.py",
+      "existing_companion": "level34_finish_wide_builder.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level34_finish_first_jet.py",
+      "line": 13,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level34_closed_continuation.py')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level34_closed_continuation.py",
+      "existing_companion": "level34_closed_continuation.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level34_finish_grid_builder.py",
+      "line": 7,
+      "kind": "read",
+      "expression": "Path('/tmp/level34_finish_grid_' + str(qtarget) + '.json')",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level34_finish_grid_builder.py",
+      "line": 8,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level34_jet_builder.py')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level34_jet_builder.py",
+      "existing_companion": "level34_jet_builder.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_negative_independent_batch.py",
+      "line": 10,
+      "kind": "read",
+      "expression": "p",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_negative_independent_batch.py",
+      "line": 24,
+      "kind": "read",
+      "expression": "p",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_negative_independent_batch.py",
+      "line": 24,
+      "kind": "read",
+      "expression": "target",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_negative_independent_batch.py",
+      "line": 24,
+      "kind": "read",
+      "expression": "Path(__file__)",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_negative_independent_batch.py",
+      "existing_companion": "level26_negative_independent_batch.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_negative_independent_manifest.py",
+      "line": 5,
+      "kind": "read",
+      "expression": "Path(p)",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_negative_independent_manifest.py",
+      "line": 11,
+      "kind": "read",
+      "expression": "p",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_negative_independent_manifest.py",
+      "line": 19,
+      "kind": "read",
+      "expression": "original",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_negative_independent_manifest.py",
+      "line": 25,
+      "kind": "read",
+      "expression": "Path(prefix + '_exact_completion.json')",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_negative_independent_manifest.py",
+      "line": 28,
+      "kind": "read",
+      "expression": "log",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_negative_independent_manifest.py",
+      "line": 32,
+      "kind": "read",
+      "expression": "Path(prefix + '_fresh_projection.json')",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_negative_independent_manifest.py",
+      "line": 33,
+      "kind": "read",
+      "expression": "saved",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_negative_independent_run.py",
+      "line": 18,
+      "kind": "read",
+      "expression": "actual",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_negative_independent_run.py",
+      "line": 29,
+      "kind": "read",
+      "expression": "actual",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_negative_independent_run.py",
+      "line": 36,
+      "kind": "read",
+      "expression": "source",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_prime5_weightk_eliminate.py",
+      "line": 9,
+      "kind": "read",
+      "expression": "Path(__file__).parent / 'level26_prime5_wide_certificate.json'",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_prime5_wide_certificate.json",
+      "existing_companion": "level26_prime5_wide_certificate.json",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_prime5_weightk_resultant.py",
+      "line": 14,
+      "kind": "read",
+      "expression": "Path('/tmp/level26_prime5_weightk_polys_' + code + '.json')",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_prime5_weightk_resultant.py",
+      "line": 78,
+      "kind": "read",
+      "expression": "Path(stem + '.txt')",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_prime5_closed.py",
+      "line": 4,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level26_prime5_builder.py')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_prime5_builder.py",
+      "existing_companion": "level26_prime5_builder.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_prime5_closed.py",
+      "line": 6,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level26_prime5_support.json')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_prime5_support.json",
+      "existing_companion": "level26_prime5_support.json",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_prime5_closed.py",
+      "line": 7,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level34_finish_grid_builder.py')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level34_finish_grid_builder.py",
+      "existing_companion": "level34_finish_grid_builder.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_prime5_continuation.py",
+      "line": 3,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level26_prime5_closed.py')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_prime5_closed.py",
+      "existing_companion": "level26_prime5_closed.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_prime5_continuation.py",
+      "line": 4,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level34_closed_continuation.py')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level34_closed_continuation.py",
+      "existing_companion": "level34_closed_continuation.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_prime5_first_jet.py",
+      "line": 4,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level26_prime5_closed.py')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_prime5_closed.py",
+      "existing_companion": "level26_prime5_closed.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_prime5_first_jet.py",
+      "line": 5,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level34_finish_first_jet.py')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level34_finish_first_jet.py",
+      "existing_companion": "level34_finish_first_jet.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_prime5_rank.py",
+      "line": 9,
+      "kind": "read",
+      "expression": "Path('/tmp/level26_prime5_rows_390_' + code + '.json')",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_prime5_weightk_probe.py",
+      "line": 7,
+      "kind": "read",
+      "expression": "Path('/tmp/level26_prime5_rows_780_' + code + '.json')",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_prime5_wide_continuation.py",
+      "line": 3,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level26_prime5_continuation.py')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_prime5_continuation.py",
+      "existing_companion": "level26_prime5_continuation.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_prime5_wide_first_jet.py",
+      "line": 3,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level26_prime5_first_jet.py')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_prime5_first_jet.py",
+      "existing_companion": "level26_prime5_first_jet.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level27_bridge_chi5_finish_check.py",
+      "line": 87,
+      "kind": "read",
+      "expression": "p",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level19_sparse_poles_compact.py",
+      "line": 11,
+      "kind": "read",
+      "expression": "src",
+      "inferred_path": "/tmp/deterministic_gb_audit_n19_equal_constraints.m",
+      "existing_companion": null,
+      "absolute_temporary_path": true,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level19_sparse_poles_compact.py",
+      "line": 49,
+      "kind": "read",
+      "expression": "src",
+      "inferred_path": "/tmp/deterministic_gb_audit_n19_equal_constraints.m",
+      "existing_companion": null,
+      "absolute_temporary_path": true,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level19_sparse_poles_compact.py",
+      "line": 49,
+      "kind": "read",
+      "expression": "target",
+      "inferred_path": "/tmp/level19_sparse_poles_compactall_polys.m",
+      "existing_companion": null,
+      "absolute_temporary_path": true,
+      "possible_writer_sites": [
+        {
+          "source": "level19_sparse_poles_compact.py",
+          "line": 48
+        }
+      ]
+    },
+    {
+      "source": "level19_rootind_sparse_reproduce.py",
+      "line": 14,
+      "kind": "read",
+      "expression": "Path(p)",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level19_rootind_sparse_reproduce.py",
+      "line": 18,
+      "kind": "read",
+      "expression": "HERE / 'level19_firstjet_certificate.py'",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level19_rootind_sparse_reproduce_manifest.py",
+      "line": 5,
+      "kind": "read",
+      "expression": "Path(p)",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level19_rootind_sparse_reproduce_manifest.py",
+      "line": 6,
+      "kind": "read",
+      "expression": "Path(p)",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level19_rootind_sparse_reproduce_manifest.py",
+      "line": 15,
+      "kind": "read",
+      "expression": "run / 'compare.log'",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level19_rootind_sparse_reproduce_verify.py",
+      "line": 9,
+      "kind": "read",
+      "expression": "Path(p)",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level19_rootind_sparse_reproduce_verify.py",
+      "line": 10,
+      "kind": "read",
+      "expression": "run / 'native.completion.json'",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level19_rootind_sparse_reproduce_verify.py",
+      "line": 14,
+      "kind": "read",
+      "expression": "saved",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level19_rootind_sparse_reproduce_verify.py",
+      "line": 14,
+      "kind": "read",
+      "expression": "inputs",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level19_rootind_sparse_reproduce_verify.py",
+      "line": 27,
+      "kind": "read",
+      "expression": "run / 'source.completion.json'",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_cusp_aux_minus_even_prepare.py",
+      "line": 16,
+      "kind": "read",
+      "expression": "source",
+      "inferred_path": "/tmp/level25_cusp_aux_minus_seed{seed}_chart{chart}.txt",
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_plus_poles_negative1_generic_audit_prepare.py",
+      "line": 12,
+      "kind": "read",
+      "expression": "Path('/tmp/level25_root_negative_first_even1_rational_pure.m')",
+      "inferred_path": "/tmp/level25_root_negative_first_even1_rational_pure.m",
+      "existing_companion": null,
+      "absolute_temporary_path": true,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_plus_poles_negative1_generic_audit_prepare.py",
+      "line": 13,
+      "kind": "read",
+      "expression": "Path('/tmp/level25_cusp_aux_minus_even1_finite_pure.m')",
+      "inferred_path": "/tmp/level25_cusp_aux_minus_even1_finite_pure.m",
+      "existing_companion": null,
+      "absolute_temporary_path": true,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_secondcharts_independent_negative1_manifest.py",
+      "line": 5,
+      "kind": "read",
+      "expression": "Path(p)",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_secondcharts_independent_negative1_manifest.py",
+      "line": 6,
+      "kind": "read",
+      "expression": "Path(p)",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_secondcharts_independent_negative1_manifest.py",
+      "line": 27,
+      "kind": "read",
+      "expression": "Path(d['log'])",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_secondcharts_independent_negative1_run.py",
+      "line": 19,
+      "kind": "read",
+      "expression": "actual",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_secondcharts_independent_negative1_run.py",
+      "line": 25,
+      "kind": "read",
+      "expression": "actual",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_secondcharts_independent_negative1_run.py",
+      "line": 29,
+      "kind": "read",
+      "expression": "source",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_secondcharts_independent_negative1_transfer.py",
+      "line": 5,
+      "kind": "read",
+      "expression": "Path(p)",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_secondcharts_independent_negative1_transfer.py",
+      "line": 7,
+      "kind": "read",
+      "expression": "source",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_secondcharts_independent_negative1_transfer.py",
+      "line": 10,
+      "kind": "read",
+      "expression": "fresh",
+      "inferred_path": "/tmp/level25_secondcharts_independent_plus_poles_negative1_generic_audit_relations.txt",
+      "existing_companion": null,
+      "absolute_temporary_path": true,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_secondcharts_independent_negative1_transfer.py",
+      "line": 13,
+      "kind": "read",
+      "expression": "data",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_finish_first_consistency.py",
+      "line": 6,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level26_jet_builder.py')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_jet_builder.py",
+      "existing_companion": "level26_jet_builder.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level34_finish_wide_builder.py",
+      "line": 8,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level34_jet_builder.py')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level34_jet_builder.py",
+      "existing_companion": "level34_jet_builder.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level27_continuation_geometry_certificate.py",
+      "line": 9,
+      "kind": "read",
+      "expression": "source",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level27_continuation_geometry_certificate.py",
+      "line": 66,
+      "kind": "read",
+      "expression": "Path('/tmp/level27_continuation_geometry_hecke.json')",
+      "inferred_path": "/tmp/level27_continuation_geometry_hecke.json",
+      "existing_companion": null,
+      "absolute_temporary_path": true,
+      "possible_writer_sites": [
+        {
+          "source": "level27_continuation_geometry_hecke.py",
+          "line": 51
+        }
+      ]
+    },
+    {
+      "source": "level27_continuation_geometry_certificate.py",
+      "line": 114,
+      "kind": "read",
+      "expression": "p",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level27_continuation_geometry_hecke.py",
+      "line": 9,
+      "kind": "read",
+      "expression": "src",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level27_continuation_geometry_hecke.py",
+      "line": 50,
+      "kind": "read",
+      "expression": "src",
+      "inferred_path": null,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level25_plus_poles_negative1_strata_certificate.py",
+      "line": 12,
+      "kind": "read",
+      "expression": "path",
+      "inferred_path": "/tmp/level25_cusp_aux_minus_even1_rational_pure.m",
+      "existing_companion": null,
+      "absolute_temporary_path": true,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_prime5_probe.py",
+      "line": 3,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level26_prime5_builder.py')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_prime5_builder.py",
+      "existing_companion": "level26_prime5_builder.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level26_prime5_probe.py",
+      "line": 4,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level34_finish_wide_probe.py')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level34_finish_wide_probe.py",
+      "existing_companion": "level34_finish_wide_probe.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    },
+    {
+      "source": "level34_finish_wide_probe.py",
+      "line": 7,
+      "kind": "read",
+      "expression": "Path(__file__).with_name('level34_jet_builder.py')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level34_jet_builder.py",
+      "existing_companion": "level34_jet_builder.py",
+      "absolute_temporary_path": false,
+      "possible_writer_sites": []
+    }
+  ],
+  "writes": [
+    {
+      "source": "level19_exact_membership_sparse_prepare.py",
+      "line": 60,
+      "kind": "write",
+      "expression": "Path('/tmp/level19_exact_membership_sparse.m')",
+      "inferred_path": "/tmp/level19_exact_membership_sparse.m",
+      "existing_companion": null,
+      "absolute_temporary_path": true
+    },
+    {
+      "source": "level19_exact_membership_sparse_prepare.py",
+      "line": 68,
+      "kind": "write",
+      "expression": "Path('/tmp/level19_exact_membership_sparse_manifest.json')",
+      "inferred_path": "/tmp/level19_exact_membership_sparse_manifest.json",
+      "existing_companion": null,
+      "absolute_temporary_path": true
+    },
+    {
+      "source": "level19_opposite_compact_check.py",
+      "line": 47,
+      "kind": "write",
+      "expression": "out",
+      "inferred_path": "/tmp/level19_opposite_compact_verified.m",
+      "existing_companion": null,
+      "absolute_temporary_path": true
+    },
+    {
+      "source": "level19_opposite_gzero_check.py",
+      "line": 22,
+      "kind": "write",
+      "expression": "out",
+      "inferred_path": "/tmp/level19_opposite_gzero_verified.m",
+      "existing_companion": null,
+      "absolute_temporary_path": true
+    },
+    {
+      "source": "level19_pole_probe.py",
+      "line": 172,
+      "kind": "write",
+      "expression": "'/tmp/level19_pole_probe_gap%d_eta%d_bad%d.m' % (n, eta, bad)",
+      "inferred_path": null
+    },
+    {
+      "source": "level21_22_modularity_generic21.py",
+      "line": 39,
+      "kind": "write",
+      "expression": "args.output",
+      "inferred_path": null
+    },
+    {
+      "source": "level21_22_weight2_chi5.py",
+      "line": 46,
+      "kind": "write",
+      "expression": "base / 'level21_22_weight2_chi5.json'",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level21_22_weight2_chi5.json",
+      "existing_companion": "level21_22_weight2_chi5.json",
+      "absolute_temporary_path": false
+    },
+    {
+      "source": "level21_22_weight2_chi5_22.py",
+      "line": 59,
+      "kind": "write",
+      "expression": "base / 'level21_22_weight2_chi5_22.json'",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level21_22_weight2_chi5_22.json",
+      "existing_companion": "level21_22_weight2_chi5_22.json",
+      "absolute_temporary_path": false
+    },
+    {
+      "source": "level21_22_weight2_level21.py",
+      "line": 79,
+      "kind": "write",
+      "expression": "base / 'level21_22_weight2_level21.json'",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level21_22_weight2_level21.json",
+      "existing_companion": "level21_22_weight2_level21.json",
+      "absolute_temporary_path": false
+    },
+    {
+      "source": "level21_22_weight2_level22.py",
+      "line": 57,
+      "kind": "write",
+      "expression": "base / 'level21_22_weight2_level22.json'",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level21_22_weight2_level22.json",
+      "existing_companion": "level21_22_weight2_level22.json",
+      "absolute_temporary_path": false
+    },
+    {
+      "source": "level21_certificate.py",
+      "line": 106,
+      "kind": "write",
+      "expression": "Path(__file__).with_name('level21_certificate' + ('_' + '_'.join(map(str, args.signs)) if args.signs else '') + '.json')",
+      "inferred_path": null
+    },
+    {
+      "source": "level25_cusp_aux_prime7_firstjet.py",
+      "line": 37,
+      "kind": "write",
+      "expression": "Path('/tmp/level25_cusp_aux_prime7_firstjet_' + str(eta) + jet_suffix + '.json')",
+      "inferred_path": null
+    },
+    {
+      "source": "level25_cusp_aux_prime7_jetideals.py",
+      "line": 21,
+      "kind": "write",
+      "expression": "path",
+      "inferred_path": null
+    },
+    {
+      "source": "level25_cusp_aux_prime7_jetrank.py",
+      "line": 43,
+      "kind": "write",
+      "expression": "Path('/tmp/' + jet_prefix + 'reduced_' + str(eta) + jet_suffix + '.json')",
+      "inferred_path": null
+    },
+    {
+      "source": "level25_finish_eta_minus_cusp_poles.py",
+      "line": 59,
+      "kind": "write",
+      "expression": "base / 'level25_finish_eta_minus_cusp_poles.json'",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_finish_eta_minus_cusp_poles.json",
+      "existing_companion": "level25_finish_eta_minus_cusp_poles.json",
+      "absolute_temporary_path": false
+    },
+    {
+      "source": "level25_finish_eta_plus_cusp_poles.py",
+      "line": 51,
+      "kind": "write",
+      "expression": "base / 'level25_finish_eta_plus_cusp_poles.json'",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_finish_eta_plus_cusp_poles.json",
+      "existing_companion": "level25_finish_eta_plus_cusp_poles.json",
+      "absolute_temporary_path": false
+    },
+    {
+      "source": "level25_plus_poles_chart1_certificate.py",
+      "line": 37,
+      "kind": "write",
+      "expression": "out",
+      "inferred_path": "/tmp/level25_plus_poles_chart1_certificate.m",
+      "existing_companion": null,
+      "absolute_temporary_path": true
+    },
+    {
+      "source": "level25_plus_poles_chart2_certificate.py",
+      "line": 32,
+      "kind": "write",
+      "expression": "out",
+      "inferred_path": "/tmp/level25_plus_poles_chart2_certificate.m",
+      "existing_companion": null,
+      "absolute_temporary_path": true
+    },
+    {
+      "source": "level25_plus_poles_negative1_dzero_certificate.py",
+      "line": 25,
+      "kind": "write",
+      "expression": "out",
+      "inferred_path": "/tmp/level25_plus_poles_negative1_dzero_certificate.m",
+      "existing_companion": null,
+      "absolute_temporary_path": true
+    },
+    {
+      "source": "level25_plus_poles_negative2_prepare.py",
+      "line": 76,
+      "kind": "write",
+      "expression": "out",
+      "inferred_path": "/tmp/level25_plus_poles_negative2_even{chart}_{'finite' if finite else 'rational'}_{'pure' if pure else 'full'}.m"
+    },
+    {
+      "source": "level25_root_chart1_modulus.py",
+      "line": 33,
+      "kind": "write",
+      "expression": "Path('/tmp/level25_root_chart1_centers.gp')",
+      "inferred_path": "/tmp/level25_root_chart1_centers.gp",
+      "existing_companion": null,
+      "absolute_temporary_path": true
+    },
+    {
+      "source": "level25_root_chart1_modulus.py",
+      "line": 122,
+      "kind": "write",
+      "expression": "Path('/tmp/level25_root_chart1_modulus_result.json')",
+      "inferred_path": "/tmp/level25_root_chart1_modulus_result.json",
+      "existing_companion": null,
+      "absolute_temporary_path": true
+    },
+    {
+      "source": "level25_root_chart1_modulus.py",
+      "line": 124,
+      "kind": "write",
+      "expression": "ROOT / 'level25_root_chart1_modulus_certificate.json'",
+      "inferred_path": null
+    },
+    {
+      "source": "level25_root_chart1_modulus.py",
+      "line": 125,
+      "kind": "write",
+      "expression": "Path('/tmp/level25_root_chart1_modulus.pass')",
+      "inferred_path": "/tmp/level25_root_chart1_modulus.pass",
+      "existing_companion": null,
+      "absolute_temporary_path": true
+    },
+    {
+      "source": "level25_root_negative_quartic.py",
+      "line": 31,
+      "kind": "write",
+      "expression": "Path(__file__).with_suffix('.json')",
+      "inferred_path": null
+    },
+    {
+      "source": "level26_modularity_agent_generation.py",
+      "line": 44,
+      "kind": "write",
+      "expression": "output",
+      "inferred_path": null
+    },
+    {
+      "source": "level26_negative_poles_eliminate.py",
+      "line": 53,
+      "kind": "write",
+      "expression": "dst",
+      "inferred_path": null
+    },
+    {
+      "source": "level26_negative_poles_extract.py",
+      "line": 27,
+      "kind": "write",
+      "expression": "dest",
+      "inferred_path": null
+    },
+    {
+      "source": "level26_negative_poles_extract.py",
+      "line": 34,
+      "kind": "write",
+      "expression": "dest.with_name('level26_negative_poles_' + code + '_projection_source.json')",
+      "inferred_path": null
+    },
+    {
+      "source": "level26_negative_poles_signs.py",
+      "line": 38,
+      "kind": "write",
+      "expression": "base / 'level26_negative_poles_signs.json'",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_negative_poles_signs.json",
+      "existing_companion": "level26_negative_poles_signs.json",
+      "absolute_temporary_path": false
+    },
+    {
+      "source": "level26_positive_repair_check.py",
+      "line": 108,
+      "kind": "write",
+      "expression": "base / 'level26_positive_repair_audit.json'",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_positive_repair_audit.json",
+      "existing_companion": "level26_positive_repair_audit.json",
+      "absolute_temporary_path": false
+    },
+    {
+      "source": "level26_root_modulus_audit.py",
+      "line": 83,
+      "kind": "write",
+      "expression": "root / ('level26_root_modulus_' + code + '.json')",
+      "inferred_path": null
+    },
+    {
+      "source": "level33_first_jet.py",
+      "line": 97,
+      "kind": "write",
+      "expression": "Path('/tmp/level33_firstjet_' + ''.join(('p' if v == 1 else 'm' for v in (eta, bad3, bad11))) + '.json')",
+      "inferred_path": null
+    },
+    {
+      "source": "level33_septic_roots.py",
+      "line": 42,
+      "kind": "write",
+      "expression": "Path('/tmp/level33_septic_roots.json')",
+      "inferred_path": "/tmp/level33_septic_roots.json",
+      "existing_companion": null,
+      "absolute_temporary_path": true
+    },
+    {
+      "source": "level33_uniform_continuation.py",
+      "line": 42,
+      "kind": "write",
+      "expression": "Path('/tmp/level33_continuation_case.json')",
+      "inferred_path": "/tmp/level33_continuation_case.json",
+      "existing_companion": null,
+      "absolute_temporary_path": true
+    },
+    {
+      "source": "level33_weight_chain.py",
+      "line": 38,
+      "kind": "write",
+      "expression": "Path('/tmp/level33_weightchain_' + ''.join(('p' if v == 1 else 'm' for v in (eta, bad3, bad11))) + '.json')",
+      "inferred_path": null
+    },
+    {
+      "source": "level34_closed_continuation.py",
+      "line": 56,
+      "kind": "write",
+      "expression": "Path('/tmp/level34_closed_case.json')",
+      "inferred_path": "/tmp/level34_closed_case.json",
+      "existing_companion": null,
+      "absolute_temporary_path": true
+    },
+    {
+      "source": "level34_finish_prime5_critical.py",
+      "line": 26,
+      "kind": "write",
+      "expression": "Path('/tmp/level34_finish_prime5_critical_' + code + '.json')",
+      "inferred_path": null
+    },
+    {
+      "source": "level35_closed_continuation.py",
+      "line": 100,
+      "kind": "write",
+      "expression": "Path('/tmp/level35_closed_certificate.json')",
+      "inferred_path": "/tmp/level35_closed_certificate.json",
+      "existing_companion": null,
+      "absolute_temporary_path": true
+    },
+    {
+      "source": "level35_firstjet_projection.py",
+      "line": 68,
+      "kind": "write",
+      "expression": "Path('/tmp/level35_firstjet_reduced.json')",
+      "inferred_path": "/tmp/level35_firstjet_reduced.json",
+      "existing_companion": null,
+      "absolute_temporary_path": true
+    },
+    {
+      "source": "level35_full_continuation.py",
+      "line": 100,
+      "kind": "write",
+      "expression": "Path('/tmp/level35_full_new_certificate.json')",
+      "inferred_path": "/tmp/level35_full_new_certificate.json",
+      "existing_companion": null,
+      "absolute_temporary_path": true
+    },
+    {
+      "source": "level35_leading_projection.py",
+      "line": 38,
+      "kind": "write",
+      "expression": "Path('/tmp/level35_leading_positive.json' if eta == 1 else '/tmp/level35_leading_generic.json')",
+      "inferred_path": null
+    },
+    {
+      "source": "level35_modularity_chi4.py",
+      "line": 44,
+      "kind": "write",
+      "expression": "Path('/tmp/level35_modularity_chi4_' + ''.join(('p' if e == 1 else 'm' for e in (eta, bad5, bad7))) + '.json')",
+      "inferred_path": null
+    },
+    {
+      "source": "level35_positive_gap1.py",
+      "line": 31,
+      "kind": "write",
+      "expression": "Path('/tmp/level35_positive_gap1_certificate.m')",
+      "inferred_path": "/tmp/level35_positive_gap1_certificate.m",
+      "existing_companion": null,
+      "absolute_temporary_path": true
+    },
+    {
+      "source": "level35_positive_residue.py",
+      "line": 55,
+      "kind": "write",
+      "expression": "path",
+      "inferred_path": "/tmp/level35_positive_residue.m",
+      "existing_companion": null,
+      "absolute_temporary_path": true
+    },
+    {
+      "source": "level35_sign_symmetry.py",
+      "line": 53,
+      "kind": "write",
+      "expression": "Path(__file__).with_suffix('.json')",
+      "inferred_path": null
+    },
+    {
+      "source": "level35_unshifted_residue.py",
+      "line": 86,
+      "kind": "write",
+      "expression": "path",
+      "inferred_path": "/tmp/level35_unshifted_residue.m",
+      "existing_companion": null,
+      "absolute_temporary_path": true
+    },
+    {
+      "source": "level36_congruence_check.py",
+      "line": 39,
+      "kind": "write",
+      "expression": "Path(__file__).with_name('level36_congruence_audit.json')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level36_congruence_audit.json",
+      "existing_companion": "level36_congruence_audit.json",
+      "absolute_temporary_path": false
+    },
+    {
+      "source": "level36_hecke_check.py",
+      "line": 54,
+      "kind": "write",
+      "expression": "Path(__file__).with_name('level36_hecke_audit.json')",
+      "inferred_path": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level36_hecke_audit.json",
+      "existing_companion": "level36_hecke_audit.json",
+      "absolute_temporary_path": false
+    },
+    {
+      "source": "level19_firstjet_certificate.py",
+      "line": 67,
+      "kind": "write",
+      "expression": "Path('/tmp/level19_firstjet_certificate.m')",
+      "inferred_path": "/tmp/level19_firstjet_certificate.m",
+      "existing_companion": null,
+      "absolute_temporary_path": true
+    },
+    {
+      "source": "level19_opposite_firstjet_export.py",
+      "line": 66,
+      "kind": "write",
+      "expression": "Path('/tmp/level19_opposite_firstjet_certificate.m')",
+      "inferred_path": "/tmp/level19_opposite_firstjet_certificate.m",
+      "existing_companion": null,
+      "absolute_temporary_path": true
+    },
+    {
+      "source": "level19_rootind_sparse_all_prepare.py",
+      "line": 75,
+      "kind": "write",
+      "expression": "batch",
+      "inferred_path": "/tmp/level19_rootind_sparse_all_native.m",
+      "existing_companion": null,
+      "absolute_temporary_path": true
+    },
+    {
+      "source": "level19_rootind_sparse_all_prepare.py",
+      "line": 79,
+      "kind": "write",
+      "expression": "Path('/tmp/level19_rootind_sparse_all_prepared.json')",
+      "inferred_path": "/tmp/level19_rootind_sparse_all_prepared.json",
+      "existing_companion": null,
+      "absolute_temporary_path": true
+    },
+    {
+      "source": "level19_rootind_sparse_manifest.py",
+      "line": 32,
+      "kind": "write",
+      "expression": "p",
+      "inferred_path": null
+    },
+    {
+      "source": "level19_rootind_sparse_prepare.py",
+      "line": 24,
+      "kind": "write",
+      "expression": "str(OUT) + '_source.log'",
+      "inferred_path": "/tmp/level19_rootind_sparse_source.log",
+      "existing_companion": null,
+      "absolute_temporary_path": true
+    },
+    {
+      "source": "level19_rootind_sparse_prepare.py",
+      "line": 27,
+      "kind": "write",
+      "expression": "Path(str(OUT) + '_header.m')",
+      "inferred_path": "/tmp/level19_rootind_sparse_header.m",
+      "existing_companion": null,
+      "absolute_temporary_path": true
+    },
+    {
+      "source": "level19_rootind_sparse_prepare.py",
+      "line": 40,
+      "kind": "write",
+      "expression": "Path(str(OUT) + '_header.m')",
+      "inferred_path": "/tmp/level19_rootind_sparse_header.m",
+      "existing_companion": null,
+      "absolute_temporary_path": true
+    },
+    {
+      "source": "level19_rootind_sparse_prepare.py",
+      "line": 97,
+      "kind": "write",
+      "expression": "batch",
+      "inferred_path": "/tmp/level19_rootind_sparse_native.m",
+      "existing_companion": null,
+      "absolute_temporary_path": true
+    },
+    {
+      "source": "level19_rootind_sparse_prepare.py",
+      "line": 104,
+      "kind": "write",
+      "expression": "Path(str(OUT) + '_source_completion.json')",
+      "inferred_path": "/tmp/level19_rootind_sparse_source_completion.json",
+      "existing_companion": null,
+      "absolute_temporary_path": true
+    },
+    {
+      "source": "level25_finish_firstjet.py",
+      "line": 95,
+      "kind": "write",
+      "expression": "Path('/tmp/level25_finish_firstjet_%s.json' % eta)",
+      "inferred_path": null
+    },
+    {
+      "source": "level25_plus_poles_even_prepare.py",
+      "line": 55,
+      "kind": "write",
+      "expression": "out",
+      "inferred_path": "/tmp/level25_plus_poles_even_chart{chart}_{variant}.m"
+    },
+    {
+      "source": "level25_cusp_aux_magma_firstjet_export.py",
+      "line": 27,
+      "kind": "write",
+      "expression": "out",
+      "inferred_path": null
+    },
+    {
+      "source": "level25_cusp_aux_minus_polyload_prepare.py",
+      "line": 29,
+      "kind": "write",
+      "expression": "Path('/tmp/level25_cusp_aux_minus_reduced_poly.m')",
+      "inferred_path": "/tmp/level25_cusp_aux_minus_reduced_poly.m",
+      "existing_companion": null,
+      "absolute_temporary_path": true
+    },
+    {
+      "source": "level25_cusp_aux_minus_polyload_prepare.py",
+      "line": 33,
+      "kind": "write",
+      "expression": "target",
+      "inferred_path": "/tmp/level25_cusp_aux_minus_primitive_poly.m",
+      "existing_companion": null,
+      "absolute_temporary_path": true
+    },
+    {
+      "source": "level25_cusp_aux_minus_prepare.py",
+      "line": 88,
+      "kind": "write",
+      "expression": "out",
+      "inferred_path": null
+    },
+    {
+      "source": "level25_cusp_aux_minus_syzygy_prepare.py",
+      "line": 25,
+      "kind": "write",
+      "expression": "Path('/tmp/level25_cusp_aux_minus_reduced_stream.m')",
+      "inferred_path": "/tmp/level25_cusp_aux_minus_reduced_stream.m",
+      "existing_companion": null,
+      "absolute_temporary_path": true
+    },
+    {
+      "source": "level25_cusp_aux_minus_syzygy_prepare.py",
+      "line": 54,
+      "kind": "write",
+      "expression": "out",
+      "inferred_path": "/tmp/level25_cusp_aux_minus_primitive.m",
+      "existing_companion": null,
+      "absolute_temporary_path": true
+    },
+    {
+      "source": "level25_plus_poles_prepare.py",
+      "line": 88,
+      "kind": "write",
+      "expression": "out",
+      "inferred_path": null
+    },
+    {
+      "source": "level25_plus_poles_syzygy_prepare.py",
+      "line": 25,
+      "kind": "write",
+      "expression": "Path('/tmp/level25_plus_poles_reduced_stream.m')",
+      "inferred_path": "/tmp/level25_plus_poles_reduced_stream.m",
+      "existing_companion": null,
+      "absolute_temporary_path": true
+    },
+    {
+      "source": "level25_plus_poles_syzygy_prepare.py",
+      "line": 53,
+      "kind": "write",
+      "expression": "out",
+      "inferred_path": "/tmp/level25_plus_poles_primitive.m",
+      "existing_companion": null,
+      "absolute_temporary_path": true
+    },
+    {
+      "source": "level25_secondcharts_independent_manifest.py",
+      "line": 41,
+      "kind": "write",
+      "expression": "p",
+      "inferred_path": null
+    },
+    {
+      "source": "level25_secondcharts_independent_native.py",
+      "line": 15,
+      "kind": "write",
+      "expression": "batch",
+      "inferred_path": null
+    },
+    {
+      "source": "level25_secondcharts_independent_native.py",
+      "line": 17,
+      "kind": "write",
+      "expression": "Path(str(p.with_suffix('')) + '_native.json')",
+      "inferred_path": null
+    },
+    {
+      "source": "level25_secondcharts_independent_run.py",
+      "line": 43,
+      "kind": "write",
+      "expression": "p",
+      "inferred_path": null
+    },
+    {
+      "source": "level25_zero2_independent_compare.py",
+      "line": 16,
+      "kind": "write",
+      "expression": "checked",
+      "inferred_path": null
+    },
+    {
+      "source": "level25_zero2_independent_compare.py",
+      "line": 19,
+      "kind": "write",
+      "expression": "Path('/tmp/level25_zero2_independent_compare_' + str(eta) + '.json')",
+      "inferred_path": null
+    },
+    {
+      "source": "level25_zero2_independent_manifest.py",
+      "line": 33,
+      "kind": "write",
+      "expression": "p",
+      "inferred_path": null
+    },
+    {
+      "source": "level25_zero2_independent_run.py",
+      "line": 31,
+      "kind": "write",
+      "expression": "target",
+      "inferred_path": null
+    },
+    {
+      "source": "level26_root_positive_audit.py",
+      "line": 22,
+      "kind": "write",
+      "expression": "log",
+      "inferred_path": null
+    },
+    {
+      "source": "level26_root_positive_audit.py",
+      "line": 58,
+      "kind": "write",
+      "expression": "ROOT / 'level26_root_positive_audit.json'",
+      "inferred_path": null
+    },
+    {
+      "source": "level26_finish_higher.py",
+      "line": 86,
+      "kind": "write",
+      "expression": "Path(os.environ['N26_EXPORT'])",
+      "inferred_path": null
+    },
+    {
+      "source": "level34_finish_first_jet.py",
+      "line": 94,
+      "kind": "write",
+      "expression": "Path('/tmp/level34_finish_rows_' + ('zero3_' if zero3 else '') + str(Q) + '_' + ''.join(('p' if v == 1 else 'm' for v in (eta, bad2, bad17))) + '.json')",
+      "inferred_path": null
+    },
+    {
+      "source": "level26_negative_independent_batch.py",
+      "line": 23,
+      "kind": "write",
+      "expression": "target",
+      "inferred_path": null
+    },
+    {
+      "source": "level26_negative_independent_batch.py",
+      "line": 24,
+      "kind": "write",
+      "expression": "Path(prefix + '_exact_batch_source.json')",
+      "inferred_path": null
+    },
+    {
+      "source": "level26_negative_independent_manifest.py",
+      "line": 38,
+      "kind": "write",
+      "expression": "p",
+      "inferred_path": null
+    },
+    {
+      "source": "level26_negative_independent_run.py",
+      "line": 38,
+      "kind": "write",
+      "expression": "p",
+      "inferred_path": null
+    },
+    {
+      "source": "level26_negative_independent_run.py",
+      "line": 43,
+      "kind": "write",
+      "expression": "target",
+      "inferred_path": null
+    },
+    {
+      "source": "level26_prime5_weightk_eliminate.py",
+      "line": 23,
+      "kind": "write",
+      "expression": "Path('/tmp/level26_prime5_weightk_polys_' + code + '.json')",
+      "inferred_path": null
+    },
+    {
+      "source": "level26_prime5_weightk_eliminate.py",
+      "line": 26,
+      "kind": "write",
+      "expression": "Path('/tmp/level26_prime5_weightk_eliminate_' + code + '.m')",
+      "inferred_path": null
+    },
+    {
+      "source": "level26_prime5_weightk_eliminate.py",
+      "line": 30,
+      "kind": "write",
+      "expression": "Path('/tmp/level26_prime5_weightk_eliminants_' + code + '.json')",
+      "inferred_path": null
+    },
+    {
+      "source": "level26_prime5_weightk_resultant.py",
+      "line": 44,
+      "kind": "write",
+      "expression": "Path(stem + '.m')",
+      "inferred_path": null
+    },
+    {
+      "source": "level26_prime5_weightk_resultant.py",
+      "line": 85,
+      "kind": "write",
+      "expression": "Path(stem + '.json')",
+      "inferred_path": null
+    },
+    {
+      "source": "level26_prime5_rank.py",
+      "line": 34,
+      "kind": "write",
+      "expression": "Path('/tmp/level26_prime5_rank_' + code + '.json')",
+      "inferred_path": null
+    },
+    {
+      "source": "level26_prime5_weightk_probe.py",
+      "line": 15,
+      "kind": "write",
+      "expression": "Path('/tmp/level26_prime5_weightk_' + code + '_' + str(m) + '.json')",
+      "inferred_path": null
+    },
+    {
+      "source": "level27_bridge_chi5_finish_check.py",
+      "line": 88,
+      "kind": "write",
+      "expression": "here / 'level27_bridge_chi5_finish_audit.json'",
+      "inferred_path": null
+    },
+    {
+      "source": "level19_sparse_poles_compact.py",
+      "line": 48,
+      "kind": "write",
+      "expression": "target",
+      "inferred_path": "/tmp/level19_sparse_poles_compactall_polys.m",
+      "existing_companion": null,
+      "absolute_temporary_path": true
+    },
+    {
+      "source": "level19_sparse_poles_compact.py",
+      "line": 50,
+      "kind": "write",
+      "expression": "Path('/tmp/level19_sparse_poles_compactall_manifest.json')",
+      "inferred_path": "/tmp/level19_sparse_poles_compactall_manifest.json",
+      "existing_companion": null,
+      "absolute_temporary_path": true
+    },
+    {
+      "source": "level19_sparse_poles_compact.py",
+      "line": 54,
+      "kind": "write",
+      "expression": "sparse",
+      "inferred_path": "/tmp/level19_sparse_poles_compactall_fast.m",
+      "existing_companion": null,
+      "absolute_temporary_path": true
+    },
+    {
+      "source": "level19_rootind_sparse_reproduce.py",
+      "line": 23,
+      "kind": "write",
+      "expression": "out / 'source.log'",
+      "inferred_path": null
+    },
+    {
+      "source": "level19_rootind_sparse_reproduce.py",
+      "line": 100,
+      "kind": "write",
+      "expression": "batch",
+      "inferred_path": null
+    },
+    {
+      "source": "level19_rootind_sparse_reproduce.py",
+      "line": 105,
+      "kind": "write",
+      "expression": "out / 'source.completion.json'",
+      "inferred_path": null
+    },
+    {
+      "source": "level19_rootind_sparse_reproduce_manifest.py",
+      "line": 24,
+      "kind": "write",
+      "expression": "p",
+      "inferred_path": null
+    },
+    {
+      "source": "level19_rootind_sparse_reproduce_verify.py",
+      "line": 25,
+      "kind": "write",
+      "expression": "run / 'compare.m'",
+      "inferred_path": null
+    },
+    {
+      "source": "level19_rootind_sparse_reproduce_verify.py",
+      "line": 29,
+      "kind": "write",
+      "expression": "run / 'compare.prepared.json'",
+      "inferred_path": null
+    },
+    {
+      "source": "level25_cusp_aux_minus_even_prepare.py",
+      "line": 73,
+      "kind": "write",
+      "expression": "out",
+      "inferred_path": "/tmp/level25_cusp_aux_minus_even{chart}_{'finite' if finite else 'rational'}_{'pure' if pure else 'full'}.m"
+    },
+    {
+      "source": "level25_plus_poles_negative1_generic_audit_prepare.py",
+      "line": 80,
+      "kind": "write",
+      "expression": "out",
+      "inferred_path": "/tmp/level25_plus_poles_negative1_generic_audit_export.m",
+      "existing_companion": null,
+      "absolute_temporary_path": true
+    },
+    {
+      "source": "level25_secondcharts_independent_negative1_manifest.py",
+      "line": 36,
+      "kind": "write",
+      "expression": "p",
+      "inferred_path": null
+    },
+    {
+      "source": "level25_secondcharts_independent_negative1_run.py",
+      "line": 34,
+      "kind": "write",
+      "expression": "p",
+      "inferred_path": null
+    },
+    {
+      "source": "level25_secondcharts_independent_negative1_transfer.py",
+      "line": 21,
+      "kind": "write",
+      "expression": "out",
+      "inferred_path": "/tmp/level25_secondcharts_independent_negative1_transfer.m",
+      "existing_companion": null,
+      "absolute_temporary_path": true
+    },
+    {
+      "source": "level25_secondcharts_independent_negative1_transfer.py",
+      "line": 23,
+      "kind": "write",
+      "expression": "Path('/tmp/level25_secondcharts_independent_negative1_transfer_input_audit.json')",
+      "inferred_path": "/tmp/level25_secondcharts_independent_negative1_transfer_input_audit.json",
+      "existing_companion": null,
+      "absolute_temporary_path": true
+    },
+    {
+      "source": "level26_finish_first_consistency.py",
+      "line": 96,
+      "kind": "write",
+      "expression": "Path(out)",
+      "inferred_path": null
+    },
+    {
+      "source": "level27_continuation_geometry_certificate.py",
+      "line": 117,
+      "kind": "write",
+      "expression": "path",
+      "inferred_path": "/tmp/level27_continuation_geometry_certificate.json",
+      "existing_companion": "level27_continuation_geometry_certificate.json",
+      "absolute_temporary_path": true
+    },
+    {
+      "source": "level27_continuation_geometry_hecke.py",
+      "line": 51,
+      "kind": "write",
+      "expression": "Path('/tmp/level27_continuation_geometry_hecke.json')",
+      "inferred_path": "/tmp/level27_continuation_geometry_hecke.json",
+      "existing_companion": null,
+      "absolute_temporary_path": true
+    },
+    {
+      "source": "level25_plus_poles_negative1_strata_certificate.py",
+      "line": 37,
+      "kind": "write",
+      "expression": "out",
+      "inferred_path": "/tmp/level25_plus_poles_negative1_strata_certificate.m",
+      "existing_companion": null,
+      "absolute_temporary_path": true
+    },
+    {
+      "source": "level34_finish_wide_probe.py",
+      "line": 58,
+      "kind": "write",
+      "expression": "Path('/tmp/level34_finish_grid_' + str(Q) + '.json')",
+      "inferred_path": null
+    }
+  ],
+  "counts": {
+    "python_files": 163,
+    "read_sites": 287,
+    "write_sites": 115,
+    "reads_with_companion": 118,
+    "reads_with_possible_generator": 16
+  }
+}

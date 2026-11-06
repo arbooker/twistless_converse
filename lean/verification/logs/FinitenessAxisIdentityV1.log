@@ -1,0 +1,2 @@
+'FinitenessAxisIdentity.eq_of_axis' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAxisIdentity.fricke_of_axis' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,4 @@
+'QuantitativeEulerEndpointBernstein.scalar_sharpening_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointBernstein.exists_controlled_operator_sharpening_scalar' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

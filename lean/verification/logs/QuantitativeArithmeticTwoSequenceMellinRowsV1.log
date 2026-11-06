@@ -1,0 +1,4 @@
+'QuantitativeArithmeticTwoSequenceTaylor.two_taylor_mellin_rows' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

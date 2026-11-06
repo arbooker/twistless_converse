@@ -1,0 +1,12 @@
+'QuantitativeSpectralObservability.fundamentalSubsetProjection_star' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralObservability.fundamentalSubsetProjection_regular' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralObservability.fundamentalSubsetProjection_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralObservability.fundamentalTailProjection_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

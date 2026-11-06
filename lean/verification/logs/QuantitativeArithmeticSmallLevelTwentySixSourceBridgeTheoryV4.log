@@ -1,0 +1,25 @@
+'QuantitativeArithmeticSmallLevelTwentySixSourceBridge.pivot89Four_binding' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySixSourceBridge.pivot89Raw_binding' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySixSourceBridge.pivot89Six_binding' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySixSourceBridge.resultant89_coefficients' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySixSourceBridge.resultant89Source_binding' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySixSourceBridge.resultant89W_binding' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySixSourceBridge.w89Left_binding' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySixSourceBridge.w89Right_binding' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

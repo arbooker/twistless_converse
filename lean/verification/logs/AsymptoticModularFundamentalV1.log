@@ -1,0 +1,4 @@
+'AsymptoticModularDomain.ae_closed_mem_open' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticModularDomain.gamma_one_orbit_meets' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticModularDomain.gamma_one_fundamental' depends on axioms: [propext, Classical.choice, Quot.sound]
+

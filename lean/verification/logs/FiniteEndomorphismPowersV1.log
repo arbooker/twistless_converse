@@ -1,0 +1,1 @@
+'FiniteEndomorphismPowers.exists_idempotent_iterate' depends on axioms: [propext, Classical.choice, Quot.sound]

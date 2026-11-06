@@ -1,0 +1,12 @@
+'QuantitativeArithmeticRetainedCylinderExtension.extension_terminal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedCylinderExtension.extension_inclusion_norm_ge' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedCylinderExtension.extension_norm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedCylinderExtension.extension_of_FE' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

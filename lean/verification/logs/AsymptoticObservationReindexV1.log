@@ -1,0 +1,3 @@
+'AsymptoticObservationStack.reindex_stack_gram' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.positive_reindex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCompactObservationCount.totalRegularTrace_reindex' depends on axioms: [propext, Classical.choice, Quot.sound]

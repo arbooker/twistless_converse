@@ -1,0 +1,6 @@
+'AsymptoticClassicalCusp.upperDilationLevel_mem_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.upperDilationReal_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.upperDilationReal_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.upperDilationLevel_arithmetic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.upperDilationConjugate_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.upperDilation_intertwine' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,4 @@
+'AsymptoticCongruenceQuotient.amplitude_ofReal_tsum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceQuotient.projection_trace_le_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceQuotient.projection_trace_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+

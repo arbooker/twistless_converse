@@ -1,0 +1,4 @@
+'AsymptoticFlatHyperbolic.flat_ac_hyperbolic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFlatHyperbolic.inverseHeight_memLp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFlatHyperbolic.inverseHeight_coeFn' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFlatHyperbolic.heightMap_inverseHeight' depends on axioms: [propext, Classical.choice, Quot.sound]

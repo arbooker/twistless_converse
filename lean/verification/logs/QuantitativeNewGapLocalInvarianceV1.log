@@ -1,0 +1,3 @@
+'QuantitativeNewGap.localAtkin_localNew_invariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeNewGap.localAtkin_totalNew_invariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeNewGap.localAtkin_totalNew_sign_commute' depends on axioms: [propext, Classical.choice, Quot.sound]

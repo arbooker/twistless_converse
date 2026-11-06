@@ -1,0 +1,4 @@
+'FinitenessAllLevelPolynomialPresentation.finite_sheets' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelPolynomialPresentation.fiber_card_eventually' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

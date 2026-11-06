@@ -1,0 +1,3 @@
+'AsymptoticUnweightedKernel.hyperbolicKernelTerm_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticUnweightedKernel.hasSum_integral_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticUnweightedKernel.integral_kernel_eq_tsum' depends on axioms: [propext, Classical.choice, Quot.sound]

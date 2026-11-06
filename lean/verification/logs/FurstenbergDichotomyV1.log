@@ -1,0 +1,3 @@
+'FurstenbergDichotomy.accPt_image_of_finite_fiber' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FurstenbergDichotomy.full_of_interior' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FurstenbergDichotomy.finite_or_full' depends on axioms: [propext, Classical.choice, Quot.sound]

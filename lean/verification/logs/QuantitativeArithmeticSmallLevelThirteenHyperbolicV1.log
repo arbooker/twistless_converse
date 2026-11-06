@@ -1,0 +1,7 @@
+'QuantitativeArithmeticSmallLevelThirteen.original_hyperbolic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirteen.original_defect_classification' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

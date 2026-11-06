@@ -1,0 +1,3 @@
+'SmallLevelTwentySix.EllipticSquare.invariant_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySix.elliptic_word_eigen_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+

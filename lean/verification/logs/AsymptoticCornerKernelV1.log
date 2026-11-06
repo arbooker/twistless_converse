@@ -1,0 +1,4 @@
+'AsymptoticCornerKernel.support_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCornerKernel.remaining_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.corner_trace_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.corner_removed_trace' depends on axioms: [propext, Classical.choice, Quot.sound]

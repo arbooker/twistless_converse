@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointKernelMass.universal_kernel_total_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.exists_reconstructed_sector_observability' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

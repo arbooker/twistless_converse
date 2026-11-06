@@ -1,0 +1,6 @@
+'AsymptoticCylinderObservation.finiteCutInversePolynomial_norm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticCylinderObservation.finiteUpperCutPolynomialTrace_approximation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

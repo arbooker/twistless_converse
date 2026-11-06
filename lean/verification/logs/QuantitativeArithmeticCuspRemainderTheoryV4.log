@@ -1,0 +1,7 @@
+'QuantitativeArithmeticCuspRemainder.remainder_norm_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticCuspRemainder.log_remainder_strip_holomorphic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticCuspRemainder.log_remainder_growth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticCuspRemainder.vertical_log_decay' depends on axioms: [propext, Classical.choice, Quot.sound]
+

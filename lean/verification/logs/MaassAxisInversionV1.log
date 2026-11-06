@@ -1,0 +1,2 @@
+'MaassMellin.parity_series_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MaassMellin.parity_axis_inversion' depends on axioms: [propext, Classical.choice, Quot.sound]

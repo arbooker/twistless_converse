@@ -1,0 +1,10 @@
+'QuantitativeArithmeticSmallLevelNineteen.original_continuation_matrices' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelNineteen.invariant_matrix_fourier' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelNineteen.original_continuation_matrix_rows' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

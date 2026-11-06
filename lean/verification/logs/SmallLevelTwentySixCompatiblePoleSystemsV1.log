@@ -1,0 +1,6 @@
+'SmallLevelTwentySixGrid.pole_system_of_laws' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermSources.pole_system_of_laws' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermSources.original_compatible_pole_systems' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

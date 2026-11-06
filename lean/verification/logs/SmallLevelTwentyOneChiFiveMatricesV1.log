@@ -1,0 +1,5 @@
+'SmallLevelTwentyOneChiFiveGroup.D_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneChiFiveGroup.C_branch' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneChiFiveGroup.D_branch' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneChiFiveGroup.elliptic_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+

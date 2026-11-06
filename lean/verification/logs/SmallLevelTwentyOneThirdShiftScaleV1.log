@@ -1,0 +1,6 @@
+'SmallLevelTwentyOneKnownWords.jetScale_binomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneKnownWords.jetScale_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneKnownWords.primeParameter_candidate_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

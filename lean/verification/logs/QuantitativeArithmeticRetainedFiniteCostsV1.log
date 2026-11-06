@@ -1,0 +1,14 @@
+'QuantitativeArithmeticRetainedFiniteTransport.certificateLength_linear' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedFiniteTransport.scaled_length' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedFiniteTransport.normalized_length' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedFiniteTransport.scaled_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedFiniteTransport.normalized_mass' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedFiniteTransport.normalized_matrix_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

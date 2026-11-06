@@ -1,0 +1,7 @@
+'QuantitativeArithmeticSmallLevelTwentySixMMPOriginalChart.first_five_support' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySixMMPOriginalChart.original_first_chart' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

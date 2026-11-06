@@ -1,0 +1,2 @@
+'SpanningLinearHall.exists_obstruction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpanningLinearHall.exists_representatives' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,8 @@
+'QuantitativeArithmeticCompact26JetReduction.slope_eq_rate_mul_tail' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticCompact26JetReduction.jet_eq_base_sub_tails' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticCompact26JetReduction.sourceCoordinate_eq_layerIndex' depends on axioms: [propext, Quot.sound]
+

@@ -1,0 +1,4 @@
+'FinitenessOriginalTwistLocal.local_series_polynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessOriginalTwistLocal.bad_root_sign' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessOriginalTwistLocal.bad_reciprocal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessOriginalTwistLocal.square_bad' depends on axioms: [propext, Classical.choice, Quot.sound]

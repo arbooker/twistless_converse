@@ -1,0 +1,2 @@
+'AsymptoticClassicalCusp.restrict_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.trace_restrict' depends on axioms: [propext, Classical.choice, Quot.sound]

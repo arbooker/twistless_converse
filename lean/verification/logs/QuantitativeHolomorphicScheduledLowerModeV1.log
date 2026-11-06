@@ -1,0 +1,1 @@
+'QuantitativeHolomorphic.Schedule.scheduled_lower_mode_error' depends on axioms: [propext, Classical.choice, Quot.sound]

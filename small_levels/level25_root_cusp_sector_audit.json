@@ -1,0 +1,17 @@
+{
+  "scope": "N25 both-sign highest denominator-five pole-sector exclusion; full poles and modularity remain open",
+  "checks": "Root independently reran both exact aggregates successfully; reviewed original-field germ elimination and derivative normalization at weight endpoint. Simple weight-k poles are allowed and harmless to strictly lower Taylor equations.",
+  "logs": {
+    "/tmp/level25_root_minus.log": "975446fc5ad45a6714b334304c396a18eda8ca954b21dda2943376922415658c",
+    "/tmp/level25_root_plus.log": "5c7ccde1874798391647aab2adbbf976cac57be85f754a48b4df99331ced2aa7"
+  },
+  "source_sha256": {
+    "reconstruction.tex": "2b981298aac0cb87bddb7271296e9433fdc18db93dbd8134fb1a956fc9177539",
+    "level25_finish_eta_minus_cusp_poles.py": "b83e160062e84413646cbe949c3ca95a52f11e62b0c3e90bfe829feb8ae05274",
+    "level25_finish_eta_plus_cusp_poles.py": "2aa29bbbf78632edc6651f59e4ad0f1fbfcdeae6cea11a3dd6ed737a64ecd1fc",
+    "level25_finish_eta_minus_cusp_poles.tex": "7973e3763bee73bc8ebacc110c83348346cc69a7b469226d499b0042a993ef72",
+    "level25_finish_eta_plus_cusp_poles.tex": "cf203b09651992e70f2a1ac427d3853f4be2dba638e5e28e20207d1d52d85fc5",
+    "level25_finish_eta_minus_cusp_poles.json": "016baa150bd95c246f31f49a03856c4a61ba0ebde30054558e898d7d03729824",
+    "level25_finish_eta_plus_cusp_poles.json": "8238c9c5b3fd9bf040fda25a6d83b7baa68bd495c61891f9052d3af5924b2ab6"
+  }
+}

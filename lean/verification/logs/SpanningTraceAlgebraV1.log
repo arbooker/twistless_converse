@@ -1,0 +1,5 @@
+'SpanningTraceAlgebra.primitive_restrict' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpanningTraceAlgebra.trace_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpanningTraceAlgebra.zero_of_all_restrictions' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpanningTraceAlgebra.restrict_cyclic' depends on axioms: [propext]
+'SpanningTraceAlgebra.trace_cyclic' depends on axioms: [propext, Classical.choice, Quot.sound]

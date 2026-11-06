@@ -1,0 +1,3 @@
+'FinitenessTwistConductor.ratio_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessTwistConductor.simple_bad_excess' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessTwistConductor.square_bad_excess' depends on axioms: [propext, Classical.choice, Quot.sound]

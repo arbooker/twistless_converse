@@ -1,0 +1,8 @@
+'QuantitativeArithmeticSmallLevelTwentySixJetSignFlip.jet_independent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySixJetSignFlip.selected_hecke_independent' depends on axioms: [propext]
+'QuantitativeArithmeticSmallLevelTwentySixJetSignFlip.jet_taylor_flip' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

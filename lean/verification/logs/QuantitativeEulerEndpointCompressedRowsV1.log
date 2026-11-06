@@ -1,0 +1,9 @@
+'QuantitativeEulerEndpointPrepared.fresh_source_rows_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.fresh_source_rows_supported' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.fresh_source_rows_fixed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.fresh_source_stack_bounded' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.source_sampling_bounded' depends on axioms: [propext, Classical.choice, Quot.sound]

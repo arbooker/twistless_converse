@@ -1,0 +1,3 @@
+'FinitenessAllLevelFormalContinuation.row_uniform_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelFormalContinuation.step_uniform_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+

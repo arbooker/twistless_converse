@@ -1,0 +1,7 @@
+'QuantitativeArithmeticGeneralDimension.leading_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticGeneralDimension.leading_eq_coefficient' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticGeneralDimension.new_dimension_coefficient_bounded' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

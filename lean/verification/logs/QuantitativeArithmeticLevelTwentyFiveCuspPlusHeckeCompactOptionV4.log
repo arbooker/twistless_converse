@@ -1,0 +1,23 @@
+'QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusLaurent.hecke_lookup_source_1058' depends on axioms: [propext,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusLaurent.hecke_lookup_source_1128' depends on axioms: [propext,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusLaurent.hecke_lookup_basis_10' depends on axioms: [propext,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusLaurent.hecke_lookup_basis_15' depends on axioms: [propext,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusLaurent.hecke_lookup_basis_30' depends on axioms: [propext,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusLaurent.hecke_lookup_basis_60' depends on axioms: [propext,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusLaurent.hecke_lookup_basis_90' depends on axioms: [propext,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusLaurent.hecke_lookup_basis_110' depends on axioms: [propext,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusLaurent.hecke_two_certificate_compact' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusLaurent.hecke_three_certificate_compact' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

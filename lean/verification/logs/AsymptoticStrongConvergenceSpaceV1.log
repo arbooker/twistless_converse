@@ -1,0 +1,2 @@
+'AsymptoticStrongConvergence.vanishing_isClosed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticStrongConvergence.eq_top_of_range_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]

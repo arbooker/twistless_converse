@@ -1,0 +1,2 @@
+'AsymptoticRegularTrace.trace_gram_comp_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.signedTrace_sandwich' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointPrepared.exists_baseline_row_expression' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.exists_baseline_expressions' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

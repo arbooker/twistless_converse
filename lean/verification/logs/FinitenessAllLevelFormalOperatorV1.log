@@ -1,0 +1,4 @@
+'FinitenessAllLevelFormalContinuation.rowOperator_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelFormalContinuation.iterateOperator_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelFormalContinuation.formalOperator_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+

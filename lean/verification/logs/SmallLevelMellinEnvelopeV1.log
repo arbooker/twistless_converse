@@ -1,0 +1,3 @@
+'SmallLevelTaylor.mellinEnvelope_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTaylor.deformed_mellin_envelope' depends on axioms: [propext, Classical.choice, Quot.sound]
+

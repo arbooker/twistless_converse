@@ -1,0 +1,4 @@
+'FinitenessAllLevelConstraintLocus.sector_signs' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelConstraintLocus.sector_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelConstraintLocus.chart_heights_exist' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelConstraintLocus.finite_locus_iff_original' depends on axioms: [propext, Classical.choice, Quot.sound]

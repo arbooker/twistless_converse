@@ -1,0 +1,4 @@
+'AsymptoticClassicalCusp.frickeReal_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.frickeOld_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.primeOld_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.primeKernel_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]

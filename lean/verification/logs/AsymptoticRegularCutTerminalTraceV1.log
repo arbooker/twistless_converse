@@ -1,0 +1,14 @@
+'AsymptoticRegularObservation.cutPositive_trace_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.cutPositive_trace_toReal_eq_terminal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticRegularObservation.cutTerminalTraceOperator_right_terminal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticRegularObservation.cutTerminalTraceOperator_norm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticRegularObservation.cutTerminalTraceOperator_matrix_measurable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticRegularObservation.cutTerminalTraceOperator_error' depends on axioms: [propext, Classical.choice, Quot.sound]

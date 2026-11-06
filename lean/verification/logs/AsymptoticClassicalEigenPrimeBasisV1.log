@@ -1,0 +1,12 @@
+'AsymptoticClassicalEigenbasis.joint_vectors_proportional_of_kernel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticClassicalEigenbasis.commuting_involution_sign_of_kernel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticClassicalEigenbasis.exists_normalized_joint_family_of_kernel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticClassicalEigenbasis.exists_normalized_prime_family' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

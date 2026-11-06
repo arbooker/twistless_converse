@@ -1,0 +1,3 @@
+'AsymptoticCylinderTerminal.projection_comp_of_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCylinderTerminal.projection_comp_inclusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCylinderTerminal.inclusion_cut_error' depends on axioms: [propext, Classical.choice, Quot.sound]

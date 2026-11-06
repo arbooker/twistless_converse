@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointPrimeBlocks.log_max_polynomial_envelope' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.exists_actual_initial_row_log' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

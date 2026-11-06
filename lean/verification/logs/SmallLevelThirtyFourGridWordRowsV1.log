@@ -1,0 +1,4 @@
+'SmallLevelThirtyFourGrid.grid_words_of_fricke' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtyFourGrid.original_grid_words' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtyFourGrid.grid_word_fourier' depends on axioms: [propext, Classical.choice, Quot.sound]
+

@@ -1,0 +1,6 @@
+'AsymptoticClassicalPetersson.weight_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalPetersson.weighted_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalPetersson.weighted_norm_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalPetersson.weighted_memLp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalPetersson.embedding_coeFn' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalPetersson.embedding_injective' depends on axioms: [propext, Classical.choice, Quot.sound]

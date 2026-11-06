@@ -1,0 +1,3 @@
+'AsymptoticRegularTrace.trace_sum_gram' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.output_labelledDiagonal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.stack_support_trace_eq' depends on axioms: [propext, Classical.choice, Quot.sound]

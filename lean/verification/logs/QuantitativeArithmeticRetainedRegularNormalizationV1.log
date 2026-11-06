@@ -1,0 +1,15 @@
+'QuantitativeArithmeticRetainedRegularNormalization.reconstruction_terminal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedRegularNormalization.reconstruction_norm_ge' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedRegularNormalization.scaled_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedRegularNormalization.normalized_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedRegularNormalization.polynomial_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

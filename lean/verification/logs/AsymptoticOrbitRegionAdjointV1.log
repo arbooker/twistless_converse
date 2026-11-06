@@ -1,0 +1,3 @@
+'AsymptoticOrbitRegion.restrict_eq_adjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticOrbitRegion.subtype_comp_adjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticOrbitRegion.adjoint_comp_subtype' depends on axioms: [propext, Classical.choice, Quot.sound]

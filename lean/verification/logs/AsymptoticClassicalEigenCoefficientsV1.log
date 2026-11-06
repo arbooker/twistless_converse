@@ -1,0 +1,4 @@
+'AsymptoticClassicalCusp.cuspCoefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.cuspCoefficient_separates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.newCoefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.newCoefficient_separates' depends on axioms: [propext, Classical.choice, Quot.sound]

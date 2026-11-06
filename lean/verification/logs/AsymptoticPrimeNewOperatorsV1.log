@@ -1,0 +1,4 @@
+'AsymptoticQuotientOperators.prime_new_supported' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticQuotientOperators.incidence_induction_mem_prime_new' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

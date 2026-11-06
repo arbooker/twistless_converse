@@ -1,0 +1,7 @@
+'AsymptoticClassicalCusp.localAtkinReal_val' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.localAtkinReal_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.localAtkinReal_intertwine' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.localAtkinReal_conj_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.localAtkinReal_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.localAtkinReal_inv_conj_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.localAtkinReal_normalizes' depends on axioms: [propext, Classical.choice, Quot.sound]

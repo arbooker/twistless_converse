@@ -1,0 +1,10 @@
+'QuantitativeArithmeticQuadraticGermOrder.quadratic_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticQuadraticGermOrder.pole_order_ge_neg_two' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticQuadraticGermOrder.quadratic_simple_order' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticQuadraticGermOrder.pole_order_ge_neg_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

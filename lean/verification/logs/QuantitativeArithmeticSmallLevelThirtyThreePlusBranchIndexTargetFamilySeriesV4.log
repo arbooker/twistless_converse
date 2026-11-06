@@ -1,0 +1,13 @@
+'QuantitativeArithmeticSmallLevelThirtyThreePlusBranch2Target1.target_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyThreePlusBranch2Target2.target_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyThreePlusBranch3Target1.target_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyThreePlusBranch3Target2.target_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

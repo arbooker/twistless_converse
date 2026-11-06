@@ -1,0 +1,84 @@
+SmallLevelOriginal.SmallLevelsTheorem : Prop
+'SmallLevelTwentyOne.laurent_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOne.determinantFactor_exists_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOne.laurentMatrix_exists_nonsingular' depends on axioms: [propext, Classical.choice, Quot.sound]
+SmallLevelTwentyOne.original_leadingMatrix_nonsingular {m : ℕ} {f : ℕ → ℂ}
+  (hf : FinitenessOriginalInput.IsSolution 21 (2 * m) f) (ε : ℂ) (hε : ε = 1 ∨ ε = -1) :
+  ∃ s, (SmallLevelTwentyOne.leadingMatrix m f ε s).det ≠ 0
+'SmallLevelTwentyOne.original_leadingMatrix_nonsingular' depends on axioms: [propext, Classical.choice, Quot.sound]
+SmallLevelTwentyOne.original_matrix_system {m : ℕ} (hm : 0 < m) {f : ℕ → ℂ}
+  (hf : FinitenessOriginalInput.IsSolution 21 (2 * m) f) :
+  ∃ ε,
+    (ε = 1 ∨ ε = -1) ∧
+      ∃ B,
+        (∀ (i : Fin 42) (s : ℂ), B < s.re → AnalyticAt ℂ (fun z => SmallLevelTwentyOne.gridVector (2 * m) f z i) s) ∧
+          (∀ (M : ℕ) (i : Fin 42) (s : ℂ),
+              B - (↑M + 1) < s.re → AnalyticAt ℂ (fun z => SmallLevelTwentyOne.errorVector m f ε M z i) s) ∧
+            ∀ (M : ℕ) (s : ℂ),
+              B < s.re →
+                (SmallLevelTwentyOne.leadingMatrix m f ε s).mulVec (SmallLevelTwentyOne.gridVector (2 * m) f s) =
+                  SmallLevelTwentyOne.errorVector m f ε M s +
+                    ∑ n ∈ Finset.range M,
+                      (SmallLevelTwentyOne.shiftMatrix m f ε n s).mulVec
+                        (SmallLevelTwentyOne.gridVector (2 * m) f (s + (↑n + 1)))
+'SmallLevelTwentyOne.original_matrix_system' depends on axioms: [propext, Classical.choice, Quot.sound]
+SmallLevelTwentyOne.original_grid_continuation {m : ℕ} (hm : 0 < m) {f : ℕ → ℂ}
+  (hf : FinitenessOriginalInput.IsSolution 21 (2 * m) f) :
+  ∃ B G,
+    (∀ (i : Fin 42) (x : ℂ), MeromorphicNFAt (fun z => G z i) x) ∧
+      ∀ (z : ℂ), B < z.re → G z = SmallLevelTwentyOne.gridVector (2 * m) f z
+'SmallLevelTwentyOne.original_grid_continuation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelContinuation.continued_rows' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelContinuation.continued_leading_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+SmallLevelTwentyOne.original_continued_system {m : ℕ} (hm : 0 < m) {f : ℕ → ℂ}
+  (hf : FinitenessOriginalInput.IsSolution 21 (2 * m) f) :
+  ∃ ε,
+    (ε = 1 ∨ ε = -1) ∧
+      ∃ B G,
+        (∀ (i : Fin 42) (x : ℂ), MeromorphicNFAt (fun z => G z i) x) ∧
+          (∀ (z : ℂ), B < z.re → G z = SmallLevelTwentyOne.gridVector (2 * m) f z) ∧
+            (∀ (i : Fin 42) (z : ℂ), B < z.re → AnalyticAt ℂ (fun w => G w i) z) ∧
+              (∀ (n : ℕ) (i : Fin 42) (z : ℂ),
+                  B - (↑n + 1) < z.re → AnalyticAt ℂ (fun w => SmallLevelTwentyOne.errorVector m f ε n w i) z) ∧
+                ∀ (n : ℕ) (i : Fin 42) (x : ℂ),
+                  B - (↑n + 1) < x.re →
+                    (fun z => ∑ j, SmallLevelTwentyOne.leadingMatrix m f ε z i j * G z j) =ᶠ[nhdsWithin x {x}ᶜ] fun z =>
+                      SmallLevelTwentyOne.errorVector m f ε n z i +
+                        ∑ a ∈ Finset.range n, ∑ j, SmallLevelTwentyOne.shiftMatrix m f ε a z i j * G (z + (↑a + 1)) j
+'SmallLevelTwentyOne.original_continued_system' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOne.original_pole_constraint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOne.rowCoefficient_complex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOne.leadingMatrix_complex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOne.original_singular_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+SmallLevelTwentyOne.original_poles_on_locus {m : ℕ} (hm : 0 < m) {f : ℕ → ℂ}
+  (hf : FinitenessOriginalInput.IsSolution 21 (2 * m) f) :
+  ∃ ε,
+    (ε = 1 ∨ ε = -1) ∧
+      ∃ B G,
+        (∀ (i : Fin 42) (x : ℂ), MeromorphicNFAt (fun z => G z i) x) ∧
+          (∀ (z : ℂ), B < z.re → G z = SmallLevelTwentyOne.gridVector (2 * m) f z) ∧
+            ∀ (x : ℂ),
+              (∃ i, meromorphicOrderAt (fun z => G z i) x < 0) →
+                ∃ n,
+                  (∃ i, meromorphicOrderAt (fun z => G z i) (x + ↑n) < 0) ∧
+                    (∀ (j : ℕ), 0 < j → ∀ (i : Fin 42), 0 ≤ meromorphicOrderAt (fun z => G z i) (x + ↑n + ↑j)) ∧
+                      SmallLevelTwentyOne.originalDeterminantFactor m f ε (x + ↑n) = 0
+'SmallLevelTwentyOne.original_poles_on_locus' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOne.original_rank_coordinate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOne.original_normalized_kernel_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+SmallLevelTwentyOne.original_pole_normalization {m : ℕ} (hm : 0 < m) {f : ℕ → ℂ}
+  (hf : FinitenessOriginalInput.IsSolution 21 (2 * m) f) :
+  ∃ ε,
+    (ε = 1 ∨ ε = -1) ∧
+      ∃ B G,
+        (∀ (i : Fin 42) (x : ℂ), MeromorphicNFAt (fun z => G z i) x) ∧
+          (∀ (z : ℂ), B < z.re → G z = SmallLevelTwentyOne.gridVector (2 * m) f z) ∧
+            ∀ (x : ℂ),
+              (∃ i, meromorphicOrderAt (fun z => G z i) x < 0) →
+                ∃ n,
+                  (∃ i, meromorphicOrderAt (fun z => G z i) (x + ↑n) < 0) ∧
+                    (∀ (j : ℕ), 0 < j → ∀ (i : Fin 42), 0 ≤ meromorphicOrderAt (fun z => G z i) (x + ↑n + ↑j)) ∧
+                      SmallLevelTwentyOne.originalDeterminantFactor m f ε (x + ↑n) = 0 ∧
+                        ∃! w, (SmallLevelTwentyOne.leadingMatrix m f ε (x + ↑n)).mulVec w = 0 ∧ w 28 = 1
+'SmallLevelTwentyOne.original_pole_normalization' depends on axioms: [propext, Classical.choice, Quot.sound]
+

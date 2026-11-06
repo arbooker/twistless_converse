@@ -1,0 +1,9 @@
+'QuantitativeArithmeticPartialRepeated.repeated_intersection_range' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPartialRepeated.repeated_partial_intersection_finrank' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPartialRepeated.partialNewSpace_repeated_finrank' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

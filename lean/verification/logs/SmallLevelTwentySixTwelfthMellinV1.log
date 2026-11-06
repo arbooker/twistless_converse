@@ -1,0 +1,3 @@
+'SmallLevelTwentySixTwelfth.original_twelfth_entire' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixTwelfth.original_twelfth_continuation' depends on axioms: [propext, Classical.choice, Quot.sound]
+

@@ -1,0 +1,4 @@
+'QuantitativeEulerEndpointPrepared.scalar_family_cost_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.sector_observation_power_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

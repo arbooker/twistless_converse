@@ -1,0 +1,27 @@
+{
+  "status": "COMPLETE",
+  "level": 25,
+  "checked_utc": "2026-10-14T21:07:31.875335+00:00",
+  "conclusion": "Under paper1.tex original hypotheses for every positive even weight and every sign/eigenvalue, f belongs to M_k(Gamma_0(25)); cuspidality is not asserted.",
+  "requirements": {
+    "original_hypotheses": "No Ramanujan, real-eigenvalue, generic-eigenvalue, or extra twist hypothesis introduced.",
+    "continuation": "Original Q150 and source-free Q1050 quotient; every discarded direction annihilates all positive Taylor sources.",
+    "zero_Hecke2": "Both Fricke signs rebuilt from source and deterministic unit ideals checked.",
+    "positive_nonzero_Hecke2": "Both projective charts independently rebuilt and excluded; positive first chart degree67 disk certificate entirely rational.",
+    "negative_nonzero_Hecke2": "Second chart unit; first chart A=-1,-2 and D=0 independently excluded; generic chart exact Cramer/14-row transfer to positive15 obstruction independently replayed.",
+    "pole_orders": "Whole lower germs eliminated before Laurent coefficients; active-pole argument excludes every pole except possible simple k, retaining cusp constants.",
+    "modularity_and_cusps": "Previously independently checked local Mellin/dilation argument from twists at -1/5,-3/25, exact index30 generation and polynomial growth at every cusp."
+  },
+  "source_manifest_hashes": {
+    "level25_root_conditional_modularity_audit.json": "9049ef2f51fcdde9f947dad5e1b75a8f6e0ef919d2fdb9eb24c18379a68e627e",
+    "level25_root_cusp_sector_audit.json": "00993a9258716f3344be6a919ddb4cc65512f89b9153758fbb4d05d80c357a12",
+    "level25_zero2_independent_manifest.json": "9e3880e034c9034e9f870a38bba18022fe609a5449e237f241dd5d7651d29556",
+    "level25_zero2_independent_exact_manifest.json": "f949dcf77746bc3a28ff7df80245e08090e2c8dbeef9eff4ecfd06f26d20da04",
+    "level25_secondcharts_independent_manifest.json": "7adf3449e405f81e4e7c125b74828ee5ac8c5ad796d6464d0965a128621aa276",
+    "level25_secondcharts_independent_positive1_manifest.json": "fbcd4dbeb50b08f06943bfebaf120d755ba2bb55f6aba09447f7ef9fcc631f19",
+    "level25_root_negative_first_partial_audit.json": "707dbb275b174de098c0a371442b483d658936145433b7afd6c474ae1532a704",
+    "level25_secondcharts_independent_negative1_manifest.json": "bfa81cd82d10ed3b318907bafdb5c43da757eb06b85e28cc8d5c88f88350a9a6",
+    "level25_cusp_aux_negative_poles_complete.tex": "2f724919fd980b18821b4d0091b6e8c01dd204341a2c78508c00b65d3866919e",
+    "level25_root_chart1_modulus_certificate.json": "0d776be132381387ed17804c249e2fb0b37ee5c53df4cf6d3281c8a2f11f05e0"
+  }
+}

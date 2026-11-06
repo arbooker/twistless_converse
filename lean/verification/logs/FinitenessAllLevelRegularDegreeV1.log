@@ -1,0 +1,8 @@
+'FinitenessAllLevelPolynomialPresentation.Presentation.punctured_regularValues' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FinitenessAllLevelPolynomialPresentation.regular_degree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelConstraintLocus.sector_regular_values_codiscrete' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FinitenessAllLevelConstraintLocus.sector_regular_degree' depends on axioms: [propext, Classical.choice, Quot.sound]

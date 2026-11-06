@@ -1,0 +1,37 @@
+'QuantitativeArithmeticRetainedFilterExpression.source_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedFilterExpression.quantified_physical' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedFilterExpression.quantified_regular' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedFilterExpression.quantified_matrix_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedFilterExpression.quantified_complexity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedFilterExpression.regularAmbient_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedFilterExpression.regularAmbient_regular' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedFilterExpression.regularAmbient_gram' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedFilterExpression.regularAmbient_trace_gram' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedFilterExpression.physical_expression' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedFilterExpression.regularSourceFilter_order' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedFilterExpression.regularSourceFilter_regular' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedFilterExpression.regular_expression_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

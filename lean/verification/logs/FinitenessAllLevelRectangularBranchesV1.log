@@ -1,0 +1,2 @@
+'FinitenessAllLevelCoefficientRing.rectangular_branch' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelCoefficientRing.residual_stays_zero' depends on axioms: [propext, Classical.choice, Quot.sound]

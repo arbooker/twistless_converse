@@ -1,0 +1,3 @@
+'AsymptoticWeightedFE.reconstructionValue_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticWeightedFE.reconstruct_low' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticWeightedFE.reconstruct' depends on axioms: [propext, Classical.choice, Quot.sound]

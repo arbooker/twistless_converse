@@ -1,0 +1,5 @@
+'AsymptoticRegularTrace.eq_of_matrix_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticOrbitBranch.operator_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticOrbitBranch.operator_adjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticOrbitBranch.operator_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticOrbitBranch.operator_signedTrace' depends on axioms: [propext, Classical.choice, Quot.sound]

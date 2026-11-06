@@ -1,0 +1,3 @@
+'QuantitativeArithmeticMeromorphicCoefficientContinuation.closed_system_meromorphic_coefficients' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

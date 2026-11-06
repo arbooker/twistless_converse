@@ -1,0 +1,4 @@
+'QuantitativeArithmeticCubicTrace.cubic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticCubicTrace.conjugate_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticCubicTrace.commutator' depends on axioms: [propext, Classical.choice, Quot.sound]
+

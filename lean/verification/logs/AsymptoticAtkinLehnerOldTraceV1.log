@@ -1,0 +1,4 @@
+'AsymptoticAtkinLehner.traceSL_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticAtkinLehner.localAtkin_mul_ramified' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticAtkinLehner.local_eigen' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticAtkinLehner.old_trace_zero' depends on axioms: [propext, Classical.choice, Quot.sound]

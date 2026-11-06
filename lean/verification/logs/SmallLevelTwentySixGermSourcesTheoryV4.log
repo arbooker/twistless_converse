@@ -1,0 +1,86 @@
+'SmallLevelTwentySixGermSources.source_primitive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermSources.source_coordinates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermSources.source_taylor_of_fricke' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermSources.gridGroup_geometry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermSources.gridGroup_partner_transform' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermSources.grid_matrix_rows_of_fricke' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermSources.gridTaylorSpecs_valid' depends on axioms: [propext]
+'SmallLevelTwentySixGermSources.grid_ramanujan_rows_of_laws' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermSources.grid_ramanujan_system_of_laws' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixGermSources.gridMatrixScalar_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermSources.gridTaylorCoefficient_analytic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixGermSources.grid_matrix_system_of_laws' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermSources.grid_ramanujan_entire' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermSources.grid_infinity_entire_of_fricke' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixGermSources.original_grid_hecke_system' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermSources.gridVector_index' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermSources.gridSample_grid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermSources.gridHeckeLeading_grid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermSources.groupTargetSupport_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermSources.taylorTarget_restrict' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermSources.shiftRows_restrict' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermSources.original_source_row' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermSources.original_source_system' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermSources.shiftRows_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermSources.restrictedShiftMatrix_analytic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixGermSources.restrictedShiftMatrix_mulVec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermSources.restrictedLeadingMatrix_analytic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixGermSources.restrictedLeadingMatrix_mulVec' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixGermSources.leadingRows_restrict' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermSources.fullLeadingMatrix_mulVec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermSources.fullShiftMatrix_mulVec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermSources.initial_system_of_laws' depends on axioms: [propext, Classical.choice, Quot.sound]
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+'SmallLevelTwentySixGermSources.groupRate_complex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermSources.taylorRate_complex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermSources.matrixScalar_leading' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermSources.taylorScalar_leading' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermSources.grid_ramanujan_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermSources.leadingRows_laurent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermSources.shiftRows_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermSources.fullShiftMatrix_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermSources.parameter_nat_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermSources.slopeRows_laurent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermSources.laurentJetRow_physical' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermSources.original_pole_system' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermSources.PoleSystem.continued_rows' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermSources.PoleSystem.lower_taylor_germs' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixGermSources.PoleSystem.top_germ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermSources.PoleSystem.first_normalized_germ' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixGermSources.PoleSystem.second_normalized_germ' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixGermSources.leading_sum_extension' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermSources.slope_sum_extension' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermSources.PoleSystem.laurent_jet_germ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermSources.PoleSystem.G_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermSources.PoleSystem.order_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermSources.PoleSystem.grid_G_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermSources.PoleSystem.grid_order_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermSources.word_scale_sign' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermSources.taylor_scale_sign' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermSources.laurentRows_sign_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermSources.laurentSlopeRows_sign_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermSources.laurentJetRow_sign_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+

@@ -1,0 +1,5 @@
+'SmallLevelEvenScale.rescaled_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelEvenScale.rescaled_point' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelEvenScale.descend_invariance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelEvenScale.rescaled_sign_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelEvenScale.rescaled_sign_eight' depends on axioms: [propext, Classical.choice, Quot.sound]

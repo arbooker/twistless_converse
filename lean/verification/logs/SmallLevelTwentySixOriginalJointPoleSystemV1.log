@@ -1,0 +1,4 @@
+'SmallLevelTwentySixOriginalJointPoleSystem.original_joint_pole_system' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

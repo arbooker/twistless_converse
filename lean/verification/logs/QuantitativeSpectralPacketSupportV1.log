@@ -1,0 +1,6 @@
+'QuantitativeSpectralPacketSupport.projection_left_initial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralPacketSupport.projection_right_initial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralPacketSupport.removed_left_initial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralPacketSupport.removed_right_initial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralPacketSupport.row_left_initial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralPacketSupport.row_right_initial' depends on axioms: [propext, Classical.choice, Quot.sound]

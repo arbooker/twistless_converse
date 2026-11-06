@@ -1,0 +1,3 @@
+'SpanningSlicedAddition.addition_slices' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpanningSlicedAddition.kernel_zero_of_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpanningSlicedAddition.augmented_zero_of_trace' depends on axioms: [propext, Classical.choice, Quot.sound]

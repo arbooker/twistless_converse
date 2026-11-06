@@ -1,0 +1,4 @@
+'AsymptoticFreshCRT.negative_residue' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFreshCRT.first_column_nonzero_mod' depends on axioms: [propext, Quot.sound]
+'AsymptoticFreshCRT.first_row_nonzero_mod' depends on axioms: [propext, Quot.sound]
+'AsymptoticFreshCRT.canonical_reduction' depends on axioms: [propext, Classical.choice, Quot.sound]

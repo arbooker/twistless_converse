@@ -1,0 +1,10 @@
+module
+
+public import QuantitativeEulerEndpointBlockCheckV1
+public import QuantitativeEulerEndpointKernelMassV1
+public import QuantitativeEulerEndpointSectorReconstructedV1
+
+/- Exact common-kernel trace and literal reconstructed-sector observability.
+Blockwise quantitative spectral/filter transfer remains incomplete. -/
+#print axioms QuantitativeEulerEndpointKernelMass.universal_kernel_total_trace
+#print axioms QuantitativeEulerEndpointPrepared.exists_reconstructed_sector_observability

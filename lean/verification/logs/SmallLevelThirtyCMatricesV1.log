@@ -1,0 +1,5 @@
+'SmallLevelThirtyC.L_relation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtyC.R_relation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtyC.double_coset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtyC.E_branch' depends on axioms: [propext, Classical.choice, Quot.sound]
+

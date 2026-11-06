@@ -1,0 +1,2 @@
+'AsymptoticClassicalCusp.heckeSL_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.dilation_traceSL' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,9 @@
+'QuantitativeHolomorphic.observationFilterExpression_complexity_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.quantifiedCountFilterExpression_matrix_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.quantifiedCountFilterExpression_complexity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

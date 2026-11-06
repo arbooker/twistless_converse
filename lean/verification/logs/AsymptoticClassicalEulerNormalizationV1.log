@@ -1,0 +1,4 @@
+'AsymptoticClassicalLSeries.coefficients_multiplicative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalLSeries.coefficients_prime_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalLSeries.coefficients_prime_recurrence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalLSeries.coefficients_eulerProduct' depends on axioms: [propext, Classical.choice, Quot.sound]

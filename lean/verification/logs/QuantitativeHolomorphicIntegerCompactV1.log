@@ -1,0 +1,6 @@
+'QuantitativeHolomorphic.integerCompactData' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.compactExpression_matrix_bound_of_folds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.compactExpression_complexity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.integerCompactExpression_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]

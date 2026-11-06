@@ -1,0 +1,4 @@
+'QuantitativeEulerEndpointLevelOne.solutionCusp_independent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointLevelOne.original_count_le_cusp_dimension' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

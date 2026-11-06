@@ -1,0 +1,9 @@
+'QuantitativeEulerEndpointSieve.divisor_exception_count_le_product' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointSieve.shifted_prime_count_le_sifted' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointSieve.shifted_prime_count_le_product' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,86 @@
+{
+  "status": "PASS exact Hecke5 witness",
+  "gamma": [
+    [
+      11,
+      30
+    ],
+    [
+      -150,
+      -409
+    ]
+  ],
+  "representation_method": "Exact Euclidean S,T decomposition of each matrix",
+  "period_gamma": -2,
+  "periods_finite_branches": [
+    0,
+    -4,
+    2,
+    -2,
+    2
+  ],
+  "period_infinite_branch": 2,
+  "conjugates": [
+    [
+      [
+        11,
+        6
+      ],
+      [
+        -750,
+        -409
+      ]
+    ],
+    [
+      [
+        -889,
+        582
+      ],
+      [
+        -750,
+        491
+      ]
+    ],
+    [
+      [
+        -1789,
+        3318
+      ],
+      [
+        -750,
+        1391
+      ]
+    ],
+    [
+      [
+        -2689,
+        8214
+      ],
+      [
+        -750,
+        2291
+      ]
+    ],
+    [
+      [
+        -3589,
+        15270
+      ],
+      [
+        -750,
+        3191
+      ]
+    ],
+    [
+      [
+        11,
+        150
+      ],
+      [
+        -30,
+        -409
+      ]
+    ]
+  ],
+  "source_sha256": "6351e879d0a223c894ab75f1308b9628fe4882d1d9a7ba111509bd562b363dcc"
+}

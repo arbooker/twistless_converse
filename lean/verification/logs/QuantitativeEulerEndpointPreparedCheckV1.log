@@ -1,0 +1,10 @@
+'QuantitativeEulerEndpointPrepared.exists_summable_preparation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.prepared_endpoint_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.prepared_observed_certificates' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.compact_prime_defect_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

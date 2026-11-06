@@ -1,0 +1,3 @@
+'SmallLevelTen.edgeSRow_checked' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTen.edgeTRow_checked' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTen.gamma0_mem' depends on axioms: [propext, Classical.choice, Quot.sound]

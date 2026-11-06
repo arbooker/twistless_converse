@@ -1,0 +1,3 @@
+'AsymptoticClassicalCusp.qParam_dilation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.qExpansion_degeneracy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.coeff_degeneracy' depends on axioms: [propext, Classical.choice, Quot.sound]

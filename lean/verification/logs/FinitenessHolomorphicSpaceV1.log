@@ -1,0 +1,3 @@
+'FinitenessHolomorphicSpace.dimension_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessHolomorphicSpace.linear_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessHolomorphicSpace.admissible_level' depends on axioms: [propext, Classical.choice, Quot.sound]

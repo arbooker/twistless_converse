@@ -1,0 +1,3 @@
+'SmallLevelEleven.edgeS_checked' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelEleven.edgeT_checked' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelEleven.gamma0_mem' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,4 @@
+'MaassExceptional.W_ode' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MaassExceptional.W_boundary_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MaassExceptional.W_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MaassExceptional.W_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]

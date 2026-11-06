@@ -1,0 +1,7 @@
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeMinusOneSmall.h_certificate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.NegativeMinusOneSmall.k_certificate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

@@ -1,0 +1,6 @@
+'QuantitativeSpectralExceptionalGeometry.finite_cusp_branch_reduction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralExceptionalGeometry.finite_cusp_branch_words' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,5 @@
+'AsymptoticModularDomain.sqrt_lower_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticModularDomain.inverse_sqrt_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticModularDomain.arcsin_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticModularDomain.inverse_sqrt_interval_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticModularDomain.inverse_sqrt_lintegral' depends on axioms: [propext, Classical.choice, Quot.sound]

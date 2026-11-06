@@ -1,0 +1,3 @@
+'SmallLevelTwentyOneKnownWords.pole_word_constraint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneKnownWords.pole_infinity_constraint' depends on axioms: [propext, Classical.choice, Quot.sound]
+

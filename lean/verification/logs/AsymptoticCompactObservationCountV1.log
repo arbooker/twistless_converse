@@ -1,0 +1,6 @@
+'AsymptoticCompactObservationCount.rowOperator_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCompactObservationCount.row_sector_annihilated' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCompactObservationCount.observations_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCompactObservationCount.sector_annihilated' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCompactObservationCount.count_le_traces' depends on axioms: [propext, Classical.choice, Quot.sound]
+

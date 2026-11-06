@@ -1,0 +1,5 @@
+'AsymptoticGeometricReconstruction.extension_terminal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticGeometricReconstruction.extension_norm_ge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticGeometricReconstruction.extension_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticGeometricReconstruction.extension_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticGeometricReconstruction.uniform_extension' depends on axioms: [propext, Classical.choice, Quot.sound]

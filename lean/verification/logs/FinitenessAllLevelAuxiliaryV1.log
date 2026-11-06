@@ -1,0 +1,4 @@
+'FinitenessAllLevelAuxiliary.certificate_at_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelAuxiliary.two_large_good_primes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelAuxiliary.two_prime_certificates' depends on axioms: [propext, Classical.choice, Quot.sound]
+

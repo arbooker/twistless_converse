@@ -1,0 +1,4 @@
+'QuantitativeArithmeticPrimeSmallTwist.cusp_new_of_isCirc' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticPrimeSmallTwist.primitive_euler_corollary' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

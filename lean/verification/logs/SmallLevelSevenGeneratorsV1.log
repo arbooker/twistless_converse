@@ -1,0 +1,3 @@
+'SmallLevelGenerators.edge7S_checked' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelGenerators.edge7T_checked' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelGenerators.gamma0_7_mem' depends on axioms: [propext, Classical.choice, Quot.sound]

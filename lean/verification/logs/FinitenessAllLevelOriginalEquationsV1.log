@@ -1,0 +1,3 @@
+'FinitenessAllLevelFormalContinuation.original_formal_with_laws' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

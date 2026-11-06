@@ -1,0 +1,1 @@
+'QuantitativeEulerDiamondDecode.primeAverage_compact_twist' depends on axioms: [propext, Classical.choice, Quot.sound]

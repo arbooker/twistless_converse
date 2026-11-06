@@ -1,0 +1,7 @@
+'QuantitativeArithmeticSmallLevelTwentySixMMPExceptional.exceptional_branches' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySixMMPExceptional.original_constant_ne_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

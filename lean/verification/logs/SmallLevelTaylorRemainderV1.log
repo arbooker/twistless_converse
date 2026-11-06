@@ -1,0 +1,4 @@
+'SmallLevelTaylor.deformation_parameter_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTaylor.taylorRemainder_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTaylor.taylorRemainder_small' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTaylor.original_taylorRemainder_small' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,2 @@
+'SpanningPeriodicWords.uniform_period' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpanningPeriodicWords.periodic_zone' depends on axioms: [propext, Quot.sound]

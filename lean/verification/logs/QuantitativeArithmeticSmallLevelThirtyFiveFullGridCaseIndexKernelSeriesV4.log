@@ -1,0 +1,16 @@
+'QuantitativeArithmeticCompact35TreeCase0.before' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticCompact35TreeCase0.support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticCompact35TreeCase0.diagonal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticCompact35TreeCase0.inputs_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticCompact35TreeCase0.replay' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.selected_kernel_v3_case0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticCompact35TreeCase1.before' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticCompact35TreeCase1.support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticCompact35TreeCase1.diagonal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticCompact35TreeCase1.inputs_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticCompact35TreeCase1.replay' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveFullGrid.selected_kernel_v3_case1' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

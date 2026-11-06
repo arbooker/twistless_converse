@@ -1,0 +1,5 @@
+'SmallLevelTwentyOneGeneration.conjugate_P' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneGeneration.conjugate_W' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneGeneration.conjugate_PW' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneGeneration.all_generators' depends on axioms: [propext, Classical.choice, Quot.sound]
+

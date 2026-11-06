@@ -1,0 +1,14 @@
+'SmallLevelTwentySixPariLinearFactorExclusion.low_curve_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixPariLinearFactorExclusion.low_curve_neg_five' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixPariLinearFactorExclusion.no_physical_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixPariLinearFactorExclusion.no_physical_neg_five' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixPariLinearFactorExclusion.no_signed_linear_parameters' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

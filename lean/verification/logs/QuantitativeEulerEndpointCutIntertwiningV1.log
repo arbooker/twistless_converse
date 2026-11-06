@@ -1,0 +1,7 @@
+'QuantitativeEulerEndpointCutIntertwining.cfc_intertwines' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointCutIntertwining.lowAt_projection_intertwines' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointCutIntertwining.highAt_projection_intertwines' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

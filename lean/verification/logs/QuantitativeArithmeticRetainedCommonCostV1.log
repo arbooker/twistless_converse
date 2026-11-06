@@ -1,0 +1,9 @@
+'QuantitativeArithmeticRetainedCommonExpression.expression_eq_scheduled' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedCommonExpression.uniform_common_cost' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedCommonExpression.exists_horizon_cost' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

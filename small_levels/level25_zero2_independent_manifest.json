@@ -1,0 +1,166 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-10-14T20:16:45.299894+00:00",
+  "claim": "Both eta signs with lambda2=0: original Q1050 specialized source-free quotient and full leading/first-source chart certificates independently rebuilt; only possible simple poles at s=k, using separately established old150 first-source denominator-five identities.",
+  "source_hashes": {
+    "level25_cusp_aux_prime7_firstjet.py": "434f1df3635455ae39d6d49930d1bab2ac7aa9933d18586df3d8f0002d30f17e",
+    "level25_cusp_aux_prime7_symbolic.py": "f1032122314f72733d0f10303c3b764c93fbbe61b4c015a9041e9f2581deefb5",
+    "level25_finish_augmented.py": "4dcccb34212352f9effa32da95b93b57becc8f6938adb04e56281fd719780a94",
+    "level25_uniform_continuation.py": "490293b27df705236585208fe1fd2c5f4510cce7499a78e6803e265e11b96515",
+    "level25_finish_firstjet.py": "9bba9e96cca35b8356161ff88929f6e8ace9fa374520d40a4336bfce9f94cce5",
+    "level25_cusp_aux_prime7_jetrank.py": "9127b4321147a0dd1fd2fce2204da08fd942a169a678a97a31bcb2def6c57d36",
+    "level25_cusp_aux_prime7_jetideals.py": "4663aaeffe69b25270db038f4e4d75f8455fb132fdb4a60966f58efbdc3d253a"
+  },
+  "audit_source_hashes": {
+    "level25_zero2_independent_run.py": "9dcde7cdc1ea6d227fcae4b93fa8f8c4f26d40dea384a06ef3a31e2bd3da6c21",
+    "level25_zero2_independent_compare.py": "206aca955523ad0e40ab88349c96d3743ec92e8a093f9f37165b30f3054ceaa5",
+    "level25_zero2_independent_manifest.py": "4bb19f9d25052ae025bcaf889b0e39db969b0b49212a0270f17bc0e2105906da"
+  },
+  "proof_hashes": {
+    "level25_cusp_aux_zero2_plus.tex": "0fbf8fb017c2747d1818b96e4b55a090e73ca314c8918af7147f725a52352bb3",
+    "level25_cusp_aux_zero2_minus.tex": "48b38ca44fc2c62e95a392bbc984f0709f07f04c742d08b273de375f96518d9e",
+    "level25_cusp_aux_prime7_quotient.tex": "ba62ea25c4071c2140fe2d050819afd7c1e872de9ef2e6929fd8812b960b5a9a",
+    "level25_finish_eta_plus_cusp_poles.tex": "cf203b09651992e70f2a1ac427d3853f4be2dba638e5e28e20207d1d52d85fc5",
+    "level25_finish_eta_minus_cusp_poles.tex": "7973e3763bee73bc8ebacc110c83348346cc69a7b469226d499b0042a993ef72",
+    "level25_zero2_independent_audit.tex": "b2b9931ab81d09af67b85950de68f950933f3bfb026b624ba2fbe3e18ee84123"
+  },
+  "runs": [
+    {
+      "stage": "firstjet",
+      "eta": 1,
+      "status": "PASS",
+      "elapsed_seconds": 67.64121702103876,
+      "log_path": "/tmp/level25_zero2_independent_firstjet_1.log",
+      "log_sha256": "582922bc3918f984503023086a9170cfb5ab6512b3142e3d075a2ae938a0f911",
+      "outputs": {
+        "/tmp/level25_zero2_independent_prime7_firstjet_1_zero2.json": "8945cdd8027c115ea4b11f04694658c6ece6cf2e3453fb5107a89176d4f4c000"
+      }
+    },
+    {
+      "stage": "jetrank",
+      "eta": 1,
+      "status": "PASS",
+      "elapsed_seconds": 0.5946243510115892,
+      "log_path": "/tmp/level25_zero2_independent_jetrank_1.log",
+      "log_sha256": "e14862601602514bf740be4c6ea262d02bf2ef76b2bb41038068aedf9632f50f",
+      "outputs": {
+        "/tmp/level25_zero2_independent_prime7_firstjet_reduced_1_zero2.json": "0685a608f12af4deb9db84a48f8b51c60abed44f089e76ab692afb99bb99bb4b"
+      }
+    },
+    {
+      "stage": "jetideals",
+      "eta": 1,
+      "status": "PASS",
+      "elapsed_seconds": 0.025655960198491812,
+      "log_path": "/tmp/level25_zero2_independent_jetideals_1.log",
+      "log_sha256": "4c0a37942cb3d061e958153259108df4719faed02688799f4597028d6a72ab8d",
+      "outputs": {
+        "/tmp/level25_zero2_independent_prime7_firstjet_ideal_1_zero2_0.m": "bb1c758b76641d2cf7071380aac742838081797f62a2dfd6f225f86a961b5a17",
+        "/tmp/level25_zero2_independent_prime7_firstjet_ideal_1_zero2_1.m": "0e8c56a3751c53efed6910c23845c07d545747b1d8bf305110f55ce5a5eee1ec"
+      }
+    },
+    {
+      "stage": "sourcefree",
+      "eta": 1,
+      "status": "PASS",
+      "elapsed_seconds": 27.742078678915277,
+      "log_path": "/tmp/level25_zero2_independent_sourcefree_1.log",
+      "log_sha256": "8553bbd4f285b47d430b32cd752383756040773b1198918779621194ba679c5e",
+      "outputs": {}
+    },
+    {
+      "stage": "firstjet",
+      "eta": -1,
+      "status": "PASS",
+      "elapsed_seconds": 123.14570216508582,
+      "log_path": "/tmp/level25_zero2_independent_firstjet_-1.log",
+      "log_sha256": "ea51da5546f5390cbbe938ca3c8b9b25da4e9f66c7c50c89d5318d475a3d06e6",
+      "outputs": {
+        "/tmp/level25_zero2_independent_prime7_firstjet_-1_zero2.json": "9a51a7d7cdb8a0a5999011616918af36fc21ea7e8ef401d826a16b2fe96b7af0"
+      }
+    },
+    {
+      "stage": "jetrank",
+      "eta": -1,
+      "status": "PASS",
+      "elapsed_seconds": 1.6890857559628785,
+      "log_path": "/tmp/level25_zero2_independent_jetrank_-1.log",
+      "log_sha256": "92d3ebb90bf45e038579ee73bc934cebdee6a823b8f9d47c4b57ba4db05435ed",
+      "outputs": {
+        "/tmp/level25_zero2_independent_prime7_firstjet_reduced_-1_zero2.json": "f61069b75e13fde70f45a6b05638ae2268c292c7f065e579a16a79b50c967e21"
+      }
+    },
+    {
+      "stage": "jetideals",
+      "eta": -1,
+      "status": "PASS",
+      "elapsed_seconds": 0.009842875879257917,
+      "log_path": "/tmp/level25_zero2_independent_jetideals_-1.log",
+      "log_sha256": "bc1f76044c61b155aad9420e648232b8ca69176f149b462ae609ab40f97b8ba8",
+      "outputs": {
+        "/tmp/level25_zero2_independent_prime7_firstjet_ideal_-1_zero2_0.m": "67ad2f0dab687c7604ecb61805cae4ae953cbce2074fb9bf8b0872fd1e0c9aa5",
+        "/tmp/level25_zero2_independent_prime7_firstjet_ideal_-1_zero2_1.m": "e8f47dcac90e14a527cfeea02620dda2babc1f2f3168e212ed97264c1a4d5789"
+      }
+    },
+    {
+      "stage": "sourcefree",
+      "eta": -1,
+      "status": "PASS",
+      "elapsed_seconds": 25.859604327008128,
+      "log_path": "/tmp/level25_zero2_independent_sourcefree_-1.log",
+      "log_sha256": "9120cd276b47310378bbd7d52a2caf28c8563f4d545d75dfbc9e11189a38e6c7",
+      "outputs": {}
+    }
+  ],
+  "chart_comparisons": [
+    {
+      "eta": 1,
+      "reference": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_cusp_aux_zero2_plus_certificate.m",
+      "reference_sha256": "d97ef146b743c39b7d20c0b9ad39b43aafd1a4ff313ee0d7882fe6e2fa83dc44",
+      "charts": [
+        {
+          "chart": 0,
+          "original_export_sha256": "bb1c758b76641d2cf7071380aac742838081797f62a2dfd6f225f86a961b5a17",
+          "checked_path": "/tmp/level25_zero2_independent_checked_1_0.m",
+          "checked_sha256": "74f65d8024aedde8a70ff8cf2802dc6a5c7bc6916fd84702ca062366c078a60a",
+          "polynomial_list_match": true
+        },
+        {
+          "chart": 1,
+          "original_export_sha256": "0e8c56a3751c53efed6910c23845c07d545747b1d8bf305110f55ce5a5eee1ec",
+          "checked_path": "/tmp/level25_zero2_independent_checked_1_1.m",
+          "checked_sha256": "a7d6e8dac787e4b47e2061a1fa12635c500629058922e5bcc972833f0e43a8a4",
+          "polynomial_list_match": true
+        }
+      ]
+    },
+    {
+      "eta": -1,
+      "reference": "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level25_cusp_aux_zero2_minus_certificate.m",
+      "reference_sha256": "ee098d25cf03aabc53a35394cfae968e0198be33520031b9ab59924f67988bb4",
+      "charts": [
+        {
+          "chart": 0,
+          "original_export_sha256": "67ad2f0dab687c7604ecb61805cae4ae953cbce2074fb9bf8b0872fd1e0c9aa5",
+          "checked_path": "/tmp/level25_zero2_independent_checked_-1_0.m",
+          "checked_sha256": "419adb86c23001e1a7b7c1961461d671c957aa60216a0a0c7c7412e476cc53f2",
+          "polynomial_list_match": true
+        },
+        {
+          "chart": 1,
+          "original_export_sha256": "e8f47dcac90e14a527cfeea02620dda2babc1f2f3168e212ed97264c1a4d5789",
+          "checked_path": "/tmp/level25_zero2_independent_checked_-1_1.m",
+          "checked_sha256": "81f205c46242c486958c23581dafb2865a058b3b8d6a0101ca66ab64a13a5356",
+          "polynomial_list_match": true
+        }
+      ]
+    }
+  ],
+  "magma": {
+    "status": "PASS_ALL_FOUR_UNIT_IDEALS",
+    "command": "magma /tmp/level25_zero2_independent_all_charts.m",
+    "source_sha256": "a54b69b05ee800d9ea73b62acf74f95cbf228fbbadab5a0c6230acb1337b0d5f",
+    "output_sha256": "3363e6bf67b51b4261b7cc49c4716a35c8319c0079a960d3a09939ff4ae716f4",
+    "output_path": "/tmp/level25_zero2_independent_all_charts_pass.log"
+  }
+}

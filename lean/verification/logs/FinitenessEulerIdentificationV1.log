@@ -1,0 +1,5 @@
+'FinitenessEulerIdentification.eq_canonical' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessEulerIdentification.multiplicative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessEulerIdentification.prime_power_recurrence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessEulerIdentification.bad_prime_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessEulerIdentification.solution_arithmetic' depends on axioms: [propext, Classical.choice, Quot.sound]

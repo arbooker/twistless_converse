@@ -1,0 +1,3 @@
+'QuantitativeEulerEndpointSoftUpdate.amplifier_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointSoftUpdate.amplifier_le_linear' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointSoftUpdate.amplifier_trace_lower' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,1 @@
+'GridSupportGeometry.normalized_near_grid' depends on axioms: [propext, Classical.choice, Quot.sound]

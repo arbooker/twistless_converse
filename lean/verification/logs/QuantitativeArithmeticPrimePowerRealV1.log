@@ -1,0 +1,9 @@
+'QuantitativeArithmeticPrimePowerTorsion.distinct_primes_cpow_real' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimePowerTorsion.distinct_primes_cpow_positive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticPrimePowerTorsion.negative_prime_cpow_excludes_real' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

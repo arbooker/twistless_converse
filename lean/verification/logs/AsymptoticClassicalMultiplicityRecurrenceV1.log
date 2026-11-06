@@ -1,0 +1,3 @@
+'AsymptoticClassicalCusp.simple_fricke_old_intersection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.primeTraceKernel_mul_orthogonal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.partialNewSpace_simple_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]

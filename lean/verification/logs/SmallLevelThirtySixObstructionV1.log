@@ -1,0 +1,3 @@
+'SmallLevelThirtySix.slash_filter_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtySix.original_obstruction_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+

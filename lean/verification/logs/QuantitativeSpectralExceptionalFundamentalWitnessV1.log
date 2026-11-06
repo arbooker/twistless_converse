@@ -1,0 +1,3 @@
+'QuantitativeSpectralExceptionalReducedRows.exists_fundamental_generator_factorization_with_geometry' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

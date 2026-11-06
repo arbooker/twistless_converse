@@ -1,0 +1,3 @@
+'QuantitativeEulerOldProjectionBlock.restrict_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerOldProjectionBlock.fiber_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerOldProjectionBlock.cosetBlocks_energy' depends on axioms: [propext, Classical.choice, Quot.sound]

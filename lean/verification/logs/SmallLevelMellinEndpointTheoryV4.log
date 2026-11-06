@@ -1,0 +1,5 @@
+'SmallLevelMellinEndpoint.mellin_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelMellinEndpoint.endpoint_zero_of_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelMellinEndpoint.endpoint_zero_of_continuation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelMellinEndpoint.ray_remainder_local' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelMellinEndpoint.fourier_endpoint_zero' depends on axioms: [propext, Classical.choice, Quot.sound]

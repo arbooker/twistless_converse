@@ -1,0 +1,16 @@
+'QuantitativeArithmeticRetainedFourierMajorant.normalized_weighted' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedFourierMajorant.weighted_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedFourierMajorant.finite_weighted' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedFourierMajorant.finiteWeighted_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedFourierMajorant.normalized_fourier_gram' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedFourierMajorant.finite_fourier_gram' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

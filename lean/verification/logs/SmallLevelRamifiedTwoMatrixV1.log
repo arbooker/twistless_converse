@@ -1,0 +1,3 @@
+'SmallLevelRamifiedTwo.normalized_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelRamifiedTwo.Q_point' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelRamifiedTwo.Q_slash' depends on axioms: [propext, Classical.choice, Quot.sound]

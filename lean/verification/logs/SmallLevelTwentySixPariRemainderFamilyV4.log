@@ -1,0 +1,3 @@
+'SmallLevelTwentySixPariRemainder87.generic_remainder_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixPariRemainder89.generic_remainder_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+

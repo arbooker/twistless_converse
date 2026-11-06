@@ -1,0 +1,20 @@
+module
+
+public import SmallLevelProgressCheckV1
+public import SmallLevelThirtySixGammaZeroV1
+public import SmallLevelThirtySixCuspOrbitV1
+
+@[expose] public section
+
+#check SmallLevelOriginal.SmallLevelsTheorem
+#check SmallLevelThirtySix.original_obstruction_zero
+#check SmallLevelThirtySix.original_congruence
+#check SmallLevelThirtySix.original_gamma_zero
+#check SmallLevelThirtySix.original_cusp_antiperiod
+#print axioms SmallLevelThirtySix.original_hecke_five
+#print axioms SmallLevelThirtySix.original_obstruction_zero
+#print axioms SmallLevelThirtySix.residue_S
+#print axioms SmallLevelThirtySix.residue_T
+#print axioms SmallLevelThirtySix.original_congruence
+#print axioms SmallLevelThirtySix.original_gamma_zero
+#print axioms SmallLevelThirtySix.original_cusp_antiperiod

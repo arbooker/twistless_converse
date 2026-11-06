@@ -1,0 +1,16 @@
+'AsymptoticRegularReconstruction.finiteFoldFull_covariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularReconstruction.finiteFoldFull_matrix_measurable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticRegularReconstruction.finiteFoldFull_right_terminal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticRegularReconstruction.finiteCutFull_right_terminal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticRegularReconstruction.finiteCutFull_covariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularReconstruction.finiteCutFull_matrix_measurable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticRegularReconstruction.finiteCutFull_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularReconstruction.finiteCutFull_error' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,14 @@
+'QuantitativeArithmeticRetainedFilterTrace.finite_trace_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedFilterTrace.filter_fixes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedFilterTrace.row_annihilates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedFilterTrace.observationFilter_order' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedFilterTrace.sector_finrank_le_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedFilterTrace.original_count_le_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

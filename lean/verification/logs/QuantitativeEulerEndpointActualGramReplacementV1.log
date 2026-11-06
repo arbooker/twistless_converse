@@ -1,0 +1,9 @@
+'QuantitativeEulerEndpointBoundedIteration.actualBlock_uncomposed_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointBoundedIteration.actualBlock_replacement' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointBoundedIteration.actualBlock_paid_replacement' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

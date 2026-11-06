@@ -1,0 +1,10 @@
+'QuantitativeArithmeticSmallLevelThirtyThreePlusElimination.kernel_parameterization' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyThreePlusElimination.reduced_rows_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyThreePlusElimination.reduced_jet_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

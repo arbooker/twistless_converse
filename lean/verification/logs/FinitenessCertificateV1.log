@@ -1,0 +1,2 @@
+'FinitenessCertificate.exists_certificate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessCertificate.coordinate_identity' depends on axioms: [propext, Classical.choice, Quot.sound]

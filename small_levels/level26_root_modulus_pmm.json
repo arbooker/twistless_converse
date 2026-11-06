@@ -1,0 +1,9 @@
+{
+  "claim": "PMM degree23 locus factors into MMM locus and x^2-5x+8 with Y=9. MMM excluded by exact disks; extra conjugate roots have |x|^2=8, |Y|^2=81, incompatible with physical h (real parts 3/2 and 1).",
+  "factorization": "P_pmm=(x^2-5*x+8)*P_mmm(x)",
+  "source_sha256": {
+    "level26_negative_poles_mmm_projection.json": "0d1be080d7d04e3cec97a4f87f972fabbccfdfab9f128480d81134d9a443513b",
+    "level26_negative_poles_pmm_projection.json": "5a655a8d0927dda40adb472e3ca6520fb0d56eccde829f65429c6406d6fbcee4",
+    "level26_root_modulus_mmm.json": "f1bb2d78ee7def0aafab1fad08d7e67935b3cb28c4b2c3ee03bba43fce20e8a3"
+  }
+}

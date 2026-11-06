@@ -1,0 +1,5 @@
+'QuantitativeArithmeticSmallLevelEisenstein.cuspBoundary_tendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelEisenstein.cuspBoundary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelEisenstein.cuspBoundary_ker' depends on axioms: [propext, Classical.choice, Quot.sound]

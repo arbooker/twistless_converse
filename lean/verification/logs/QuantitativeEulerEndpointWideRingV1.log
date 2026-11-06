@@ -1,0 +1,4 @@
+'QuantitativeEulerEndpointPrepared.fixed_ring_wide_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.fixed_ring_wide_fresh_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

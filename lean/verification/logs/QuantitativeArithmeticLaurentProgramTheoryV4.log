@@ -1,0 +1,3 @@
+'QuantitativeArithmeticLaurentProgram.checked_outputs' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticLaurentProgram.cons_derived' depends on axioms: [propext, Classical.choice, Quot.sound]
+

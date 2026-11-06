@@ -1,0 +1,5 @@
+'AsymptoticRamifiedCoefficients.bad_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRamifiedCoefficients.twist_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRamifiedCoefficients.simple_sign' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRamifiedCoefficients.simple_relation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRamifiedCoefficients.square_relation' depends on axioms: [propext, Classical.choice, Quot.sound]

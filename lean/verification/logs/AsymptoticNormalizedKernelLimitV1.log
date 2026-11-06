@@ -1,0 +1,4 @@
+'AsymptoticUnweightedKernel.weight_ratio_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticUnweightedKernel.normalized_hyperbolicKernel_tendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

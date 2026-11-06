@@ -1,0 +1,5 @@
+'AsymptoticObservation.survivingSpace_closed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticObservation.kernelProjection_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticObservation.kernelProjection_fixes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticObservation.kernelProjection_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticObservation.amplified_tendsto_kernelProjection' depends on axioms: [propext, Classical.choice, Quot.sound]

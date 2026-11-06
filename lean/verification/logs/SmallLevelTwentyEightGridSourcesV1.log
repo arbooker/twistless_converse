@@ -1,0 +1,3 @@
+'SmallLevelTwentyEightGrid.gridSource_coordinates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightGrid.gridSource_sign' depends on axioms: [propext, Classical.choice, Quot.sound]
+

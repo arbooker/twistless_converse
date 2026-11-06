@@ -1,0 +1,9 @@
+'QuantitativeEulerEndpointPrepared.reconstructedQuotientTail_rank' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.reconstructedQuotientTail_survivor_regular' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.reconstructedQuotientTail_survivor_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

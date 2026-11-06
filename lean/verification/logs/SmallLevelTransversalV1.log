@@ -1,0 +1,3 @@
+'SmallLevelGenerators.transversal_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelGenerators.transversal_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelGenerators.word_mem' depends on axioms: [propext, Classical.choice, Quot.sound]

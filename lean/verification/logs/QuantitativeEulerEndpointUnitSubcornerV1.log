@@ -1,0 +1,5 @@
+'QuantitativeEulerEndpointUnitSubcorner.lift_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointUnitSubcorner.lift_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointUnitSubcorner.value_aeval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointUnitSubcorner.value_update' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointUnitSubcorner.trace_value' depends on axioms: [propext, Classical.choice, Quot.sound]

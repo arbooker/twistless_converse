@@ -1,0 +1,4 @@
+'SmallLevelTwentySixFactor6XRoot.pRoot_monic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixFactor6XRoot.pRoot_degree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixFactor7XRoot.pRoot_monic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixFactor7XRoot.pRoot_degree' depends on axioms: [propext, Classical.choice, Quot.sound]

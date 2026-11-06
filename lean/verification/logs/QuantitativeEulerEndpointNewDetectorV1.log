@@ -1,0 +1,4 @@
+'QuantitativeEulerEndpointPrepared.primeOldRegion_compact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.primeOldDetector_original_energy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

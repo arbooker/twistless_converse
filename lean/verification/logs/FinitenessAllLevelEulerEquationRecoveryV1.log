@@ -1,0 +1,1 @@
+'FinitenessAllLevelEulerEquations.equations_iff_eulerData' depends on axioms: [propext, Classical.choice, Quot.sound]

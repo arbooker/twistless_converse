@@ -1,0 +1,9 @@
+'QuantitativeEulerEndpointCommonReconstruction.sandwichExpression_physical' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointCommonReconstruction.sandwichExpression_lifted_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointCommonReconstruction.physicalCylinder_weighted_trace_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

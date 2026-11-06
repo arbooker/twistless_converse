@@ -1,0 +1,32 @@
+module
+public import SmallLevelTwentySixPariIdentityIndexDataSeriesV4
+@[expose] public noncomputable section
+section
+set_option autoImplicit false
+set_option maxHeartbeats 5000000
+set_option maxRecDepth 32768
+set_option linter.unusedSimpArgs false
+
+namespace SmallLevelTwentySixPariCompact87Binding
+theorem binding (x y z w a b u : ℂ) :
+    SmallLevelTwentySixPariIdentity001.p3 x y z w a b u=SmallLevelTwentySixPariIdentity008.p2 x y z w a b u := by
+  simp only [SmallLevelTwentySixPariIdentity001.p3,SmallLevelTwentySixPariIdentity001.coefficients3,SmallLevelTwentySixPariIdentity001.c3_0,SmallLevelTwentySixPariIdentity001.c3_1,SmallLevelTwentySixPariIdentity008.p2,SmallLevelTwentySixPariIdentity008.coefficients2,SmallLevelTwentySixPariIdentity008.c2_0,SmallLevelTwentySixPariIdentity008.c2_1,SmallLevelTwentySixPariIdentity008.c2_2,SmallLevelTwentySixPariIdentity008.c2_3,SmallLevelTwentySixPariIdentity008.c2_4,SmallLevelTwentySixPariIdentity008.c2_5,SmallLevelTwentySixPariIdentity008.c2_6,SmallLevelTwentySixPariIdentity008.c2_7,SmallLevelTwentySixPariIdentity008.c2_8,SmallLevelTwentySixPariIdentity008.c2_9,SmallLevelPolynomialCoefficientCertificate.evaluate]
+  ring
+#print axioms binding
+end SmallLevelTwentySixPariCompact87Binding
+end
+
+section
+set_option autoImplicit false
+set_option maxHeartbeats 5000000
+set_option maxRecDepth 32768
+set_option linter.unusedSimpArgs false
+
+namespace SmallLevelTwentySixPariCompact89Binding
+theorem binding (x y z w a b u : ℂ) :
+    SmallLevelTwentySixPariIdentity003.p3 x y z w a b u=SmallLevelTwentySixPariIdentity010.p2 x y z w a b u := by
+  simp only [SmallLevelTwentySixPariIdentity003.p3,SmallLevelTwentySixPariIdentity003.coefficients3,SmallLevelTwentySixPariIdentity003.c3_0,SmallLevelTwentySixPariIdentity003.c3_1,SmallLevelTwentySixPariIdentity010.p2,SmallLevelTwentySixPariIdentity010.coefficients2,SmallLevelTwentySixPariIdentity010.c2_0,SmallLevelTwentySixPariIdentity010.c2_1,SmallLevelTwentySixPariIdentity010.c2_2,SmallLevelTwentySixPariIdentity010.c2_3,SmallLevelTwentySixPariIdentity010.c2_4,SmallLevelTwentySixPariIdentity010.c2_5,SmallLevelTwentySixPariIdentity010.c2_6,SmallLevelTwentySixPariIdentity010.c2_7,SmallLevelTwentySixPariIdentity010.c2_8,SmallLevelTwentySixPariIdentity010.c2_9,SmallLevelPolynomialCoefficientCertificate.evaluate]
+  ring
+#print axioms binding
+end SmallLevelTwentySixPariCompact89Binding
+end

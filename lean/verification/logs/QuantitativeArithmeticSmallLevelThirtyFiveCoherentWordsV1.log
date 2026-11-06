@@ -1,0 +1,10 @@
+'QuantitativeArithmeticSmallLevelThirtyFiveKnownWords.seeds_of_fricke' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveKnownWords.words_of_fricke' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveKnownWords.original_coherent_word_laws' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

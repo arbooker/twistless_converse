@@ -1,0 +1,15 @@
+'QuantitativeArithmeticRetainedNestedGeometricTrace.terminalCompression_norm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedNestedGeometricTrace.sandwichExpression_physical' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedNestedGeometricTrace.sandwichExpression_lifted_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedNestedGeometricTrace.sector_finrank_le_unweighted' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedNestedGeometricTrace.sector_finrank_le_retained_regular' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

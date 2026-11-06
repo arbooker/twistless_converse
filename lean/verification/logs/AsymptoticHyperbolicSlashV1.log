@@ -1,0 +1,7 @@
+'AsymptoticHyperbolicSlash.pullback' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticHyperbolicSlash.operator_norm_map' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticHyperbolicSlash.phase_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticHyperbolicSlash.operator_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticHyperbolicSlash.operator_projective_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticHyperbolicSlash.normalized_slash' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticHyperbolicSlash.finite_sum_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]

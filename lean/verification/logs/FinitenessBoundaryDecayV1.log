@@ -1,0 +1,3 @@
+'FinitenessBoundaryDecay.gamma_shift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessBoundaryDecay.reflected' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessBoundaryDecay.contour_eq' depends on axioms: [propext, Classical.choice, Quot.sound]

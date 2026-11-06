@@ -1,0 +1,6 @@
+'QuantitativeSpectralResolventDerivative.resolvent_derivative_algebra' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralResolventDerivative.hasDerivAt_resolvent_integrand' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

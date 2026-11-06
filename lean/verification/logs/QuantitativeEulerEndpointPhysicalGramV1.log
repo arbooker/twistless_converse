@@ -1,0 +1,8 @@
+'QuantitativeEulerEndpointPhysicalGram.unit_isStarProjection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPhysicalGram.normalized_gram_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPhysicalGram.normalized_gram_supported' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPhysicalGram.weighted_gram_supported' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

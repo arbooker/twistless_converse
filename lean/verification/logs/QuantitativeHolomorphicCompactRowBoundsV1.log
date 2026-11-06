@@ -1,0 +1,4 @@
+'QuantitativeHolomorphic.compactFamily_uniform_unit_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.rowExpression_uniform_integer_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,2 @@
+'FinitenessEulerIndependence.relation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessEulerIndependence.linearIndependent' depends on axioms: [propext, Classical.choice, Quot.sound]

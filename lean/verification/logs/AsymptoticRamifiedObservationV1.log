@@ -1,0 +1,4 @@
+'AsymptoticRamifiedObservation.residual_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRamifiedObservation.average_on_section' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRamifiedObservation.identity_on_section' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRamifiedObservation.residual_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]

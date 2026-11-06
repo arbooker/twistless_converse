@@ -1,0 +1,4 @@
+'FinitenessCuspBounds.tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessCuspBounds.circle_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessCuspBounds.height_decay' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessCuspBounds.weighted_decay' depends on axioms: [propext, Classical.choice, Quot.sound]

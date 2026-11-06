@@ -1,0 +1,1 @@
+'QuantitativeNewGap.old_cross_gram_trace' depends on axioms: [propext, Classical.choice, Quot.sound]

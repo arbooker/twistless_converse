@@ -1,0 +1,3 @@
+'AsymptoticCongruenceOldSpace.new_trace_with_intersection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceOldSpace.new_trace_finite_join' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceOldSpace.new_trace_infinite_join' depends on axioms: [propext, Classical.choice, Quot.sound]

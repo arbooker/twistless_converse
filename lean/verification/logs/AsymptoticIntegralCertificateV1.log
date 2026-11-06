@@ -1,0 +1,11 @@
+'AsymptoticIntegralSubgroup.certificate_modulus_fresh' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticIntegralSubgroup.certificate_input_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticIntegralSubgroup.certificate_output_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticIntegralSubgroup.certificate_fold_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticIntegralSubgroup.lowPart_supported' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticIntegralSubgroup.terminalPart_supported' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticIntegralSubgroup.low_supported' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticIntegralSubgroup.terminal_supported' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticIntegralSubgroup.full_supported' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticIntegralSubgroup.includedFull_supported' depends on axioms: [propext, Classical.choice, Quot.sound]
+

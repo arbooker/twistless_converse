@@ -1,0 +1,9 @@
+'QuantitativeEulerEndpointPrepared.good_prime_fresh_stack_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.compact_prime_fresh_rows_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.compact_prime_fresh_stack_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

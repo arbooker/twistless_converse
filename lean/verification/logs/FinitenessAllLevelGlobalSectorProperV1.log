@@ -1,0 +1,6 @@
+'FinitenessAllLevelConstraintLocus.global_sector_bounded_isCompact' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FinitenessAllLevelConstraintLocus.global_sector_projection_isProperMap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

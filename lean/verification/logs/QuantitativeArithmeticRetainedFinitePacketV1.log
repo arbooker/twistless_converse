@@ -1,0 +1,19 @@
+'QuantitativeArithmeticRetainedCommonExpression.regular_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedCommonExpression.regular_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedCommonExpression.physical_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedCommonExpression.regular_right_terminal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedPacket.replacementGram_expansion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedPacket.replacementGram_support' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedPacket.exists_replacement_gram_rows' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,6 @@
+'AsymptoticFreshRank.observed_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFreshRank.observed_supported' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFreshRank.observed_stack_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFreshRank.observed_mixed_ker' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFreshRank.rank_loss' depends on axioms: [propext, Classical.choice, Quot.sound]
+

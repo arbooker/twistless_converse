@@ -1,0 +1,9 @@
+'QuantitativeHolomorphic.holomorphicSum_observationFilterExpression' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.regularSum_observationFilterExpression' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.observationFilterExpression_complexity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

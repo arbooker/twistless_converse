@@ -1,0 +1,2 @@
+'AsymptoticPrimesInAP.exists_prime_sequence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticPrimesInAP.exists_fresh_prime_sequence' depends on axioms: [propext, Classical.choice, Quot.sound]

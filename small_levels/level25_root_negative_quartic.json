@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "claim": "For every quartic root X and Y=X^2/(X+1), |Y| differs from |X|^rho for 3/2<rho<2.",
+  "polynomial": "5*X^4+5*X^3-312*X^2-228*X+48",
+  "verifier_sha256": "96137441eefee8bfdf5bb422e4274fad11571da2a456a156d9289b5630fd9044",
+  "intervals": [
+    {
+      "interval": [
+        "-8038483/1000000",
+        "-4019241/500000"
+      ],
+      "side": "below"
+    },
+    {
+      "interval": [
+        "-900349/1000000",
+        "-225087/250000"
+      ],
+      "side": "above"
+    },
+    {
+      "interval": [
+        "85377/500000",
+        "34151/200000"
+      ],
+      "side": "below"
+    },
+    {
+      "interval": [
+        "1942019/250000",
+        "7768077/1000000"
+      ],
+      "side": "below"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+'QuantitativeHolomorphic.normalizedSectorCoordinates_reconstruct' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.normalizedSectorCoordinates_injective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.normalizedSectorCoordinates_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]

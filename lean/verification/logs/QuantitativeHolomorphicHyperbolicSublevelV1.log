@@ -1,0 +1,7 @@
+'QuantitativeHolomorphic.hyperbolic_integral_matrix_displacement_volume' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.hyperbolic_volume_le_euclidean' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.hyperbolic_fractional_displacement_quadratic_volume' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,10 @@
+'QuantitativeArithmeticTwoSequenceEntire.scaled_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticTwoSequenceEntire.scaled_rapid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticTwoSequenceEntire.reflected_axis' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticTwoSequenceEntire.inverse_axis_scalar' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticTwoSequenceEntire.mellin_entire' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticTwoSequenceEntire.mellin_convergent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticTwoSequenceEntire.mellin_bounded_strips' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

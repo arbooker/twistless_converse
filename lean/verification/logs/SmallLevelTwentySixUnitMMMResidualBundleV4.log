@@ -1,0 +1,5 @@
+'SmallLevelTwentySixUnitMMM.residual_7' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixUnitMMM.residual_15' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixUnitMMM.residual_31' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixUnitMMM.residual_39' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixUnitMMM.residual_47' depends on axioms: [propext, Classical.choice, Quot.sound]

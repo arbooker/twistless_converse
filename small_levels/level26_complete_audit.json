@@ -1,0 +1,31 @@
+{
+  "level": 26,
+  "conclusion": "f belongs to S_k(Gamma_0(26)) for every permitted positive even weight, sign and eigenvalue.",
+  "proof_inputs": [
+    "Uniform Q780 continuation and exact positive-bad13 pole exclusion.",
+    "All positive-integer h leading-rank resultant and exact Abel-tail exclusions, including normalized exceptions k,k+1.",
+    "Independent original-source reconstruction for all four negative-bad13 cases, primitive lower-germ syzygies, deterministic rational ideal memberships.",
+    "Exact rational Rouche disks and exponent comparisons exclude every negative-bad13 projected physical locus.",
+    "Local Mellin transport, commuting hyperbolic invariance and exact index42 generation prove cuspidal modularity."
+  ],
+  "source_hashes": {
+    "level26_root_positive_audit.py": "037c0f0fe0fd69e76ae3d8b4307f95275844dcdfe5000fb3854ff35d1cb095e0",
+    "level26_root_positive_audit.json": "a3e8921329340532b1e958d5a50dad539b51bd39b11d7dca7a925757a2c73e22",
+    "level26_prime5_weightk_certificate.json": "27b83b057fa8465727c65bfe5398ee4ee9afb1369fcd624e11b2fed0d4682a35",
+    "level26_negative_independent_manifest.json": "a7245de084ce673d3e1c812594175d4898d9dfba5936fe75268c0da9989ecf71",
+    "level26_negative_poles_complete.tex": "040037a4ad30964147f9503859ac24bfb6576dcbd1b03ea96d762b582c9152c5",
+    "level26_negative_independent_audit.tex": "5931c59d9a79e0b526022b7aa55a647b4e3fba2a83788192e216a2caeadfa94d",
+    "level26_root_modulus_certificate.tex": "d6a24a6cdb2870a9864972e796fc506887c7c381a341403b06000b49ec945cc1",
+    "level26_root_modulus_audit.py": "061809cc2bf868daccebd7d4d48ea47ddcdb94d00ac01945c5f3a178dddb2a7c",
+    "level26_negative_poles_signs.py": "962078539dc752084a969e39b5d879f3c45954ad08f32e3d58f15878c1c9773b",
+    "level26_negative_poles_signs.json": "8877b8bac93fa237a34eb64909a7479b2d0285d771d540f832c3ebc1c839ef2f",
+    "level26_modularity_agent_complete.tex": "63f6be07c43920bd5c49de87d85962187fa70994b893ab23817f25e8620024c7",
+    "level26_modularity_agent_complete.py": "3061afa937a95e52bc2a6d6dec407135867f3f8d4532bfd7115ca80956a67a48",
+    "level26_modularity_agent_generation.py": "c98d8bbfa36f81b3119497f523351b9fdb81270361573921845befad836f8e56",
+    "level26_root_modulus_mmm.json": "f1bb2d78ee7def0aafab1fad08d7e67935b3cb28c4b2c3ee03bba43fce20e8a3",
+    "level26_root_modulus_mpm.json": "580968ff10a4c7f161398679dd7fcf95ba29feb565ffc459ab39c3c15453f911",
+    "level26_root_modulus_pmm.json": "f4a3baca2d79f4d57d5b9b984030abf8d81b6e73eca188ea83f6d41c8d34282c",
+    "level26_root_modulus_ppm.json": "32823b55886d29873038e53a4f5e3dc770f97f9852406937a300247d9c35db71"
+  },
+  "integration": "Full proof inserted into reconstruction.tex; desktop compiler reported success on 2026-10-14. Other levels and quantitative Lean targets are separate obligations."
+}

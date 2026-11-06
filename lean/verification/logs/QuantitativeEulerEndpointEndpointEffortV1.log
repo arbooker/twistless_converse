@@ -1,0 +1,4 @@
+'QuantitativeEulerEndpointLocalEffort.endpoint_effort_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointLocalEffort.effort_sum_with_endpoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

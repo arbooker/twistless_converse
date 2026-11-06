@@ -1,0 +1,6 @@
+'AsymptoticPolarIsometry.absolute_eq_positiveRoot' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticPolarIsometry.penaltyRoot_eq_positiveRoot' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticPolarIsometry.absolute_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticPolarIsometry.absolute_opNorm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticPolarIsometry.penaltyRoot_opNorm' depends on axioms: [propext, Classical.choice, Quot.sound]
+

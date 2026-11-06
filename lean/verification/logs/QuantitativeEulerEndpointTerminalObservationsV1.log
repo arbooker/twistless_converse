@@ -1,0 +1,12 @@
+'QuantitativeEulerEndpointTerminalAlgebra.observationGram_nonneg' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointTerminalAlgebra.observationGram_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointTerminalAlgebra.observation_energy_order' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointTerminalAlgebra.rep_observationEnergy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

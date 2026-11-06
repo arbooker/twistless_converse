@@ -1,0 +1,7 @@
+'QuantitativeArithmeticSmallLevelThirtyThreeKnownWords.groupRate_complex' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyThreeKnownWords.taylorRate_complex' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

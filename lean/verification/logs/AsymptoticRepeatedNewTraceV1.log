@@ -1,0 +1,3 @@
+'AsymptoticCongruenceOldSpace.repeated_new_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceOldSpace.square_two_new_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceOldSpace.higher_two_new_trace' depends on axioms: [propext, Classical.choice, Quot.sound]

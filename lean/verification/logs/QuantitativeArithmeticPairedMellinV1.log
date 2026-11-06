@@ -1,0 +1,3 @@
+'QuantitativeArithmeticPairedMellin.dirichlet_inversion_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticPairedMellin.original_inversion_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticPairedMellin.original_fricke_pair' depends on axioms: [propext, Classical.choice, Quot.sound]

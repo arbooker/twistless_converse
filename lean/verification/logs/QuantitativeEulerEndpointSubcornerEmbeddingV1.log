@@ -1,0 +1,10 @@
+'QuantitativeEulerEndpointSubcornerEmbedding.projectionElement' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointSubcornerEmbedding.representation_projectionElement' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointSubcornerEmbedding.rowElement' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointSubcornerEmbedding.representation_rowElement' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

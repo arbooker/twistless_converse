@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointSpectralWindow.window_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointSpectralWindow.window_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointSpectralWindow.window_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointSpectralWindow.window_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointSpectralWindow.window_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointSpectralWindow.window_sandwich' depends on axioms: [propext, Classical.choice, Quot.sound]

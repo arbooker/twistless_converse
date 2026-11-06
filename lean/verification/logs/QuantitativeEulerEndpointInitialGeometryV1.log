@@ -1,0 +1,4 @@
+'QuantitativeEulerEndpointPrepared.observation_transport_power' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.initial_geometry_cap' depends on axioms: [propext, Classical.choice, Quot.sound]

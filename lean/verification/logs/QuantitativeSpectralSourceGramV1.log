@@ -1,0 +1,4 @@
+'QuantitativeSpectralSourceGram.gramElement' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralSourceGram.representation_gramElement' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralSourceGram.gramElement_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralSourceGram.gramElement_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]

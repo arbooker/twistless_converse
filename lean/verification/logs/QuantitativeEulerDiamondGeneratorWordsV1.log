@@ -1,0 +1,5 @@
+'QuantitativeEulerDiamondDecode.generatorSuffixes_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerDiamondDecode.gamma1_generator_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerDiamondDecode.gamma1_compact_generator_expansion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

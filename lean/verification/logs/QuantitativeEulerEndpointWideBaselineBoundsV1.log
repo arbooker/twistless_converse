@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointPrepared.twist_wide_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.ramified_wide_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.newBaselineRows_wide_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.newBaselineDetector_wide_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

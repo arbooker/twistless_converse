@@ -1,0 +1,2 @@
+'QuantitativeEulerEndpointPhysicalCorner.initial_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPhysicalCorner.sharpened_order' depends on axioms: [propext, Classical.choice, Quot.sound]

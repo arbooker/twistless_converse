@@ -1,0 +1,4 @@
+'QuantitativeArithmeticRepeatedJoin.upper_reduce' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRepeatedJoin.conjugate_label' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRepeatedJoin.repeated_join_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRepeatedJoin.repeated_join_index' depends on axioms: [propext, Classical.choice, Quot.sound]

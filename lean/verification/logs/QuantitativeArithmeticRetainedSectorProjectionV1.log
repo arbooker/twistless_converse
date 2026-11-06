@@ -1,0 +1,15 @@
+'QuantitativeArithmeticRetainedSectorProjection.coordinates_reconstruct' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedSectorProjection.coordinates_injective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedSectorProjection.physicalMap_finrank' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedSectorProjection.projection_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedSectorProjection.projection_terminal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,3 @@
+'AsymptoticTwistObservation.residual_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticTwistObservation.normalized_translation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticTwistObservation.normalized_reflection' depends on axioms: [propext, Classical.choice, Quot.sound]

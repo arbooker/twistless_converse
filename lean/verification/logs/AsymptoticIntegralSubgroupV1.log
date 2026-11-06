@@ -1,0 +1,8 @@
+'AsymptoticIntegralSubgroup.integralEntries_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticIntegralSubgroup.integralEntries_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticIntegralSubgroup.ofMatrix_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticIntegralSubgroup.integralGroup_mem_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticIntegralSubgroup.translation_inv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticIntegralSubgroup.translation_integral_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticIntegralSubgroup.translation_fraction_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticIntegralSubgroup.translation_integer_integral' depends on axioms: [propext, Classical.choice, Quot.sound]

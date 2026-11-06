@@ -1,0 +1,3 @@
+'QuantitativeArithmeticInitialTaylorGerm.finite_shifted_elimination_off_pivots' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

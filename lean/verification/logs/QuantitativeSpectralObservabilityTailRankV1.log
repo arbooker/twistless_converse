@@ -1,0 +1,6 @@
+'QuantitativeSpectralObservability.fundamentalSubsetSpace_projection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralObservability.fundamentalTail_error_rank' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

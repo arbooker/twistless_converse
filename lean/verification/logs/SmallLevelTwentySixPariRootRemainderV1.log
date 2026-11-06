@@ -1,0 +1,4 @@
+'SmallLevelTwentySixPariRootRemainder.remainder_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixPariRootRemainder.remainder_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixPariRootRemainder.no_signed_generic' depends on axioms: [propext, Classical.choice, Quot.sound]
+

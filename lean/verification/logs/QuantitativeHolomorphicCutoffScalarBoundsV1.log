@@ -1,0 +1,4 @@
+'QuantitativeHolomorphic.Schedule.localized_sqrt_product_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.Schedule.inverse_sqrt_weight_le_trace_power' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

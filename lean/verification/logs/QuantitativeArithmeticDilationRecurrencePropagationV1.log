@@ -1,0 +1,2 @@
+'QuantitativeArithmeticDilationRecurrence.zero_of_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticDilationRecurrence.constant_of_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,13 @@
+'QuantitativeArithmeticSmallLevelThirtyThreeKnownWords.grid_ramanujan_root' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyThreeKnownWords.badParameter_three_sign' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyThreeKnownWords.badParameter_eleven_sign' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyThreeKnownWords.ramified_scalar' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

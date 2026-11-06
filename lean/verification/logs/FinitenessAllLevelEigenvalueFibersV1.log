@@ -1,0 +1,4 @@
+'FinitenessAllLevelEigenvalueFibers.complete_laws' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelEigenvalueFibers.cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelEigenvalueFibers.uniform_fiber_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+

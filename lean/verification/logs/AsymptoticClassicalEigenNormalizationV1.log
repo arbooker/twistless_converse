@@ -1,0 +1,7 @@
+'AsymptoticClassicalEigenbasis.first_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalEigenbasis.first_normalizedVector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalEigenbasis.normalizedVector_eigen' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalEigenbasis.coeff_normalizedVector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalEigenbasis.normalizedVector_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalEigenbasis.coefficient_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalEigenbasis.joint_vectors_proportional' depends on axioms: [propext, Classical.choice, Quot.sound]

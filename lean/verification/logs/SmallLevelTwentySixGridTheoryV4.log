@@ -1,0 +1,39 @@
+'SmallLevelTwentySixGrid.original_endpoint_continuation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGrid.actualGrid_third_plus' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGrid.actualGrid_third_minus' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGrid.PoleSystem.modular_of_nonnegative_orders' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixGrid.original_full_leading_kernel_integer_batched' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixGrid.PoleSystem.rightmost_leading_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGrid.PoleSystem.lower_taylor_germs' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGrid.matrixScalar_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGrid.taylorScalar_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGrid.shiftRows_laurent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGrid.laurentShiftRows_sign_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGrid.shiftRows_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGrid.fullShiftMatrix_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGrid.PoleSystem.top_germ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGrid.PoleSystem.first_normalized_germ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGrid.PoleSystem.second_normalized_germ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGrid.PoleSystem.integer_rightmost_regular_batched' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixGrid.PoleSystem.normalization_units_batched' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixGrid.PoleSystem.integer_rightmost_regular_mmm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixGrid.PoleSystem.normalization_units_mmm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGrid.PoleSystem.analytic_halfplane' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGrid.PoleSystem.nonnegative_orders_of_rightmost' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixGrid.PoleSystem.regular_mmm_small' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGrid.PoleSystem.modular_mmm_small' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGrid.PoleSystem.regular_mmp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGrid.PoleSystem.modular_mmp' depends on axioms: [propext, Classical.choice, Quot.sound]
+

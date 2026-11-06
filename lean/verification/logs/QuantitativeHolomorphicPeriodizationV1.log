@@ -1,0 +1,5 @@
+'QuantitativeHolomorphic.periodization_tail_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.periodization_truncation_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.periodization_integral_truncation_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

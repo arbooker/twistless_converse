@@ -1,0 +1,3 @@
+'SmallLevelTwentyOneChiFive.original_center_laws' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneChiFive.original_ramanujan_five_laws' depends on axioms: [propext, Classical.choice, Quot.sound]
+

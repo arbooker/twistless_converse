@@ -1,0 +1,3 @@
+'AsymptoticRamifiedSectors.sector_finiteDimensional' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRamifiedSectors.cylinderMap_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRamifiedSectors.euler_cover' depends on axioms: [propext, Classical.choice, Quot.sound]

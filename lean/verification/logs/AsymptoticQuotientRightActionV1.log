@@ -1,0 +1,3 @@
+'AsymptoticNestedQuotients.classOf_eq_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticNestedQuotients.rightMulEquiv_classOf' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticNestedQuotients.forget_rightMul' depends on axioms: [propext, Classical.choice, Quot.sound]

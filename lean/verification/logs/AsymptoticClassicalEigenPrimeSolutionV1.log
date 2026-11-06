@@ -1,0 +1,2 @@
+'AsymptoticClassicalCusp.prime_eigen_bad_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.prime_eigen_isSolution' depends on axioms: [propext, Classical.choice, Quot.sound]

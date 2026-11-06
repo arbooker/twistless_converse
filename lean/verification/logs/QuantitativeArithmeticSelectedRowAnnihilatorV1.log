@@ -1,0 +1,9 @@
+'QuantitativeArithmeticSelectedRowAnnihilator.selector_mulVec' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSelectedRowAnnihilator.selector_mul_eq_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSelectedRowAnnihilator.selector_analytic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

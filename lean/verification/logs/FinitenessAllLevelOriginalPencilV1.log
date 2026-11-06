@@ -1,0 +1,5 @@
+'FinitenessAllLevelOriginalPencil.original_fixedPoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelOriginalPencil.uniform_original_fixedPoints' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

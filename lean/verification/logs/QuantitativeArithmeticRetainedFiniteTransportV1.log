@@ -1,0 +1,15 @@
+'QuantitativeArithmeticRetainedFiniteTransport.physical_ambient_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedFiniteTransport.regular_ambient_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedFiniteTransport.full_eq_cylinder' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedFiniteTransport.physical_scaled' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedFiniteTransport.regular_scaled' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

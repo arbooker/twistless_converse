@@ -1,0 +1,12 @@
+'QuantitativeEulerEndpointSoftObstruction.tilted_idempotent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointSoftObstruction.tilted_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointSoftObstruction.compressed_coordinate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointSoftObstruction.uncompressed_filter_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointSoftObstruction.rational_unit_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointSoftObstruction.rational_pair_small_loss' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

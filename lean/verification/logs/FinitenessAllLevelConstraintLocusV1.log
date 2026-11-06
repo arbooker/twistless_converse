@@ -1,0 +1,2 @@
+'FinitenessAllLevelConstraintLocus.original_constraints' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelConstraintLocus.constraints_recover' depends on axioms: [propext, Classical.choice, Quot.sound]

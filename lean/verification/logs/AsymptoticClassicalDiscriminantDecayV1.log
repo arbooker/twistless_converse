@@ -1,0 +1,4 @@
+'AsymptoticClassicalDiscriminant.factor_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalDiscriminant.factor_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalDiscriminant.log_norm_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalDiscriminant.log_norm_div_im_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]

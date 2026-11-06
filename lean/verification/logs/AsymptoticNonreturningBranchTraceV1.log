@@ -1,0 +1,4 @@
+'AsymptoticUnweightedKernel.branch_trace_periodized' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticUnweightedKernel.nonreturning_branch_trace_isLittleO' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

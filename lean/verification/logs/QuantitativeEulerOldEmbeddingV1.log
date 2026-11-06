@@ -1,0 +1,7 @@
+'QuantitativeEulerOldEmbedding.inclusion_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerOldEmbedding.normalizedInclusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerOldEmbedding.trace_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerOldEmbedding.trace_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerOldEmbedding.oldProjection_star' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerOldEmbedding.oldProjection_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerOldEmbedding.trace_inclusion' depends on axioms: [propext, Classical.choice, Quot.sound]

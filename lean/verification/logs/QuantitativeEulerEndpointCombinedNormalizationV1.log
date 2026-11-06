@@ -1,0 +1,9 @@
+'QuantitativeEulerEndpointNormalizedThreshold.squareSum_prepend' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointNormalizedThreshold.prepend_log_cost' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointNormalizedThreshold.log_square_polynomial' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

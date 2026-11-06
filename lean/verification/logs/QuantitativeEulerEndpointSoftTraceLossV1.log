@@ -1,0 +1,7 @@
+'QuantitativeEulerEndpointSoftUpdate.compressed_energy_le_square' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointSoftUpdate.update_trace_loss' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointSoftUpdate.exists_sharpened_update_with_loss' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

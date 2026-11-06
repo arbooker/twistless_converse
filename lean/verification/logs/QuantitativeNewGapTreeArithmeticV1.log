@@ -1,0 +1,2 @@
+'QuantitativeNewGap.projective_det_one_entry_eq_or_neg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeNewGap.gamma_inf_degeneracyGroup' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,3 @@
+'AsymptoticClassicalLSeries.slash_fricke' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalLSeries.normalizedFricke_eq_slash' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalLSeries.fricke_root_sign' depends on axioms: [propext, Classical.choice, Quot.sound]

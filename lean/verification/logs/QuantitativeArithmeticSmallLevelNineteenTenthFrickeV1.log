@@ -1,0 +1,7 @@
+'QuantitativeArithmeticSmallLevelNineteen.original_tenth_matrices' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelNineteen.original_tenth_fricke' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

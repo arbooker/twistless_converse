@@ -1,0 +1,9 @@
+'AsymptoticRegularReconstruction.cutFull_eq_extension_adjoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticRegularReconstruction.cutFull_gram_trace_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.cutPositive_eq_operator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.cutPositive_isPositive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.cutPositive_norm_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.cutPositive_covariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.cutPositive_matrix_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]

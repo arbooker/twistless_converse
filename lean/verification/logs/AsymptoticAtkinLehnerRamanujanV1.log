@@ -1,0 +1,3 @@
+'AsymptoticAtkinLehner.defect_complement' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticAtkinLehner.complementary_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticAtkinLehner.complement_eigen' depends on axioms: [propext, Classical.choice, Quot.sound]

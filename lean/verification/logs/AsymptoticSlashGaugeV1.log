@@ -1,0 +1,7 @@
+'AsymptoticSlashGauge.phase_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticSlashGauge.gauge_adjoint_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticSlashGauge.gauge_mul_adjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticSlashGauge.branch_phase' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticSlashGauge.trace_gauge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticSlashGauge.gauge_matrix_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticSlashGauge.gauge_covariant' depends on axioms: [propext, Classical.choice, Quot.sound]

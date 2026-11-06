@@ -1,0 +1,3 @@
+'SmallLevelNormalized.original_fricke_sign' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelNormalized.central_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+

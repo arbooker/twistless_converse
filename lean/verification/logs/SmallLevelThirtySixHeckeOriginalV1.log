@@ -1,0 +1,6 @@
+'SmallLevelThirtySix.finite_branch_point' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtySix.finite_branch_slash' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtySix.infinity_branch_slash' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtySix.scaled_hecke_five' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtySix.original_hecke_five' depends on axioms: [propext, Classical.choice, Quot.sound]
+

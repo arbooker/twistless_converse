@@ -1,0 +1,2 @@
+'SmallLevelNormalized.original_six_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+

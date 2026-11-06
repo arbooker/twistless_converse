@@ -1,0 +1,7 @@
+'QuantitativeArithmeticRetainedCertificateFE.cell_partition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedCertificateFE.reconstruct_low' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedCertificateFE.normalized_row' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedCertificateFE.reconstruct_row' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedCertificateFE.primitive_ascending' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

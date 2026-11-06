@@ -1,0 +1,19 @@
+'QuantitativeArithmeticRetainedReconstruction.coordinate_cast' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedReconstruction.reconstruct_vector' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedReconstruction.reconstruct_periodic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedReconstruction.sample_complete_row' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedReconstruction.reconstruct_twists' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedReconstruction.reconstruct_FE' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedReconstruction.reconstruct_FE_dilation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

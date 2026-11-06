@@ -1,0 +1,4 @@
+'AsymptoticOrbitDensity.lintegral_invariant_mul_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticOrbitDensity.lintegral_invariant_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticOrbitDensity.integral_real_invariant_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticOrbitDensity.integral_complex_invariant_eq' depends on axioms: [propext, Classical.choice, Quot.sound]

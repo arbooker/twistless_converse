@@ -1,0 +1,9 @@
+'QuantitativeArithmeticRetainedCylinderNormalization.scaled_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedCylinderNormalization.normalized_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedCylinderNormalization.polynomial_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,4 @@
+'AsymptoticModularDomain.null_of_complex_null' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticModularDomain.vertical_line_null' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticModularDomain.unit_circle_null' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticModularDomain.boundary_null' depends on axioms: [propext, Classical.choice, Quot.sound]

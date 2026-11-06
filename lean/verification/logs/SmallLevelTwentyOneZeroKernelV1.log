@@ -1,0 +1,3 @@
+'SmallLevelTwentyOneZero.original_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneZero.original_J' depends on axioms: [propext, Classical.choice, Quot.sound]
+

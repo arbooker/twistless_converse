@@ -1,0 +1,9 @@
+'QuantitativeEulerEndpointPrepared.exists_sector_original_energy_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.prepared_sector_packet_trace_decay' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.prepared_sector_packet_sum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,4 @@
+'SmallLevelTwentyOneKnownWords.wordCoefficient_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneKnownWords.word_grid_rows_of_law' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneKnownWords.word_grid_germs_of_law' depends on axioms: [propext, Classical.choice, Quot.sound]
+

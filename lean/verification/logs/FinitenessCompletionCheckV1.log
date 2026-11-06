@@ -1,0 +1,28 @@
+FinitenessOriginalTheorem.admissible_level : ∀ (N : ℕ),
+  0 < N →
+    ¬16 ∣ N →
+      (∀ (p : ℕ), Nat.Prime p → p ≠ 2 → ¬p ^ 2 ∣ N) →
+        ∃ C,
+          0 < C ∧
+            ∀ (m : ℕ),
+              0 < m → (FinitenessOriginalInput.S N (2 * m)).Finite ∧ (FinitenessOriginalInput.S N (2 * m)).ncard ≤ C * m
+FinitenessOriginalTheorem.even_weight : ∀ (N : ℕ),
+  0 < N →
+    ¬16 ∣ N →
+      (∀ (p : ℕ), Nat.Prime p → p ≠ 2 → ¬p ^ 2 ∣ N) →
+        ∃ C,
+          0 < C ∧
+            ∀ (k : ℕ),
+              0 < k → Even k → (FinitenessOriginalInput.S N k).Finite ∧ (FinitenessOriginalInput.S N k).ncard ≤ C * k
+original_predicate : ∀ (N : ℕ),
+  0 < N →
+    ¬16 ∣ N →
+      (∀ (p : ℕ), Nat.Prime p → p ≠ 2 → ¬p ^ 2 ∣ N) →
+        ∃ C,
+          0 < C ∧
+            ∀ (k : ℕ),
+              0 < k →
+                Even k →
+                  {f | FinitenessOriginalInput.IsSolution N k f}.Finite ∧
+                    {f | FinitenessOriginalInput.IsSolution N k f}.ncard ≤ C * k
+'FinitenessCompletionCheck.original_predicate' depends on axioms: [propext, Classical.choice, Quot.sound]

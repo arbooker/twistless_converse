@@ -1,0 +1,11 @@
+'QuantitativeArithmeticRetainedPacket.rows_source' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedPacket.gram_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedPacket.gram_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedPacket.rep_gram' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedPacket.rows_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedPacket.rows_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedPacket.packet_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedPacket.packet_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedPacket.exists_packet_contraction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

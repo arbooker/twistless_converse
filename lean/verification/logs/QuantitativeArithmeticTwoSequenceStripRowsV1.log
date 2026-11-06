@@ -1,0 +1,7 @@
+'QuantitativeArithmeticTwoSequenceTaylor.two_error_strip_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticTwoSequenceTaylor.two_taylor_bounded_rows' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

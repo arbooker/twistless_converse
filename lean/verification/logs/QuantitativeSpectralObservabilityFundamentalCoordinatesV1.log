@@ -1,0 +1,9 @@
+'QuantitativeSpectralObservability.fundamentalSampling_coordinate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralObservability.fundamentalSampling_reduced_decode' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralObservability.fundamentalSampling_row_coordinates' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

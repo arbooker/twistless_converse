@@ -1,0 +1,3 @@
+'AsymptoticClassicalCusp.newPrimeHecke_isSymmetric' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.newPrimeHecke_pairwise_commute' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.exists_normalized_new_prime_family' depends on axioms: [propext, Classical.choice, Quot.sound]

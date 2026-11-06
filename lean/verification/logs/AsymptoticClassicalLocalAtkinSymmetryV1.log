@@ -1,0 +1,4 @@
+'AsymptoticClassicalCusp.heckeNormalizer_localAtkin' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.slash_localAtkin_eq_normalizer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.localAtkinOperator_inner' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.localAtkinOperator_isSymmetric' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,3 @@
+'QuantitativeArithmeticSparseElimination.replay_zero' depends on axioms: [propext, Quot.sound]
+'QuantitativeArithmeticSparseElimination.triangular_zero' depends on axioms: [propext, Quot.sound]
+'QuantitativeArithmeticSparseElimination.kernel_of_replay' depends on axioms: [propext, Quot.sound]

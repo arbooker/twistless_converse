@@ -1,0 +1,6 @@
+'QuantitativeArithmeticSmallLevelTwentyTwo.original_L' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyTwo.original_defect_symmetries' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyTwo.original_K' depends on axioms: [propext, Classical.choice, Quot.sound]
+

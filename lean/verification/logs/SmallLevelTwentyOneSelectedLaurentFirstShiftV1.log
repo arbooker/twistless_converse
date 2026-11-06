@@ -1,0 +1,6 @@
+'SmallLevelTwentyOneKnownWords.augmentedLeading_apply_laurent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneKnownWords.augmentedShift_apply_laurent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneKnownWords.selected_laurent_first_shift' depends on axioms: [propext, Classical.choice, Quot.sound]
+

@@ -1,0 +1,318 @@
+{
+  "status": "PASS_ALL_FOUR_SOURCE_TO_EXACT_PROJECTION",
+  "checked_at_utc": "2026-10-14T20:30:24.542888+00:00",
+  "source_hashes": {
+    "level26_negative_poles_generate.py": "0a13fe8accec0435429b4fcbbd8b2d6b2e9100dfb5ea062667d8add071804ab7",
+    "level26_root_prime5_higher.py": "f97e32c098e81f55fe353ce201bdc16a05d08132413686a0c39ccaf91f324f9e",
+    "level26_prime5_wide_closed.py": "76833a79861b4187f0d9a3db80c8f53aaa4e2a96b1738c3dd3c5ff11a90a410f",
+    "level26_prime5_builder.py": "aadc50f88eba7f5bb73844ca497c6387fec288aca278a5e8df68d13038fb9248",
+    "level26_jet_builder.py": "2126355a78086e3863aae39701319695ba73acc0768ec57726f58b0a5a4e6dab",
+    "level26_prime5_wide_support.json": "680f6b03a853ac5c5e70353a668fd5ea09537d38eb82bb9fd0b6e6da888ef13a",
+    "level34_finish_grid_builder.py": "32dfee30d5d1f8cd25eb4c2ee078992e8f8918fbf9be3647d6294bdd37ead1a1",
+    "level34_finish_first_jet.py": "3edd3cdc66e31b3ce2191391be4f59b9c9e92f84359f2c49e8ccc057bf270fa8",
+    "level26_finish_higher.py": "2ac3765efe0ef58eec7bc3f1a872a81186307007fefd56afbecfd3a485df9f3b",
+    "level26_negative_poles_eliminate.py": "b5e9ee9a1b8ffa404f2492b4d0dc52ce703fc94834fe73fd09a7c7871f7fe0c2",
+    "level26_negative_poles_backend.m": "2382dc5995c5445413cff0777bdf4836bec856418a29dbb34d495fca7fe4fbe8",
+    "level26_negative_poles_extract.py": "3409b3589e94ca776da0cb8f42af249be01658ac07802ab69417d0fcf1a8c6fc",
+    "level26_negative_poles_mmm_projection.json": "0d1be080d7d04e3cec97a4f87f972fabbccfdfab9f128480d81134d9a443513b",
+    "level26_negative_poles_mpm_projection.json": "39cab899a35b0edc9ae7beef2e4b0428d7fda1b9931a7658d53090d96dc64dba",
+    "level26_negative_poles_pmm_projection.json": "5a655a8d0927dda40adb472e3ca6520fb0d56eccde829f65429c6406d6fbcee4",
+    "level26_negative_poles_ppm_projection.json": "a0a112ddf645e6f03bed48e7861c1beba01415c0240acd3807f805da8232b73f"
+  },
+  "audit_source_hashes": {
+    "level26_negative_independent_run.py": "9249740f4c6af8aacac521d02091fa2b79648404a559b4bc300fdc786313781c",
+    "level26_negative_independent_batch.py": "95ec916c5757e4b397553a17cd21177982c1ced30a8e2453fdf393e23327ab61",
+    "level26_negative_independent_manifest.py": "5c86baec17d770d3b8c7e680bc8b6ffd7f3a3162afa8314bec32294f60e7efb8"
+  },
+  "cases": [
+    {
+      "case": "mmm",
+      "status": "PASS",
+      "stages": [
+        {
+          "stage": "generate",
+          "case": "mmm",
+          "status": "PASS",
+          "elapsed_seconds": 11.66059976699762,
+          "sources": {
+            "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_negative_poles_generate.py": "0a13fe8accec0435429b4fcbbd8b2d6b2e9100dfb5ea062667d8add071804ab7",
+            "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_root_prime5_higher.py": "f97e32c098e81f55fe353ce201bdc16a05d08132413686a0c39ccaf91f324f9e",
+            "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_prime5_wide_closed.py": "76833a79861b4187f0d9a3db80c8f53aaa4e2a96b1738c3dd3c5ff11a90a410f",
+            "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_prime5_builder.py": "aadc50f88eba7f5bb73844ca497c6387fec288aca278a5e8df68d13038fb9248",
+            "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_jet_builder.py": "2126355a78086e3863aae39701319695ba73acc0768ec57726f58b0a5a4e6dab",
+            "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_prime5_wide_support.json": "680f6b03a853ac5c5e70353a668fd5ea09537d38eb82bb9fd0b6e6da888ef13a",
+            "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level34_finish_grid_builder.py": "32dfee30d5d1f8cd25eb4c2ee078992e8f8918fbf9be3647d6294bdd37ead1a1",
+            "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level34_finish_first_jet.py": "3edd3cdc66e31b3ce2191391be4f59b9c9e92f84359f2c49e8ccc057bf270fa8",
+            "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_finish_higher.py": "2ac3765efe0ef58eec7bc3f1a872a81186307007fefd56afbecfd3a485df9f3b"
+          },
+          "inputs": {},
+          "outputs": {
+            "/tmp/level26_negative_independent_higher2_mmm.json": "8448bc4232ea432e57147589b8c0164b9088d5678826fdd1988decdb2900e289"
+          }
+        },
+        {
+          "stage": "eliminate",
+          "case": "mmm",
+          "status": "PASS",
+          "elapsed_seconds": 8.136782630812377,
+          "sources": {
+            "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_negative_poles_eliminate.py": "b5e9ee9a1b8ffa404f2492b4d0dc52ce703fc94834fe73fd09a7c7871f7fe0c2",
+            "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_negative_poles_backend.m": "2382dc5995c5445413cff0777bdf4836bec856418a29dbb34d495fca7fe4fbe8"
+          },
+          "inputs": {
+            "/tmp/level26_negative_independent_higher2_mmm.json": "8448bc4232ea432e57147589b8c0164b9088d5678826fdd1988decdb2900e289"
+          },
+          "outputs": {
+            "/tmp/level26_negative_independent_mmm.m": "6c54d0a5a8aa46af3664e8fa9ac7c60f89cabc55cc0bbba4908cb174be6f821d"
+          }
+        },
+        {
+          "stage": "extract",
+          "case": "mmm",
+          "status": "PASS",
+          "elapsed_seconds": 0.5127681968733668,
+          "sources": {
+            "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_negative_poles_extract.py": "3409b3589e94ca776da0cb8f42af249be01658ac07802ab69417d0fcf1a8c6fc",
+            "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_negative_poles_mmm_projection.json": "0d1be080d7d04e3cec97a4f87f972fabbccfdfab9f128480d81134d9a443513b"
+          },
+          "inputs": {
+            "/tmp/level26_negative_independent_mmm_chart1_xy.txt": "2aed84bee20b50743585bba6bc12a6a3d977bd31d19b8c85cbda781bf5cb5138"
+          },
+          "outputs": {
+            "/tmp/level26_negative_independent_mmm_projection_source.json": "fa19299a240eef6d0829aafbcbcb19dcb5176caa6c562ec9cc42b1a452f39de4",
+            "/tmp/level26_negative_independent_mmm_fresh_projection.json": "268ec4b8f0d476bc4667917868acfd2c9d227aa1bc492030dfdb611eec72c710"
+          }
+        }
+      ],
+      "completion": {
+        "status": "PASS",
+        "evidence": "completed exec command exit_code=0; full stdout saved before unattended workflow change"
+      },
+      "log_sha256": "7defcc22f29c52baadf49d6aaf7c52e37011af0e7a4b45aad1f573859ebc4dc7",
+      "log_path": "/tmp/level26_negative_independent_mmm_exact.log",
+      "magma_batch_sha256": "6c54d0a5a8aa46af3664e8fa9ac7c60f89cabc55cc0bbba4908cb174be6f821d",
+      "projection_sha256": "0d1be080d7d04e3cec97a4f87f972fabbccfdfab9f128480d81134d9a443513b",
+      "exact_projection_comparison": true
+    },
+    {
+      "case": "mpm",
+      "status": "PASS",
+      "stages": [
+        {
+          "stage": "generate",
+          "case": "mpm",
+          "status": "PASS",
+          "elapsed_seconds": 24.64076256682165,
+          "sources": {
+            "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_negative_poles_generate.py": "0a13fe8accec0435429b4fcbbd8b2d6b2e9100dfb5ea062667d8add071804ab7",
+            "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_root_prime5_higher.py": "f97e32c098e81f55fe353ce201bdc16a05d08132413686a0c39ccaf91f324f9e",
+            "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_prime5_wide_closed.py": "76833a79861b4187f0d9a3db80c8f53aaa4e2a96b1738c3dd3c5ff11a90a410f",
+            "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_prime5_builder.py": "aadc50f88eba7f5bb73844ca497c6387fec288aca278a5e8df68d13038fb9248",
+            "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_jet_builder.py": "2126355a78086e3863aae39701319695ba73acc0768ec57726f58b0a5a4e6dab",
+            "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_prime5_wide_support.json": "680f6b03a853ac5c5e70353a668fd5ea09537d38eb82bb9fd0b6e6da888ef13a",
+            "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level34_finish_grid_builder.py": "32dfee30d5d1f8cd25eb4c2ee078992e8f8918fbf9be3647d6294bdd37ead1a1",
+            "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level34_finish_first_jet.py": "3edd3cdc66e31b3ce2191391be4f59b9c9e92f84359f2c49e8ccc057bf270fa8",
+            "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_finish_higher.py": "2ac3765efe0ef58eec7bc3f1a872a81186307007fefd56afbecfd3a485df9f3b"
+          },
+          "inputs": {},
+          "outputs": {
+            "/tmp/level26_negative_independent_higher2_mpm.json": "a145fd58bbed91dcb77c09a1c4b132e75b63ed98833d276fd11c07c69c56be2e"
+          }
+        },
+        {
+          "stage": "eliminate",
+          "case": "mpm",
+          "status": "PASS",
+          "elapsed_seconds": 9.306679582921788,
+          "sources": {
+            "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_negative_poles_eliminate.py": "b5e9ee9a1b8ffa404f2492b4d0dc52ce703fc94834fe73fd09a7c7871f7fe0c2",
+            "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_negative_poles_backend.m": "2382dc5995c5445413cff0777bdf4836bec856418a29dbb34d495fca7fe4fbe8"
+          },
+          "inputs": {
+            "/tmp/level26_negative_independent_higher2_mpm.json": "a145fd58bbed91dcb77c09a1c4b132e75b63ed98833d276fd11c07c69c56be2e"
+          },
+          "outputs": {
+            "/tmp/level26_negative_independent_mpm.m": "fa54c19c656cbcae2b4bd3f363d78837640d24fea817bbc9dd13acffbf05dada"
+          }
+        },
+        {
+          "stage": "extract",
+          "case": "mpm",
+          "status": "PASS",
+          "elapsed_seconds": 0.33030074182897806,
+          "sources": {
+            "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_negative_poles_extract.py": "3409b3589e94ca776da0cb8f42af249be01658ac07802ab69417d0fcf1a8c6fc",
+            "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_negative_poles_mpm_projection.json": "39cab899a35b0edc9ae7beef2e4b0428d7fda1b9931a7658d53090d96dc64dba"
+          },
+          "inputs": {
+            "/tmp/level26_negative_independent_mpm_chart1_xy.txt": "4e34213abd02fcc2cebe94d08c9b1d5e57bff1d60056177afd149bc108dbc6e4"
+          },
+          "outputs": {
+            "/tmp/level26_negative_independent_mpm_projection_source.json": "286cbdda9cc4e40454eece6327656e875e18b98db9ea5142dcdf19fe44914484",
+            "/tmp/level26_negative_independent_mpm_fresh_projection.json": "d3302d49a91926b67f2d369e897e6bf293fe7e65b2025d018d45c3301060d38b"
+          }
+        }
+      ],
+      "completion": {
+        "status": "PASS",
+        "case": "mpm",
+        "global_modular": false,
+        "exit_status": 0
+      },
+      "log_sha256": "60dbdd6cb61be79776b4d5892145a3aa140cb8fbd38adc17186a97f9f3e4485c",
+      "log_path": "/tmp/level26_negative_independent_mpm_exact_batch.log",
+      "magma_batch_sha256": "13454bdb180fd315a6bbb09cdc4cc19682cf2655e4b4411876fba84eea256f3f",
+      "projection_sha256": "39cab899a35b0edc9ae7beef2e4b0428d7fda1b9931a7658d53090d96dc64dba",
+      "exact_projection_comparison": true
+    },
+    {
+      "case": "pmm",
+      "status": "PASS",
+      "stages": [
+        {
+          "stage": "generate",
+          "case": "pmm",
+          "status": "PASS",
+          "elapsed_seconds": 18.102425428805873,
+          "sources": {
+            "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_negative_poles_generate.py": "0a13fe8accec0435429b4fcbbd8b2d6b2e9100dfb5ea062667d8add071804ab7",
+            "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_root_prime5_higher.py": "f97e32c098e81f55fe353ce201bdc16a05d08132413686a0c39ccaf91f324f9e",
+            "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_prime5_wide_closed.py": "76833a79861b4187f0d9a3db80c8f53aaa4e2a96b1738c3dd3c5ff11a90a410f",
+            "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_prime5_builder.py": "aadc50f88eba7f5bb73844ca497c6387fec288aca278a5e8df68d13038fb9248",
+            "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_jet_builder.py": "2126355a78086e3863aae39701319695ba73acc0768ec57726f58b0a5a4e6dab",
+            "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_prime5_wide_support.json": "680f6b03a853ac5c5e70353a668fd5ea09537d38eb82bb9fd0b6e6da888ef13a",
+            "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level34_finish_grid_builder.py": "32dfee30d5d1f8cd25eb4c2ee078992e8f8918fbf9be3647d6294bdd37ead1a1",
+            "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level34_finish_first_jet.py": "3edd3cdc66e31b3ce2191391be4f59b9c9e92f84359f2c49e8ccc057bf270fa8",
+            "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_finish_higher.py": "2ac3765efe0ef58eec7bc3f1a872a81186307007fefd56afbecfd3a485df9f3b"
+          },
+          "inputs": {},
+          "outputs": {
+            "/tmp/level26_negative_independent_higher2_pmm.json": "955908591f35840026d877fa5e58c45e04a8b6bb1e18f7a3ecb6060a54813f73"
+          }
+        },
+        {
+          "stage": "eliminate",
+          "case": "pmm",
+          "status": "PASS",
+          "elapsed_seconds": 11.81712418794632,
+          "sources": {
+            "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_negative_poles_eliminate.py": "b5e9ee9a1b8ffa404f2492b4d0dc52ce703fc94834fe73fd09a7c7871f7fe0c2",
+            "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_negative_poles_backend.m": "2382dc5995c5445413cff0777bdf4836bec856418a29dbb34d495fca7fe4fbe8"
+          },
+          "inputs": {
+            "/tmp/level26_negative_independent_higher2_pmm.json": "955908591f35840026d877fa5e58c45e04a8b6bb1e18f7a3ecb6060a54813f73"
+          },
+          "outputs": {
+            "/tmp/level26_negative_independent_pmm.m": "e311a79a8e3f71543b05c7b1a2ce9ccd0fb7f2f3992808bc169f4fb102d5f305"
+          }
+        },
+        {
+          "stage": "extract",
+          "case": "pmm",
+          "status": "PASS",
+          "elapsed_seconds": 0.5135708421003073,
+          "sources": {
+            "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_negative_poles_extract.py": "3409b3589e94ca776da0cb8f42af249be01658ac07802ab69417d0fcf1a8c6fc",
+            "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_negative_poles_pmm_projection.json": "5a655a8d0927dda40adb472e3ca6520fb0d56eccde829f65429c6406d6fbcee4"
+          },
+          "inputs": {
+            "/tmp/level26_negative_independent_pmm_chart1_xy.txt": "da74ac3a038dca7f49718bdf1acdf420b9d9100dc7875a7815af894c21625088"
+          },
+          "outputs": {
+            "/tmp/level26_negative_independent_pmm_projection_source.json": "40228140f7bdfb1ffcd03d92dae99aa7248c2f7629d9387a1c0aedfb477a24c2",
+            "/tmp/level26_negative_independent_pmm_fresh_projection.json": "73d893b5a8d34170c8f42190d421038618017e1429693356e2ee968a095dedb1"
+          }
+        }
+      ],
+      "completion": {
+        "status": "PASS",
+        "case": "pmm",
+        "global_modular": false,
+        "exit_status": 0
+      },
+      "log_sha256": "7e6ba9fdcf9e251b5a1c86b4e4554f1aaa92122f7090bdca1413fa9634473631",
+      "log_path": "/tmp/level26_negative_independent_pmm_exact_batch.log",
+      "magma_batch_sha256": "60e38a808fcda2e8611459562494b9be33631873d5828ee75f2c7907d46b6b9b",
+      "projection_sha256": "5a655a8d0927dda40adb472e3ca6520fb0d56eccde829f65429c6406d6fbcee4",
+      "exact_projection_comparison": true
+    },
+    {
+      "case": "ppm",
+      "status": "PASS",
+      "stages": [
+        {
+          "stage": "generate",
+          "case": "ppm",
+          "status": "PASS",
+          "elapsed_seconds": 27.353863895172253,
+          "sources": {
+            "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_negative_poles_generate.py": "0a13fe8accec0435429b4fcbbd8b2d6b2e9100dfb5ea062667d8add071804ab7",
+            "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_root_prime5_higher.py": "f97e32c098e81f55fe353ce201bdc16a05d08132413686a0c39ccaf91f324f9e",
+            "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_prime5_wide_closed.py": "76833a79861b4187f0d9a3db80c8f53aaa4e2a96b1738c3dd3c5ff11a90a410f",
+            "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_prime5_builder.py": "aadc50f88eba7f5bb73844ca497c6387fec288aca278a5e8df68d13038fb9248",
+            "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_jet_builder.py": "2126355a78086e3863aae39701319695ba73acc0768ec57726f58b0a5a4e6dab",
+            "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_prime5_wide_support.json": "680f6b03a853ac5c5e70353a668fd5ea09537d38eb82bb9fd0b6e6da888ef13a",
+            "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level34_finish_grid_builder.py": "32dfee30d5d1f8cd25eb4c2ee078992e8f8918fbf9be3647d6294bdd37ead1a1",
+            "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level34_finish_first_jet.py": "3edd3cdc66e31b3ce2191391be4f59b9c9e92f84359f2c49e8ccc057bf270fa8",
+            "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_finish_higher.py": "2ac3765efe0ef58eec7bc3f1a872a81186307007fefd56afbecfd3a485df9f3b"
+          },
+          "inputs": {},
+          "outputs": {
+            "/tmp/level26_negative_independent_higher2_ppm.json": "72d363d63ef508b21f7912aba5d39bc20a3e29fd5ffdc41c0a8fd13432a707a2"
+          }
+        },
+        {
+          "stage": "eliminate",
+          "case": "ppm",
+          "status": "PASS",
+          "elapsed_seconds": 12.842527420027182,
+          "sources": {
+            "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_negative_poles_eliminate.py": "b5e9ee9a1b8ffa404f2492b4d0dc52ce703fc94834fe73fd09a7c7871f7fe0c2",
+            "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_negative_poles_backend.m": "2382dc5995c5445413cff0777bdf4836bec856418a29dbb34d495fca7fe4fbe8"
+          },
+          "inputs": {
+            "/tmp/level26_negative_independent_higher2_ppm.json": "72d363d63ef508b21f7912aba5d39bc20a3e29fd5ffdc41c0a8fd13432a707a2"
+          },
+          "outputs": {
+            "/tmp/level26_negative_independent_ppm.m": "bd9faae65d86e640b40ada1491c67959c16490a4b9fd6dc24050834d800f35d7"
+          }
+        },
+        {
+          "stage": "extract",
+          "case": "ppm",
+          "status": "PASS",
+          "elapsed_seconds": 0.18364068702794611,
+          "sources": {
+            "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_negative_poles_extract.py": "3409b3589e94ca776da0cb8f42af249be01658ac07802ab69417d0fcf1a8c6fc",
+            "/home/maarb/Dropbox/work/min/Astra/research/small_levels/level26_negative_poles_ppm_projection.json": "a0a112ddf645e6f03bed48e7861c1beba01415c0240acd3807f805da8232b73f"
+          },
+          "inputs": {
+            "/tmp/level26_negative_independent_ppm_chart1_xy.txt": "c2b6d213287a23888f5cd5117d5b4955d53713141c5b224bf880fb7e531415eb"
+          },
+          "outputs": {
+            "/tmp/level26_negative_independent_ppm_projection_source.json": "7b1ec85325bfe46c7effea7c0dc7b11de359ae8055fb5ef97df0ef5aedfadfad",
+            "/tmp/level26_negative_independent_ppm_fresh_projection.json": "3bebf4210a30fa2ed9779efcc31e8f071327689b98649998c404dae8bb678a82"
+          }
+        }
+      ],
+      "completion": {
+        "status": "PASS",
+        "case": "ppm",
+        "global_modular": false,
+        "exit_status": 0
+      },
+      "log_sha256": "9d187a17d68971b4ddf75f7c283f1b728f25bdd6ce4e9d861b16acb240a9faf7",
+      "log_path": "/tmp/level26_negative_independent_ppm_exact_batch.log",
+      "magma_batch_sha256": "84e7cc59d002b8116be42cc72d1b95e4eb1219506649c85c71c5b15c421ae65b",
+      "projection_sha256": "a0a112ddf645e6f03bed48e7861c1beba01415c0240acd3807f805da8232b73f",
+      "exact_projection_comparison": true
+    }
+  ],
+  "downstream_proof_hashes": {
+    "level26_negative_poles_complete.tex": "040037a4ad30964147f9503859ac24bfb6576dcbd1b03ea96d762b582c9152c5",
+    "level26_negative_poles_signs.py": "962078539dc752084a969e39b5d879f3c45954ad08f32e3d58f15878c1c9773b",
+    "level26_root_modulus_audit.py": "061809cc2bf868daccebd7d4d48ea47ddcdb94d00ac01945c5f3a178dddb2a7c",
+    "level26_negative_independent_audit.tex": "5931c59d9a79e0b526022b7aa55a647b4e3fba2a83788192e216a2caeadfa94d"
+  },
+  "claim": "Original Q780 three-layer source regenerated independently for all four negative-bad13 signs; primitive polynomial syzygies and both charts recomputed with deterministic rational Groebner bases; chart2 unit ideal and exact membership of both saved x,Y projection polynomials in chart1 checked. Analytic normalization and physical-locus exclusions are separate audited proof inputs."
+}

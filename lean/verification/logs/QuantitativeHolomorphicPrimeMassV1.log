@@ -1,0 +1,3 @@
+'QuantitativeHolomorphic.harmonic_le_prime_euler_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.log_prime_euler_product_le_loss' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.loglog_le_prime_reciprocal_loss' depends on axioms: [propext, Classical.choice, Quot.sound]

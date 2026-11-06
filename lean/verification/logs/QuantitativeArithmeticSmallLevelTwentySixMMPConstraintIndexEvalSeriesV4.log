@@ -1,0 +1,7 @@
+'QuantitativeArithmeticSmallLevelTwentySixMMPConstraint6Eval.constraint6_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySixMMPConstraint7Eval.constraint7_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

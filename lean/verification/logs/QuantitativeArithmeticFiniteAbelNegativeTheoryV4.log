@@ -1,0 +1,23 @@
+'QuantitativeArithmeticFiniteAbelNegative.weighted_negative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticFiniteAbelNegative.double_weighted_negative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticFiniteAbelNegative.scan_prefix_negative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticFiniteAbelNegative.exactScan_eq' depends on axioms: [propext, Quot.sound]
+'QuantitativeArithmeticFiniteAbelNegative.exactScan_prefix_negative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticFiniteAbelNegative.table_prefix_negative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticFiniteAbelNegative.list_weighted_negative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticFiniteAbelNegative.table_weighted_negative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticFiniteAbelNegative.sum_zip_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticFiniteAbelNegative.sum_filter_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticFiniteAbelNegative.sum_flatMap_map' depends on axioms: [propext, Classical.choice, Quot.sound]

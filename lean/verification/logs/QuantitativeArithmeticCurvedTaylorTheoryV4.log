@@ -1,0 +1,9 @@
+'QuantitativeArithmeticCurvedTaylor.laplace_continuation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticCurvedTaylor.fractional_curve' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticCurvedTaylor.mobius_deform_point' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticCurvedTaylor.denominator_curve' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticCurvedTaylor.raw_slash_curved' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticCurvedTaylor.raw_slash_laplace_continuation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

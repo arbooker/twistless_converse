@@ -1,0 +1,5 @@
+'AsymptoticRegionL2.restrict_eq_adjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegionL2.subtype_comp_adjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegionL2.projection_comp_of_subset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCylinderTerminal.ambientLift_adjoint_self' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCylinderTerminal.ambientLift_self_adjoint' depends on axioms: [propext, Classical.choice, Quot.sound]

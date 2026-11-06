@@ -1,0 +1,22 @@
+'QuantitativeArithmeticSmallLevelTwentyFive.GridSystem.leadingMatrix_mulVec' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.GridSystem.shiftMatrix_mulVec' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.GridSystem.leadingMatrix_analytic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.GridSystem.shiftMatrix_analytic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.GridSystem.original_matrix_system' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.GridSystem.groupCoefficient_laurent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.GridSystem.taylorCoefficient_laurent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

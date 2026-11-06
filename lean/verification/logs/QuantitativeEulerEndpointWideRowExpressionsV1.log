@@ -1,0 +1,5 @@
+'QuantitativeEulerEndpointPrepared.exists_twist_expression' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.exists_ramified_expression' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.exists_packet_expression' depends on axioms: [propext, Classical.choice, Quot.sound]

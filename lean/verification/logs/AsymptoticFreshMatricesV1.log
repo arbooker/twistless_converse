@@ -1,0 +1,8 @@
+'AsymptoticFreshMatrices.entries_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFreshMatrices.representative_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFreshMatrices.representative_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFreshMatrices.branchMatrix_scalar' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFreshMatrices.rationalMap_scalar' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFreshMatrices.branchMatrix_projective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFreshMatrices.branchMatrix_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFreshMatrices.label_integral' depends on axioms: [propext, Classical.choice, Quot.sound]

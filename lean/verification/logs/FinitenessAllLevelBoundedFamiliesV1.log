@@ -1,0 +1,6 @@
+'FinitenessAllLevelBoundedFamilies.subset_fixed_growth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelBoundedFamilies.closure_isCompact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelBoundedFamilies.closure_eulerData' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelBoundedFamilies.fourier_disk_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelBoundedFamilies.exists_subsequence' depends on axioms: [propext, Classical.choice, Quot.sound]
+

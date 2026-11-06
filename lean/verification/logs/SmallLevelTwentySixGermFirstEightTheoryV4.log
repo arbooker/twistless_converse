@@ -1,0 +1,5 @@
+'SmallLevelTwentySixGermFirstEight.second_chart_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermFirstEight.rows_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermFirstEight.first_coordinate_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGermFirstEight.pole_first_chart' depends on axioms: [propext, Classical.choice, Quot.sound]
+

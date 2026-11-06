@@ -1,0 +1,6 @@
+'QuantitativeHolomorphic.retained_rational_operator_trace_bound_of_cap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.retained_rational_operator_trace_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,3 @@
+'FinitenessPaper2.main1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessPaper2.main1_original' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessPaper2.bounded_eigenvalue_finiteness' depends on axioms: [propext, Classical.choice, Quot.sound]

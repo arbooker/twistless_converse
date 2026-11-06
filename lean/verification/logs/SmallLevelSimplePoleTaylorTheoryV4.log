@@ -1,0 +1,5 @@
+'SmallLevelSimplePoleTaylor.term_extension' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelSimplePoleTaylor.analyticAt_of_model' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelSimplePoleTaylor.analyticAt_of_halfplane_germs' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelSimplePoleTaylor.partner_models' depends on axioms: [propext, Classical.choice, Quot.sound]
+

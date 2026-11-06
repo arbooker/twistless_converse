@@ -1,0 +1,7 @@
+'SmallLevelGenerators.signTwo_T' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelGenerators.signTwo_U' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelGenerators.signTwo_Z' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelGenerators.signEight_T' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelGenerators.signEight_U' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelGenerators.signEight_Z' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelGenerators.gamma_four_residue' depends on axioms: [propext, Classical.choice, Quot.sound]

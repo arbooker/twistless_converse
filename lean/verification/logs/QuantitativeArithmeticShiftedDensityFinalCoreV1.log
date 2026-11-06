@@ -1,0 +1,4 @@
+'QuantitativeArithmetic.badPrimeCount_le_packet_avoidance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmetic.relativePrimeDensityOne_prime_shifted_class_of_packet_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

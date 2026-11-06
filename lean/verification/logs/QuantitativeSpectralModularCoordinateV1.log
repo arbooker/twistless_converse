@@ -1,0 +1,3 @@
+'QuantitativeSpectralModularCoordinate.compactCover_re_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralModularCoordinate.denom_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralModularCoordinate.modular_norm_upper' depends on axioms: [propext, Classical.choice, Quot.sound]

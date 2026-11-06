@@ -1,0 +1,4 @@
+'QuantitativeNewGap.normalizer_old_transport' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeNewGap.normalizer_new_invariant_fixed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeNewGap.normalizer_new_invariant_swap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeNewGap.normalizerEquivs_commute' depends on axioms: [propext, Classical.choice, Quot.sound]

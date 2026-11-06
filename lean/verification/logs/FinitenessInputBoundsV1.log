@@ -1,0 +1,2 @@
+'FinitenessInputBounds.finiteOrder_iff_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessInputBounds.absolute_convergence' depends on axioms: [propext, Classical.choice, Quot.sound]

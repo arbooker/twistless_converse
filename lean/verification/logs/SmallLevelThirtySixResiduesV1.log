@@ -1,0 +1,4 @@
+'SmallLevelThirtySix.residue_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtySix.residue_neg_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtySix.residue_S' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtySix.residue_T' depends on axioms: [propext, Classical.choice, Quot.sound]

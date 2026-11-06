@@ -1,0 +1,4 @@
+'AsymptoticFiberIsometry.square_hasSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiberIsometry.linear_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiberIsometry.linear_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiberIsometry.range_iff' depends on axioms: [propext, Classical.choice, Quot.sound]

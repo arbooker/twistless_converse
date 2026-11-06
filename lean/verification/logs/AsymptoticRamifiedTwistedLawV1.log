@@ -1,0 +1,4 @@
+'AsymptoticRamifiedTwistedLaw.residueSum_of_ramified' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRamifiedTwistedLaw.dilation_mul_fricke' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRamifiedTwistedLaw.reverse_fricke_equation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRamifiedTwistedLaw.punctured_fricke' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,4 @@
+'QuantitativeArithmeticPolynomialVariation.power_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticPolynomialVariation.finite_polynomial_difference' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

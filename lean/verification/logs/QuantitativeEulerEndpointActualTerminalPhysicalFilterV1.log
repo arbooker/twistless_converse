@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointBoundedIteration.actualFinitePrefix_physical_order' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointBoundedIteration.actualFiniteExpression_physical_order' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

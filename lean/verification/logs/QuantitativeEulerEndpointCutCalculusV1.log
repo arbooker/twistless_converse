@@ -1,0 +1,8 @@
+'QuantitativeEulerEndpointCutCalculus.projection_le_of_fixed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointCutCalculus.le_projection_of_supported' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointCutCalculus.shifted_positivePart' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointCutCalculus.cfc_zero_on_high' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointCutCalculus.cfc_fixed_high' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointCutCalculus.cfc_supported_high' depends on axioms: [propext, Classical.choice, Quot.sound]

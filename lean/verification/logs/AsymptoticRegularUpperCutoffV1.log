@@ -1,0 +1,4 @@
+'AsymptoticRegularTrace.removeCorner_matrix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.removeCorner_diagonal_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.removeCorner_trace_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularUpperCutoff.trace_error' depends on axioms: [propext, Classical.choice, Quot.sound]

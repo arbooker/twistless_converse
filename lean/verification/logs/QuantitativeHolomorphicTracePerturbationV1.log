@@ -1,0 +1,8 @@
+'QuantitativeHolomorphic.exists_fourier_cutoff_sqrt_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.normalized_trace_sub_le_sqrt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.trace_sub_le_absolute_fourier_cutoff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.normalized_trace_sub_le_sqrt_of_absolute_majorants' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

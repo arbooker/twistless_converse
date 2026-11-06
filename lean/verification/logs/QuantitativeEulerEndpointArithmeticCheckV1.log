@@ -1,0 +1,9 @@
+'QuantitativeEulerEndpointAP.divisorException_reciprocal_summable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointAP.divisorGoodFamily_endpoint_product' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointAP.shiftedDivisorClasses_endpoint_product' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

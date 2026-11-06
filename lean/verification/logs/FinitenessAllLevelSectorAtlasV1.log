@@ -1,0 +1,3 @@
+'FinitenessAllLevelConstraintLocus.sector_chart_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelConstraintLocus.sectorAtlas' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelConstraintLocus.mem_sectorAtlas' depends on axioms: [propext, Classical.choice, Quot.sound]

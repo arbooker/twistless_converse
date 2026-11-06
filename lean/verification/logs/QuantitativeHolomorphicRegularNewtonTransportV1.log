@@ -1,0 +1,9 @@
+'QuantitativeHolomorphic.normalizedCutCountExpression_regular_ambient_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.cut_normalizedRegularCountReconstruction_closed_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.regularSum_normalizedCutCountExpression' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

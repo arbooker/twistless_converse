@@ -1,0 +1,7 @@
+'QuantitativeEulerEndpointPrepared.sectorInduction_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.incidence_projection_compression' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.incidence_indexed_weighted_gap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

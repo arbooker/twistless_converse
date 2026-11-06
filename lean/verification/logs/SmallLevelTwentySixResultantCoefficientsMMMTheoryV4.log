@@ -1,0 +1,259 @@
+'SmallLevelTwentySixResultantCoefficientsMMM.slice00_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.slice01_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.slice02_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.slice03_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.slice04_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.slice05_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.slice06_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.slice07_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.slice08_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.slice09_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.slice10_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.slice11_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.slice12_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.slice13_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.slice14_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.slice15_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.slice16_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.slice17_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.slice18_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.slice19_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.slice20_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.slice21_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.slice22_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.slice23_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.slice24_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.slice25_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.slice26_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.slice27_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.slice28_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.slice29_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.slice30_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.slice31_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.slice32_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.slice33_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.slice34_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.slice35_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_x00' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_x01' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_x02' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_x03' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_x04' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_x05' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_x06' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_x07' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_x08' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_x09' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_x10' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_x11' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_x12' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_x13' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_x14' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_x15' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_x16' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_x17' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_x18' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_x19' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_x20' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_x21' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_x22' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_x23' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_x24' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_x25' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_x26' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_x27' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_x28' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_x29' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_x30' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_x31' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_x32' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_x33' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_x34' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_x35' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row1_x00' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row1_x01' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row1_x02' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row1_x03' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row1_x04' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row1_x05' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row1_x06' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row1_x07' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row1_x08' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row1_x09' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row1_x10' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row1_x11' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row1_x12' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row1_x13' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row1_x14' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row1_x15' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row1_x16' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row2_x10' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_coefficient00' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_coefficient01' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_coefficient02' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_coefficient03' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_coefficient04' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_coefficient05' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_coefficient06' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_coefficient07' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_coefficient08' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_coefficient09' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_coefficient10' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_coefficient11' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_coefficient12' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_coefficient13' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_coefficient14' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_coefficient15' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_coefficient16' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_coefficient17' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_coefficient18' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_coefficient19' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_coefficient20' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_coefficient21' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_coefficient22' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_coefficient23' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_coefficient24' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_coefficient25' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_coefficient26' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_coefficient27' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_coefficient28' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_coefficient29' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_coefficient30' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_coefficient31' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_coefficient32' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_coefficient33' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_coefficient34' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_coefficient35' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row1_coefficient00' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row1_coefficient01' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row1_coefficient02' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row1_coefficient03' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row1_coefficient04' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row1_coefficient05' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row1_coefficient06' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row1_coefficient07' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row1_coefficient08' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row1_coefficient09' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row1_coefficient10' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row1_coefficient11' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row1_coefficient12' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row1_coefficient13' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row1_coefficient14' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row1_coefficient15' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row1_coefficient16' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row2_coefficient10' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.d_eval_eq_abel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.rowPoly0_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.rowPoly6_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.r_evaluation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.v_evaluation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixResultantCoefficientsMMM.row0_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+

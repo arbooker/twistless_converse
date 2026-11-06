@@ -1,0 +1,13 @@
+'QuantitativeHolomorphic.normalizedRegularCountReconstruction_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.normalizedRegularCountReconstruction_polynomial_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.normalizedCountReconstruction_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.normalizedCountReconstruction_polynomial_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.normalizedCountReconstruction_sector' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

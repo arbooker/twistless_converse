@@ -1,0 +1,6 @@
+'AsymptoticCongruenceLabels.frickeLabel_mul_self' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceLabels.frickeLabel_inv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceLabels.frickeConjugate_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceLabels.fricke_conjugate_label' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceStrip.fricke_conj_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceStrip.gamma_map_fricke' depends on axioms: [propext, Classical.choice, Quot.sound]

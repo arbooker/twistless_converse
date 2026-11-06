@@ -1,0 +1,7 @@
+'QuantitativeSpectralLogDerivative.hasDerivAt_integral_resolvent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralLogDerivative.hasDerivAt_trace_log' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralLogDerivative.hasDerivAt_trace_log_of_continuous' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

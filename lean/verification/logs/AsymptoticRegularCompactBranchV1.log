@@ -1,0 +1,4 @@
+'AsymptoticRegularCompactBranch.operator_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularCompactBranch.operator_covariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularCompactBranch.operator_matrix_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularCompactBranch.operator_apply' depends on axioms: [propext, Classical.choice, Quot.sound]

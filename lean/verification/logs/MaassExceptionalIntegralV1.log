@@ -1,0 +1,4 @@
+'MaassExceptional.moment_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MaassExceptional.K_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MaassExceptional.moment_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MaassExceptional.K_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]

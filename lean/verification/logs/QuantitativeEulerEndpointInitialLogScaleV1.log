@@ -1,0 +1,5 @@
+'QuantitativeEulerEndpointPrimeBlocks.envelope_log_diagonal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrimeBlocks.log_polynomial_envelope' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointInitialWeighted.effort_log_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,10 @@
+'AsymptoticFiniteBranch.holomorphicSum_lowPartExpression' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.regularSum_lowPartExpression' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.holomorphicSum_terminalPartExpression' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticFiniteBranch.regularSum_terminalPartExpression' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.holomorphicSum_lowExpression' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.regularSum_lowExpression' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.holomorphicSum_terminalExpression' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.regularSum_terminalExpression' depends on axioms: [propext, Classical.choice, Quot.sound]

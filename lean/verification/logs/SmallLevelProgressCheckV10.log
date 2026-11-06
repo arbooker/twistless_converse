@@ -1,0 +1,8 @@
+SmallLevelOriginal.SmallLevelsTheorem : Prop
+SmallLevelOriginal.level_fourteen {k : ℕ} (hk : 0 < k) (heven : Even k) {f : ℕ → ℂ}
+  (hf : FinitenessOriginalInput.IsSolution 14 k f) : SmallLevelOriginal.IsModular 14 k f
+'SmallLevelFourteen.original_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelFourteen.original_defect_elliptic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelFourteen.original_A' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelFourteen.gamma0_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelOriginal.level_fourteen' depends on axioms: [propext, Classical.choice, Quot.sound]

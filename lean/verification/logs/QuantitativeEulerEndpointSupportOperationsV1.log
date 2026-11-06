@@ -1,0 +1,18 @@
+'QuantitativeEulerEndpointSupportAlgebra.update_polynomial_supported' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointSupportAlgebra.weighted_initial_supported' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointSupportAlgebra.initial_gram_supported' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointSupportAlgebra.actual_initial_supported' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointSupportAlgebra.normalized_rows_supported' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointSupportAlgebra.block_gram_supported' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

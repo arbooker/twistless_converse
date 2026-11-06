@@ -1,0 +1,13 @@
+'QuantitativeArithmeticSmallLevelThirtyThreeMinusSelectedResiduals.certificate0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyThreeMinusSelectedResiduals.row0_of_sources' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyThreeMinusSelectedResiduals.certificate9' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyThreeMinusSelectedResiduals.row9_of_sources' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

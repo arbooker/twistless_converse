@@ -1,0 +1,5 @@
+'QuantitativeEulerEndpointWeightedTrace.retained_sandwich' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointWeightedTrace.upper_weighted_difference' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointWeightedTrace.lower_mode_sharp' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,7 @@
+'AsymptoticClassicalDimension.full_index_mul_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalDimension.fullLeading_mul_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalDimension.localFactor_mul_other' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalDimension.localFactor_mul_self' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalDimension.arithmeticCoefficient_mul_prime' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

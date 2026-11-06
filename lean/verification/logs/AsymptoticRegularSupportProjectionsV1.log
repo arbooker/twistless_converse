@@ -1,0 +1,5 @@
+'AsymptoticPolarIsometry.starProjection_congr' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.source_support_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.output_support_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.remaining_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+

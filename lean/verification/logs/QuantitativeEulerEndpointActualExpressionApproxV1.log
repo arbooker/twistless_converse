@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointBoundedIteration.actualFiniteExpression_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointBoundedIteration.exists_actual_finite_approximation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

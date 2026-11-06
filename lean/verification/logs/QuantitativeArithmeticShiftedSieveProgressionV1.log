@@ -1,0 +1,15 @@
+'QuantitativeArithmeticShiftedSieveProgression.progressionSieve_rem_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticShiftedSieveProgression.progression_prime_count_le_sifted' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticShiftedSieveProgression.progression_divisibility_count_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticShiftedSieveProgression.count_period_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticShiftedSieveProgression.count_modEq_period' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

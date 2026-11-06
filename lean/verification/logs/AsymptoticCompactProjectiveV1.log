@@ -1,0 +1,10 @@
+'AsymptoticRationalBranches.ofMatrix_eq_of_projective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRationalBranches.action_eq_of_projective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRationalBranches.compactFold_label_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRationalBranches.compactFold_projective_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularCompactBranch.operator_projective_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticIntegralSubgroup.compactFold_mem_of_label' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticIntegralSubgroup.compact_operator_supported_of_label' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

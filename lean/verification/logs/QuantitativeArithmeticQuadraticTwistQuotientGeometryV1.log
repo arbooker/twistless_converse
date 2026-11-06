@@ -1,0 +1,7 @@
+'QuantitativeArithmeticQuadraticTwistQuotient.exponential_circle_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticQuadraticTwistQuotient.nearby_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticQuadraticTwistQuotient.denominator_at_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

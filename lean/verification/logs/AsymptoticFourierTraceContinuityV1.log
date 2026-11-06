@@ -1,0 +1,2 @@
+'AsymptoticDiagonalTrace.diagonal_sub_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticDiagonalTrace.trace_sub_le_fourier_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,5 @@
+'AsymptoticOrbitDecode.foldLabel_integer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticOrbitDecode.decode_periodic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticOrbitDecode.compact_decode' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticOrbitDecode.cap_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+

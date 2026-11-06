@@ -1,0 +1,82 @@
+'QuantitativeArithmeticSevenLaurentRows.eval_mergeFuel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSevenLaurentRows.eval_substitute' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSevenLaurentRows.substitution_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSevenLaurentRows.eval_relabel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSevenLaurentRows.monomial_div' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSevenLaurentRows.eval_dilate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSevenLaurentRows.eval_dilate_relabel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSevenLaurentRows.mergeCompute_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSevenLaurentRows.substituteCompute_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSevenLaurentRows.eval_coefficientScale' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSevenLaurentRows.eval_flatten' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSevenLaurentRows.eval_collectCoefficients' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSevenLaurentRows.eval_eq_of_collectCoefficients_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSevenLaurentRows.eval_bounded_eq_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSevenLaurentRows.coefficient_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSevenLaurentRows.coefficient_project' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSevenLaurentRows.coefficient_meromorphic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSevenLaurentRows.coefficient_bounded' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSevenLaurentRows.eval_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSevenLaurentRows.gauge_source' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSevenLaurentRows.eval_minusOne_of_relation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSevenLaurentRows.eval_normalizedMinusOne' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSevenLaurentRows.eval_balancedMinusOne' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSevenLaurentRows.eval_congr_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSevenLaurentRows.eval_eq_sum_fin' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSevenLaurentRows.eval_finite_coordinates' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSevenLaurentRows.forward_elimination' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSevenLaurentRows.triangular_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSevenLaurentRows.substitute_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSevenLaurentRows.rationalEval_cast' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSevenLaurentRows.coefficient_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSevenLaurentRows.eval_rescaleThree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSevenLaurentRows.eval_substitute_of_coordinates' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSevenLaurentRows.rowMatrix_mul_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSevenLaurentRows.rowMatrix_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSevenLaurentRows.eval_spike_block' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSevenLaurentRows.eval_three_coordinates' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSevenLaurentRows.cramerFour_cancels' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSevenLaurentRows.eval_scaleRates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSevenLaurentRows.eval_lowerRates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSevenLaurentRows.eval_specializeSigns' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSevenLaurentRows.substituteCompute_append' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSevenLaurentRows.substituteCompute_drop_split' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSevenLaurentRows.substituteCompute_stage' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSevenLaurentRows.supported_substitute' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSevenLaurentRows.eval_reindex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSevenLaurentRows.eval_compact_certificate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSevenLaurentRows.two_coordinate_minor_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSevenLaurentRows.eval_zeroA' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSevenLaurentRows.eval_zeroTwo' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSevenLaurentRows.two_chunk_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+

@@ -1,0 +1,8 @@
+'AsymptoticSubgroupSupport.supported_finsetSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticSubgroupSupport.supported_diagonal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticSubgroupSupport.supported_weighted_branch' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticSubgroupSupport.supported_corner' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticIntegralSubgroup.compactFold_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticIntegralSubgroup.compact_operator_supported' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticIntegralSubgroup.compact_family_supported' depends on axioms: [propext, Classical.choice, Quot.sound]
+

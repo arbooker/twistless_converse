@@ -1,0 +1,4 @@
+'AsymptoticCertificateOperators.low_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCertificateOperators.terminal_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCertificateOperators.contraction_bound_parameters' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCertificateOperators.contraction_parameters' depends on axioms: [propext, Classical.choice, Quot.sound]

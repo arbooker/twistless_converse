@@ -1,0 +1,3 @@
+'AsymptoticObservation.completedNormal_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.wholeNormal_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+

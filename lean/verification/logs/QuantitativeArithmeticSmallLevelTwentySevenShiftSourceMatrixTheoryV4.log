@@ -1,0 +1,4 @@
+'QuantitativeArithmeticSmallLevelTwentySevenShiftSource.Matrix.all_observed' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

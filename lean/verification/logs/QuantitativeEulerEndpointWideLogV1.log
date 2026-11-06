@@ -1,0 +1,4 @@
+'QuantitativeEulerEndpointPrepared.wide_square_sum_polynomial' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.wide_normalization_log' depends on axioms: [propext, Classical.choice, Quot.sound]

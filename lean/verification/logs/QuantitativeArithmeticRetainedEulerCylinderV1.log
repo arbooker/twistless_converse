@@ -1,0 +1,12 @@
+'QuantitativeArithmeticRetainedEulerCylinder.euler_mem_coefficientSpace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedEulerCylinder.coefficient_cover' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedEulerCylinder.eulerCylinder_independent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedEulerCylinder.euler_count_le_cylinder_sectors' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

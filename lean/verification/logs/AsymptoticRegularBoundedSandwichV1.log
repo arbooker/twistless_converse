@@ -1,0 +1,4 @@
+'AsymptoticRegularTrace.trace_gram_comp_finite_of_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.bounded_sandwich_diagonal_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.trace_gram_comp_le_of_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.signedTrace_bounded_sandwich' depends on axioms: [propext, Classical.choice, Quot.sound]

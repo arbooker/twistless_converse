@@ -1,0 +1,4 @@
+'QuantitativeArithmeticSmallLevelTwentySixMMPOriginalPoleExclusion.original_signed_mmp_no_pole' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

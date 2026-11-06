@@ -1,0 +1,5 @@
+'QuantitativeArithmeticSmallLevelThirteen.classified_slash' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelThirteen.classified_cyclic_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

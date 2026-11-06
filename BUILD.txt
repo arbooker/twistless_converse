@@ -1,0 +1,59 @@
+Rebuilding the supplementary material
+
+Work in a local checkout outside any cloud-synchronized source directory.
+Build products, downloaded dependencies and logs belong in that local checkout.
+
+Documents
+
+The written proofs are in pdf/.
+
+Lean
+
+The assembled lean/ directory uses Lean 4.35.0-rc2, compiler commit
+11acb17ec6b07a8f9e9173e6845197929540936b, and Mathlib commit
+065356127b1dc0016f66b7283ce0ce2c4055aa55. All transitive package revisions
+are pinned in lean/lake-manifest.json. With elan and Python 3 installed:
+
+  cd lean
+  python3 verify_release.py
+  lake exe cache get
+  lake build FinitenessProof
+  lake env lean -DwarningAsError=true -DmaxHeartbeats=0 -Dlinter.unreachableTactic=false -Dlinter.unusedTactic=false -DElab.async=false ReleaseCheck.lean > release-axioms.log
+  python3 verify_release.py --axiom-log release-axioms.log
+
+Run these commands sequentially and stop on any nonzero exit status. Do not
+update dependency revisions while reproducing the release. The first Python
+command checks source bytes and pins; it does not prove theorems. The final
+command also checks the printed axioms for every named release endpoint.
+Lean compilation is the proof check. The expected axioms are only propext,
+Classical.choice and Quot.sound; a sorryAx or any other reported axiom fails.
+
+The supplied lakefile uses these same compiler options. The generated compact
+certificates omit editor information, so the unreachable-tactic and unused-tactic
+linters cannot reliably inspect them and are disabled. Kernel checking and other warnings
+remain enabled. The heartbeat setting removes an elaboration step limit;
+it does not bypass proof checking. Build with a memory limit appropriate to
+the machine; some certificate modules require substantially more than 6 GiB.
+
+ReleaseCheck imports the original fixed-growth finiteness theorem, the literal
+radical-range M_k^circ count, all 34 small levels, and the prime small-conductor
+twist theorem with its primitive-twist corollary. SOURCE_MANIFEST.json records the exact module closure.
+
+Numerical programs
+
+Follow numerics/README.md for the compiler, FLINT and OpenMP requirements.
+The small regression suite and the production calculations are distinct.
+Preserve the pinned third_party/cado-nfs submodule for the sparse pipeline.
+The source-only companion calculations and recorded inputs are in
+small_levels/. Follow its README.txt for generator ordering and fixed
+scratch paths. Their inclusion does not mean the large computations were
+rerun for packaging.
+
+Verification records
+
+provenance/README.md, VALIDATION.md and source_imports.json describe the
+historical finiteness repository export. They are retained as provenance.
+The dated RELEASE_DOCUMENTS record describes the current TeX/PDF pairs.
+The assembled lean/verification/ records identify the exact current Lean
+sources, compiler logs and endpoint checks. Historical validation does not
+certify a later modified source tree.

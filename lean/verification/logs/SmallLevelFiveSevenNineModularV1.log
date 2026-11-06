@@ -1,0 +1,6 @@
+'SmallLevelOriginal.gamma_zero_five_seven_nine' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelOriginal.levels_five_seven_nine' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelOriginal.level_five' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelOriginal.level_seven' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelOriginal.level_nine' depends on axioms: [propext, Classical.choice, Quot.sound]
+

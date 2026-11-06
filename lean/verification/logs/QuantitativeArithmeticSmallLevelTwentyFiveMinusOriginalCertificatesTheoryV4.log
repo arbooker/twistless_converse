@@ -1,0 +1,37 @@
+'QuantitativeArithmeticSmallLevelTwentyFive.MinusOriginalCertificates.source_evaluation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.MinusOriginalCertificates.lower_source_evaluation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.MinusOriginalCertificates.first_shift_evaluation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.MinusOriginalCertificates.physicalEval_analytic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.MinusOriginalCertificates.syzygyMatrix_analytic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.MinusOriginalCertificates.syzygyMatrix_lower_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.MinusOriginalCertificates.jetFunctional_substitute' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.MinusOriginalCertificates.syzygyJetMatrix_analytic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.MinusOriginalCertificates.syzygyJetMatrix_mulVec' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.MinusOriginalCertificates.syzygyMatrix_first_shift_factor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.MinusOriginalCertificates.allowed_jet_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.MinusOriginalCertificates.regularized_jet_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

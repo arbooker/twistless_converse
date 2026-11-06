@@ -1,0 +1,8 @@
+'QuantitativeSpectralObservability.fundamentalTransfer_gram' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralObservability.fundamentalTransfer_cogram' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralObservability.fundamentalTransport_regular' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralObservability.fundamentalTransport_gram' depends on axioms: [propext, Classical.choice, Quot.sound]

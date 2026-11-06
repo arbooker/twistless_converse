@@ -1,0 +1,6 @@
+'AsymptoticRamifiedTwistedLaw.periodic_mod_fraction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRamifiedTwistedLaw.periodic_fraction_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRamifiedTwistedLaw.residueSum_translate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRamifiedTwistedLaw.residueSum_squared' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRamifiedTwistedLaw.residueSum_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRamifiedTwistedLaw.puncturedSum_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,6 @@
+'AsymptoticCylinderReconstruction.extension_terminal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCylinderReconstruction.extension_inclusion_norm_ge' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticCylinderReconstruction.extension_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCylinderReconstruction.extension_of_FE' depends on axioms: [propext, Classical.choice, Quot.sound]

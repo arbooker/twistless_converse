@@ -1,0 +1,37 @@
+{
+  "claim": "All four negative-bad13 finite projection loci are physically impossible, using the independent MMM rational-disk audit.",
+  "cases": {
+    "mmm": {
+      "x_reflection": 1,
+      "extra_factor": "1",
+      "Y_congruence": "Y_case(x)=Y_mmm(eps*x) modulo reflected degree21 polynomial",
+      "extra_branch": "none"
+    },
+    "mpm": {
+      "x_reflection": -1,
+      "extra_factor": "x**2 + 5*x + 8",
+      "Y_congruence": "Y_case(x)=Y_mmm(eps*x) modulo reflected degree21 polynomial",
+      "extra_branch": "nonreal conjugate x roots have |x|^2=8, while Y=9; physical real part h would be both 3/2 and 1"
+    },
+    "pmm": {
+      "x_reflection": 1,
+      "extra_factor": "x**2 - 5*x + 8",
+      "Y_congruence": "Y_case(x)=Y_mmm(eps*x) modulo reflected degree21 polynomial",
+      "extra_branch": "nonreal conjugate x roots have |x|^2=8, while Y=9; physical real part h would be both 3/2 and 1"
+    },
+    "ppm": {
+      "x_reflection": -1,
+      "extra_factor": "1",
+      "Y_congruence": "Y_case(x)=Y_mmm(eps*x) modulo reflected degree21 polynomial",
+      "extra_branch": "none"
+    }
+  },
+  "source_sha256": {
+    "level26_negative_poles_signs.py": "962078539dc752084a969e39b5d879f3c45954ad08f32e3d58f15878c1c9773b",
+    "level26_root_modulus_mmm.json": "f1bb2d78ee7def0aafab1fad08d7e67935b3cb28c4b2c3ee03bba43fce20e8a3",
+    "level26_negative_poles_mmm_projection.json": "0d1be080d7d04e3cec97a4f87f972fabbccfdfab9f128480d81134d9a443513b",
+    "level26_negative_poles_mpm_projection.json": "39cab899a35b0edc9ae7beef2e4b0428d7fda1b9931a7658d53090d96dc64dba",
+    "level26_negative_poles_pmm_projection.json": "5a655a8d0927dda40adb472e3ca6520fb0d56eccde829f65429c6406d6fbcee4",
+    "level26_negative_poles_ppm_projection.json": "a0a112ddf645e6f03bed48e7861c1beba01415c0240acd3807f805da8232b73f"
+  }
+}

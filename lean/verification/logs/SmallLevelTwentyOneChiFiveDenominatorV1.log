@@ -1,0 +1,4 @@
+'SmallLevelTwentyOneChiFive.exceptional_denominator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneChiFive.quadratic_root_geometry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneChiFive.exceptional_denominator_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+

@@ -1,0 +1,5 @@
+'QuantitativeSpectralExceptionalFricke.tailRow_bounded_regular' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralExceptionalFricke.survivor_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralExceptionalFricke.survivor_trace' depends on axioms: [propext, Classical.choice, Quot.sound]

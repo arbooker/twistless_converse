@@ -1,0 +1,5 @@
+'AsymptoticFiniteBranch.retainedProjection_comp_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.upper_comp_retainedProjection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.retained_trace_eq_localized' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.finiteCutReconstruction_left_height' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.finiteUpperCut_trace_eq_retained' depends on axioms: [propext, Classical.choice, Quot.sound]

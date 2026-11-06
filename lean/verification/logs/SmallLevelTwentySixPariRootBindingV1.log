@@ -1,0 +1,9 @@
+'SmallLevelTwentySixPariRootBinding.low_curve_binding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixPariRootBinding.modulus_binding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixPariRootBinding.remainder_binding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixPariRootBinding.root_relation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixPariRootBinding.physical_exclusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixPariRootBinding.reflected_physical_exclusion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

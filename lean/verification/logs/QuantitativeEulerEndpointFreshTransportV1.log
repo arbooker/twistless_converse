@@ -1,0 +1,5 @@
+'QuantitativeEulerEndpointPrepared.fresh_transport_height_dominates' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.fixed_ring_fresh_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.three_vector_squared' depends on axioms: [propext, Classical.choice, Quot.sound]

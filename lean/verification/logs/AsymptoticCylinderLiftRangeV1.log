@@ -1,0 +1,3 @@
+'AsymptoticZeroExtension.exists_preimage_of_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCylinderLift.exists_lift_of_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCylinderLift.lift_comp_adjoint' depends on axioms: [propext, Classical.choice, Quot.sound]

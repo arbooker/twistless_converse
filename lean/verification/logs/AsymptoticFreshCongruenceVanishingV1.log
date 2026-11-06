@@ -1,0 +1,4 @@
+'AsymptoticRegularObservation.ae_compact_congruence_of_nontriangular' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

@@ -1,0 +1,7 @@
+'QuantitativeArithmeticSmallLevelTwentySevenHeckeSource.source_support' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySevenHeckeSource.original_hecke_source_action' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

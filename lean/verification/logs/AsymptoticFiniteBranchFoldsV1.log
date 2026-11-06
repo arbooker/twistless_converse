@@ -1,0 +1,4 @@
+'AsymptoticFiniteBranch.holomorphic_lowFold' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.regular_lowFold' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.holomorphic_terminalFold' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.regular_terminalFold' depends on axioms: [propext, Classical.choice, Quot.sound]

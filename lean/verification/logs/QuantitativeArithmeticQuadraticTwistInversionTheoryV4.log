@@ -1,0 +1,11 @@
+'QuantitativeArithmeticQuadraticTwistInversion.scaled_mellin_fricke' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticQuadraticTwistInversion.unscaled_mellin_fricke' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticQuadraticTwistInversion.four_fourier' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticQuadraticTwistInversion.four_initial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticQuadraticTwistInversion.four_translate_fricke' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

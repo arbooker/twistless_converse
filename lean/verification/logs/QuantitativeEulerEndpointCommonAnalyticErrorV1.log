@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointCommonReconstruction.scheduled_exp_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointCommonReconstruction.exists_horizon_analytic_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

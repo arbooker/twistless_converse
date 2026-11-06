@@ -1,0 +1,12 @@
+'QuantitativeArithmeticExponentialDivision.product_local_envelope' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticExponentialDivision.product_polynomial_strip' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticExponentialDivision.quadratic_factorization' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticExponentialDivision.quadratic_polynomial_strip' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

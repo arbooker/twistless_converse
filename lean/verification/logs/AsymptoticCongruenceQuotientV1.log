@@ -1,0 +1,5 @@
+'AsymptoticCongruenceQuotient.classOf_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceQuotient.fibre_amplitude_hasSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceQuotient.induction_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceQuotient.induction_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+

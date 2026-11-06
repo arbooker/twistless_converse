@@ -1,0 +1,7 @@
+'FinitenessAllLevelQuadraticCoordinates.aeval_polynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelQuadraticCoordinates.representable_polynomials' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FinitenessAllLevelQuadraticCoordinates.finiteDimensional_represented_fiber' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,13 @@
+'QuantitativeEulerEndpointTerminalAlgebra.normalized_right_terminal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointTerminalAlgebra.normalized_row_source' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointTerminalAlgebra.rep_normalizedGram' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointTerminalAlgebra.normalizedGram_nonneg' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointTerminalAlgebra.normalizedGram_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

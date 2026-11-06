@@ -1,0 +1,5 @@
+'AsymptoticClassicalCosets.imageEquivOfEq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCosets.imageEquivOfEq_mk' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCosets.frickeTraceEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCosets.frickeTraceEquiv_mk' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCosets.fricke_label_action' depends on axioms: [propext, Classical.choice, Quot.sound]

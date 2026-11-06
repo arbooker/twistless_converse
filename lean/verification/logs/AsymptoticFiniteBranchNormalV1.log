@@ -1,0 +1,8 @@
+'AsymptoticFiniteBranch.holomorphicSum_gramExpression' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.regularSum_gramExpression' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.regularSum_completedNormalExpression' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.regularSum_finiteNormalExpression' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.regularSum_finiteAmbientExpression' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.finiteAmbientExpression_trace_tendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

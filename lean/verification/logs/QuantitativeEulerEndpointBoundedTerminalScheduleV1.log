@@ -1,0 +1,4 @@
+'QuantitativeEulerEndpointBoundedTerminal.logCost_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointBoundedTerminal.exists_scheduled_next' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

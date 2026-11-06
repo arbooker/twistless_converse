@@ -1,0 +1,8 @@
+'QuantitativeArithmeticCompact35JetRows.Negative118.source_match' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticCompact35JetRows.Negative118.result_match' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticCompact35JetRows.Negative118.checked' depends on axioms: [propext, Classical.choice, Quot.sound]
+

@@ -1,0 +1,3 @@
+'AsymptoticRegularTrace.energy_integral_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.energy_integral_adjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.signedTrace_adjoint_mul' depends on axioms: [propext, Classical.choice, Quot.sound]

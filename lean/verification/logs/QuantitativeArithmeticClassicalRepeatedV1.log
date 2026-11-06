@@ -1,0 +1,15 @@
+'QuantitativeArithmeticClassicalRepeated.repeated_old_join_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticClassicalRepeated.repeated_old_intersection_finrank' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticClassicalRepeated.primeOldIntersection_repeated_finrank' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticClassicalRepeated.primeKernel_repeated_finrank' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticClassicalRepeated.kernel_dimension_bounded' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

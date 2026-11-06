@@ -1,0 +1,7 @@
+'QuantitativeArithmeticSmallLevelThirtyFiveCenters.original_centers' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveCenters.original_centers_entire' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

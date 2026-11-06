@@ -1,0 +1,5 @@
+'QuantitativeEulerEndpointPreparedHalf.half_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPreparedHalf.half_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPreparedHalf.half_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPreparedHalf.half_supported' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPreparedHalf.packet_mass_eq' depends on axioms: [propext, Classical.choice, Quot.sound]

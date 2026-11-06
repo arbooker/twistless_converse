@@ -1,0 +1,9 @@
+'AsymptoticRegularTrace.matrix_tendsto_of_strong' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.strong_limit_matrix_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.trace_tendsto_of_strong_dominated' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.trace_limit_finite_of_strong_dominated' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticRegularTrace.trace_toReal_tendsto_of_strong_dominated' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

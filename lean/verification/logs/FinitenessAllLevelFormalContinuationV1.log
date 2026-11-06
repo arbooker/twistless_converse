@@ -1,0 +1,5 @@
+'FinitenessAllLevelFormalContinuation.iterate_stable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelFormalContinuation.depth_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelFormalContinuation.formal_eq_iterate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelFormalContinuation.uniform_depth' depends on axioms: [propext, Classical.choice, Quot.sound]
+

@@ -1,0 +1,38 @@
+{
+  "status": "PASS_NEGATIVE_FIRST_CHART_EXCEPT_GENERIC_NONZERO_DENOMINATOR",
+  "checked_utc": "2026-10-14T20:59:35.639713+00:00",
+  "claim": "Fresh independent original Q1050/439-syzygy chart normalized again, A=-1 and A=-2 strata rechecked exactly; complementary A!= -1,-2 with D0=0 has deterministic unit ideal. D0!=0 generic stratum remains separate.",
+  "strata": {
+    "source_chart_sha256": "7042a33856e12e8e99f59998d2f924464d84cc59ae6a5c5a7482bcd04d3d6dca",
+    "normalizer_sha256": "4229d87d6dc78def9f6498bce2c76900f7f50e9195d5446ae8069cb1d00928a7",
+    "stratum_verifier_sha256": "e946f947052c150ec51acc74fb6511c4b16277933921d020e83f558670f7a6f1",
+    "prior_source_manifest_sha256": "7adf3449e405f81e4e7c125b74828ee5ac8c5ad796d6464d0965a128621aa276",
+    "normalized_input_sha256": "43a283580f8655c5d21febf9de5b7a9e6ddf4e0a44c74d2464e5d2223f653eef",
+    "native_source": "/tmp/level25_root_negative_first_20261014T205739973439Z.m",
+    "native_source_sha256": "fe79677a095993d9b3d066d67a281b02366bbba067db45bad8c02087f0692326",
+    "completion": "/tmp/level25_root_negative_first_20261014T205739973439Z.pass.json",
+    "log": "/tmp/level25_root_negative_first_20261014T205739973439Z.log",
+    "log_sha256": "b414aa9a93c372d87b7850dc0bb097e2fcc4a9736515f0f9a153da68fe4939c2",
+    "completion_sha256": "a8ebdc30dc3c6b249fcf942b7ddd58de30c4e0f83a6708bd8756329587501401",
+    "verified_status": "PASS"
+  },
+  "denominator_zero": {
+    "source": "research/small_levels/level25_plus_poles_negative1_dzero_certificate.py",
+    "source_sha256": "a69e2066d03f2928987abe2bff277834be08fd14077d2ae1416093795a9db0e1",
+    "native_source": "/tmp/level25_root_negative_dzero_20261014T205902663865Z.m",
+    "native_source_sha256": "0c15d1b1bcfe78066f0a109baf4067441fd4de992a4b81f744a43ef65a94d64a",
+    "completion": "/tmp/level25_root_negative_dzero_20261014T205902663865Z.pass",
+    "log": "/tmp/level25_root_negative_dzero_20261014T205902663865Z.log",
+    "log_sha256": "20529a5a019b55a3bcf58df39fb3d11ad56242f4a7145daf26302e18db87e372",
+    "completion_sha256": "2ebf793814bddc7ba2d52498116f79ac6065a8c133fef48384f85702584ab6f1",
+    "verified_status": "PASS"
+  },
+  "proof_hashes": {
+    "level25_plus_poles_negative1_strata.tex": "ea16be06e1c2610d4a8ecb216adfc77a50400954ff7055c34a908532f285ef2f",
+    "level25_plus_poles_negative1_dzero.tex": "84a9596cd2f49e75a206c54fbc80326bed4685aba578b5ad6597682a843a0fc2",
+    "level25_root_negative_quartic.py": "96137441eefee8bfdf5bb422e4274fad11571da2a456a156d9289b5630fd9044",
+    "level25_root_negative_quartic.json": "6fc908ba76f6f408ea184c74feedd23703fccfa70f48a65cf101e033b13e5fe6",
+    "level25_root_negative_quartic.tex": "eac46782f158de6e2122ee8781bac130ded4a940af811e64b16cb06dd3e8cb6e",
+    "level25_plus_poles_chart2_roots.py": "cfbb1736620f6eb5b70c34bfbb7cda1f5be77d1d2dcc8ed8496bc424ee6abd05"
+  }
+}

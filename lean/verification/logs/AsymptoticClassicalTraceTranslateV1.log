@@ -1,0 +1,4 @@
+'AsymptoticClassicalCusp.conjugateTraceEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.conjugate_finiteRelIndex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.quotientFunc_translate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.trace_translate' depends on axioms: [propext, Classical.choice, Quot.sound]

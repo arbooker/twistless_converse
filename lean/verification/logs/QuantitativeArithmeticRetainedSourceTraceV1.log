@@ -1,0 +1,6 @@
+'QuantitativeArithmeticRetainedSourceTrace.exists_original_energy_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedSourceTrace.pullback_survivor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedSourceTrace.corner_survivor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedSourceTrace.quotient_survivor' depends on axioms: [propext, Classical.choice, Quot.sound]

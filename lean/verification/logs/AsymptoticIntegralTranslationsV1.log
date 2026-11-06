@@ -1,0 +1,6 @@
+'AsymptoticIntegralSubgroup.projective_translation_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticIntegralSubgroup.translationLabel_mem_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticIntegralSubgroup.translationLabel_integer_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticIntegralSubgroup.translationLabel_fraction_not_mem' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

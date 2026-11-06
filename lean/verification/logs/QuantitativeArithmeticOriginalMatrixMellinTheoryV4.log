@@ -1,0 +1,6 @@
+'QuantitativeArithmeticOriginalMatrixMellin.matrix_fourier' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticOriginalMatrixMellin.source_entire' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticOriginalMatrixMellin.source_convergent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

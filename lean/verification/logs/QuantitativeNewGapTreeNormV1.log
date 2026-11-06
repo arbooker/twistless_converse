@@ -1,0 +1,3 @@
+'QuantitativeNewGap.treeSchurWeight_equation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeNewGap.treeAdjacency_sharp_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeNewGap.tree_neighbor_average_norm_lt_one' depends on axioms: [propext, Classical.choice, Quot.sound]

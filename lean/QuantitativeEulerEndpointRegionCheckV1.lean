@@ -1,0 +1,7 @@
+module
+
+public import QuantitativeEulerEndpointCorrectionCheckV1
+public import QuantitativeEulerEndpointFreshRowsV1
+
+#print axioms QuantitativeEulerEndpointPrepared.good_prime_fresh_stack_bound
+#print axioms QuantitativeEulerEndpointPrepared.certificate_common_heights

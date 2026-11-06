@@ -1,0 +1,2 @@
+'SmallLevelFourPrimePowerSum.signed_powerSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelFourPrimePowerSum.physical_eval_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]

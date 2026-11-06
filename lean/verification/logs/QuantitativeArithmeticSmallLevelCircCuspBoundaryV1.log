@@ -1,0 +1,6 @@
+'QuantitativeArithmeticSmallLevelCirc.CuspSpectral.scaled_degeneracy_inner' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.CuspSpectral.higher_boundary_eigen_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,11 @@
+'QuantitativeArithmeticDiamondLabels.defectDifference_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticDiamondLabels.defectLabel_mul_inv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticDiamondLabels.defectTranslation_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticDiamondLabels.defectLabel_translation_conjugate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticDiamondLabels.swappedCanonical_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticDiamondLabels.swappedCanonical_leading' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticDiamondLabels.fricke_defectLabel_inv' depends on axioms: [propext, Classical.choice, Quot.sound]

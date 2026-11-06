@@ -1,0 +1,10 @@
+'QuantitativeArithmeticSmallLevelTwentySevenEntireSource.ramanujan_row' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySevenEntireSource.infinity_row' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySevenEntireSource.original_sources' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

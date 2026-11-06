@@ -1,0 +1,7 @@
+'QuantitativeArithmeticSmallLevelThirtyFiveKnownWords.original_word_source_entire' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveKnownWords.original_word_infinity_germ' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

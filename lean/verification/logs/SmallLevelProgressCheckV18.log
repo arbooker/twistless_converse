@@ -1,0 +1,60 @@
+SmallLevelOriginal.SmallLevelsTheorem : Prop
+'SmallLevelTaylor.fourier_boundary_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTaylor.deformPoint_height' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTaylor.deformed_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTaylor.original_deformed_family_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTaylor.cauchy_coefficient_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTaylor.cauchy_remainder_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTaylor.original_taylorRemainder_small' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTaylor.fricke_deformation_point' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTaylor.original_fricke_taylor_small' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTaylor.fricke_error_locallyIntegrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTaylor.cauchy_term_rapid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTaylor.frickeError_rapid' depends on axioms: [propext, Classical.choice, Quot.sound]
+SmallLevelTaylor.original_frickeError_mellin_analytic {N k : ℕ} (hN : 0 < N) {f : ℕ → ℂ}
+  (hf : FinitenessOriginalInput.IsSolution N k f) :
+  ∃ χ,
+    ‖χ‖ = 1 ∧
+      ∀ (r : ℝ),
+        r ≠ 0 →
+          ∃ K,
+            ∀ (M : ℕ),
+              AnalyticOnNhd ℂ
+                (mellin (SmallLevelTaylor.frickeError k (FinitenessOriginalFourier.fullCoefficients f k) (↑N) r χ M))
+                {s | ↑K - ↑M < s.re}
+'SmallLevelTaylor.original_frickeError_mellin_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+SmallLevelTaylor.original_ramanujan_mellin_remainders {N k : ℕ} (hN : 0 < N) {f : ℕ → ℂ}
+  (hf : FinitenessOriginalInput.IsSolution N k f) :
+  ∃ ε,
+    (ε = 1 ∨ ε = -1) ∧
+      ∀ (q : ℕ),
+        0 < q →
+          ∀ (r : ℝ),
+            r ≠ 0 →
+              ∃ K,
+                ∀ (M : ℕ),
+                  AnalyticOnNhd ℂ
+                    (mellin
+                      (SmallLevelTaylor.frickeError k
+                        (FinitenessOriginalFourier.fullCoefficients (FinitenessRamanujanFourier.twisted f q) k)
+                        (↑(N.lcm (q ^ 2))) r (FinitenessNormalizedTwistProduct.root N f q * ε * Complex.I ^ k) M))
+                    {s | ↑K - ↑M < s.re}
+'SmallLevelTaylor.original_ramanujan_mellin_remainders' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTaylor.additive_convergence_halfplane' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTaylor.frickeTaylorPolynomial_one_mellin' depends on axioms: [propext, Classical.choice, Quot.sound]
+SmallLevelTaylor.leading_taylor_mellin_row {L r : ℝ} (hL : 0 < L) (hr : r ≠ 0) (k : ℕ) {a : ℕ → ℂ}
+  (ha : FinitenessPolynomialSeries.PolynomialBound a) (ha0 : a 0 = 0) (χ : ℂ)
+  (hF :
+    ∀ (z : ℂ),
+      0 < z.im →
+        FinitenessFourierConstruction.fourier a z =
+          χ / (↑√L * z) ^ k * FinitenessFourierConstruction.fourier a (-1 / (↑L * z))) :
+  ∃ B,
+    AnalyticOnNhd ℂ (mellin (SmallLevelTaylor.frickeError k a L r χ 1)) {s | B - 1 < s.re} ∧
+      ∀ (s : ℂ),
+        B < s.re →
+          SmallLevelAdditive.transform a r s -
+              χ / (↑√L * ↑r) ^ k * ↑(L * r ^ 2) ^ s * SmallLevelAdditive.transform a (-1 / (L * r)) s =
+            mellin (SmallLevelTaylor.frickeError k a L r χ 1) s
+'SmallLevelTaylor.leading_taylor_mellin_row' depends on axioms: [propext, Classical.choice, Quot.sound]
+

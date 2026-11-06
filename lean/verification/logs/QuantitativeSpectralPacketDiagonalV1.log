@@ -1,0 +1,8 @@
+'QuantitativeSpectralPacketDiagonal.diagonalFactor_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralPacketDiagonal.diagonalFactor_selfAdjoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralPacketDiagonal.diagonalFactor_gram' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralPacketDiagonal.diagonalFactor_gram_of_initial_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

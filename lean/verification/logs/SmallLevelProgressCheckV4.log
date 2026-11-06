@@ -1,0 +1,17 @@
+SmallLevelOriginal.SmallLevelsTheorem : Prop
+SmallLevelOriginal.levels_two_three_four {N k : ℕ} (hN : N = 2 ∨ N = 3 ∨ N = 4) (heven : Even k) {f : ℕ → ℂ}
+  (hf : FinitenessOriginalInput.IsSolution N k f) : SmallLevelOriginal.IsModular N k f
+SmallLevelOriginal.level_one {k : ℕ} (heven : Even k) {f : ℕ → ℂ} (hf : FinitenessOriginalInput.IsSolution 1 k f) :
+  SmallLevelOriginal.IsModular 1 k f
+SmallLevelOriginal.level_two {k : ℕ} (heven : Even k) {f : ℕ → ℂ} (hf : FinitenessOriginalInput.IsSolution 2 k f) :
+  SmallLevelOriginal.IsModular 2 k f
+SmallLevelOriginal.level_three {k : ℕ} (heven : Even k) {f : ℕ → ℂ} (hf : FinitenessOriginalInput.IsSolution 3 k f) :
+  SmallLevelOriginal.IsModular 3 k f
+SmallLevelOriginal.level_four {k : ℕ} (heven : Even k) {f : ℕ → ℂ} (hf : FinitenessOriginalInput.IsSolution 4 k f) :
+  SmallLevelOriginal.IsModular 4 k f
+SmallLevelThirtySix.level_thirty_six {k : ℕ} (hk : 0 < k) (heven : Even k) {f : ℕ → ℂ}
+  (hf : FinitenessOriginalInput.IsSolution 36 k f) : SmallLevelOriginal.IsModular 36 k f
+'SmallLevelOriginal.level_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelOriginal.level_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelOriginal.level_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+

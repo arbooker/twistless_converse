@@ -1,0 +1,6 @@
+'QuantitativeArithmeticSmallLevelFirstShiftRectangular.eliminate_lower_germ' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelFirstShiftRectangular.continued_first_shift_source' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

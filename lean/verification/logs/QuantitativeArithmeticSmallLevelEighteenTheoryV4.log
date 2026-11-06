@@ -1,0 +1,8 @@
+'QuantitativeArithmeticSmallLevelEighteen.edgeSRow_checked' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelEighteen.edgeTRow_checked' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelEighteen.gamma0_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelEighteen.gamma_zero_eighteen' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelEighteen.level_eighteen' depends on axioms: [propext, Classical.choice, Quot.sound]
+

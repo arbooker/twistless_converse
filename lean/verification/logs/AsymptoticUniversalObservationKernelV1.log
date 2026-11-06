@@ -1,0 +1,7 @@
+'AsymptoticCompactObservationCount.universalRows_twist' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCompactObservationCount.universalRows_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.universalKernel_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.universalKernel_ae_congruence_invariant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

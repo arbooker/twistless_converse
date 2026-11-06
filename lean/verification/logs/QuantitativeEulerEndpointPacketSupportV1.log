@@ -1,0 +1,2 @@
+'QuantitativeEulerEndpointPrepared.packetTwistRow_supported' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.packetSequence_supported' depends on axioms: [propext, Classical.choice, Quot.sound]

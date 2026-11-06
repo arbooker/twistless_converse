@@ -1,0 +1,7 @@
+'QuantitativeSpectralCornerCutRow.removedSpace_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralCornerCutRow.nextSpace_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralCornerCutRow.row_diagonal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralCornerCutRow.row_retained' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralCornerCutRow.row_left_supported' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralCornerCutRow.kernel_survives' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralCornerCutRow.row_gram_le' depends on axioms: [propext, Classical.choice, Quot.sound]

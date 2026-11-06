@@ -1,0 +1,6 @@
+'SmallLevelTwentyOneKnownWords.augmentedRow_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneKnownWords.augmented_leading_pole' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneKnownWords.original_augmented_leading_kernel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

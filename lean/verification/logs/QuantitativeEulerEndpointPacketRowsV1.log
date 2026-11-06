@@ -1,0 +1,2 @@
+'QuantitativeEulerEndpointPrepared.primeRescaling_cut' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.freshStep_eq_packet' depends on axioms: [propext, Classical.choice, Quot.sound]

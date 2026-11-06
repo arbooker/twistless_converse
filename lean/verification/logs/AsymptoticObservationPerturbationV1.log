@@ -1,0 +1,5 @@
+'AsymptoticObservation.normal_inverse_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticObservation.normal_inverse_sub_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticObservation.sandwich_sub_norm_le_general' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticObservation.sandwich_sub_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticObservation.operator_sub_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]

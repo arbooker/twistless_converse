@@ -1,0 +1,3 @@
+'FinitenessAllLevelMellinPair.axis_relation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelMellinPair.pair_strong' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelMellinPair.mellin_entire' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,1 @@
+'QuantitativeSpectralObservability.exists_new_source_trace' depends on axioms: [propext, Classical.choice, Quot.sound]

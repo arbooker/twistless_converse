@@ -1,0 +1,5 @@
+'FinitenessAllLevelCauchyConstraints.kernel_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelCauchyConstraints.transform_curve_analytic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

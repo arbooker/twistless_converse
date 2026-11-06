@@ -1,0 +1,3 @@
+'FinitenessAllLevelContinuation.continuation_of_fricke' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelContinuation.limit_isSolution' depends on axioms: [propext, Classical.choice, Quot.sound]
+

@@ -1,0 +1,4 @@
+'FinitenessAllLevelFiniteFiberAlgebra.map_aeval_variable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelFiniteFiberAlgebra.separable_coordinate_eliminant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

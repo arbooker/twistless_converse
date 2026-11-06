@@ -1,0 +1,5 @@
+'QuantitativeEulerEndpointResidual.gram_residual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointResidual.weighted_gram_residual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPhysicalGram.physical_weighted_gram_residual' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

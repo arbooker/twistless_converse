@@ -1,0 +1,2 @@
+'QuantitativeNewGap.invariant_commute_permutation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeNewGap.globalFricke_totalNew_sign_commute' depends on axioms: [propext, Classical.choice, Quot.sound]

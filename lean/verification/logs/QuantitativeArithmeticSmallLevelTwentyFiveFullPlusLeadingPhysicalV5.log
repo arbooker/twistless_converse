@@ -1,0 +1,13 @@
+'QuantitativeArithmeticSmallLevelTwentyFive.FullPlusLeading.all_physical_flag' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.FullPlusLeading.source_physical' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.FullPlusLeading.gauge_coordinate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.FullPlusLeading.original_pole_rows_allowed' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

@@ -1,0 +1,4 @@
+'SmallLevelTwentyOneKnownWords.integer_det_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneKnownWords.word_partner_integer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneKnownWords.wordCoefficient_rational' depends on axioms: [propext, Classical.choice, Quot.sound]
+

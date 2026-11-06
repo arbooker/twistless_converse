@@ -1,0 +1,2 @@
+'AsymptoticClassicalPetersson.hyperbolic_openPos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalPetersson.eq_zero_of_ae_quotient' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,9 @@
+'QuantitativeEulerEndpointNestedPerturbation.sandwich_difference' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointNestedPerturbation.update_difference' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointNestedPerturbation.sharpened_difference' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

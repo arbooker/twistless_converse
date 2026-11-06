@@ -1,0 +1,16 @@
+'QuantitativeArithmeticSmallLevelThirtyFiveKnownWords.actual_signed_negative_source_62' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveKnownWords.actual_signed_negative_source_292' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveKnownWords.actual_signed_negative_source_370' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveKnownWords.actual_signed_negative_source_382' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveKnownWords.actual_signed_negative_source_394' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

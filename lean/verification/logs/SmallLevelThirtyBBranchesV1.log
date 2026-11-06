@@ -1,0 +1,4 @@
+'SmallLevelThirtyB.fricke_branch_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtyB.fricke_branch_neg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtyB.original_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+

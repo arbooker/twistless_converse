@@ -1,0 +1,3 @@
+'SmallLevelTaylor.deformed_family_exponential' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTaylor.cauchy_term_rapid' depends on axioms: [propext, Classical.choice, Quot.sound]
+

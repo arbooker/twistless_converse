@@ -1,0 +1,5 @@
+'QuantitativeEulerEndpointResidual.cut_row_residual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointResidual.cut_gram_residual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointResidual.cut_weighted_gram_residual' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,5 @@
+'AsymptoticClassicalDimension.levelOne_modular_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalDimension.levelOne_modular_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalDimension.levelOne_cusp_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalDimension.bounded_error_littleO' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalDimension.levelOne_cusp_littleO' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,2 @@
+'SmallLevelTwentySixWeightZeroChart.obstruction_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixWeightZeroChart.no_zero_chart' depends on axioms: [propext, Classical.choice, Quot.sound]

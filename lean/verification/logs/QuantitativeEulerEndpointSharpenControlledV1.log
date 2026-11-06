@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointBernstein.exists_controlled_polynomial_sharpening' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointBernstein.exists_controlled_operator_sharpening' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

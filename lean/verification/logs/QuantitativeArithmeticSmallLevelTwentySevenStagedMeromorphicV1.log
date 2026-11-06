@@ -1,0 +1,4 @@
+'QuantitativeArithmeticSmallLevelTwentySevenPlusGenericStages.staged_left_meromorphic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

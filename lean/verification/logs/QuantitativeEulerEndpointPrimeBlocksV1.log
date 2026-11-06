@@ -1,0 +1,7 @@
+'QuantitativeEulerEndpointPrimeBlocks.blockList_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrimeBlocks.primes_nodup' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrimeBlocks.primes_good_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrimeBlocks.primes_disjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrimeBlocks.primes_contraction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrimeBlocks.bound_log' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrimeBlocks.crossing_loss_sum' depends on axioms: [propext, Classical.choice, Quot.sound]

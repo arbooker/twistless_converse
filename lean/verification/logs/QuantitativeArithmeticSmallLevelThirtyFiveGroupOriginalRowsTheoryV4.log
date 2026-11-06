@@ -1,0 +1,19 @@
+'QuantitativeArithmeticSmallLevelThirtyFiveGroupOriginalRows.original_six' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveGroupOriginalRows.original_rows' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveGroupOriginalRows.original_fricke_rows' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveGroupOriginalRows.frickeRow_matrix' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveGroupOriginalRows.original_rows_fourier' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyFiveGroupOriginalRows.original_fricke_rows_fourier' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

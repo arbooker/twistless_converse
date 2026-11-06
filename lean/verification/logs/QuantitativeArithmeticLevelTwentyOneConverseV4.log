@@ -1,0 +1,12 @@
+'SmallLevelTwentyOneZeroRigidity.invariant_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneZero.J_relation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneZero.K_relation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneZero.elliptic_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneZero.P_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneZero.original_P_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneGeneration.modular_of_A_B_P' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneGeneration.original_nonzero_modular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelOriginal.level_twenty_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOne.original_poles_on_locus' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOne.original_pole_normalization' depends on axioms: [propext, Classical.choice, Quot.sound]
+

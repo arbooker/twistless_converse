@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointPrepared.weightedSectorSignRow_regular' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.incidence_projection_regular' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

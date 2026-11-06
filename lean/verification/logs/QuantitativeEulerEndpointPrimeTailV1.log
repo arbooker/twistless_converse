@@ -1,0 +1,2 @@
+'QuantitativeEulerEndpointAP.shifted_pseries_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointAP.prime_log_dirichlet_upper' depends on axioms: [propext, Classical.choice, Quot.sound]

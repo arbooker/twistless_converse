@@ -1,0 +1,9 @@
+'SmallLevelTwentyOneWeightCase0.leading_constraints' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneWeightCase1.leading_constraints' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneWeightCase2.leading_constraints' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneWeightCase3.leading_constraints' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneWeightCase4.leading_constraints' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneWeightCase5.leading_constraints' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneWeightCase6.leading_constraints' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneWeightCase7.leading_constraints' depends on axioms: [propext, Classical.choice, Quot.sound]
+

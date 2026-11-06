@@ -1,0 +1,18 @@
+'QuantitativeEulerEndpointPrepared.projective_prime_stack_of_height' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.good_prime_projective_generator_stack_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.gamma1_fixed_multiplier_stack_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.gamma1_finite_multiplier_stack_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.fixed_prime_corrections_stack_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.fixed_prime_individual_stack_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

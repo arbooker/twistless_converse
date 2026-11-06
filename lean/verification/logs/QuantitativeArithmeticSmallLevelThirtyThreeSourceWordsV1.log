@@ -1,0 +1,7 @@
+'QuantitativeArithmeticSmallLevelThirtyThreeKnownWords.source_exact' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyThreeKnownWords.source_coordinates' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

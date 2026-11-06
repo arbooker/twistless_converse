@@ -1,0 +1,15 @@
+'QuantitativeArithmeticRetainedTerminalExtension.affine_zero_of_target' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedTerminalExtension.rowTerminal_zero_of_target' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedTerminalExtension.terminal_high' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedTerminalExtension.extension_norm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedTerminalExtension.extension_of_FE' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

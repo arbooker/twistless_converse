@@ -1,0 +1,5 @@
+'QuantitativeArithmeticTwoSequenceTaylor.two_deformed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticTwoSequenceTaylor.two_error_point' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticTwoSequenceTaylor.two_error_small' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticTwoSequenceTaylor.two_error_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+

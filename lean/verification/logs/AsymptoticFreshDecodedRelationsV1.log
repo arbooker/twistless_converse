@@ -1,0 +1,5 @@
+'AsymptoticFreshDecodedRelations.defectLabel_integerIndex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFreshDecodedRelations.row_decode' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFreshDecodedRelations.all_compact_row_zero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFreshDecodedRelations.canonical_relation' depends on axioms: [propext, Classical.choice, Quot.sound]
+

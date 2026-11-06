@@ -1,0 +1,8 @@
+'QuantitativeEulerEndpointPrepared.uncomposed_combined_rows_wide_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.replacementGram_exact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.replacementGram_difference' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.replacementGram_order' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,3 @@
+'QuantitativeEulerEndpointInitialExpression.exists_initial_energy_expression' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

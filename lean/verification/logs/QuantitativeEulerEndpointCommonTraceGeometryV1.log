@@ -1,0 +1,3 @@
+'QuantitativeEulerEndpointCommonReconstruction.exists_horizon_trace_geometry' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

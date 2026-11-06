@@ -1,0 +1,8 @@
+'AsymptoticRegularObservation.infiniteKernelSpace_le_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.infiniteKernelProjection_trace_le_finite' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticRegularObservation.infiniteKernelProjection_trace_finite' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

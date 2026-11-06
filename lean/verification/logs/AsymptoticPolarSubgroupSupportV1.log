@@ -1,0 +1,8 @@
+'AsymptoticSubgroupSupport.supported_absolute' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticSubgroupSupport.supported_penaltyRoot' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticSubgroupSupport.supported_resolvent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticSubgroupSupport.supported_polar' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticSubgroupSupport.supported_kernelComplement' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticSubgroupSupport.supported_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticSubgroupSupport.supported_outputProjection' depends on axioms: [propext, Classical.choice, Quot.sound]
+

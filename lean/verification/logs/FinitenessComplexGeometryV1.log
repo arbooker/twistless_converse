@@ -1,0 +1,2 @@
+'FinitenessComplexGeometry.reflected_im' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessComplexGeometry.automorphy_norm' depends on axioms: [propext, Classical.choice, Quot.sound]

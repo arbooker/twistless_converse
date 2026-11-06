@@ -1,0 +1,23 @@
+'QuantitativeArithmeticCompact26SourceCompiler.compileBase_correct' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticCompact26SourceCompiler.eval_coordinate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticCompact26SourceCompiler.eval_samplePrefix' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticCompact26SourceCompiler.eval_anchorPolynomial' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticCompact26SourceCompiler.eval_baseRow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticCompact26SourceCompiler.eval_tailPolynomial' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticCompact26SourceCompiler.eval_lowerPrefix' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticCompact26SourceCompiler.eval_polynomial' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

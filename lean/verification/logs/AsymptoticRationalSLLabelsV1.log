@@ -1,0 +1,4 @@
+'AsymptoticLocalCongruence.rationalSL_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticLocalCongruence.rationalSLLabel_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticLocalCongruence.rationalSLLabel_ker_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticLocalCongruence.rationalSLLabel_ker_le' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,8 @@
+'QuantitativeHolomorphic.retained_endpoint_area_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.retained_expression_uniform_trace_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.retained_single_filter_uniform_trace_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.retainedBranchGeometry_of_word' depends on axioms: [propext, Classical.choice, Quot.sound]

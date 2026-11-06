@@ -1,0 +1,3 @@
+'SmallLevelLaurentProjectiveChart.eval_div' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelLaurentProjectiveChart.normalize_first' depends on axioms: [propext, Classical.choice, Quot.sound]
+

@@ -1,0 +1,9 @@
+'QuantitativeEulerEndpointExponentialParameters.power_log_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointExponentialParameters.sharpness_log_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointExponentialParameters.scheduled_logarithmic_cost' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

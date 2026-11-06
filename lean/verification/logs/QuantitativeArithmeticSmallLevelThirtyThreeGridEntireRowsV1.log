@@ -1,0 +1,7 @@
+'QuantitativeArithmeticSmallLevelThirtyThreeKnownWords.grid_ramanujan_entire' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyThreeKnownWords.grid_infinity_entire_of_fricke' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

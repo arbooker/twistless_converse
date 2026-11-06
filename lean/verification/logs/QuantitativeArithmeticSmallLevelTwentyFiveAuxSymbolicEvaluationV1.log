@@ -1,0 +1,7 @@
+'QuantitativeArithmeticSmallLevelTwentyFiveAuxGridModel.eval_rawSourcePoly' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFiveAuxGridModel.eval_rawTailPoly' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

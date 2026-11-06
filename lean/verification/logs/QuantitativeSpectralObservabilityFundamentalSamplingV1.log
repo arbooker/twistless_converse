@@ -1,0 +1,11 @@
+'QuantitativeSpectralObservability.fundamentalSampling_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralObservability.fundamentalSampling_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralObservability.fundamentalSampling_regular' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralObservability.fundamentalSampling_norm_eq_raw' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralObservability.fundamentalSampling_recover' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

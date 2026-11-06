@@ -1,0 +1,2 @@
+'AsymptoticUnweightedKernel.fourierKernel_periodization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticUnweightedKernel.hyperbolicKernel_periodization' depends on axioms: [propext, Classical.choice, Quot.sound]

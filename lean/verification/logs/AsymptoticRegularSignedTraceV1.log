@@ -1,0 +1,3 @@
+'AsymptoticRegularTrace.signedTrace_eq_toReal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.energy_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.cross_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]

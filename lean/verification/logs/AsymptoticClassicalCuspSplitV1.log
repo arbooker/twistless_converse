@@ -1,0 +1,6 @@
+'AsymptoticClassicalCusp.index_complex_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.trace_section' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.trace_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.trace_complement' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.old_new_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.old_trace_kernel_disjoint' depends on axioms: [propext, Classical.choice, Quot.sound]

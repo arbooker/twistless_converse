@@ -1,0 +1,3 @@
+'QuantitativeArithmeticSmallLevelThirtyFiveShiftedScalars.shifted_exponential_dominance' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

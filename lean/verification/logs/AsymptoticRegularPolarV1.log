@@ -1,0 +1,7 @@
+'AsymptoticRegularTrace.absolute_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.penaltyRoot_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.resolvent_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.regularizedPolar_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.polar_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.support_trace_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+

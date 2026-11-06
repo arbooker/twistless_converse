@@ -1,0 +1,5 @@
+'QuantitativeArithmeticSmallLevelCirc.orbit_gamma' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.orbit_ofMatrix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.simple_trace_slash_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,7 @@
+'QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusLaurent.germ_residual_lower_23' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusLaurent.germ_residual_upper_23' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

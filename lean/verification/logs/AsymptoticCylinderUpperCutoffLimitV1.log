@@ -1,0 +1,2 @@
+'AsymptoticCylinder.upperCutError_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCylinder.factored_upperCut_trace_small' depends on axioms: [propext, Classical.choice, Quot.sound]

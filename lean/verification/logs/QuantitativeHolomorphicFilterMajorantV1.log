@@ -1,0 +1,11 @@
+'QuantitativeHolomorphic.finiteCountReconstruction_fourier_gram' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.inverseSqrtCFC_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.countWeightedNormalizer_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.finiteCountWeightedNormalizer_norm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.normalizedCountReconstruction_fourier_gram' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

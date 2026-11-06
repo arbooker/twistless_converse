@@ -1,0 +1,3 @@
+'FinitenessFourierConstruction.holomorphic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessFourierConstruction.disk_holomorphic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessFourierConstruction.coefficients_unique' depends on axioms: [propext, Classical.choice, Quot.sound]

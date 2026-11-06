@@ -1,0 +1,10 @@
+'QuantitativeArithmeticSmallLevelTwentyFiveAuxGridModel.eval_normalizedPoly' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFiveAuxGridModel.eval_samplePoly' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFiveAuxGridModel.eval_completePoly' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

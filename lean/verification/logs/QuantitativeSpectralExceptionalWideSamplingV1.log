@@ -1,0 +1,7 @@
+'QuantitativeSpectralExceptionalWideSampling.sampled_factorization' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralExceptionalWideSampling.sampled_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralExceptionalWideSampling.sampled_boundary_rank' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

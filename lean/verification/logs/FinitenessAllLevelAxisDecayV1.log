@@ -1,0 +1,4 @@
+'FinitenessAllLevelAxisDecay.fourier_exponential' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelAxisDecay.axis_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelAxisDecay.axis_exponential' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelAxisDecay.axis_rapid' depends on axioms: [propext, Classical.choice, Quot.sound]

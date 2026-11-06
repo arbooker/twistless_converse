@@ -1,0 +1,3 @@
+'SmallLevelThirtySix.conjugate_T_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtySix.gamma_zero_cusp_period' depends on axioms: [propext, Classical.choice, Quot.sound]
+

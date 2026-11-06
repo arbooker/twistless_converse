@@ -1,0 +1,4 @@
+'AsymptoticLocalCongruence.single_prime_meet_complement' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticLocalCongruence.other_prime_le_complement' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticLocalCongruence.prime_word_norm_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticLocalCongruence.prime_common_corner_diagonal_le' depends on axioms: [propext, Classical.choice, Quot.sound]

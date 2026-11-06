@@ -1,0 +1,2 @@
+'AsymptoticClassicalCusp.localFrickeCommutator_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.localAtkin_fricke_intertwine' depends on axioms: [propext, Classical.choice, Quot.sound]

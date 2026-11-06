@@ -1,0 +1,9 @@
+'SmallLevelTwentySixGroup.kernel_relation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGroup.edgeSRow_checked' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGroup.edgeTRow_checked' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGroup.edgeSRow_checked' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGroup.edgeTRow_checked' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGroup.gamma0_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGroup.kernel_invariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGroup.modular_of_P_G' depends on axioms: [propext, Classical.choice, Quot.sound]
+

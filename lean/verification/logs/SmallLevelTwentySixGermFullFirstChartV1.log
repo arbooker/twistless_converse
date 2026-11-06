@@ -1,0 +1,2 @@
+'SmallLevelTwentySixGermDAG.original_full_first_chart' depends on axioms: [propext, Classical.choice, Quot.sound]
+

@@ -1,0 +1,3 @@
+'SmallLevelTwentySixSecondChart.unit_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixSecondChart.no_common_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixSecondChart.no_first_eight' depends on axioms: [propext, Classical.choice, Quot.sound]

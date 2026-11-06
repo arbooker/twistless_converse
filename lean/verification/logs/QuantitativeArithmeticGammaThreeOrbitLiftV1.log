@@ -1,0 +1,2 @@
+'QuantitativeArithmeticGammaThreeOrbit.finite_orbit_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+

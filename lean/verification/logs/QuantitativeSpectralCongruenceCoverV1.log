@@ -1,0 +1,7 @@
+'QuantitativeSpectralCongruenceCover.box_compact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralCongruenceCover.compactCover_compact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralCongruenceCover.orbit_meets_compact_tail' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralCongruenceCover.tailCover_area' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralCongruenceCover.tailCover_trace' depends on axioms: [propext, Classical.choice, Quot.sound]

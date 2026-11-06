@@ -1,0 +1,16 @@
+'QuantitativeArithmeticSmallLevelNineteenGridAnalytic.group_partner' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelNineteenGridAnalytic.original_selected_group_rows' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelNineteenGridAnalytic.original_grid_hecke' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelNineteenGridAnalytic.groupCoefficient_analytic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelNineteenGridAnalytic.original_group_system' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

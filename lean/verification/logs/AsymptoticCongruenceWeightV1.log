@@ -1,0 +1,8 @@
+'AsymptoticCongruenceWeight.cap_sq_le_eis' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceWeight.strip_summable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceWeight.weight_summable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceWeight.weight_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceWeight.weight_invariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceWeight.weight_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCongruenceWeight.weight_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+

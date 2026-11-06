@@ -1,0 +1,3 @@
+'FinitenessAllLevelTwoPrimeBounds.power_comparison' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelTwoPrimeBounds.pow_le_pow_ceil' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelTwoPrimeBounds.ceiling_comparison' depends on axioms: [propext, Classical.choice, Quot.sound]

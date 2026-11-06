@@ -1,0 +1,7 @@
+'SmallLevelTwentySixIntegerRow87Transpose.original_output_germ' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixIntegerRow89Transpose.original_output_germ' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

@@ -1,0 +1,8 @@
+'AsymptoticFreshAveraging.branch_cancel_translation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFreshAveraging.defectLabel_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFreshAveraging.defectLabel_translation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFreshAveraging.translation_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFreshAveraging.translation_supported' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFreshAveraging.defect_supported' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFreshAveraging.averaged_defects' depends on axioms: [propext, Classical.choice, Quot.sound]
+

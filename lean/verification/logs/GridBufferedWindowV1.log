@@ -1,0 +1,2 @@
+'GridBufferedWindow.window_from_excess' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GridBufferedWindow.excess_from_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]

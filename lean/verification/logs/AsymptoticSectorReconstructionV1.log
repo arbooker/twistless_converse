@@ -1,0 +1,4 @@
+'AsymptoticSectorReconstruction.coefficientSector_laws' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticSectorReconstruction.fourierMap_inclusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticSectorReconstruction.sector_reconstructed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticSectorReconstruction.uniform_reconstruction' depends on axioms: [propext, Classical.choice, Quot.sound]

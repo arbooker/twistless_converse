@@ -1,0 +1,3 @@
+'FinitenessPaperConvergence.terms_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessPaperConvergence.growth_of_convergesSomewhere' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessPaperConvergence.convergesSomewhere_iff_growth' depends on axioms: [propext, Classical.choice, Quot.sound]

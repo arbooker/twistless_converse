@@ -1,0 +1,7 @@
+'QuantitativeArithmeticSmallLevelCirc.fricke_slash_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.fricke_mem_space' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.frickeLinear' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.frickeLinear_involutive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.frickeEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]

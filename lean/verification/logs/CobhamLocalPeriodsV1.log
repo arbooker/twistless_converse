@@ -1,0 +1,2 @@
+'CobhamLocalPeriods.glue' depends on axioms: [propext, Quot.sound]
+'CobhamLocalPeriods.eventual_period_of_windows' depends on axioms: [propext, Classical.choice, Quot.sound]

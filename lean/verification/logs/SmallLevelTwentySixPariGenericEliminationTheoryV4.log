@@ -1,0 +1,15 @@
+'SmallLevelTwentySixPariGenericElimination.low87_binding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixPariGenericElimination.low89_binding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixPariGenericElimination.reduced87_binding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixPariGenericElimination.reduced89_binding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixPariGenericElimination.gcd_binding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixPariGenericElimination.resultant89_binding' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixPariGenericElimination.resultant87_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixPariGenericElimination.resultant89_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixPariGenericElimination.eliminant_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixPariGenericElimination.no_signed_reduced_rows' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

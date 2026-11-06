@@ -1,0 +1,2 @@
+'QuantitativeSpectralDiagonalLog.log_two_blocks' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralDiagonalLog.trace_log_two_blocks' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,3 @@
+'FinitenessAllLevelFormalContinuation.formal_sector_congr' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelFormalContinuation.exists_sector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelFormalContinuation.original_finite_sector' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointSieve.divisor_exception_count_le_product' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointSieve.denominator_ge_half_product_of_pow' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

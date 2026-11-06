@@ -1,0 +1,5 @@
+'QuantitativeEulerEndpointPhysicalCorner.sharpened_residual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointResidual.errorBudget_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointNestedExpression.physical_iteration_residual' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

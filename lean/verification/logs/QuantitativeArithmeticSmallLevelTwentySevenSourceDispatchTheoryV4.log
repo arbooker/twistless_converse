@@ -1,0 +1,19 @@
+'QuantitativeArithmeticSmallLevelTwentySevenSourceDispatch.selected_system' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySevenSourceDispatch.family_system' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySevenSourceDispatch.family_selection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySevenSourceDispatch.family_with_extra_ramanujan' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySevenSourceDispatch.family_with_ramanujan_extension' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySevenSourceDispatch.family_with_ramanujan_extension_at_sign' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

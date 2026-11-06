@@ -1,0 +1,10 @@
+'QuantitativeEulerEndpointPrepared.inverse_polynomial_geometric' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.prime_inverse_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.prime_power_translation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.inverseRegion_compact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.inverse_scalar_cost' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointPrepared.compact_prime_inverse_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,5 @@
+'AsymptoticObservation.polynomialReconstructionLipschitz_nonneg' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticObservation.completedNormal_difference_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticObservation.polynomial_gram_difference_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]

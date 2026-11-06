@@ -1,0 +1,5 @@
+'AsymptoticFunctionalCalculus.positiveRoot_eq_value' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFunctionalCalculus.polynomial_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFunctionalCalculus.exists_polynomial_approximation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

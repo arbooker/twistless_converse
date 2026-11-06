@@ -1,0 +1,5 @@
+'SmallLevelThirtySix.finite_orbit_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtySix.positive_congruence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtySix.negative_congruence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtySix.original_congruence' depends on axioms: [propext, Classical.choice, Quot.sound]
+

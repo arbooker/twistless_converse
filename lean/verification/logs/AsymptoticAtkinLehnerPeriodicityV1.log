@@ -1,0 +1,4 @@
+'AsymptoticAtkinLehner.translationConjugate_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticAtkinLehner.complement_translation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticAtkinLehner.periodic_complement' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticAtkinLehner.periodic_of_gamma' depends on axioms: [propext, Classical.choice, Quot.sound]

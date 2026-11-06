@@ -1,0 +1,12 @@
+'QuantitativeArithmeticRetainedNestedCountComparison.sector_finrank_le_terminal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedNestedCountComparison.sandwichExpression_mass' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedNestedCountComparison.sandwichExpression_matrix' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedNestedCountComparison.exists_horizon_sandwich_cost' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

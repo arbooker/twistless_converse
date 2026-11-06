@@ -1,0 +1,10 @@
+'QuantitativeArithmeticRetainedDilationWeighted.operators_coeFn_section' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedDilationWeighted.section_selected' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedDilationWeighted.values_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedDilationWeighted.folded_coeFn_section' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

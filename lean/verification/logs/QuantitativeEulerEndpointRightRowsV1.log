@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointPrepared.compact_prime_right_defect' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.compact_prime_right_rows_of_height' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

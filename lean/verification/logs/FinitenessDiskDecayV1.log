@@ -1,0 +1,3 @@
+'FinitenessDiskDecay.factor_decay' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessDiskDecay.quotient_differentiable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessDiskDecay.zero_coeff_factor' depends on axioms: [propext, Classical.choice, Quot.sound]

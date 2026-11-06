@@ -1,0 +1,5 @@
+'AsymptoticClassicalDiscriminant.triangularGL_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalDiscriminant.triangularGL_denom' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalDiscriminant.triangularGL_action' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalDiscriminant.triangularFactor_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalDiscriminant.slash_triangular' depends on axioms: [propext, Classical.choice, Quot.sound]

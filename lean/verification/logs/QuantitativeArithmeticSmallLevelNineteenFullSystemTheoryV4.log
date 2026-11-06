@@ -1,0 +1,13 @@
+'QuantitativeArithmeticSmallLevelNineteenFullSystem.leadingMatrix_mulVec' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelNineteenFullSystem.shiftMatrix_mulVec' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelNineteenFullSystem.leadingMatrix_analytic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelNineteenFullSystem.shiftMatrix_analytic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

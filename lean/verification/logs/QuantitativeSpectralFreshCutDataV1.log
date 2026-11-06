@@ -1,0 +1,5 @@
+'QuantitativeSpectralFreshCutData.stack_cutRows' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralFreshCutData.cutProjection_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralFreshCutData.cutRows_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralFreshCutData.cutRows_supported' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralFreshCutData.cutWhitening_regular' depends on axioms: [propext, Classical.choice, Quot.sound]

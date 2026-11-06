@@ -1,0 +1,7 @@
+'QuantitativeArithmeticSmallLevelTwentySixMMPDegree21.root_relation_of_first' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySixMMPDegree21.root_relation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

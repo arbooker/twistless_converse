@@ -1,0 +1,4 @@
+'AsymptoticRamifiedCosets.reduce_of_topLeft_unit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRamifiedCosets.reduce_to_finer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRamifiedCosets.representatives_distinct' depends on axioms: [propext, Classical.choice, Quot.sound]
+

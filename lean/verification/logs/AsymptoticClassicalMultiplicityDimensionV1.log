@@ -1,0 +1,3 @@
+'AsymptoticClassicalCusp.inf_sup_of_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.inf_orthogonal_of_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.relative_two_old_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]

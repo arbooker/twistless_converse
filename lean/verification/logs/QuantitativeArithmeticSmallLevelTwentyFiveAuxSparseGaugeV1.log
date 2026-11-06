@@ -1,0 +1,10 @@
+'QuantitativeArithmeticSmallLevelTwentyFiveAuxGridModel.physicalGauge_leading' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFiveAuxGridModel.physicalGauge_shifted' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFiveAuxGridModel.physicalGauge_analytic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

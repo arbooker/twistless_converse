@@ -1,0 +1,4 @@
+'AsymptoticUnweightedKernel.periodized_kernel_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticUnweightedKernel.nonreturning_integral_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

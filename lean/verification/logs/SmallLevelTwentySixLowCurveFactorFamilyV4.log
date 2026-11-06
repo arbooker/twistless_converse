@@ -1,0 +1,11 @@
+'SmallLevelTwentySixLowCurveFactor6.elimination_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixLowCurveFactor6.resultant_factorization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixLowCurveFactor6.squarefree_factorization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixLowCurveFactor6.squarefree_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixLowCurveFactor6.low_curve_squarefree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixLowCurveFactor7.elimination_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixLowCurveFactor7.resultant_factorization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixLowCurveFactor7.squarefree_factorization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixLowCurveFactor7.squarefree_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixLowCurveFactor7.low_curve_squarefree' depends on axioms: [propext, Classical.choice, Quot.sound]
+

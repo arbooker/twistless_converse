@@ -1,0 +1,2 @@
+'GridOrderTriangularity.same_component_strict_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GridOrderTriangularity.residue_coset_strict_order' depends on axioms: [propext, Classical.choice, Quot.sound]

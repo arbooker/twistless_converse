@@ -1,0 +1,4 @@
+'AsymptoticClassicalCusp.level_relIndex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.frickeOldLevel_relIndex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.dilationLevel_relIndex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.lower_dilationLevel_index' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,6 @@
+'AsymptoticFiniteBranch.endpointRegion_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.holomorphic_retained' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.regular_retained' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.retained_diagonal_summable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.retained_root_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.retained_trace_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]

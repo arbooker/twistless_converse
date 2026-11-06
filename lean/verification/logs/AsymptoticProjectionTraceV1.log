@@ -1,0 +1,7 @@
+'AsymptoticRegularTrace.projection_trace_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.projection_trace_finite_of_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.projection_signedTrace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.signedTrace_comp_comm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.projection_trace_eq_of_inverse_embeddings' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

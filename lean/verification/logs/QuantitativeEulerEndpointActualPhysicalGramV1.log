@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointBoundedIteration.actualGramExpressions_physical_order' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointBoundedIteration.actualGramExpressions_physical_support' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

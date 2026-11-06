@@ -1,0 +1,33 @@
+'QuantitativeArithmeticRetainedPhysicalSector.physicalSectorMap_injective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedPhysicalSector.physicalSectorMap_finrank' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedPhysicalSector.row_sector_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedPhysicalSector.packet_sector_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedPhysicalSector.baseline_sector_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedPhysicalSector.normalizedPhysicalSectorMap_reconstruct' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedPhysicalSector.normalizedPhysicalSectorMap_finrank' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedPhysicalSector.normalizedPhysicalSectorProjection_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedPhysicalSector.normalizedPhysicalSectorProjection_terminal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedIteration.normalizedPhysicalSector_original_solution' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedIteration.actualFiniteExpression_sector_paid' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

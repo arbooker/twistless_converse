@@ -1,0 +1,4 @@
+'SmallLevelTaylor.deformed_real_mellin' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTaylor.taylorCoeff_mellin' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTaylor.taylorCoeff_additive_mellin' depends on axioms: [propext, Classical.choice, Quot.sound]
+

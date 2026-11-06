@@ -1,0 +1,5 @@
+'QuantitativeSpectralCutRegularity.positivePart_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralCutRegularity.high_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralCutRegularity.high_supported' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralCutRegularity.highAt_supported' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralCutRegularity.highAt_regular' depends on axioms: [propext, Classical.choice, Quot.sound]

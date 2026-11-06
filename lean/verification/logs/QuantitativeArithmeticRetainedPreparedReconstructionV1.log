@@ -1,0 +1,18 @@
+'QuantitativeArithmeticRetainedPreparedReconstruction.scalar_contraction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedPreparedReconstruction.physical_contraction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedPreparedReconstruction.regular_contraction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedPreparedReconstruction.original_count' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedPreparedReconstruction.physical_sector_rank' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedPreparedReconstruction.finite_mass' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

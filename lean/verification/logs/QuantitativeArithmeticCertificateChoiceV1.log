@@ -1,0 +1,4 @@
+'QuantitativeArithmetic.exists_canonical_residue' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmetic.canonical_translation_linear_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmetic.exists_bounded_shear_witnesses' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmetic.exists_canonical_certificate' depends on axioms: [propext, Classical.choice, Quot.sound]

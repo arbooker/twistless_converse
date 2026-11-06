@@ -1,0 +1,7 @@
+'AsymptoticOrthogonalProjectionSum.sum_projection_norm_sq_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticOrthogonalProjectionSum.sum_projection_norm_sq_le_common' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticOrthogonalProjectionSum.sum_lintegral_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.sum_projection_trace_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.sum_projection_trace_toReal_le' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,10 @@
+'AsymptoticFoldedLow.finite_folds_tendstoUniformly' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFoldedLow.finite_folds_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFoldedTerminal.finite_folds_tendstoUniformly' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFoldedTerminal.finite_folds_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularFoldedLow.finite_folds_tendstoUniformly' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularFoldedLow.finite_folds_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularFoldedTerminal.finite_folds_tendstoUniformly' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticRegularFoldedTerminal.finite_folds_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]

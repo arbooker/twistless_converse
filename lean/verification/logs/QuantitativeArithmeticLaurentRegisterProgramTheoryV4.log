@@ -1,0 +1,10 @@
+'QuantitativeArithmeticLaurentRegisterProgram.store_derived' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticLaurentRegisterProgram.checked_outputs' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticLaurentRegisterProgram.verifyRun_sound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticLaurentRegisterProgram.run_append' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticLaurentRegisterProgram.verify_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+

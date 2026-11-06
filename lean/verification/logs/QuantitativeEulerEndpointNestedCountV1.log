@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointNestedPhysical.sector_finrank_le_positive_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointNestedPhysical.sector_finrank_le_nested_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

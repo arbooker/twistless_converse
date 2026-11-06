@@ -1,0 +1,7 @@
+'QuantitativeArithmeticSmallLevelThirtyThreeKnownWords.group_geometry_real' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelThirtyThreeKnownWords.infinity_geometry_real' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

@@ -1,0 +1,2 @@
+'QuantitativeSpectralRegularCornerStep.step_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralRegularCornerStep.step_supported' depends on axioms: [propext, Classical.choice, Quot.sound]

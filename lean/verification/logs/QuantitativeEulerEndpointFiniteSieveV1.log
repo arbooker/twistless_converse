@@ -1,0 +1,2 @@
+'QuantitativeEulerEndpointSieve.residue_count_le_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointSieve.two_residue_sifted_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

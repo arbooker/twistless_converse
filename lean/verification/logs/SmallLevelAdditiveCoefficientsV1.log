@@ -1,0 +1,6 @@
+'SmallLevelAdditive.phase_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelAdditive.coefficients_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelAdditive.coefficients_polynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelAdditive.coefficients_growth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelAdditive.fourier_translate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelAdditive.axis_one_translate' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,4 @@
+'QuantitativeEulerEndpointBlocks.normalized_block_iteration' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointBlocks.block_endpoint_of_summable_losses' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

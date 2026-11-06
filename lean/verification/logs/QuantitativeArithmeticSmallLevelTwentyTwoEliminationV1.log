@@ -1,0 +1,6 @@
+'QuantitativeArithmeticSmallLevelTwentyTwo.h_from_first' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyTwo.four_term_of_two_relations' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyTwo.two_defects_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+

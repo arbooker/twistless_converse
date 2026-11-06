@@ -1,0 +1,2 @@
+'QuantitativeMaass.AutomorphicL2.eLpNorm_normalizer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeMaass.AutomorphicL2.normalizerIsometry_apply' depends on axioms: [propext, Classical.choice, Quot.sound]

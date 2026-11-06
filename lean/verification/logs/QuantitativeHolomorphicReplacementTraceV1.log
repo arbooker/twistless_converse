@@ -1,0 +1,13 @@
+'QuantitativeHolomorphic.finiteRetainedFilterTrace_regular_comparison_of_replacement' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.regularRetained_trace_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.finiteRegularFilter_retained_trace_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.finiteRetainedFilterTrace_exact_regular_comparison_of_replacement' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.sector_finrank_le_regular_source_trace_of_replacement' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,9 @@
+'FinitenessOriginalTwistedContinuations.continuation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessOriginalTwistedContinuations.continuation_with_sign' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FinitenessOriginalTwistedContinuations.coherent_solution_laws' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FinitenessOriginalTwistedContinuations.all_twisted' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessOriginalTwistedContinuations.solution_laws' depends on axioms: [propext, Classical.choice, Quot.sound]

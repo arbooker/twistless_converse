@@ -1,0 +1,7 @@
+'QuantitativeEulerEndpointLevelOne.original_count_eq_new_dimension' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointLevelOne.holomorphicError_one_eventually_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointLevelOne.level_one_endpoint' depends on axioms: [propext, Classical.choice, Quot.sound]

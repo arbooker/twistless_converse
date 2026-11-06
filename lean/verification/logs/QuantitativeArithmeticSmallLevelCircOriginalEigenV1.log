@@ -1,0 +1,10 @@
+'QuantitativeArithmeticSmallLevelCirc.original_unitary_coefficients' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.original_prime_eigen' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.modular_fourierFunction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.original_modular_iff_normalized_eigenform' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

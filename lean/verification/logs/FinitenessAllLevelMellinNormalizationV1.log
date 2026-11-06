@@ -1,0 +1,5 @@
+'FinitenessAllLevelMellinNormalization.scalar_normalization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelMellinNormalization.coefficient_normalization' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FinitenessAllLevelMellinNormalization.completion_eq' depends on axioms: [propext, Classical.choice, Quot.sound]

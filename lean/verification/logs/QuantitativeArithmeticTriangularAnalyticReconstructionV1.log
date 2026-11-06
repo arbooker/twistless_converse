@@ -1,0 +1,8 @@
+'QuantitativeArithmeticTriangularMeromorphicReconstruction.solve_analytic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticTriangularMeromorphicReconstruction.reconstruction_analytic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSevenLaurentRows.coefficient_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+

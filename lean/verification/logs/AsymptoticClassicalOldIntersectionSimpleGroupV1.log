@@ -1,0 +1,7 @@
+'AsymptoticClassicalCusp.fractional_translation_int_mem_dilationLevel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticClassicalCusp.contractingLower_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.contractingLower_mem_join' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.contractingLower_conjugate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.small_lower_mem_join' depends on axioms: [propext, Classical.choice, Quot.sound]

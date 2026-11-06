@@ -1,0 +1,12 @@
+'FinitenessAllLevelPolynomialPresentation.analytic_product_coeff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FinitenessAllLevelPolynomialPresentation.analytic_root_product_coeff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FinitenessAllLevelPolynomialPresentation.fiberPolynomial_analytic_coeff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FinitenessAllLevelPolynomialPresentation.fiberPolynomial_eval_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

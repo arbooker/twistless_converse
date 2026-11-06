@@ -1,0 +1,464 @@
+'QuantitativeArithmeticSmallLevelTwentyTwo.edgeSRow_checked' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyTwo.edgeTRow_checked' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyTwo.gamma0_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyTwo.grid_source_taylor_of_fricke' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyTwo.original_grid_source_taylor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyTwo.gridGroup_geometry' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyTwo.gridGroup_partner_transform' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyTwo.grid_matrix_rows_of_fricke' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyTwo.original_grid_matrix_rows' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyTwo.original_grid_entire_rows' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyTwo.original_grid_hecke_two' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyTwo.original_grid_hecke_three' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyTwo.original_grid_hecke_rows' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyTwo.original_grid_fricke_laws' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyTwo.grid_fricke_of_laws' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyTwo.grid_ramanujan_taylor_of_laws' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyTwo.gridTaylorSpecs_valid' depends on axioms: [propext]
+'QuantitativeArithmeticSmallLevelTwentyTwo.grid_ramanujan_rows_of_laws' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyTwo.grid_ramanujan_system_of_laws' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyTwo.gridLeadingMatrix_mulVec' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyTwo.gridShiftMatrix_mulVec' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyTwo.kernel_invariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyTwo.original_kernel_of_five_pair' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyTwo.gamma_zero_of_five_pair' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyTwo.modular_of_five_pair' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyTwo.heckeScalar_product' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyTwo.numerator_reflection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyTwo.raw_quotient_reflection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyTwoLaurent.kernel_case0' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.kernel_case1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.kernel_case2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.kernel_case3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.kernel_case4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.kernel_case5' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.kernel_case6' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.kernel_case7' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.first0_syzygy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.first0_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.second0_syzygy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.second0_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.first1_syzygy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.first1_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.second1_syzygy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.second1_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.first2_syzygy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.first2_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.second2_syzygy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.second2_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.first3_syzygy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.first3_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.second3_syzygy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.second3_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.first4_syzygy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.first4_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.second4_syzygy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.second4_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.first5_syzygy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.first5_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.second5_syzygy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.second5_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.first6_syzygy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.first6_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.second6_syzygy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.second6_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.first7_syzygy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.first7_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.second7_syzygy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.second7_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.first0_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.first0_necessary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.second0_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.second0_necessary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.first1_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.first1_necessary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.second1_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.second1_necessary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.first2_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.first2_necessary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.second2_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.second2_necessary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.first3_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.first3_necessary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.second3_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.second3_necessary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.first4_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.first4_necessary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.second4_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.second4_necessary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.first5_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.first5_necessary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.second5_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.second5_necessary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.first6_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.first6_necessary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.second6_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.second6_necessary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.first7_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.first7_necessary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.second7_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.second7_necessary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.residual_some_point' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.residual_case0' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.kernel_zero_case0' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.residual_case1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.kernel_zero_case1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.residual_case2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.kernel_zero_case2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.residual_case3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.kernel_zero_case3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.residual_case4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.kernel_zero_case4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.residual_case5' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.kernel_zero_case5' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.residual_case6' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.kernel_zero_case6' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.residual_case7' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.kernel_zero_case7' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.core_kernel_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.core_kernel_coordinate_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.core_residual_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoFirstJet.physical' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.firstJet_equations' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.residual_candidate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.physical_candidate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoSystem.hecke_grid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoSystem.coherent_matrix_system' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoSystem.leadingMatrix_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoSystem.shiftMatrix_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoSystem.extraHeckeRow_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoSystem.extendedLeading_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoSystem.extended_matrix_system' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoParameters.sigmaTwo_sign' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoParameters.sigmaEleven_sign' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoParameters.phase_sign' depends on axioms: [propext, Classical.choice, Quot.sound]
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+'SmallLevelTwentyTwoParameters.groupRate_complex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoParameters.taylorRate_complex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoParameters.heckeScalar_parameter' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoParameters.matrixScalar_leading' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoParameters.taylorScalar_leading' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoParameters.coreRows_actual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoParameters.matrixScalar_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoParameters.taylorScalar_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+'SmallLevelTwentyTwoSystem.extendedLeading_actual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoSystem.extendedShift_actual' depends on axioms: [propext, Classical.choice, Quot.sound]
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+'SmallLevelTwentyTwoSystem.firstRows_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoSystem.firstShift_actual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoSystem.selected_regular_polynomial_first_shift' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyTwoSystem.candidate_of_regular_tails' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoPartners.quadratic_entire_of_simple_partners' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyTwoCoherentReflection.scaled_reflections_of_laws' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyTwoCoherentReflection.unscaled_reflections_of_laws' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyTwoCoherentReflection.quadratic_functional_equation_of_laws' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyTwoSystem.leadingMatrix_det_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoSystem.leadingMatrix_nonsingular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoSystem.grid_continuation_of_laws' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoSystem.continued_extended_system' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoCoherentReflection.numerator_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoCoherentReflection.finiteOrder_of_entire' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.firstRows_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.firstRows_basis' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoPartners.five_pair_of_quadratic_fricke' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoSystem.exists_poleSystem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoJetBlock.actual_jetBlockRow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoJetBlock.jetBlock_kernel_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoJetBlock.actual_block_kernel_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoSystem.PoleSystem.regular_tail_pole_at_weight' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyTwoSystem.PoleSystem.rightmost_pole_at_weight' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyTwoSystem.PoleSystem.regular_above_weight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoSystem.selected_regularized_polynomial_first_shift' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyTwoSystem.candidate_of_regularized_vector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.positiveTaylorRows_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoLaurent.positiveTaylorRows_basis' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoJetBlock.weightOneTaylorQuot_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoJetBlock.weightOneTaylorQuot_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoJetBlock.actual_regularizedBlockRow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoSystem.PoleSystem.weight_pole_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoSystem.extendedShift_zero_at_weight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoSystem.PoleSystem.regular_off_weight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoCoherentReflection.uniform_product_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyTwoCoherentReflection.uniform_finiteOrder' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoPartners.fricke_of_simple_partners' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyTwoPartners.modular_of_grid_pole_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelOriginal.level_twenty_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+

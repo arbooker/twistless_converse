@@ -1,0 +1,62 @@
+{
+  "status": "PASS_SOURCE_TO_SPARSE_CONSTRAINT_NO_FINAL_GB_CLAIM",
+  "checked_utc": "2026-10-14T21:21:34.359538+00:00",
+  "source_record": {
+    "status": "PASS_SOURCE_REGENERATION_NATIVE_PREPARED",
+    "sources": {
+      "level19_firstjet_certificate.py": "49d6495ccb6f63f5124ee23e12fe0c4d0c2dba046daa44e66f993b89aa062088",
+      "level19_pole_probe.py": "26c0acb1ae7252fd844d95468d049df85c7cfac322aefa97d0a0fff3bd0da0c2",
+      "level19_exact_membership_sparse_prepare.py": "7ce3dd37a0b97fe68cf0a1ec8d64ba7816b23e91c6c939aafc1dc2d8b1dd58dc"
+    },
+    "header_sha256": "2688b5ef89577bfb86845cfa83ee6b499d6e1385b153f820f04ab061d830d982",
+    "matrix_support": {
+      "firstjet_rows": 60,
+      "firstjet_columns": [
+        18,
+        42,
+        72,
+        132,
+        156,
+        186
+      ],
+      "leading_rows": 27,
+      "leading_columns": [
+        18,
+        42,
+        72
+      ],
+      "safe_polynomials": 15
+    },
+    "comparison_sparse_export_sha256": "d7711714d4253dc20105d130afe8429ba13f10d5b452e3b82125375f1006909a",
+    "batch_sha256": "54ee46371d4903cced11c87f93b556cefe302b306df5ee29d49b272b1f555adf",
+    "elapsed_seconds": 35.64166879653931,
+    "all15_batch_sha256": "a99551902cdd0ce415c9012ed4effe78f1aa0a1e321cc623a809e295a72a41d6",
+    "all15_prepare_sha256": "0852b57907efe390d680bf88508939bcaf5ae74b15b111ba428aadcb72defcc5",
+    "compact_old_input_sha256": "18c55f340093dfb91f49ba2ec2f7814fc28f6d98aa622f041f2d73f666155c37"
+  },
+  "native_log_sha256": "003083f555ff47e784d4c1f8c808e926708479595ee7935831ef1d583a96f5ce",
+  "native_pass_sha256": "9bbe79d69c854ae46728f15dffbcd52b69d5b17628e84f9f213ccab8596bae40",
+  "scope": "Equal-sign generic stratum; all15 sparse polynomial primitive syzygies and exact compactification; fresh originalSafe15 versus oldcompact first15; arbitrary b and no nonzero-minor assumption.",
+  "final_selected_sparse_indices": [
+    8,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "final_selected_fourth_rows": [
+    34,
+    40,
+    42,
+    44,
+    46,
+    54
+  ],
+  "audit_sources": {
+    "level19_rootind_sparse_prepare.py": "078038efd08c467b0bdeae3d6dc9ac69d02965b051ba2c65dbff57667092d686",
+    "level19_rootind_sparse_all_prepare.py": "0852b57907efe390d680bf88508939bcaf5ae74b15b111ba428aadcb72defcc5",
+    "level19_rootind_sparse_audit.tex": "134a0643e03207d63fadf84cdf0800aeaa448c6641a2b052f2f459174c9c5116",
+    "level19_rootind_sparse_manifest.py": "fc43cdbb7362b31a78aeb7f44cdbe568c9e718aecbeafec98b3eaba079869cc4"
+  }
+}

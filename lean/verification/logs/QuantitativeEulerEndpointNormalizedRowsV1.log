@@ -1,0 +1,10 @@
+'QuantitativeEulerEndpointNormalizedRows.chain_restrict_ambient' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointNormalizedRows.row_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointNormalizedRows.row_covariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointNormalizedRows.row_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointNormalizedRows.row_source' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointNormalizedRows.bound_square_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointNormalizedRows.projectionFamily_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointNormalizedRows.row_kills' depends on axioms: [propext, Classical.choice, Quot.sound]

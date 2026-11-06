@@ -1,0 +1,3 @@
+'AsymptoticClassicalCusp.S_translation_intertwine' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.translation_slash_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticClassicalCusp.cusp_zero_of_small_lower_symmetries' depends on axioms: [propext, Classical.choice, Quot.sound]

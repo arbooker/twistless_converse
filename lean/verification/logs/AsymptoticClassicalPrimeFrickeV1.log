@@ -1,0 +1,1 @@
+'AsymptoticClassicalCusp.primeHecke_fricke_new' depends on axioms: [propext, Classical.choice, Quot.sound]

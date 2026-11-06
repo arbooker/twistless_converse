@@ -1,0 +1,32 @@
+{
+  "theorem": "N21 k2 eta,bad3,bad7=(-1,-1,1), lambda2=-3/2: chi5 entire with FE epsilon525^{-h}",
+  "small_n_values_H4": [
+    54,
+    10656,
+    -2232288
+  ],
+  "dominance_cutoff": 3,
+  "dominance_margin": 3706333056,
+  "exponential_terms": {
+    "256": 64,
+    "128": 72,
+    "576": -36,
+    "64": 52,
+    "288": 72,
+    "32": 18,
+    "144": -55,
+    "16": 73,
+    "72": -126,
+    "8": 72,
+    "36": -52,
+    "4": 36,
+    "18": -72,
+    "9": -64
+  },
+  "sha256": {
+    "level21_22_weight2_chi5.py": "71a996b50443dadd5c09d7c118a83b70c057d458ce47ff71ff7a7f1053792784",
+    "level21_22_extra_prime5_poles.py": "0b4733c12fc733c9476a2eea3d13cd05f25b6343b9bcf44091c91d055f6f2415",
+    "level21_22_extra_prime5.py": "449802d8e98a34787aa8c61804fd32ca91737769dd9969987a0a416aae982846",
+    "level21_augmented_builder.py": "cbff6c17b0cfbf2009a59784f27f882e63fb0f1acc139289a19f1abaad26d849"
+  }
+}

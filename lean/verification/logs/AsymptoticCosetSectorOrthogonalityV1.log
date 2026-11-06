@@ -1,0 +1,3 @@
+'AsymptoticSectorSigns.sign_reverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCosetSectorOrthogonality.fricke_inner_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCosetSectorOrthogonality.simple_inner_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]

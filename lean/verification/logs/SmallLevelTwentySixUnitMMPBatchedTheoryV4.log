@@ -1,0 +1,7 @@
+'SmallLevelTwentySixUnitMMPBatched.source_kernel_positive_integer' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentySixUnitMMPBatched.full_leading_kernel_integer' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

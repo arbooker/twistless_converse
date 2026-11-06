@@ -1,0 +1,9 @@
+'QuantitativeTracialSpectralMeasure.integral_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeTracialSpectralMeasure.measure_real_univ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeTracialSpectralMeasure.integral_id' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeTracialSpectralMeasure.integral_log' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeTracialSpectralMeasure.fresh_high_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeTracialSpectralMeasure.small_mass_of_trace_log' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeTracialSpectralMeasure.small_mass_of_trace_log_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

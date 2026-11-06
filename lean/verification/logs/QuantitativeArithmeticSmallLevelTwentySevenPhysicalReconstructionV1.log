@@ -1,0 +1,7 @@
+'QuantitativeArithmeticSmallLevelTwentySevenPlusGenericStages.physical_left_meromorphic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentySevenPlusGenericStages.physical_reconstruction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

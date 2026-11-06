@@ -1,0 +1,3 @@
+'MaassMellin.logit_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MaassMellin.logit_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MaassMellin.log_cosh_logit' depends on axioms: [propext, Classical.choice, Quot.sound]

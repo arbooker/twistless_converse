@@ -1,0 +1,6 @@
+'QuantitativeNewGap.mem_degeneracy_iff_dilation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeNewGap.dilationCosetEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeNewGap.dilationUnitary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeNewGap.regularHecke_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeNewGap.regularHecke_apply_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeNewGap.regularHecke_norm_eq_cross_gram' depends on axioms: [propext, Classical.choice, Quot.sound]

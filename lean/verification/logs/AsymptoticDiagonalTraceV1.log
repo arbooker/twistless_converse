@@ -1,0 +1,3 @@
+'AsymptoticDiagonalTrace.projection_energy_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticDiagonalTrace.projection_hasSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticDiagonalTrace.finrank_le_trace' depends on axioms: [propext, Classical.choice, Quot.sound]

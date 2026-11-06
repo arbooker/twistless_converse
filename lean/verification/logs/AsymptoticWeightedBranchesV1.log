@@ -1,0 +1,5 @@
+'AsymptoticWeightedBranches.low_weight_cancel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticWeightedBranches.section_fold' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticWeightedBranches.coefficient_weighted' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticWeightedBranches.fold_series_selected' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticWeightedBranches.values_eq' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,2 @@
+'SmallLevelNormalized.double_coset_defect_eigen' depends on axioms: [propext, Classical.choice, Quot.sound]
+

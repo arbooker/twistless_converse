@@ -1,0 +1,67 @@
+{
+  "observed_utc": "2026-11-06T05:55:01.058641+00:00",
+  "documents": {
+    "asymptotic_euler_count": {
+      "tex_sha256": "65f55be99e0ef33cbc937796a9d37b4a14b118f47494469c00ab671c565f805a",
+      "pdf_sha256": "c004117b37cf27badbb6b6977de56ba150b79557bea47f713d0f65367ba1addc",
+      "log_sha256": "6f6cfdf2338e112eecafb57acec00846e3449d3925acce1003eddd779dcd8edc",
+      "pages": 34,
+      "pdf_path": "pdf/asymptotic_euler_count.pdf",
+      "authors": "Andrew R. Booker, Min Lee, Nina Zubrilina",
+      "attribution": "Written by GPT-6 Astra",
+      "layout_review": "Updated arXiv bibliography page rendered and visually inspected; no clipping or overlap.",
+      "latex_issues": []
+    },
+    "maass_finiteness": {
+      "tex_sha256": "b256cf89b4994db160044fb0f83ea0503f2b8b2174667d98fd3c0d0da248aeef",
+      "pdf_sha256": "b85c5ac0a2fc1ab3a852c2cdf45adcf07d1b1c99b196d0175c70cebbdb821e97",
+      "log_sha256": "6583a989de70f1c741b3aeee01d7cfe4ec132ecc271b9d237f2664646f368614",
+      "pages": 36,
+      "pdf_path": "pdf/maass_finiteness.pdf",
+      "authors": "Andrew R. Booker, Min Lee, Nina Zubrilina",
+      "attribution": "Written by GPT-6 Astra",
+      "layout_review": "Updated arXiv bibliography page rendered and visually inspected; no clipping or overlap.",
+      "latex_issues": []
+    },
+    "rank_verification_toolkit": {
+      "tex_sha256": "34e7505d7106d959dd462e15428c55b37100b2465d883da7ca45325e24fcd534",
+      "pdf_sha256": "b5a685c238f40466443492c680766eabb3abbe102772fb7150f19810ef578622",
+      "log_sha256": "c36d28d95b9505a83369fb89711f1bf9e743230af5a9f0221995b43f1ecf1ee7",
+      "pages": 15,
+      "pdf_path": "pdf/rank_verification_toolkit.pdf",
+      "authors": "Andrew R. Booker, Min Lee, Nina Zubrilina",
+      "attribution": "Written by GPT-6 Astra",
+      "layout_review": "First pages and changed bibliography/citation pages rendered and inspected. No clipping or overlap observed.",
+      "latex_issues": []
+    },
+    "small_conductor_twists": {
+      "tex_sha256": "b83c0e0dd2822781aa08f3490ce10075a0c4deb8ff490e8f3d0fea04b7d8149a",
+      "pdf_sha256": "4d5604643dfacf5c10408dfd4a779f8ac673aab03cd95fc9b255119851ca4e73",
+      "log_sha256": "17c1ffecedce763c31517cf36508bbd4375ef589ee5198ac366908655a58d45c",
+      "pages": 5,
+      "pdf_path": "pdf/small_conductor_twists.pdf",
+      "authors": "Andrew R. Booker, Min Lee, Nina Zubrilina",
+      "attribution": "Written by GPT-6 Astra",
+      "layout_review": "First pages and changed bibliography/citation pages rendered and inspected. No clipping or overlap observed.",
+      "latex_issues": []
+    },
+    "small_level_converse": {
+      "tex_sha256": "ff067b3ecbe70106ffd22a3649ff2a8916af57309e968ac2148b1905405420af",
+      "pdf_sha256": "1f049a2cebb221e125f0485d9d7d15d6c97f8fcaaf91651b6926d5acee848310",
+      "log_sha256": "f97612574516dc5223486ccc313fc0c2446aa286a7f46f3b482040cd5b1db34e",
+      "pages": 107,
+      "pdf_path": "pdf/small_level_converse.pdf",
+      "authors": "Andrew R. Booker, Min Lee, Nina Zubrilina",
+      "attribution": "Written by GPT-6 Astra",
+      "layout_review": "Updated arXiv bibliography page rendered and visually inspected; no clipping or overlap.",
+      "latex_issues": []
+    }
+  },
+  "bibliography_sha256": "abd092a3fc6f3b442dd6f17fcd84f0288098fd7216a38814110e17bc623d65bd",
+  "compiler": "pdfLaTeX via latexmk",
+  "supersedes": "RELEASE_DOCUMENTS_ATTRIBUTION_REFERENCES_20261105.json",
+  "total_pages": 197,
+  "internal_manuscript_filename_check": "All five PDF texts checked: no paper1/paper2/paper3.tex, weil.pdf or accompanying-manuscript citation remains.",
+  "arxiv_reference": "https://arxiv.org/abs/2611.07921",
+  "overleaf_commit_before_arxiv_update": "d30f7ac4d88029eca361b9957fa687ab5008d306"
+}

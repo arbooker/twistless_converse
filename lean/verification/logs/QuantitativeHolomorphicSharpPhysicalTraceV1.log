@@ -1,0 +1,9 @@
+'QuantitativeHolomorphic.Sharp.countObservationHolomorphicFilter_trace_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.Sharp.sector_finrank_le_finite_filter_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeHolomorphic.Sharp.finiteFilter_upperCut_explicit_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

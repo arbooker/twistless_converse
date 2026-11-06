@@ -1,0 +1,4 @@
+'FinitenessRamanujanArithmetic.multiplicative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessRamanujanArithmetic.divisor_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessRamanujanArithmetic.prime_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessRamanujanArithmetic.unit_invariance' depends on axioms: [propext, Classical.choice, Quot.sound]

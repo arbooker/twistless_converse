@@ -1,0 +1,5 @@
+'SmallLevelTwentyOneChiFiveObstruction.obstruction_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneChiFiveObstruction.obstruction_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneChiFiveObstruction.norm_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyOneChiFiveObstruction.residual_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]
+

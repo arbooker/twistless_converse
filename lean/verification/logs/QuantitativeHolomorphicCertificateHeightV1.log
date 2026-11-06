@@ -1,0 +1,4 @@
+'QuantitativeHolomorphic.certificate_fold_height' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.scaledCutCountExpression_uniform_matrix_height' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

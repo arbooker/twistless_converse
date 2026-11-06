@@ -1,0 +1,3 @@
+'SmallLevelTwentySixGrid.word_scale_sign' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGrid.taylor_scale_sign' depends on axioms: [propext, Classical.choice, Quot.sound]
+

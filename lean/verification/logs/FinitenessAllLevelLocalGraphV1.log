@@ -1,0 +1,9 @@
+'FinitenessAllLevelPolynomialPresentation.Presentation.RootModel.local_graph' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FinitenessAllLevelPolynomialPresentation.Presentation.graph_equation_analytic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FinitenessAllLevelPolynomialPresentation.Presentation.graph_dichotomy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,3 @@
+'QuantitativeEulerEndpointPrepared.fundamental_terminal_original_fresh_energy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

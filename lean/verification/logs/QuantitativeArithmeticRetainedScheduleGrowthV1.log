@@ -1,0 +1,22 @@
+'QuantitativeArithmeticRetainedScheduleGrowth.uniform_cost' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedScheduleGrowth.rawLength_growth' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedScheduleGrowth.normalizedMass_growth' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedScheduleGrowth.normalizedLength_growth' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedScheduleGrowth.normalizedMatrix_growth' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedScheduleGrowth.newton_growth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedScheduleGrowth.tolerance_inverse_growth' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedScheduleGrowth.height_inverse_growth' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedScheduleGrowth.depth_growth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedScheduleGrowth.cutoff_growth' depends on axioms: [propext, Classical.choice, Quot.sound]

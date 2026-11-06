@@ -1,0 +1,8 @@
+'QuantitativeArithmeticSmallLevelCirc.slashS_zero_of_fricke' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.space_strongPair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.space_lambda_differentiable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelCirc.space_lambda_finiteOrder' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

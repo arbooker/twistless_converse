@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointPrepared.projective_generator_recovery' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.good_prime_projective_generator_stack_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

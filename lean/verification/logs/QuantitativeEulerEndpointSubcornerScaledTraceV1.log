@@ -1,0 +1,4 @@
+'QuantitativeEulerEndpointTraceMass.subcorner_scaled_trace_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointTraceMass.exists_endpoint_horizon' depends on axioms: [propext, Classical.choice, Quot.sound]

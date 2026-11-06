@@ -1,0 +1,12 @@
+'QuantitativeEulerEndpointSector.normalizedPhysicalSectorMap_reconstruct' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointSector.normalizedPhysicalSectorMap_finrank' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointSector.normalizedPhysicalSectorProjection_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointSector.normalizedPhysicalSectorProjection_terminal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

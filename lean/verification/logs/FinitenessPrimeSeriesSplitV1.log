@@ -1,0 +1,3 @@
+'FinitenessPrimeSeriesSplit.primeEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessPrimeSeriesSplit.tsum_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessPrimeSeriesSplit.separated_sum' depends on axioms: [propext, Classical.choice, Quot.sound]

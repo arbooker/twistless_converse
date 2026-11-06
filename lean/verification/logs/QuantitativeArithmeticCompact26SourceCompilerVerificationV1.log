@@ -1,0 +1,7 @@
+'QuantitativeArithmeticCompact26SourceCompiler.allRowsVerified_true' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticCompact26SourceCompiler.eval_polynomial_eq_sourceRow' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

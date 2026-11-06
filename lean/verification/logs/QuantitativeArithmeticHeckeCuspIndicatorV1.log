@@ -1,0 +1,7 @@
+'QuantitativeArithmeticHeckeCuspIndicator.projective_indicator' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticHeckeCuspIndicator.determinant_indicator' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticHeckeCuspIndicator.fin_indicator' depends on axioms: [propext, Classical.choice, Quot.sound]

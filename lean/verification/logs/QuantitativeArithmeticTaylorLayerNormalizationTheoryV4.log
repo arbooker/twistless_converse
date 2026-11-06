@@ -1,0 +1,35 @@
+'QuantitativeArithmeticTaylorLayerNormalization.scale_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticTaylorLayerNormalization.scale_analytic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticTaylorLayerNormalization.normalized_coefficient' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticTaylorLayerNormalization.resonance_scale_nonzero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticTaylorLayerNormalization.normalized_taylor_coefficient' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticTaylorLayerNormalization.layer_scale_analytic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticTaylorLayerNormalization.original_resonance_scale_nonzero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticTaylorLayerNormalization.layer_scale_nonzero_on_initial_halfplane' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticTaylorLayerNormalization.inverse_layer_scale_meromorphic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticTaylorLayerNormalization.inverse_layer_scale_analytic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticTaylorLayerNormalization.normalized_taylor_term' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticTaylorLayerNormalization.normalized_phase_term' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

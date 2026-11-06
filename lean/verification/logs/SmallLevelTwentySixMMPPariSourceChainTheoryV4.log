@@ -1,0 +1,11 @@
+'SmallLevelTwentySixMMPPariSourceChain.small_source_0' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixMMPPariSourceChain.small_source_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixMMPPariSourceChain.small_source_2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixMMPPariSourceChain.small_source_3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixMMPPariSourceChain.small_source_4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixMMPPariSourceChain.small_source_5' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixMMPPariSourceChain.initial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixMMPPariSourceChain.first' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixMMPPariSourceChain.second' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixMMPPariSourceChain.reduced_equations' depends on axioms: [propext, Classical.choice, Quot.sound]
+

@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointPrepared.rational_translation_transport_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPrepared.compact_right_translation_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

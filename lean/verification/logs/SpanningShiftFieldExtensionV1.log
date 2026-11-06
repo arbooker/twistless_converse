@@ -1,0 +1,1 @@
+'SpanningShiftFieldExtension.determinant_zero_over_extension' depends on axioms: [propext, Classical.choice, Quot.sound]

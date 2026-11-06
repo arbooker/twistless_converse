@@ -1,0 +1,6 @@
+'QuantitativeArithmeticShiftedSieveProgression.progressionPrimeCount_sieve_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticShiftedSieveProgression.progressionPrimeCount_log_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

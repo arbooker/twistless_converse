@@ -1,0 +1,4 @@
+'FinitenessPaper2.recurrence_coeff_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessPaper2.prime_power_uniform_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessPaper2.coefficient_uniform_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+

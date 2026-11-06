@@ -1,0 +1,2 @@
+'SpanningVandermonde.finite_moments_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpanningVandermonde.sparse_moments_zero' depends on axioms: [propext, Classical.choice, Quot.sound]

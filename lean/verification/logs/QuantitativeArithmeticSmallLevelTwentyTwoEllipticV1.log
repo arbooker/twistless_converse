@@ -1,0 +1,7 @@
+'QuantitativeArithmeticSmallLevelTwentyTwo.Zsquare.invariant_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyTwo.Vsquare.invariant_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

@@ -1,0 +1,38 @@
+SmallLevelOriginal.SmallLevelsTheorem : Prop
+'SmallLevelNormalized.original_six_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtyThree.original_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtyThree.actual_defect_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtyThree.elliptic_defect_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtyThree.original_A' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtyFour.original_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtyFour.actual_defect_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtyFour.elliptic_defect_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtyFour.original_A' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtyFive.original_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtyFive.actual_defect_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtyFive.elliptic_defect_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelThirtyFive.original_A' depends on axioms: [propext, Classical.choice, Quot.sound]
+SmallLevelSixEigen.thirty_three_A {k : ℕ} (hk : 0 < k) {f : ℕ → ℂ} (hf : FinitenessOriginalInput.IsSolution 33 k f) :
+  SlashAction.map (↑k) SmallLevelThirtyThree.A (SmallLevelOriginal.fourierFunction k f) =
+    FinitenessNormalizedTwistProduct.root 33 f 3 • SmallLevelOriginal.fourierFunction k f
+'SmallLevelSixEigen.thirty_three_A' depends on axioms: [propext, Classical.choice, Quot.sound]
+SmallLevelSixEigen.thirty_three_B {k : ℕ} (hk : 0 < k) {f : ℕ → ℂ} (hf : FinitenessOriginalInput.IsSolution 33 k f) :
+  SlashAction.map (↑k) SmallLevelThirtyThree.B (SmallLevelOriginal.fourierFunction k f) =
+    FinitenessNormalizedTwistProduct.root 33 f 3 • SmallLevelOriginal.fourierFunction k f
+'SmallLevelSixEigen.thirty_three_B' depends on axioms: [propext, Classical.choice, Quot.sound]
+SmallLevelSixEigen.thirty_four_A {k : ℕ} (hk : 0 < k) {f : ℕ → ℂ} (hf : FinitenessOriginalInput.IsSolution 34 k f) :
+  SlashAction.map (↑k) SmallLevelThirtyFour.A (SmallLevelOriginal.fourierFunction k f) =
+    FinitenessNormalizedTwistProduct.root 34 f 2 • SmallLevelOriginal.fourierFunction k f
+'SmallLevelSixEigen.thirty_four_A' depends on axioms: [propext, Classical.choice, Quot.sound]
+SmallLevelSixEigen.thirty_four_B {k : ℕ} (hk : 0 < k) {f : ℕ → ℂ} (hf : FinitenessOriginalInput.IsSolution 34 k f) :
+  SlashAction.map (↑k) SmallLevelThirtyFour.B (SmallLevelOriginal.fourierFunction k f) =
+    FinitenessNormalizedTwistProduct.root 34 f 2 • SmallLevelOriginal.fourierFunction k f
+'SmallLevelSixEigen.thirty_four_B' depends on axioms: [propext, Classical.choice, Quot.sound]
+SmallLevelSixEigen.thirty_five_A {k : ℕ} (hk : 0 < k) {f : ℕ → ℂ} (hf : FinitenessOriginalInput.IsSolution 35 k f) :
+  SlashAction.map (↑k) SmallLevelThirtyFive.A (SmallLevelOriginal.fourierFunction k f) =
+    SmallLevelOriginal.fourierFunction k f
+'SmallLevelSixEigen.thirty_five_A' depends on axioms: [propext, Classical.choice, Quot.sound]
+SmallLevelSixEigen.thirty_five_B {k : ℕ} (hk : 0 < k) {f : ℕ → ℂ} (hf : FinitenessOriginalInput.IsSolution 35 k f) :
+  SlashAction.map (↑k) SmallLevelThirtyFive.B (SmallLevelOriginal.fourierFunction k f) =
+    SmallLevelOriginal.fourierFunction k f
+'SmallLevelSixEigen.thirty_five_B' depends on axioms: [propext, Classical.choice, Quot.sound]

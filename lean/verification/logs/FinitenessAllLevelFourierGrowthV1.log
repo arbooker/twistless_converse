@@ -1,0 +1,3 @@
+'FinitenessAllLevelFourierGrowth.coefficient_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelFourierGrowth.coefficient_bound_at_height' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelFourierGrowth.coefficient_polynomial' depends on axioms: [propext, Classical.choice, Quot.sound]

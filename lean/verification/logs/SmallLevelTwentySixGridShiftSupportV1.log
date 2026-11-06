@@ -1,0 +1,4 @@
+'SmallLevelTwentySixGrid.groupTargetSupport_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGrid.taylorTarget_restrict' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentySixGrid.shiftRows_restrict' depends on axioms: [propext, Classical.choice, Quot.sound]
+

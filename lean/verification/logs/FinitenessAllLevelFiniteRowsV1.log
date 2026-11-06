@@ -1,0 +1,2 @@
+'FinitenessAllLevelAnalyticRank.select_basis' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelAnalyticRank.finite_rows_local' depends on axioms: [propext, Classical.choice, Quot.sound]

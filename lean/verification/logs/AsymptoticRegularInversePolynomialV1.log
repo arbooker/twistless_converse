@@ -1,0 +1,12 @@
+'AsymptoticRegularTrace.polynomial_covariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.polynomial_matrix_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.cutInverse_eq_shared_series' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.cutInversePolynomial_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.cutInversePolynomial_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.cutInversePolynomial_covariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.cutInversePolynomial_matrix_measurable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticRegularObservation.cutInversePolynomial_tendstoUniformly' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

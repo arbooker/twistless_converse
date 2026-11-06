@@ -1,0 +1,4 @@
+'QuantitativeArithmeticSmallLevelThirtyThreePlusBranch1Target1.target_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

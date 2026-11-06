@@ -1,0 +1,3 @@
+'AsymptoticRegularObservation.wholeNormal_covariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.wholeNormal_matrix_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+

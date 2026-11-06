@@ -1,0 +1,9 @@
+'QuantitativeArithmeticSmallLevelEisenstein.prime_positive_factors' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelEisenstein.prime_reduction_expanding_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelEisenstein.prime_reduction_factor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,4 @@
+'QuantitativeArithmeticWeightedFourierTwist.fourier_twisted' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticWeightedFourierTwist.paired_translation_law' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

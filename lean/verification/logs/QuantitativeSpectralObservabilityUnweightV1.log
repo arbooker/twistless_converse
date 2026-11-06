@@ -1,0 +1,9 @@
+'QuantitativeSpectralObservabilityUnweight.wideCompactCover_height_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralObservabilityUnweight.wideCompactCover_cap_inverse' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeSpectralObservabilityUnweight.coefficient_norm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

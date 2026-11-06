@@ -1,0 +1,76 @@
+{
+  "level": 22,
+  "grid": 66,
+  "source_hashes": {
+    "level22_uniform_continuation.py": "370231bc5e1911417acd907eb168bf7a3dd2cb3a5c15dff956ee185cba5a2a1e",
+    "level22_first_taylor.py": "0ca9bd64143f7e25b35b06c68c22e78550d26b9656ca418663544dc60e74dce0",
+    "level22_exceptional_jet.py": "2b799dc57044c9e398fd3e63df0f7892d60da961f41176002af0b9f7fd33e697"
+  },
+  "first_jet_cases": [
+    {
+      "signs": [
+        -1,
+        -1,
+        -1
+      ],
+      "result": "FIRST_JET_IDEAL_VERIFIED -1 -1 -1"
+    },
+    {
+      "signs": [
+        -1,
+        -1,
+        1
+      ],
+      "result": "FIRST_JET_IDEAL_VERIFIED -1 -1 1"
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        -1
+      ],
+      "result": "FIRST_JET_IDEAL_VERIFIED -1 1 -1"
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        1
+      ],
+      "result": "FIRST_JET_IDEAL_VERIFIED -1 1 1"
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        -1
+      ],
+      "result": "FIRST_JET_IDEAL_VERIFIED 1 -1 -1"
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        1
+      ],
+      "result": "FIRST_JET_IDEAL_VERIFIED 1 -1 1"
+    },
+    {
+      "signs": [
+        1,
+        1,
+        -1
+      ],
+      "result": "FIRST_JET_IDEAL_VERIFIED 1 1 -1"
+    },
+    {
+      "signs": [
+        1,
+        1,
+        1
+      ],
+      "result": "FIRST_JET_IDEAL_VERIFIED 1 1 1"
+    }
+  ],
+  "exceptional_case": "EXCEPTIONAL_THIRD_JET_VERIFIED"
+}

@@ -1,0 +1,4 @@
+'AsymptoticCylinderTerminal.lift_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCylinderTerminal.adjoint_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCylinderTerminal.adjoint_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCylinderTerminal.projection_inclusion' depends on axioms: [propext, Classical.choice, Quot.sound]

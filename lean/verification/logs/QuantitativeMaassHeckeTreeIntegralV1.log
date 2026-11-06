@@ -1,0 +1,6 @@
+'QuantitativeMaass.HeckeUpper.left_matrix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeMaass.HeckeUpper.unique_cancel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeMaass.HeckeUpper.no_cancel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeMaass.HeckeUpper.next_primitive' depends on axioms: [propext, Quot.sound]
+'QuantitativeMaass.HeckeUpper.next_det_cancel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeMaass.HeckeUpper.next_det_forward' depends on axioms: [propext]

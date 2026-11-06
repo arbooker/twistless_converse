@@ -1,0 +1,7 @@
+'QuantitativeArithmeticSmallLevelTwentyFive.ZeroTwoFive.no_chart' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.ZeroTwoFive.zero_last_coordinate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

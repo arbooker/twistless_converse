@@ -1,0 +1,5 @@
+'QuantitativeEulerEndpointSector.physicalSectorMap_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointSector.physicalSectorMap_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointSector.row_sector_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointSector.packet_sector_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeEulerEndpointSector.baseline_sector_zero' depends on axioms: [propext, Classical.choice, Quot.sound]

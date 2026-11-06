@@ -1,0 +1,4 @@
+'QuantitativeHolomorphic.retained_expression_trace_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.retained_single_filter_trace_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.retained_identity_trace_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.retained_branch_trace_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

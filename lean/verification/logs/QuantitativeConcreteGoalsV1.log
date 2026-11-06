@@ -1,0 +1,1 @@
+'QuantitativeConcreteGoals.holomorphic_claim_of_trace_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

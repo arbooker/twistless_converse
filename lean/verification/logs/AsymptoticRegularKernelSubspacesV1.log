@@ -1,0 +1,7 @@
+'AsymptoticRegularObservation.finiteKernelSpace_closed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.finiteKernelSpace_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.finiteKernelSpace_antitone' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.infiniteKernelSpace_eq_iInf' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.infiniteKernelSpace_closed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularObservation.finiteKernelProjection_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+

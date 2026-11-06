@@ -1,0 +1,3 @@
+'QuantitativeEulerEndpointPrepared.exists_reconstructed_image_energy_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

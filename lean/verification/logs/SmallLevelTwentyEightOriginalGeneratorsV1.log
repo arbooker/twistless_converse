@@ -1,0 +1,3 @@
+'SmallLevelTwentyEightGenerators.U_conjugate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallLevelTwentyEightGenerators.original_generators' depends on axioms: [propext, Classical.choice, Quot.sound]
+

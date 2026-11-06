@@ -1,0 +1,6 @@
+'AsymptoticCylinderModeComparison.normalized_localizedTrace_difference_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticCylinderModeComparison.localizedTrace_difference_isLittleO' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

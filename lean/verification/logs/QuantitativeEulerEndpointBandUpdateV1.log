@@ -1,0 +1,6 @@
+'QuantitativeEulerEndpointBandExpression.regular_sharpened_representation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointBandExpression.holomorphic_sharpened' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

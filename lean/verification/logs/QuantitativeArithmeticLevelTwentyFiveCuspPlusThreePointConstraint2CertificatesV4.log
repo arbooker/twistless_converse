@@ -1,0 +1,4 @@
+'QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusThreePoint.constraint_checked_2' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

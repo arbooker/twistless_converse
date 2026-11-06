@@ -1,0 +1,9 @@
+'AsymptoticCompactObservationCount.count_le_holomorphicTraces' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticCompactObservationCount.sum_holomorphicTraces_limit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticCompactObservationCount.count_upper_of_fixed_observations' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

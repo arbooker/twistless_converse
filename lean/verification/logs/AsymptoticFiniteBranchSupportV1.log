@@ -1,0 +1,10 @@
+'AsymptoticFiniteBranch.holomorphic_left_corner' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.finiteLow_left_fixed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.holomorphicSum_lowPart_left_strip' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.holomorphicSum_terminalPart_left_strip' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AsymptoticFiniteBranch.holomorphicSum_low_left_strip' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.holomorphicSum_terminal_left_strip' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.holomorphicSum_full_left_strip' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticFiniteBranch.holomorphicSum_full_right_terminal' depends on axioms: [propext, Classical.choice, Quot.sound]

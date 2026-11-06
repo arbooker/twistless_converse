@@ -1,0 +1,6 @@
+'AsymptoticPolarIsometry.outputSpace_eq_adjoint_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticPolarIsometry.polar_adjoint_ker' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticPolarIsometry.outputSpace_comp_polar' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticPolarIsometry.contraction_norm_le_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.rectangular_gram_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticRegularTrace.trace_gram_le_support' depends on axioms: [propext, Classical.choice, Quot.sound]

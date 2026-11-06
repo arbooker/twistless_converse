@@ -1,0 +1,2 @@
+'MaassKBessel.moment_norm_decay' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MaassKBessel.moment_product_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]

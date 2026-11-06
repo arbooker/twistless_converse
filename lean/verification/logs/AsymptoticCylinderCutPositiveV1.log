@@ -1,0 +1,4 @@
+'AsymptoticReconstructedCount.cut_operator_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCylinderObservation.cutPositive_isPositive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCylinderObservation.cutPositive_norm_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCylinderObservation.cutPositive_error' depends on axioms: [propext, Classical.choice, Quot.sound]

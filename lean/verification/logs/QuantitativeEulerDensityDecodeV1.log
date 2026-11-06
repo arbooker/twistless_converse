@@ -1,0 +1,9 @@
+'QuantitativeEulerDensityGenerators.Prepared.decoded_prime_defect' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerDensityGenerators.matrixDecodedEvaluation_periodic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerDensityGenerators.Prepared.decoded_original_defect' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

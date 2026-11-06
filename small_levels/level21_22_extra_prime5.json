@@ -1,0 +1,12 @@
+{
+  "scope": "Uniform meromorphic enlarged-grid continuation in weight-two exceptional parameter cases; conditional leading-kernel constraint only, no pole exclusion.",
+  "sources": {
+    "level21_22_extra_prime5.py": "449802d8e98a34787aa8c61804fd32ca91737769dd9969987a0a416aae982846",
+    "level21_augmented_builder.py": "cbff6c17b0cfbf2009a59784f27f882e63fb0f1acc139289a19f1abaad26d849",
+    "level22_uniform_continuation.py": "370231bc5e1911417acd907eb168bf7a3dd2cb3a5c15dff956ee185cba5a2a1e"
+  },
+  "checks": [
+    "EXTRA_PRIME5_CERTIFICATE_VERIFIED 21 h2 rank 210 forced lambda5 -18/5",
+    "EXTRA_PRIME5_CERTIFICATE_VERIFIED 22 h2 rank 330 forced lambda5 -19/5"
+  ]
+}

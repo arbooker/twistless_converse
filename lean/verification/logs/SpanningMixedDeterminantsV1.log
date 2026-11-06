@@ -1,0 +1,1 @@
+'SpanningMixedDeterminants.obstruction_of_mixed_determinants' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,8 @@
+'QuantitativeArithmetic.sum_reverseDivisorMobius' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmetic.shiftedSieveWeights_dual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmetic.shiftedSieveWeights_abs_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmetic.shiftedSieveWeights_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmetic.shiftedSieveWeights_eq_zero_of_lt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmetic.shiftedSieveWeights_mainSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmetic.shiftedSieveWeights_sum_abs_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmetic.shiftedSieveWeights_sifted_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

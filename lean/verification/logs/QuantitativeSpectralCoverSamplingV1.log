@@ -1,0 +1,3 @@
+'QuantitativeSpectralCoverSampling.sampler_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralCoverSampling.sampler_supported' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeSpectralCoverSampling.sampler_weight_cancel' depends on axioms: [propext, Classical.choice, Quot.sound]

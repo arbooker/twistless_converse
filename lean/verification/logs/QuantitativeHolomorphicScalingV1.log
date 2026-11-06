@@ -1,0 +1,5 @@
+'QuantitativeHolomorphic.parameter_exponents' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.regular_error_at_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.bridgeError_at_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.power_saving_le_loglog' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeHolomorphic.exists_scale_constant' depends on axioms: [propext, Classical.choice, Quot.sound]

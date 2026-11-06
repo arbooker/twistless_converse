@@ -1,0 +1,4 @@
+'FinitenessEulerCoefficients.value_prime_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessEulerCoefficients.multiplicative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessEulerCoefficients.value_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessEulerCoefficients.polynomial_bound_of_input' depends on axioms: [propext, Classical.choice, Quot.sound]

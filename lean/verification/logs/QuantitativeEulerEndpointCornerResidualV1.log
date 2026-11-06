@@ -1,0 +1,4 @@
+'QuantitativeEulerEndpointPhysicalCorner.compressed_complement_order' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeEulerEndpointPhysicalCorner.corner_update_order' depends on axioms: [propext, Classical.choice, Quot.sound]

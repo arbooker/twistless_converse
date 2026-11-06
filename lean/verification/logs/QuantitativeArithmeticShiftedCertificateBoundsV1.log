@@ -1,0 +1,16 @@
+'QuantitativeArithmetic.inverseMatrix2_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmetic.inverseMatrix2_entry_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmetic.canonical_translation_real_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmetic.certificate_canonical_entry_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmetic.PolynomialPrimeCertificate.inverse_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmetic.exists_uniform_polynomial_certificates' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmetic.shiftedDivisorClasses_certificate_divisor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmetic.shiftedDivisorClasses_polynomial_certificates' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

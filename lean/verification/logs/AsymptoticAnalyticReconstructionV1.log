@@ -1,0 +1,6 @@
+'AsymptoticAnalyticReconstruction.lowPart_coeFn' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticAnalyticReconstruction.terminalPart_coeFn' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticAnalyticReconstruction.reconstruction_coeFn' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticAnalyticReconstruction.terminal_high' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticAnalyticReconstruction.equation_of_FE' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticAnalyticReconstruction.extension_of_FE' depends on axioms: [propext, Classical.choice, Quot.sound]

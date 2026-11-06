@@ -1,0 +1,5 @@
+'FinitenessOriginalFricke.height_reflected' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessOriginalFricke.axis_multiplier' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessOriginalFricke.fricke_with_sign' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessOriginalFricke.solution_fricke' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessOriginalFricke.fricke_of_continuation' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,1 @@
+'SpanningFineDefects.fine_defects_near' depends on axioms: [propext, Classical.choice, Quot.sound]

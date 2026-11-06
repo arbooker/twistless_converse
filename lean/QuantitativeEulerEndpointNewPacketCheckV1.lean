@@ -1,0 +1,11 @@
+module
+
+public import QuantitativeEulerEndpointOldLocalCheckV1
+public import QuantitativeEulerEndpointNewOriginalTraceV1
+public import QuantitativeEulerEndpointNewPacketDecayV1
+
+#print axioms QuantitativeEulerEndpointPrepared.exists_new_original_low_trace
+#print axioms QuantitativeEulerEndpointPrepared.newTailCost_eq
+#print axioms QuantitativeEulerEndpointPrepared.exists_new_prime_trace_loss
+#print axioms QuantitativeEulerEndpointPrepared.endpoint_new_chain_trace_bound
+#print axioms QuantitativeEulerEndpointPrepared.prepared_new_packet_trace_decay

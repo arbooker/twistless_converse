@@ -1,0 +1,7 @@
+'QuantitativeArithmeticSmallLevelTwentyFive.PositiveChart.cubic_ring_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticSmallLevelTwentyFive.PositiveChart.cubic_consequence_from_saved_rows' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

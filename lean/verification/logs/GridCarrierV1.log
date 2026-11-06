@@ -1,0 +1,2 @@
+'GridCarrier.offset_separation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GridCarrier.gridIndex_injective' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,7 @@
+'FinitenessAllLevelProperness.family_isClosed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelProperness.family_isCompact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelProperness.compact_eigenvalue_set' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelProperness.eigenvalue_isProperMap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelProperness.disk_continuous_on_family' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelProperness.disk_image_isCompact' depends on axioms: [propext, Classical.choice, Quot.sound]
+

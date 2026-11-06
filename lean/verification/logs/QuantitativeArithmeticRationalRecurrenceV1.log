@@ -1,0 +1,5 @@
+'QuantitativeArithmeticRationalRecurrence.Coefficient.analytic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRationalRecurrence.linear_rows' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRationalRecurrence.analytic_rows' depends on axioms: [propext, Classical.choice, Quot.sound]

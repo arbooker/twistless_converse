@@ -1,0 +1,505 @@
+'SmallLevelTwentyOneThirdShiftRational.coordinate000_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate001_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate002_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate003_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate004_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate005_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate006_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate007_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate008_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate009_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate010_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate011_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate012_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate013_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate014_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate015_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate016_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate017_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate018_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate019_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate020_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate021_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate022_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate023_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate024_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate025_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate026_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate027_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate028_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate029_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate030_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate031_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate032_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate033_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate034_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate035_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate036_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate037_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate038_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate039_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate040_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate041_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate042_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate043_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate044_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate045_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate046_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate047_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate048_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate049_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate050_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate051_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate052_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate053_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate054_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate055_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate056_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate057_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate058_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate059_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate060_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate061_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate062_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate063_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate064_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate065_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate066_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate067_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate068_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate069_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate070_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate071_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate072_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate073_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate074_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate075_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate076_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate077_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate078_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate079_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate080_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate081_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate082_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate083_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate084_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate085_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate086_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate087_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate088_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate089_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate090_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate091_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate092_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate093_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate094_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate095_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate096_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate097_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate098_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate099_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate100_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate101_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate102_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate103_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate104_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate105_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate106_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate107_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate108_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate109_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate110_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate111_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate112_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate113_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate114_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate115_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate116_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate117_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate118_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate119_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate120_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate121_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate122_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate123_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate124_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate125_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate126_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate127_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate128_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate129_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate130_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate131_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate132_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate133_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate134_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate135_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate136_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate137_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate138_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate139_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate140_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate141_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate142_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate143_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate144_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate145_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate146_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate147_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate148_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate149_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate150_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate151_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate152_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate153_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate154_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate155_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate156_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate157_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate158_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate159_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate160_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate161_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate162_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate163_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate164_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate165_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate166_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.coordinate167_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SmallLevelTwentyOneThirdShiftRational.kernel_zero' depends on axioms: [propext, Classical.choice, Quot.sound]

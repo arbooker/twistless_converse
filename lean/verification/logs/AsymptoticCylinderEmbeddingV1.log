@@ -1,0 +1,4 @@
+'AsymptoticCylinder.fourierMap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCylinder.fourierSum_inner' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCylinder.fourierMap_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticCylinder.fourierMap_eq_disk_ae' depends on axioms: [propext, Classical.choice, Quot.sound]

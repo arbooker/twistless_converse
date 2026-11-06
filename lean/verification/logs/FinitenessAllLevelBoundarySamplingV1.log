@@ -1,0 +1,11 @@
+'FinitenessAllLevelBoundarySampling.extend_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelBoundarySampling.circleIntegrable_of_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FinitenessAllLevelBoundarySampling.sample' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelBoundarySampling.cellSample' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelBoundarySampling.sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FinitenessAllLevelBoundarySampling.sampled_projection_compact' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

@@ -1,0 +1,7 @@
+'QuantitativeArithmeticRetainedPrimeChoice.prime_product_dvd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeArithmeticRetainedPrimeChoice.exists_prime_not_dvd' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantitativeArithmeticRetainedPrimeChoice.exists_prime_choices' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
