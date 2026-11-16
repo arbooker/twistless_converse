@@ -1,2 +1,0 @@
-'FinitenessAnalyticReconstruction.reconstruct_twists' depends on axioms: [propext, Classical.choice, Quot.sound]
-'FinitenessAnalyticReconstruction.reconstruct_FE' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,3 +1,0 @@
-'QuantitativeEulerEndpointBlockRecurrence.exists_contracting_block_update_scalar' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

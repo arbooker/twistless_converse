@@ -1,3 +1,0 @@
-'AsymptoticClassicalDimension.localFactor_of_simple' depends on axioms: [propext, Classical.choice, Quot.sound]
-'AsymptoticClassicalDimension.fullDifference_arithmetic' depends on axioms: [propext, Classical.choice, Quot.sound]
-'AsymptoticClassicalDimension.twoDifference_arithmetic' depends on axioms: [propext, Classical.choice, Quot.sound]

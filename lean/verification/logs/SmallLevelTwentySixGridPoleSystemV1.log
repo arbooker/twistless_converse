@@ -1,3 +1,0 @@
-'SmallLevelTwentySixGrid.original_pole_system' depends on axioms: [propext, Classical.choice, Quot.sound]
-'SmallLevelTwentySixGrid.PoleSystem.continued_rows' depends on axioms: [propext, Classical.choice, Quot.sound]
-

@@ -1,3 +1,0 @@
-'QuantitativeArithmeticSparseRecurrence.invariant' depends on axioms: [propext, Quot.sound]
-'QuantitativeArithmeticSparseRecurrence.linear_rows' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeArithmeticSparseRecurrence.analytic_rows' depends on axioms: [propext, Classical.choice, Quot.sound]

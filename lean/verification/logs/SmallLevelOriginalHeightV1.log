@@ -1,2 +1,0 @@
-'SmallLevelOriginal.inverse_height_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
-

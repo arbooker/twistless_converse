@@ -1,2 +1,0 @@
-'QuantitativeEulerEndpointPrepared.chain_prepend' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeEulerEndpointPrepared.normalized_combined_chain' depends on axioms: [propext, Classical.choice, Quot.sound]

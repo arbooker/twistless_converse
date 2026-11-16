@@ -1,6 +1,0 @@
-'QuantitativeArithmeticRetainedHeightWeights.weighted_dilation' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'QuantitativeArithmeticRetainedHeightWeights.reconstruct_bound' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

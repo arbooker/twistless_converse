@@ -1,3 +1,0 @@
-'QuantitativeEulerEndpointInitialPower.composed_degree' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeEulerEndpointInitialPower.composed_coeff_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeEulerEndpointInitialPower.composed_mass' depends on axioms: [propext, Classical.choice, Quot.sound]

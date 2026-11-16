@@ -1,3 +1,0 @@
-'QuantitativeEulerEndpointInitialActual.exists_initial_polynomial' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

@@ -1,1 +1,0 @@
-'QuantitativeSpectralFreshPolar.fresh_polar_high_trace' depends on axioms: [propext, Classical.choice, Quot.sound]

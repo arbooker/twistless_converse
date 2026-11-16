@@ -1,4 +1,6 @@
 module
+public meta import QuantitativeArithmeticCompactCommandsV1
+public meta import SmallLevelKernelCertificateV1
 
 public import QuantitativeArithmeticPrimitiveResiduePairV4
 public import SmallLevelModularCriterionV1
@@ -6,6 +8,8 @@ public import SmallLevelTransversalV1
 public import SmallLevelTwentySixPairMatricesV1
 public import SmallLevelTwentySixTwelfthCentersV1
 
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 /-! Consolidated chapter: SmallLevelTwentySixGroup. Original declarations and local scopes are retained. -/
 
 /-! ## SmallLevelTwentySixGroupKernelMatricesV1 -/
@@ -181,7 +185,7 @@ def letter : Fin 29 → SL(2,ℤ)
 
 def word (w : List (Fin 29)) : SL(2,ℤ) := (w.map letter).prod
 
-theorem word_mem (K : Subgroup SL(2,ℤ)) (hK : ∀ i : Fin 14, kernel i∈K)
+compact_certificate theorem word_mem (K : Subgroup SL(2,ℤ)) (hK : ∀ i : Fin 14, kernel i∈K)
     (hZ : (-1:SL(2,ℤ))∈K) (w : List (Fin 29)) : word w∈K := by
   have hl (i : Fin 29) : letter i∈K := by
     fin_cases i
@@ -315,7 +319,7 @@ def edgeTRow (c d : ZMod 26) : List (Fin 29) :=
 
 def rep (g : SL(2,ZMod 26)) : SL(2,ℤ) := repRow (g.1 1 0) (g.1 1 1)
 
-theorem row_primitive (g : SL(2,ZMod 26)) :
+compact_certificate theorem row_primitive (g : SL(2,ZMod 26)) :
     ∃ a b : ZMod 26, a*g.1 1 1-b*g.1 1 0=1 := by
   refine ⟨g.1 0 0,g.1 0 1,?_⟩
   exact (det_fin_two g.1).symm.trans g.det_coe
@@ -362,10 +366,12 @@ open scoped MatrixGroups
 
 
 
-theorem edgeSRow_checked : ∀ c d : ZMod 26, (∃ a b : ZMod 26, a*d-b*c=1) →
+compact_certificate theorem edgeSRow_checked : ∀ c d : ZMod 26, (∃ a b : ZMod 26, a*d-b*c=1) →
     repRow c d*S*(repRow d (-c))⁻¹=word (edgeSRow c d) := by
   intro c d h
-  exact (by decide +kernel : ∀ c d : ZMod 26,
+  exact (by
+    intro c
+    fin_cases c <;> kernel_certificate : ∀ c d : ZMod 26,
     Nat.gcd (Nat.gcd c.val d.val) 26 = 1 →
     repRow c d*S*(repRow d (-c))⁻¹=word (edgeSRow c d)) c d (QuantitativeArithmeticPrimitiveResiduePair.gcd_eq_one c d h)
 
@@ -411,10 +417,12 @@ open scoped MatrixGroups
 
 
 
-theorem edgeTRow_checked : ∀ c d : ZMod 26, (∃ a b : ZMod 26, a*d-b*c=1) →
+compact_certificate theorem edgeTRow_checked : ∀ c d : ZMod 26, (∃ a b : ZMod 26, a*d-b*c=1) →
     repRow c d*T*(repRow c (c+d))⁻¹=word (edgeTRow c d) := by
   intro c d h
-  exact (by decide +kernel : ∀ c d : ZMod 26,
+  exact (by
+    intro c
+    fin_cases c <;> kernel_certificate : ∀ c d : ZMod 26,
     Nat.gcd (Nat.gcd c.val d.val) 26 = 1 →
     repRow c d*T*(repRow c (c+d))⁻¹=word (edgeTRow c d)) c d (QuantitativeArithmeticPrimitiveResiduePair.gcd_eq_one c d h)
 
@@ -434,7 +442,7 @@ namespace SmallLevelTwentySixGroup
 open Matrix ModularGroup SmallLevelGenerators
 open scoped MatrixGroups
 
-theorem edgeS_checked (g : SL(2,ZMod 26)) :
+compact_certificate theorem edgeS_checked (g : SL(2,ZMod 26)) :
     rep g*S*(rep (g*reduction 26 S))⁻¹=word (edgeSRow (g.1 1 0) (g.1 1 1)) := by
   have hs : rep (g*reduction 26 S)=repRow (g.1 1 1) (-(g.1 1 0)) := by
     have hS : reduction 26 S=(⟨!![0,-1;1,0],by decide⟩ : SL(2,ZMod 26)) := by decide
@@ -442,7 +450,7 @@ theorem edgeS_checked (g : SL(2,ZMod 26)) :
   rw [hs]
   exact edgeSRow_checked _ _ (row_primitive g)
 
-theorem edgeT_checked (g : SL(2,ZMod 26)) :
+compact_certificate theorem edgeT_checked (g : SL(2,ZMod 26)) :
     rep g*T*(rep (g*reduction 26 T))⁻¹=word (edgeTRow (g.1 1 0) (g.1 1 1)) := by
   have ht : rep (g*reduction 26 T)=repRow (g.1 1 0) (g.1 1 0+g.1 1 1) := by
     have hT : reduction 26 T=(⟨!![1,1;0,1],by decide⟩ : SL(2,ZMod 26)) := by decide
@@ -450,13 +458,13 @@ theorem edgeT_checked (g : SL(2,ZMod 26)) :
   rw [ht]
   exact edgeTRow_checked _ _ (row_primitive g)
 
-theorem rep_one : rep 1=1 := by decide
+compact_certificate theorem rep_one : rep 1=1 := by decide
 
-theorem rep_upper (g : SL(2,ZMod 26)) (hg : g.1 1 0=0) : rep g=1 := by
+compact_certificate theorem rep_upper (g : SL(2,ZMod 26)) (hg : g.1 1 0=0) : rep g=1 := by
   have h : ∀ d : ZMod 26, repRow 0 d=1 := by decide
   simpa only [rep, hg] using h (g.1 1 1)
 
-theorem gamma0_mem (K : Subgroup SL(2,ℤ)) (hK : ∀ i : Fin 14, kernel i∈K)
+compact_certificate theorem gamma0_mem (K : Subgroup SL(2,ℤ)) (hK : ∀ i : Fin 14, kernel i∈K)
     (hZ : (-1:SL(2,ℤ))∈K) (γ : SL(2,ℤ)) (hγ : γ∈CongruenceSubgroup.Gamma0 26) : γ∈K := by
   apply transversal_mem (reduction 26) rep K
   · intro g
@@ -502,7 +510,7 @@ def generatorCharacter (δ η : ℂ) : Fin 5 → ℂ
   | 3 => δ
   | _ => 1
 
-theorem kernelGenerator_det (j : Fin 5) : (GeneralLinearGroup.det (kernelGenerator j):ℝ)=1 := by
+compact_certificate theorem kernelGenerator_det (j : Fin 5) : (GeneralLinearGroup.det (kernelGenerator j):ℝ)=1 := by
   fin_cases j
   · exact translation_det _
   · exact E_det
@@ -510,7 +518,7 @@ theorem kernelGenerator_det (j : Fin 5) : (GeneralLinearGroup.det (kernelGenerat
   · exact P_det
   · simp [kernelGenerator]
 
-theorem rep_eigen {k : ℤ} (F : ℍ→ℂ) (δ η : ℂ)
+compact_certificate theorem rep_eigen {k : ℤ} (F : ℍ→ℂ) (δ η : ℂ)
     (hE : F ∣[k] E=δ • F) (hW : F ∣[k] W=η • F) (j : Fin 4) :
     F ∣[k] kernelRep j=repCharacter δ η j • F := by
   fin_cases j
@@ -520,7 +528,7 @@ theorem rep_eigen {k : ℤ} (F : ℍ→ℂ) (δ η : ℂ)
   · change F ∣[k] (E*W)=(δ*η) • F
     rw [SlashAction.slash_mul,hE,det_one_smul _ (show (GeneralLinearGroup.det W:ℝ)=1 from fricke_det _ _),hW,smul_smul]
 
-theorem generator_eigen {k : ℤ} (F : ℍ→ℂ) (δ η : ℂ)
+compact_certificate theorem generator_eigen {k : ℤ} (F : ℍ→ℂ) (δ η : ℂ)
     (hT : F ∣[k] translation 1=F) (hE : F ∣[k] E=δ • F)
     (hW : F ∣[k] W=η • F) (hP : F ∣[k] P=δ • F)
     (hY : F ∣[k] Y=F) (j : Fin 5) :
@@ -536,7 +544,7 @@ theorem generator_eigen {k : ℤ} (F : ℍ→ℂ) (δ η : ℂ)
     change F ∣[k] SpecialLinearGroup.mapGL ℝ Y=F at hY
     exact hY
 
-theorem character_relation (δ η : ℂ) (hδ : δ=1 ∨ δ= -1) (hη : η=1 ∨ η= -1) (i : Fin 14) :
+compact_certificate theorem character_relation (δ η : ℂ) (hδ : δ=1 ∨ δ= -1) (hη : η=1 ∨ η= -1) (i : Fin 14) :
     repCharacter δ η (sourceIndex i)*generatorCharacter δ η (symbolIndex i)=
       repCharacter δ η (targetIndex i) := by
   rcases hδ with rfl|rfl <;> rcases hη with rfl|rfl <;> fin_cases i <;>

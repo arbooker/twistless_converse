@@ -1,2 +1,0 @@
-'AsymptoticRegularTrace.remaining_trace_deficit' depends on axioms: [propext, Classical.choice, Quot.sound]
-

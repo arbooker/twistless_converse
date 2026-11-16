@@ -1,6 +1,7 @@
 module
 
-public import SpanningBoundedAxisV1
+public import SpanningCriterionSufficiencyV1
+public import SpanningCriterionArithmeticV1
 
 @[expose] public section
 
@@ -14,8 +15,12 @@ theorem spanning (N:ℕ) (hN:0<N) (h16:¬16∣N)
     (hsq:∀p:ℕ,p.Prime→p≠2→¬p^2∣N) :
     ∃Q:ℕ,∃hQ:0<Q,N∣Q ∧
       Submodule.span ℚ (Set.range (fun i j => (primitiveRows N hQ i j:ℚ)))=⊤ :=
-  SpanningFinalReduction.spanning_of_bounded_axis hN
-    (SpanningBoundedAxis.bounded_axis ⟨hN,h16,hsq⟩)
+  by
+  obtain ⟨Q, hQ, hNQ, _, hz⟩ := SpanningCriterion.zero_kernel hN ∅ (by simp)
+    (SpanningCriterion.condition_of_admissible ⟨hN, h16, hsq⟩ ∅)
+  refine ⟨Q, hQ, hNQ, (primitive_span_top_iff hQ).mpr ?_⟩
+  intro f hf
+  exact hz f ⟨(complete_iff_primitive hN hQ f).mp hf, by simp⟩
 
 /-- An expanded coordinate formulation, exposing every row equation and
 the two strict endpoints rather than hiding them in a kernel predicate. -/

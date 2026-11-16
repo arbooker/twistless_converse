@@ -1,4 +1,5 @@
 module
+public meta import SmallLevelCertificateBatchCommandV1
 public import QuantitativeArithmeticSmallLevelNineteenPoleLeadingTheoryV4
 public import QuantitativeArithmeticSmallLevelNineteenGenericCertificatesInputBundleV4
 public import QuantitativeArithmeticSmallLevelNineteenGenericJet109IdentityCase0V1
@@ -10,6 +11,9 @@ public import QuantitativeArithmeticSmallLevelNineteenGenericJet39IdentityCase0V
 public import QuantitativeArithmeticSmallLevelNineteenGenericJet41IdentityCase0V1
 public import QuantitativeArithmeticSmallLevelNineteenGenericJet43IdentityCase0V1
 public import QuantitativeArithmeticSmallLevelNineteenOppositeCertificatesInputBundleV4
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
+set_option linter.unnecessarySeqFocus false
 @[expose] public noncomputable section
 section
 set_option autoImplicit false
@@ -23,6 +27,7 @@ set_option maxRecDepth 8192
 namespace QuantitativeArithmeticSmallLevelNineteenGenericJet109
 open QuantitativeArithmeticSmallLevelNineteenPoleLeading
 open QuantitativeArithmeticSmallLevelNineteenFullSystem
+certificate_batch {
 /-- Input9 of the published equal-sign generic certificate. -/
 def compact109 (B A Z Y X : ℂ) : ℂ := QuantitativeArithmeticSmallLevelNineteenGenericCertificates.poly9 B A Z Y X
 
@@ -67,6 +72,8 @@ theorem scalar_zero_of_output (x y z a b : ℂ)
 
 #print axioms output_contraction
 #print axioms scalar_zero_of_output
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGenericJet109
 end
 
@@ -82,6 +89,7 @@ set_option maxRecDepth 8192
 namespace QuantitativeArithmeticSmallLevelNineteenGenericJet115
 open QuantitativeArithmeticSmallLevelNineteenPoleLeading
 open QuantitativeArithmeticSmallLevelNineteenFullSystem
+certificate_batch {
 /-- Input15 of the published equal-sign generic certificate. -/
 def compact115 (B A Z Y X : ℂ) : ℂ := QuantitativeArithmeticSmallLevelNineteenGenericCertificates.poly15 B A Z Y X
 
@@ -126,6 +134,8 @@ theorem scalar_zero_of_output (x y z a b : ℂ)
 
 #print axioms output_contraction
 #print axioms scalar_zero_of_output
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGenericJet115
 end
 
@@ -141,6 +151,7 @@ set_option maxRecDepth 8192
 namespace QuantitativeArithmeticSmallLevelNineteenGenericJet200
 open QuantitativeArithmeticSmallLevelNineteenPoleLeading
 open QuantitativeArithmeticSmallLevelNineteenFullSystem
+certificate_batch {
 /-- Opposite-sign compact input 3. -/
 def compact200 (B A Z Y X : ℂ) : ℂ := QuantitativeArithmeticSmallLevelNineteenOppositeCertificates.poly3 B A Z Y X
 
@@ -185,6 +196,8 @@ theorem scalar_zero_of_output (x y z a b : ℂ)
 
 #print axioms output_contraction
 #print axioms scalar_zero_of_output
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGenericJet200
 end
 
@@ -200,6 +213,7 @@ set_option maxRecDepth 8192
 namespace QuantitativeArithmeticSmallLevelNineteenGenericJet201
 open QuantitativeArithmeticSmallLevelNineteenPoleLeading
 open QuantitativeArithmeticSmallLevelNineteenFullSystem
+certificate_batch {
 /-- Opposite-sign compact input 4. -/
 def compact201 (B A Z Y X : ℂ) : ℂ := QuantitativeArithmeticSmallLevelNineteenOppositeCertificates.poly4 B A Z Y X
 
@@ -244,6 +258,8 @@ theorem scalar_zero_of_output (x y z a b : ℂ)
 
 #print axioms output_contraction
 #print axioms scalar_zero_of_output
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGenericJet201
 end
 
@@ -259,6 +275,7 @@ set_option maxRecDepth 8192
 namespace QuantitativeArithmeticSmallLevelNineteenGenericJet202
 open QuantitativeArithmeticSmallLevelNineteenPoleLeading
 open QuantitativeArithmeticSmallLevelNineteenFullSystem
+certificate_batch {
 /-- Opposite-sign compact input 5. -/
 def compact202 (B A Z Y X : ℂ) : ℂ := QuantitativeArithmeticSmallLevelNineteenOppositeCertificates.poly5 B A Z Y X
 
@@ -303,6 +320,8 @@ theorem scalar_zero_of_output (x y z a b : ℂ)
 
 #print axioms output_contraction
 #print axioms scalar_zero_of_output
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGenericJet202
 end
 
@@ -318,6 +337,7 @@ set_option maxRecDepth 8192
 namespace QuantitativeArithmeticSmallLevelNineteenGenericJet39
 open QuantitativeArithmeticSmallLevelNineteenPoleLeading
 open QuantitativeArithmeticSmallLevelNineteenFullSystem
+certificate_batch {
 /-- Input17 of the published equal-sign generic certificate. -/
 def compact39 (B A Z Y X : ℂ) : ℂ := (((((((6:ℂ)*B*A^4*X^2 + ((2:ℂ)*A^4*Y*X^2 + (6:ℂ)*B*A^3*X^3)) + ((3:ℂ)*A^3*Y*X^3 + ((6:ℂ)*B*A^2*X^4 + (3:ℂ)*A^2*Y*X^4))) + (((6:ℂ)*B*A*X^5 + ((3:ℂ)*A*Y*X^5 + (1:ℂ)*Y*X^6)) + ((6:ℂ)*B*A^5 + ((2:ℂ)*A^5*Y + (6:ℂ)*B*A^4*X)))) + ((((-6:ℂ)*B*A^3*Y*X + ((3:ℂ)*A^4*Y*X + (-2:ℂ)*A^3*Y^2*X)) + ((12:ℂ)*B*A^3*X^2 + ((9:ℂ)*A^3*Y*X^2 + (-1:ℂ)*A^2*Y^2*X^2))) + (((-6:ℂ)*B*A^2*X^3 + ((-9:ℂ)*A^3*X^3 + (4:ℂ)*A^2*Y*X^3)) + ((-6:ℂ)*B*A*X^4 + ((-9:ℂ)*A^2*X^4 + (1:ℂ)*A*Y*X^4))))) + (((((-9:ℂ)*A*X^5 + ((3:ℂ)*Y*X^5 + (-9:ℂ)*X^6)) + ((2:ℂ)*B*A^4 + ((-6:ℂ)*B*A^3*Y + (6:ℂ)*A^4*Y))) + (((-2:ℂ)*A^3*Y^2 + ((-22:ℂ)*B*A^3*X + (-9:ℂ)*A^4*X)) + ((6:ℂ)*B^2*A*Y*X + ((-1:ℂ)*A^3*Y*X + (2:ℂ)*B*A*Y^2*X)))) + ((((-5:ℂ)*A^2*Y^2*X + ((-4:ℂ)*B*A^2*X^2 + (-45:ℂ)*A^3*X^2)) + ((14:ℂ)*A^2*Y*X^2 + ((1:ℂ)*B*Y^2*X^2 + (-10:ℂ)*B*A*X^3))) + (((-54:ℂ)*A^2*X^3 + ((-6:ℂ)*A*Y*X^3 + (-27:ℂ)*A*X^4)) + ((-5:ℂ)*Y*X^4 + ((-27:ℂ)*X^5 + (10:ℂ)*B*A^3)))))) + ((((((-72:ℂ)*A^4 + ((-6:ℂ)*B^2*A*Y + (-12:ℂ)*B*A^2*Y)) + ((6:ℂ)*A^3*Y + ((-2:ℂ)*B*A*Y^2 + (-8:ℂ)*A^2*Y^2))) + (((6:ℂ)*B^2*A*X + ((2:ℂ)*B*A^2*X + (-93:ℂ)*A^3*X)) + ((8:ℂ)*B*A*Y*X + ((32:ℂ)*A^2*Y*X + (3:ℂ)*B*Y^2*X)))) + ((((24:ℂ)*B*A*X^2 + ((-93:ℂ)*A^2*X^2 + (-8:ℂ)*B*Y*X^2)) + ((3:ℂ)*A*Y*X^2 + ((1:ℂ)*Y^2*X^2 + (-12:ℂ)*A*X^3))) + (((-2:ℂ)*Y*X^3 + ((33:ℂ)*X^4 + (-6:ℂ)*B^2*A)) + ((-10:ℂ)*B*A^2 + ((-120:ℂ)*A^3 + (16:ℂ)*B*A*Y))))) + (((((38:ℂ)*A^2*Y + ((-4:ℂ)*B*Y^2 + (-10:ℂ)*A*Y^2)) + ((-18:ℂ)*B*A*X + ((99:ℂ)*A^2*X + (-24:ℂ)*B*Y*X))) + (((35:ℂ)*A*Y*X + ((3:ℂ)*Y^2*X + (-9:ℂ)*B*X^2)) + ((21:ℂ)*A*X^2 + ((10:ℂ)*Y*X^2 + (-30:ℂ)*X^3)))) + ((((28:ℂ)*B*A + ((-168:ℂ)*A^2 + (32:ℂ)*B*Y)) + ((116:ℂ)*A*Y + ((-4:ℂ)*Y^2 + (-27:ℂ)*B*X))) + (((189:ℂ)*A*X + ((5:ℂ)*Y*X + (-15:ℂ)*X^2)) + (((36:ℂ)*B + (-12:ℂ)*Y) + ((192:ℂ)*X + (-144:ℂ))))))))
 
@@ -362,6 +382,8 @@ theorem scalar_zero_of_output (x y z a b : ℂ)
 
 #print axioms output_contraction
 #print axioms scalar_zero_of_output
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGenericJet39
 end
 
@@ -377,6 +399,7 @@ set_option maxRecDepth 8192
 namespace QuantitativeArithmeticSmallLevelNineteenGenericJet41
 open QuantitativeArithmeticSmallLevelNineteenPoleLeading
 open QuantitativeArithmeticSmallLevelNineteenFullSystem
+certificate_batch {
 /-- Input18 of the published equal-sign generic certificate. -/
 def compact41 (B A Z Y X : ℂ) : ℂ := ((((((-2:ℂ)*A^4*X^2 + (-1:ℂ)*A^3*X^3) + ((-1:ℂ)*A^2*X^4 + ((-1:ℂ)*A*X^5 + (1:ℂ)*X^6))) + (((-2:ℂ)*A^5 + ((-1:ℂ)*A^4*X + (2:ℂ)*A^3*Y*X)) + ((1:ℂ)*A^3*X^2 + ((-1:ℂ)*A^2*Y*X^2 + (8:ℂ)*A^2*X^3)))) + ((((5:ℂ)*A*X^4 + ((3:ℂ)*X^5 + ((10:ℂ)/3)*A^4)) + ((2:ℂ)*A^3*Y + (((35:ℂ)/3)*A^3*X + (-2:ℂ)*B*A*Y*X))) + (((-5:ℂ)*A^2*Y*X + (((17:ℂ)/3)*A^2*X^2 + (1:ℂ)*B*Y*X^2)) + (((-4:ℂ)/3)*A*X^3 + (((-17:ℂ)/3)*X^4 + (-2:ℂ)*A^3))))) + (((((2:ℂ)*B*A*Y + ((56:ℂ)/27)*A^2*Y) + ((-2:ℂ)*B*A*X + (((-41:ℂ)/3)*A^2*X + (3:ℂ)*B*Y*X))) + (((-4:ℂ)*A*Y*X + ((1:ℂ)*B*X^2 + ((-31:ℂ)/3)*A*X^2)) + (((-25:ℂ)/27)*Y*X^2 + (((-8:ℂ)/3)*X^3 + (2:ℂ)*B*A)))) + (((((70:ℂ)/3)*A^2 + ((-4:ℂ)*B*Y + (-14:ℂ)*A*Y)) + ((3:ℂ)*B*X + (((17:ℂ)/3)*A*X + ((77:ℂ)/27)*Y*X))) + ((((67:ℂ)/3)*X^2 + ((-4:ℂ)*B + (-16:ℂ)*A)) + (((-52:ℂ)/27)*Y + ((-34:ℂ)*X + (16:ℂ)))))))
 
@@ -421,6 +444,8 @@ theorem scalar_zero_of_output (x y z a b : ℂ)
 
 #print axioms output_contraction
 #print axioms scalar_zero_of_output
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGenericJet41
 end
 
@@ -436,6 +461,7 @@ set_option maxRecDepth 8192
 namespace QuantitativeArithmeticSmallLevelNineteenGenericJet43
 open QuantitativeArithmeticSmallLevelNineteenPoleLeading
 open QuantitativeArithmeticSmallLevelNineteenFullSystem
+certificate_batch {
 /-- Input19 of the published equal-sign generic certificate. -/
 def compact43 (B A Z Y X : ℂ) : ℂ := QuantitativeArithmeticSmallLevelNineteenGenericCertificates.poly19 B A Z Y X
 
@@ -480,5 +506,7 @@ theorem scalar_zero_of_output (x y z a b : ℂ)
 
 #print axioms output_contraction
 #print axioms scalar_zero_of_output
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGenericJet43
 end

@@ -1,3 +1,0 @@
-'QuantitativeEulerEndpointResidual.polynomial_residual' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeEulerEndpointResidual.polynomial_fixed_residual' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeEulerEndpointResidual.polynomial_zero_residual' depends on axioms: [propext, Classical.choice, Quot.sound]

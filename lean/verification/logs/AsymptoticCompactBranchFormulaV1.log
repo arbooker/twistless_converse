@@ -1,3 +1,0 @@
-'AsymptoticCompactBranch.folded_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
-'AsymptoticCompactBranch.operator_on_section' depends on axioms: [propext, Classical.choice, Quot.sound]
-'AsymptoticCompactBranch.compactOperator_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,9 +1,13 @@
 module
+public meta import SmallLevelCertificateBatchCommandV1
 
 public import QuantitativeArithmeticSevenLaurentRowsTheoryV4
 public import QuantitativeArithmeticSmallLevelTwentySixMMPPrimitiveTheoryV4
 public import SmallLevelTwentySixMMPPariSyzygyIndexColumnFamilySeriesV4
 public import SmallLevelTwentySixMMPPariSyzygyIndexColumnIndexDataSeriesV4
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
+set_option linter.unnecessarySeqFocus false
 
 /-! Consolidated chapter: SmallLevelTwentySixMMPPari. Original declarations and local scopes are retained. -/
 
@@ -21,6 +25,7 @@ set_option linter.unnecessarySeqFocus false
 
 namespace SmallLevelTwentySixMMPPari
 open QuantitativeArithmeticSevenLaurentRows
+certificate_batch {
 def constraint6Base0 : Poly := [((125/5164665296902233408),0,(0,6,0,0,1,0,0)),
 ((125/573851699655803712),0,(0,5,0,0,2,0,0)),
 ((-1/35422944423197760),0,(0,4,0,1,2,0,0)),
@@ -1284,6 +1289,9 @@ def constraint6Base6 : Poly := [((-91375/194123363103141264359424),0,(0,6,0,0,1,
 ((226608025/25554382897545216),1,(0,0,0,0,1,0,0)),
 ((2403997/8518127632515072),1,(0,0,0,0,0,1,0)),
 ((28513025/709843969376256),1,(0,0,0,0,0,0,0))]
+certificate_batch {
+}
+
 def constraint6Base7 : Poly := [((45875/366677463639266832678912),0,(0,6,0,0,1,0,0)),
 ((260125/162967761617451925635072),0,(0,5,0,0,2,0,0)),
 ((-1/48364126785806008320),0,(0,4,0,1,2,0,0)),
@@ -2409,6 +2417,9 @@ def constraint7Base2 : Poly := [((73175/2644308632013943504896),0,(0,6,0,0,1,0,0
 ((1750025/36298839343104),1,(0,0,0,0,1,0,0)),
 ((-2605/2016602185728),1,(0,0,0,0,0,1,0)),
 ((-2194475/44365248086016),1,(0,0,0,0,0,0,0))]
+certificate_batch {
+}
+
 def constraint7Base3 : Poly := [((-1111325/412512146594175186763776),0,(0,6,0,0,1,0,0)),
 ((-11/29677986891290050560),0,(0,5,0,1,1,0,0)),
 ((455725/3525744842685258006528),0,(0,5,0,0,2,0,0)),
@@ -3613,6 +3624,9 @@ def constraint7Base8 : Poly := [((205/30556455303272236056576),0,(0,5,0,1,0,0,0)
 ((438454625/4906441516328681472),1,(0,0,0,0,1,0,0)),
 ((5826857/181720056160321536),1,(0,0,0,0,0,1,0)),
 ((-93895925/181720056160321536),1,(0,0,0,0,0,0,0))]
+certificate_batch {
+}
+
 def constraint7Base9 : Poly := [((-125/2089330277146819559424),0,(0,5,0,0,1,0,0)),
 ((-625/464295617143737679872),0,(0,4,0,0,2,0,0)),
 ((-125/17196133968286580736),0,(0,3,0,0,3,0,0)),
@@ -3862,6 +3876,8 @@ theorem constraint7_support : ∀ t,t∈constraint7Row → t.2.1=0 ∨ t.2.1=1 :
   exact of_decide_eq_true ((List.all_eq_true.mp h) t ht)
 #print axioms constraint7_support
 
+}
+
 end SmallLevelTwentySixMMPPari
 end
 end
@@ -3883,6 +3899,7 @@ set_option maxRecDepth 32768
 namespace SmallLevelTwentySixMMPPari
 open QuantitativeArithmeticSevenLaurentRows
 
+certificate_batch {
 theorem constraint6_base_0 (x y z w a b : ℂ) (v : ℕ→ℂ) :
     eval x y z w a b 1 v constraint6Base0=(SmallLevelTwentySixMMPPariSyzygy6Column0.c10_0 y z w a b)*v 0+(SmallLevelTwentySixMMPPariSyzygy6Column1.c10_0 y z w a b)*v 1 := by
   norm_num [constraint6Base0,eval,monomial,SmallLevelTwentySixMMPPariSyzygy6Column0.c10_0,SmallLevelTwentySixMMPPariSyzygy6Column1.c10_0]
@@ -3979,6 +3996,8 @@ theorem constraint6_base_15 (x y z w a b : ℂ) (v : ℕ→ℂ) :
   <;> ring
 #print axioms constraint6_base_15
 
+}
+
 end SmallLevelTwentySixMMPPari
 end
 
@@ -3995,6 +4014,7 @@ set_option maxRecDepth 32768
 namespace SmallLevelTwentySixMMPPari
 open QuantitativeArithmeticSevenLaurentRows
 
+certificate_batch {
 theorem constraint7_base_0 (x y z w a b : ℂ) (v : ℕ→ℂ) :
     eval x y z w a b 1 v constraint7Base0=(SmallLevelTwentySixMMPPariSyzygy7Column0.c10_0 y z w a b)*v 0+(SmallLevelTwentySixMMPPariSyzygy7Column1.c10_0 y z w a b)*v 1 := by
   norm_num [constraint7Base0,eval,monomial,SmallLevelTwentySixMMPPariSyzygy7Column0.c10_0,SmallLevelTwentySixMMPPariSyzygy7Column1.c10_0]
@@ -4085,6 +4105,8 @@ theorem constraint7_base_14 (x y z w a b : ℂ) (v : ℕ→ℂ) :
   <;> ring
 #print axioms constraint7_base_14
 
+}
+
 end SmallLevelTwentySixMMPPari
 end
 end
@@ -4104,6 +4126,7 @@ set_option maxRecDepth 32768
 namespace SmallLevelTwentySixMMPPari
 open QuantitativeArithmeticSevenLaurentRows QuantitativeArithmeticSmallLevelTwentySixMMPPrimitive
 
+certificate_batch {
 theorem primitive_row_10 (x y z w a b : ℂ) (v : ℕ→ℂ) :
     eval x y z w a b 1 v (primitiveRows 10)=(SmallLevelTwentySixMMPPariSyzygy6Column0.p7 x y z w a b)*v 0+(SmallLevelTwentySixMMPPariSyzygy6Column1.p7 x y z w a b)*v 1+(SmallLevelTwentySixMMPPariSyzygy6Column2.p7 x y z w a b)*v 2+(SmallLevelTwentySixMMPPariSyzygy6Column3.p7 x y z w a b)*v 3+(SmallLevelTwentySixMMPPariSyzygy6Column4.p7 x y z w a b)*v 4+(SmallLevelTwentySixMMPPariSyzygy6Column5.p7 x y z w a b)*v 5 := by
   norm_num [primitiveRows,primitive10,eval,monomial,SmallLevelPolynomialCoefficientCertificate.evaluate,SmallLevelTwentySixMMPPariSyzygy6Column0.p7,SmallLevelTwentySixMMPPariSyzygy6Column0.coefficients7,SmallLevelTwentySixMMPPariSyzygy6Column0.c7_0,SmallLevelTwentySixMMPPariSyzygy6Column0.c7_1,SmallLevelTwentySixMMPPariSyzygy6Column0.c7_2,SmallLevelTwentySixMMPPariSyzygy6Column0.c7_3,SmallLevelTwentySixMMPPariSyzygy6Column1.p7,SmallLevelTwentySixMMPPariSyzygy6Column1.coefficients7,SmallLevelTwentySixMMPPariSyzygy6Column1.c7_0,SmallLevelTwentySixMMPPariSyzygy6Column1.c7_1,SmallLevelTwentySixMMPPariSyzygy6Column1.c7_2,SmallLevelTwentySixMMPPariSyzygy6Column2.p7,SmallLevelTwentySixMMPPariSyzygy6Column2.coefficients7,SmallLevelTwentySixMMPPariSyzygy6Column2.c7_0,SmallLevelTwentySixMMPPariSyzygy6Column2.c7_1,SmallLevelTwentySixMMPPariSyzygy6Column2.c7_2,SmallLevelTwentySixMMPPariSyzygy6Column2.c7_3,SmallLevelTwentySixMMPPariSyzygy6Column3.p7,SmallLevelTwentySixMMPPariSyzygy6Column3.coefficients7,SmallLevelTwentySixMMPPariSyzygy6Column3.c7_0,SmallLevelTwentySixMMPPariSyzygy6Column3.c7_1,SmallLevelTwentySixMMPPariSyzygy6Column3.c7_2,SmallLevelTwentySixMMPPariSyzygy6Column4.p7,SmallLevelTwentySixMMPPariSyzygy6Column4.coefficients7,SmallLevelTwentySixMMPPariSyzygy6Column4.c7_0,SmallLevelTwentySixMMPPariSyzygy6Column4.c7_1,SmallLevelTwentySixMMPPariSyzygy6Column4.c7_2,SmallLevelTwentySixMMPPariSyzygy6Column4.c7_3,SmallLevelTwentySixMMPPariSyzygy6Column4.c7_4,SmallLevelTwentySixMMPPariSyzygy6Column5.p7,SmallLevelTwentySixMMPPariSyzygy6Column5.coefficients7,SmallLevelTwentySixMMPPariSyzygy6Column5.c7_0,SmallLevelTwentySixMMPPariSyzygy6Column5.c7_1,SmallLevelTwentySixMMPPariSyzygy6Column5.c7_2]
@@ -4140,6 +4163,8 @@ theorem primitive_row_9 (x y z w a b : ℂ) (v : ℕ→ℂ) :
   <;> ring
 #print axioms primitive_row_9
 
+}
+
 end SmallLevelTwentySixMMPPari
 end
 end
@@ -4158,6 +4183,7 @@ set_option maxRecDepth 32768
 namespace SmallLevelTwentySixMMPPari
 open QuantitativeArithmeticSevenLaurentRows QuantitativeArithmeticSmallLevelTwentySixMMPPrimitive
 
+certificate_batch {
 def constraint6 (x y z w a b : ℂ) (v : ℕ→ℂ) : ℂ := (SmallLevelTwentySixMMPPariSyzygy6Column0.p10 x y z w a b)*v 0+(SmallLevelTwentySixMMPPariSyzygy6Column1.p10 x y z w a b)*v 1
 theorem syzygy6 (x y z w a b : ℂ) (v : ℕ→ℂ) :
     (SmallLevelTwentySixMMPPariSyzygy6Column0.p0 x y z w a b)*eval x y z w a b 1 v (primitiveRows 6)=
@@ -4188,6 +4214,8 @@ theorem syzygy7 (x y z w a b : ℂ) (v : ℕ→ℂ) :
   linear_combination v 0*h0+v 1*h1+v 2*h2+v 3*h3+v 4*h4+v 5*h5
 #print axioms syzygy7
 
+}
+
 end SmallLevelTwentySixMMPPari
 end
 end
@@ -4207,6 +4235,7 @@ namespace SmallLevelTwentySixMMPPari
 open QuantitativeArithmeticSevenLaurentRows
 open QuantitativeArithmeticSmallLevelTwentySixMMPPrimitive
 
+certificate_batch {
 def c00 (x y z w a b : ℂ) : ℂ := (-1/3:ℂ)*x^3+(-1/2:ℂ)*x^2*y+(5/3:ℂ)*x^2+(3/2:ℂ)*x*y+(-127/30:ℂ)*x+(-1/1:ℂ)*y+(1/1:ℂ)
 
 def c01 (x y z w a b : ℂ) : ℂ := (-9/10:ℂ)*x^2+(1/2:ℂ)*x*a+(13/10:ℂ)*x+(-1/1:ℂ)*a+(1/1:ℂ)
@@ -4273,6 +4302,8 @@ theorem small_row_5 (x y z w a b : ℂ) (v : ℕ→ℂ) :
   ring
 #print axioms small_row_5
 
+}
+
 end SmallLevelTwentySixMMPPari
 end
 end
@@ -4288,6 +4319,7 @@ namespace SmallLevelTwentySixMMPPari
 open QuantitativeArithmeticSevenLaurentRows
 open QuantitativeArithmeticSmallLevelTwentySixMMPPrimitive
 
+certificate_batch {
 /-- The second columns of the first five small rows have no common zero.
 This excludes the missing projective chart without a physical hypothesis. -/
 theorem second_columns_no_common_zero (x y z w a b : ℂ)
@@ -4347,6 +4379,8 @@ theorem first_coordinate_ne_zero (x y z w a b : ℂ) (v : ℕ→ℂ)
 
 #print axioms second_columns_no_common_zero
 #print axioms first_coordinate_ne_zero
+}
+
 end SmallLevelTwentySixMMPPari
 end
 end
@@ -4360,6 +4394,7 @@ namespace SmallLevelTwentySixMMPPari
 open QuantitativeArithmeticSevenLaurentRows
 open QuantitativeArithmeticSmallLevelTwentySixMMPPrimitive
 
+certificate_batch {
 theorem parameter_x_ne_two (x y z w a b : ℂ) (v : ℕ→ℂ)
     (hv : v 0≠0 ∨ v 1≠0)
     (h : ∀ i : Fin 5,eval x y z w a b 1 v (primitiveRows ⟨i,i.isLt.trans (by decide)⟩)=0) :
@@ -4384,6 +4419,8 @@ theorem normalize_equation (a b v0 v1 : ℂ) (hv : v0≠0)
 
 #print axioms parameter_x_ne_two
 #print axioms normalize_equation
+}
+
 end SmallLevelTwentySixMMPPari
 end
 end

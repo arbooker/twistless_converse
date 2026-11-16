@@ -12,6 +12,7 @@ import re
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--axiom-log', type=Path)
+    parser.add_argument('--recorded-reports', action='store_true', help='Verify the supplied endpoint logs against their checked hashes')
     args = parser.parse_args()
     root = Path(__file__).resolve().parent
     manifest = json.loads((root / 'SOURCE_MANIFEST.json').read_text())
@@ -20,7 +21,7 @@ def main():
         p = root / (name + '.lean')
         if not p.is_file() or hashlib.sha256(p.read_bytes()).hexdigest() != record['source_sha256']:
             problems.append('Source mismatch: ' + name)
-    expected = set(manifest['modules']) | {'ReleaseCheck'}
+    expected = set(manifest['modules'])
     actual = {p.stem for p in root.glob('*.lean')}
     if expected != actual:
         problems.append('Unexpected/missing Lean files: ' + str(sorted(expected ^ actual)))
@@ -38,8 +39,20 @@ def main():
     mathlib = [p for p in packages if p['name'] == 'mathlib']
     if len(mathlib) != 1 or mathlib[0]['rev'] != '065356127b1dc0016f66b7283ce0ce2c4055aa55':
         problems.append('Unexpected Mathlib revision')
-    if args.axiom_log:
-        log = args.axiom_log.read_text()
+    if args.axiom_log or args.recorded_reports:
+        if args.axiom_log:
+            log = args.axiom_log.read_text()
+        else:
+            evidence = json.loads((root / 'verification/checked-endpoints.json').read_text())
+            if evidence['closure'] != manifest['modules']:
+                problems.append('Verification record does not match the source manifest')
+            log_parts = []
+            for name in sorted({r['module'] for r in evidence['named_reports'].values()}):
+                p = root / 'verification/logs' / (name + '.log')
+                if hashlib.sha256(p.read_bytes()).hexdigest() != manifest['modules'][name]['log_sha256']:
+                    problems.append('Recorded log mismatch: ' + name)
+                log_parts.append(p.read_text())
+            log = '\n'.join(log_parts)
         if 'sorryAx' in log or re.search(r'(?im)^.*\berror:', log):
             problems.append('Compiler error or sorryAx in log')
         reports = {}
@@ -56,7 +69,7 @@ def main():
     if problems:
         raise SystemExit('\n'.join(problems))
     print('Source bytes and pins match:', len(manifest['modules']), 'modules.')
-    if args.axiom_log:
+    if args.axiom_log or args.recorded_reports:
         print('All named endpoint axiom reports are present and standard-only.')
 
 

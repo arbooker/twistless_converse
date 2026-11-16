@@ -1,0 +1,19 @@
+module
+
+public import QuantitativeMaassCuspAveragedEquationCheckV1
+public import QuantitativeMaassCuspLogDuhamelV1
+public import QuantitativeArithmeticMaassWaveTestSeparationV1
+
+#print axioms QuantitativeMaass.heightMeasure_rectangle_eq
+#print axioms QuantitativeMaass.exp_logBand_preserving
+#print axioms QuantitativeMaass.localHalfDensity_ae
+#print axioms QuantitativeMaass.localHalfDensity_inner
+#print axioms QuantitativeMaass.inverseHalfDensityTest_smooth
+#print axioms QuantitativeMaass.cuspLogConstant_representative_ae
+#print axioms QuantitativeMaass.Wave.cuspLogConstant_wave_continuous
+#print axioms QuantitativeMaass.Wave.cuspLogWaveTest_second_derivative
+#print axioms QuantitativeMaass.Wave.cuspLogWaveTest_initial_velocity
+#print axioms QuantitativeMaass.Wave.cuspLogWaveTest_contDiff_two
+#print axioms QuantitativeMaass.Wave.cuspLogWaveTest_band_independent
+#print axioms QuantitativeMaass.Wave.cuspLogWaveTest_integrated
+#print axioms QuantitativeArithmeticMaassLocalWave.ae_zero_of_classical_testAverages

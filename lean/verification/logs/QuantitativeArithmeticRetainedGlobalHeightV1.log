@@ -1,2 +1,0 @@
-'QuantitativeArithmeticRetainedGlobalHeight.parameters_exist' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeArithmeticRetainedGlobalHeight.pointwise' depends on axioms: [propext, Classical.choice, Quot.sound]

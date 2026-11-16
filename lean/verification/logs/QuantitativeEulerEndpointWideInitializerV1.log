@@ -1,1 +1,0 @@
-'QuantitativeEulerEndpointWideInitializer.exists_initial' depends on axioms: [propext, Classical.choice, Quot.sound]

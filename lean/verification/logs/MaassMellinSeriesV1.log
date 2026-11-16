@@ -1,2 +1,0 @@
-'MaassMellinSeries.exchange' depends on axioms: [propext, Classical.choice, Quot.sound]
-'MaassMellinSeries.inverse' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -109,6 +109,15 @@ public import QuantitativeArithmeticLevelTwentyFiveConverseCompactTarget12Certif
 public import QuantitativeArithmeticLevelTwentyFiveConverseCompactTarget13CertificateV4
 public import QuantitativeArithmeticLevelTwentyFiveConverseCompactTarget14CertificateV4
 public import QuantitativeArithmeticLevelTwentyFiveConverseZeroTwoFiveRingCertificatesV4
+public meta import SmallLevelCertificateBatchCommandV1
+public import QuantitativeArithmeticSmallLevelTwentyFiveConverseRowCertificatesV6
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
+set_option linter.unusedSimpArgs false
+set_option linter.unnecessarySimpa false
+open scoped Topology
+open scoped Matrix
+certificate_batch {
 set_option Elab.async false
 set_option linter.unusedTactic false
 set_option linter.unreachableTactic false
@@ -1794,13 +1803,13 @@ open QuantitativeArithmeticSevenLaurentRows OriginalCertificates
 open QuantitativeArithmeticSmallLevelTwentyFiveAuxGridModel
 open QuantitativeArithmeticSmallLevelTwentyFiveFiniteGrid
 
-compact_certificate theorem left147_support : ∀ t ∈ left147,t.2.1<4518 := by decide +kernel
-compact_certificate theorem left147_jet_support : ∀ t ∈ left147,t.2.1 ∈ jetIndices := by decide +kernel
-compact_certificate theorem right147_support : ∀ t ∈ right147,t.2.1<4518 := by decide +kernel
-compact_certificate theorem lower147_operations : lower147node12Ops=left147 := by decide +kernel
+compact_certificate theorem left147_support : ∀ t ∈ left147,t.2.1<4518 := by exact left147_support_compact
+compact_certificate theorem left147_jet_support : ∀ t ∈ left147,t.2.1 ∈ jetIndices := by exact left147_jet_support_compact
+compact_certificate theorem right147_support : ∀ t ∈ right147,t.2.1<4518 := by exact right147_support_compact
+compact_certificate theorem lower147_operations : lower147node12Ops=left147 := by exact lower147_operations_compact
 compact_certificate theorem mixed147_operations : mixed147node58Ops=left147 ++
-    reindex (fun j => j+4518) (shift (-1) (0,0,0,0,0,0,0) right147) := by decide +kernel
-compact_certificate theorem mixed147_result : mixed147node58Result=result147 := by decide +kernel
+    reindex (fun j => j+4518) (shift (-1) (0,0,0,0,0,0,0) right147) := by exact mixed147_operations_compact
+compact_certificate theorem mixed147_result : mixed147node58Result=result147 := by exact mixed147_result_compact
 
 compact_certificate theorem lower147_zero (x y z w a b c : ℂ) (v : ℕ → ℂ)
     (hx : x≠0) (hy : y≠0) (hz : z≠0) (hw : w≠0) :
@@ -1841,13 +1850,13 @@ compact_certificate theorem result147_physical (m : ℕ) (f : ℕ → ℂ) (s : 
 #print axioms lower147_physical
 #print axioms result147_physical
 
-compact_certificate theorem left201_support : ∀ t ∈ left201,t.2.1<4518 := by decide +kernel
-compact_certificate theorem left201_jet_support : ∀ t ∈ left201,t.2.1 ∈ jetIndices := by decide +kernel
-compact_certificate theorem right201_support : ∀ t ∈ right201,t.2.1<4518 := by decide +kernel
-compact_certificate theorem lower201_operations : lower201node18Ops=left201 := by decide +kernel
+compact_certificate theorem left201_support : ∀ t ∈ left201,t.2.1<4518 := by exact left201_support_compact
+compact_certificate theorem left201_jet_support : ∀ t ∈ left201,t.2.1 ∈ jetIndices := by exact left201_jet_support_compact
+compact_certificate theorem right201_support : ∀ t ∈ right201,t.2.1<4518 := by exact right201_support_compact
+compact_certificate theorem lower201_operations : lower201node18Ops=left201 := by exact lower201_operations_compact
 compact_certificate theorem mixed201_operations : mixed201node78Ops=left201 ++
-    reindex (fun j => j+4518) (shift (-1) (0,0,0,0,0,0,0) right201) := by decide +kernel
-compact_certificate theorem mixed201_result : mixed201node78Result=result201 := by decide +kernel
+    reindex (fun j => j+4518) (shift (-1) (0,0,0,0,0,0,0) right201) := by exact mixed201_operations_compact
+compact_certificate theorem mixed201_result : mixed201node78Result=result201 := by exact mixed201_result_compact
 
 compact_certificate theorem lower201_zero (x y z w a b c : ℂ) (v : ℕ → ℂ)
     (hx : x≠0) (hy : y≠0) (hz : z≠0) (hw : w≠0) :
@@ -4849,3 +4858,5 @@ compact_certificate theorem original_modular {m : ℕ} (hm : 0 < m) {f : ℕ →
 end QuantitativeArithmeticSmallLevelTwentyFive
 end
 end
+
+}

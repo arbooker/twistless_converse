@@ -1,6 +1,0 @@
-'QuantitativeEulerEndpointBoundedIteration.exists_actual_gram_exponential' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'QuantitativeEulerEndpointBoundedIteration.exp_times_double_exp_square' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

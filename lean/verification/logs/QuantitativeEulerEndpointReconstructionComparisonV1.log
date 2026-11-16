@@ -1,3 +1,0 @@
-'QuantitativeEulerEndpointBoundedIteration.exists_paid_common_reconstruction' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

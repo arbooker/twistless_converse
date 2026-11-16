@@ -1,3 +1,0 @@
-'QuantitativeHolomorphic.Schedule.quantifiedFilterMatrixHeight_growth' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

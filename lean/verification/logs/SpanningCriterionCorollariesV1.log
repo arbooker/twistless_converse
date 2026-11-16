@@ -1,0 +1,4 @@
+'SpanningCriterion.spanning_rows_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpanningCriterion.vanishing_empty_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpanningCriterion.vanishing_primeFactors_iff_sqrt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpanningCriterion.vanishing_singleton' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,3 +1,0 @@
-'SmallLevelTwentySixGrid.fullLeadingMatrix_mulVec' depends on axioms: [propext, Classical.choice, Quot.sound]
-'SmallLevelTwentySixGrid.fullShiftMatrix_mulVec' depends on axioms: [propext, Classical.choice, Quot.sound]
-

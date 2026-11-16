@@ -1,3 +1,0 @@
-'QuantitativeNewGap.localNew_projections_commute' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeNewGap.totalNew_old_energy_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeNewGap.totalNew_weighted_old_energy_gap' depends on axioms: [propext, Classical.choice, Quot.sound]

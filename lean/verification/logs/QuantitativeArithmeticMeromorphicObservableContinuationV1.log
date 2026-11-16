@@ -1,3 +1,0 @@
-'QuantitativeArithmeticMeromorphicObservableContinuation.meromorphic_observations_staged' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

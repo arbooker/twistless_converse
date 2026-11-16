@@ -1,9 +1,0 @@
-'QuantitativeEulerEndpointInitialExpression.rowSquareMass_polynomial' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'QuantitativeEulerEndpointInitialExpression.rowMatrixHeight_polynomial' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'QuantitativeEulerEndpointInitialExpression.exists_initial_expression_envelope' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

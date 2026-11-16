@@ -1,7 +1,11 @@
 module
+public meta import SmallLevelCertificateBatchCommandV1
 public import SmallLevelTwentySixPariIdentityIndexDataSeriesV4
 public import SmallLevelTwentySixPariIdentityIndexTransposeIndexSeriesV4
 public import SmallLevelTwentySixPariIdentityIndexXDataSeriesV4
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
+set_option linter.unnecessarySeqFocus false
 @[expose] public noncomputable section
 section
 set_option autoImplicit false
@@ -13,6 +17,7 @@ set_option maxRecDepth 8192
 /-! Consolidated certificate family; original declaration bodies retained. -/
 namespace SmallLevelTwentySixPariIdentity017
 
+certificate_batch {
 theorem p0_x_binding (x y z w a b u : ℂ) :
     p0 x y z w a b u = SmallLevelTwentySixPariIdentity017X.p0 x y z w a b u := by
   unfold p0 SmallLevelTwentySixPariIdentity017X.p0 coefficients0 SmallLevelTwentySixPariIdentity017X.coefficients0
@@ -33,6 +38,9 @@ theorem p2_x_binding (x y z w a b u : ℂ) :
 
 #print axioms p2_x_binding
 
+certificate_batch {
+}
+
 theorem p3_x_binding (x y z w a b u : ℂ) :
     p3 x y z w a b u = SmallLevelTwentySixPariIdentity017X.p3 x y z w a b u := by
   unfold p3 SmallLevelTwentySixPariIdentity017X.p3 coefficients3 SmallLevelTwentySixPariIdentity017X.coefficients3
@@ -40,6 +48,9 @@ theorem p3_x_binding (x y z w a b u : ℂ) :
   ring
 
 #print axioms p3_x_binding
+
+certificate_batch {
+}
 
 theorem p4_x_binding (x y z w a b u : ℂ) :
     p4 x y z w a b u = SmallLevelTwentySixPariIdentity017X.p4 x y z w a b u := by
@@ -64,6 +75,8 @@ theorem p6_x_binding (x y z w a b u : ℂ) :
 
 #print axioms p6_x_binding
 
+}
+
 end SmallLevelTwentySixPariIdentity017
 end
 
@@ -77,6 +90,7 @@ set_option maxRecDepth 8192
 /-! Consolidated certificate family; original declaration bodies retained. -/
 namespace SmallLevelTwentySixPariIdentity021
 
+certificate_batch {
 theorem p0_x_binding (x y z w a b u : ℂ) :
     p0 x y z w a b u = SmallLevelTwentySixPariIdentity021X.p0 x y z w a b u := by
   unfold p0 SmallLevelTwentySixPariIdentity021X.p0 coefficients0 SmallLevelTwentySixPariIdentity021X.coefficients0
@@ -97,6 +111,9 @@ theorem p2_x_binding (x y z w a b u : ℂ) :
 
 #print axioms p2_x_binding
 
+certificate_batch {
+}
+
 theorem p3_x_binding (x y z w a b u : ℂ) :
     p3 x y z w a b u = SmallLevelTwentySixPariIdentity021X.p3 x y z w a b u := by
   unfold p3 SmallLevelTwentySixPariIdentity021X.p3 coefficients3 SmallLevelTwentySixPariIdentity021X.coefficients3
@@ -104,6 +121,9 @@ theorem p3_x_binding (x y z w a b u : ℂ) :
   ring
 
 #print axioms p3_x_binding
+
+certificate_batch {
+}
 
 theorem p4_x_binding (x y z w a b u : ℂ) :
     p4 x y z w a b u = SmallLevelTwentySixPariIdentity021X.p4 x y z w a b u := by
@@ -127,6 +147,8 @@ theorem p6_x_binding (x y z w a b u : ℂ) :
   simp only [SmallLevelPolynomialCoefficientCertificate.evaluate]
 
 #print axioms p6_x_binding
+
+}
 
 end SmallLevelTwentySixPariIdentity021
 end

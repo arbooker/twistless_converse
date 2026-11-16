@@ -1,6 +1,6 @@
 module
 
-public import SpanningFiniteRemovalV1
+public import SpanningTraceRemovalV1
 public import SpanningInitialTraceSetV1
 
 set_option autoImplicit false

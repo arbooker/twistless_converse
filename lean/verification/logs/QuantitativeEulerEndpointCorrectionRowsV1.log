@@ -1,9 +1,0 @@
-'QuantitativeEulerEndpointPrepared.difference_correction_polynomial_bound' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'QuantitativeEulerEndpointPrepared.period_correction_polynomial_bound' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'QuantitativeEulerEndpointPrepared.prime_branch_explicit_corrections' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

@@ -1,3 +1,0 @@
-'AsymptoticCylinder.reconstructed_fourier_gram' depends on axioms: [propext, Classical.choice, Quot.sound]
-'AsymptoticCylinder.observation_trace_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
-'AsymptoticCylinder.solution_finrank_le_trace' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,7 +1,0 @@
-'QuantitativeArithmeticSmallLevelThirtyThreeKnownWords.fullLeadingMatrix_mulVec' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'QuantitativeArithmeticSmallLevelThirtyThreeKnownWords.fullShiftMatrix_mulVec' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-

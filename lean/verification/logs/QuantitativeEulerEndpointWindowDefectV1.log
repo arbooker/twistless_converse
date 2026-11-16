@@ -1,3 +1,0 @@
-'QuantitativeEulerEndpointSpectralWindow.window_defect_bounds' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

@@ -1,3 +1,0 @@
-'FinitenessAllLevelAnalyticIntegral.differentiable_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
-'FinitenessAllLevelAnalyticIntegral.analytic_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
-

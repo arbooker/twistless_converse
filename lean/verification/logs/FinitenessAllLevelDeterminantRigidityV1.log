@@ -1,3 +1,0 @@
-'FinitenessAllLevelPolynomialPresentation.no_surjective_two_prime_family' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

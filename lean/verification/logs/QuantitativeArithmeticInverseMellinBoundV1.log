@@ -1,2 +1,0 @@
-'QuantitativeArithmeticInverseMellinBound.line_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeArithmeticInverseMellinBound.line_isBigO' depends on axioms: [propext, Classical.choice, Quot.sound]

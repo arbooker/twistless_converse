@@ -1,1 +1,0 @@
-'SpanningSmallLevels.kernel_zero_small' depends on axioms: [propext, Classical.choice, Quot.sound]

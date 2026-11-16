@@ -1,2 +1,0 @@
-'MaassMellin.gamma_affine_rapid' depends on axioms: [propext, Classical.choice, Quot.sound]
-'MaassMellin.realGammaPair_rapid' depends on axioms: [propext, Classical.choice, Quot.sound]

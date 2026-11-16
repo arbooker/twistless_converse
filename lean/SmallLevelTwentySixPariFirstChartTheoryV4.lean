@@ -18,14 +18,14 @@ open SmallLevelTwentySixPariIdentity004
 theorem source0_binding (x y z w a b u : ℂ) :
     eval x y z w a b 1 (fun i => if i=0 then 1 else u)
       SmallLevelTwentySixGermPrimitiveSparseMMM.Row00.primitiveData=p0 x y z w a b u := by
-  norm_num [eval,monomial,SmallLevelTwentySixGermPrimitiveSparseMMM.Row00.primitiveData,
+  norm_num [Rat.divInt_eq_div,eval,monomial,SmallLevelTwentySixGermPrimitiveSparseMMM.Row00.primitiveData,
     SmallLevelTwentySixGermPrimitiveSparseMMM.Row00.primitiveData0,p0]
   ring
 
 theorem source2_binding (x y z w a b u : ℂ) :
     eval x y z w a b 1 (fun i => if i=0 then 1 else u)
       SmallLevelTwentySixGermPrimitiveSparseMMM.Row02.primitiveData=p2 x y z w a b u := by
-  norm_num [eval,monomial,SmallLevelTwentySixGermPrimitiveSparseMMM.Row02.primitiveData,
+  norm_num [Rat.divInt_eq_div,eval,monomial,SmallLevelTwentySixGermPrimitiveSparseMMM.Row02.primitiveData,
     SmallLevelTwentySixGermPrimitiveSparseMMM.Row02.primitiveData0,p2]
   ring
 
@@ -99,7 +99,7 @@ def factor03 (x y z w a b u : ℂ) : ℂ :=
 theorem source3_binding (x y z w a b u : ℂ) :
     eval x y z w a b 1 (fun i => if i=0 then 1 else u)
       SmallLevelTwentySixGermPrimitiveSparseMMM.Row03.primitiveData=source3 x y z w a b u := by
-  norm_num [eval,monomial,SmallLevelTwentySixGermPrimitiveSparseMMM.Row03.primitiveData,
+  norm_num [Rat.divInt_eq_div,eval,monomial,SmallLevelTwentySixGermPrimitiveSparseMMM.Row03.primitiveData,
     SmallLevelTwentySixGermPrimitiveSparseMMM.Row03.primitiveData0,source3]
   ring
 

@@ -52,6 +52,15 @@ public import SmallLevelThreePairV1
 public import SmallLevelTransversalV1
 public meta import QuantitativeArithmeticCompact34ExportsV1
 
+public meta import SmallLevelCertificateBatchCommandV1
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
+set_option linter.unusedSimpArgs false
+set_option linter.unnecessarySimpa false
+open scoped Topology MatrixGroups ModularForm Manifold
+open UpperHalfPlane hiding I
+open Matrix
+certificate_batch {
 /-! Consolidated converse argument. Large exact certificates remain
 in their own modules; declarations and proof bodies are preserved. -/
 
@@ -9633,12 +9642,220 @@ namespace SmallLevelThirtyFourGroup
 open Matrix ModularGroup SmallLevelGenerators
 open scoped MatrixGroups
 
+private theorem boundedEdgeSRow0 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (0:ZMod 34).val d.val) 34 = 1 →
+    repRow (0:ZMod 34) d*S*(repRow d (-(0:ZMod 34)))⁻¹=word (edgeSRow (0:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeSRow1 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (1:ZMod 34).val d.val) 34 = 1 →
+    repRow (1:ZMod 34) d*S*(repRow d (-(1:ZMod 34)))⁻¹=word (edgeSRow (1:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeSRow2 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (2:ZMod 34).val d.val) 34 = 1 →
+    repRow (2:ZMod 34) d*S*(repRow d (-(2:ZMod 34)))⁻¹=word (edgeSRow (2:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeSRow3 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (3:ZMod 34).val d.val) 34 = 1 →
+    repRow (3:ZMod 34) d*S*(repRow d (-(3:ZMod 34)))⁻¹=word (edgeSRow (3:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeSRow4 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (4:ZMod 34).val d.val) 34 = 1 →
+    repRow (4:ZMod 34) d*S*(repRow d (-(4:ZMod 34)))⁻¹=word (edgeSRow (4:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeSRow5 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (5:ZMod 34).val d.val) 34 = 1 →
+    repRow (5:ZMod 34) d*S*(repRow d (-(5:ZMod 34)))⁻¹=word (edgeSRow (5:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeSRow6 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (6:ZMod 34).val d.val) 34 = 1 →
+    repRow (6:ZMod 34) d*S*(repRow d (-(6:ZMod 34)))⁻¹=word (edgeSRow (6:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeSRow7 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (7:ZMod 34).val d.val) 34 = 1 →
+    repRow (7:ZMod 34) d*S*(repRow d (-(7:ZMod 34)))⁻¹=word (edgeSRow (7:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeSRow8 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (8:ZMod 34).val d.val) 34 = 1 →
+    repRow (8:ZMod 34) d*S*(repRow d (-(8:ZMod 34)))⁻¹=word (edgeSRow (8:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeSRow9 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (9:ZMod 34).val d.val) 34 = 1 →
+    repRow (9:ZMod 34) d*S*(repRow d (-(9:ZMod 34)))⁻¹=word (edgeSRow (9:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeSRow10 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (10:ZMod 34).val d.val) 34 = 1 →
+    repRow (10:ZMod 34) d*S*(repRow d (-(10:ZMod 34)))⁻¹=word (edgeSRow (10:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeSRow11 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (11:ZMod 34).val d.val) 34 = 1 →
+    repRow (11:ZMod 34) d*S*(repRow d (-(11:ZMod 34)))⁻¹=word (edgeSRow (11:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeSRow12 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (12:ZMod 34).val d.val) 34 = 1 →
+    repRow (12:ZMod 34) d*S*(repRow d (-(12:ZMod 34)))⁻¹=word (edgeSRow (12:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeSRow13 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (13:ZMod 34).val d.val) 34 = 1 →
+    repRow (13:ZMod 34) d*S*(repRow d (-(13:ZMod 34)))⁻¹=word (edgeSRow (13:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeSRow14 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (14:ZMod 34).val d.val) 34 = 1 →
+    repRow (14:ZMod 34) d*S*(repRow d (-(14:ZMod 34)))⁻¹=word (edgeSRow (14:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeSRow15 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (15:ZMod 34).val d.val) 34 = 1 →
+    repRow (15:ZMod 34) d*S*(repRow d (-(15:ZMod 34)))⁻¹=word (edgeSRow (15:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeSRow16 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (16:ZMod 34).val d.val) 34 = 1 →
+    repRow (16:ZMod 34) d*S*(repRow d (-(16:ZMod 34)))⁻¹=word (edgeSRow (16:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeSRow17 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (17:ZMod 34).val d.val) 34 = 1 →
+    repRow (17:ZMod 34) d*S*(repRow d (-(17:ZMod 34)))⁻¹=word (edgeSRow (17:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeSRow18 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (18:ZMod 34).val d.val) 34 = 1 →
+    repRow (18:ZMod 34) d*S*(repRow d (-(18:ZMod 34)))⁻¹=word (edgeSRow (18:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeSRow19 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (19:ZMod 34).val d.val) 34 = 1 →
+    repRow (19:ZMod 34) d*S*(repRow d (-(19:ZMod 34)))⁻¹=word (edgeSRow (19:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeSRow20 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (20:ZMod 34).val d.val) 34 = 1 →
+    repRow (20:ZMod 34) d*S*(repRow d (-(20:ZMod 34)))⁻¹=word (edgeSRow (20:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeSRow21 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (21:ZMod 34).val d.val) 34 = 1 →
+    repRow (21:ZMod 34) d*S*(repRow d (-(21:ZMod 34)))⁻¹=word (edgeSRow (21:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeSRow22 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (22:ZMod 34).val d.val) 34 = 1 →
+    repRow (22:ZMod 34) d*S*(repRow d (-(22:ZMod 34)))⁻¹=word (edgeSRow (22:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeSRow23 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (23:ZMod 34).val d.val) 34 = 1 →
+    repRow (23:ZMod 34) d*S*(repRow d (-(23:ZMod 34)))⁻¹=word (edgeSRow (23:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeSRow24 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (24:ZMod 34).val d.val) 34 = 1 →
+    repRow (24:ZMod 34) d*S*(repRow d (-(24:ZMod 34)))⁻¹=word (edgeSRow (24:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeSRow25 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (25:ZMod 34).val d.val) 34 = 1 →
+    repRow (25:ZMod 34) d*S*(repRow d (-(25:ZMod 34)))⁻¹=word (edgeSRow (25:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeSRow26 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (26:ZMod 34).val d.val) 34 = 1 →
+    repRow (26:ZMod 34) d*S*(repRow d (-(26:ZMod 34)))⁻¹=word (edgeSRow (26:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeSRow27 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (27:ZMod 34).val d.val) 34 = 1 →
+    repRow (27:ZMod 34) d*S*(repRow d (-(27:ZMod 34)))⁻¹=word (edgeSRow (27:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeSRow28 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (28:ZMod 34).val d.val) 34 = 1 →
+    repRow (28:ZMod 34) d*S*(repRow d (-(28:ZMod 34)))⁻¹=word (edgeSRow (28:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeSRow29 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (29:ZMod 34).val d.val) 34 = 1 →
+    repRow (29:ZMod 34) d*S*(repRow d (-(29:ZMod 34)))⁻¹=word (edgeSRow (29:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeSRow30 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (30:ZMod 34).val d.val) 34 = 1 →
+    repRow (30:ZMod 34) d*S*(repRow d (-(30:ZMod 34)))⁻¹=word (edgeSRow (30:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeSRow31 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (31:ZMod 34).val d.val) 34 = 1 →
+    repRow (31:ZMod 34) d*S*(repRow d (-(31:ZMod 34)))⁻¹=word (edgeSRow (31:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeSRow32 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (32:ZMod 34).val d.val) 34 = 1 →
+    repRow (32:ZMod 34) d*S*(repRow d (-(32:ZMod 34)))⁻¹=word (edgeSRow (32:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeSRow33 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (33:ZMod 34).val d.val) 34 = 1 →
+    repRow (33:ZMod 34) d*S*(repRow d (-(33:ZMod 34)))⁻¹=word (edgeSRow (33:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeSRows : ∀ c d : ZMod 34,
+    Nat.gcd (Nat.gcd c.val d.val) 34 = 1 →
+    repRow c d*S*(repRow d (-c))⁻¹=word (edgeSRow c d) := by
+  intro c
+  fin_cases c
+  · exact boundedEdgeSRow0
+  · exact boundedEdgeSRow1
+  · exact boundedEdgeSRow2
+  · exact boundedEdgeSRow3
+  · exact boundedEdgeSRow4
+  · exact boundedEdgeSRow5
+  · exact boundedEdgeSRow6
+  · exact boundedEdgeSRow7
+  · exact boundedEdgeSRow8
+  · exact boundedEdgeSRow9
+  · exact boundedEdgeSRow10
+  · exact boundedEdgeSRow11
+  · exact boundedEdgeSRow12
+  · exact boundedEdgeSRow13
+  · exact boundedEdgeSRow14
+  · exact boundedEdgeSRow15
+  · exact boundedEdgeSRow16
+  · exact boundedEdgeSRow17
+  · exact boundedEdgeSRow18
+  · exact boundedEdgeSRow19
+  · exact boundedEdgeSRow20
+  · exact boundedEdgeSRow21
+  · exact boundedEdgeSRow22
+  · exact boundedEdgeSRow23
+  · exact boundedEdgeSRow24
+  · exact boundedEdgeSRow25
+  · exact boundedEdgeSRow26
+  · exact boundedEdgeSRow27
+  · exact boundedEdgeSRow28
+  · exact boundedEdgeSRow29
+  · exact boundedEdgeSRow30
+  · exact boundedEdgeSRow31
+  · exact boundedEdgeSRow32
+  · exact boundedEdgeSRow33
+
 theorem edgeSRow_checked : ∀ c d : ZMod 34,(∃ a b : ZMod 34,a*d-b*c=1) →
     repRow c d*S*(repRow d (-c))⁻¹=word (edgeSRow c d) := by
   intro c d h
-  exact (by decide +kernel : ∀ c d : ZMod 34,
-    Nat.gcd (Nat.gcd c.val d.val) 34 = 1 →
-    repRow c d*S*(repRow d (-c))⁻¹=word (edgeSRow c d)) c d (QuantitativeArithmeticPrimitiveResiduePair.gcd_eq_one c d h)
+  exact boundedEdgeSRows c d (QuantitativeArithmeticPrimitiveResiduePair.gcd_eq_one c d h)
 
 #print axioms edgeSRow_checked
 
@@ -9657,12 +9874,220 @@ namespace SmallLevelThirtyFourGroup
 open Matrix ModularGroup SmallLevelGenerators
 open scoped MatrixGroups
 
+private theorem boundedEdgeTRow0 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (0:ZMod 34).val d.val) 34 = 1 →
+    repRow (0:ZMod 34) d*T*(repRow (0:ZMod 34) ((0:ZMod 34)+d))⁻¹=word (edgeTRow (0:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeTRow1 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (1:ZMod 34).val d.val) 34 = 1 →
+    repRow (1:ZMod 34) d*T*(repRow (1:ZMod 34) ((1:ZMod 34)+d))⁻¹=word (edgeTRow (1:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeTRow2 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (2:ZMod 34).val d.val) 34 = 1 →
+    repRow (2:ZMod 34) d*T*(repRow (2:ZMod 34) ((2:ZMod 34)+d))⁻¹=word (edgeTRow (2:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeTRow3 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (3:ZMod 34).val d.val) 34 = 1 →
+    repRow (3:ZMod 34) d*T*(repRow (3:ZMod 34) ((3:ZMod 34)+d))⁻¹=word (edgeTRow (3:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeTRow4 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (4:ZMod 34).val d.val) 34 = 1 →
+    repRow (4:ZMod 34) d*T*(repRow (4:ZMod 34) ((4:ZMod 34)+d))⁻¹=word (edgeTRow (4:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeTRow5 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (5:ZMod 34).val d.val) 34 = 1 →
+    repRow (5:ZMod 34) d*T*(repRow (5:ZMod 34) ((5:ZMod 34)+d))⁻¹=word (edgeTRow (5:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeTRow6 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (6:ZMod 34).val d.val) 34 = 1 →
+    repRow (6:ZMod 34) d*T*(repRow (6:ZMod 34) ((6:ZMod 34)+d))⁻¹=word (edgeTRow (6:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeTRow7 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (7:ZMod 34).val d.val) 34 = 1 →
+    repRow (7:ZMod 34) d*T*(repRow (7:ZMod 34) ((7:ZMod 34)+d))⁻¹=word (edgeTRow (7:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeTRow8 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (8:ZMod 34).val d.val) 34 = 1 →
+    repRow (8:ZMod 34) d*T*(repRow (8:ZMod 34) ((8:ZMod 34)+d))⁻¹=word (edgeTRow (8:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeTRow9 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (9:ZMod 34).val d.val) 34 = 1 →
+    repRow (9:ZMod 34) d*T*(repRow (9:ZMod 34) ((9:ZMod 34)+d))⁻¹=word (edgeTRow (9:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeTRow10 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (10:ZMod 34).val d.val) 34 = 1 →
+    repRow (10:ZMod 34) d*T*(repRow (10:ZMod 34) ((10:ZMod 34)+d))⁻¹=word (edgeTRow (10:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeTRow11 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (11:ZMod 34).val d.val) 34 = 1 →
+    repRow (11:ZMod 34) d*T*(repRow (11:ZMod 34) ((11:ZMod 34)+d))⁻¹=word (edgeTRow (11:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeTRow12 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (12:ZMod 34).val d.val) 34 = 1 →
+    repRow (12:ZMod 34) d*T*(repRow (12:ZMod 34) ((12:ZMod 34)+d))⁻¹=word (edgeTRow (12:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeTRow13 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (13:ZMod 34).val d.val) 34 = 1 →
+    repRow (13:ZMod 34) d*T*(repRow (13:ZMod 34) ((13:ZMod 34)+d))⁻¹=word (edgeTRow (13:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeTRow14 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (14:ZMod 34).val d.val) 34 = 1 →
+    repRow (14:ZMod 34) d*T*(repRow (14:ZMod 34) ((14:ZMod 34)+d))⁻¹=word (edgeTRow (14:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeTRow15 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (15:ZMod 34).val d.val) 34 = 1 →
+    repRow (15:ZMod 34) d*T*(repRow (15:ZMod 34) ((15:ZMod 34)+d))⁻¹=word (edgeTRow (15:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeTRow16 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (16:ZMod 34).val d.val) 34 = 1 →
+    repRow (16:ZMod 34) d*T*(repRow (16:ZMod 34) ((16:ZMod 34)+d))⁻¹=word (edgeTRow (16:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeTRow17 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (17:ZMod 34).val d.val) 34 = 1 →
+    repRow (17:ZMod 34) d*T*(repRow (17:ZMod 34) ((17:ZMod 34)+d))⁻¹=word (edgeTRow (17:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeTRow18 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (18:ZMod 34).val d.val) 34 = 1 →
+    repRow (18:ZMod 34) d*T*(repRow (18:ZMod 34) ((18:ZMod 34)+d))⁻¹=word (edgeTRow (18:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeTRow19 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (19:ZMod 34).val d.val) 34 = 1 →
+    repRow (19:ZMod 34) d*T*(repRow (19:ZMod 34) ((19:ZMod 34)+d))⁻¹=word (edgeTRow (19:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeTRow20 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (20:ZMod 34).val d.val) 34 = 1 →
+    repRow (20:ZMod 34) d*T*(repRow (20:ZMod 34) ((20:ZMod 34)+d))⁻¹=word (edgeTRow (20:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeTRow21 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (21:ZMod 34).val d.val) 34 = 1 →
+    repRow (21:ZMod 34) d*T*(repRow (21:ZMod 34) ((21:ZMod 34)+d))⁻¹=word (edgeTRow (21:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeTRow22 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (22:ZMod 34).val d.val) 34 = 1 →
+    repRow (22:ZMod 34) d*T*(repRow (22:ZMod 34) ((22:ZMod 34)+d))⁻¹=word (edgeTRow (22:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeTRow23 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (23:ZMod 34).val d.val) 34 = 1 →
+    repRow (23:ZMod 34) d*T*(repRow (23:ZMod 34) ((23:ZMod 34)+d))⁻¹=word (edgeTRow (23:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeTRow24 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (24:ZMod 34).val d.val) 34 = 1 →
+    repRow (24:ZMod 34) d*T*(repRow (24:ZMod 34) ((24:ZMod 34)+d))⁻¹=word (edgeTRow (24:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeTRow25 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (25:ZMod 34).val d.val) 34 = 1 →
+    repRow (25:ZMod 34) d*T*(repRow (25:ZMod 34) ((25:ZMod 34)+d))⁻¹=word (edgeTRow (25:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeTRow26 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (26:ZMod 34).val d.val) 34 = 1 →
+    repRow (26:ZMod 34) d*T*(repRow (26:ZMod 34) ((26:ZMod 34)+d))⁻¹=word (edgeTRow (26:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeTRow27 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (27:ZMod 34).val d.val) 34 = 1 →
+    repRow (27:ZMod 34) d*T*(repRow (27:ZMod 34) ((27:ZMod 34)+d))⁻¹=word (edgeTRow (27:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeTRow28 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (28:ZMod 34).val d.val) 34 = 1 →
+    repRow (28:ZMod 34) d*T*(repRow (28:ZMod 34) ((28:ZMod 34)+d))⁻¹=word (edgeTRow (28:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeTRow29 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (29:ZMod 34).val d.val) 34 = 1 →
+    repRow (29:ZMod 34) d*T*(repRow (29:ZMod 34) ((29:ZMod 34)+d))⁻¹=word (edgeTRow (29:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeTRow30 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (30:ZMod 34).val d.val) 34 = 1 →
+    repRow (30:ZMod 34) d*T*(repRow (30:ZMod 34) ((30:ZMod 34)+d))⁻¹=word (edgeTRow (30:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeTRow31 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (31:ZMod 34).val d.val) 34 = 1 →
+    repRow (31:ZMod 34) d*T*(repRow (31:ZMod 34) ((31:ZMod 34)+d))⁻¹=word (edgeTRow (31:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeTRow32 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (32:ZMod 34).val d.val) 34 = 1 →
+    repRow (32:ZMod 34) d*T*(repRow (32:ZMod 34) ((32:ZMod 34)+d))⁻¹=word (edgeTRow (32:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeTRow33 : ∀ d : ZMod 34,
+    Nat.gcd (Nat.gcd (33:ZMod 34).val d.val) 34 = 1 →
+    repRow (33:ZMod 34) d*T*(repRow (33:ZMod 34) ((33:ZMod 34)+d))⁻¹=word (edgeTRow (33:ZMod 34) d) := by
+  decide +kernel
+
+private theorem boundedEdgeTRows : ∀ c d : ZMod 34,
+    Nat.gcd (Nat.gcd c.val d.val) 34 = 1 →
+    repRow c d*T*(repRow c (c+d))⁻¹=word (edgeTRow c d) := by
+  intro c
+  fin_cases c
+  · exact boundedEdgeTRow0
+  · exact boundedEdgeTRow1
+  · exact boundedEdgeTRow2
+  · exact boundedEdgeTRow3
+  · exact boundedEdgeTRow4
+  · exact boundedEdgeTRow5
+  · exact boundedEdgeTRow6
+  · exact boundedEdgeTRow7
+  · exact boundedEdgeTRow8
+  · exact boundedEdgeTRow9
+  · exact boundedEdgeTRow10
+  · exact boundedEdgeTRow11
+  · exact boundedEdgeTRow12
+  · exact boundedEdgeTRow13
+  · exact boundedEdgeTRow14
+  · exact boundedEdgeTRow15
+  · exact boundedEdgeTRow16
+  · exact boundedEdgeTRow17
+  · exact boundedEdgeTRow18
+  · exact boundedEdgeTRow19
+  · exact boundedEdgeTRow20
+  · exact boundedEdgeTRow21
+  · exact boundedEdgeTRow22
+  · exact boundedEdgeTRow23
+  · exact boundedEdgeTRow24
+  · exact boundedEdgeTRow25
+  · exact boundedEdgeTRow26
+  · exact boundedEdgeTRow27
+  · exact boundedEdgeTRow28
+  · exact boundedEdgeTRow29
+  · exact boundedEdgeTRow30
+  · exact boundedEdgeTRow31
+  · exact boundedEdgeTRow32
+  · exact boundedEdgeTRow33
+
 theorem edgeTRow_checked : ∀ c d : ZMod 34,(∃ a b : ZMod 34,a*d-b*c=1) →
     repRow c d*T*(repRow c (c+d))⁻¹=word (edgeTRow c d) := by
   intro c d h
-  exact (by decide +kernel : ∀ c d : ZMod 34,
-    Nat.gcd (Nat.gcd c.val d.val) 34 = 1 →
-    repRow c d*T*(repRow c (c+d))⁻¹=word (edgeTRow c d)) c d (QuantitativeArithmeticPrimitiveResiduePair.gcd_eq_one c d h)
+  exact boundedEdgeTRows c d (QuantitativeArithmeticPrimitiveResiduePair.gcd_eq_one c d h)
 
 #print axioms edgeTRow_checked
 
@@ -10718,3 +11143,5 @@ theorem level_thirty_four {k : ℕ} (hk : 0<k) (heven : Even k) {f : ℕ→ℂ}
 end SmallLevelThirtyFourChiThree
 end
 end
+
+}

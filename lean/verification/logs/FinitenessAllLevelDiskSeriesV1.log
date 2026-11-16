@@ -1,5 +1,0 @@
-'FinitenessAllLevelDiskSeries.diskSeries_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
-'FinitenessAllLevelDiskSeries.diskSeries_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
-'FinitenessAllLevelDiskSeries.diskSeries_tendsto_of_polynomial' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

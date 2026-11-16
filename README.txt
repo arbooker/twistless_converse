@@ -2,6 +2,9 @@ Towards a twistless converse theorem: supplementary material
 
 All formal proofs and writeups in this repository were written by GPT-6 Astra.
 
+Companion to A. R. Booker, M. Lee and N. Zubrilina, Towards a twistless
+converse theorem, https://arxiv.org/abs/2611.07921.
+
 Written proofs (PDF)
 
 pdf/asymptotic_euler_count.pdf
@@ -17,12 +20,15 @@ pdf/small_conductor_twists.pdf
 
 Formal proofs
 
-lean/ contains Lean sources for Theorems 1.1--1.3 and the prime-level
-small-conductor converse, including the primitive multiplicative-twist
-corollary. ReleaseCheck.lean lists the endpoints. Exact source hashes and
-dependency pins are in lean/SOURCE_MANIFEST.json; dated verification records
-identify the sources and declarations they check. See BUILD.txt for the
-kernel-checking commands.
+lean/ contains the formal proofs of Theorems 1.1--1.3, the prime-level
+small-conductor converse and its primitive-twist corollary, the spanning
+criterion, and the short-interval Weyl asymptotic for the original Maass
+Euler-product solution count at all admissible levels.
+
+The six theorem roots and their 17 audited conclusions are listed in
+lean/SOURCE_MANIFEST.json. The release contains 5,681 kernel-checked modules;
+verification records give their exact source hashes, dependency fingerprints
+and axiom reports. See BUILD.txt for reproduction commands.
 
 Computations
 

@@ -1,9 +1,0 @@
-'QuantitativeEulerEndpointRadicalBoundary.holomorphicError_eventually_nonneg' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'QuantitativeEulerEndpointRadicalBoundary.literal_count_squeeze' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'QuantitativeEulerEndpointRadicalBoundary.count_errors_differ_isBigO_one' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

@@ -1,6 +1,0 @@
-'QuantitativeEulerEndpointCommonReconstruction.transport_right_projection' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'QuantitativeEulerEndpointCommonReconstruction.physical_right_terminal' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

@@ -1,4 +1,8 @@
 module
+public import SmallLevelLaurentRegisterCompositionV1
+public meta import SmallLevelCertificateBatchCommandV1
+public meta import SmallLevelKernelCertificateV1
+public meta import QuantitativeArithmeticLaurentRegisterDataV5
 
 public import QuantitativeArithmeticCompact35JetRowsSoundnessV1
 
@@ -2578,10 +2582,298 @@ set_option maxHeartbeats 0
 @[expose] public noncomputable section
 /-! UNVERIFIED kernel computation; no external arithmetic is trusted. -/
 namespace QuantitativeArithmeticCompact35JetRows.NegativeB
+open QuantitativeArithmeticSevenLaurentRows
+open QuantitativeArithmeticLaurentRegisterProgram
+set_option Elab.async false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
+set_option linter.unnecessarySeqFocus false
+set_option linter.unusedSimpArgs false
+set_option synthInstance.maxSize 2048
+certificate_batch {
+
+private def verificationBlock0 : List Instruction :=
+  (program.drop 0).take 24
+
+private def verificationState0 : List Poly :=
+  register_state_compact% (initialRows) (verificationBlock0)
+
+private theorem verificationStep0 :
+    run initialRows verificationBlock0 = verificationState0 :=
+  verifyRun_sound (by kernel_certificate)
+
+#print axioms verificationStep0
+
+private def verificationBlock1 : List Instruction :=
+  (program.drop 24).take 24
+
+private def verificationState1 : List Poly :=
+  register_state_compact% (verificationState0) (verificationBlock1)
+
+private theorem verificationStep1 :
+    run verificationState0 verificationBlock1 = verificationState1 :=
+  verifyRun_sound (by kernel_certificate)
+
+#print axioms verificationStep1
+
+private def verificationBlock2 : List Instruction :=
+  (program.drop 48).take 24
+
+private def verificationState2 : List Poly :=
+  register_state_compact% (verificationState1) (verificationBlock2)
+
+private theorem verificationStep2 :
+    run verificationState1 verificationBlock2 = verificationState2 :=
+  verifyRun_sound (by kernel_certificate)
+
+#print axioms verificationStep2
+
+private def verificationBlock3 : List Instruction :=
+  (program.drop 72).take 24
+
+private def verificationState3 : List Poly :=
+  register_state_compact% (verificationState2) (verificationBlock3)
+
+private theorem verificationStep3 :
+    run verificationState2 verificationBlock3 = verificationState3 :=
+  verifyRun_sound (by kernel_certificate)
+
+#print axioms verificationStep3
+
+private def verificationBlock4 : List Instruction :=
+  (program.drop 96).take 24
+
+private def verificationState4 : List Poly :=
+  register_state_compact% (verificationState3) (verificationBlock4)
+
+private theorem verificationStep4 :
+    run verificationState3 verificationBlock4 = verificationState4 :=
+  verifyRun_sound (by kernel_certificate)
+
+#print axioms verificationStep4
+
+private def verificationBlock5 : List Instruction :=
+  (program.drop 120).take 24
+
+private def verificationState5 : List Poly :=
+  register_state_compact% (verificationState4) (verificationBlock5)
+
+private theorem verificationStep5 :
+    run verificationState4 verificationBlock5 = verificationState5 :=
+  verifyRun_sound (by kernel_certificate)
+
+#print axioms verificationStep5
+
+private def verificationBlock6 : List Instruction :=
+  (program.drop 144).take 24
+
+private def verificationState6 : List Poly :=
+  register_state_compact% (verificationState5) (verificationBlock6)
+
+private theorem verificationStep6 :
+    run verificationState5 verificationBlock6 = verificationState6 :=
+  verifyRun_sound (by kernel_certificate)
+
+#print axioms verificationStep6
+
+private def verificationBlock7 : List Instruction :=
+  (program.drop 168).take 24
+
+private def verificationState7 : List Poly :=
+  register_state_compact% (verificationState6) (verificationBlock7)
+
+private theorem verificationStep7 :
+    run verificationState6 verificationBlock7 = verificationState7 :=
+  verifyRun_sound (by kernel_certificate)
+
+#print axioms verificationStep7
+
+private def verificationBlock8 : List Instruction :=
+  (program.drop 192).take 24
+
+private def verificationState8 : List Poly :=
+  register_state_compact% (verificationState7) (verificationBlock8)
+
+private theorem verificationStep8 :
+    run verificationState7 verificationBlock8 = verificationState8 :=
+  verifyRun_sound (by kernel_certificate)
+
+#print axioms verificationStep8
+
+private def verificationBlock9 : List Instruction :=
+  (program.drop 216).take 24
+
+private def verificationState9 : List Poly :=
+  register_state_compact% (verificationState8) (verificationBlock9)
+
+private theorem verificationStep9 :
+    run verificationState8 verificationBlock9 = verificationState9 :=
+  verifyRun_sound (by kernel_certificate)
+
+#print axioms verificationStep9
+
+private def verificationBlock10 : List Instruction :=
+  (program.drop 240).take 24
+
+private def verificationState10 : List Poly :=
+  register_state_compact% (verificationState9) (verificationBlock10)
+
+private theorem verificationStep10 :
+    run verificationState9 verificationBlock10 = verificationState10 :=
+  verifyRun_sound (by kernel_certificate)
+
+#print axioms verificationStep10
+
+private def verificationBlock11 : List Instruction :=
+  (program.drop 264).take 24
+
+private def verificationState11 : List Poly :=
+  register_state_compact% (verificationState10) (verificationBlock11)
+
+private theorem verificationStep11 :
+    run verificationState10 verificationBlock11 = verificationState11 :=
+  verifyRun_sound (by kernel_certificate)
+
+#print axioms verificationStep11
+
+private def verificationBlock12 : List Instruction :=
+  (program.drop 288).take 24
+
+private def verificationState12 : List Poly :=
+  register_state_compact% (verificationState11) (verificationBlock12)
+
+private theorem verificationStep12 :
+    run verificationState11 verificationBlock12 = verificationState12 :=
+  verifyRun_sound (by kernel_certificate)
+
+#print axioms verificationStep12
+
+private def verificationBlock13 : List Instruction :=
+  (program.drop 312).take 24
+
+private def verificationState13 : List Poly :=
+  register_state_compact% (verificationState12) (verificationBlock13)
+
+private theorem verificationStep13 :
+    run verificationState12 verificationBlock13 = verificationState13 :=
+  verifyRun_sound (by kernel_certificate)
+
+#print axioms verificationStep13
+
+private def verificationBlock14 : List Instruction :=
+  (program.drop 336).take 24
+
+private def verificationState14 : List Poly :=
+  register_state_compact% (verificationState13) (verificationBlock14)
+
+private theorem verificationStep14 :
+    run verificationState13 verificationBlock14 = verificationState14 :=
+  verifyRun_sound (by kernel_certificate)
+
+#print axioms verificationStep14
+
+private def verificationBlock15 : List Instruction :=
+  (program.drop 360).take 24
+
+private def verificationState15 : List Poly :=
+  register_state_compact% (verificationState14) (verificationBlock15)
+
+private theorem verificationStep15 :
+    run verificationState14 verificationBlock15 = verificationState15 :=
+  verifyRun_sound (by kernel_certificate)
+
+#print axioms verificationStep15
+
+private def verificationBlock16 : List Instruction :=
+  (program.drop 384).take 24
+
+private def verificationState16 : List Poly :=
+  register_state_compact% (verificationState15) (verificationBlock16)
+
+private theorem verificationStep16 :
+    run verificationState15 verificationBlock16 = verificationState16 :=
+  verifyRun_sound (by kernel_certificate)
+
+#print axioms verificationStep16
+
+private def verificationBlock17 : List Instruction :=
+  (program.drop 408).take 24
+
+private def verificationState17 : List Poly :=
+  register_state_compact% (verificationState16) (verificationBlock17)
+
+private theorem verificationStep17 :
+    run verificationState16 verificationBlock17 = verificationState17 :=
+  verifyRun_sound (by kernel_certificate)
+
+#print axioms verificationStep17
+
+private def verificationBlock18 : List Instruction :=
+  (program.drop 432).take 24
+
+private def verificationState18 : List Poly :=
+  register_state_compact% (verificationState17) (verificationBlock18)
+
+private theorem verificationStep18 :
+    run verificationState17 verificationBlock18 = verificationState18 :=
+  verifyRun_sound (by kernel_certificate)
+
+#print axioms verificationStep18
+
+private def verificationBlock19 : List Instruction :=
+  (program.drop 456).take 24
+
+private def verificationState19 : List Poly :=
+  register_state_compact% (verificationState18) (verificationBlock19)
+
+private theorem verificationStep19 :
+    run verificationState18 verificationBlock19 = verificationState19 :=
+  verifyRun_sound (by kernel_certificate)
+
+#print axioms verificationStep19
+
+private def verificationBlock20 : List Instruction :=
+  (program.drop 480).take 24
+
+private def verificationState20 : List Poly :=
+  register_state_compact% (verificationState19) (verificationBlock20)
+
+private theorem verificationStep20 :
+    run verificationState19 verificationBlock20 = verificationState20 :=
+  verifyRun_sound (by kernel_certificate)
+
+#print axioms verificationStep20
+
+private def verificationBlock21 : List Instruction :=
+  (program.drop 504).take 24
+
+private def verificationState21 : List Poly :=
+  register_state_compact% (verificationState20) (verificationBlock21)
+
+private theorem verificationStep21 :
+    run verificationState20 verificationBlock21 = verificationState21 :=
+  verifyRun_sound (by kernel_certificate)
+
+#print axioms verificationStep21
+
+private theorem verificationProgram : program = verificationBlock0 ++ (verificationBlock1 ++ (verificationBlock2 ++ (verificationBlock3 ++ (verificationBlock4 ++ (verificationBlock5 ++ (verificationBlock6 ++ (verificationBlock7 ++ (verificationBlock8 ++ (verificationBlock9 ++ (verificationBlock10 ++ (verificationBlock11 ++ (verificationBlock12 ++ (verificationBlock13 ++ (verificationBlock14 ++ (verificationBlock15 ++ (verificationBlock16 ++ (verificationBlock17 ++ (verificationBlock18 ++ (verificationBlock19 ++ (verificationBlock20 ++ (verificationBlock21))))))))))))))))))))) := by rfl
+#print axioms verificationProgram
+
+private theorem verificationFinal :
+    verify verificationState21 [] outputIndices resultRows = true := by
+  kernel_certificate
+#print axioms verificationFinal
+
+private theorem verificationWholeRun : run initialRows program = verificationState21 :=
+  (congrArg (run initialRows) verificationProgram).trans (run_append_of_results verificationStep0 (run_append_of_results verificationStep1 (run_append_of_results verificationStep2 (run_append_of_results verificationStep3 (run_append_of_results verificationStep4 (run_append_of_results verificationStep5 (run_append_of_results verificationStep6 (run_append_of_results verificationStep7 (run_append_of_results verificationStep8 (run_append_of_results verificationStep9 (run_append_of_results verificationStep10 (run_append_of_results verificationStep11 (run_append_of_results verificationStep12 (run_append_of_results verificationStep13 (run_append_of_results verificationStep14 (run_append_of_results verificationStep15 (run_append_of_results verificationStep16 (run_append_of_results verificationStep17 (run_append_of_results verificationStep18 (run_append_of_results verificationStep19 (run_append_of_results verificationStep20 (verificationStep21))))))))))))))))))))))
+#print axioms verificationWholeRun
+
 theorem checked : QuantitativeArithmeticLaurentRegisterProgram.verify
-    initialRows program outputIndices resultRows=true := by
-  decide +kernel
+    initialRows program outputIndices resultRows=true :=
+  verify_of_run_result verificationWholeRun verificationFinal
 #print axioms checked
+}
+
 end QuantitativeArithmeticCompact35JetRows.NegativeB
 end
 end

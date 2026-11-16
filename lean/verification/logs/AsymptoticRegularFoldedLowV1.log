@@ -1,3 +1,0 @@
-'AsymptoticRegularFoldedLow.operator_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
-'AsymptoticRegularFoldedLow.operator_covariant' depends on axioms: [propext, Classical.choice, Quot.sound]
-'AsymptoticRegularFoldedLow.operator_matrix_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]

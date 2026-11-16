@@ -1,3 +1,0 @@
-'QuantitativeEulerEndpointBoundedTerminal.value_unitGram' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeEulerEndpointBoundedTerminal.value_unitNext' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeEulerEndpointBoundedTerminal.exists_next' depends on axioms: [propext, Classical.choice, Quot.sound]

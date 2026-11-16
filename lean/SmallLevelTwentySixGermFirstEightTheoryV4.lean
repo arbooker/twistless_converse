@@ -18,49 +18,49 @@ open QuantitativeArithmeticSevenLaurentRows SmallLevelTwentySixSecondChart
 theorem second_column_0 (X Y Z W A B : ℂ) (v : ℕ→ℂ) (hv : v 0=0) :
     eval X Y Z W A B 1 v SmallLevelTwentySixGermPrimitiveSparseMMM.Row00.primitiveData=
       source0 0 A 0 Y 1 1 X 0*v 1 := by
-  norm_num [eval,monomial,SmallLevelTwentySixGermPrimitiveSparseMMM.Row00.primitiveData,SmallLevelTwentySixGermPrimitiveSparseMMM.Row00.primitiveData0,source0,hv]
+  norm_num [eval,monomial,SmallLevelTwentySixGermPrimitiveSparseMMM.Row00.primitiveData,SmallLevelTwentySixGermPrimitiveSparseMMM.Row00.primitiveData0,source0,Rat.divInt_eq_div,hv]
   ring
 
 theorem second_column_1 (X Y Z W A B : ℂ) (v : ℕ→ℂ) (hv : v 0=0) :
     eval X Y Z W A B 1 v SmallLevelTwentySixGermPrimitiveSparseMMM.Row01.primitiveData=
       source1 0 A 0 Y 1 1 X 0*v 1 := by
-  norm_num [eval,monomial,SmallLevelTwentySixGermPrimitiveSparseMMM.Row01.primitiveData,SmallLevelTwentySixGermPrimitiveSparseMMM.Row01.primitiveData0,source1,hv]
+  norm_num [eval,monomial,SmallLevelTwentySixGermPrimitiveSparseMMM.Row01.primitiveData,SmallLevelTwentySixGermPrimitiveSparseMMM.Row01.primitiveData0,source1,Rat.divInt_eq_div,hv]
   ring
 
 theorem second_column_2 (X Y Z W A B : ℂ) (v : ℕ→ℂ) (hv : v 0=0) :
     eval X Y Z W A B 1 v SmallLevelTwentySixGermPrimitiveSparseMMM.Row02.primitiveData=
       source2 0 A 0 Y 1 1 X 0*v 1 := by
-  norm_num [eval,monomial,SmallLevelTwentySixGermPrimitiveSparseMMM.Row02.primitiveData,SmallLevelTwentySixGermPrimitiveSparseMMM.Row02.primitiveData0,source2,hv]
+  norm_num [eval,monomial,SmallLevelTwentySixGermPrimitiveSparseMMM.Row02.primitiveData,SmallLevelTwentySixGermPrimitiveSparseMMM.Row02.primitiveData0,source2,Rat.divInt_eq_div,hv]
   ring
 
 theorem second_column_3 (X Y Z W A B : ℂ) (v : ℕ→ℂ) (hv : v 0=0) :
     eval X Y Z W A B 1 v SmallLevelTwentySixGermPrimitiveSparseMMM.Row03.primitiveData=
       source3 0 A 0 Y 1 1 X 0*v 1 := by
-  norm_num [eval,monomial,SmallLevelTwentySixGermPrimitiveSparseMMM.Row03.primitiveData,SmallLevelTwentySixGermPrimitiveSparseMMM.Row03.primitiveData0,source3,hv]
+  norm_num [eval,monomial,SmallLevelTwentySixGermPrimitiveSparseMMM.Row03.primitiveData,SmallLevelTwentySixGermPrimitiveSparseMMM.Row03.primitiveData0,source3,Rat.divInt_eq_div,hv]
   ring
 
 theorem second_column_4 (X Y Z W A B : ℂ) (v : ℕ→ℂ) (hv : v 0=0) :
     eval X Y Z W A B 1 v SmallLevelTwentySixGermPrimitiveSparseMMM.Row04.primitiveData=
       source4 0 A 0 Y 1 1 X 0*v 1 := by
-  norm_num [eval,monomial,SmallLevelTwentySixGermPrimitiveSparseMMM.Row04.primitiveData,SmallLevelTwentySixGermPrimitiveSparseMMM.Row04.primitiveData0,source4,hv]
+  norm_num [eval,monomial,SmallLevelTwentySixGermPrimitiveSparseMMM.Row04.primitiveData,SmallLevelTwentySixGermPrimitiveSparseMMM.Row04.primitiveData0,source4,Rat.divInt_eq_div,hv]
   ring
 
 theorem second_column_5 (X Y Z W A B : ℂ) (v : ℕ→ℂ) (hv : v 0=0) :
     eval X Y Z W A B 1 v SmallLevelTwentySixGermPrimitiveSparseMMM.Row05.primitiveData=
       source5 0 A 0 Y 1 1 X 0*v 1 := by
-  norm_num [eval,monomial,SmallLevelTwentySixGermPrimitiveSparseMMM.Row05.primitiveData,SmallLevelTwentySixGermPrimitiveSparseMMM.Row05.primitiveData0,source5,hv]
+  norm_num [eval,monomial,SmallLevelTwentySixGermPrimitiveSparseMMM.Row05.primitiveData,SmallLevelTwentySixGermPrimitiveSparseMMM.Row05.primitiveData0,source5,Rat.divInt_eq_div,hv]
   ring
 
 theorem second_column_6 (X Y Z W A B : ℂ) (v : ℕ→ℂ) (hv : v 0=0) :
     eval X Y Z W A B 1 v SmallLevelTwentySixGermPrimitiveSparseMMM.Row06.primitiveData=
       source6 0 A 0 Y 1 1 X 0*v 1 := by
-  norm_num [eval,monomial,SmallLevelTwentySixGermPrimitiveSparseMMM.Row06.primitiveData,SmallLevelTwentySixGermPrimitiveSparseMMM.Row06.primitiveData0,source6,hv]
+  norm_num [eval,monomial,SmallLevelTwentySixGermPrimitiveSparseMMM.Row06.primitiveData,SmallLevelTwentySixGermPrimitiveSparseMMM.Row06.primitiveData0,source6,Rat.divInt_eq_div,hv]
   ring
 
 theorem second_column_7 (X Y Z W A B : ℂ) (v : ℕ→ℂ) (hv : v 0=0) :
     eval X Y Z W A B 1 v SmallLevelTwentySixGermPrimitiveSparseMMM.Row07.primitiveData=
       source7 0 A 0 Y 1 1 X 0*v 1 := by
-  norm_num [eval,monomial,SmallLevelTwentySixGermPrimitiveSparseMMM.Row07.primitiveData,SmallLevelTwentySixGermPrimitiveSparseMMM.Row07.primitiveData0,source7,hv]
+  norm_num [eval,monomial,SmallLevelTwentySixGermPrimitiveSparseMMM.Row07.primitiveData,SmallLevelTwentySixGermPrimitiveSparseMMM.Row07.primitiveData0,source7,Rat.divInt_eq_div,hv]
   ring
 
 /-- In the actual first eight primitive rows, the second coordinate

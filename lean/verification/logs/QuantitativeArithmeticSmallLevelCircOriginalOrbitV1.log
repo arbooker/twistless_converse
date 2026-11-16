@@ -1,4 +1,0 @@
-'QuantitativeArithmeticSmallLevelCirc.original_ramified_orbit' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'QuantitativeArithmeticSmallLevelCirc.original_fricke_orbit' depends on axioms: [propext, Classical.choice, Quot.sound]

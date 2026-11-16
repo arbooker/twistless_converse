@@ -1,9 +1,15 @@
 module
+public meta import SmallLevelCertificateBatchCommandV1
 
 public import QuantitativeArithmeticSevenLaurentRowsTheoryV4
 public import QuantitativeArithmeticSmallLevelTwentyFiveAuxGridDataTheoryV4
 public import QuantitativeArithmeticSmallLevelTwentyFiveAuxGridModelTheoryV4
 
+set_option Elab.async false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
+set_option linter.unnecessarySeqFocus false
+certificate_batch {
 /-! Consolidated chapter: QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock. Original declarations and local scopes are retained. -/
 
 /-! ## QuantitativeArithmeticSmallLevelTwentyFiveCuspPlusExceptionalBlockDataBundleV4 -/
@@ -3344,7 +3350,6 @@ theorem actual_block_0 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+0)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_0
 
 def actualBlock1 : ℕ → SourceRow
   | 0 => auxSource2499
@@ -3359,7 +3364,6 @@ theorem actual_block_1 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+6)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_1
 
 def actualBlock2 : ℕ → SourceRow
   | 0 => auxSource2520
@@ -3374,7 +3378,6 @@ theorem actual_block_2 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+12)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_2
 
 def actualBlock3 : ℕ → SourceRow
   | 0 => auxSource2531
@@ -3389,7 +3392,6 @@ theorem actual_block_3 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+18)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_3
 
 def actualBlock4 : ℕ → SourceRow
   | 0 => auxSource2463
@@ -3404,7 +3406,6 @@ theorem actual_block_4 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+24)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_4
 
 def actualBlock5 : ℕ → SourceRow
   | 0 => auxSource4065
@@ -3419,7 +3420,6 @@ theorem actual_block_5 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+30)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_5
 
 def actualBlock6 : ℕ → SourceRow
   | 0 => auxSource4084
@@ -3434,7 +3434,6 @@ theorem actual_block_6 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+36)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_6
 
 def actualBlock7 : ℕ → SourceRow
   | 0 => auxSource4102
@@ -3449,7 +3448,6 @@ theorem actual_block_7 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+42)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_7
 
 def actualBlock8 : ℕ → SourceRow
   | 0 => auxSource2781
@@ -3464,7 +3462,6 @@ theorem actual_block_8 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+48)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_8
 
 def actualBlock9 : ℕ → SourceRow
   | 0 => auxSource2809
@@ -3479,7 +3476,6 @@ theorem actual_block_9 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+54)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_9
 
 def actualBlock10 : ℕ → SourceRow
   | 0 => auxSource238
@@ -3494,7 +3490,6 @@ theorem actual_block_10 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+60)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_10
 
 def actualBlock11 : ℕ → SourceRow
   | 0 => auxSource232
@@ -3509,7 +3504,6 @@ theorem actual_block_11 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+66)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_11
 
 def actualBlock12 : ℕ → SourceRow
   | 0 => auxSource340
@@ -3524,7 +3518,6 @@ theorem actual_block_12 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+72)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_12
 
 def actualBlock13 : ℕ → SourceRow
   | 0 => auxSource332
@@ -3539,7 +3532,6 @@ theorem actual_block_13 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+78)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_13
 
 def actualBlock14 : ℕ → SourceRow
   | 0 => auxSource324
@@ -3554,7 +3546,6 @@ theorem actual_block_14 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+84)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_14
 
 def actualBlock15 : ℕ → SourceRow
   | 0 => auxSource438
@@ -3569,7 +3560,6 @@ theorem actual_block_15 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+90)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_15
 
 def actualBlock16 : ℕ → SourceRow
   | 0 => auxSource609
@@ -3584,7 +3574,6 @@ theorem actual_block_16 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+96)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_16
 
 def actualBlock17 : ℕ → SourceRow
   | 0 => auxSource945
@@ -3599,7 +3588,6 @@ theorem actual_block_17 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+102)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_17
 
 def actualBlock18 : ℕ → SourceRow
   | 0 => auxSource987
@@ -3614,7 +3602,6 @@ theorem actual_block_18 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+108)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_18
 
 def actualBlock19 : ℕ → SourceRow
   | 0 => auxSource1043
@@ -3629,7 +3616,6 @@ theorem actual_block_19 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+114)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_19
 
 def actualBlock20 : ℕ → SourceRow
   | 0 => auxSource1092
@@ -3644,7 +3630,6 @@ theorem actual_block_20 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+120)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_20
 
 def actualBlock21 : ℕ → SourceRow
   | 0 => auxSource1141
@@ -3659,7 +3644,6 @@ theorem actual_block_21 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+126)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_21
 
 def actualBlock22 : ℕ → SourceRow
   | 0 => auxSource1197
@@ -3674,7 +3658,6 @@ theorem actual_block_22 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+132)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_22
 
 def actualBlock23 : ℕ → SourceRow
   | 0 => auxSource1302
@@ -3689,7 +3672,6 @@ theorem actual_block_23 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+138)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_23
 
 def actualBlock24 : ℕ → SourceRow
   | 0 => auxSource1484
@@ -3704,7 +3686,6 @@ theorem actual_block_24 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+144)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_24
 
 def actualBlock25 : ℕ → SourceRow
   | 0 => auxSource2491
@@ -3719,7 +3700,6 @@ theorem actual_block_25 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+150)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_25
 
 def actualBlock26 : ℕ → SourceRow
   | 0 => auxSource2501
@@ -3734,7 +3714,6 @@ theorem actual_block_26 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+156)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_26
 
 def actualBlock27 : ℕ → SourceRow
   | 0 => auxSource2521
@@ -3749,7 +3728,6 @@ theorem actual_block_27 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+162)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_27
 
 def actualBlock28 : ℕ → SourceRow
   | 0 => auxSource4181
@@ -3764,7 +3742,6 @@ theorem actual_block_28 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+168)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_28
 
 def actualBlock29 : ℕ → SourceRow
   | 0 => auxSource2465
@@ -3779,7 +3756,6 @@ theorem actual_block_29 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+174)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_29
 
 def actualBlock30 : ℕ → SourceRow
   | 0 => auxSource4072
@@ -3794,7 +3770,6 @@ theorem actual_block_30 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+180)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_30
 
 def actualBlock31 : ℕ → SourceRow
   | 0 => auxSource4090
@@ -3809,7 +3784,6 @@ theorem actual_block_31 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+186)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_31
 
 def actualBlock32 : ℕ → SourceRow
   | 0 => auxSource2267
@@ -3824,7 +3798,6 @@ theorem actual_block_32 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+192)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_32
 
 def actualBlock33 : ℕ → SourceRow
   | 0 => auxSource2787
@@ -3839,7 +3812,6 @@ theorem actual_block_33 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+198)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_33
 
 def actualBlock34 : ℕ → SourceRow
   | 0 => auxSource2814
@@ -3854,7 +3826,6 @@ theorem actual_block_34 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+204)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_34
 
 def actualBlock35 : ℕ → SourceRow
   | 0 => auxSource249
@@ -3869,7 +3840,6 @@ theorem actual_block_35 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+210)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_35
 
 def actualBlock36 : ℕ → SourceRow
   | 0 => auxSource256
@@ -3884,7 +3854,6 @@ theorem actual_block_36 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+216)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_36
 
 def actualBlock37 : ℕ → SourceRow
   | 0 => auxSource365
@@ -3899,7 +3868,6 @@ theorem actual_block_37 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+222)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_37
 
 def actualBlock38 : ℕ → SourceRow
   | 0 => auxSource371
@@ -3914,7 +3882,6 @@ theorem actual_block_38 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+228)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_38
 
 def actualBlock39 : ℕ → SourceRow
   | 0 => auxSource379
@@ -3929,7 +3896,6 @@ theorem actual_block_39 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+234)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_39
 
 def actualBlock40 : ℕ → SourceRow
   | 0 => auxSource445
@@ -3944,7 +3910,6 @@ theorem actual_block_40 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+240)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_40
 
 def actualBlock41 : ℕ → SourceRow
   | 0 => auxSource596
@@ -3959,7 +3924,6 @@ theorem actual_block_41 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+246)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_41
 
 def actualBlock42 : ℕ → SourceRow
   | 0 => auxSource952
@@ -3974,7 +3938,6 @@ theorem actual_block_42 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+252)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_42
 
 def actualBlock43 : ℕ → SourceRow
   | 0 => auxSource994
@@ -3989,7 +3952,6 @@ theorem actual_block_43 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+258)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_43
 
 def actualBlock44 : ℕ → SourceRow
   | 0 => auxSource1050
@@ -4004,7 +3966,6 @@ theorem actual_block_44 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+264)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_44
 
 def actualBlock45 : ℕ → SourceRow
   | 0 => auxSource1099
@@ -4019,7 +3980,6 @@ theorem actual_block_45 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+270)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_45
 
 def actualBlock46 : ℕ → SourceRow
   | 0 => auxSource1155
@@ -4034,7 +3994,6 @@ theorem actual_block_46 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+276)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_46
 
 def actualBlock47 : ℕ → SourceRow
   | 0 => auxSource1204
@@ -4049,7 +4008,6 @@ theorem actual_block_47 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+282)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_47
 
 def actualBlock48 : ℕ → SourceRow
   | 0 => auxSource1330
@@ -4064,7 +4022,6 @@ theorem actual_block_48 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+288)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_48
 
 def actualBlock49 : ℕ → SourceRow
   | 0 => auxSource1498
@@ -4079,7 +4036,6 @@ theorem actual_block_49 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+294)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_49
 
 def actualBlock50 : ℕ → SourceRow
   | 0 => auxSource2493
@@ -4094,7 +4050,6 @@ theorem actual_block_50 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+300)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_50
 
 def actualBlock51 : ℕ → SourceRow
   | 0 => auxSource2504
@@ -4109,7 +4064,6 @@ theorem actual_block_51 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+306)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_51
 
 def actualBlock52 : ℕ → SourceRow
   | 0 => auxSource2523
@@ -4124,7 +4078,6 @@ theorem actual_block_52 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+312)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_52
 
 def actualBlock53 : ℕ → SourceRow
   | 0 => auxSource4182
@@ -4139,7 +4092,6 @@ theorem actual_block_53 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+318)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_53
 
 def actualBlock54 : ℕ → SourceRow
   | 0 => auxSource4440
@@ -4154,7 +4106,6 @@ theorem actual_block_54 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+324)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_54
 
 def actualBlock55 : ℕ → SourceRow
   | 0 => auxSource4073
@@ -4169,7 +4120,6 @@ theorem actual_block_55 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+330)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_55
 
 def actualBlock56 : ℕ → SourceRow
   | 0 => auxSource4093
@@ -4184,7 +4134,6 @@ theorem actual_block_56 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+336)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_56
 
 def actualBlock57 : ℕ → SourceRow
   | 0 => auxSource2269
@@ -4199,7 +4148,6 @@ theorem actual_block_57 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+342)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_57
 
 def actualBlock58 : ℕ → SourceRow
   | 0 => auxSource2798
@@ -4214,7 +4162,6 @@ theorem actual_block_58 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+348)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_58
 
 def actualBlock59 : ℕ → SourceRow
   | 0 => auxSource3029
@@ -4229,7 +4176,6 @@ theorem actual_block_59 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+354)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_59
 
 def actualBlock60 : ℕ → SourceRow
   | 0 => auxSource236
@@ -4244,7 +4190,6 @@ theorem actual_block_60 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+360)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_60
 
 def actualBlock61 : ℕ → SourceRow
   | 0 => auxSource2134
@@ -4259,7 +4204,6 @@ theorem actual_block_61 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+366)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_61
 
 def actualBlock62 : ℕ → SourceRow
   | 0 => auxSource336
@@ -4274,7 +4218,6 @@ theorem actual_block_62 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+372)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_62
 
 def actualBlock63 : ℕ → SourceRow
   | 0 => auxSource330
@@ -4289,7 +4232,6 @@ theorem actual_block_63 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+378)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_63
 
 def actualBlock64 : ℕ → SourceRow
   | 0 => auxSource322
@@ -4304,7 +4246,6 @@ theorem actual_block_64 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+384)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_64
 
 def actualBlock65 : ℕ → SourceRow
   | 0 => auxSource534
@@ -4319,7 +4260,6 @@ theorem actual_block_65 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+390)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_65
 
 def actualBlock66 : ℕ → SourceRow
   | 0 => auxSource680
@@ -4334,7 +4274,6 @@ theorem actual_block_66 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+396)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_66
 
 def actualBlock67 : ℕ → SourceRow
   | 0 => auxSource952
@@ -4349,7 +4288,6 @@ theorem actual_block_67 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+402)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_67
 
 def actualBlock68 : ℕ → SourceRow
   | 0 => auxSource994
@@ -4364,7 +4302,6 @@ theorem actual_block_68 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+408)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_68
 
 def actualBlock69 : ℕ → SourceRow
   | 0 => auxSource1036
@@ -4379,7 +4316,6 @@ theorem actual_block_69 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+414)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_69
 
 def actualBlock70 : ℕ → SourceRow
   | 0 => auxSource1085
@@ -4394,7 +4330,6 @@ theorem actual_block_70 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+420)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_70
 
 def actualBlock71 : ℕ → SourceRow
   | 0 => auxSource1134
@@ -4409,7 +4344,6 @@ theorem actual_block_71 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+426)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_71
 
 def actualBlock72 : ℕ → SourceRow
   | 0 => auxSource1190
@@ -4424,7 +4358,6 @@ theorem actual_block_72 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+432)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_72
 
 def actualBlock73 : ℕ → SourceRow
   | 0 => auxSource1267
@@ -4439,7 +4372,6 @@ theorem actual_block_73 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+438)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_73
 
 def actualBlock74 : ℕ → SourceRow
   | 0 => auxSource1477
@@ -4454,8 +4386,84 @@ theorem actual_block_74 : ∀ i : Fin 6,
       cuspBlockLift (source (i.val+444)) := by
   simp only [normalizedPoly,← substituteCompute_eq]
   decide +kernel
-#print axioms actual_block_74
 
 end QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock
 end
 end
+
+}
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_0
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_1
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_2
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_3
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_4
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_5
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_6
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_7
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_8
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_9
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_10
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_11
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_12
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_13
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_14
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_15
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_16
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_17
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_18
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_19
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_20
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_21
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_22
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_23
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_24
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_25
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_26
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_27
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_28
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_29
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_30
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_31
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_32
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_33
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_34
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_35
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_36
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_37
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_38
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_39
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_40
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_41
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_42
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_43
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_44
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_45
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_46
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_47
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_48
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_49
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_50
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_51
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_52
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_53
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_54
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_55
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_56
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_57
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_58
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_59
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_60
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_61
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_62
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_63
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_64
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_65
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_66
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_67
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_68
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_69
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_70
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_71
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_72
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_73
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusExceptionalBlock.actual_block_74

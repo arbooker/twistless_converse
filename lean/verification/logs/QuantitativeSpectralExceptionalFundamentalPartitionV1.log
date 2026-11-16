@@ -1,3 +1,0 @@
-'QuantitativeSpectralExceptionalGeometry.finite_fundamental_partition' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

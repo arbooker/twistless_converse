@@ -1,3 +1,0 @@
-'SpanningClassicalZones.digit_of_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
-'SpanningClassicalZones.diagonal_factor' depends on axioms: [propext, Quot.sound]
-'SpanningClassicalZones.entry_interval' depends on axioms: [propext, Classical.choice, Quot.sound]

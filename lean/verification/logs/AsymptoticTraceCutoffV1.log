@@ -1,3 +1,0 @@
-'AsymptoticTraceCutoff.sum_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
-'AsymptoticTraceCutoff.normalized_sum_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
-'AsymptoticTraceCutoff.summable_and_tsum_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

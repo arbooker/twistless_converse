@@ -1,1 +1,0 @@
-'FinitenessHolomorphicCutoff.zero_of_jet' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,2 +1,0 @@
-'AsymptoticClassicalCusp.scaled_degeneracy_coe' depends on axioms: [propext, Classical.choice, Quot.sound]
-'AsymptoticClassicalCusp.dilationTrace_prime_slash' depends on axioms: [propext, Classical.choice, Quot.sound]

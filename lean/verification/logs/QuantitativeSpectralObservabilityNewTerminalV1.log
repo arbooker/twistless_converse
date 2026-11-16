@@ -1,6 +1,0 @@
-'QuantitativeSpectralObservability.closed_terminal_corner_of_boundary_zero' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'QuantitativeSpectralObservability.exists_new_terminal_observability' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

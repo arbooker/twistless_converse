@@ -1,3 +1,0 @@
-'QuantitativeArithmeticFin210FastCoordinates.zero_of_coordinates' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

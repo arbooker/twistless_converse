@@ -1,3 +1,0 @@
-'QuantitativeEulerEndpointPrepared.exists_reconstructed_fresh_low_trace' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

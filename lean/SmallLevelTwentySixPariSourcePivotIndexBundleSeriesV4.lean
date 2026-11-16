@@ -1,7 +1,11 @@
 module
+public meta import SmallLevelCertificateBatchCommandV1
 public import SmallLevelTwentySixPariSourcePivotIndexDataSeriesV4
 @[expose] public noncomputable section
 section
+set_option Elab.async false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 set_option autoImplicit false
 set_option linter.unnecessarySeqFocus false
 set_option linter.unusedSimpArgs false
@@ -12,6 +16,7 @@ set_option maxRecDepth 32768
 /-! Consolidated certificate family; original declaration bodies retained. -/
 namespace SmallLevelTwentySixPariSourcePivot87
 open SmallLevelPolynomialCoefficientCertificate
+certificate_batch {
 
 theorem coefficient_0 (y z w a b u : ℂ) :
     (certificate y z w a b u)[0]?=some 0 := by
@@ -148,10 +153,14 @@ theorem coefficient_17 (y z w a b u : ℂ) :
   ring
 #print axioms coefficient_17
 
+}
 end SmallLevelTwentySixPariSourcePivot87
 end
 
 section
+set_option Elab.async false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 set_option autoImplicit false
 set_option linter.unnecessarySeqFocus false
 set_option linter.unusedSimpArgs false
@@ -162,6 +171,7 @@ set_option maxRecDepth 32768
 /-! Consolidated certificate family; original declaration bodies retained. -/
 namespace SmallLevelTwentySixPariSourcePivot8
 open SmallLevelPolynomialCoefficientCertificate
+certificate_batch {
 
 theorem coefficient_0 (y z w a b u : ℂ) :
     (certificate y z w a b u)[0]?=some 0 := by
@@ -216,5 +226,6 @@ theorem coefficient_6 (y z w a b u : ℂ) :
   ring
 #print axioms coefficient_6
 
+}
 end SmallLevelTwentySixPariSourcePivot8
 end

@@ -1,3 +1,0 @@
-'QuantitativeEulerDiamondDecode.fixed_multiplier_polynomial_bound' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

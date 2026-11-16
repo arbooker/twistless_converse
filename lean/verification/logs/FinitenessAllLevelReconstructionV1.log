@@ -1,8 +1,0 @@
-'FinitenessAllLevelReconstruction.reconstruct_FE_two_dilations' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'FinitenessAllLevelReconstruction.original_reconstruction' depends on axioms: [propext, Classical.choice, Quot.sound]
-'FinitenessAllLevelReconstruction.exists_original_reconstruction' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-

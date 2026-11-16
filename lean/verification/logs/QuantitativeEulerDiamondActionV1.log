@@ -1,2 +1,0 @@
-'QuantitativeEulerDiamondDecode.compactAction_branch' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeEulerDiamondDecode.compactAction_decode' depends on axioms: [propext, Classical.choice, Quot.sound]

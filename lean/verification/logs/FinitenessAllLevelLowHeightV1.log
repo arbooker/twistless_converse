@@ -1,2 +1,0 @@
-'FinitenessAllLevelLowHeight.from_FE' depends on axioms: [propext, Classical.choice, Quot.sound]
-

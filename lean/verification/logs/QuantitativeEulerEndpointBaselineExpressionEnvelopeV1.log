@@ -1,3 +1,0 @@
-'QuantitativeEulerEndpointPrepared.exists_baseline_expression_envelope' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

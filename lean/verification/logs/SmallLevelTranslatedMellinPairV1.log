@@ -1,3 +1,0 @@
-'SmallLevelTranslatedMellinPair.formula_of_exchange' depends on axioms: [propext, Classical.choice, Quot.sound]
-'SmallLevelTranslatedMellinPair.translated_pair_entire' depends on axioms: [propext, Classical.choice, Quot.sound]
-

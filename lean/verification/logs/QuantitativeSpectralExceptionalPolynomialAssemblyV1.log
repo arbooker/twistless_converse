@@ -1,3 +1,0 @@
-'QuantitativeSpectralExceptionalReducedRows.exists_selectedRecombine_polynomial' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

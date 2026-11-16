@@ -1,4 +1,0 @@
-'SmallLevelContinuation.continued_meromorphic_rows' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeArithmeticUniversalPoleVector.IsLeadingVector.taylor_at' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

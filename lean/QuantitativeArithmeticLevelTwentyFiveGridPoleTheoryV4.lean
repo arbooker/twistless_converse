@@ -106,6 +106,15 @@ public import QuantitativeArithmeticLevelTwentyFiveGridSecondRootCertificatesV4
 public import QuantitativeArithmeticLevelTwentyFiveGridSecondRootPhysicalCertificatesV4
 public import QuantitativeArithmeticLevelTwentyFiveGridFactoredJetMatchCertificatesV4
 public import QuantitativeArithmeticLevelTwentyFiveGridFactoredJetRowCertificatesV4
+public meta import SmallLevelCertificateBatchCommandV1
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
+set_option linter.unusedSimpArgs false
+set_option linter.unnecessarySimpa false
+open scoped Manifold MatrixGroups ModularForm
+open UpperHalfPlane
+open scoped Matrix
+certificate_batch {
 set_option Elab.async false
 set_option linter.unusedTactic false
 set_option linter.unreachableTactic false
@@ -178,9 +187,8 @@ compact_certificate theorem lower_combination (x y z w a b c : ℂ) (v : ℕ →
   simp only [lowerResult278,lowerResult278Part0]
   simp only [lowerResult226,lowerResult226Part0]
   simp only [eval,monomial,List.map_cons,List.map_nil,List.sum_cons,List.sum_nil,coefficient0,coefficient1,coefficient2]
-  norm_num [_root_.zpow_neg]
-  field_simp
-  ring
+  norm_num [Rat.cast_divInt,_root_.zpow_neg]
+  field_simp [hx,hy,hz,hw] <;> ring_nf <;> field_simp [hx,hy,hz,hw] <;> ring
 
 #print axioms lower_combination
 end QuantitativeArithmeticSmallLevelTwentyFive.FactoredJet
@@ -593,9 +601,8 @@ compact_certificate theorem residual0_special (x y z w c : ℂ) (v : ℕ → ℂ
     eval x y z w (-1/x) ((x^2-2)/(x^2*y)) c v result392=specialResidual0 x y w*v 756 := by
   simp only [result392,result392Part0,result392Part1,result392Part2,eval_append]
   simp only [eval,monomial,List.map_cons,List.map_nil,List.sum_cons,List.sum_nil]
-  norm_num [_root_.zpow_neg,h630,h672,specialResidual0]
-  field_simp
-  ring
+  norm_num [Rat.cast_divInt,_root_.zpow_neg,h630,h672,specialResidual0]
+  field_simp [hx,hy,hz,hw] <;> ring_nf <;> field_simp [hx,hy,hz,hw] <;> ring
 compact_certificate def specialCoefficient1 (x y w : ℂ) : ℂ := -49*w^2*(27*x^12*y^2 - 162*x^10*y^2 - 486*x^10 - 8*x^8*y^6 + 168*x^8*y^4 + 3780*x^8*y^2 + 4536*x^8 + 32*x^6*y^6 - 192*x^6*y^4 - 29808*x^6*y^2 + 22032*x^6 - 352*x^4*y^6 - 1296*x^4*y^4 + 60912*x^4*y^2 - 68688*x^4 - 896*x^2*y^6 + 19968*x^2*y^4 + 165888*x^2*y^2 - 1658880*x^2 + 6144*y^6 - 134400*y^4 + 601344*y^2)/72
 compact_certificate def specialResidual1 (x y w : ℂ) : ℂ := -175*(2*x^4 - 2*x^2*y^2 - 21*x^2 - 2*y^2)/(4*w^2*x^3*y^2)
 compact_certificate theorem coefficient1_special (x y w : ℂ) (hx : x≠0) (hy : y≠0) (hw : w≠0) :
@@ -609,9 +616,8 @@ compact_certificate theorem residual1_special (x y z w c : ℂ) (v : ℕ → ℂ
     eval x y z w (-1/x) ((x^2-2)/(x^2*y)) c v result278=specialResidual1 x y w*v 756 := by
   simp only [result278,result278Part0,result278Part1,eval_append]
   simp only [eval,monomial,List.map_cons,List.map_nil,List.sum_cons,List.sum_nil]
-  norm_num [_root_.zpow_neg,h630,h672,specialResidual1]
-  field_simp
-  ring
+  norm_num [Rat.cast_divInt,_root_.zpow_neg,h630,h672,specialResidual1]
+  field_simp [hx,hy,hz,hw] <;> ring_nf <;> field_simp [hx,hy,hz,hw] <;> ring
 compact_certificate def specialCoefficient2 (x y w : ℂ) : ℂ := 2401*x^2*y^2*(27*x^12 + 18*x^10*y^2 - 324*x^10 + 192*x^8*y^2 + 3744*x^8 + 96*x^6*y^4 - 3000*x^6*y^2 + 936*x^6 - 640*x^4*y^4 + 11904*x^4*y^2 - 65088*x^4 + 384*x^2*y^4 - 576*x^2*y^2 - 85824*x^2 - 2048*y^4 + 36096*y^2)/576
 compact_certificate def specialResidual2 (x y w : ℂ) : ℂ := 75*(x^6*y^2 - 4*x^4*y^2 - 16*x^4 - 16*x^2*y^2 + 144*x^2 + 16*y^2)/(8*x^5*y^4)
 compact_certificate theorem coefficient2_special (x y w : ℂ) (hx : x≠0) (hy : y≠0) (hw : w≠0) :
@@ -625,9 +631,8 @@ compact_certificate theorem residual2_special (x y z w c : ℂ) (v : ℕ → ℂ
     eval x y z w (-1/x) ((x^2-2)/(x^2*y)) c v result226=specialResidual2 x y w*v 756 := by
   simp only [result226,result226Part0,result226Part1,eval_append]
   simp only [eval,monomial,List.map_cons,List.map_nil,List.sum_cons,List.sum_nil]
-  norm_num [_root_.zpow_neg,h630,h672,specialResidual2]
-  field_simp
-  ring
+  norm_num [Rat.cast_divInt,_root_.zpow_neg,h630,h672,specialResidual2]
+  field_simp [hx,hy,hz,hw] <;> ring_nf <;> field_simp [hx,hy,hz,hw] <;> ring
 compact_certificate def H (X Y : ℂ) : ℂ := 162*X^8*Y - 405*X^8 - 108*X^7*Y^2 - 1890*X^7*Y + 4293*X^7 - 100*X^6*Y^3 + 813*X^6*Y^2 + 31446*X^6*Y - 50760*X^6 + 16*X^5*Y^4 - 1942*X^5*Y^3 - 13377*X^5*Y^2 - 121941*X^5*Y + 23760*X^5 - 496*X^4*Y^4 + 7066*X^4*Y^3 + 16674*X^4*Y^2 - 517320*X^4*Y + 897048*X^4 + 960*X^3*Y^4 + 4720*X^3*Y^3 + 277032*X^3*Y^2 + 2979000*X^3*Y - 1072224*X^3 + 10240*X^2*Y^4 - 133800*X^2*Y^3 - 903744*X^2*Y^2 + 291528*X^2*Y - 15616*X*Y^4 + 280032*X*Y^3 - 1581120*X*Y^2 + 1072224*X*Y - 21504*Y^4 + 354816*Y^3 - 306432*Y^2
 
 compact_certificate theorem special_combination (x y w : ℂ) (hx : x≠0) (hy : y≠0) (hw : w≠0) :
@@ -5490,3 +5495,5 @@ end QuantitativeArithmeticSmallLevelTwentyFive.GridSystem
 end
 end
 
+
+}

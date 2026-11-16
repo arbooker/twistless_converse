@@ -1,2 +1,0 @@
-'SpanningTowerTraces.uniform_two_powers' depends on axioms: [propext, Classical.choice, Quot.sound]
-'SpanningTowerTraces.cumulativeTraceIso' depends on axioms: [propext, Classical.choice, Quot.sound]

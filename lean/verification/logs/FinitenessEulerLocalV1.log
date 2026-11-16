@@ -1,2 +1,0 @@
-'FinitenessEulerLocal.coeff_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
-'FinitenessEulerLocal.inverse_factor' depends on axioms: [propext, Classical.choice, Quot.sound]

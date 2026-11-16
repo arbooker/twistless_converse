@@ -1,4 +1,0 @@
-'QuantitativeArithmeticSmallLevelThirtyThreeKnownWords.original_grid_hecke_system' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-

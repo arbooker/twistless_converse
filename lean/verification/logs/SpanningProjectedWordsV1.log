@@ -1,2 +1,0 @@
-'SpanningProjectedWords.projected_words_periodic' depends on axioms: [propext, Classical.choice, Quot.sound]
-'SpanningProjectedWords.powered_block_periodic' depends on axioms: [propext, Classical.choice, Quot.sound]

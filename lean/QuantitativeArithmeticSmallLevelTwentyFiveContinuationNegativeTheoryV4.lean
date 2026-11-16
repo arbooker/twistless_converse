@@ -1,9 +1,15 @@
 module
+public meta import SmallLevelCertificateBatchCommandV1
 
 public import Mathlib.Data.Complex.Basic
 public import Mathlib.Tactic
 public meta import QuantitativeArithmeticCompactCommandsV1
 
+set_option Elab.async false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
+set_option linter.unnecessarySeqFocus false
+certificate_batch {
 /-! Consolidated chapter: QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative. Original declarations and local scopes are retained. -/
 
 /-! ## QuantitativeArithmeticSmallLevelTwentyFiveContinuationNegativeTheoryV4 -/
@@ -2037,7 +2043,6 @@ theorem reduced_rows_kernel (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z�
   · exact hw148
   · exact hw149
 
-#print axioms reduced_rows_kernel
 
 end QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative
 end
@@ -2086,7 +2091,6 @@ theorem last_pivots_zero (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0
       exact div_ne_zero (mul_ne_zero (by norm_num) hP3) (mul_ne_zero (mul_ne_zero (by norm_num) (pow_ne_zero 2 hy)) hP4)
     exact (mul_eq_zero.mp hi).resolve_left hn
   exact ⟨hw42,hw128⟩
-#print axioms last_pivots_zero
 end QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative
 end
 end
@@ -2125,7 +2129,6 @@ theorem pivot71_zero (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     rw [he]
     exact div_ne_zero (mul_ne_zero (by norm_num) hP2) (mul_ne_zero (mul_ne_zero (by norm_num) (pow_ne_zero 2 hy)) hP6)
   exact (mul_eq_zero.mp hi).resolve_left hn
-#print axioms pivot71_zero
 
 theorem pivot73_zero (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -2145,7 +2148,6 @@ theorem pivot73_zero (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     exact div_ne_zero (mul_ne_zero (mul_ne_zero (mul_ne_zero (by norm_num) (pow_ne_zero 2 hz)) hP6) hP1) (mul_ne_zero (mul_ne_zero (mul_ne_zero (by norm_num) (pow_ne_zero 2 hx)) (pow_ne_zero 2 hy)) hP2)
   exact (mul_eq_zero.mp hi).resolve_left hn
 
-#print axioms pivot73_zero
 
 end QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative
 end
@@ -2183,7 +2185,6 @@ compact_certificate theorem reduced_step0 (x y z a b : ℂ) (hx : x≠0) (hy : y
   have hs0 := hs
   change (1) * w 144=0
   exact hs0
-#print axioms reduced_step0
 
 compact_certificate theorem reduced_step1 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -2202,7 +2203,6 @@ compact_certificate theorem reduced_step1 (x y z a b : ℂ) (hx : x≠0) (hy : y
   change (((-1) * (y^2))) * w 148=0
   change (1) * w 144=0 at h0
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(1)*h0
-#print axioms reduced_step1
 
 compact_certificate theorem reduced_step2 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -2221,7 +2221,6 @@ compact_certificate theorem reduced_step2 (x y z a b : ℂ) (hx : x≠0) (hy : y
   change (((-1) * (x^2))) * w 147=0
   change (1) * w 144=0 at h0
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(1)*h0
-#print axioms reduced_step2
 
 compact_certificate theorem reduced_step3 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -2240,7 +2239,6 @@ compact_certificate theorem reduced_step3 (x y z a b : ℂ) (hx : x≠0) (hy : y
   change ((-1)) * w 6=0
   change (1) * w 144=0 at h0
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(1)*h0
-#print axioms reduced_step3
 
 compact_certificate theorem reduced_step4 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -2257,7 +2255,6 @@ compact_certificate theorem reduced_step4 (x y z a b : ℂ) (hx : x≠0) (hy : y
   have hs0 := hs
   change (1) * w 2=0
   exact hs0
-#print axioms reduced_step4
 
 compact_certificate theorem reduced_step5 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -2276,7 +2273,6 @@ compact_certificate theorem reduced_step5 (x y z a b : ℂ) (hx : x≠0) (hy : y
   change (1) * w 1=0
   change (1) * w 2=0 at h4
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(((-1) / (x^2)))*h4
-#print axioms reduced_step5
 
 compact_certificate theorem reduced_step6 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -2295,7 +2291,6 @@ compact_certificate theorem reduced_step6 (x y z a b : ℂ) (hx : x≠0) (hy : y
   change (1) * w 3=0
   change (1) * w 144=0 at h0
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(((-1) / (x^2)))*h0
-#print axioms reduced_step6
 
 compact_certificate theorem reduced_step7 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -2314,7 +2309,6 @@ compact_certificate theorem reduced_step7 (x y z a b : ℂ) (hx : x≠0) (hy : y
   change (1) * w 72=0
   change (((-1) * (y^2))) * w 148=0 at h1
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(1)*h1
-#print axioms reduced_step7
 
 compact_certificate theorem reduced_step8 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -2333,7 +2327,6 @@ compact_certificate theorem reduced_step8 (x y z a b : ℂ) (hx : x≠0) (hy : y
   change (1) * w 76=0
   change (1) * w 144=0 at h0
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(((-1) / (y^2)))*h0
-#print axioms reduced_step8
 
 compact_certificate theorem reduced_step9 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -2352,7 +2345,6 @@ compact_certificate theorem reduced_step9 (x y z a b : ℂ) (hx : x≠0) (hy : y
   change (1) * w 78=0
   change (((-1) * (x^2))) * w 147=0 at h2
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(1)*h2
-#print axioms reduced_step9
 
 
 
@@ -2373,7 +2365,6 @@ compact_certificate theorem reduced_step10 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change (1) * w 74=0
   change (((-1) * (y^2))) * w 148=0 at h1
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-((1 / (y^2)))*h1
-#print axioms reduced_step10
 
 compact_certificate theorem reduced_step11 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -2390,7 +2381,6 @@ compact_certificate theorem reduced_step11 (x y z a b : ℂ) (hx : x≠0) (hy : 
   have hs0 := hs
   change (1) * w 138=0
   exact hs0
-#print axioms reduced_step11
 
 compact_certificate theorem reduced_step12 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -2409,7 +2399,6 @@ compact_certificate theorem reduced_step12 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change (((-1) * (y^2))) * w 146=0
   change (1) * w 138=0 at h11
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(1)*h11
-#print axioms reduced_step12
 
 compact_certificate theorem reduced_step13 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -2428,7 +2417,6 @@ compact_certificate theorem reduced_step13 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change ((-1)) * w 12=0
   change (1) * w 138=0 at h11
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(1)*h11
-#print axioms reduced_step13
 
 compact_certificate theorem reduced_step14 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -2447,7 +2435,6 @@ compact_certificate theorem reduced_step14 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change (((-1) * (y^2))) * w 4=0
   change (1) * w 138=0 at h11
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(1)*h11
-#print axioms reduced_step14
 
 compact_certificate theorem reduced_step15 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -2464,7 +2451,6 @@ compact_certificate theorem reduced_step15 (x y z a b : ℂ) (hx : x≠0) (hy : 
   have hs0 := hs
   change (1) * w 0=0
   exact hs0
-#print axioms reduced_step15
 
 compact_certificate theorem reduced_step16 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -2483,7 +2469,6 @@ compact_certificate theorem reduced_step16 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change (1) * w 75=0
   change (1) * w 0=0 at h15
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(((-1) / (x^2)))*h15
-#print axioms reduced_step16
 
 compact_certificate theorem reduced_step17 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -2502,7 +2487,6 @@ compact_certificate theorem reduced_step17 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change (1) * w 149=0
   change (1) * w 0=0 at h15
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-((1 / ((x^2) * (y^2) * (z^2))))*h15
-#print axioms reduced_step17
 
 compact_certificate theorem reduced_step18 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -2519,7 +2503,6 @@ compact_certificate theorem reduced_step18 (x y z a b : ℂ) (hx : x≠0) (hy : 
   have hs0 := hs
   change (1) * w 120 + (((-1) * (x^2) * (y^2))) * w 145=0
   exact hs0
-#print axioms reduced_step18
 
 compact_certificate theorem reduced_step19 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -2536,7 +2519,6 @@ compact_certificate theorem reduced_step19 (x y z a b : ℂ) (hx : x≠0) (hy : 
   have hs0 := hs
   change (((-1) * (x^2) * (y^2))) * w 7 + (1) * w 108=0
   exact hs0
-#print axioms reduced_step19
 
 
 
@@ -2555,7 +2537,6 @@ compact_certificate theorem reduced_step20 (x y z a b : ℂ) (hx : x≠0) (hy : 
   have hs0 := hs
   change (((-1) * (y^2))) * w 8 + (1) * w 126=0
   exact hs0
-#print axioms reduced_step20
 
 compact_certificate theorem reduced_step21 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -2572,7 +2553,6 @@ compact_certificate theorem reduced_step21 (x y z a b : ℂ) (hx : x≠0) (hy : 
   have hs0 := hs
   change (((-1) * (x^2))) * w 9 + (1) * w 132=0
   exact hs0
-#print axioms reduced_step21
 
 compact_certificate theorem reduced_step22 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -2589,7 +2569,6 @@ compact_certificate theorem reduced_step22 (x y z a b : ℂ) (hx : x≠0) (hy : 
   have hs0 := hs
   change ((((-1) * (y^2)) / (x^2))) * w 10 + (1) * w 135=0
   exact hs0
-#print axioms reduced_step22
 
 compact_certificate theorem reduced_step23 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -2606,7 +2585,6 @@ compact_certificate theorem reduced_step23 (x y z a b : ℂ) (hx : x≠0) (hy : 
   have hs0 := hs
   change ((((-1) * (x^2)) / (y^2))) * w 15 + (1) * w 140=0
   exact hs0
-#print axioms reduced_step23
 
 compact_certificate theorem reduced_step24 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -2623,7 +2601,6 @@ compact_certificate theorem reduced_step24 (x y z a b : ℂ) (hx : x≠0) (hy : 
   have hs0 := hs
   change (((-1) / (x^2))) * w 18 + (1) * w 141=0
   exact hs0
-#print axioms reduced_step24
 
 compact_certificate theorem reduced_step25 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -2640,7 +2617,6 @@ compact_certificate theorem reduced_step25 (x y z a b : ℂ) (hx : x≠0) (hy : 
   have hs0 := hs
   change (((-1) / (y^2))) * w 24 + (1) * w 142=0
   exact hs0
-#print axioms reduced_step25
 
 compact_certificate theorem reduced_step26 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -2657,7 +2633,6 @@ compact_certificate theorem reduced_step26 (x y z a b : ℂ) (hx : x≠0) (hy : 
   have hs0 := hs
   change (((-1) / ((x^2) * (y^2)))) * w 42 + (1) * w 143=0
   exact hs0
-#print axioms reduced_step26
 
 compact_certificate theorem reduced_step27 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -2674,7 +2649,6 @@ compact_certificate theorem reduced_step27 (x y z a b : ℂ) (hx : x≠0) (hy : 
   have hs0 := hs
   change (1) * w 5 + (((-1) / ((x^2) * (y^2)))) * w 30=0
   exact hs0
-#print axioms reduced_step27
 
 compact_certificate theorem reduced_step28 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -2693,7 +2667,6 @@ compact_certificate theorem reduced_step28 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change (((-1) / ((x^2) * (y^2)))) * w 24 + (1) * w 77=0
   change (((-1) / (y^2))) * w 24 + (1) * w 142=0 at h25
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(((-1) / (x^2)))*h25
-#print axioms reduced_step28
 
 compact_certificate theorem reduced_step29 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -2712,7 +2685,6 @@ compact_certificate theorem reduced_step29 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change (1) * w 80 + (((-1) / (y^2))) * w 120=0
   change (1) * w 120 + (((-1) * (x^2) * (y^2))) * w 145=0 at h18
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-((1 / (y^2)))*h18
-#print axioms reduced_step29
 
 
 
@@ -2731,7 +2703,6 @@ compact_certificate theorem reduced_step30 (x y z a b : ℂ) (hx : x≠0) (hy : 
   have hs0 := hs
   change (1) * w 42 + (((-1) * (x^2) * (y^2))) * w 139=0
   exact hs0
-#print axioms reduced_step30
 
 compact_certificate theorem reduced_step31 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -2750,7 +2721,6 @@ compact_certificate theorem reduced_step31 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change (((-1) * (x^2))) * w 15 + (1) * w 60=0
   change ((((-1) * (x^2)) / (y^2))) * w 15 + (1) * w 140=0 at h23
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(((-1) * (y^2)))*h23
-#print axioms reduced_step31
 
 compact_certificate theorem reduced_step32 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -2769,7 +2739,6 @@ compact_certificate theorem reduced_step32 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change ((-1)) * w 18 + (1) * w 66=0
   change (((-1) / (x^2))) * w 18 + (1) * w 141=0 at h24
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(((-1) * (x^2)))*h24
-#print axioms reduced_step32
 
 compact_certificate theorem reduced_step33 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -2788,7 +2757,6 @@ compact_certificate theorem reduced_step33 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change (((-1) / (x^2))) * w 24 + (1) * w 69=0
   change (((-1) / (y^2))) * w 24 + (1) * w 142=0 at h25
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-((((-1) * (y^2)) / (x^2)))*h25
-#print axioms reduced_step33
 
 compact_certificate theorem reduced_step34 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -2805,7 +2773,6 @@ compact_certificate theorem reduced_step34 (x y z a b : ℂ) (hx : x≠0) (hy : 
   have hs0 := hs
   change (1) * w 79 + (((-1) / ((x^2) * (y^2)))) * w 102=0
   exact hs0
-#print axioms reduced_step34
 
 compact_certificate theorem reduced_step35 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -2822,7 +2789,6 @@ compact_certificate theorem reduced_step35 (x y z a b : ℂ) (hx : x≠0) (hy : 
   have hs0 := hs
   change (1) * w 81 + (((-1) / (x^2))) * w 126=0
   exact hs0
-#print axioms reduced_step35
 
 compact_certificate theorem reduced_step36 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -2839,7 +2805,6 @@ compact_certificate theorem reduced_step36 (x y z a b : ℂ) (hx : x≠0) (hy : 
   have hs0 := hs
   change (1) * w 82 + ((((-1) * (x^2)) / (y^2))) * w 129=0
   exact hs0
-#print axioms reduced_step36
 
 compact_certificate theorem reduced_step37 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -2856,7 +2821,6 @@ compact_certificate theorem reduced_step37 (x y z a b : ℂ) (hx : x≠0) (hy : 
   have hs0 := hs
   change (1) * w 84 + ((-1)) * w 132=0
   exact hs0
-#print axioms reduced_step37
 
 compact_certificate theorem reduced_step38 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -2873,7 +2837,6 @@ compact_certificate theorem reduced_step38 (x y z a b : ℂ) (hx : x≠0) (hy : 
   have hs0 := hs
   change (1) * w 87 + ((((-1) * (y^2)) / (x^2))) * w 134=0
   exact hs0
-#print axioms reduced_step38
 
 compact_certificate theorem reduced_step39 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -2892,7 +2855,6 @@ compact_certificate theorem reduced_step39 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change (((-1) * (y^2))) * w 10 + (1) * w 90=0
   change ((((-1) * (y^2)) / (x^2))) * w 10 + (1) * w 135=0 at h22
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(((-1) * (x^2)))*h22
-#print axioms reduced_step39
 
 
 
@@ -2911,7 +2873,6 @@ compact_certificate theorem reduced_step40 (x y z a b : ℂ) (hx : x≠0) (hy : 
   have hs0 := hs
   change (1) * w 96 + (((-1) * (y^2))) * w 136=0
   exact hs0
-#print axioms reduced_step40
 
 compact_certificate theorem reduced_step41 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -2928,7 +2889,6 @@ compact_certificate theorem reduced_step41 (x y z a b : ℂ) (hx : x≠0) (hy : 
   have hs0 := hs
   change (1) * w 114 + (((-1) * (x^2) * (y^2))) * w 137=0
   exact hs0
-#print axioms reduced_step41
 
 compact_certificate theorem reduced_step42 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -2945,7 +2905,6 @@ compact_certificate theorem reduced_step42 (x y z a b : ℂ) (hx : x≠0) (hy : 
   have hs0 := hs
   change (((-1) * (x^2) * (y^2))) * w 13 + (1) * w 36=0
   exact hs0
-#print axioms reduced_step42
 
 compact_certificate theorem reduced_step43 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -2962,7 +2921,6 @@ compact_certificate theorem reduced_step43 (x y z a b : ℂ) (hx : x≠0) (hy : 
   have hs0 := hs
   change (((-1) * (y^2))) * w 14 + (1) * w 54=0
   exact hs0
-#print axioms reduced_step43
 
 compact_certificate theorem reduced_step44 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -2979,7 +2937,6 @@ compact_certificate theorem reduced_step44 (x y z a b : ℂ) (hx : x≠0) (hy : 
   have hs0 := hs
   change ((((-1) * (y^2)) / (x^2))) * w 16 + (1) * w 63=0
   exact hs0
-#print axioms reduced_step44
 
 compact_certificate theorem reduced_step45 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -2996,7 +2953,6 @@ compact_certificate theorem reduced_step45 (x y z a b : ℂ) (hx : x≠0) (hy : 
   have hs0 := hs
   change ((((-1) * (x^2)) / (y^2))) * w 21 + (1) * w 68=0
   exact hs0
-#print axioms reduced_step45
 
 compact_certificate theorem reduced_step46 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -3013,7 +2969,6 @@ compact_certificate theorem reduced_step46 (x y z a b : ℂ) (hx : x≠0) (hy : 
   have hs0 := hs
   change (((-1) / (y^2))) * w 30 + (1) * w 70=0
   exact hs0
-#print axioms reduced_step46
 
 compact_certificate theorem reduced_step47 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -3030,7 +2985,6 @@ compact_certificate theorem reduced_step47 (x y z a b : ℂ) (hx : x≠0) (hy : 
   have hs0 := hs
   change (((-1) / ((x^2) * (y^2)))) * w 48 + (1) * w 71=0
   exact hs0
-#print axioms reduced_step47
 
 compact_certificate theorem reduced_step48 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -3047,7 +3001,6 @@ compact_certificate theorem reduced_step48 (x y z a b : ℂ) (hx : x≠0) (hy : 
   have hs0 := hs
   change (1) * w 73 + (((-1) / ((x^2) * (y^2)))) * w 126=0
   exact hs0
-#print axioms reduced_step48
 
 compact_certificate theorem reduced_step49 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -3064,7 +3017,6 @@ compact_certificate theorem reduced_step49 (x y z a b : ℂ) (hx : x≠0) (hy : 
   have hs0 := hs
   change (((-1) * (x^2) * (y^2))) * w 11 + (1) * w 108=0
   exact hs0
-#print axioms reduced_step49
 
 
 
@@ -3085,7 +3037,6 @@ compact_certificate theorem reduced_step50 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change ((1 / ((x^2) * (y^2)))) * w 30 + ((1 / ((x^2) * (y^2)))) * w 120=0
   change (1) * w 5 + (((-1) / ((x^2) * (y^2)))) * w 30=0 at h27
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(1)*h27
-#print axioms reduced_step50
 
 compact_certificate theorem reduced_step51 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -3104,7 +3055,6 @@ compact_certificate theorem reduced_step51 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change (((y^2) / ((x^2) * (z^2)))) * w 50 + ((1 / (x^2))) * w 132=0
   change (((-1) * (x^2))) * w 9 + (1) * w 132=0 at h21
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(((-1) / (x^2)))*h21
-#print axioms reduced_step51
 
 compact_certificate theorem reduced_step52 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -3123,7 +3073,6 @@ compact_certificate theorem reduced_step52 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change ((1 / (x^2))) * w 18 + (((y^2) / ((x^2) * (z^2)))) * w 100=0
   change (((-1) / (x^2))) * w 18 + (1) * w 141=0 at h24
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(1)*h24
-#print axioms reduced_step52
 
 compact_certificate theorem reduced_step53 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -3142,7 +3091,6 @@ compact_certificate theorem reduced_step53 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change ((1 / (y^2))) * w 60 + ((1 / (y^2))) * w 90=0
   change (((-1) * (y^2))) * w 10 + (1) * w 90=0 at h39
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(((-1) / (y^2)))*h39
-#print axioms reduced_step53
 
 compact_certificate theorem reduced_step54 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -3159,7 +3107,6 @@ compact_certificate theorem reduced_step54 (x y z a b : ℂ) (hx : x≠0) (hy : 
   have hs0 := hs
   change (1) * w 20 + (((x^2) / (y^2))) * w 105=0
   exact hs0
-#print axioms reduced_step54
 
 compact_certificate theorem reduced_step55 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -3176,7 +3123,6 @@ compact_certificate theorem reduced_step55 (x y z a b : ℂ) (hx : x≠0) (hy : 
   have hs0 := hs
   change (((x^2) / (y^2))) * w 45 + (1) * w 130=0
   exact hs0
-#print axioms reduced_step55
 
 compact_certificate theorem reduced_step56 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -3193,7 +3139,6 @@ compact_certificate theorem reduced_step56 (x y z a b : ℂ) (hx : x≠0) (hy : 
   have hs0 := hs
   change (1) * w 25 + (((z^2) / ((x^2) * (y^2)))) * w 114=0
   exact hs0
-#print axioms reduced_step56
 
 compact_certificate theorem reduced_step57 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -3210,7 +3155,6 @@ compact_certificate theorem reduced_step57 (x y z a b : ℂ) (hx : x≠0) (hy : 
   have hs0 := hs
   change (((z^2) / ((x^2) * (y^2)))) * w 36 + (1) * w 125=0
   exact hs0
-#print axioms reduced_step57
 
 compact_certificate theorem reduced_step58 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -3231,7 +3175,6 @@ compact_certificate theorem reduced_step58 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change (((y^2) / ((x^2) * (z^2)))) * w 50 + ((1 / (x^2))) * w 132=0 at h51
   change ((1 / (x^2))) * w 18 + (((y^2) / ((x^2) * (z^2)))) * w 100=0 at h52
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-((((x^2) * (z^2)) / (y^2)))*h51-((((x^2) * (z^2)) / (y^2)))*h52
-#print axioms reduced_step58
 
 compact_certificate theorem reduced_step59 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -3250,7 +3193,6 @@ compact_certificate theorem reduced_step59 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change (1) * w 40 + (1) * w 110=0
   change ((1 / (y^2))) * w 60 + ((1 / (y^2))) * w 90=0 at h53
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-((y^2))*h53
-#print axioms reduced_step59
 
 
 
@@ -3275,7 +3217,6 @@ compact_certificate theorem reduced_step60 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change (1) * w 84 + ((-1)) * w 132=0 at h37
   change ((((-1) * (z^2)) / (y^2))) * w 18 + ((((-1) * (z^2)) / (y^2))) * w 132=0 at h58
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(((-1) / (x^2)))*h21-(1)*h37-(((((-1) * (y^2)) + ((-1) * (x^2) * (y^2))) / ((x^2) * (z^2))))*h58
-#print axioms reduced_step60
 
 compact_certificate theorem reduced_step61 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -3298,7 +3239,6 @@ compact_certificate theorem reduced_step61 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change (((z^2) / ((x^2) * (y^2)))) * w 36 + (1) * w 125=0 at h57
   change ((((-1) + ((-1) * (x^2)) + ((-1) * a * x)) / (x^2))) * w 18 + ((1 / (x^2))) * w 36=0 at h60
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(1)*h56-(1)*h57-((((-1) * (z^2)) / (y^2)))*h60
-#print axioms reduced_step61
 
 compact_certificate theorem reduced_step62 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -3319,7 +3259,6 @@ compact_certificate theorem reduced_step62 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change (1) * w 72=0 at h7
   change ((((-1) + ((-1) * (x^2)) + ((-1) * a * x)) / (x^2))) * w 18 + ((1 / (x^2))) * w 36=0 at h60
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-((1 / (x^2)))*h7-(((-1) * a * x))*h60
-#print axioms reduced_step62
 
 compact_certificate theorem reduced_step63 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -3342,7 +3281,6 @@ compact_certificate theorem reduced_step63 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change (1) * w 72=0 at h7
   change ((((-1) + ((-1) * (x^2)) + ((-1) * a * x)) / (x^2))) * w 18 + ((1 / (x^2))) * w 36=0 at h60
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-((1 / (x^2)))*h0-((((-1) * a) / x))*h7-((x^2))*h60
-#print axioms reduced_step63
 
 compact_certificate theorem reduced_step64 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -3365,7 +3303,6 @@ compact_certificate theorem reduced_step64 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change (1) * w 78=0 at h9
   change (((((-1) * (z^2)) + ((-1) * (x^2) * (z^2)) + ((-1) * a * x * (z^2))) / ((x^2) * (y^2)))) * w 18 + ((((-1) * (z^2)) / ((x^2) * (y^2)))) * w 114=0 at h61
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(((-1) / (x^2)))*h3-((((-1) * a) / x))*h9-((((-1) * (x^2) * (y^2)) / (z^2)))*h61
-#print axioms reduced_step64
 
 compact_certificate theorem reduced_step65 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -3388,7 +3325,6 @@ compact_certificate theorem reduced_step65 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change ((((-1) * (z^2)) / (y^2))) * w 18 + ((((-1) * (z^2)) / (y^2))) * w 132=0 at h58
   change (((((-1) * (z^2)) + ((-1) * (x^2) * (z^2)) + ((-1) * a * x * (z^2))) / ((x^2) * (y^2)))) * w 18 + ((((-1) * (z^2)) / ((x^2) * (y^2)))) * w 114=0 at h61
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-((1 / (x^2)))*h9-((((-1) * (y^2)) / (z^2)))*h58-(((a * x * (y^2)) / (z^2)))*h61
-#print axioms reduced_step65
 
 compact_certificate theorem reduced_step66 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -3409,7 +3345,6 @@ compact_certificate theorem reduced_step66 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change (((-1) * (x^2))) * w 15 + (1) * w 60=0 at h31
   change ((1 / (y^2))) * w 60 + ((1 / (y^2))) * w 90=0 at h53
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(((-1) / (x^2)))*h31-(((2 * (y^2)) / (x^2)))*h53
-#print axioms reduced_step66
 
 compact_certificate theorem reduced_step67 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -3432,7 +3367,6 @@ compact_certificate theorem reduced_step67 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change ((1 / (y^2))) * w 60 + ((1 / (y^2))) * w 90=0 at h53
   change ((((-1) * a) / x)) * w 30 + ((((-2) + (x^2)) / (x^2))) * w 90=0 at h66
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(((-1) / (y^2)))*h39-((y^2))*h53-((((2 * (x^2)) + ((-1) * (x^2) * (y^2))) / ((y^2) * ((-2) + (x^2)))))*h66
-#print axioms reduced_step67
 
 compact_certificate theorem reduced_step68 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -3459,7 +3393,6 @@ compact_certificate theorem reduced_step68 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change ((1 / ((x^2) * (y^2)))) * w 30 + ((1 / ((x^2) * (y^2)))) * w 120=0 at h50
   change ((((-1) * a) / x)) * w 30 + ((((-2) + (x^2)) / (x^2))) * w 90=0 at h66
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(1)*h27-(1)*h29-((a / (x * (y^2))))*h39-((x^2))*h50-((((-1) * a * x) / ((y^2) * ((-2) + (x^2)))))*h66
-#print axioms reduced_step68
 
 compact_certificate theorem reduced_step69 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -3486,7 +3419,6 @@ compact_certificate theorem reduced_step69 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change ((((2 * a * x) + (2 * b * y) + ((-1) * a * x * (y^2)) + ((-1) * b * y * (x^2))) / ((y^2) * ((-2) + (x^2))))) * w 30 + (1) * w 110=0 at h67
   change ((1 / (x^2))) * w 20 + ((((-2) + ((-1) * (x^4)) + (3 * (x^2)) + ((-1) * (a^2) * (x^2))) / ((x^2) * (y^2) * ((-2) + (x^2))))) * w 30=0 at h68
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-((1 / (x^2)))*h29-(1)*h50-((((-1) * a) / x))*h59-((a / x))*h67-((x^2))*h68
-#print axioms reduced_step69
 
 
 
@@ -3513,7 +3445,6 @@ compact_certificate theorem reduced_step70 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change (1) * w 20 + (((x^2) / (y^2))) * w 105=0 at h54
   change ((1 / (x^2))) * w 20 + ((((-2) + ((-1) * (x^4)) + (3 * (x^2)) + ((-1) * (a^2) * (x^2))) / ((x^2) * (y^2) * ((-2) + (x^2))))) * w 30=0 at h68
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-((1 / (x^2)))*h29-(1)*h50-(((y^2) / (x^2)))*h54-(((-1) * (y^2)))*h68
-#print axioms reduced_step70
 
 compact_certificate theorem reduced_step71 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -3548,7 +3479,6 @@ compact_certificate theorem reduced_step71 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change ((((2 * a * x) + (2 * b * y) + ((-1) * a * x * (y^2)) + ((-1) * b * y * (x^2))) / ((y^2) * ((-2) + (x^2))))) * w 30 + (1) * w 110=0 at h67
   change ((1 / (x^2))) * w 20 + ((((-2) + ((-1) * (x^4)) + (3 * (x^2)) + ((-1) * (a^2) * (x^2))) / ((x^2) * (y^2) * ((-2) + (x^2))))) * w 30=0 at h68
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-((1 / (y^2)))*h15-(1)*h29-((2 * (x^2)))*h50-((((x^2) * (z^2)) / (y^2)))*h51-(1)*h53-(1)*h58-((((-1) * (x^2)) / ((y^2) * ((-2) + (x^2)))))*h66-(1)*h67-((x^2))*h68
-#print axioms reduced_step71
 
 compact_certificate theorem reduced_step72 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -3583,7 +3513,6 @@ compact_certificate theorem reduced_step72 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change ((((2 * a * x) + (2 * b * y) + ((-1) * a * x * (y^2)) + ((-1) * b * y * (x^2))) / ((y^2) * ((-2) + (x^2))))) * w 30 + (1) * w 110=0 at h67
   change (((z^2) / (y^2))) * w 18 + (((4 + (x^4) + ((-4) * (x^2)) + ((a^2) * (x^2)) + ((-3) * a * x) + ((-2) * b * y) + (a * x * (y^2)) + (b * y * (x^2))) / ((y^2) * ((-2) + (x^2))))) * w 30=0 at h71
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-((1 / (y^2)))*h15-(1)*h46-((x^2))*h50-((((x^2) * (z^2)) / (y^2)))*h52-(1)*h55-(1)*h59-(((x^2) / ((y^2) * ((-2) + (x^2)))))*h66-((-1))*h67-((((-2) + (x^2) + (2 * b * y) + (3 * a * x) + ((-1) * a * x * (y^2)) + ((-1) * b * y * (x^2))) / (4 + (x^4) + ((-4) * (x^2)) + ((a^2) * (x^2)) + ((-3) * a * x) + ((-2) * b * y) + (a * x * (y^2)) + (b * y * (x^2)))))*h71
-#print axioms reduced_step72
 
 compact_certificate theorem reduced_step73 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -3610,7 +3539,6 @@ compact_certificate theorem reduced_step73 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change (((z^2) / (y^2))) * w 18 + (((4 + (x^4) + ((-4) * (x^2)) + ((a^2) * (x^2)) + ((-3) * a * x) + ((-2) * b * y) + (a * x * (y^2)) + (b * y * (x^2))) / ((y^2) * ((-2) + (x^2))))) * w 30=0 at h71
   change (((((-2) * (z^2)) + ((-1) * (x^4) * (z^2)) + (3 * (x^2) * (z^2)) + ((-1) * (a^2) * (x^2) * (z^2))) / ((y^2) * (4 + (x^4) + ((-4) * (x^2)) + ((a^2) * (x^2)) + ((-3) * a * x) + ((-2) * b * y) + (a * x * (y^2)) + (b * y * (x^2)))))) * w 18 + ((((-1) * (x^2)) / (y^2))) * w 45=0 at h72
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-((1 / (x^2)))*h46-((y^2))*h50-(1)*h69-((((-4) + ((-1) * (x^6)) + (2 * (y^2)) + (3 * (x^4)) + ((-1) * (a^2) * (x^4)) + ((-1) * (x^2) * (y^2)) + (2 * (a^2) * (x^2)) + ((-1) * (a^2) * (x^2) * (y^2)) + ((-1) * a * b * y * (x^3)) + (2 * a * b * x * y)) / ((x^2) * (4 + (x^4) + ((-4) * (x^2)) + ((a^2) * (x^2)) + ((-3) * a * x) + ((-2) * b * y) + (a * x * (y^2)) + (b * y * (x^2))))))*h71-((((-1) * (y^2)) / (x^2)))*h72
-#print axioms reduced_step73
 
 compact_certificate theorem reduced_step74 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -3641,7 +3569,6 @@ compact_certificate theorem reduced_step74 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change (((z^2) / (y^2))) * w 18 + (((4 + (x^4) + ((-4) * (x^2)) + ((a^2) * (x^2)) + ((-3) * a * x) + ((-2) * b * y) + (a * x * (y^2)) + (b * y * (x^2))) / ((y^2) * ((-2) + (x^2))))) * w 30=0 at h71
   change ((((4 * (z^2)) + ((x^6) * (z^2)) + ((-4) * (y^2) * (z^2)) + ((-3) * (x^4) * (z^2)) + ((a^2) * (x^4) * (z^2)) + ((-1) * (x^4) * (y^2) * (z^2)) + ((-2) * (a^2) * (x^2) * (z^2)) + (4 * (x^2) * (y^2) * (z^2)) + (a * b * y * (x^3) * (z^2)) + ((-2) * a * b * x * y * (z^2))) / ((x^2) * (y^2) * (4 + (x^4) + ((-4) * (x^2)) + ((a^2) * (x^2)) + ((-3) * a * x) + ((-2) * b * y) + (a * x * (y^2)) + (b * y * (x^2)))))) * w 18=0 at h73
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(((-1) / (y^2)))*h39-((1 / (x^2)))*h59-(((x^2) / ((y^2) * ((-2) + (x^2)))))*h66-(((-1) / (x^2)))*h67-(((-1) * a * x))*h68-(((((-1) * a * (x^5)) + ((-1) * (a^3) * (x^3)) + (2 * b * y) + (4 * a * (x^3)) + ((-1) * a * x * (y^2)) + ((-1) * b * y * (x^2))) / ((x^2) * (4 + (x^4) + ((-4) * (x^2)) + ((a^2) * (x^2)) + ((-3) * a * x) + ((-2) * b * y) + (a * x * (y^2)) + (b * y * (x^2))))))*h71-((((a * (x^5)) + ((a^3) * (x^3)) + ((-4) * a * (x^3)) + ((-2) * b * y) + (a * x * (y^2)) + (b * y * (x^2))) / (((-2) + (x^2)) * ((-2) + (x^4) + ((-1) * (x^2)) + (2 * (y^2)) + ((a^2) * (x^2)) + ((-1) * (x^2) * (y^2)) + (a * b * x * y)))))*h73
-#print axioms reduced_step74
 
 compact_certificate theorem reduced_step75 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -3676,7 +3603,6 @@ compact_certificate theorem reduced_step75 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change ((((4 * (z^2)) + ((x^6) * (z^2)) + ((-4) * (y^2) * (z^2)) + ((-3) * (x^4) * (z^2)) + ((a^2) * (x^4) * (z^2)) + ((-1) * (x^4) * (y^2) * (z^2)) + ((-2) * (a^2) * (x^2) * (z^2)) + (4 * (x^2) * (y^2) * (z^2)) + (a * b * y * (x^3) * (z^2)) + ((-2) * a * b * x * y * (z^2))) / ((x^2) * (y^2) * (4 + (x^4) + ((-4) * (x^2)) + ((a^2) * (x^2)) + ((-3) * a * x) + ((-2) * b * y) + (a * x * (y^2)) + (b * y * (x^2)))))) * w 18=0 at h73
   change (1) * w 85=0 at h74
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-((1 / ((x^2) * (y^2))))*h15-(1)*h50-((1 / (x^2)))*h53-(1)*h56-(1)*h61-(1)*h70-((((4 * (y^2)) + ((x^4) * (y^2)) + ((-4) * (x^2) * (y^2)) + ((a^2) * (x^2) * (y^2))) / ((x^2) * (4 + (x^4) + ((-4) * (x^2)) + ((a^2) * (x^2)) + ((-3) * a * x) + ((-2) * b * y) + (a * x * (y^2)) + (b * y * (x^2))))))*h71-(((4 + (x^6) + ((-4) * (y^2)) + ((-3) * (x^4)) + (a * x) + (a * (x^5)) + ((a^2) * (x^4)) + ((a^3) * (x^3)) + ((-1) * (x^4) * (y^2)) + ((-7) * a * (x^3)) + ((-2) * b * y) + ((-2) * (a^2) * (x^2)) + (4 * (x^2) * (y^2)) + (a * x * (y^2)) + (a * (x^3) * (y^2)) + (b * y * (x^4)) + ((-1) * b * y * (x^2)) + (a * b * y * (x^3)) + ((-2) * a * b * x * y)) / (((-2) + (x^2)) * ((-2) + (x^4) + ((-1) * (x^2)) + (2 * (y^2)) + ((a^2) * (x^2)) + ((-1) * (x^2) * (y^2)) + (a * b * x * y)))))*h73-(1)*h74
-#print axioms reduced_step75
 
 compact_certificate theorem reduced_step76 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -3709,7 +3635,6 @@ compact_certificate theorem reduced_step76 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change (((z^2) / (y^2))) * w 18 + (((4 + (x^4) + ((-4) * (x^2)) + ((a^2) * (x^2)) + ((-3) * a * x) + ((-2) * b * y) + (a * x * (y^2)) + (b * y * (x^2))) / ((y^2) * ((-2) + (x^2))))) * w 30=0 at h71
   change ((((4 * (z^2)) + ((x^6) * (z^2)) + ((-4) * (y^2) * (z^2)) + ((-3) * (x^4) * (z^2)) + ((a^2) * (x^4) * (z^2)) + ((-1) * (x^4) * (y^2) * (z^2)) + ((-2) * (a^2) * (x^2) * (z^2)) + (4 * (x^2) * (y^2) * (z^2)) + (a * b * y * (x^3) * (z^2)) + ((-2) * a * b * x * y * (z^2))) / ((x^2) * (y^2) * (4 + (x^4) + ((-4) * (x^2)) + ((a^2) * (x^2)) + ((-3) * a * x) + ((-2) * b * y) + (a * x * (y^2)) + (b * y * (x^2)))))) * w 18=0 at h73
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-((1 / (x^2)))*h23-(((-1) / ((x^2) * (y^2))))*h31-((((-1) * a) / x))*h46-((1 / (x^2)))*h53-(((-1) / ((y^2) * ((-2) + (x^2)))))*h66-(1)*h67-(((a + ((-3) * a * (x^2)) + (a * (x^2) * (y^2)) + (b * y * (x^3)) + ((-2) * b * x * y)) / (x * (4 + (x^4) + ((-4) * (x^2)) + ((a^2) * (x^2)) + ((-3) * a * x) + ((-2) * b * y) + (a * x * (y^2)) + (b * y * (x^2))))))*h71-(((((-1) * a * x) + (3 * a * (x^3)) + ((-1) * a * (x^3) * (y^2)) + ((-1) * b * y * (x^4)) + (2 * b * y * (x^2))) / (((-2) + (x^2)) * ((-2) + (x^4) + ((-1) * (x^2)) + (2 * (y^2)) + ((a^2) * (x^2)) + ((-1) * (x^2) * (y^2)) + (a * b * x * y)))))*h73
-#print axioms reduced_step76
 
 compact_certificate theorem reduced_step77 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -3742,7 +3667,6 @@ compact_certificate theorem reduced_step77 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change ((((4 * (z^2)) + ((x^6) * (z^2)) + ((-4) * (y^2) * (z^2)) + ((-3) * (x^4) * (z^2)) + ((a^2) * (x^4) * (z^2)) + ((-1) * (x^4) * (y^2) * (z^2)) + ((-2) * (a^2) * (x^2) * (z^2)) + (4 * (x^2) * (y^2) * (z^2)) + (a * b * y * (x^3) * (z^2)) + ((-2) * a * b * x * y * (z^2))) / ((x^2) * (y^2) * (4 + (x^4) + ((-4) * (x^2)) + ((a^2) * (x^2)) + ((-3) * a * x) + ((-2) * b * y) + (a * x * (y^2)) + (b * y * (x^2)))))) * w 18=0 at h73
   change (1) * w 35=0 at h76
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-((1 / ((x^2) * (y^2))))*h15-((1 / (x^2)))*h53-(1)*h57-((((-1) * (z^2)) / (y^2)))*h60-(1)*h69-((((-4) + ((-1) * (x^6)) + (3 * (x^4)) + ((-1) * (a^2) * (x^4)) + (2 * (a^2) * (x^2)) + ((-1) * (a^2) * (x^2) * (y^2)) + ((-1) * a * b * y * (x^3)) + (2 * a * b * x * y)) / ((x^2) * (4 + (x^4) + ((-4) * (x^2)) + ((a^2) * (x^2)) + ((-3) * a * x) + ((-2) * b * y) + (a * x * (y^2)) + (b * y * (x^2))))))*h71-(((((-1) * a * x) + ((-1) * a * (x^5)) + ((-1) * (a^3) * (x^3)) + (2 * b * y) + (7 * a * (x^3)) + (b * y * (x^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^3) * (y^2)) + ((-1) * b * y * (x^4))) / (((-2) + (x^2)) * ((-2) + (x^4) + ((-1) * (x^2)) + (2 * (y^2)) + ((a^2) * (x^2)) + ((-1) * (x^2) * (y^2)) + (a * b * x * y)))))*h73-(1)*h76
-#print axioms reduced_step77
 
 compact_certificate theorem reduced_step78 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -3765,7 +3689,6 @@ compact_certificate theorem reduced_step78 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change ((1 / (x^2))) * w 18 + (((y^2) / ((x^2) * (z^2)))) * w 100=0 at h52
   change ((((4 * (z^2)) + ((x^6) * (z^2)) + ((-4) * (y^2) * (z^2)) + ((-3) * (x^4) * (z^2)) + ((a^2) * (x^4) * (z^2)) + ((-1) * (x^4) * (y^2) * (z^2)) + ((-2) * (a^2) * (x^2) * (z^2)) + (4 * (x^2) * (y^2) * (z^2)) + (a * b * y * (x^3) * (z^2)) + ((-2) * a * b * x * y * (z^2))) / ((x^2) * (y^2) * (4 + (x^4) + ((-4) * (x^2)) + ((a^2) * (x^2)) + ((-3) * a * x) + ((-2) * b * y) + (a * x * (y^2)) + (b * y * (x^2)))))) * w 18=0 at h73
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-((1 / ((x^2) * (z^2))))*h15-((1 / (y^2)))*h52-((((-4) + ((-1) * (x^4)) + (4 * (x^2)) + ((-1) * (a^2) * (x^2)) + (2 * b * y) + (3 * a * x) + ((-1) * a * x * (y^2)) + ((-1) * b * y * (x^2))) / ((z^2) * ((-2) + (x^2)) * ((-2) + (x^4) + ((-1) * (x^2)) + (2 * (y^2)) + ((a^2) * (x^2)) + ((-1) * (x^2) * (y^2)) + (a * b * x * y)))))*h73
-#print axioms reduced_step78
 
 compact_certificate theorem reduced_step79 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -3790,7 +3713,6 @@ compact_certificate theorem reduced_step79 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change ((((-1) * (z^2)) / (y^2))) * w 18 + ((((-1) * (z^2)) / (y^2))) * w 132=0 at h58
   change ((((4 * (z^2)) + ((x^6) * (z^2)) + ((-4) * (y^2) * (z^2)) + ((-3) * (x^4) * (z^2)) + ((a^2) * (x^4) * (z^2)) + ((-1) * (x^4) * (y^2) * (z^2)) + ((-2) * (a^2) * (x^2) * (z^2)) + (4 * (x^2) * (y^2) * (z^2)) + (a * b * y * (x^3) * (z^2)) + ((-2) * a * b * x * y * (z^2))) / ((x^2) * (y^2) * (4 + (x^4) + ((-4) * (x^2)) + ((a^2) * (x^2)) + ((-3) * a * x) + ((-2) * b * y) + (a * x * (y^2)) + (b * y * (x^2)))))) * w 18=0 at h73
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-((1 / ((x^2) * (z^2))))*h15-((1 / (y^2)))*h51-((1 / ((x^2) * (z^2))))*h58-(((4 + (x^4) + ((-4) * (x^2)) + ((a^2) * (x^2)) + ((-3) * a * x) + ((-2) * b * y) + (a * x * (y^2)) + (b * y * (x^2))) / ((z^2) * ((-2) + (x^2)) * ((-2) + (x^4) + ((-1) * (x^2)) + (2 * (y^2)) + ((a^2) * (x^2)) + ((-1) * (x^2) * (y^2)) + (a * b * x * y)))))*h73
-#print axioms reduced_step79
 
 
 
@@ -3817,7 +3739,6 @@ compact_certificate theorem reduced_step80 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change ((((-1) * (z^2)) / (y^2))) * w 18 + ((((-1) * (z^2)) / (y^2))) * w 132=0 at h58
   change ((((4 * (z^2)) + ((x^6) * (z^2)) + ((-4) * (y^2) * (z^2)) + ((-3) * (x^4) * (z^2)) + ((a^2) * (x^4) * (z^2)) + ((-1) * (x^4) * (y^2) * (z^2)) + ((-2) * (a^2) * (x^2) * (z^2)) + (4 * (x^2) * (y^2) * (z^2)) + (a * b * y * (x^3) * (z^2)) + ((-2) * a * b * x * y * (z^2))) / ((x^2) * (y^2) * (4 + (x^4) + ((-4) * (x^2)) + ((a^2) * (x^2)) + ((-3) * a * x) + ((-2) * b * y) + (a * x * (y^2)) + (b * y * (x^2)))))) * w 18=0 at h73
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-((1 / (z^2)))*h15-(((x^2) / (y^2)))*h51-((1 / (z^2)))*h58-((((x^6) + ((-4) * (x^4)) + (4 * (x^2)) + ((a^2) * (x^4)) + ((-3) * a * (x^3)) + (a * (x^3) * (y^2)) + (b * y * (x^4)) + ((-2) * b * y * (x^2))) / ((z^2) * ((-2) + (x^2)) * ((-2) + (x^4) + ((-1) * (x^2)) + (2 * (y^2)) + ((a^2) * (x^2)) + ((-1) * (x^2) * (y^2)) + (a * b * x * y)))))*h73
-#print axioms reduced_step80
 
 compact_certificate theorem reduced_step81 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -3840,7 +3761,6 @@ compact_certificate theorem reduced_step81 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change ((1 / (x^2))) * w 18 + (((y^2) / ((x^2) * (z^2)))) * w 100=0 at h52
   change ((((4 * (z^2)) + ((x^6) * (z^2)) + ((-4) * (y^2) * (z^2)) + ((-3) * (x^4) * (z^2)) + ((a^2) * (x^4) * (z^2)) + ((-1) * (x^4) * (y^2) * (z^2)) + ((-2) * (a^2) * (x^2) * (z^2)) + (4 * (x^2) * (y^2) * (z^2)) + (a * b * y * (x^3) * (z^2)) + ((-2) * a * b * x * y * (z^2))) / ((x^2) * (y^2) * (4 + (x^4) + ((-4) * (x^2)) + ((a^2) * (x^2)) + ((-3) * a * x) + ((-2) * b * y) + (a * x * (y^2)) + (b * y * (x^2)))))) * w 18=0 at h73
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-((1 / (z^2)))*h15-(((x^2) / (y^2)))*h52-(((((-1) * (x^6)) + ((-4) * (x^2)) + (4 * (x^4)) + ((-1) * (a^2) * (x^4)) + (3 * a * (x^3)) + ((-1) * a * (x^3) * (y^2)) + ((-1) * b * y * (x^4)) + (2 * b * y * (x^2))) / ((z^2) * ((-2) + (x^2)) * ((-2) + (x^4) + ((-1) * (x^2)) + (2 * (y^2)) + ((a^2) * (x^2)) + ((-1) * (x^2) * (y^2)) + (a * b * x * y)))))*h73
-#print axioms reduced_step81
 
 compact_certificate theorem reduced_step82 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -3867,7 +3787,6 @@ compact_certificate theorem reduced_step82 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change (((((-1) * (z^2)) + ((-1) * (x^2) * (z^2)) + ((-1) * a * x * (z^2))) / ((x^2) * (y^2)))) * w 18 + ((((-1) * (z^2)) / ((x^2) * (y^2)))) * w 114=0 at h61
   change ((((4 * (z^2)) + ((x^6) * (z^2)) + ((-4) * (y^2) * (z^2)) + ((-3) * (x^4) * (z^2)) + ((a^2) * (x^4) * (z^2)) + ((-1) * (x^4) * (y^2) * (z^2)) + ((-2) * (a^2) * (x^2) * (z^2)) + (4 * (x^2) * (y^2) * (z^2)) + (a * b * y * (x^3) * (z^2)) + ((-2) * a * b * x * y * (z^2))) / ((x^2) * (y^2) * (4 + (x^4) + ((-4) * (x^2)) + ((a^2) * (x^2)) + ((-3) * a * x) + ((-2) * b * y) + (a * x * (y^2)) + (b * y * (x^2)))))) * w 18=0 at h73
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(((x^2) / (z^2)))*h16-(1)*h43-(((x^2) / (z^2)))*h56-(((x^2) / (z^2)))*h61-((((x^8) + ((-3) * (x^6)) + (4 * (x^2)) + (a * (x^3)) + (a * (x^7)) + ((a^2) * (x^6)) + ((a^3) * (x^5)) + ((-7) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + (a * (x^3) * (y^2)) + (a * (x^5) * (y^2)) + (b * y * (x^6)) + ((a^2) * (x^4) * (y^2)) + ((-1) * b * y * (x^4)) + ((-2) * b * y * (x^2)) + (a * b * y * (x^5)) + ((-2) * a * b * y * (x^3))) / ((z^2) * ((-2) + (x^2)) * ((-2) + (x^4) + ((-1) * (x^2)) + (2 * (y^2)) + ((a^2) * (x^2)) + ((-1) * (x^2) * (y^2)) + (a * b * x * y)))))*h73
-#print axioms reduced_step82
 
 compact_certificate theorem reduced_step83 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -3892,7 +3811,6 @@ compact_certificate theorem reduced_step83 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change ((((-1) + ((-1) * (x^2)) + ((-1) * a * x)) / (x^2))) * w 18 + ((1 / (x^2))) * w 36=0 at h60
   change ((((4 * (z^2)) + ((x^6) * (z^2)) + ((-4) * (y^2) * (z^2)) + ((-3) * (x^4) * (z^2)) + ((a^2) * (x^4) * (z^2)) + ((-1) * (x^4) * (y^2) * (z^2)) + ((-2) * (a^2) * (x^2) * (z^2)) + (4 * (x^2) * (y^2) * (z^2)) + (a * b * y * (x^3) * (z^2)) + ((-2) * a * b * x * y * (z^2))) / ((x^2) * (y^2) * (4 + (x^4) + ((-4) * (x^2)) + ((a^2) * (x^2)) + ((-3) * a * x) + ((-2) * b * y) + (a * x * (y^2)) + (b * y * (x^2)))))) * w 18=0 at h73
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(((x^2) / (z^2)))*h16-(((x^2) / (z^2)))*h57-((((-1) * (x^2)) / (y^2)))*h60-(((((-1) * (x^8)) + ((-4) * (x^2)) + (3 * (x^6)) + ((-1) * a * (x^3)) + ((-1) * a * (x^7)) + ((-1) * (a^2) * (x^6)) + ((-1) * (a^3) * (x^5)) + (2 * (a^2) * (x^4)) + (7 * a * (x^5)) + (b * y * (x^4)) + ((-1) * a * (x^3) * (y^2)) + ((-1) * a * (x^5) * (y^2)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + (2 * b * y * (x^2)) + ((-1) * a * b * y * (x^5)) + (2 * a * b * y * (x^3))) / ((z^2) * ((-2) + (x^2)) * ((-2) + (x^4) + ((-1) * (x^2)) + (2 * (y^2)) + ((a^2) * (x^2)) + ((-1) * (x^2) * (y^2)) + (a * b * x * y)))))*h73
-#print axioms reduced_step83
 
 compact_certificate theorem reduced_step84 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -3919,7 +3837,6 @@ compact_certificate theorem reduced_step84 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change ((((-1) + ((-1) * (x^2)) + ((-1) * a * x)) / (x^2))) * w 18 + ((1 / (x^2))) * w 36=0 at h60
   change ((((4 * (z^2)) + ((x^6) * (z^2)) + ((-4) * (y^2) * (z^2)) + ((-3) * (x^4) * (z^2)) + ((a^2) * (x^4) * (z^2)) + ((-1) * (x^4) * (y^2) * (z^2)) + ((-2) * (a^2) * (x^2) * (z^2)) + (4 * (x^2) * (y^2) * (z^2)) + (a * b * y * (x^3) * (z^2)) + ((-2) * a * b * x * y * (z^2))) / ((x^2) * (y^2) * (4 + (x^4) + ((-4) * (x^2)) + ((a^2) * (x^2)) + ((-3) * a * x) + ((-2) * b * y) + (a * x * (y^2)) + (b * y * (x^2)))))) * w 18=0 at h73
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(1)*h32-((((x^2) * (y^2)) / (z^2)))*h50-(((y^2) / (z^2)))*h53-((x^2))*h60-(((((x^8) * (y^2)) + ((-4) * (x^4) * (y^2)) + ((-2) * (x^6) * (y^2)) + (8 * (x^2) * (y^2)) + (a * (x^5) * (y^4)) + (a * (x^7) * (y^2)) + (b * (x^6) * (y^3)) + ((a^2) * (x^4) * (y^4)) + ((a^2) * (x^6) * (y^2)) + ((a^3) * (x^5) * (y^2)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-7) * a * (x^5) * (y^2)) + ((-4) * b * (x^2) * (y^3)) + ((-2) * a * (x^3) * (y^2)) + (2 * a * (x^3) * (y^4)) + (a * b * (x^5) * (y^3)) + ((-2) * a * b * (x^3) * (y^3))) / ((z^2) * ((-2) + (x^2)) * ((-2) + (x^4) + ((-1) * (x^2)) + (2 * (y^2)) + ((a^2) * (x^2)) + ((-1) * (x^2) * (y^2)) + (a * b * x * y)))))*h73
-#print axioms reduced_step84
 
 compact_certificate theorem reduced_step85 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -3950,7 +3867,6 @@ compact_certificate theorem reduced_step85 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change (((((-1) * (z^2)) + ((-1) * (x^2) * (z^2)) + ((-1) * a * x * (z^2))) / ((x^2) * (y^2)))) * w 18 + ((((-1) * (z^2)) / ((x^2) * (y^2)))) * w 114=0 at h61
   change ((((4 * (z^2)) + ((x^6) * (z^2)) + ((-4) * (y^2) * (z^2)) + ((-3) * (x^4) * (z^2)) + ((a^2) * (x^4) * (z^2)) + ((-1) * (x^4) * (y^2) * (z^2)) + ((-2) * (a^2) * (x^2) * (z^2)) + (4 * (x^2) * (y^2) * (z^2)) + (a * b * y * (x^3) * (z^2)) + ((-2) * a * b * x * y * (z^2))) / ((x^2) * (y^2) * (4 + (x^4) + ((-4) * (x^2)) + ((a^2) * (x^2)) + ((-3) * a * x) + ((-2) * b * y) + (a * x * (y^2)) + (b * y * (x^2)))))) * w 18=0 at h73
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(1)*h37-(1)*h43-((((x^2) * (y^2)) / (z^2)))*h50-(((y^2) / (z^2)))*h53-((((-1) * (y^2)) / (z^2)))*h58-((((-1) * (x^2) * (y^2)) / (z^2)))*h61-(((((-1) * (x^8) * (y^2)) + ((-8) * (x^2) * (y^2)) + (2 * (x^6) * (y^2)) + (4 * (x^4) * (y^2)) + ((a^2) * (x^4) * (y^2)) + ((-1) * a * (x^5) * (y^4)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * (x^6) * (y^3)) + ((-1) * (a^2) * (x^4) * (y^4)) + ((-1) * (a^2) * (x^6) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + ((-2) * a * (x^3) * (y^4)) + (2 * a * (x^3) * (y^2)) + (4 * b * (x^2) * (y^3)) + (7 * a * (x^5) * (y^2)) + ((-1) * a * b * (x^5) * (y^3)) + (2 * a * b * (x^3) * (y^3))) / ((z^2) * ((-2) + (x^2)) * ((-2) + (x^4) + ((-1) * (x^2)) + (2 * (y^2)) + ((a^2) * (x^2)) + ((-1) * (x^2) * (y^2)) + (a * b * x * y)))))*h73
-#print axioms reduced_step85
 
 compact_certificate theorem reduced_step86 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -3989,7 +3905,6 @@ compact_certificate theorem reduced_step86 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change (((((-2) * (z^2)) + ((-1) * (x^4) * (z^2)) + (3 * (x^2) * (z^2)) + ((-1) * (a^2) * (x^2) * (z^2))) / ((y^2) * (4 + (x^4) + ((-4) * (x^2)) + ((a^2) * (x^2)) + ((-3) * a * x) + ((-2) * b * y) + (a * x * (y^2)) + (b * y * (x^2)))))) * w 18 + ((((-1) * (x^2)) / (y^2))) * w 45=0 at h72
   change ((((4 * (z^2)) + ((x^6) * (z^2)) + ((-4) * (y^2) * (z^2)) + ((-3) * (x^4) * (z^2)) + ((a^2) * (x^4) * (z^2)) + ((-1) * (x^4) * (y^2) * (z^2)) + ((-2) * (a^2) * (x^2) * (z^2)) + (4 * (x^2) * (y^2) * (z^2)) + (a * b * y * (x^3) * (z^2)) + ((-2) * a * b * x * y * (z^2))) / ((x^2) * (y^2) * (4 + (x^4) + ((-4) * (x^2)) + ((a^2) * (x^2)) + ((-3) * a * x) + ((-2) * b * y) + (a * x * (y^2)) + (b * y * (x^2)))))) * w 18=0 at h73
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(1)*h7-(((x^2) / (z^2)))*h22-(((-1) / (z^2)))*h31-(((-1) / (z^2)))*h39-(((y^2) / (z^2)))*h53-(((y^2) / (z^2)))*h54-((((-1) * (y^2)) / (z^2)))*h58-((((-1) * (x^2) * (y^2)) / (z^2)))*h68-(((((-2) * (y^2)) + ((-1) * (x^4) * (y^2)) + (3 * (x^2) * (y^2)) + ((-1) * (a^2) * (x^2) * (y^2))) / ((z^2) * (4 + (x^4) + ((-4) * (x^2)) + ((a^2) * (x^2)) + ((-3) * a * x) + ((-2) * b * y) + (a * x * (y^2)) + (b * y * (x^2))))))*h71-((((-1) * (y^2)) / (z^2)))*h72-(((((-1) * (x^6) * (y^2)) + ((-4) * (x^2) * (y^2)) + (4 * (x^4) * (y^2)) + ((-1) * a * (x^3) * (y^4)) + ((-1) * b * (x^4) * (y^3)) + ((-1) * (a^2) * (x^4) * (y^2)) + (2 * b * (x^2) * (y^3)) + (3 * a * (x^3) * (y^2))) / ((z^2) * ((-2) + (x^2)) * ((-2) + (x^4) + ((-1) * (x^2)) + (2 * (y^2)) + ((a^2) * (x^2)) + ((-1) * (x^2) * (y^2)) + (a * b * x * y)))))*h73
-#print axioms reduced_step86
 
 compact_certificate theorem reduced_step87 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -4026,7 +3941,6 @@ compact_certificate theorem reduced_step87 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change (((((-2) * (z^2)) + ((-1) * (x^4) * (z^2)) + (3 * (x^2) * (z^2)) + ((-1) * (a^2) * (x^2) * (z^2))) / ((y^2) * (4 + (x^4) + ((-4) * (x^2)) + ((a^2) * (x^2)) + ((-3) * a * x) + ((-2) * b * y) + (a * x * (y^2)) + (b * y * (x^2)))))) * w 18 + ((((-1) * (x^2)) / (y^2))) * w 45=0 at h72
   change ((((4 * (z^2)) + ((x^6) * (z^2)) + ((-4) * (y^2) * (z^2)) + ((-3) * (x^4) * (z^2)) + ((a^2) * (x^4) * (z^2)) + ((-1) * (x^4) * (y^2) * (z^2)) + ((-2) * (a^2) * (x^2) * (z^2)) + (4 * (x^2) * (y^2) * (z^2)) + (a * b * y * (x^3) * (z^2)) + ((-2) * a * b * x * y * (z^2))) / ((x^2) * (y^2) * (4 + (x^4) + ((-4) * (x^2)) + ((a^2) * (x^2)) + ((-3) * a * x) + ((-2) * b * y) + (a * x * (y^2)) + (b * y * (x^2)))))) * w 18=0 at h73
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(1)*h9-(((x^2) / (z^2)))*h22-(((-1) / (z^2)))*h31-(((-1) / (z^2)))*h39-(((y^2) / (z^2)))*h53-(((y^2) / (z^2)))*h54-((((-1) * (x^2) * (y^2)) / (z^2)))*h68-(((((-2) * (y^2)) + ((-1) * (x^4) * (y^2)) + (3 * (x^2) * (y^2)) + ((-1) * (a^2) * (x^2) * (y^2))) / ((z^2) * (4 + (x^4) + ((-4) * (x^2)) + ((a^2) * (x^2)) + ((-3) * a * x) + ((-2) * b * y) + (a * x * (y^2)) + (b * y * (x^2))))))*h71-((((-1) * (y^2)) / (z^2)))*h72-(((((x^6) * (y^2)) + ((-4) * (x^4) * (y^2)) + (4 * (x^2) * (y^2)) + (a * (x^3) * (y^4)) + (b * (x^4) * (y^3)) + ((a^2) * (x^4) * (y^2)) + ((-3) * a * (x^3) * (y^2)) + ((-2) * b * (x^2) * (y^3))) / ((z^2) * ((-2) + (x^2)) * ((-2) + (x^4) + ((-1) * (x^2)) + (2 * (y^2)) + ((a^2) * (x^2)) + ((-1) * (x^2) * (y^2)) + (a * b * x * y)))))*h73
-#print axioms reduced_step87
 
 compact_certificate theorem reduced_step88 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -4049,7 +3963,6 @@ compact_certificate theorem reduced_step88 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change ((1 / (x^2))) * w 18 + (((y^2) / ((x^2) * (z^2)))) * w 100=0 at h52
   change ((((4 * (z^2)) + ((x^6) * (z^2)) + ((-4) * (y^2) * (z^2)) + ((-3) * (x^4) * (z^2)) + ((a^2) * (x^4) * (z^2)) + ((-1) * (x^4) * (y^2) * (z^2)) + ((-2) * (a^2) * (x^2) * (z^2)) + (4 * (x^2) * (y^2) * (z^2)) + (a * b * y * (x^3) * (z^2)) + ((-2) * a * b * x * y * (z^2))) / ((x^2) * (y^2) * (4 + (x^4) + ((-4) * (x^2)) + ((a^2) * (x^2)) + ((-3) * a * x) + ((-2) * b * y) + (a * x * (y^2)) + (b * y * (x^2)))))) * w 18=0 at h73
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-((1 / (z^2)))*h15-(((x^2) / (y^2)))*h52-(((((-1) * (x^6)) + ((-4) * (x^2)) + (4 * (x^4)) + ((-1) * (a^2) * (x^4)) + (3 * a * (x^3)) + ((-1) * a * (x^3) * (y^2)) + ((-1) * b * y * (x^4)) + (2 * b * y * (x^2))) / ((z^2) * ((-2) + (x^2)) * ((-2) + (x^4) + ((-1) * (x^2)) + (2 * (y^2)) + ((a^2) * (x^2)) + ((-1) * (x^2) * (y^2)) + (a * b * x * y)))))*h73
-#print axioms reduced_step88
 
 compact_certificate theorem reduced_step89 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -4074,7 +3987,6 @@ compact_certificate theorem reduced_step89 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change ((((-1) * (z^2)) / (y^2))) * w 18 + ((((-1) * (z^2)) / (y^2))) * w 132=0 at h58
   change ((((4 * (z^2)) + ((x^6) * (z^2)) + ((-4) * (y^2) * (z^2)) + ((-3) * (x^4) * (z^2)) + ((a^2) * (x^4) * (z^2)) + ((-1) * (x^4) * (y^2) * (z^2)) + ((-2) * (a^2) * (x^2) * (z^2)) + (4 * (x^2) * (y^2) * (z^2)) + (a * b * y * (x^3) * (z^2)) + ((-2) * a * b * x * y * (z^2))) / ((x^2) * (y^2) * (4 + (x^4) + ((-4) * (x^2)) + ((a^2) * (x^2)) + ((-3) * a * x) + ((-2) * b * y) + (a * x * (y^2)) + (b * y * (x^2)))))) * w 18=0 at h73
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-((1 / (z^2)))*h15-(((x^2) / (y^2)))*h51-((1 / (z^2)))*h58-((((x^6) + ((-4) * (x^4)) + (4 * (x^2)) + ((a^2) * (x^4)) + ((-3) * a * (x^3)) + (a * (x^3) * (y^2)) + (b * y * (x^4)) + ((-2) * b * y * (x^2))) / ((z^2) * ((-2) + (x^2)) * ((-2) + (x^4) + ((-1) * (x^2)) + (2 * (y^2)) + ((a^2) * (x^2)) + ((-1) * (x^2) * (y^2)) + (a * b * x * y)))))*h73
-#print axioms reduced_step89
 
 
 
@@ -4101,7 +4013,6 @@ compact_certificate theorem reduced_step90 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change (((-1) * (y^2))) * w 8 + (1) * w 126=0 at h20
   change (((-1) / ((x^2) * (y^2)))) * w 24 + (1) * w 77=0 at h28
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(1)*h4-((a / (x * (y^2))))*h14-(((-1) / ((x^2) * (y^2))))*h20-(1)*h28
-#print axioms reduced_step90
 
 compact_certificate theorem reduced_step91 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -4124,7 +4035,6 @@ compact_certificate theorem reduced_step91 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change ((((-1) * (z^2)) / (y^2))) * w 18 + ((((-1) * (z^2)) / (y^2))) * w 132=0 at h58
   change ((((4 * (z^2)) + ((x^6) * (z^2)) + ((-4) * (y^2) * (z^2)) + ((-3) * (x^4) * (z^2)) + ((a^2) * (x^4) * (z^2)) + ((-1) * (x^4) * (y^2) * (z^2)) + ((-2) * (a^2) * (x^2) * (z^2)) + (4 * (x^2) * (y^2) * (z^2)) + (a * b * y * (x^3) * (z^2)) + ((-2) * a * b * x * y * (z^2))) / ((x^2) * (y^2) * (4 + (x^4) + ((-4) * (x^2)) + ((a^2) * (x^2)) + ((-3) * a * x) + ((-2) * b * y) + (a * x * (y^2)) + (b * y * (x^2)))))) * w 18=0 at h73
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-((((-1) * a) / x))*h32-((((-1) * (y^2)) / ((x^2) * (z^2))))*h58-(((((-4) * (y^2)) + ((-1) * (x^4) * (y^2)) + (2 * b * (y^3)) + (4 * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * x * (y^4)) + ((-1) * a * (x^5) * (y^2)) + ((-1) * b * (x^2) * (y^3)) + ((-1) * (a^2) * (x^2) * (y^4)) + ((-1) * (a^3) * (x^3) * (y^2)) + (2 * (a^2) * (x^2) * (y^2)) + (4 * a * (x^3) * (y^2)) + ((-1) * a * b * (x^3) * (y^3)) + (2 * a * b * x * (y^3))) / ((z^2) * ((-2) + (x^2)) * ((-2) + (x^4) + ((-1) * (x^2)) + (2 * (y^2)) + ((a^2) * (x^2)) + ((-1) * (x^2) * (y^2)) + (a * b * x * y)))))*h73
-#print axioms reduced_step91
 
 compact_certificate theorem reduced_step92 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -4145,7 +4055,6 @@ compact_certificate theorem reduced_step92 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change (((-1) * (y^2))) * w 148=0 at h1
   change (1) * w 74=0 at h10
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(((-1) / ((x^2) * (y^2))))*h1-((((-1) * a) / x))*h10
-#print axioms reduced_step92
 
 compact_certificate theorem reduced_step93 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -4166,7 +4075,6 @@ compact_certificate theorem reduced_step93 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change (1) * w 2=0 at h4
   change (1) * w 76=0 at h8
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-((1 / (x^2)))*h4-((((-1) * a) / x))*h8
-#print axioms reduced_step93
 
 compact_certificate theorem reduced_step94 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -4189,7 +4097,6 @@ compact_certificate theorem reduced_step94 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change ((((-1) * (z^2)) / (y^2))) * w 18 + ((((-1) * (z^2)) / (y^2))) * w 132=0 at h58
   change ((((4 * (z^2)) + ((x^6) * (z^2)) + ((-4) * (y^2) * (z^2)) + ((-3) * (x^4) * (z^2)) + ((a^2) * (x^4) * (z^2)) + ((-1) * (x^4) * (y^2) * (z^2)) + ((-2) * (a^2) * (x^2) * (z^2)) + (4 * (x^2) * (y^2) * (z^2)) + (a * b * y * (x^3) * (z^2)) + ((-2) * a * b * x * y * (z^2))) / ((x^2) * (y^2) * (4 + (x^4) + ((-4) * (x^2)) + ((a^2) * (x^2)) + ((-3) * a * x) + ((-2) * b * y) + (a * x * (y^2)) + (b * y * (x^2)))))) * w 18=0 at h73
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-((((-1) * a) / x))*h37-(((a * (y^2)) / (x * (z^2))))*h58-((((4 * (y^2)) + ((x^4) * (y^2)) + ((-4) * (x^2) * (y^2)) + ((-2) * b * (y^3)) + (a * x * (y^2)) + (a * x * (y^4)) + (a * (x^5) * (y^2)) + (b * (x^2) * (y^3)) + ((a^2) * (x^2) * (y^4)) + ((a^3) * (x^3) * (y^2)) + ((-4) * a * (x^3) * (y^2)) + ((-2) * (a^2) * (x^2) * (y^2)) + (a * b * (x^3) * (y^3)) + ((-2) * a * b * x * (y^3))) / ((z^2) * ((-2) + (x^2)) * ((-2) + (x^4) + ((-1) * (x^2)) + (2 * (y^2)) + ((a^2) * (x^2)) + ((-1) * (x^2) * (y^2)) + (a * b * x * y)))))*h73
-#print axioms reduced_step94
 
 compact_certificate theorem reduced_step95 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -4218,7 +4125,6 @@ compact_certificate theorem reduced_step95 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change ((((4 * (z^2)) + ((x^6) * (z^2)) + ((-4) * (y^2) * (z^2)) + ((-3) * (x^4) * (z^2)) + ((a^2) * (x^4) * (z^2)) + ((-1) * (x^4) * (y^2) * (z^2)) + ((-2) * (a^2) * (x^2) * (z^2)) + (4 * (x^2) * (y^2) * (z^2)) + (a * b * y * (x^3) * (z^2)) + ((-2) * a * b * x * y * (z^2))) / ((x^2) * (y^2) * (4 + (x^4) + ((-4) * (x^2)) + ((a^2) * (x^2)) + ((-3) * a * x) + ((-2) * b * y) + (a * x * (y^2)) + (b * y * (x^2)))))) * w 18=0 at h73
   change (1) * w 33 + (1) * w 108=0 at h91
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(1)*h44-(((y^2) / (z^2)))*h50-(((y^2) / ((x^2) * (z^2))))*h53-(1)*h62-(((((-1) * (x^6) * (y^2)) + ((-4) * (x^2) * (y^2)) + (4 * (x^4) * (y^2)) + (a * (x^7) * (y^2)) + ((a^2) * (x^2) * (y^2)) + ((a^2) * (x^2) * (y^4)) + ((a^2) * (x^4) * (y^4)) + ((a^2) * (x^6) * (y^2)) + ((a^3) * (x^3) * (y^4)) + ((a^3) * (x^5) * (y^2)) + ((a^4) * (x^4) * (y^2)) + ((-1) * a * (x^3) * (y^4)) + ((-1) * b * (x^4) * (y^3)) + ((-8) * (a^2) * (x^4) * (y^2)) + ((-3) * a * (x^5) * (y^2)) + ((-2) * (a^3) * (x^3) * (y^2)) + (2 * b * (x^2) * (y^3)) + (3 * a * (x^3) * (y^2)) + (4 * a * x * (y^2)) + (a * b * (x^5) * (y^3)) + (b * (a^2) * (x^4) * (y^3)) + ((-1) * a * b * (x^3) * (y^3)) + ((-2) * a * b * x * (y^3)) + ((-2) * b * (a^2) * (x^2) * (y^3))) / ((z^2) * ((-2) + (x^2)) * ((-2) + (x^4) + ((-1) * (x^2)) + (2 * (y^2)) + ((a^2) * (x^2)) + ((-1) * (x^2) * (y^2)) + (a * b * x * y)))))*h73-(1)*h91
-#print axioms reduced_step95
 
 compact_certificate theorem reduced_step96 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -4245,7 +4151,6 @@ compact_certificate theorem reduced_step96 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change ((((4 * (z^2)) + ((x^6) * (z^2)) + ((-4) * (y^2) * (z^2)) + ((-3) * (x^4) * (z^2)) + ((a^2) * (x^4) * (z^2)) + ((-1) * (x^4) * (y^2) * (z^2)) + ((-2) * (a^2) * (x^2) * (z^2)) + (4 * (x^2) * (y^2) * (z^2)) + (a * b * y * (x^3) * (z^2)) + ((-2) * a * b * x * y * (z^2))) / ((x^2) * (y^2) * (4 + (x^4) + ((-4) * (x^2)) + ((a^2) * (x^2)) + ((-3) * a * x) + ((-2) * b * y) + (a * x * (y^2)) + (b * y * (x^2)))))) * w 18=0 at h73
   change (1) * w 42 + (1) * w 117=0 at h94
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(((y^2) / (z^2)))*h50-(((y^2) / ((x^2) * (z^2))))*h53-(1)*h65-(((((x^6) * (y^2)) + ((-4) * (x^4) * (y^2)) + (4 * (x^2) * (y^2)) + (a * (x^3) * (y^4)) + (b * (x^4) * (y^3)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * (a^2) * (x^2) * (y^2)) + ((-1) * (a^2) * (x^2) * (y^4)) + ((-1) * (a^2) * (x^4) * (y^4)) + ((-1) * (a^2) * (x^6) * (y^2)) + ((-1) * (a^3) * (x^3) * (y^4)) + ((-1) * (a^3) * (x^5) * (y^2)) + ((-1) * (a^4) * (x^4) * (y^2)) + ((-4) * a * x * (y^2)) + ((-3) * a * (x^3) * (y^2)) + ((-2) * b * (x^2) * (y^3)) + (2 * (a^3) * (x^3) * (y^2)) + (3 * a * (x^5) * (y^2)) + (8 * (a^2) * (x^4) * (y^2)) + (a * b * (x^3) * (y^3)) + ((-1) * a * b * (x^5) * (y^3)) + ((-1) * b * (a^2) * (x^4) * (y^3)) + (2 * a * b * x * (y^3)) + (2 * b * (a^2) * (x^2) * (y^3))) / ((z^2) * ((-2) + (x^2)) * ((-2) + (x^4) + ((-1) * (x^2)) + (2 * (y^2)) + ((a^2) * (x^2)) + ((-1) * (x^2) * (y^2)) + (a * b * x * y)))))*h73-(1)*h94
-#print axioms reduced_step96
 
 compact_certificate theorem reduced_step97 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -4288,7 +4193,6 @@ compact_certificate theorem reduced_step97 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change (((z^2) / (y^2))) * w 18 + (((4 + (x^4) + ((-4) * (x^2)) + ((a^2) * (x^2)) + ((-3) * a * x) + ((-2) * b * y) + (a * x * (y^2)) + (b * y * (x^2))) / ((y^2) * ((-2) + (x^2))))) * w 30=0 at h71
   change ((((4 * (z^2)) + ((x^6) * (z^2)) + ((-4) * (y^2) * (z^2)) + ((-3) * (x^4) * (z^2)) + ((a^2) * (x^4) * (z^2)) + ((-1) * (x^4) * (y^2) * (z^2)) + ((-2) * (a^2) * (x^2) * (z^2)) + (4 * (x^2) * (y^2) * (z^2)) + (a * b * y * (x^3) * (z^2)) + ((-2) * a * b * x * y * (z^2))) / ((x^2) * (y^2) * (4 + (x^4) + ((-4) * (x^2)) + ((a^2) * (x^2)) + ((-3) * a * x) + ((-2) * b * y) + (a * x * (y^2)) + (b * y * (x^2)))))) * w 18=0 at h73
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(((y^2) / ((x^2) * (z^2))))*h23-(((y^2) / ((x^2) * (z^2))))*h29-(((-1) / ((x^2) * (z^2))))*h31-(1)*h33-((((-1) * (y^2)) / (x^2)))*h36-(((y^2) / (z^2)))*h50-(((y^2) / ((x^2) * (z^2))))*h53-(1)*h64-(((-1) / ((z^2) * ((-2) + (x^2)))))*h66-(((y^2) / ((x^2) * (z^2))))*h67-(((y^2) / (z^2)))*h68-(((y^2) / ((x^2) * (z^2))))*h71-(((((-4) * (y^2)) + ((x^8) * (y^2)) + ((-1) * (x^4) * (y^2)) + ((-3) * (x^6) * (y^2)) + (2 * b * (y^3)) + (8 * (x^2) * (y^2)) + (a * (x^3) * (y^2)) + (a * (x^3) * (y^4)) + (a * (x^5) * (y^4)) + (a * (x^7) * (y^2)) + (b * (x^6) * (y^3)) + ((a^2) * (x^4) * (y^4)) + ((a^2) * (x^6) * (y^2)) + ((a^3) * (x^5) * (y^2)) + ((-1) * a * x * (y^4)) + ((-1) * b * (x^4) * (y^3)) + ((-1) * (a^2) * (x^2) * (y^2)) + ((-7) * a * (x^5) * (y^2)) + ((-3) * b * (x^2) * (y^3)) + ((-2) * (a^2) * (x^4) * (y^2)) + (3 * a * x * (y^2)) + (a * b * (x^5) * (y^3)) + ((-2) * a * b * (x^3) * (y^3))) / ((z^2) * ((-2) + (x^2)) * ((-2) + (x^4) + ((-1) * (x^2)) + (2 * (y^2)) + ((a^2) * (x^2)) + ((-1) * (x^2) * (y^2)) + (a * b * x * y)))))*h73
-#print axioms reduced_step97
 
 compact_certificate theorem reduced_step98 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -4331,7 +4235,6 @@ compact_certificate theorem reduced_step98 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change (1) * w 51 + (1) * w 101=0 at h78
   change ((1 / ((x^2) * (y^2)))) * w 24 + ((1 / ((x^2) * (y^2)))) * w 126=0 at h90
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(1)*h35-(((-1) / ((x^2) * (z^2))))*h39-(((y^2) / ((x^2) * (z^2))))*h46-(((y^2) / ((x^2) * (z^2))))*h55-(((y^2) / ((x^2) * (z^2))))*h59-(1)*h63-((1 / ((z^2) * ((-2) + (x^2)))))*h66-((((-1) * (y^2)) / ((x^2) * (z^2))))*h67-(((((-2) * (y^2)) + ((x^2) * (y^2)) + (2 * b * (y^3)) + ((-1) * a * x * (y^4)) + ((-1) * b * (x^2) * (y^3)) + (3 * a * x * (y^2))) / ((x^2) * (z^2) * (4 + (x^4) + ((-4) * (x^2)) + ((a^2) * (x^2)) + ((-3) * a * x) + ((-2) * b * y) + (a * x * (y^2)) + (b * y * (x^2))))))*h71-(((y^2) / ((x^2) * (z^2))))*h72-((((4 * (y^2)) + ((x^4) * (y^2)) + ((-1) * (x^8) * (y^2)) + ((-8) * (x^2) * (y^2)) + ((-2) * b * (y^3)) + (3 * (x^6) * (y^2)) + (a * x * (y^4)) + (b * (x^4) * (y^3)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * (x^3) * (y^2)) + ((-1) * a * (x^3) * (y^4)) + ((-1) * a * (x^5) * (y^4)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * (x^6) * (y^3)) + ((-1) * (a^2) * (x^4) * (y^4)) + ((-1) * (a^2) * (x^6) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + ((-3) * a * x * (y^2)) + (2 * (a^2) * (x^4) * (y^2)) + (3 * b * (x^2) * (y^3)) + (7 * a * (x^5) * (y^2)) + ((-1) * a * b * (x^5) * (y^3)) + (2 * a * b * (x^3) * (y^3))) / ((z^2) * ((-2) + (x^2)) * ((-2) + (x^4) + ((-1) * (x^2)) + (2 * (y^2)) + ((a^2) * (x^2)) + ((-1) * (x^2) * (y^2)) + (a * b * x * y)))))*h73-(1)*h78-((y^2))*h90
-#print axioms reduced_step98
 
 compact_certificate theorem reduced_step99 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -4360,7 +4263,6 @@ compact_certificate theorem reduced_step99 (x y z a b : ℂ) (hx : x≠0) (hy : 
   change (1) * w 96 + (1) * w 126=0 at h84
   change ((1 / ((x^2) * (y^2)))) * w 24 + ((1 / ((x^2) * (y^2)))) * w 126=0 at h90
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(((-1) / (y^2)))*h40-(((x^2) / (z^2)))*h50-((1 / (z^2)))*h53-(1)*h83-(((1 + ((-1) * (y^2))) / (y^2)))*h84-((((-1) * (x^2)) + ((x^2) * (y^2))))*h90
-#print axioms reduced_step99
 
 
 
@@ -4389,7 +4291,6 @@ compact_certificate theorem reduced_step100 (x y z a b : ℂ) (hx : x≠0) (hy :
   change ((y^2)) * w 14 + (1) * w 104=0 at h82
   change ((y^2)) * w 14 + (1) * w 24=0 at h85
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-((((-1) * (x^2)) / (y^2)))*h38-(((x^2) / (z^2)))*h50-((1 / (z^2)))*h53-(1)*h82-(((1 + ((-1) * (y^2))) / (y^2)))*h85
-#print axioms reduced_step100
 
 compact_certificate theorem reduced_step101 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -4416,7 +4317,6 @@ compact_certificate theorem reduced_step101 (x y z a b : ℂ) (hx : x≠0) (hy :
   change (1) * w 42 + (1) * w 102=0 at h86
   change ((1 / ((x^2) * (y^2)))) * w 24 + ((1 / ((x^2) * (y^2)))) * w 126=0 at h90
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(((-1) / (y^2)))*h14-((a / (x * (y^2))))*h20-(1)*h34-((1 / ((x^2) * (y^2))))*h86-(((-1) * a * x))*h90
-#print axioms reduced_step101
 
 compact_certificate theorem reduced_step102 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -4439,7 +4339,6 @@ compact_certificate theorem reduced_step102 (x y z a b : ℂ) (hx : x≠0) (hy :
   change (1) * w 48 + (1) * w 108=0 at h87
   change ((((-1) + (y^2)) / (y^2))) * w 24 + (1) * w 44 + (((x^2) / (y^2))) * w 87=0 at h100
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-((-1))*h13-((1 / (x^2)))*h87-(((y^2) / (x^2)))*h100
-#print axioms reduced_step102
 
 compact_certificate theorem reduced_step103 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -4460,7 +4359,6 @@ compact_certificate theorem reduced_step103 (x y z a b : ℂ) (hx : x≠0) (hy :
   change (((-1) * (x^2) * (y^2))) * w 11 + (1) * w 108=0 at h49
   change (((1 + ((-1) * (y^2)) + ((-1) * a * x)) / (x^2))) * w 24 + ((((-1) * (y^2)) / (x^2))) * w 44 + (((-1) / (x^2))) * w 108=0 at h102
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(((-1) / ((x^2) * (y^2))))*h49-(((-1) / (y^2)))*h102
-#print axioms reduced_step103
 
 compact_certificate theorem reduced_step104 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -4491,7 +4389,6 @@ compact_certificate theorem reduced_step104 (x y z a b : ℂ) (hx : x≠0) (hy :
   change (1) * w 26 + (1) * w 126=0 at h88
   change ((1 / ((x^2) * (y^2)))) * w 24 + ((1 / ((x^2) * (y^2)))) * w 126=0 at h90
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(((-1) / ((x^2) * (y^2))))*h42-((1 / (y^2)))*h60-(((4 + (x^6) + ((-3) * (x^4)) + (a * x) + (a * (x^5)) + ((a^2) * (x^4)) + ((a^3) * (x^3)) + ((-7) * a * (x^3)) + ((-2) * b * y) + ((-2) * (a^2) * (x^2)) + (a * x * (y^2)) + (a * (x^3) * (y^2)) + (b * y * (x^4)) + ((a^2) * (x^2) * (y^2)) + ((-1) * b * y * (x^2)) + (a * b * y * (x^3)) + ((-2) * a * b * x * y)) / ((z^2) * ((-2) + (x^2)) * ((-2) + (x^4) + ((-1) * (x^2)) + (2 * (y^2)) + ((a^2) * (x^2)) + ((-1) * (x^2) * (y^2)) + (a * b * x * y)))))*h73-((1 / (x^2)))*h80-(((-1) / (x^2)))*h86-((((-1) * a) / x))*h88-((a * x * (y^2)))*h90
-#print axioms reduced_step104
 
 compact_certificate theorem reduced_step105 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -4510,7 +4407,6 @@ compact_certificate theorem reduced_step105 (x y z a b : ℂ) (hx : x≠0) (hy :
   change (1) * w 19 + ((((-1) * a) / x)) * w 38 + (1) * w 94=0
   change (1) * w 76=0 at h8
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-((1 / (x^2)))*h8
-#print axioms reduced_step105
 
 compact_certificate theorem reduced_step106 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -4537,7 +4433,6 @@ compact_certificate theorem reduced_step106 (x y z a b : ℂ) (hx : x≠0) (hy :
   change (1) * w 96 + (1) * w 126=0 at h84
   change ((1 / ((x^2) * (y^2)))) * w 24 + ((1 / ((x^2) * (y^2)))) * w 126=0 at h90
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-((1 / (x^2)))*h37-((((-1) * (y^2)) / ((x^2) * (z^2))))*h58-(((((-4) * (y^2)) + ((-1) * (x^4) * (y^2)) + (2 * b * (y^3)) + (4 * (x^2) * (y^2)) + ((-1) * a * x * (y^4)) + ((-1) * b * (x^2) * (y^3)) + ((-1) * (a^2) * (x^2) * (y^2)) + (3 * a * x * (y^2))) / ((z^2) * ((-2) + (x^2)) * ((-2) + (x^4) + ((-1) * (x^2)) + (2 * (y^2)) + ((a^2) * (x^2)) + ((-1) * (x^2) * (y^2)) + (a * b * x * y)))))*h73-(1)*h84-(((-1) * (x^2) * (y^2)))*h90
-#print axioms reduced_step106
 
 compact_certificate theorem reduced_step107 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -4562,7 +4457,6 @@ compact_certificate theorem reduced_step107 (x y z a b : ℂ) (hx : x≠0) (hy :
   change ((1 / ((x^2) * (y^2)))) * w 24 + ((1 / ((x^2) * (y^2)))) * w 126=0 at h90
   change ((1 / (x^2))) * w 24 + (((y^2) / (x^2))) * w 82 + (1) * w 99=0 at h97
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-((1 / (x^2)))*h84-((((-1) * a) / x))*h87-(((-1) * (y^2)))*h90-(1)*h97
-#print axioms reduced_step107
 
 compact_certificate theorem reduced_step108 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -4585,7 +4479,6 @@ compact_certificate theorem reduced_step108 (x y z a b : ℂ) (hx : x≠0) (hy :
   change ((y^2)) * w 14 + (1) * w 24=0 at h85
   change (1) * w 24 + ((((-1) * (y^2)) / (x^2))) * w 82 + ((a / x)) * w 108=0 at h107
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(((-1) / ((x^2) * (y^2))))*h19-((((-1) * a) / (x * (y^2))))*h85-((((-1) * (x^2)) / (y^2)))*h107
-#print axioms reduced_step108
 
 compact_certificate theorem reduced_step109 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -4604,7 +4497,6 @@ compact_certificate theorem reduced_step109 (x y z a b : ℂ) (hx : x≠0) (hy :
   change (1) * w 56 + ((((-1) * a) / x)) * w 112 + (1) * w 131=0
   change (1) * w 74=0 at h10
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-((1 / (x^2)))*h10
-#print axioms reduced_step109
 
 
 
@@ -4637,7 +4529,6 @@ compact_certificate theorem reduced_step110 (x y z a b : ℂ) (hx : x≠0) (hy :
   change (1) * w 24 + (1) * w 124=0 at h89
   simp only [hw18,mul_zero,zero_add,add_zero] at hs0 h41 h61 h73 h81 h87 h89 ⊢
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(((-1) / ((x^2) * (y^2))))*h41-(((-1) / (z^2)))*h61-((1 / (x^2)))*h81-(((-1) / (x^2)))*h87-((((-1) * a) / x))*h89
-#print axioms reduced_step110
 
 compact_certificate theorem reduced_step111 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -4660,7 +4551,6 @@ compact_certificate theorem reduced_step111 (x y z a b : ℂ) (hx : x≠0) (hy :
   change (1) * w 16 + (((1 + ((-1) * (y^2))) / (y^2))) * w 24 + (1) * w 106=0 at h99
   change ((1 / (x^2))) * w 16 + ((a / (x * (y^2)))) * w 24 + (((-1) / ((x^2) * (y^2)))) * w 42=0 at h101
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(((-1) / ((x^2) * (y^2))))*h30-((1 / (x^2)))*h99-((-1))*h101
-#print axioms reduced_step111
 
 compact_certificate theorem reduced_step112 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -4689,7 +4579,6 @@ compact_certificate theorem reduced_step112 (x y z a b : ℂ) (hx : x≠0) (hy :
   change ((1 / ((x^2) * (y^2)))) * w 24 + ((1 / ((x^2) * (y^2)))) * w 126=0 at h90
   change (1) * w 21 + (1) * w 24 + ((((-1) * a) / x)) * w 42=0 at h106
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(1)*h26-((a / (x * (y^2))))*h40-(1)*h45-((((-1) * a) / (x * (y^2))))*h84-((a * x))*h90-(((x^2) / (y^2)))*h106
-#print axioms reduced_step112
 
 compact_certificate theorem reduced_step113 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -4720,7 +4609,6 @@ compact_certificate theorem reduced_step113 (x y z a b : ℂ) (hx : x≠0) (hy :
   change ((1 / (x^2))) * w 16 + ((a / (x * (y^2)))) * w 24 + (((-1) / ((x^2) * (y^2)))) * w 42=0 at h101
   simp only [hw18,mul_zero,zero_add,add_zero] at hs0 h3 h43 h73 h85 h99 h101 ⊢
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-((-1))*h3-((1 / (y^2)))*h43-((1 / (y^2)))*h85-(1)*h99-(((-1) * (x^2)))*h101
-#print axioms reduced_step113
 
 compact_certificate theorem reduced_step114 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -4743,7 +4631,6 @@ compact_certificate theorem reduced_step114 (x y z a b : ℂ) (hx : x≠0) (hy :
   change (((-1) * (y^2))) * w 8 + (1) * w 126=0 at h20
   change ((1 / ((x^2) * (y^2)))) * w 24 + ((1 / ((x^2) * (y^2)))) * w 126=0 at h90
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-((1 / (y^2)))*h7-(((-1) / (y^2)))*h20-((x^2))*h90
-#print axioms reduced_step114
 
 compact_certificate theorem reduced_step115 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -4774,7 +4661,6 @@ compact_certificate theorem reduced_step115 (x y z a b : ℂ) (hx : x≠0) (hy :
   change (1) * w 24 + ((((-1) * (y^2)) / (x^2))) * w 82 + ((a / x)) * w 108=0 at h107
   simp only [hw18,mul_zero,zero_add,add_zero] at hs0 h49 h63 h73 h91 h97 h107 ⊢
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(((-1) / ((x^2) * (y^2))))*h49-(1)*h63-((((-1) * b) / y))*h91-((1 / (y^2)))*h97-((1 / (y^2)))*h107
-#print axioms reduced_step115
 
 compact_certificate theorem reduced_step116 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -4801,7 +4687,6 @@ compact_certificate theorem reduced_step116 (x y z a b : ℂ) (hx : x≠0) (hy :
   change ((a / x)) * w 24 + (1) * w 62 + ((1 / (x^2))) * w 108=0 at h110
   simp only [hw18,mul_zero,zero_add,add_zero] at hs0 h13 h60 h73 h110 ⊢
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-((-1))*h13-((((-1) * b * (x^2)) / y))*h60-(1)*h110
-#print axioms reduced_step116
 
 compact_certificate theorem reduced_step117 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -4836,7 +4721,6 @@ compact_certificate theorem reduced_step117 (x y z a b : ℂ) (hx : x≠0) (hy :
   change ((1 / (x^2))) * w 16 + ((a / (x * (y^2)))) * w 24 + (((-1) / ((x^2) * (y^2)))) * w 42=0 at h101
   simp only [hw18,mul_zero,zero_add,add_zero] at hs0 h42 h44 h60 h64 h73 h93 h94 h101 ⊢
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(((-1) / ((x^2) * (y^2))))*h42-(1)*h44-((1 / (y^2)))*h60-((((-1) * b) / y))*h64-(1)*h93-((1 / (y^2)))*h94-((y^2))*h101
-#print axioms reduced_step117
 
 compact_certificate theorem reduced_step118 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -4865,7 +4749,6 @@ compact_certificate theorem reduced_step118 (x y z a b : ℂ) (hx : x≠0) (hy :
   change ((((-1) + (y^2) + (a * x)) / ((x^2) * (y^2)))) * w 24 + (1) * w 64 + ((((-1) * a) / x)) * w 128=0 at h111
   simp only [hw18,mul_zero,zero_add,add_zero] at hs0 h61 h73 h85 h90 h111 ⊢
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-((((-1) * (x^2) * (y^2)) / (z^2)))*h61-((1 / (y^2)))*h85-((x^2))*h90-(1)*h111
-#print axioms reduced_step118
 
 compact_certificate theorem reduced_step119 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -4922,7 +4805,6 @@ compact_certificate theorem reduced_step119 (x y z a b : ℂ) (hx : x≠0) (hy :
   change (((1 + ((-1) * (y^2)) + ((-2) * (x^2)) + ((-1) * a * x)) / ((x^2) * (y^2)))) * w 24 + ((((-1) * b) / y)) * w 42 + ((a / x)) * w 128=0 at h118
   simp only [hw18,mul_zero,zero_add,add_zero] at hs0 h9 h11 h20 h39 h45 h46 h50 h53 h55 h59 h66 h67 h71 h72 h73 h90 h106 h117 h118 ⊢
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(1)*h9-(1)*h11-(((-1) / (y^2)))*h20-(((-1) / ((y^2) * (z^2))))*h39-(1)*h45-((1 / (z^2)))*h46-((((x^2) * (y^2)) / (z^2)))*h50-(((y^2) / (z^2)))*h53-((1 / (z^2)))*h55-((1 / (z^2)))*h59-(((x^2) / ((y^2) * (z^2) * ((-2) + (x^2)))))*h66-(((-1) / (z^2)))*h67-((((-2) + (x^2) + (2 * b * y) + (3 * a * x) + ((-1) * a * x * (y^2)) + ((-1) * b * y * (x^2))) / ((z^2) * (4 + (x^4) + ((-4) * (x^2)) + ((a^2) * (x^2)) + ((-3) * a * x) + ((-2) * b * y) + (a * x * (y^2)) + (b * y * (x^2))))))*h71-((1 / (z^2)))*h72-((x^2))*h90-(((x^2) / (y^2)))*h106-((-1))*h117-((((x^2) + (x^4) + (a * x * (y^2))) / ((-1) + (y^2) + (2 * (x^2)) + (a * x))))*h118
-#print axioms reduced_step119
 
 
 
@@ -4998,7 +4880,6 @@ compact_certificate theorem reduced_step122 (x y z a b : ℂ) (hx : x≠0) (hy :
   simp only [hw42,hw128,mul_zero,zero_add,add_zero] at hs0 h24 h35 h39 h46 h47 h49 h50 h53 h55 h59 h63 h66 h67 h71 h72 h73 h87 h90 h106 h109 h113 h116 h118 h119 h120 ⊢
   simp only [hw30,mul_zero,zero_add,add_zero] at hs0 h24 h35 h39 h46 h47 h49 h50 h53 h55 h59 h63 h66 h67 h71 h72 h73 h87 h90 h106 h109 h113 h116 h118 h119 h120 ⊢
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(1)*h24-(1)*h35-(((-1) / ((x^2) * (y^2) * (z^2))))*h39-((1 / ((x^2) * (z^2))))*h46-(1)*h47-(((-1) / ((x^2) * (y^2))))*h49-(((y^2) / (z^2)))*h50-(((y^2) / ((x^2) * (z^2))))*h53-((1 / ((x^2) * (z^2))))*h55-((1 / ((x^2) * (z^2))))*h59-(1)*h63-((1 / ((y^2) * (z^2) * ((-2) + (x^2)))))*h66-(((-1) / ((x^2) * (z^2))))*h67-((1 / ((x^2) * (z^2))))*h72-((1 / ((x^2) * (y^2))))*h87-((y^2))*h90-(1)*h106-(1)*h109-((-1))*h113-((a / x))*h116-((((y^2) + (2 * (x^2)) + ((-1) * a * (x^3)) + ((-1) * (a^2) * (y^2))) / ((-1) + (y^2) + (2 * (x^2)) + (a * x))))*h118-((((a * (y^2)) + ((-1) * a * (x^2))) / ((x^3) * (y^2))))*h119
-#print axioms reduced_step122
 
 
 
@@ -5062,7 +4943,6 @@ compact_certificate theorem reduced_step123 (x y z a b : ℂ) (hx : x≠0) (hy :
   set D4 : ℂ := ((-1) + (y^2) + (2 * (x^2)) + (a * x)) with hD4
   set D6 : ℂ := ((-2) + (x^2)) with hD6
   linear_combination (norm := (field_simp [hx,hy,hz,hP3,hP4,hP6]; dsimp only [D3,D4,D6]; ring)) hs0-(1)*h7-((-1))*h13-((1 / (z^2)))*h23-(1)*h25-((1 / (z^2)))*h29-(((-1) / ((y^2) * (z^2))))*h31-((((x^2) + ((x^2) * (y^2))) / (z^2)))*h50-(((1 + (y^2)) / (z^2)))*h53-((((-1) * (y^2)) / (z^2)))*h58-((((-1) * (x^2)) / ((y^2) * (z^2) * D6)))*h66-((1 / (z^2)))*h67-(((x^2) / (z^2)))*h68-((((-1) * (x^2)) / (y^2)))*h107-(1)*h116-(((((-1) * (x^2)) + ((-1) * (x^4)) + ((-1) * a * x * (y^2))) / D4))*h118-((((y^2) + ((-1) * (x^2)) + (a * (x^3))) / ((x^2) * (y^2))))*h119-((((x^2) + (y^4) + ((-1) * (y^2)) + ((-2) * (x^4)) + ((x^2) * (y^2)) + ((-1) * a * (x^3)) + ((-1) * (a^2) * (x^6)) + ((-1) * (a^2) * (y^4)) + (3 * a * (x^5)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * (x^3) * (y^2)) + ((-1) * a * (x^5) * (y^2)) + ((-1) * (a^2) * (x^2) * (y^4)) + ((-1) * (a^3) * (x^3) * (y^2))) / ((x^2) * D3)))*h120
-#print axioms reduced_step123
 
 
 
@@ -5103,7 +4983,6 @@ compact_certificate theorem reduced_step124 (x y z a b : ℂ) (hx : x≠0) (hy :
   set D3 : ℂ := (1 + ((-1) * (y^4)) + ((-2) * (x^2)) + ((a^2) * (x^6)) + ((a^2) * (y^2)) + ((-2) * a * (x^5)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (a * (x^5) * (y^2)) + ((a^2) * (x^2) * (y^2)) + ((a^3) * (x^3) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^3) * (y^2))) with hD3
   set D4 : ℂ := ((-1) + (y^2) + (2 * (x^2)) + (a * x)) with hD4
   linear_combination (norm := (field_simp [hx,hy,hz,hP3,hP4]; dsimp only [D3,D4]; ring)) hs0-(1)*h7-((((-1) * b) / y))*h32-((1 / (y^2)))*h87-((x^2))*h112-(((((-1) * (x^6)) + ((-1) * a * (x^3))) / D4))*h118-(((-1) / (y^2)))*h119-(((1 + ((-1) * (y^2)) + ((-2) * (x^2)) + (a * (x^3)) + ((a^2) * (y^2)) + ((-1) * a * (x^5) * (y^2)) + ((-1) * (a^2) * (x^2) * (y^2))) / D3))*h120-(1)*h123
-#print axioms reduced_step124
 
 
 
@@ -5157,7 +5036,6 @@ compact_certificate theorem reduced_step125 (x y z a b : ℂ) (hx : x≠0) (hy :
   change ((((y^4) + ((-1) * (x^4)) + ((-1) * (y^6)) + (2 * (x^6)) + (a * (x^5)) + ((a^2) * (x^12)) + ((a^4) * (x^8)) + ((a^4) * (x^10)) + ((x^4) * (y^4)) + ((x^4) * (y^6)) + ((-1) * (a^2) * (x^8)) + ((-1) * (a^3) * (x^7)) + ((-1) * (x^4) * (y^2)) + ((-2) * a * (x^7)) + ((-2) * (a^2) * (x^10)) + ((-2) * (a^3) * (x^9)) + ((-2) * (x^2) * (y^4)) + (2 * (x^6) * (y^4)) + (3 * a * (x^9)) + (4 * (x^6) * (y^2)) + (b * y * (x^10)) + (b * (x^10) * (y^3)) + ((a^2) * (x^2) * (y^4)) + ((a^2) * (x^10) * (y^2)) + ((-1) * a * x * (y^4)) + ((-1) * a * (x^9) * (y^4)) + ((-1) * b * y * (x^6)) + ((-1) * b * y * (x^8)) + ((-1) * b * (x^4) * (y^3)) + ((-1) * (a^2) * (x^6) * (y^4)) + ((-1) * (a^2) * (x^12) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^4)) + ((-1) * (a^3) * (x^7) * (y^4)) + ((-1) * (a^3) * (x^9) * (y^2)) + ((-1) * (a^4) * (x^8) * (y^2)) + ((-1) * (a^4) * (x^10) * (y^2)) + ((-4) * (a^2) * (x^6) * (y^2)) + ((-2) * a * (x^3) * (y^4)) + ((-2) * a * (x^5) * (y^2)) + ((-2) * b * (x^6) * (y^3)) + ((-2) * (a^2) * (x^4) * (y^2)) + (2 * a * (x^3) * (y^2)) + (2 * a * (x^5) * (y^4)) + (2 * a * (x^7) * (y^4)) + (2 * a * (x^9) * (y^2)) + (2 * (a^2) * (x^8) * (y^2)) + (2 * (a^3) * (x^5) * (y^2)) + (a * b * y * (x^13)) + (a * b * (x^7) * (y^3)) + (b * y * (a^2) * (x^8)) + (b * y * (a^2) * (x^10)) + ((-1) * a * b * (x^3) * (y^5)) + ((-1) * a * b * (x^5) * (y^5)) + ((-1) * b * (a^2) * (x^6) * (y^3)) + ((-1) * b * (a^2) * (x^8) * (y^3)) + ((-2) * a * b * y * (x^9))) / ((x^4) * (y^2) * (1 + ((-1) * (y^4)) + ((-2) * (x^2)) + ((a^2) * (x^6)) + ((a^2) * (y^2)) + ((-2) * a * (x^5)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (a * (x^5) * (y^2)) + ((a^2) * (x^2) * (y^2)) + ((a^3) * (x^3) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^3) * (y^2)))))) * w 42=0 at h124
   simp only [hw42,hw128,mul_zero,zero_mul,zero_add,add_zero] at hs0 h22 h31 h39 h53 h54 h68 h71 h72 h88 h90 h103 h113 h118 h120 h123 h124 ⊢
   linear_combination (norm := (simp only [mul_zero,zero_mul,zero_add,add_zero,zero_sub,sub_zero]; field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(((x^2) / ((y^2) * (z^2))))*h22-(((-1) / ((y^2) * (z^2))))*h31-(((-1) / ((y^2) * (z^2))))*h39-((1 / (z^2)))*h53-((1 / (z^2)))*h54-((((-1) * (x^2)) / (z^2)))*h68-((((-2) + ((-1) * (x^4)) + (3 * (x^2)) + ((-1) * (a^2) * (x^2))) / ((z^2) * (4 + (x^4) + ((-4) * (x^2)) + ((a^2) * (x^2)) + ((-3) * a * x) + ((-2) * b * y) + (a * x * (y^2)) + (b * y * (x^2))))))*h71-(((-1) / (z^2)))*h72-(1)*h88-(((-1) * (x^2) * (y^2)))*h90-(1)*h103-(1)*h113-(((1 + ((-1) * (y^2)) + ((-2) * (x^2)) + (a * (x^3)) + ((-1) * a * x)) / ((-1) + (y^2) + (2 * (x^2)) + (a * x))))*h118-((a / x))*h123
-#print axioms reduced_step125
 
 
 
@@ -5192,7 +5070,6 @@ compact_certificate theorem reduced_step126 (x y z a b : ℂ) (hx : x≠0) (hy :
   change ((((y^4) + ((-1) * (x^4)) + ((-1) * (y^6)) + (2 * (x^6)) + (a * (x^5)) + ((a^2) * (x^12)) + ((a^4) * (x^8)) + ((a^4) * (x^10)) + ((x^4) * (y^4)) + ((x^4) * (y^6)) + ((-1) * (a^2) * (x^8)) + ((-1) * (a^3) * (x^7)) + ((-1) * (x^4) * (y^2)) + ((-2) * a * (x^7)) + ((-2) * (a^2) * (x^10)) + ((-2) * (a^3) * (x^9)) + ((-2) * (x^2) * (y^4)) + (2 * (x^6) * (y^4)) + (3 * a * (x^9)) + (4 * (x^6) * (y^2)) + (b * y * (x^10)) + (b * (x^10) * (y^3)) + ((a^2) * (x^2) * (y^4)) + ((a^2) * (x^10) * (y^2)) + ((-1) * a * x * (y^4)) + ((-1) * a * (x^9) * (y^4)) + ((-1) * b * y * (x^6)) + ((-1) * b * y * (x^8)) + ((-1) * b * (x^4) * (y^3)) + ((-1) * (a^2) * (x^6) * (y^4)) + ((-1) * (a^2) * (x^12) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^4)) + ((-1) * (a^3) * (x^7) * (y^4)) + ((-1) * (a^3) * (x^9) * (y^2)) + ((-1) * (a^4) * (x^8) * (y^2)) + ((-1) * (a^4) * (x^10) * (y^2)) + ((-4) * (a^2) * (x^6) * (y^2)) + ((-2) * a * (x^3) * (y^4)) + ((-2) * a * (x^5) * (y^2)) + ((-2) * b * (x^6) * (y^3)) + ((-2) * (a^2) * (x^4) * (y^2)) + (2 * a * (x^3) * (y^2)) + (2 * a * (x^5) * (y^4)) + (2 * a * (x^7) * (y^4)) + (2 * a * (x^9) * (y^2)) + (2 * (a^2) * (x^8) * (y^2)) + (2 * (a^3) * (x^5) * (y^2)) + (a * b * y * (x^13)) + (a * b * (x^7) * (y^3)) + (b * y * (a^2) * (x^8)) + (b * y * (a^2) * (x^10)) + ((-1) * a * b * (x^3) * (y^5)) + ((-1) * a * b * (x^5) * (y^5)) + ((-1) * b * (a^2) * (x^6) * (y^3)) + ((-1) * b * (a^2) * (x^8) * (y^3)) + ((-2) * a * b * y * (x^9))) / ((x^4) * (y^2) * (1 + ((-1) * (y^4)) + ((-2) * (x^2)) + ((a^2) * (x^6)) + ((a^2) * (y^2)) + ((-2) * a * (x^5)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (a * (x^5) * (y^2)) + ((a^2) * (x^2) * (y^2)) + ((a^3) * (x^3) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^3) * (y^2)))))) * w 42=0 at h124
   simp only [hw42,hw128,mul_zero,zero_mul,zero_add,add_zero] at hs0 h85 h108 h113 h118 h119 h120 h124 ⊢
   linear_combination (norm := (simp only [mul_zero,zero_mul,zero_add,add_zero,zero_sub,sub_zero]; field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-((1 / (y^2)))*h85-(((-1) * a * x))*h108-((1 / (x^2)))*h113-((((-2) + (x^2) + (y^2) + (a * x) + ((-1) * a * (x^5)) + ((-1) * (a^2) * (x^2))) / ((-1) + (y^2) + (2 * (x^2)) + (a * x))))*h118-(((a + ((a^2) * (x^3))) / (x * (y^2))))*h119
-#print axioms reduced_step126
 
 
 
@@ -5228,7 +5105,6 @@ compact_certificate theorem reduced_step127 (x y z a b : ℂ) (hx : x≠0) (hy :
   change ((((y^4) + ((-1) * (x^4)) + ((-1) * (y^6)) + (2 * (x^6)) + (a * (x^5)) + ((a^2) * (x^12)) + ((a^4) * (x^8)) + ((a^4) * (x^10)) + ((x^4) * (y^4)) + ((x^4) * (y^6)) + ((-1) * (a^2) * (x^8)) + ((-1) * (a^3) * (x^7)) + ((-1) * (x^4) * (y^2)) + ((-2) * a * (x^7)) + ((-2) * (a^2) * (x^10)) + ((-2) * (a^3) * (x^9)) + ((-2) * (x^2) * (y^4)) + (2 * (x^6) * (y^4)) + (3 * a * (x^9)) + (4 * (x^6) * (y^2)) + (b * y * (x^10)) + (b * (x^10) * (y^3)) + ((a^2) * (x^2) * (y^4)) + ((a^2) * (x^10) * (y^2)) + ((-1) * a * x * (y^4)) + ((-1) * a * (x^9) * (y^4)) + ((-1) * b * y * (x^6)) + ((-1) * b * y * (x^8)) + ((-1) * b * (x^4) * (y^3)) + ((-1) * (a^2) * (x^6) * (y^4)) + ((-1) * (a^2) * (x^12) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^4)) + ((-1) * (a^3) * (x^7) * (y^4)) + ((-1) * (a^3) * (x^9) * (y^2)) + ((-1) * (a^4) * (x^8) * (y^2)) + ((-1) * (a^4) * (x^10) * (y^2)) + ((-4) * (a^2) * (x^6) * (y^2)) + ((-2) * a * (x^3) * (y^4)) + ((-2) * a * (x^5) * (y^2)) + ((-2) * b * (x^6) * (y^3)) + ((-2) * (a^2) * (x^4) * (y^2)) + (2 * a * (x^3) * (y^2)) + (2 * a * (x^5) * (y^4)) + (2 * a * (x^7) * (y^4)) + (2 * a * (x^9) * (y^2)) + (2 * (a^2) * (x^8) * (y^2)) + (2 * (a^3) * (x^5) * (y^2)) + (a * b * y * (x^13)) + (a * b * (x^7) * (y^3)) + (b * y * (a^2) * (x^8)) + (b * y * (a^2) * (x^10)) + ((-1) * a * b * (x^3) * (y^5)) + ((-1) * a * b * (x^5) * (y^5)) + ((-1) * b * (a^2) * (x^6) * (y^3)) + ((-1) * b * (a^2) * (x^8) * (y^3)) + ((-2) * a * b * y * (x^9))) / ((x^4) * (y^2) * (1 + ((-1) * (y^4)) + ((-2) * (x^2)) + ((a^2) * (x^6)) + ((a^2) * (y^2)) + ((-2) * a * (x^5)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (a * (x^5) * (y^2)) + ((a^2) * (x^2) * (y^2)) + ((a^3) * (x^3) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^3) * (y^2)))))) * w 42=0 at h124
   simp only [hw42,hw128,mul_zero,zero_mul,zero_add,add_zero] at hs0 h102 h104 h118 h119 h120 h123 h124 ⊢
   linear_combination (norm := (simp only [mul_zero,zero_mul,zero_add,add_zero,zero_sub,sub_zero]; field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(((a * x) / (y^2)))*h102-((1 / (x^2)))*h104-((((a * (x^2)) + ((-1) * a * (y^2)) + ((-1) * (a^2) * (x^3)) + ((-1) * a * (x^2) * (y^2))) / (x * ((-1) + (y^2) + (2 * (x^2)) + (a * x)))))*h118-((a / (x * (y^2))))*h119-(1)*h123
-#print axioms reduced_step127
 
 
 
@@ -5263,7 +5139,6 @@ compact_certificate theorem reduced_step128 (x y z a b : ℂ) (hx : x≠0) (hy :
   change ((((y^4) + ((-1) * (x^4)) + ((-1) * (y^6)) + (2 * (x^6)) + (a * (x^5)) + ((a^2) * (x^12)) + ((a^4) * (x^8)) + ((a^4) * (x^10)) + ((x^4) * (y^4)) + ((x^4) * (y^6)) + ((-1) * (a^2) * (x^8)) + ((-1) * (a^3) * (x^7)) + ((-1) * (x^4) * (y^2)) + ((-2) * a * (x^7)) + ((-2) * (a^2) * (x^10)) + ((-2) * (a^3) * (x^9)) + ((-2) * (x^2) * (y^4)) + (2 * (x^6) * (y^4)) + (3 * a * (x^9)) + (4 * (x^6) * (y^2)) + (b * y * (x^10)) + (b * (x^10) * (y^3)) + ((a^2) * (x^2) * (y^4)) + ((a^2) * (x^10) * (y^2)) + ((-1) * a * x * (y^4)) + ((-1) * a * (x^9) * (y^4)) + ((-1) * b * y * (x^6)) + ((-1) * b * y * (x^8)) + ((-1) * b * (x^4) * (y^3)) + ((-1) * (a^2) * (x^6) * (y^4)) + ((-1) * (a^2) * (x^12) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^4)) + ((-1) * (a^3) * (x^7) * (y^4)) + ((-1) * (a^3) * (x^9) * (y^2)) + ((-1) * (a^4) * (x^8) * (y^2)) + ((-1) * (a^4) * (x^10) * (y^2)) + ((-4) * (a^2) * (x^6) * (y^2)) + ((-2) * a * (x^3) * (y^4)) + ((-2) * a * (x^5) * (y^2)) + ((-2) * b * (x^6) * (y^3)) + ((-2) * (a^2) * (x^4) * (y^2)) + (2 * a * (x^3) * (y^2)) + (2 * a * (x^5) * (y^4)) + (2 * a * (x^7) * (y^4)) + (2 * a * (x^9) * (y^2)) + (2 * (a^2) * (x^8) * (y^2)) + (2 * (a^3) * (x^5) * (y^2)) + (a * b * y * (x^13)) + (a * b * (x^7) * (y^3)) + (b * y * (a^2) * (x^8)) + (b * y * (a^2) * (x^10)) + ((-1) * a * b * (x^3) * (y^5)) + ((-1) * a * b * (x^5) * (y^5)) + ((-1) * b * (a^2) * (x^6) * (y^3)) + ((-1) * b * (a^2) * (x^8) * (y^3)) + ((-2) * a * b * y * (x^9))) / ((x^4) * (y^2) * (1 + ((-1) * (y^4)) + ((-2) * (x^2)) + ((a^2) * (x^6)) + ((a^2) * (y^2)) + ((-2) * a * (x^5)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (a * (x^5) * (y^2)) + ((a^2) * (x^2) * (y^2)) + ((a^3) * (x^3) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^3) * (y^2)))))) * w 42=0 at h124
   simp only [hw42,hw128,mul_zero,zero_mul,zero_add,add_zero] at hs0 h108 h113 h116 h118 h119 h120 h124 ⊢
   linear_combination (norm := (simp only [mul_zero,zero_mul,zero_add,add_zero,zero_sub,sub_zero]; field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-((x^2))*h108-((((-1) * a) / x))*h113-((1 / (x^2)))*h116-((((x^7) + (a * (x^4)) + ((-1) * a * (y^2)) + ((-1) * (a^2) * (x^3)) + (2 * a * (x^2)) + ((-1) * a * (x^2) * (y^2))) / (x * ((-1) + (y^2) + (2 * (x^2)) + (a * x)))))*h118-((((y^2) + ((-1) * (x^2)) + ((-1) * (x^4)) + ((-1) * a * (x^7))) / ((x^4) * (y^2))))*h119
-#print axioms reduced_step128
 
 
 
@@ -5301,7 +5176,6 @@ compact_certificate theorem reduced_step129 (x y z a b : ℂ) (hx : x≠0) (hy :
   change (1) * w 116=0 at h125
   simp only [hw42,hw128,mul_zero,zero_mul,zero_add,add_zero] at hs0 h82 h85 h114 h118 h119 h120 h124 h125 ⊢
   linear_combination (norm := (simp only [mul_zero,zero_mul,zero_add,add_zero,zero_sub,sub_zero]; field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(1)*h82-((-1))*h85-((((-1) * a) / x))*h114-((((a * x) + ((-1) * (x^2) * (y^2)) + (a * b * x * y)) / ((-1) + (y^2) + (2 * (x^2)) + (a * x))))*h118-((a / x))*h119-((1 / (x^2)))*h125
-#print axioms reduced_step129
 
 end QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative
 end
@@ -5355,7 +5229,6 @@ compact_certificate theorem reduced_step120 (x y z a b : ℂ) (hx : x≠0) (hy :
   change ((((x^2) + (y^4) + ((-1) * (y^2)) + ((-2) * (x^4)) + ((a^2) * (x^4)) + ((x^2) * (y^2)) + ((-2) * a * (x^3)) + (2 * a * (x^5)) + (a * x * (y^2)) + (a * (x^3) * (y^2)) + (b * y * (x^4)) + (b * y * (x^6)) + (a * b * (x^3) * (y^3))) / ((x^2) * (y^2) * ((-1) + (y^2) + (2 * (x^2)) + (a * x))))) * w 42 + (1) * w 108 + ((((-1) + (y^2) + (2 * (x^2)) + ((-1) * a * (x^3)) + ((-1) * (a^2) * (y^2))) / ((-1) + (y^2) + (2 * (x^2)) + (a * x)))) * w 128=0 at h119
   simp only [hw18,mul_zero,zero_add,add_zero] at hs0 h9 h37 h58 h73 h86 h108 h118 h119 ⊢
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(1)*h9-((((-1) * b) / y))*h37-(((b * y) / (z^2)))*h58-((1 / (y^2)))*h86-((x^2))*h108-((((x^6) + (a * (x^3))) / ((-1) + (y^2) + (2 * (x^2)) + (a * x))))*h118-((((-1) + ((-1) * a * (x^3))) / (y^2)))*h119
-#print axioms reduced_step120
 
 compact_certificate theorem reduced_step121 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (hP0 : ((y^2) + ((-1) * (x^2)) + ((-1) * (y^4)) + (2 * (x^4)) + (a * (x^7)) + ((a^3) * (x^5)) + ((x^2) * (y^4)) + ((-3) * a * (x^5)) + ((-2) * (a^2) * (x^4)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (2 * (x^4) * (y^2)) + (b * y * (x^8)) + ((a^2) * (x^2) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^7) * (y^2)) + ((-1) * b * y * (x^4)) + ((-1) * b * y * (x^6)) + ((-1) * (a^2) * (x^4) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^2)) + (2 * a * (x^5) * (y^2)) + (a * b * y * (x^5)) + ((-1) * a * b * (x^3) * (y^3)))≠0)
@@ -5391,7 +5264,6 @@ compact_certificate theorem reduced_step121 (x y z a b : ℂ) (hx : x≠0) (hy :
   change ((((x^2) + (y^4) + ((-1) * (y^2)) + ((-2) * (x^4)) + ((a^2) * (x^4)) + ((a^3) * (x^7)) + ((-1) * (x^2) * (y^4)) + ((-2) * a * (x^3)) + ((-2) * a * (x^7)) + ((-2) * (a^2) * (x^6)) + ((-2) * (x^4) * (y^2)) + (2 * (a^2) * (x^8)) + (2 * (x^2) * (y^2)) + (3 * a * (x^5)) + (a * x * (y^2)) + (a * (x^3) * (y^4)) + (a * (x^5) * (y^2)) + (b * y * (x^4)) + (b * y * (x^6)) + (b * (x^8) * (y^3)) + ((a^2) * (x^4) * (y^2)) + ((a^2) * (x^6) * (y^2)) + ((-1) * a * (x^3) * (y^2)) + (a * b * y * (x^7)) + (a * b * y * (x^9)) + (a * b * (x^3) * (y^3)) + (a * b * (x^5) * (y^3)) + (b * (a^2) * (x^6) * (y^3))) / ((x^2) * (y^4) * ((-1) + (y^2) + (2 * (x^2)) + (a * x))))) * w 42 + ((((-1) + (y^4) + (2 * (x^2)) + ((-1) * (a^2) * (x^6)) + ((-1) * (a^2) * (y^2)) + ((-2) * a * (x^3)) + (2 * a * (x^5)) + (2 * (x^2) * (y^2)) + (a * x * (y^2)) + (a * (x^3) * (y^2)) + ((-1) * a * (x^5) * (y^2)) + ((-1) * (a^2) * (x^2) * (y^2)) + ((-1) * (a^3) * (x^3) * (y^2))) / ((y^2) * ((-1) + (y^2) + (2 * (x^2)) + (a * x))))) * w 128=0 at h120
   simp only [hw42,hw128,mul_zero,zero_add,add_zero] at hs0 h50 h53 h104 h108 h114 h118 h119 h120 ⊢
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(((x^2) / (z^2)))*h50-((1 / (z^2)))*h53-(1)*h104-((x^2))*h108-(1)*h114-((((x^6) + ((-1) * (x^2)) + (a * (x^3)) + ((-1) * a * x * (y^2)) + ((-1) * b * y * (x^2))) / ((-1) + (y^2) + (2 * (x^2)) + (a * x))))*h118-((((-1) + ((-1) * (y^2)) + ((-1) * a * (x^3))) / (y^2)))*h119
-#print axioms reduced_step121
 
 end QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative
 end
@@ -5442,7 +5314,6 @@ compact_certificate theorem reduced_step130 (x y z a b : ℂ) (hx : x≠0) (hy :
   change ((((y^4) + ((-1) * (x^4)) + ((-1) * (y^6)) + (2 * (x^6)) + (a * (x^5)) + ((a^2) * (x^12)) + ((a^4) * (x^8)) + ((a^4) * (x^10)) + ((x^4) * (y^4)) + ((x^4) * (y^6)) + ((-1) * (a^2) * (x^8)) + ((-1) * (a^3) * (x^7)) + ((-1) * (x^4) * (y^2)) + ((-2) * a * (x^7)) + ((-2) * (a^2) * (x^10)) + ((-2) * (a^3) * (x^9)) + ((-2) * (x^2) * (y^4)) + (2 * (x^6) * (y^4)) + (3 * a * (x^9)) + (4 * (x^6) * (y^2)) + (b * y * (x^10)) + (b * (x^10) * (y^3)) + ((a^2) * (x^2) * (y^4)) + ((a^2) * (x^10) * (y^2)) + ((-1) * a * x * (y^4)) + ((-1) * a * (x^9) * (y^4)) + ((-1) * b * y * (x^6)) + ((-1) * b * y * (x^8)) + ((-1) * b * (x^4) * (y^3)) + ((-1) * (a^2) * (x^6) * (y^4)) + ((-1) * (a^2) * (x^12) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^4)) + ((-1) * (a^3) * (x^7) * (y^4)) + ((-1) * (a^3) * (x^9) * (y^2)) + ((-1) * (a^4) * (x^8) * (y^2)) + ((-1) * (a^4) * (x^10) * (y^2)) + ((-4) * (a^2) * (x^6) * (y^2)) + ((-2) * a * (x^3) * (y^4)) + ((-2) * a * (x^5) * (y^2)) + ((-2) * b * (x^6) * (y^3)) + ((-2) * (a^2) * (x^4) * (y^2)) + (2 * a * (x^3) * (y^2)) + (2 * a * (x^5) * (y^4)) + (2 * a * (x^7) * (y^4)) + (2 * a * (x^9) * (y^2)) + (2 * (a^2) * (x^8) * (y^2)) + (2 * (a^3) * (x^5) * (y^2)) + (a * b * y * (x^13)) + (a * b * (x^7) * (y^3)) + (b * y * (a^2) * (x^8)) + (b * y * (a^2) * (x^10)) + ((-1) * a * b * (x^3) * (y^5)) + ((-1) * a * b * (x^5) * (y^5)) + ((-1) * b * (a^2) * (x^6) * (y^3)) + ((-1) * b * (a^2) * (x^8) * (y^3)) + ((-2) * a * b * y * (x^9))) / ((x^4) * (y^2) * (1 + ((-1) * (y^4)) + ((-2) * (x^2)) + ((a^2) * (x^6)) + ((a^2) * (y^2)) + ((-2) * a * (x^5)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (a * (x^5) * (y^2)) + ((a^2) * (x^2) * (y^2)) + ((a^3) * (x^3) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^3) * (y^2)))))) * w 42=0 at h124
   simp only [hw42,hw128,mul_zero,zero_mul,zero_add,add_zero] at hs0 h89 h99 h101 h110 h118 h119 h120 h124 ⊢
   linear_combination (norm := (simp only [mul_zero,zero_mul,zero_add,add_zero,zero_sub,sub_zero]; field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-((1 / (x^2)))*h89-(1)*h99-(((-1) * (x^2)))*h101-((((-1) * a) / x))*h110-((((x^2) + (y^2) + ((-1) * a * (x^3)) + ((-1) * (a^2) * (y^2)) + ((-1) * (x^2) * (y^2))) / ((-1) + (y^2) + (2 * (x^2)) + (a * x))))*h118-((a / (x^3)))*h119
-#print axioms reduced_step130
 
 
 
@@ -5476,7 +5347,6 @@ compact_certificate theorem reduced_step131 (x y z a b : ℂ) (hx : x≠0) (hy :
   change ((((y^4) + ((-1) * (x^4)) + ((-1) * (y^6)) + (2 * (x^6)) + (a * (x^5)) + ((a^2) * (x^12)) + ((a^4) * (x^8)) + ((a^4) * (x^10)) + ((x^4) * (y^4)) + ((x^4) * (y^6)) + ((-1) * (a^2) * (x^8)) + ((-1) * (a^3) * (x^7)) + ((-1) * (x^4) * (y^2)) + ((-2) * a * (x^7)) + ((-2) * (a^2) * (x^10)) + ((-2) * (a^3) * (x^9)) + ((-2) * (x^2) * (y^4)) + (2 * (x^6) * (y^4)) + (3 * a * (x^9)) + (4 * (x^6) * (y^2)) + (b * y * (x^10)) + (b * (x^10) * (y^3)) + ((a^2) * (x^2) * (y^4)) + ((a^2) * (x^10) * (y^2)) + ((-1) * a * x * (y^4)) + ((-1) * a * (x^9) * (y^4)) + ((-1) * b * y * (x^6)) + ((-1) * b * y * (x^8)) + ((-1) * b * (x^4) * (y^3)) + ((-1) * (a^2) * (x^6) * (y^4)) + ((-1) * (a^2) * (x^12) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^4)) + ((-1) * (a^3) * (x^7) * (y^4)) + ((-1) * (a^3) * (x^9) * (y^2)) + ((-1) * (a^4) * (x^8) * (y^2)) + ((-1) * (a^4) * (x^10) * (y^2)) + ((-4) * (a^2) * (x^6) * (y^2)) + ((-2) * a * (x^3) * (y^4)) + ((-2) * a * (x^5) * (y^2)) + ((-2) * b * (x^6) * (y^3)) + ((-2) * (a^2) * (x^4) * (y^2)) + (2 * a * (x^3) * (y^2)) + (2 * a * (x^5) * (y^4)) + (2 * a * (x^7) * (y^4)) + (2 * a * (x^9) * (y^2)) + (2 * (a^2) * (x^8) * (y^2)) + (2 * (a^3) * (x^5) * (y^2)) + (a * b * y * (x^13)) + (a * b * (x^7) * (y^3)) + (b * y * (a^2) * (x^8)) + (b * y * (a^2) * (x^10)) + ((-1) * a * b * (x^3) * (y^5)) + ((-1) * a * b * (x^5) * (y^5)) + ((-1) * b * (a^2) * (x^6) * (y^3)) + ((-1) * b * (a^2) * (x^8) * (y^3)) + ((-2) * a * b * y * (x^9))) / ((x^4) * (y^2) * (1 + ((-1) * (y^4)) + ((-2) * (x^2)) + ((a^2) * (x^6)) + ((a^2) * (y^2)) + ((-2) * a * (x^5)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (a * (x^5) * (y^2)) + ((a^2) * (x^2) * (y^2)) + ((a^3) * (x^3) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^3) * (y^2)))))) * w 42=0 at h124
   simp only [hw42,hw128,mul_zero,zero_mul,zero_add,add_zero] at hs0 h103 h118 h120 h121 h123 h124 ⊢
   linear_combination (norm := (simp only [mul_zero,zero_mul,zero_add,add_zero,zero_sub,sub_zero]; field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-((((-1) * a) / x))*h103-(((((-1) * a) + (a * (y^2)) + (x * (a^2))) / (x * ((-1) + (y^2) + (2 * (x^2)) + (a * x)))))*h118-(1)*h121-(((1 + ((-1) * (a^2))) / (x^2)))*h123
-#print axioms reduced_step131
 
 
 
@@ -5514,7 +5384,6 @@ compact_certificate theorem reduced_step132 (x y z a b : ℂ) (hx : x≠0) (hy :
   change ((((y^4) + ((-1) * (x^4)) + ((-1) * (y^6)) + (2 * (x^6)) + (a * (x^5)) + ((a^2) * (x^12)) + ((a^4) * (x^8)) + ((a^4) * (x^10)) + ((x^4) * (y^4)) + ((x^4) * (y^6)) + ((-1) * (a^2) * (x^8)) + ((-1) * (a^3) * (x^7)) + ((-1) * (x^4) * (y^2)) + ((-2) * a * (x^7)) + ((-2) * (a^2) * (x^10)) + ((-2) * (a^3) * (x^9)) + ((-2) * (x^2) * (y^4)) + (2 * (x^6) * (y^4)) + (3 * a * (x^9)) + (4 * (x^6) * (y^2)) + (b * y * (x^10)) + (b * (x^10) * (y^3)) + ((a^2) * (x^2) * (y^4)) + ((a^2) * (x^10) * (y^2)) + ((-1) * a * x * (y^4)) + ((-1) * a * (x^9) * (y^4)) + ((-1) * b * y * (x^6)) + ((-1) * b * y * (x^8)) + ((-1) * b * (x^4) * (y^3)) + ((-1) * (a^2) * (x^6) * (y^4)) + ((-1) * (a^2) * (x^12) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^4)) + ((-1) * (a^3) * (x^7) * (y^4)) + ((-1) * (a^3) * (x^9) * (y^2)) + ((-1) * (a^4) * (x^8) * (y^2)) + ((-1) * (a^4) * (x^10) * (y^2)) + ((-4) * (a^2) * (x^6) * (y^2)) + ((-2) * a * (x^3) * (y^4)) + ((-2) * a * (x^5) * (y^2)) + ((-2) * b * (x^6) * (y^3)) + ((-2) * (a^2) * (x^4) * (y^2)) + (2 * a * (x^3) * (y^2)) + (2 * a * (x^5) * (y^4)) + (2 * a * (x^7) * (y^4)) + (2 * a * (x^9) * (y^2)) + (2 * (a^2) * (x^8) * (y^2)) + (2 * (a^3) * (x^5) * (y^2)) + (a * b * y * (x^13)) + (a * b * (x^7) * (y^3)) + (b * y * (a^2) * (x^8)) + (b * y * (a^2) * (x^10)) + ((-1) * a * b * (x^3) * (y^5)) + ((-1) * a * b * (x^5) * (y^5)) + ((-1) * b * (a^2) * (x^6) * (y^3)) + ((-1) * b * (a^2) * (x^8) * (y^3)) + ((-2) * a * b * y * (x^9))) / ((x^4) * (y^2) * (1 + ((-1) * (y^4)) + ((-2) * (x^2)) + ((a^2) * (x^6)) + ((a^2) * (y^2)) + ((-2) * a * (x^5)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (a * (x^5) * (y^2)) + ((a^2) * (x^2) * (y^2)) + ((a^3) * (x^3) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^3) * (y^2)))))) * w 42=0 at h124
   simp only [hw42,hw128,mul_zero,zero_mul,zero_add,add_zero] at hs0 h88 h90 h102 h104 h118 h119 h120 h124 ⊢
   linear_combination (norm := (simp only [mul_zero,zero_mul,zero_add,add_zero,zero_sub,sub_zero]; field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-((1 / (x^2)))*h88-(((-1) * (y^2)))*h90-((((-1) * (x^2)) / (y^2)))*h102-((((-1) * a) / x))*h104-(((((-1) * (x^2)) + ((-1) * (y^2)) + (a * (x^3)) + ((a^2) * (y^2)) + ((x^2) * (y^2))) / ((-1) + (y^2) + (2 * (x^2)) + (a * x))))*h118-(((-1) / (y^2)))*h119
-#print axioms reduced_step132
 
 
 
@@ -5544,7 +5413,6 @@ compact_certificate theorem reduced_step133 (x y z a b : ℂ) (hx : x≠0) (hy :
   change (1) * w 29=0 at h129
   change (1) * w 119=0 at h132
   linear_combination (norm := (field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-((1 / (z^2)))*h50-((1 / ((x^2) * (z^2))))*h53-(1)*h126-(1)*h129-(1)*h132
-#print axioms reduced_step133
 
 
 
@@ -5584,7 +5452,6 @@ compact_certificate theorem reduced_step134 (x y z a b : ℂ) (hx : x≠0) (hy :
   change ((((y^4) + ((-1) * (x^4)) + ((-1) * (y^6)) + (2 * (x^6)) + (a * (x^5)) + ((a^2) * (x^12)) + ((a^4) * (x^8)) + ((a^4) * (x^10)) + ((x^4) * (y^4)) + ((x^4) * (y^6)) + ((-1) * (a^2) * (x^8)) + ((-1) * (a^3) * (x^7)) + ((-1) * (x^4) * (y^2)) + ((-2) * a * (x^7)) + ((-2) * (a^2) * (x^10)) + ((-2) * (a^3) * (x^9)) + ((-2) * (x^2) * (y^4)) + (2 * (x^6) * (y^4)) + (3 * a * (x^9)) + (4 * (x^6) * (y^2)) + (b * y * (x^10)) + (b * (x^10) * (y^3)) + ((a^2) * (x^2) * (y^4)) + ((a^2) * (x^10) * (y^2)) + ((-1) * a * x * (y^4)) + ((-1) * a * (x^9) * (y^4)) + ((-1) * b * y * (x^6)) + ((-1) * b * y * (x^8)) + ((-1) * b * (x^4) * (y^3)) + ((-1) * (a^2) * (x^6) * (y^4)) + ((-1) * (a^2) * (x^12) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^4)) + ((-1) * (a^3) * (x^7) * (y^4)) + ((-1) * (a^3) * (x^9) * (y^2)) + ((-1) * (a^4) * (x^8) * (y^2)) + ((-1) * (a^4) * (x^10) * (y^2)) + ((-4) * (a^2) * (x^6) * (y^2)) + ((-2) * a * (x^3) * (y^4)) + ((-2) * a * (x^5) * (y^2)) + ((-2) * b * (x^6) * (y^3)) + ((-2) * (a^2) * (x^4) * (y^2)) + (2 * a * (x^3) * (y^2)) + (2 * a * (x^5) * (y^4)) + (2 * a * (x^7) * (y^4)) + (2 * a * (x^9) * (y^2)) + (2 * (a^2) * (x^8) * (y^2)) + (2 * (a^3) * (x^5) * (y^2)) + (a * b * y * (x^13)) + (a * b * (x^7) * (y^3)) + (b * y * (a^2) * (x^8)) + (b * y * (a^2) * (x^10)) + ((-1) * a * b * (x^3) * (y^5)) + ((-1) * a * b * (x^5) * (y^5)) + ((-1) * b * (a^2) * (x^6) * (y^3)) + ((-1) * b * (a^2) * (x^8) * (y^3)) + ((-2) * a * b * y * (x^9))) / ((x^4) * (y^2) * (1 + ((-1) * (y^4)) + ((-2) * (x^2)) + ((a^2) * (x^6)) + ((a^2) * (y^2)) + ((-2) * a * (x^5)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (a * (x^5) * (y^2)) + ((a^2) * (x^2) * (y^2)) + ((a^3) * (x^3) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^3) * (y^2)))))) * w 42=0 at h124
   simp only [hw42,hw128,mul_zero,zero_mul,zero_add,add_zero] at hs0 h80 h82 h85 h86 h114 h118 h119 h120 h124 ⊢
   linear_combination (norm := (simp only [mul_zero,zero_mul,zero_add,add_zero,zero_sub,sub_zero]; field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(1)*h80-((((-1) * a) / x))*h82-((a / x))*h85-((-1))*h86-((1 / (x^2)))*h114-((((-1) + ((-1) * b * y) + (a * x * (y^2))) / ((-1) + (y^2) + (2 * (x^2)) + (a * x))))*h118-(((-1) / (x^2)))*h119
-#print axioms reduced_step134
 
 
 
@@ -5620,7 +5487,6 @@ compact_certificate theorem reduced_step135 (x y z a b : ℂ) (hx : x≠0) (hy :
   change ((((y^4) + ((-1) * (x^4)) + ((-1) * (y^6)) + (2 * (x^6)) + (a * (x^5)) + ((a^2) * (x^12)) + ((a^4) * (x^8)) + ((a^4) * (x^10)) + ((x^4) * (y^4)) + ((x^4) * (y^6)) + ((-1) * (a^2) * (x^8)) + ((-1) * (a^3) * (x^7)) + ((-1) * (x^4) * (y^2)) + ((-2) * a * (x^7)) + ((-2) * (a^2) * (x^10)) + ((-2) * (a^3) * (x^9)) + ((-2) * (x^2) * (y^4)) + (2 * (x^6) * (y^4)) + (3 * a * (x^9)) + (4 * (x^6) * (y^2)) + (b * y * (x^10)) + (b * (x^10) * (y^3)) + ((a^2) * (x^2) * (y^4)) + ((a^2) * (x^10) * (y^2)) + ((-1) * a * x * (y^4)) + ((-1) * a * (x^9) * (y^4)) + ((-1) * b * y * (x^6)) + ((-1) * b * y * (x^8)) + ((-1) * b * (x^4) * (y^3)) + ((-1) * (a^2) * (x^6) * (y^4)) + ((-1) * (a^2) * (x^12) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^4)) + ((-1) * (a^3) * (x^7) * (y^4)) + ((-1) * (a^3) * (x^9) * (y^2)) + ((-1) * (a^4) * (x^8) * (y^2)) + ((-1) * (a^4) * (x^10) * (y^2)) + ((-4) * (a^2) * (x^6) * (y^2)) + ((-2) * a * (x^3) * (y^4)) + ((-2) * a * (x^5) * (y^2)) + ((-2) * b * (x^6) * (y^3)) + ((-2) * (a^2) * (x^4) * (y^2)) + (2 * a * (x^3) * (y^2)) + (2 * a * (x^5) * (y^4)) + (2 * a * (x^7) * (y^4)) + (2 * a * (x^9) * (y^2)) + (2 * (a^2) * (x^8) * (y^2)) + (2 * (a^3) * (x^5) * (y^2)) + (a * b * y * (x^13)) + (a * b * (x^7) * (y^3)) + (b * y * (a^2) * (x^8)) + (b * y * (a^2) * (x^10)) + ((-1) * a * b * (x^3) * (y^5)) + ((-1) * a * b * (x^5) * (y^5)) + ((-1) * b * (a^2) * (x^6) * (y^3)) + ((-1) * b * (a^2) * (x^8) * (y^3)) + ((-2) * a * b * y * (x^9))) / ((x^4) * (y^2) * (1 + ((-1) * (y^4)) + ((-2) * (x^2)) + ((a^2) * (x^6)) + ((a^2) * (y^2)) + ((-2) * a * (x^5)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (a * (x^5) * (y^2)) + ((a^2) * (x^2) * (y^2)) + ((a^3) * (x^3) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^3) * (y^2)))))) * w 42=0 at h124
   simp only [hw42,hw128,mul_zero,zero_mul,zero_add,add_zero] at hs0 h99 h101 h110 h118 h119 h120 h124 ⊢
   linear_combination (norm := (simp only [mul_zero,zero_mul,zero_add,add_zero,zero_sub,sub_zero]; field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-((((-1) * a) / x))*h99-((a * x))*h101-((1 / (x^2)))*h110-((((a * (y^2)) + ((a^2) * (x^3)) + ((-1) * a * (x^2)) + (a * (x^2) * (y^2))) / (x * ((-1) + (y^2) + (2 * (x^2)) + (a * x)))))*h118-(((-1) / (x^4)))*h119
-#print axioms reduced_step135
 
 
 
@@ -5656,7 +5522,6 @@ compact_certificate theorem reduced_step136 (x y z a b : ℂ) (hx : x≠0) (hy :
   change (1) * w 116=0 at h125
   simp only [hw42,hw128,mul_zero,zero_mul,zero_add,add_zero] at hs0 h107 h114 h118 h119 h120 h124 h125 ⊢
   linear_combination (norm := (simp only [mul_zero,zero_mul,zero_add,add_zero,zero_sub,sub_zero]; field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(((-1) / (y^2)))*h107-(1)*h114-(((((-2) * (x^2)) + ((-1) * b * y * (x^2))) / ((-1) + (y^2) + (2 * (x^2)) + (a * x))))*h118-(((a + ((-1) * x * (y^2))) / (x * (y^2))))*h119-((((-1) * a) / x))*h125
-#print axioms reduced_step136
 
 
 
@@ -5696,7 +5561,6 @@ compact_certificate theorem reduced_step137 (x y z a b : ℂ) (hx : x≠0) (hy :
   change ((((y^4) + ((-1) * (x^4)) + ((-1) * (y^6)) + (2 * (x^6)) + (a * (x^5)) + ((a^2) * (x^12)) + ((a^4) * (x^8)) + ((a^4) * (x^10)) + ((x^4) * (y^4)) + ((x^4) * (y^6)) + ((-1) * (a^2) * (x^8)) + ((-1) * (a^3) * (x^7)) + ((-1) * (x^4) * (y^2)) + ((-2) * a * (x^7)) + ((-2) * (a^2) * (x^10)) + ((-2) * (a^3) * (x^9)) + ((-2) * (x^2) * (y^4)) + (2 * (x^6) * (y^4)) + (3 * a * (x^9)) + (4 * (x^6) * (y^2)) + (b * y * (x^10)) + (b * (x^10) * (y^3)) + ((a^2) * (x^2) * (y^4)) + ((a^2) * (x^10) * (y^2)) + ((-1) * a * x * (y^4)) + ((-1) * a * (x^9) * (y^4)) + ((-1) * b * y * (x^6)) + ((-1) * b * y * (x^8)) + ((-1) * b * (x^4) * (y^3)) + ((-1) * (a^2) * (x^6) * (y^4)) + ((-1) * (a^2) * (x^12) * (y^2)) + ((-1) * (a^3) * (x^5) * (y^4)) + ((-1) * (a^3) * (x^7) * (y^4)) + ((-1) * (a^3) * (x^9) * (y^2)) + ((-1) * (a^4) * (x^8) * (y^2)) + ((-1) * (a^4) * (x^10) * (y^2)) + ((-4) * (a^2) * (x^6) * (y^2)) + ((-2) * a * (x^3) * (y^4)) + ((-2) * a * (x^5) * (y^2)) + ((-2) * b * (x^6) * (y^3)) + ((-2) * (a^2) * (x^4) * (y^2)) + (2 * a * (x^3) * (y^2)) + (2 * a * (x^5) * (y^4)) + (2 * a * (x^7) * (y^4)) + (2 * a * (x^9) * (y^2)) + (2 * (a^2) * (x^8) * (y^2)) + (2 * (a^3) * (x^5) * (y^2)) + (a * b * y * (x^13)) + (a * b * (x^7) * (y^3)) + (b * y * (a^2) * (x^8)) + (b * y * (a^2) * (x^10)) + ((-1) * a * b * (x^3) * (y^5)) + ((-1) * a * b * (x^5) * (y^5)) + ((-1) * b * (a^2) * (x^6) * (y^3)) + ((-1) * b * (a^2) * (x^8) * (y^3)) + ((-2) * a * b * y * (x^9))) / ((x^4) * (y^2) * (1 + ((-1) * (y^4)) + ((-2) * (x^2)) + ((a^2) * (x^6)) + ((a^2) * (y^2)) + ((-2) * a * (x^5)) + ((-2) * (x^2) * (y^2)) + (2 * a * (x^3)) + (a * (x^5) * (y^2)) + ((a^2) * (x^2) * (y^2)) + ((a^3) * (x^3) * (y^2)) + ((-1) * a * x * (y^2)) + ((-1) * a * (x^3) * (y^2)))))) * w 42=0 at h124
   simp only [hw42,hw128,mul_zero,zero_mul,zero_add,add_zero] at hs0 h40 h84 h90 h112 h115 h118 h119 h120 h124 ⊢
   linear_combination (norm := (simp only [mul_zero,zero_mul,zero_add,add_zero,zero_sub,sub_zero]; field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(((-1) / (y^2)))*h40-((1 / (y^2)))*h84-(((-1) * (x^2)))*h90-(((-1) * a * x))*h112-(1)*h115-((((-1) + ((-2) * (x^2)) + (a * (x^5)) + ((a^2) * (x^2))) / ((-1) + (y^2) + (2 * (x^2)) + (a * x))))*h118-((((-1) + (a * x) + ((-1) * b * y * (x^2))) / ((x^2) * (y^2))))*h119
-#print axioms reduced_step137
 
 
 
@@ -5746,7 +5610,6 @@ compact_certificate theorem reduced_step138 (x y z a b : ℂ) (hx : x≠0) (hy :
   change ((1 / (x^2))) * w 94=0 at h137
   simp only [hw42,hw128,mul_zero,zero_mul,zero_add,add_zero] at hs0 h22 h31 h39 h53 h54 h68 h71 h72 h89 h111 h118 h120 h124 h137 ⊢
   linear_combination (norm := (simp only [mul_zero,zero_mul,zero_add,add_zero,zero_sub,sub_zero]; field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(((x^2) / ((y^2) * (z^2))))*h22-(((-1) / ((y^2) * (z^2))))*h31-(((-1) / ((y^2) * (z^2))))*h39-((1 / (z^2)))*h53-((1 / (z^2)))*h54-((((-1) * (x^2)) / (z^2)))*h68-((((-2) + ((-1) * (x^4)) + (3 * (x^2)) + ((-1) * (a^2) * (x^2))) / ((z^2) * (4 + (x^4) + ((-4) * (x^2)) + ((a^2) * (x^2)) + ((-3) * a * x) + ((-2) * b * y) + (a * x * (y^2)) + (b * y * (x^2))))))*h71-(((-1) / (z^2)))*h72-(1)*h89-(1)*h111-((((-1) + (y^2) + (a * x) + ((x^2) * (y^2))) / ((-1) + (y^2) + (2 * (x^2)) + (a * x))))*h118-((x^2))*h137
-#print axioms reduced_step138
 
 
 
@@ -5822,7 +5685,6 @@ compact_certificate theorem reduced_step139 (x y z a b : ℂ) (hx : x≠0) (hy :
   simp only [hw42,hw128,mul_zero,zero_mul,zero_add,add_zero] at hs0 h21 h23 h29 h30 h31 h33 h34 h36 h50 h53 h58 h64 h66 h67 h68 h71 h73 h86 h105 h107 h117 h118 h119 h120 h124 h137 ⊢
   simp only [hw18,mul_zero,zero_add,add_zero] at hs0 h21 h23 h29 h30 h31 h33 h34 h36 h50 h53 h58 h64 h66 h67 h68 h71 h73 h86 h105 h107 h117 h118 h119 h120 h124 h137 ⊢
   linear_combination (norm := (simp only [mul_zero,zero_mul,zero_add,add_zero,zero_sub,sub_zero]; field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(((-1) / (x^2)))*h21-((1 / ((x^2) * (z^2))))*h23-((1 / ((x^2) * (z^2))))*h29-(((-1) / ((x^2) * (y^2))))*h30-(((-1) / ((x^2) * (y^2) * (z^2))))*h31-(1)*h33-(1)*h34-((((-1) * (y^2)) / (x^2)))*h36-(((1 + (y^2)) / (z^2)))*h50-(((1 + (y^2)) / ((x^2) * (z^2))))*h53-((((-1) * (y^2)) / ((x^2) * (z^2))))*h58-(1)*h64-(((-1) / ((y^2) * (z^2) * ((-2) + (x^2)))))*h66-((1 / ((x^2) * (z^2))))*h67-((1 / (z^2)))*h68-((1 / ((x^2) * (z^2))))*h71-((1 / ((x^2) * (y^2))))*h86-(1)*h105-((-1))*h107-((((-1) * a) / x))*h117-(((((-1) * (y^2)) + ((a^2) * (y^2)) + ((-1) * (x^2) * (y^2))) / ((-1) + (y^2) + (2 * (x^2)) + (a * x))))*h118-((a / x))*h119-(((-1) * (x^2)))*h137
-#print axioms reduced_step139
 
 
 
@@ -5937,7 +5799,6 @@ compact_certificate theorem reduced_step140 (x y z a b : ℂ) (hx : x≠0) (hy :
   simp only [hw42,hw128,mul_zero,zero_mul,zero_add,add_zero] at hs0 h3 h7 h9 h11 h13 h15 h18 h19 h30 h32 h34 h42 h48 h50 h53 h56 h58 h60 h61 h70 h71 h73 h74 h75 h79 h84 h86 h87 h90 h92 h97 h105 h107 h116 h117 h118 h119 h120 h124 h127 h128 h131 h134 h136 h137 h139 ⊢
   simp only [hw18,mul_zero,zero_add,add_zero] at hs0 h3 h7 h9 h11 h13 h15 h18 h19 h30 h32 h34 h42 h48 h50 h53 h56 h58 h60 h61 h70 h71 h73 h74 h75 h79 h84 h86 h87 h90 h92 h97 h105 h107 h116 h117 h118 h119 h120 h124 h127 h128 h131 h134 h136 h137 h139 ⊢
   linear_combination (norm := (simp only [mul_zero,zero_mul,zero_add,add_zero,zero_sub,sub_zero]; field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(((-1) / ((x^2) * (y^2))))*h3-((1 / ((x^2) * (y^2))))*h7-((1 / ((x^2) * (y^2))))*h9-((1 / ((x^2) * (y^2))))*h11-(((-1) / ((x^2) * (y^2))))*h13-((1 / ((x^2) * (y^2))))*h15-(((-1) / ((x^2) * (y^2))))*h18-(((-1) / ((x^2) * (y^2))))*h19-(((-1) / ((x^2) * (y^2))))*h30-((1 / ((x^2) * (y^2))))*h32-(1)*h34-(((-1) / ((x^2) * (y^2))))*h42-(1)*h48-(2)*h50-((1 / (x^2)))*h53-(1)*h56-(((-1) / ((x^2) * (z^2))))*h58-((2 / (y^2)))*h60-(1)*h61-(1)*h70-((((4 * (y^2)) + ((x^4) * (y^2)) + ((-4) * (x^2) * (y^2)) + ((a^2) * (x^2) * (y^2))) / ((x^2) * (4 + (x^4) + ((-4) * (x^2)) + ((a^2) * (x^2)) + ((-3) * a * x) + ((-2) * b * y) + (a * x * (y^2)) + (b * y * (x^2))))))*h71-(1)*h74-(1)*h75-(1)*h79-((1 / ((x^2) * (y^2))))*h84-((2 / ((x^2) * (y^2))))*h86-((1 / ((x^2) * (y^2))))*h87-(1)*h90-(1)*h92-((-1))*h97-(1)*h105-((-1))*h107-((-1))*h116-((((-1) * a) / x))*h117-(((1 + ((-1) * (y^2)) + ((a^2) * (y^2)) + ((-1) * (x^2) * (y^2)) + (a * x * (y^2))) / ((-1) + (y^2) + (2 * (x^2)) + (a * x))))*h118-(((1 + (x^2) + ((-1) * (y^2)) + (a * x * (y^2))) / ((x^2) * (y^2))))*h119-(1)*h127-(1)*h128-(1)*h131-(1)*h134-(1)*h136-(((-1) * (x^2)))*h137-(1)*h139
-#print axioms reduced_step140
 
 
 
@@ -5971,7 +5832,6 @@ compact_certificate theorem reduced_step141 (x y z a b : ℂ) (hx : x≠0) (hy :
   change ((1 / (x^2))) * w 94=0 at h137
   simp only [hw42,hw128,mul_zero,zero_mul,zero_add,add_zero] at hs0 h112 h117 h118 h120 h124 h137 ⊢
   linear_combination (norm := (simp only [mul_zero,zero_mul,zero_add,add_zero,zero_sub,sub_zero]; field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-((x^2))*h112-(((-1) / (x^2)))*h117-(((((-1) * (x^7)) + (a * (y^2)) + ((-1) * a * (x^4))) / (x * ((-1) + (y^2) + (2 * (x^2)) + (a * x)))))*h118-(((-1) * a * x))*h137
-#print axioms reduced_step141
 
 
 
@@ -6015,7 +5875,6 @@ compact_certificate theorem reduced_step142 (x y z a b : ℂ) (hx : x≠0) (hy :
   simp only [hw42,hw128,mul_zero,zero_mul,zero_add,add_zero] at hs0 h19 h44 h65 h73 h101 h106 h118 h119 h120 h124 ⊢
   simp only [hw18,mul_zero,zero_add,add_zero] at hs0 h19 h44 h65 h73 h101 h106 h118 h119 h120 h124 ⊢
   linear_combination (norm := (simp only [mul_zero,zero_mul,zero_add,add_zero,zero_sub,sub_zero]; field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(((-1) / ((x^2) * (y^2))))*h19-((1 / (y^2)))*h44-(1)*h65-(1)*h101-((((-1) * b) / y))*h106-((((a * x) + ((-1) * b * y * (x^2))) / ((-1) + (y^2) + (2 * (x^2)) + (a * x))))*h118-((1 / ((x^2) * (y^2))))*h119
-#print axioms reduced_step142
 
 
 
@@ -6047,7 +5906,6 @@ compact_certificate theorem reduced_step143 (x y z a b : ℂ) (hx : x≠0) (hy :
   change (1) * w 107=0 at h142
   simp only [hw42,hw128,mul_zero,zero_mul,zero_add,add_zero] at hs0 h111 h118 h120 h124 h142 ⊢
   linear_combination (norm := (simp only [mul_zero,zero_mul,zero_add,add_zero,zero_sub,sub_zero]; field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-((((-1) * a) / x))*h111-(((a + ((-1) * a * (y^2)) + ((-1) * x * (a^2))) / (x * ((-1) + (y^2) + (2 * (x^2)) + (a * x)))))*h118-(1)*h142
-#print axioms reduced_step143
 
 
 
@@ -6087,7 +5945,6 @@ compact_certificate theorem reduced_step144 (x y z a b : ℂ) (hx : x≠0) (hy :
   change (1) * w 32=0 at h143
   simp only [hw42,hw128,mul_zero,zero_mul,zero_add,add_zero] at hs0 h50 h53 h110 h112 h118 h119 h120 h124 h143 ⊢
   linear_combination (norm := (simp only [mul_zero,zero_mul,zero_add,add_zero,zero_sub,sub_zero]; field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(((x^2) / (z^2)))*h50-((1 / (z^2)))*h53-(1)*h110-((x^2))*h112-(((((-1) * (x^6)) + ((-1) * a * (x^3)) + (a * x * (y^2))) / ((-1) + (y^2) + (2 * (x^2)) + (a * x))))*h118-(((-1) / (x^2)))*h119-(1)*h143
-#print axioms reduced_step144
 
 
 
@@ -6123,7 +5980,6 @@ compact_certificate theorem reduced_step145 (x y z a b : ℂ) (hx : x≠0) (hy :
   change (1) * w 32=0 at h143
   simp only [hw42,hw128,mul_zero,zero_mul,zero_add,add_zero] at hs0 h20 h90 h101 h118 h120 h124 h143 ⊢
   linear_combination (norm := (simp only [mul_zero,zero_mul,zero_add,add_zero,zero_sub,sub_zero]; field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-(((-1) / (y^2)))*h20-((x^2))*h90-(((-1) * a * x))*h101-((((x^2) + ((-1) * (a^2) * (x^2))) / ((-1) + (y^2) + (2 * (x^2)) + (a * x))))*h118-((1 / (x^2)))*h143
-#print axioms reduced_step145
 
 
 
@@ -6157,7 +6013,6 @@ compact_certificate theorem reduced_step146 (x y z a b : ℂ) (hx : x≠0) (hy :
   change (1) * w 32=0 at h143
   simp only [hw42,hw128,mul_zero,zero_mul,zero_add,add_zero] at hs0 h101 h111 h118 h120 h124 h143 ⊢
   linear_combination (norm := (simp only [mul_zero,zero_mul,zero_add,add_zero,zero_sub,sub_zero]; field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-((x^2))*h101-((1 / (x^2)))*h111-((((-1) + (y^2) + (a * x) + (a * (x^5))) / ((x^2) * ((-1) + (y^2) + (2 * (x^2)) + (a * x)))))*h118-((((-1) * a) / x))*h143
-#print axioms reduced_step146
 
 
 
@@ -6197,7 +6052,6 @@ compact_certificate theorem reduced_step147 (x y z a b : ℂ) (hx : x≠0) (hy :
   change (1) * w 91=0 at h146
   simp only [hw42,hw128,mul_zero,zero_mul,zero_add,add_zero] at hs0 h50 h53 h115 h118 h119 h120 h124 h130 h146 ⊢
   linear_combination (norm := (simp only [mul_zero,zero_mul,zero_add,add_zero,zero_sub,sub_zero]; field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-((1 / (z^2)))*h50-((1 / ((x^2) * (z^2))))*h53-(1)*h115-((((-1) + ((-1) * (x^2))) / ((-1) + (y^2) + (2 * (x^2)) + (a * x))))*h118-((((-1) + (a * x) + ((-1) * b * y * (x^2))) / ((x^2) * (y^2))))*h119-(1)*h130-(1)*h146
-#print axioms reduced_step147
 
 
 
@@ -6233,7 +6087,6 @@ compact_certificate theorem reduced_step148 (x y z a b : ℂ) (hx : x≠0) (hy :
   change (1) * w 92=0 at h144
   simp only [hw42,hw128,mul_zero,zero_mul,zero_add,add_zero] at hs0 h45 h106 h118 h120 h124 h138 h144 ⊢
   linear_combination (norm := (simp only [mul_zero,zero_mul,zero_add,add_zero,zero_sub,sub_zero]; field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-((1 / (x^2)))*h45-((1 / (y^2)))*h106-(((x^2) / ((-1) + (y^2) + (2 * (x^2)) + (a * x))))*h118-((((-1) * a) / x))*h138-(1)*h144
-#print axioms reduced_step148
 
 
 
@@ -6347,9 +6200,164 @@ compact_certificate theorem reduced_step149 (x y z a b : ℂ) (hx : x≠0) (hy :
   simp only [hw42,hw128,mul_zero,zero_mul,zero_add,add_zero] at hs0 h0 h7 h9 h11 h13 h15 h26 h27 h28 h37 h41 h43 h47 h49 h50 h53 h57 h58 h60 h61 h69 h71 h73 h76 h77 h85 h86 h87 h93 h98 h106 h109 h113 h116 h117 h118 h119 h120 h122 h124 h135 h141 h142 h145 h148 ⊢
   simp only [hw18,mul_zero,zero_add,add_zero] at hs0 h0 h7 h9 h11 h13 h15 h26 h27 h28 h37 h41 h43 h47 h49 h50 h53 h57 h58 h60 h61 h69 h71 h73 h76 h77 h85 h86 h87 h93 h98 h106 h109 h113 h116 h117 h118 h119 h120 h122 h124 h135 h141 h142 h145 h148 ⊢
   linear_combination (norm := (simp only [mul_zero,zero_mul,zero_add,add_zero,zero_sub,sub_zero]; field_simp (disch := first | field_simp_discharge | assumption | (solve | norm_num [hx,hy,hz]) | (solve | convert hP0 using 1 <;> ring) | (solve | convert hP1 using 1 <;> ring) | (solve | convert hP2 using 1 <;> ring) | (solve | convert hP3 using 1 <;> ring) | (solve | convert hP4 using 1 <;> ring) | (solve | convert hP5 using 1 <;> ring) | (solve | convert hP6 using 1 <;> ring)); all_goals ring)) hs0-((1 / ((x^2) * (y^2))))*h0-((1 / ((x^2) * (y^2))))*h7-((1 / ((x^2) * (y^2))))*h9-((1 / ((x^2) * (y^2))))*h11-(((-1) / ((x^2) * (y^2))))*h13-((1 / ((x^2) * (y^2))))*h15-(1)*h26-(1)*h27-(1)*h28-((1 / ((x^2) * (y^2))))*h37-(((-1) / ((x^2) * (y^2))))*h41-((1 / ((x^2) * (y^2))))*h43-(1)*h47-(((-1) / ((x^2) * (y^2))))*h49-(1)*h50-((1 / (x^2)))*h53-(1)*h57-(((-2) / ((x^2) * (z^2))))*h58-((((-1) * (z^2)) / (y^2)))*h60-(((-2) / (z^2)))*h61-(1)*h69-((((-4) + ((-1) * (x^6)) + (3 * (x^4)) + ((-1) * (a^2) * (x^4)) + (2 * (a^2) * (x^2)) + ((-1) * (a^2) * (x^2) * (y^2)) + ((-1) * a * b * y * (x^3)) + (2 * a * b * x * y)) / ((x^2) * (4 + (x^4) + ((-4) * (x^2)) + ((a^2) * (x^2)) + ((-3) * a * x) + ((-2) * b * y) + (a * x * (y^2)) + (b * y * (x^2))))))*h71-(1)*h76-(1)*h77-((1 / ((x^2) * (y^2))))*h85-((1 / ((x^2) * (y^2))))*h86-((2 / ((x^2) * (y^2))))*h87-(1)*h93-((-1))*h98-(1)*h106-(1)*h109-((-1))*h113-((a / x))*h116-(1)*h117-((((-1) + (y^2) + (2 * (x^2)) + ((-1) * a * (x^3)) + ((-1) * (a^2) * (y^2)) + ((-1) * a * x * (y^2))) / ((-1) + (y^2) + (2 * (x^2)) + (a * x))))*h118-((((a * (y^2)) + ((-1) * a * (x^2))) / ((x^3) * (y^2))))*h119-(1)*h122-(1)*h135-(1)*h141-(1)*h142-(1)*h145-(1)*h148
-#print axioms reduced_step149
 
 end QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative
 end
 end
 end
+
+}
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_rows_kernel
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.last_pivots_zero
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.pivot71_zero
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.pivot73_zero
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step0
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step1
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step2
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step3
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step4
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step5
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step6
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step7
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step8
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step9
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step10
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step11
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step12
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step13
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step14
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step15
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step16
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step17
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step18
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step19
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step20
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step21
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step22
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step23
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step24
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step25
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step26
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step27
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step28
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step29
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step30
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step31
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step32
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step33
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step34
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step35
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step36
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step37
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step38
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step39
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step40
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step41
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step42
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step43
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step44
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step45
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step46
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step47
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step48
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step49
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step50
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step51
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step52
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step53
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step54
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step55
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step56
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step57
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step58
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step59
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step60
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step61
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step62
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step63
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step64
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step65
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step66
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step67
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step68
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step69
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step70
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step71
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step72
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step73
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step74
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step75
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step76
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step77
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step78
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step79
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step80
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step81
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step82
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step83
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step84
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step85
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step86
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step87
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step88
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step89
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step90
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step91
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step92
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step93
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step94
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step95
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step96
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step97
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step98
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step99
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step100
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step101
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step102
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step103
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step104
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step105
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step106
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step107
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step108
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step109
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step110
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step111
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step112
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step113
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step114
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step115
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step116
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step117
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step118
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step119
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step122
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step123
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step124
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step125
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step126
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step127
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step128
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step129
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step120
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step121
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step130
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step131
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step132
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step133
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step134
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step135
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step136
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step137
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step138
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step139
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step140
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step141
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step142
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step143
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step144
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step145
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step146
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step147
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step148
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.ContinuationNegative.reduced_step149

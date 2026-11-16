@@ -1,2 +1,0 @@
-'SmallLevelRamanujanReflectionOrder.original_ramanujan_laws' depends on axioms: [propext, Classical.choice, Quot.sound]
-

@@ -1,3 +1,0 @@
-'QuantitativeSpectralPacketAssembly.removed_orthogonal' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeSpectralPacketAssembly.assembled_gram_le' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeSpectralPacketAssembly.sum_blocks' depends on axioms: [propext, Classical.choice, Quot.sound]

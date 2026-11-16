@@ -1,4 +1,0 @@
-'QuantitativeEulerEndpointPrepared.sectorSignRingRow_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeEulerEndpointPrepared.sectorSignRingRow_original_control' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

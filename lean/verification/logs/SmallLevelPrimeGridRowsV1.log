@@ -1,3 +1,0 @@
-'SmallLevelPrimeGrid.original_good_rows' depends on axioms: [propext, Classical.choice, Quot.sound]
-'SmallLevelPrimeGrid.original_ramified_rows' depends on axioms: [propext, Classical.choice, Quot.sound]
-

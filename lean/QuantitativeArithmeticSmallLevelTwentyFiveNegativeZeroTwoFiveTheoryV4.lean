@@ -3,6 +3,12 @@ module
 public import QuantitativeArithmeticSevenLaurentRowsTheoryV4
 public import QuantitativeArithmeticSmallLevelTwentyFiveFullMinusLeadingTheoryV4
 public import QuantitativeArithmeticSmallLevelTwentyFiveMinusOriginalCertificatesTheoryV4
+public meta import SmallLevelCertificateBatchCommandV1
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
+set_option linter.unusedSimpArgs false
+set_option linter.unnecessarySimpa false
+certificate_batch {
 
 /-! Consolidated chapter: QuantitativeArithmeticSmallLevelTwentyFive.NegativeZeroTwoFive. Original declarations and local scopes are retained. -/
 
@@ -3276,3 +3282,5 @@ theorem mixed3454node16_eval (x y z w a b c : ℂ) (v : ℕ → ℂ) (hx : x≠0
 end QuantitativeArithmeticSmallLevelTwentyFive.NegativeZeroTwoFive
 end
 end
+
+}

@@ -1,4 +1,5 @@
 module
+public import SmallLevelTwentySixInnerTraceTwentyFourV1
 public import SmallLevelTwentySixMMPPariTraceFourteenV4
 public import SmallLevelTwentySixMMPPariTraceIndexFamilyDataV4
 public meta import SmallLevelPolynomialCertificateCommandsV4
@@ -21,7 +22,8 @@ set_option linter.unnecessarySeqFocus false
 namespace SmallLevelTwentySixMMPPariTrace024
 open SmallLevelPolynomialCoefficientCertificate
 compact_certificate_declaration theorem certificate_length (y z w a b u : ℂ) : (certificate y z w a b u).length=22 := by
-  norm_num [certificate,add,multiply,scale,coefficients0,coefficients1,coefficients2,coefficients3,coefficients4,coefficients5,coefficients6]
+  simp only [certificate, length_add, length_multiply, length_scale]
+  norm_num [coefficients0,coefficients1,coefficients2,coefficients3,coefficients4,coefficients5,coefficients6, List.length_cons, List.length_nil]
 
 end SmallLevelTwentySixMMPPariTrace024
 end
@@ -37,7 +39,8 @@ set_option linter.unnecessarySeqFocus false
 namespace SmallLevelTwentySixMMPPariTrace024
 open SmallLevelPolynomialCoefficientCertificate
 compact_certificate_declaration theorem inner_length_0 (y z w b u : ℂ) : (innerCertificate0 y z w b u).length=1 := by
-  norm_num [innerCertificate0,add,multiply,scale,inner0_0,inner1_0,inner2_0,inner3_0,inner4_0]
+  simp only [innerCertificate0, length_add, length_multiply, length_scale]
+  norm_num [inner0_0,inner1_0,inner2_0,inner3_0,inner4_0, List.length_cons, List.length_nil]
 compact_certificate_declaration theorem inner_eval_0 (y z w a b u : ℂ) :
     evaluate a (innerCertificate0 y z w b u)=(((((c0_0 y z w a b u)*(c1_0 y z w a b u))+0)+(((c2_0 y z w a b u)*(c3_0 y z w a b u))+0))+((-1)*(c4_0 y z w a b u))) := by
   simp only [innerCertificate0,evaluate_add,evaluate_multiply,evaluate,
@@ -57,13 +60,6 @@ set_option linter.unnecessarySeqFocus false
 
 namespace SmallLevelTwentySixMMPPariTrace024
 open SmallLevelPolynomialCoefficientCertificate
-compact_certificate_declaration theorem coefficient_0_0 (y z w b u : ℂ) :
-    (innerCertificate0 y z w b u)[0]?=some 0 := by
-  change some (0)=some (0:ℂ)
-  apply congrArg some
-  ring
-#print axioms coefficient_0_0
-
 end SmallLevelTwentySixMMPPariTrace024
 end
 
@@ -78,7 +74,8 @@ set_option linter.unnecessarySeqFocus false
 namespace SmallLevelTwentySixMMPPariTrace024
 open SmallLevelPolynomialCoefficientCertificate
 compact_certificate_declaration theorem inner_length_1 (y z w b u : ℂ) : (innerCertificate1 y z w b u).length=1 := by
-  norm_num [innerCertificate1,add,multiply,scale,inner0_0,inner0_1,inner1_0,inner1_1,inner2_0,inner2_1,inner3_0,inner3_1,inner4_1]
+  simp only [innerCertificate1, length_add, length_multiply, length_scale]
+  norm_num [inner0_0,inner0_1,inner1_0,inner1_1,inner2_0,inner2_1,inner3_0,inner3_1,inner4_1, List.length_cons, List.length_nil]
 compact_certificate_declaration theorem inner_eval_1 (y z w a b u : ℂ) :
     evaluate a (innerCertificate1 y z w b u)=(((((c0_0 y z w a b u)*(c1_1 y z w a b u))+(((c0_1 y z w a b u)*(c1_0 y z w a b u))+0))+(((c2_0 y z w a b u)*(c3_1 y z w a b u))+(((c2_1 y z w a b u)*(c3_0 y z w a b u))+0)))+((-1)*(c4_1 y z w a b u))) := by
   simp only [innerCertificate1,evaluate_add,evaluate_multiply,evaluate,
@@ -98,13 +95,6 @@ set_option linter.unnecessarySeqFocus false
 
 namespace SmallLevelTwentySixMMPPariTrace024
 open SmallLevelPolynomialCoefficientCertificate
-compact_certificate_declaration theorem coefficient_1_0 (y z w b u : ℂ) :
-    (innerCertificate1 y z w b u)[0]?=some 0 := by
-  change some (0)=some (0:ℂ)
-  apply congrArg some
-  ring
-#print axioms coefficient_1_0
-
 end SmallLevelTwentySixMMPPariTrace024
 end
 
@@ -119,7 +109,8 @@ set_option linter.unnecessarySeqFocus false
 namespace SmallLevelTwentySixMMPPariTrace024
 open SmallLevelPolynomialCoefficientCertificate
 compact_certificate_declaration theorem inner_length_2 (y z w b u : ℂ) : (innerCertificate2 y z w b u).length=9 := by
-  norm_num [innerCertificate2,add,multiply,scale,inner0_0,inner0_1,inner0_2,inner1_0,inner1_1,inner1_2,inner2_0,inner2_1,inner2_2,inner3_0,inner3_1,inner3_2,inner4_2]
+  simp only [innerCertificate2, length_add, length_multiply, length_scale]
+  norm_num [inner0_0,inner0_1,inner0_2,inner1_0,inner1_1,inner1_2,inner2_0,inner2_1,inner2_2,inner3_0,inner3_1,inner3_2,inner4_2, List.length_cons, List.length_nil]
 compact_certificate_declaration theorem inner_eval_2 (y z w a b u : ℂ) :
     evaluate a (innerCertificate2 y z w b u)=(((((c0_0 y z w a b u)*(c1_2 y z w a b u))+(((c0_1 y z w a b u)*(c1_1 y z w a b u))+(((c0_2 y z w a b u)*(c1_0 y z w a b u))+0)))+(((c2_0 y z w a b u)*(c3_2 y z w a b u))+(((c2_1 y z w a b u)*(c3_1 y z w a b u))+(((c2_2 y z w a b u)*(c3_0 y z w a b u))+0))))+((-1)*(c4_2 y z w a b u))) := by
   simp only [innerCertificate2,evaluate_add,evaluate_multiply,evaluate,
@@ -141,72 +132,6 @@ set_option maxRecDepth 32768
 namespace SmallLevelTwentySixMMPPariTrace024
 open SmallLevelPolynomialCoefficientCertificate
 
-compact_certificate_declaration theorem coefficient_2_0 (y z w b u : ℂ) :
-    (innerCertificate2 y z w b u)[0]?=some 0 := by
-  change some ((((((d0_2_0 y z w b u)*(d1_0_0 y z w b u))+0)+(((d2_2_0 y z w b u)*(d3_0_0 y z w b u))+0))+(((-1)*(d4_2_0 y z w b u))+0)))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_2_0,d1_0_0,d2_2_0,d3_0_0,d4_2_0]
-  ring
-#print axioms coefficient_2_0
-compact_certificate_declaration theorem coefficient_2_1 (y z w b u : ℂ) :
-    (innerCertificate2 y z w b u)[1]?=some 0 := by
-  change some ((((((d0_2_0 y z w b u)*(d1_0_1 y z w b u))+(((d0_2_1 y z w b u)*(d1_0_0 y z w b u))+0))+(((d2_2_0 y z w b u)*(d3_0_1 y z w b u))+(((d2_2_1 y z w b u)*(d3_0_0 y z w b u))+0)))+((-1)*(d4_2_1 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_2_0,d0_2_1,d1_0_0,d1_0_1,d2_2_0,d2_2_1,d3_0_0,d3_0_1,d4_2_1]
-  ring
-#print axioms coefficient_2_1
-compact_certificate_declaration theorem coefficient_2_2 (y z w b u : ℂ) :
-    (innerCertificate2 y z w b u)[2]?=some 0 := by
-  change some ((((((d0_2_0 y z w b u)*(d1_0_2 y z w b u))+(((d0_2_1 y z w b u)*(d1_0_1 y z w b u))+(((d0_2_2 y z w b u)*(d1_0_0 y z w b u))+0)))+(((d2_2_0 y z w b u)*(d3_0_2 y z w b u))+(((d2_2_1 y z w b u)*(d3_0_1 y z w b u))+(((d2_2_2 y z w b u)*(d3_0_0 y z w b u))+0))))+((-1)*(d4_2_2 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_2_0,d0_2_1,d0_2_2,d1_0_0,d1_0_1,d1_0_2,d2_2_0,d2_2_1,d2_2_2,d3_0_0,d3_0_1,d3_0_2,d4_2_2]
-  ring
-#print axioms coefficient_2_2
-
-compact_certificate_declaration theorem coefficient_2_3 (y z w b u : ℂ) :
-    (innerCertificate2 y z w b u)[3]?=some 0 := by
-  change some ((((((d0_2_1 y z w b u)*(d1_0_2 y z w b u))+(((d0_2_2 y z w b u)*(d1_0_1 y z w b u))+(((d0_2_3 y z w b u)*(d1_0_0 y z w b u))+0)))+(((d2_2_0 y z w b u)*(d3_0_3 y z w b u))+(((d2_2_1 y z w b u)*(d3_0_2 y z w b u))+((d2_2_2 y z w b u)*(d3_0_1 y z w b u)))))+((-1)*(d4_2_3 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_2_1,d0_2_2,d0_2_3,d1_0_0,d1_0_1,d1_0_2,d2_2_0,d2_2_1,d2_2_2,d3_0_1,d3_0_2,d3_0_3,d4_2_3]
-  ring
-#print axioms coefficient_2_3
-compact_certificate_declaration theorem coefficient_2_4 (y z w b u : ℂ) :
-    (innerCertificate2 y z w b u)[4]?=some 0 := by
-  change some ((((((d0_2_2 y z w b u)*(d1_0_2 y z w b u))+(((d0_2_3 y z w b u)*(d1_0_1 y z w b u))+(((d0_2_4 y z w b u)*(d1_0_0 y z w b u))+0)))+(((d2_2_0 y z w b u)*(d3_0_4 y z w b u))+(((d2_2_1 y z w b u)*(d3_0_3 y z w b u))+((d2_2_2 y z w b u)*(d3_0_2 y z w b u)))))+((-1)*(d4_2_4 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_2_2,d0_2_3,d0_2_4,d1_0_0,d1_0_1,d1_0_2,d2_2_0,d2_2_1,d2_2_2,d3_0_2,d3_0_3,d3_0_4,d4_2_4]
-  ring
-#print axioms coefficient_2_4
-compact_certificate_declaration theorem coefficient_2_5 (y z w b u : ℂ) :
-    (innerCertificate2 y z w b u)[5]?=some 0 := by
-  change some ((((((d0_2_3 y z w b u)*(d1_0_2 y z w b u))+(((d0_2_4 y z w b u)*(d1_0_1 y z w b u))+(((d0_2_5 y z w b u)*(d1_0_0 y z w b u))+0)))+(((d2_2_0 y z w b u)*(d3_0_5 y z w b u))+(((d2_2_1 y z w b u)*(d3_0_4 y z w b u))+((d2_2_2 y z w b u)*(d3_0_3 y z w b u)))))+((-1)*(d4_2_5 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_2_3,d0_2_4,d0_2_5,d1_0_0,d1_0_1,d1_0_2,d2_2_0,d2_2_1,d2_2_2,d3_0_3,d3_0_4,d3_0_5,d4_2_5]
-  ring
-#print axioms coefficient_2_5
-
-compact_certificate_declaration theorem coefficient_2_6 (y z w b u : ℂ) :
-    (innerCertificate2 y z w b u)[6]?=some 0 := by
-  change some ((((((d0_2_4 y z w b u)*(d1_0_2 y z w b u))+(((d0_2_5 y z w b u)*(d1_0_1 y z w b u))+(((d0_2_6 y z w b u)*(d1_0_0 y z w b u))+0)))+(((d2_2_0 y z w b u)*(d3_0_6 y z w b u))+(((d2_2_1 y z w b u)*(d3_0_5 y z w b u))+((d2_2_2 y z w b u)*(d3_0_4 y z w b u)))))+((-1)*(d4_2_6 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_2_4,d0_2_5,d0_2_6,d1_0_0,d1_0_1,d1_0_2,d2_2_0,d2_2_1,d2_2_2,d3_0_4,d3_0_5,d3_0_6,d4_2_6]
-  ring
-#print axioms coefficient_2_6
-compact_certificate_declaration theorem coefficient_2_7 (y z w b u : ℂ) :
-    (innerCertificate2 y z w b u)[7]?=some 0 := by
-  change some ((((((d0_2_5 y z w b u)*(d1_0_2 y z w b u))+((d0_2_6 y z w b u)*(d1_0_1 y z w b u)))+(((d2_2_1 y z w b u)*(d3_0_6 y z w b u))+((d2_2_2 y z w b u)*(d3_0_5 y z w b u))))+((-1)*(d4_2_7 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_2_5,d0_2_6,d1_0_1,d1_0_2,d2_2_1,d2_2_2,d3_0_5,d3_0_6,d4_2_7]
-  ring
-#print axioms coefficient_2_7
-compact_certificate_declaration theorem coefficient_2_8 (y z w b u : ℂ) :
-    (innerCertificate2 y z w b u)[8]?=some 0 := by
-  change some (((((d0_2_6 y z w b u)*(d1_0_2 y z w b u))+((d2_2_2 y z w b u)*(d3_0_6 y z w b u)))+((-1)*(d4_2_8 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_2_6,d1_0_2,d2_2_2,d3_0_6,d4_2_8]
-  ring
-#print axioms coefficient_2_8
-
 end SmallLevelTwentySixMMPPariTrace024
 end
 
@@ -221,7 +146,8 @@ set_option linter.unnecessarySeqFocus false
 namespace SmallLevelTwentySixMMPPariTrace024
 open SmallLevelPolynomialCoefficientCertificate
 compact_certificate_declaration theorem inner_length_3 (y z w b u : ℂ) : (innerCertificate3 y z w b u).length=10 := by
-  norm_num [innerCertificate3,add,multiply,scale,inner0_0,inner0_1,inner0_2,inner0_3,inner1_0,inner1_1,inner1_2,inner1_3,inner2_0,inner2_1,inner2_2,inner2_3,inner3_0,inner3_1,inner3_2,inner3_3,inner4_3]
+  simp only [innerCertificate3, length_add, length_multiply, length_scale]
+  norm_num [inner0_0,inner0_1,inner0_2,inner0_3,inner1_0,inner1_1,inner1_2,inner1_3,inner2_0,inner2_1,inner2_2,inner2_3,inner3_0,inner3_1,inner3_2,inner3_3,inner4_3, List.length_cons, List.length_nil]
 compact_certificate_declaration theorem inner_eval_3 (y z w a b u : ℂ) :
     evaluate a (innerCertificate3 y z w b u)=(((((c0_0 y z w a b u)*(c1_3 y z w a b u))+(((c0_1 y z w a b u)*(c1_2 y z w a b u))+(((c0_2 y z w a b u)*(c1_1 y z w a b u))+(((c0_3 y z w a b u)*(c1_0 y z w a b u))+0))))+(((c2_0 y z w a b u)*(c3_3 y z w a b u))+(((c2_1 y z w a b u)*(c3_2 y z w a b u))+(((c2_2 y z w a b u)*(c3_1 y z w a b u))+(((c2_3 y z w a b u)*(c3_0 y z w a b u))+0)))))+((-1)*(c4_3 y z w a b u))) := by
   simp only [innerCertificate3,evaluate_add,evaluate_multiply,evaluate,
@@ -243,80 +169,6 @@ set_option maxRecDepth 32768
 namespace SmallLevelTwentySixMMPPariTrace024
 open SmallLevelPolynomialCoefficientCertificate
 
-compact_certificate_declaration theorem coefficient_3_0 (y z w b u : ℂ) :
-    (innerCertificate3 y z w b u)[0]?=some 0 := by
-  change some (((((((d0_2_0 y z w b u)*(d1_1_0 y z w b u))+0)+(((d0_3_0 y z w b u)*(d1_0_0 y z w b u))+0))+((((d2_2_0 y z w b u)*(d3_1_0 y z w b u))+0)+(((d2_3_0 y z w b u)*(d3_0_0 y z w b u))+0)))+(((-1)*(d4_3_0 y z w b u))+0)))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_2_0,d0_3_0,d1_0_0,d1_1_0,d2_2_0,d2_3_0,d3_0_0,d3_1_0,d4_3_0]
-  ring
-#print axioms coefficient_3_0
-compact_certificate_declaration theorem coefficient_3_1 (y z w b u : ℂ) :
-    (innerCertificate3 y z w b u)[1]?=some 0 := by
-  change some (((((((d0_2_0 y z w b u)*(d1_1_1 y z w b u))+(((d0_2_1 y z w b u)*(d1_1_0 y z w b u))+0))+(((d0_3_0 y z w b u)*(d1_0_1 y z w b u))+(((d0_3_1 y z w b u)*(d1_0_0 y z w b u))+0)))+((((d2_2_0 y z w b u)*(d3_1_1 y z w b u))+(((d2_2_1 y z w b u)*(d3_1_0 y z w b u))+0))+(((d2_3_0 y z w b u)*(d3_0_1 y z w b u))+(((d2_3_1 y z w b u)*(d3_0_0 y z w b u))+0))))+((-1)*(d4_3_1 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_2_0,d0_2_1,d0_3_0,d0_3_1,d1_0_0,d1_0_1,d1_1_0,d1_1_1,d2_2_0,d2_2_1,d2_3_0,d2_3_1,d3_0_0,d3_0_1,d3_1_0,d3_1_1,d4_3_1]
-  ring
-#print axioms coefficient_3_1
-compact_certificate_declaration theorem coefficient_3_2 (y z w b u : ℂ) :
-    (innerCertificate3 y z w b u)[2]?=some 0 := by
-  change some (((((((d0_2_0 y z w b u)*(d1_1_2 y z w b u))+(((d0_2_1 y z w b u)*(d1_1_1 y z w b u))+(((d0_2_2 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_3_0 y z w b u)*(d1_0_2 y z w b u))+(((d0_3_1 y z w b u)*(d1_0_1 y z w b u))+(((d0_3_2 y z w b u)*(d1_0_0 y z w b u))+0))))+((((d2_2_0 y z w b u)*(d3_1_2 y z w b u))+(((d2_2_1 y z w b u)*(d3_1_1 y z w b u))+(((d2_2_2 y z w b u)*(d3_1_0 y z w b u))+0)))+(((d2_3_0 y z w b u)*(d3_0_2 y z w b u))+((d2_3_1 y z w b u)*(d3_0_1 y z w b u)))))+((-1)*(d4_3_2 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_2_0,d0_2_1,d0_2_2,d0_3_0,d0_3_1,d0_3_2,d1_0_0,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d3_0_1,d3_0_2,d3_1_0,d3_1_1,d3_1_2,d4_3_2]
-  ring
-#print axioms coefficient_3_2
-
-compact_certificate_declaration theorem coefficient_3_3 (y z w b u : ℂ) :
-    (innerCertificate3 y z w b u)[3]?=some 0 := by
-  change some (((((((d0_2_1 y z w b u)*(d1_1_2 y z w b u))+(((d0_2_2 y z w b u)*(d1_1_1 y z w b u))+(((d0_2_3 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_3_1 y z w b u)*(d1_0_2 y z w b u))+(((d0_3_2 y z w b u)*(d1_0_1 y z w b u))+(((d0_3_3 y z w b u)*(d1_0_0 y z w b u))+0))))+((((d2_2_0 y z w b u)*(d3_1_3 y z w b u))+(((d2_2_1 y z w b u)*(d3_1_2 y z w b u))+((d2_2_2 y z w b u)*(d3_1_1 y z w b u))))+(((d2_3_0 y z w b u)*(d3_0_3 y z w b u))+((d2_3_1 y z w b u)*(d3_0_2 y z w b u)))))+((-1)*(d4_3_3 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_2_1,d0_2_2,d0_2_3,d0_3_1,d0_3_2,d0_3_3,d1_0_0,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d3_0_2,d3_0_3,d3_1_1,d3_1_2,d3_1_3,d4_3_3]
-  ring
-#print axioms coefficient_3_3
-compact_certificate_declaration theorem coefficient_3_4 (y z w b u : ℂ) :
-    (innerCertificate3 y z w b u)[4]?=some 0 := by
-  change some (((((((d0_2_2 y z w b u)*(d1_1_2 y z w b u))+(((d0_2_3 y z w b u)*(d1_1_1 y z w b u))+(((d0_2_4 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_3_2 y z w b u)*(d1_0_2 y z w b u))+(((d0_3_3 y z w b u)*(d1_0_1 y z w b u))+(((d0_3_4 y z w b u)*(d1_0_0 y z w b u))+0))))+((((d2_2_0 y z w b u)*(d3_1_4 y z w b u))+(((d2_2_1 y z w b u)*(d3_1_3 y z w b u))+((d2_2_2 y z w b u)*(d3_1_2 y z w b u))))+(((d2_3_0 y z w b u)*(d3_0_4 y z w b u))+((d2_3_1 y z w b u)*(d3_0_3 y z w b u)))))+((-1)*(d4_3_4 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_2_2,d0_2_3,d0_2_4,d0_3_2,d0_3_3,d0_3_4,d1_0_0,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d3_0_3,d3_0_4,d3_1_2,d3_1_3,d3_1_4,d4_3_4]
-  ring
-#print axioms coefficient_3_4
-compact_certificate_declaration theorem coefficient_3_5 (y z w b u : ℂ) :
-    (innerCertificate3 y z w b u)[5]?=some 0 := by
-  change some (((((((d0_2_3 y z w b u)*(d1_1_2 y z w b u))+(((d0_2_4 y z w b u)*(d1_1_1 y z w b u))+(((d0_2_5 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_3_3 y z w b u)*(d1_0_2 y z w b u))+(((d0_3_4 y z w b u)*(d1_0_1 y z w b u))+(((d0_3_5 y z w b u)*(d1_0_0 y z w b u))+0))))+((((d2_2_0 y z w b u)*(d3_1_5 y z w b u))+(((d2_2_1 y z w b u)*(d3_1_4 y z w b u))+((d2_2_2 y z w b u)*(d3_1_3 y z w b u))))+(((d2_3_0 y z w b u)*(d3_0_5 y z w b u))+((d2_3_1 y z w b u)*(d3_0_4 y z w b u)))))+((-1)*(d4_3_5 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_2_3,d0_2_4,d0_2_5,d0_3_3,d0_3_4,d0_3_5,d1_0_0,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d3_0_4,d3_0_5,d3_1_3,d3_1_4,d3_1_5,d4_3_5]
-  ring
-#print axioms coefficient_3_5
-
-compact_certificate_declaration theorem coefficient_3_6 (y z w b u : ℂ) :
-    (innerCertificate3 y z w b u)[6]?=some 0 := by
-  change some (((((((d0_2_4 y z w b u)*(d1_1_2 y z w b u))+(((d0_2_5 y z w b u)*(d1_1_1 y z w b u))+(((d0_2_6 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_3_4 y z w b u)*(d1_0_2 y z w b u))+(((d0_3_5 y z w b u)*(d1_0_1 y z w b u))+(((d0_3_6 y z w b u)*(d1_0_0 y z w b u))+0))))+((((d2_2_0 y z w b u)*(d3_1_6 y z w b u))+(((d2_2_1 y z w b u)*(d3_1_5 y z w b u))+((d2_2_2 y z w b u)*(d3_1_4 y z w b u))))+(((d2_3_0 y z w b u)*(d3_0_6 y z w b u))+((d2_3_1 y z w b u)*(d3_0_5 y z w b u)))))+((-1)*(d4_3_6 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_2_4,d0_2_5,d0_2_6,d0_3_4,d0_3_5,d0_3_6,d1_0_0,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d3_0_5,d3_0_6,d3_1_4,d3_1_5,d3_1_6,d4_3_6]
-  ring
-#print axioms coefficient_3_6
-compact_certificate_declaration theorem coefficient_3_7 (y z w b u : ℂ) :
-    (innerCertificate3 y z w b u)[7]?=some 0 := by
-  change some (((((((d0_2_5 y z w b u)*(d1_1_2 y z w b u))+((d0_2_6 y z w b u)*(d1_1_1 y z w b u)))+(((d0_3_5 y z w b u)*(d1_0_2 y z w b u))+(((d0_3_6 y z w b u)*(d1_0_1 y z w b u))+(((d0_3_7 y z w b u)*(d1_0_0 y z w b u))+0))))+((((d2_2_0 y z w b u)*(d3_1_7 y z w b u))+(((d2_2_1 y z w b u)*(d3_1_6 y z w b u))+((d2_2_2 y z w b u)*(d3_1_5 y z w b u))))+((d2_3_1 y z w b u)*(d3_0_6 y z w b u))))+((-1)*(d4_3_7 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_2_5,d0_2_6,d0_3_5,d0_3_6,d0_3_7,d1_0_0,d1_0_1,d1_0_2,d1_1_1,d1_1_2,d2_2_0,d2_2_1,d2_2_2,d2_3_1,d3_0_6,d3_1_5,d3_1_6,d3_1_7,d4_3_7]
-  ring
-#print axioms coefficient_3_7
-compact_certificate_declaration theorem coefficient_3_8 (y z w b u : ℂ) :
-    (innerCertificate3 y z w b u)[8]?=some 0 := by
-  change some ((((((d0_2_6 y z w b u)*(d1_1_2 y z w b u))+(((d0_3_6 y z w b u)*(d1_0_2 y z w b u))+((d0_3_7 y z w b u)*(d1_0_1 y z w b u))))+(((d2_2_1 y z w b u)*(d3_1_7 y z w b u))+((d2_2_2 y z w b u)*(d3_1_6 y z w b u))))+((-1)*(d4_3_8 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_2_6,d0_3_6,d0_3_7,d1_0_1,d1_0_2,d1_1_2,d2_2_1,d2_2_2,d3_1_6,d3_1_7,d4_3_8]
-  ring
-#print axioms coefficient_3_8
-
-compact_certificate_declaration theorem coefficient_3_9 (y z w b u : ℂ) :
-    (innerCertificate3 y z w b u)[9]?=some 0 := by
-  change some (((((d0_3_7 y z w b u)*(d1_0_2 y z w b u))+((d2_2_2 y z w b u)*(d3_1_7 y z w b u)))+((-1)*(d4_3_9 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_3_7,d1_0_2,d2_2_2,d3_1_7,d4_3_9]
-  ring
-#print axioms coefficient_3_9
-
 end SmallLevelTwentySixMMPPariTrace024
 end
 
@@ -331,7 +183,8 @@ set_option linter.unnecessarySeqFocus false
 namespace SmallLevelTwentySixMMPPariTrace024
 open SmallLevelPolynomialCoefficientCertificate
 compact_certificate_declaration theorem inner_length_4 (y z w b u : ℂ) : (innerCertificate4 y z w b u).length=10 := by
-  norm_num [innerCertificate4,add,multiply,scale,inner0_0,inner0_1,inner0_2,inner0_3,inner0_4,inner1_0,inner1_1,inner1_2,inner1_3,inner1_4,inner2_0,inner2_1,inner2_2,inner2_3,inner2_4,inner3_0,inner3_1,inner3_2,inner3_3,inner3_4,inner4_4]
+  simp only [innerCertificate4, length_add, length_multiply, length_scale]
+  norm_num [inner0_0,inner0_1,inner0_2,inner0_3,inner0_4,inner1_0,inner1_1,inner1_2,inner1_3,inner1_4,inner2_0,inner2_1,inner2_2,inner2_3,inner2_4,inner3_0,inner3_1,inner3_2,inner3_3,inner3_4,inner4_4, List.length_cons, List.length_nil]
 compact_certificate_declaration theorem inner_eval_4 (y z w a b u : ℂ) :
     evaluate a (innerCertificate4 y z w b u)=(((((c0_0 y z w a b u)*(c1_4 y z w a b u))+(((c0_1 y z w a b u)*(c1_3 y z w a b u))+(((c0_2 y z w a b u)*(c1_2 y z w a b u))+(((c0_3 y z w a b u)*(c1_1 y z w a b u))+(((c0_4 y z w a b u)*(c1_0 y z w a b u))+0)))))+(((c2_0 y z w a b u)*(c3_4 y z w a b u))+(((c2_1 y z w a b u)*(c3_3 y z w a b u))+(((c2_2 y z w a b u)*(c3_2 y z w a b u))+(((c2_3 y z w a b u)*(c3_1 y z w a b u))+(((c2_4 y z w a b u)*(c3_0 y z w a b u))+0))))))+((-1)*(c4_4 y z w a b u))) := by
   simp only [innerCertificate4,evaluate_add,evaluate_multiply,evaluate,
@@ -353,81 +206,6 @@ set_option maxRecDepth 32768
 namespace SmallLevelTwentySixMMPPariTrace024
 open SmallLevelPolynomialCoefficientCertificate
 
-compact_certificate_declaration theorem coefficient_4_0 (y z w b u : ℂ) :
-    (innerCertificate4 y z w b u)[0]?=some 0 := by
-  change some (((((((d0_2_0 y z w b u)*(d1_2_0 y z w b u))+0)+((((d0_3_0 y z w b u)*(d1_1_0 y z w b u))+0)+(((d0_4_0 y z w b u)*(d1_0_0 y z w b u))+0)))+((((d2_2_0 y z w b u)*(d3_2_0 y z w b u))+0)+((((d2_3_0 y z w b u)*(d3_1_0 y z w b u))+0)+(((d2_4_0 y z w b u)*(d3_0_0 y z w b u))+0))))+(((-1)*(d4_4_0 y z w b u))+0)))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_2_0,d0_3_0,d0_4_0,d1_0_0,d1_1_0,d1_2_0,d2_2_0,d2_3_0,d2_4_0,d3_0_0,d3_1_0,d3_2_0,d4_4_0]
-  ring
-#print axioms coefficient_4_0
-compact_certificate_declaration theorem coefficient_4_1 (y z w b u : ℂ) :
-    (innerCertificate4 y z w b u)[1]?=some 0 := by
-  change some (((((((d0_2_0 y z w b u)*(d1_2_1 y z w b u))+(((d0_2_1 y z w b u)*(d1_2_0 y z w b u))+0))+((((d0_3_0 y z w b u)*(d1_1_1 y z w b u))+(((d0_3_1 y z w b u)*(d1_1_0 y z w b u))+0))+(((d0_4_0 y z w b u)*(d1_0_1 y z w b u))+(((d0_4_1 y z w b u)*(d1_0_0 y z w b u))+0))))+((((d2_2_0 y z w b u)*(d3_2_1 y z w b u))+(((d2_2_1 y z w b u)*(d3_2_0 y z w b u))+0))+((((d2_3_0 y z w b u)*(d3_1_1 y z w b u))+(((d2_3_1 y z w b u)*(d3_1_0 y z w b u))+0))+((d2_4_0 y z w b u)*(d3_0_1 y z w b u)))))+((-1)*(d4_4_1 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_2_0,d0_2_1,d0_3_0,d0_3_1,d0_4_0,d0_4_1,d1_0_0,d1_0_1,d1_1_0,d1_1_1,d1_2_0,d1_2_1,d2_2_0,d2_2_1,d2_3_0,d2_3_1,d2_4_0,d3_0_1,d3_1_0,d3_1_1,d3_2_0,d3_2_1,d4_4_1]
-  ring
-#print axioms coefficient_4_1
-
-compact_certificate_declaration theorem coefficient_4_2 (y z w b u : ℂ) :
-    (innerCertificate4 y z w b u)[2]?=some 0 := by
-  change some (((((((d0_2_0 y z w b u)*(d1_2_2 y z w b u))+(((d0_2_1 y z w b u)*(d1_2_1 y z w b u))+(((d0_2_2 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_3_0 y z w b u)*(d1_1_2 y z w b u))+(((d0_3_1 y z w b u)*(d1_1_1 y z w b u))+(((d0_3_2 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_4_0 y z w b u)*(d1_0_2 y z w b u))+(((d0_4_1 y z w b u)*(d1_0_1 y z w b u))+(((d0_4_2 y z w b u)*(d1_0_0 y z w b u))+0)))))+((((d2_2_0 y z w b u)*(d3_2_2 y z w b u))+(((d2_2_1 y z w b u)*(d3_2_1 y z w b u))+(((d2_2_2 y z w b u)*(d3_2_0 y z w b u))+0)))+((((d2_3_0 y z w b u)*(d3_1_2 y z w b u))+((d2_3_1 y z w b u)*(d3_1_1 y z w b u)))+((d2_4_0 y z w b u)*(d3_0_2 y z w b u)))))+((-1)*(d4_4_2 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_2_0,d0_2_1,d0_2_2,d0_3_0,d0_3_1,d0_3_2,d0_4_0,d0_4_1,d0_4_2,d1_0_0,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_0_2,d3_1_1,d3_1_2,d3_2_0,d3_2_1,d3_2_2,d4_4_2]
-  ring
-#print axioms coefficient_4_2
-
-compact_certificate_declaration theorem coefficient_4_3 (y z w b u : ℂ) :
-    (innerCertificate4 y z w b u)[3]?=some 0 := by
-  change some (((((((d0_2_1 y z w b u)*(d1_2_2 y z w b u))+(((d0_2_2 y z w b u)*(d1_2_1 y z w b u))+(((d0_2_3 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_3_1 y z w b u)*(d1_1_2 y z w b u))+(((d0_3_2 y z w b u)*(d1_1_1 y z w b u))+(((d0_3_3 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_4_1 y z w b u)*(d1_0_2 y z w b u))+(((d0_4_2 y z w b u)*(d1_0_1 y z w b u))+(((d0_4_3 y z w b u)*(d1_0_0 y z w b u))+0)))))+((((d2_2_0 y z w b u)*(d3_2_3 y z w b u))+(((d2_2_1 y z w b u)*(d3_2_2 y z w b u))+((d2_2_2 y z w b u)*(d3_2_1 y z w b u))))+((((d2_3_0 y z w b u)*(d3_1_3 y z w b u))+((d2_3_1 y z w b u)*(d3_1_2 y z w b u)))+((d2_4_0 y z w b u)*(d3_0_3 y z w b u)))))+((-1)*(d4_4_3 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_2_1,d0_2_2,d0_2_3,d0_3_1,d0_3_2,d0_3_3,d0_4_1,d0_4_2,d0_4_3,d1_0_0,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_0_3,d3_1_2,d3_1_3,d3_2_1,d3_2_2,d3_2_3,d4_4_3]
-  ring
-#print axioms coefficient_4_3
-
-compact_certificate_declaration theorem coefficient_4_4 (y z w b u : ℂ) :
-    (innerCertificate4 y z w b u)[4]?=some 0 := by
-  change some (((((((d0_2_2 y z w b u)*(d1_2_2 y z w b u))+(((d0_2_3 y z w b u)*(d1_2_1 y z w b u))+(((d0_2_4 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_3_2 y z w b u)*(d1_1_2 y z w b u))+(((d0_3_3 y z w b u)*(d1_1_1 y z w b u))+(((d0_3_4 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_4_2 y z w b u)*(d1_0_2 y z w b u))+(((d0_4_3 y z w b u)*(d1_0_1 y z w b u))+(((d0_4_4 y z w b u)*(d1_0_0 y z w b u))+0)))))+((((d2_2_0 y z w b u)*(d3_2_4 y z w b u))+(((d2_2_1 y z w b u)*(d3_2_3 y z w b u))+((d2_2_2 y z w b u)*(d3_2_2 y z w b u))))+((((d2_3_0 y z w b u)*(d3_1_4 y z w b u))+((d2_3_1 y z w b u)*(d3_1_3 y z w b u)))+((d2_4_0 y z w b u)*(d3_0_4 y z w b u)))))+((-1)*(d4_4_4 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_2_2,d0_2_3,d0_2_4,d0_3_2,d0_3_3,d0_3_4,d0_4_2,d0_4_3,d0_4_4,d1_0_0,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_0_4,d3_1_3,d3_1_4,d3_2_2,d3_2_3,d3_2_4,d4_4_4]
-  ring
-#print axioms coefficient_4_4
-compact_certificate_declaration theorem coefficient_4_5 (y z w b u : ℂ) :
-    (innerCertificate4 y z w b u)[5]?=some 0 := by
-  change some (((((((d0_2_3 y z w b u)*(d1_2_2 y z w b u))+(((d0_2_4 y z w b u)*(d1_2_1 y z w b u))+(((d0_2_5 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_3_3 y z w b u)*(d1_1_2 y z w b u))+(((d0_3_4 y z w b u)*(d1_1_1 y z w b u))+(((d0_3_5 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_4_3 y z w b u)*(d1_0_2 y z w b u))+(((d0_4_4 y z w b u)*(d1_0_1 y z w b u))+(((d0_4_5 y z w b u)*(d1_0_0 y z w b u))+0)))))+((((d2_2_0 y z w b u)*(d3_2_5 y z w b u))+(((d2_2_1 y z w b u)*(d3_2_4 y z w b u))+((d2_2_2 y z w b u)*(d3_2_3 y z w b u))))+((((d2_3_0 y z w b u)*(d3_1_5 y z w b u))+((d2_3_1 y z w b u)*(d3_1_4 y z w b u)))+((d2_4_0 y z w b u)*(d3_0_5 y z w b u)))))+((-1)*(d4_4_5 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_2_3,d0_2_4,d0_2_5,d0_3_3,d0_3_4,d0_3_5,d0_4_3,d0_4_4,d0_4_5,d1_0_0,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_0_5,d3_1_4,d3_1_5,d3_2_3,d3_2_4,d3_2_5,d4_4_5]
-  ring
-#print axioms coefficient_4_5
-compact_certificate_declaration theorem coefficient_4_6 (y z w b u : ℂ) :
-    (innerCertificate4 y z w b u)[6]?=some 0 := by
-  change some (((((((d0_2_4 y z w b u)*(d1_2_2 y z w b u))+(((d0_2_5 y z w b u)*(d1_2_1 y z w b u))+(((d0_2_6 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_3_4 y z w b u)*(d1_1_2 y z w b u))+(((d0_3_5 y z w b u)*(d1_1_1 y z w b u))+(((d0_3_6 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_4_4 y z w b u)*(d1_0_2 y z w b u))+(((d0_4_5 y z w b u)*(d1_0_1 y z w b u))+(((d0_4_6 y z w b u)*(d1_0_0 y z w b u))+0)))))+((((d2_2_0 y z w b u)*(d3_2_6 y z w b u))+(((d2_2_1 y z w b u)*(d3_2_5 y z w b u))+((d2_2_2 y z w b u)*(d3_2_4 y z w b u))))+((((d2_3_0 y z w b u)*(d3_1_6 y z w b u))+((d2_3_1 y z w b u)*(d3_1_5 y z w b u)))+((d2_4_0 y z w b u)*(d3_0_6 y z w b u)))))+((-1)*(d4_4_6 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_2_4,d0_2_5,d0_2_6,d0_3_4,d0_3_5,d0_3_6,d0_4_4,d0_4_5,d0_4_6,d1_0_0,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_0_6,d3_1_5,d3_1_6,d3_2_4,d3_2_5,d3_2_6,d4_4_6]
-  ring
-#print axioms coefficient_4_6
-
-compact_certificate_declaration theorem coefficient_4_7 (y z w b u : ℂ) :
-    (innerCertificate4 y z w b u)[7]?=some 0 := by
-  change some (((((((d0_2_5 y z w b u)*(d1_2_2 y z w b u))+((d0_2_6 y z w b u)*(d1_2_1 y z w b u)))+((((d0_3_5 y z w b u)*(d1_1_2 y z w b u))+(((d0_3_6 y z w b u)*(d1_1_1 y z w b u))+(((d0_3_7 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_4_5 y z w b u)*(d1_0_2 y z w b u))+(((d0_4_6 y z w b u)*(d1_0_1 y z w b u))+(((d0_4_7 y z w b u)*(d1_0_0 y z w b u))+0)))))+((((d2_2_0 y z w b u)*(d3_2_7 y z w b u))+(((d2_2_1 y z w b u)*(d3_2_6 y z w b u))+((d2_2_2 y z w b u)*(d3_2_5 y z w b u))))+(((d2_3_0 y z w b u)*(d3_1_7 y z w b u))+((d2_3_1 y z w b u)*(d3_1_6 y z w b u)))))+((-1)*(d4_4_7 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_2_5,d0_2_6,d0_3_5,d0_3_6,d0_3_7,d0_4_5,d0_4_6,d0_4_7,d1_0_0,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d1_2_1,d1_2_2,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d3_1_6,d3_1_7,d3_2_5,d3_2_6,d3_2_7,d4_4_7]
-  ring
-#print axioms coefficient_4_7
-compact_certificate_declaration theorem coefficient_4_8 (y z w b u : ℂ) :
-    (innerCertificate4 y z w b u)[8]?=some 0 := by
-  change some ((((((d0_2_6 y z w b u)*(d1_2_2 y z w b u))+((((d0_3_6 y z w b u)*(d1_1_2 y z w b u))+((d0_3_7 y z w b u)*(d1_1_1 y z w b u)))+(((d0_4_6 y z w b u)*(d1_0_2 y z w b u))+((d0_4_7 y z w b u)*(d1_0_1 y z w b u)))))+((((d2_2_1 y z w b u)*(d3_2_7 y z w b u))+((d2_2_2 y z w b u)*(d3_2_6 y z w b u)))+((d2_3_1 y z w b u)*(d3_1_7 y z w b u))))+((-1)*(d4_4_8 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_2_6,d0_3_6,d0_3_7,d0_4_6,d0_4_7,d1_0_1,d1_0_2,d1_1_1,d1_1_2,d1_2_2,d2_2_1,d2_2_2,d2_3_1,d3_1_7,d3_2_6,d3_2_7,d4_4_8]
-  ring
-#print axioms coefficient_4_8
-compact_certificate_declaration theorem coefficient_4_9 (y z w b u : ℂ) :
-    (innerCertificate4 y z w b u)[9]?=some 0 := by
-  change some ((((((d0_3_7 y z w b u)*(d1_1_2 y z w b u))+((d0_4_7 y z w b u)*(d1_0_2 y z w b u)))+((d2_2_2 y z w b u)*(d3_2_7 y z w b u)))+((-1)*(d4_4_9 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_3_7,d0_4_7,d1_0_2,d1_1_2,d2_2_2,d3_2_7,d4_4_9]
-  ring
-#print axioms coefficient_4_9
-
 end SmallLevelTwentySixMMPPariTrace024
 end
 
@@ -442,7 +220,8 @@ set_option linter.unnecessarySeqFocus false
 namespace SmallLevelTwentySixMMPPariTrace024
 open SmallLevelPolynomialCoefficientCertificate
 compact_certificate_declaration theorem inner_length_5 (y z w b u : ℂ) : (innerCertificate5 y z w b u).length=10 := by
-  norm_num [innerCertificate5,add,multiply,scale,inner0_0,inner0_1,inner0_2,inner0_3,inner0_4,inner0_5,inner1_0,inner1_1,inner1_2,inner1_3,inner1_4,inner1_5,inner2_0,inner2_1,inner2_2,inner2_3,inner2_4,inner3_1,inner3_2,inner3_3,inner3_4,inner3_5,inner4_5]
+  simp only [innerCertificate5, length_add, length_multiply, length_scale]
+  norm_num [inner0_0,inner0_1,inner0_2,inner0_3,inner0_4,inner0_5,inner1_0,inner1_1,inner1_2,inner1_3,inner1_4,inner1_5,inner2_0,inner2_1,inner2_2,inner2_3,inner2_4,inner3_1,inner3_2,inner3_3,inner3_4,inner3_5,inner4_5, List.length_cons, List.length_nil]
 compact_certificate_declaration theorem inner_eval_5 (y z w a b u : ℂ) :
     evaluate a (innerCertificate5 y z w b u)=(((((c0_0 y z w a b u)*(c1_5 y z w a b u))+(((c0_1 y z w a b u)*(c1_4 y z w a b u))+(((c0_2 y z w a b u)*(c1_3 y z w a b u))+(((c0_3 y z w a b u)*(c1_2 y z w a b u))+(((c0_4 y z w a b u)*(c1_1 y z w a b u))+(((c0_5 y z w a b u)*(c1_0 y z w a b u))+0))))))+(((c2_0 y z w a b u)*(c3_5 y z w a b u))+(((c2_1 y z w a b u)*(c3_4 y z w a b u))+(((c2_2 y z w a b u)*(c3_3 y z w a b u))+(((c2_3 y z w a b u)*(c3_2 y z w a b u))+((c2_4 y z w a b u)*(c3_1 y z w a b u)))))))+((-1)*(c4_5 y z w a b u))) := by
   simp only [innerCertificate5,evaluate_add,evaluate_multiply,evaluate,
@@ -464,83 +243,6 @@ set_option maxRecDepth 32768
 namespace SmallLevelTwentySixMMPPariTrace024
 open SmallLevelPolynomialCoefficientCertificate
 
-compact_certificate_declaration theorem coefficient_5_0 (y z w b u : ℂ) :
-    (innerCertificate5 y z w b u)[0]?=some 0 := by
-  change some (((((((d0_2_0 y z w b u)*(d1_3_0 y z w b u))+0)+((((d0_3_0 y z w b u)*(d1_2_0 y z w b u))+0)+((((d0_4_0 y z w b u)*(d1_1_0 y z w b u))+0)+(((d0_5_0 y z w b u)*(d1_0_0 y z w b u))+0))))+((((d2_2_0 y z w b u)*(d3_3_0 y z w b u))+0)+((((d2_3_0 y z w b u)*(d3_2_0 y z w b u))+0)+(((d2_4_0 y z w b u)*(d3_1_0 y z w b u))+0))))+(((-1)*(d4_5_0 y z w b u))+0)))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_2_0,d0_3_0,d0_4_0,d0_5_0,d1_0_0,d1_1_0,d1_2_0,d1_3_0,d2_2_0,d2_3_0,d2_4_0,d3_1_0,d3_2_0,d3_3_0,d4_5_0]
-  ring
-#print axioms coefficient_5_0
-
-compact_certificate_declaration theorem coefficient_5_1 (y z w b u : ℂ) :
-    (innerCertificate5 y z w b u)[1]?=some 0 := by
-  change some (((((((d0_2_0 y z w b u)*(d1_3_1 y z w b u))+(((d0_2_1 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_3_0 y z w b u)*(d1_2_1 y z w b u))+(((d0_3_1 y z w b u)*(d1_2_0 y z w b u))+0))+((((d0_4_0 y z w b u)*(d1_1_1 y z w b u))+(((d0_4_1 y z w b u)*(d1_1_0 y z w b u))+0))+(((d0_5_0 y z w b u)*(d1_0_1 y z w b u))+(((d0_5_1 y z w b u)*(d1_0_0 y z w b u))+0)))))+((((d2_2_0 y z w b u)*(d3_3_1 y z w b u))+(((d2_2_1 y z w b u)*(d3_3_0 y z w b u))+0))+((((d2_3_0 y z w b u)*(d3_2_1 y z w b u))+(((d2_3_1 y z w b u)*(d3_2_0 y z w b u))+0))+((d2_4_0 y z w b u)*(d3_1_1 y z w b u)))))+((-1)*(d4_5_1 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_2_0,d0_2_1,d0_3_0,d0_3_1,d0_4_0,d0_4_1,d0_5_0,d0_5_1,d1_0_0,d1_0_1,d1_1_0,d1_1_1,d1_2_0,d1_2_1,d1_3_0,d1_3_1,d2_2_0,d2_2_1,d2_3_0,d2_3_1,d2_4_0,d3_1_1,d3_2_0,d3_2_1,d3_3_0,d3_3_1,d4_5_1]
-  ring
-#print axioms coefficient_5_1
-
-compact_certificate_declaration theorem coefficient_5_2 (y z w b u : ℂ) :
-    (innerCertificate5 y z w b u)[2]?=some 0 := by
-  change some (((((((d0_2_1 y z w b u)*(d1_3_1 y z w b u))+(((d0_2_2 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_3_0 y z w b u)*(d1_2_2 y z w b u))+(((d0_3_1 y z w b u)*(d1_2_1 y z w b u))+(((d0_3_2 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_4_0 y z w b u)*(d1_1_2 y z w b u))+(((d0_4_1 y z w b u)*(d1_1_1 y z w b u))+(((d0_4_2 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_5_0 y z w b u)*(d1_0_2 y z w b u))+(((d0_5_1 y z w b u)*(d1_0_1 y z w b u))+(((d0_5_2 y z w b u)*(d1_0_0 y z w b u))+0))))))+((((d2_2_0 y z w b u)*(d3_3_2 y z w b u))+(((d2_2_1 y z w b u)*(d3_3_1 y z w b u))+(((d2_2_2 y z w b u)*(d3_3_0 y z w b u))+0)))+((((d2_3_0 y z w b u)*(d3_2_2 y z w b u))+((d2_3_1 y z w b u)*(d3_2_1 y z w b u)))+((d2_4_0 y z w b u)*(d3_1_2 y z w b u)))))+((-1)*(d4_5_2 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_2_1,d0_2_2,d0_3_0,d0_3_1,d0_3_2,d0_4_0,d0_4_1,d0_4_2,d0_5_0,d0_5_1,d0_5_2,d1_0_0,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_1_2,d3_2_1,d3_2_2,d3_3_0,d3_3_1,d3_3_2,d4_5_2]
-  ring
-#print axioms coefficient_5_2
-
-compact_certificate_declaration theorem coefficient_5_3 (y z w b u : ℂ) :
-    (innerCertificate5 y z w b u)[3]?=some 0 := by
-  change some (((((((d0_2_2 y z w b u)*(d1_3_1 y z w b u))+(((d0_2_3 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_3_1 y z w b u)*(d1_2_2 y z w b u))+(((d0_3_2 y z w b u)*(d1_2_1 y z w b u))+(((d0_3_3 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_4_1 y z w b u)*(d1_1_2 y z w b u))+(((d0_4_2 y z w b u)*(d1_1_1 y z w b u))+(((d0_4_3 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_5_1 y z w b u)*(d1_0_2 y z w b u))+(((d0_5_2 y z w b u)*(d1_0_1 y z w b u))+(((d0_5_3 y z w b u)*(d1_0_0 y z w b u))+0))))))+((((d2_2_0 y z w b u)*(d3_3_3 y z w b u))+(((d2_2_1 y z w b u)*(d3_3_2 y z w b u))+((d2_2_2 y z w b u)*(d3_3_1 y z w b u))))+((((d2_3_0 y z w b u)*(d3_2_3 y z w b u))+((d2_3_1 y z w b u)*(d3_2_2 y z w b u)))+((d2_4_0 y z w b u)*(d3_1_3 y z w b u)))))+((-1)*(d4_5_3 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_2_2,d0_2_3,d0_3_1,d0_3_2,d0_3_3,d0_4_1,d0_4_2,d0_4_3,d0_5_1,d0_5_2,d0_5_3,d1_0_0,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_1_3,d3_2_2,d3_2_3,d3_3_1,d3_3_2,d3_3_3,d4_5_3]
-  ring
-#print axioms coefficient_5_3
-
-compact_certificate_declaration theorem coefficient_5_4 (y z w b u : ℂ) :
-    (innerCertificate5 y z w b u)[4]?=some 0 := by
-  change some (((((((d0_2_3 y z w b u)*(d1_3_1 y z w b u))+(((d0_2_4 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_3_2 y z w b u)*(d1_2_2 y z w b u))+(((d0_3_3 y z w b u)*(d1_2_1 y z w b u))+(((d0_3_4 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_4_2 y z w b u)*(d1_1_2 y z w b u))+(((d0_4_3 y z w b u)*(d1_1_1 y z w b u))+(((d0_4_4 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_5_2 y z w b u)*(d1_0_2 y z w b u))+(((d0_5_3 y z w b u)*(d1_0_1 y z w b u))+(((d0_5_4 y z w b u)*(d1_0_0 y z w b u))+0))))))+((((d2_2_0 y z w b u)*(d3_3_4 y z w b u))+(((d2_2_1 y z w b u)*(d3_3_3 y z w b u))+((d2_2_2 y z w b u)*(d3_3_2 y z w b u))))+((((d2_3_0 y z w b u)*(d3_2_4 y z w b u))+((d2_3_1 y z w b u)*(d3_2_3 y z w b u)))+((d2_4_0 y z w b u)*(d3_1_4 y z w b u)))))+((-1)*(d4_5_4 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_2_3,d0_2_4,d0_3_2,d0_3_3,d0_3_4,d0_4_2,d0_4_3,d0_4_4,d0_5_2,d0_5_3,d0_5_4,d1_0_0,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_1_4,d3_2_3,d3_2_4,d3_3_2,d3_3_3,d3_3_4,d4_5_4]
-  ring
-#print axioms coefficient_5_4
-
-compact_certificate_declaration theorem coefficient_5_5 (y z w b u : ℂ) :
-    (innerCertificate5 y z w b u)[5]?=some 0 := by
-  change some (((((((d0_2_4 y z w b u)*(d1_3_1 y z w b u))+(((d0_2_5 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_3_3 y z w b u)*(d1_2_2 y z w b u))+(((d0_3_4 y z w b u)*(d1_2_1 y z w b u))+(((d0_3_5 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_4_3 y z w b u)*(d1_1_2 y z w b u))+(((d0_4_4 y z w b u)*(d1_1_1 y z w b u))+(((d0_4_5 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_5_3 y z w b u)*(d1_0_2 y z w b u))+(((d0_5_4 y z w b u)*(d1_0_1 y z w b u))+(((d0_5_5 y z w b u)*(d1_0_0 y z w b u))+0))))))+((((d2_2_0 y z w b u)*(d3_3_5 y z w b u))+(((d2_2_1 y z w b u)*(d3_3_4 y z w b u))+((d2_2_2 y z w b u)*(d3_3_3 y z w b u))))+((((d2_3_0 y z w b u)*(d3_2_5 y z w b u))+((d2_3_1 y z w b u)*(d3_2_4 y z w b u)))+((d2_4_0 y z w b u)*(d3_1_5 y z w b u)))))+((-1)*(d4_5_5 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_2_4,d0_2_5,d0_3_3,d0_3_4,d0_3_5,d0_4_3,d0_4_4,d0_4_5,d0_5_3,d0_5_4,d0_5_5,d1_0_0,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_1_5,d3_2_4,d3_2_5,d3_3_3,d3_3_4,d3_3_5,d4_5_5]
-  ring
-#print axioms coefficient_5_5
-compact_certificate_declaration theorem coefficient_5_6 (y z w b u : ℂ) :
-    (innerCertificate5 y z w b u)[6]?=some 0 := by
-  change some (((((((d0_2_5 y z w b u)*(d1_3_1 y z w b u))+(((d0_2_6 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_3_4 y z w b u)*(d1_2_2 y z w b u))+(((d0_3_5 y z w b u)*(d1_2_1 y z w b u))+(((d0_3_6 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_4_4 y z w b u)*(d1_1_2 y z w b u))+(((d0_4_5 y z w b u)*(d1_1_1 y z w b u))+(((d0_4_6 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_5_4 y z w b u)*(d1_0_2 y z w b u))+(((d0_5_5 y z w b u)*(d1_0_1 y z w b u))+(((d0_5_6 y z w b u)*(d1_0_0 y z w b u))+0))))))+((((d2_2_0 y z w b u)*(d3_3_6 y z w b u))+(((d2_2_1 y z w b u)*(d3_3_5 y z w b u))+((d2_2_2 y z w b u)*(d3_3_4 y z w b u))))+((((d2_3_0 y z w b u)*(d3_2_6 y z w b u))+((d2_3_1 y z w b u)*(d3_2_5 y z w b u)))+((d2_4_0 y z w b u)*(d3_1_6 y z w b u)))))+((-1)*(d4_5_6 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_2_5,d0_2_6,d0_3_4,d0_3_5,d0_3_6,d0_4_4,d0_4_5,d0_4_6,d0_5_4,d0_5_5,d0_5_6,d1_0_0,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_1_6,d3_2_5,d3_2_6,d3_3_4,d3_3_5,d3_3_6,d4_5_6]
-  ring
-#print axioms coefficient_5_6
-compact_certificate_declaration theorem coefficient_5_7 (y z w b u : ℂ) :
-    (innerCertificate5 y z w b u)[7]?=some 0 := by
-  change some ((((((d0_2_6 y z w b u)*(d1_3_1 y z w b u))+((((d0_3_5 y z w b u)*(d1_2_2 y z w b u))+(((d0_3_6 y z w b u)*(d1_2_1 y z w b u))+(((d0_3_7 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_4_5 y z w b u)*(d1_1_2 y z w b u))+(((d0_4_6 y z w b u)*(d1_1_1 y z w b u))+(((d0_4_7 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_5_5 y z w b u)*(d1_0_2 y z w b u))+(((d0_5_6 y z w b u)*(d1_0_1 y z w b u))+(((d0_5_7 y z w b u)*(d1_0_0 y z w b u))+0))))))+((((d2_2_0 y z w b u)*(d3_3_7 y z w b u))+(((d2_2_1 y z w b u)*(d3_3_6 y z w b u))+((d2_2_2 y z w b u)*(d3_3_5 y z w b u))))+((((d2_3_0 y z w b u)*(d3_2_7 y z w b u))+((d2_3_1 y z w b u)*(d3_2_6 y z w b u)))+((d2_4_0 y z w b u)*(d3_1_7 y z w b u)))))+((-1)*(d4_5_7 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_2_6,d0_3_5,d0_3_6,d0_3_7,d0_4_5,d0_4_6,d0_4_7,d0_5_5,d0_5_6,d0_5_7,d1_0_0,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d1_3_1,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_1_7,d3_2_6,d3_2_7,d3_3_5,d3_3_6,d3_3_7,d4_5_7]
-  ring
-#print axioms coefficient_5_7
-
-compact_certificate_declaration theorem coefficient_5_8 (y z w b u : ℂ) :
-    (innerCertificate5 y z w b u)[8]?=some 0 := by
-  change some (((((((d0_3_6 y z w b u)*(d1_2_2 y z w b u))+((d0_3_7 y z w b u)*(d1_2_1 y z w b u)))+((((d0_4_6 y z w b u)*(d1_1_2 y z w b u))+((d0_4_7 y z w b u)*(d1_1_1 y z w b u)))+(((d0_5_6 y z w b u)*(d1_0_2 y z w b u))+((d0_5_7 y z w b u)*(d1_0_1 y z w b u)))))+((((d2_2_1 y z w b u)*(d3_3_7 y z w b u))+((d2_2_2 y z w b u)*(d3_3_6 y z w b u)))+((d2_3_1 y z w b u)*(d3_2_7 y z w b u))))+((-1)*(d4_5_8 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_3_6,d0_3_7,d0_4_6,d0_4_7,d0_5_6,d0_5_7,d1_0_1,d1_0_2,d1_1_1,d1_1_2,d1_2_1,d1_2_2,d2_2_1,d2_2_2,d2_3_1,d3_2_7,d3_3_6,d3_3_7,d4_5_8]
-  ring
-#print axioms coefficient_5_8
-compact_certificate_declaration theorem coefficient_5_9 (y z w b u : ℂ) :
-    (innerCertificate5 y z w b u)[9]?=some 0 := by
-  change some ((((((d0_3_7 y z w b u)*(d1_2_2 y z w b u))+(((d0_4_7 y z w b u)*(d1_1_2 y z w b u))+((d0_5_7 y z w b u)*(d1_0_2 y z w b u))))+((d2_2_2 y z w b u)*(d3_3_7 y z w b u)))+((-1)*(d4_5_9 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_3_7,d0_4_7,d0_5_7,d1_0_2,d1_1_2,d1_2_2,d2_2_2,d3_3_7,d4_5_9]
-  ring
-#print axioms coefficient_5_9
-
 end SmallLevelTwentySixMMPPariTrace024
 end
 
@@ -555,7 +257,8 @@ set_option linter.unnecessarySeqFocus false
 namespace SmallLevelTwentySixMMPPariTrace024
 open SmallLevelPolynomialCoefficientCertificate
 compact_certificate_declaration theorem inner_length_6 (y z w b u : ℂ) : (innerCertificate6 y z w b u).length=10 := by
-  norm_num [innerCertificate6,add,multiply,scale,inner0_1,inner0_2,inner0_3,inner0_4,inner0_5,inner0_6,inner1_0,inner1_1,inner1_2,inner1_3,inner1_4,inner1_5,inner2_0,inner2_1,inner2_2,inner2_3,inner2_4,inner3_2,inner3_3,inner3_4,inner3_5,inner3_6,inner4_6]
+  simp only [innerCertificate6, length_add, length_multiply, length_scale]
+  norm_num [inner0_1,inner0_2,inner0_3,inner0_4,inner0_5,inner0_6,inner1_0,inner1_1,inner1_2,inner1_3,inner1_4,inner1_5,inner2_0,inner2_1,inner2_2,inner2_3,inner2_4,inner3_2,inner3_3,inner3_4,inner3_5,inner3_6,inner4_6, List.length_cons, List.length_nil]
 compact_certificate_declaration theorem inner_eval_6 (y z w a b u : ℂ) :
     evaluate a (innerCertificate6 y z w b u)=(((((c0_1 y z w a b u)*(c1_5 y z w a b u))+(((c0_2 y z w a b u)*(c1_4 y z w a b u))+(((c0_3 y z w a b u)*(c1_3 y z w a b u))+(((c0_4 y z w a b u)*(c1_2 y z w a b u))+(((c0_5 y z w a b u)*(c1_1 y z w a b u))+(((c0_6 y z w a b u)*(c1_0 y z w a b u))+0))))))+(((c2_0 y z w a b u)*(c3_6 y z w a b u))+(((c2_1 y z w a b u)*(c3_5 y z w a b u))+(((c2_2 y z w a b u)*(c3_4 y z w a b u))+(((c2_3 y z w a b u)*(c3_3 y z w a b u))+((c2_4 y z w a b u)*(c3_2 y z w a b u)))))))+((-1)*(c4_6 y z w a b u))) := by
   simp only [innerCertificate6,evaluate_add,evaluate_multiply,evaluate,
@@ -577,83 +280,6 @@ set_option maxRecDepth 32768
 namespace SmallLevelTwentySixMMPPariTrace024
 open SmallLevelPolynomialCoefficientCertificate
 
-compact_certificate_declaration theorem coefficient_6_0 (y z w b u : ℂ) :
-    (innerCertificate6 y z w b u)[0]?=some 0 := by
-  change some (((((((d0_2_0 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_3_0 y z w b u)*(d1_3_0 y z w b u))+0)+((((d0_4_0 y z w b u)*(d1_2_0 y z w b u))+0)+((((d0_5_0 y z w b u)*(d1_1_0 y z w b u))+0)+(((d0_6_0 y z w b u)*(d1_0_0 y z w b u))+0)))))+((((d2_2_0 y z w b u)*(d3_4_0 y z w b u))+0)+((((d2_3_0 y z w b u)*(d3_3_0 y z w b u))+0)+(((d2_4_0 y z w b u)*(d3_2_0 y z w b u))+0))))+(((-1)*(d4_6_0 y z w b u))+0)))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_2_0,d0_3_0,d0_4_0,d0_5_0,d0_6_0,d1_0_0,d1_1_0,d1_2_0,d1_3_0,d1_4_0,d2_2_0,d2_3_0,d2_4_0,d3_2_0,d3_3_0,d3_4_0,d4_6_0]
-  ring
-#print axioms coefficient_6_0
-
-compact_certificate_declaration theorem coefficient_6_1 (y z w b u : ℂ) :
-    (innerCertificate6 y z w b u)[1]?=some 0 := by
-  change some (((((((d0_2_1 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_3_0 y z w b u)*(d1_3_1 y z w b u))+(((d0_3_1 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_4_0 y z w b u)*(d1_2_1 y z w b u))+(((d0_4_1 y z w b u)*(d1_2_0 y z w b u))+0))+((((d0_5_0 y z w b u)*(d1_1_1 y z w b u))+(((d0_5_1 y z w b u)*(d1_1_0 y z w b u))+0))+(((d0_6_0 y z w b u)*(d1_0_1 y z w b u))+(((d0_6_1 y z w b u)*(d1_0_0 y z w b u))+0))))))+((((d2_2_0 y z w b u)*(d3_4_1 y z w b u))+(((d2_2_1 y z w b u)*(d3_4_0 y z w b u))+0))+((((d2_3_0 y z w b u)*(d3_3_1 y z w b u))+(((d2_3_1 y z w b u)*(d3_3_0 y z w b u))+0))+((d2_4_0 y z w b u)*(d3_2_1 y z w b u)))))+((-1)*(d4_6_1 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_2_1,d0_3_0,d0_3_1,d0_4_0,d0_4_1,d0_5_0,d0_5_1,d0_6_0,d0_6_1,d1_0_0,d1_0_1,d1_1_0,d1_1_1,d1_2_0,d1_2_1,d1_3_0,d1_3_1,d1_4_0,d2_2_0,d2_2_1,d2_3_0,d2_3_1,d2_4_0,d3_2_1,d3_3_0,d3_3_1,d3_4_0,d3_4_1,d4_6_1]
-  ring
-#print axioms coefficient_6_1
-
-compact_certificate_declaration theorem coefficient_6_2 (y z w b u : ℂ) :
-    (innerCertificate6 y z w b u)[2]?=some 0 := by
-  change some (((((((d0_2_2 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_3_1 y z w b u)*(d1_3_1 y z w b u))+(((d0_3_2 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_4_0 y z w b u)*(d1_2_2 y z w b u))+(((d0_4_1 y z w b u)*(d1_2_1 y z w b u))+(((d0_4_2 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_5_0 y z w b u)*(d1_1_2 y z w b u))+(((d0_5_1 y z w b u)*(d1_1_1 y z w b u))+(((d0_5_2 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_6_0 y z w b u)*(d1_0_2 y z w b u))+(((d0_6_1 y z w b u)*(d1_0_1 y z w b u))+(((d0_6_2 y z w b u)*(d1_0_0 y z w b u))+0)))))))+((((d2_2_0 y z w b u)*(d3_4_2 y z w b u))+(((d2_2_1 y z w b u)*(d3_4_1 y z w b u))+(((d2_2_2 y z w b u)*(d3_4_0 y z w b u))+0)))+((((d2_3_0 y z w b u)*(d3_3_2 y z w b u))+((d2_3_1 y z w b u)*(d3_3_1 y z w b u)))+((d2_4_0 y z w b u)*(d3_2_2 y z w b u)))))+((-1)*(d4_6_2 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_2_2,d0_3_1,d0_3_2,d0_4_0,d0_4_1,d0_4_2,d0_5_0,d0_5_1,d0_5_2,d0_6_0,d0_6_1,d0_6_2,d1_0_0,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d1_4_0,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_2_2,d3_3_1,d3_3_2,d3_4_0,d3_4_1,d3_4_2,d4_6_2]
-  ring
-#print axioms coefficient_6_2
-
-compact_certificate_declaration theorem coefficient_6_3 (y z w b u : ℂ) :
-    (innerCertificate6 y z w b u)[3]?=some 0 := by
-  change some (((((((d0_2_3 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_3_2 y z w b u)*(d1_3_1 y z w b u))+(((d0_3_3 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_4_1 y z w b u)*(d1_2_2 y z w b u))+(((d0_4_2 y z w b u)*(d1_2_1 y z w b u))+(((d0_4_3 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_5_1 y z w b u)*(d1_1_2 y z w b u))+(((d0_5_2 y z w b u)*(d1_1_1 y z w b u))+(((d0_5_3 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_6_1 y z w b u)*(d1_0_2 y z w b u))+(((d0_6_2 y z w b u)*(d1_0_1 y z w b u))+(((d0_6_3 y z w b u)*(d1_0_0 y z w b u))+0)))))))+((((d2_2_0 y z w b u)*(d3_4_3 y z w b u))+(((d2_2_1 y z w b u)*(d3_4_2 y z w b u))+((d2_2_2 y z w b u)*(d3_4_1 y z w b u))))+((((d2_3_0 y z w b u)*(d3_3_3 y z w b u))+((d2_3_1 y z w b u)*(d3_3_2 y z w b u)))+((d2_4_0 y z w b u)*(d3_2_3 y z w b u)))))+((-1)*(d4_6_3 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_2_3,d0_3_2,d0_3_3,d0_4_1,d0_4_2,d0_4_3,d0_5_1,d0_5_2,d0_5_3,d0_6_1,d0_6_2,d0_6_3,d1_0_0,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d1_4_0,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_2_3,d3_3_2,d3_3_3,d3_4_1,d3_4_2,d3_4_3,d4_6_3]
-  ring
-#print axioms coefficient_6_3
-
-compact_certificate_declaration theorem coefficient_6_4 (y z w b u : ℂ) :
-    (innerCertificate6 y z w b u)[4]?=some 0 := by
-  change some (((((((d0_2_4 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_3_3 y z w b u)*(d1_3_1 y z w b u))+(((d0_3_4 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_4_2 y z w b u)*(d1_2_2 y z w b u))+(((d0_4_3 y z w b u)*(d1_2_1 y z w b u))+(((d0_4_4 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_5_2 y z w b u)*(d1_1_2 y z w b u))+(((d0_5_3 y z w b u)*(d1_1_1 y z w b u))+(((d0_5_4 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_6_2 y z w b u)*(d1_0_2 y z w b u))+(((d0_6_3 y z w b u)*(d1_0_1 y z w b u))+(((d0_6_4 y z w b u)*(d1_0_0 y z w b u))+0)))))))+((((d2_2_0 y z w b u)*(d3_4_4 y z w b u))+(((d2_2_1 y z w b u)*(d3_4_3 y z w b u))+((d2_2_2 y z w b u)*(d3_4_2 y z w b u))))+((((d2_3_0 y z w b u)*(d3_3_4 y z w b u))+((d2_3_1 y z w b u)*(d3_3_3 y z w b u)))+((d2_4_0 y z w b u)*(d3_2_4 y z w b u)))))+((-1)*(d4_6_4 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_2_4,d0_3_3,d0_3_4,d0_4_2,d0_4_3,d0_4_4,d0_5_2,d0_5_3,d0_5_4,d0_6_2,d0_6_3,d0_6_4,d1_0_0,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d1_4_0,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_2_4,d3_3_3,d3_3_4,d3_4_2,d3_4_3,d3_4_4,d4_6_4]
-  ring
-#print axioms coefficient_6_4
-
-compact_certificate_declaration theorem coefficient_6_5 (y z w b u : ℂ) :
-    (innerCertificate6 y z w b u)[5]?=some 0 := by
-  change some (((((((d0_2_5 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_3_4 y z w b u)*(d1_3_1 y z w b u))+(((d0_3_5 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_4_3 y z w b u)*(d1_2_2 y z w b u))+(((d0_4_4 y z w b u)*(d1_2_1 y z w b u))+(((d0_4_5 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_5_3 y z w b u)*(d1_1_2 y z w b u))+(((d0_5_4 y z w b u)*(d1_1_1 y z w b u))+(((d0_5_5 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_6_3 y z w b u)*(d1_0_2 y z w b u))+(((d0_6_4 y z w b u)*(d1_0_1 y z w b u))+(((d0_6_5 y z w b u)*(d1_0_0 y z w b u))+0)))))))+((((d2_2_0 y z w b u)*(d3_4_5 y z w b u))+(((d2_2_1 y z w b u)*(d3_4_4 y z w b u))+((d2_2_2 y z w b u)*(d3_4_3 y z w b u))))+((((d2_3_0 y z w b u)*(d3_3_5 y z w b u))+((d2_3_1 y z w b u)*(d3_3_4 y z w b u)))+((d2_4_0 y z w b u)*(d3_2_5 y z w b u)))))+((-1)*(d4_6_5 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_2_5,d0_3_4,d0_3_5,d0_4_3,d0_4_4,d0_4_5,d0_5_3,d0_5_4,d0_5_5,d0_6_3,d0_6_4,d0_6_5,d1_0_0,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d1_4_0,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_2_5,d3_3_4,d3_3_5,d3_4_3,d3_4_4,d3_4_5,d4_6_5]
-  ring
-#print axioms coefficient_6_5
-compact_certificate_declaration theorem coefficient_6_6 (y z w b u : ℂ) :
-    (innerCertificate6 y z w b u)[6]?=some 0 := by
-  change some (((((((d0_2_6 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_3_5 y z w b u)*(d1_3_1 y z w b u))+(((d0_3_6 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_4_4 y z w b u)*(d1_2_2 y z w b u))+(((d0_4_5 y z w b u)*(d1_2_1 y z w b u))+(((d0_4_6 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_5_4 y z w b u)*(d1_1_2 y z w b u))+(((d0_5_5 y z w b u)*(d1_1_1 y z w b u))+(((d0_5_6 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_6_4 y z w b u)*(d1_0_2 y z w b u))+(((d0_6_5 y z w b u)*(d1_0_1 y z w b u))+(((d0_6_6 y z w b u)*(d1_0_0 y z w b u))+0)))))))+((((d2_2_0 y z w b u)*(d3_4_6 y z w b u))+(((d2_2_1 y z w b u)*(d3_4_5 y z w b u))+((d2_2_2 y z w b u)*(d3_4_4 y z w b u))))+((((d2_3_0 y z w b u)*(d3_3_6 y z w b u))+((d2_3_1 y z w b u)*(d3_3_5 y z w b u)))+((d2_4_0 y z w b u)*(d3_2_6 y z w b u)))))+((-1)*(d4_6_6 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_2_6,d0_3_5,d0_3_6,d0_4_4,d0_4_5,d0_4_6,d0_5_4,d0_5_5,d0_5_6,d0_6_4,d0_6_5,d0_6_6,d1_0_0,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d1_4_0,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_2_6,d3_3_5,d3_3_6,d3_4_4,d3_4_5,d3_4_6,d4_6_6]
-  ring
-#print axioms coefficient_6_6
-compact_certificate_declaration theorem coefficient_6_7 (y z w b u : ℂ) :
-    (innerCertificate6 y z w b u)[7]?=some 0 := by
-  change some (((((((d0_3_6 y z w b u)*(d1_3_1 y z w b u))+(((d0_3_7 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_4_5 y z w b u)*(d1_2_2 y z w b u))+(((d0_4_6 y z w b u)*(d1_2_1 y z w b u))+(((d0_4_7 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_5_5 y z w b u)*(d1_1_2 y z w b u))+(((d0_5_6 y z w b u)*(d1_1_1 y z w b u))+(((d0_5_7 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_6_5 y z w b u)*(d1_0_2 y z w b u))+(((d0_6_6 y z w b u)*(d1_0_1 y z w b u))+(((d0_6_7 y z w b u)*(d1_0_0 y z w b u))+0))))))+((((d2_2_0 y z w b u)*(d3_4_7 y z w b u))+(((d2_2_1 y z w b u)*(d3_4_6 y z w b u))+((d2_2_2 y z w b u)*(d3_4_5 y z w b u))))+((((d2_3_0 y z w b u)*(d3_3_7 y z w b u))+((d2_3_1 y z w b u)*(d3_3_6 y z w b u)))+((d2_4_0 y z w b u)*(d3_2_7 y z w b u)))))+((-1)*(d4_6_7 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_3_6,d0_3_7,d0_4_5,d0_4_6,d0_4_7,d0_5_5,d0_5_6,d0_5_7,d0_6_5,d0_6_6,d0_6_7,d1_0_0,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_2_7,d3_3_6,d3_3_7,d3_4_5,d3_4_6,d3_4_7,d4_6_7]
-  ring
-#print axioms coefficient_6_7
-
-compact_certificate_declaration theorem coefficient_6_8 (y z w b u : ℂ) :
-    (innerCertificate6 y z w b u)[8]?=some 0 := by
-  change some ((((((d0_3_7 y z w b u)*(d1_3_1 y z w b u))+((((d0_4_6 y z w b u)*(d1_2_2 y z w b u))+((d0_4_7 y z w b u)*(d1_2_1 y z w b u)))+((((d0_5_6 y z w b u)*(d1_1_2 y z w b u))+((d0_5_7 y z w b u)*(d1_1_1 y z w b u)))+(((d0_6_6 y z w b u)*(d1_0_2 y z w b u))+((d0_6_7 y z w b u)*(d1_0_1 y z w b u))))))+((((d2_2_1 y z w b u)*(d3_4_7 y z w b u))+((d2_2_2 y z w b u)*(d3_4_6 y z w b u)))+((d2_3_1 y z w b u)*(d3_3_7 y z w b u))))+((-1)*(d4_6_8 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_3_7,d0_4_6,d0_4_7,d0_5_6,d0_5_7,d0_6_6,d0_6_7,d1_0_1,d1_0_2,d1_1_1,d1_1_2,d1_2_1,d1_2_2,d1_3_1,d2_2_1,d2_2_2,d2_3_1,d3_3_7,d3_4_6,d3_4_7,d4_6_8]
-  ring
-#print axioms coefficient_6_8
-compact_certificate_declaration theorem coefficient_6_9 (y z w b u : ℂ) :
-    (innerCertificate6 y z w b u)[9]?=some 0 := by
-  change some ((((((d0_4_7 y z w b u)*(d1_2_2 y z w b u))+(((d0_5_7 y z w b u)*(d1_1_2 y z w b u))+((d0_6_7 y z w b u)*(d1_0_2 y z w b u))))+((d2_2_2 y z w b u)*(d3_4_7 y z w b u)))+((-1)*(d4_6_9 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_4_7,d0_5_7,d0_6_7,d1_0_2,d1_1_2,d1_2_2,d2_2_2,d3_4_7,d4_6_9]
-  ring
-#print axioms coefficient_6_9
-
 end SmallLevelTwentySixMMPPariTrace024
 end
 
@@ -668,7 +294,8 @@ set_option linter.unnecessarySeqFocus false
 namespace SmallLevelTwentySixMMPPariTrace024
 open SmallLevelPolynomialCoefficientCertificate
 compact_certificate_declaration theorem inner_length_7 (y z w b u : ℂ) : (innerCertificate7 y z w b u).length=10 := by
-  norm_num [innerCertificate7,add,multiply,scale,inner0_2,inner0_3,inner0_4,inner0_5,inner0_6,inner0_7,inner1_0,inner1_1,inner1_2,inner1_3,inner1_4,inner1_5,inner2_0,inner2_1,inner2_2,inner2_3,inner2_4,inner3_3,inner3_4,inner3_5,inner3_6,inner3_7,inner4_7]
+  simp only [innerCertificate7, length_add, length_multiply, length_scale]
+  norm_num [inner0_2,inner0_3,inner0_4,inner0_5,inner0_6,inner0_7,inner1_0,inner1_1,inner1_2,inner1_3,inner1_4,inner1_5,inner2_0,inner2_1,inner2_2,inner2_3,inner2_4,inner3_3,inner3_4,inner3_5,inner3_6,inner3_7,inner4_7, List.length_cons, List.length_nil]
 compact_certificate_declaration theorem inner_eval_7 (y z w a b u : ℂ) :
     evaluate a (innerCertificate7 y z w b u)=(((((c0_2 y z w a b u)*(c1_5 y z w a b u))+(((c0_3 y z w a b u)*(c1_4 y z w a b u))+(((c0_4 y z w a b u)*(c1_3 y z w a b u))+(((c0_5 y z w a b u)*(c1_2 y z w a b u))+(((c0_6 y z w a b u)*(c1_1 y z w a b u))+(((c0_7 y z w a b u)*(c1_0 y z w a b u))+0))))))+(((c2_0 y z w a b u)*(c3_7 y z w a b u))+(((c2_1 y z w a b u)*(c3_6 y z w a b u))+(((c2_2 y z w a b u)*(c3_5 y z w a b u))+(((c2_3 y z w a b u)*(c3_4 y z w a b u))+((c2_4 y z w a b u)*(c3_3 y z w a b u)))))))+((-1)*(c4_7 y z w a b u))) := by
   simp only [innerCertificate7,evaluate_add,evaluate_multiply,evaluate,
@@ -690,83 +317,6 @@ set_option maxRecDepth 32768
 namespace SmallLevelTwentySixMMPPariTrace024
 open SmallLevelPolynomialCoefficientCertificate
 
-compact_certificate_declaration theorem coefficient_7_0 (y z w b u : ℂ) :
-    (innerCertificate7 y z w b u)[0]?=some 0 := by
-  change some (((((((d0_2_0 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_3_0 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_4_0 y z w b u)*(d1_3_0 y z w b u))+0)+((((d0_5_0 y z w b u)*(d1_2_0 y z w b u))+0)+((((d0_6_0 y z w b u)*(d1_1_0 y z w b u))+0)+(((d0_7_0 y z w b u)*(d1_0_0 y z w b u))+0))))))+((((d2_2_0 y z w b u)*(d3_5_0 y z w b u))+0)+((((d2_3_0 y z w b u)*(d3_4_0 y z w b u))+0)+(((d2_4_0 y z w b u)*(d3_3_0 y z w b u))+0))))+(((-1)*(d4_7_0 y z w b u))+0)))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_2_0,d0_3_0,d0_4_0,d0_5_0,d0_6_0,d0_7_0,d1_0_0,d1_1_0,d1_2_0,d1_3_0,d1_4_0,d1_5_0,d2_2_0,d2_3_0,d2_4_0,d3_3_0,d3_4_0,d3_5_0,d4_7_0]
-  ring
-#print axioms coefficient_7_0
-
-compact_certificate_declaration theorem coefficient_7_1 (y z w b u : ℂ) :
-    (innerCertificate7 y z w b u)[1]?=some 0 := by
-  change some (((((((d0_2_1 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_3_1 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_4_0 y z w b u)*(d1_3_1 y z w b u))+(((d0_4_1 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_5_0 y z w b u)*(d1_2_1 y z w b u))+(((d0_5_1 y z w b u)*(d1_2_0 y z w b u))+0))+((((d0_6_0 y z w b u)*(d1_1_1 y z w b u))+(((d0_6_1 y z w b u)*(d1_1_0 y z w b u))+0))+(((d0_7_0 y z w b u)*(d1_0_1 y z w b u))+(((d0_7_1 y z w b u)*(d1_0_0 y z w b u))+0)))))))+((((d2_2_0 y z w b u)*(d3_5_1 y z w b u))+(((d2_2_1 y z w b u)*(d3_5_0 y z w b u))+0))+((((d2_3_0 y z w b u)*(d3_4_1 y z w b u))+(((d2_3_1 y z w b u)*(d3_4_0 y z w b u))+0))+((d2_4_0 y z w b u)*(d3_3_1 y z w b u)))))+((-1)*(d4_7_1 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_2_1,d0_3_1,d0_4_0,d0_4_1,d0_5_0,d0_5_1,d0_6_0,d0_6_1,d0_7_0,d0_7_1,d1_0_0,d1_0_1,d1_1_0,d1_1_1,d1_2_0,d1_2_1,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_0,d2_2_1,d2_3_0,d2_3_1,d2_4_0,d3_3_1,d3_4_0,d3_4_1,d3_5_0,d3_5_1,d4_7_1]
-  ring
-#print axioms coefficient_7_1
-
-compact_certificate_declaration theorem coefficient_7_2 (y z w b u : ℂ) :
-    (innerCertificate7 y z w b u)[2]?=some 0 := by
-  change some (((((((d0_2_2 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_3_2 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_4_1 y z w b u)*(d1_3_1 y z w b u))+(((d0_4_2 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_5_0 y z w b u)*(d1_2_2 y z w b u))+(((d0_5_1 y z w b u)*(d1_2_1 y z w b u))+(((d0_5_2 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_6_0 y z w b u)*(d1_1_2 y z w b u))+(((d0_6_1 y z w b u)*(d1_1_1 y z w b u))+(((d0_6_2 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_7_0 y z w b u)*(d1_0_2 y z w b u))+(((d0_7_1 y z w b u)*(d1_0_1 y z w b u))+(((d0_7_2 y z w b u)*(d1_0_0 y z w b u))+0))))))))+((((d2_2_0 y z w b u)*(d3_5_2 y z w b u))+(((d2_2_1 y z w b u)*(d3_5_1 y z w b u))+(((d2_2_2 y z w b u)*(d3_5_0 y z w b u))+0)))+((((d2_3_0 y z w b u)*(d3_4_2 y z w b u))+((d2_3_1 y z w b u)*(d3_4_1 y z w b u)))+((d2_4_0 y z w b u)*(d3_3_2 y z w b u)))))+((-1)*(d4_7_2 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_2_2,d0_3_2,d0_4_1,d0_4_2,d0_5_0,d0_5_1,d0_5_2,d0_6_0,d0_6_1,d0_6_2,d0_7_0,d0_7_1,d0_7_2,d1_0_0,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_3_2,d3_4_1,d3_4_2,d3_5_0,d3_5_1,d3_5_2,d4_7_2]
-  ring
-#print axioms coefficient_7_2
-
-compact_certificate_declaration theorem coefficient_7_3 (y z w b u : ℂ) :
-    (innerCertificate7 y z w b u)[3]?=some 0 := by
-  change some (((((((d0_2_3 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_3_3 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_4_2 y z w b u)*(d1_3_1 y z w b u))+(((d0_4_3 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_5_1 y z w b u)*(d1_2_2 y z w b u))+(((d0_5_2 y z w b u)*(d1_2_1 y z w b u))+(((d0_5_3 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_6_1 y z w b u)*(d1_1_2 y z w b u))+(((d0_6_2 y z w b u)*(d1_1_1 y z w b u))+(((d0_6_3 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_7_1 y z w b u)*(d1_0_2 y z w b u))+(((d0_7_2 y z w b u)*(d1_0_1 y z w b u))+(((d0_7_3 y z w b u)*(d1_0_0 y z w b u))+0))))))))+((((d2_2_0 y z w b u)*(d3_5_3 y z w b u))+(((d2_2_1 y z w b u)*(d3_5_2 y z w b u))+((d2_2_2 y z w b u)*(d3_5_1 y z w b u))))+((((d2_3_0 y z w b u)*(d3_4_3 y z w b u))+((d2_3_1 y z w b u)*(d3_4_2 y z w b u)))+((d2_4_0 y z w b u)*(d3_3_3 y z w b u)))))+((-1)*(d4_7_3 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_2_3,d0_3_3,d0_4_2,d0_4_3,d0_5_1,d0_5_2,d0_5_3,d0_6_1,d0_6_2,d0_6_3,d0_7_1,d0_7_2,d0_7_3,d1_0_0,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_3_3,d3_4_2,d3_4_3,d3_5_1,d3_5_2,d3_5_3,d4_7_3]
-  ring
-#print axioms coefficient_7_3
-
-compact_certificate_declaration theorem coefficient_7_4 (y z w b u : ℂ) :
-    (innerCertificate7 y z w b u)[4]?=some 0 := by
-  change some (((((((d0_2_4 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_3_4 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_4_3 y z w b u)*(d1_3_1 y z w b u))+(((d0_4_4 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_5_2 y z w b u)*(d1_2_2 y z w b u))+(((d0_5_3 y z w b u)*(d1_2_1 y z w b u))+(((d0_5_4 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_6_2 y z w b u)*(d1_1_2 y z w b u))+(((d0_6_3 y z w b u)*(d1_1_1 y z w b u))+(((d0_6_4 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_7_2 y z w b u)*(d1_0_2 y z w b u))+(((d0_7_3 y z w b u)*(d1_0_1 y z w b u))+(((d0_7_4 y z w b u)*(d1_0_0 y z w b u))+0))))))))+((((d2_2_0 y z w b u)*(d3_5_4 y z w b u))+(((d2_2_1 y z w b u)*(d3_5_3 y z w b u))+((d2_2_2 y z w b u)*(d3_5_2 y z w b u))))+((((d2_3_0 y z w b u)*(d3_4_4 y z w b u))+((d2_3_1 y z w b u)*(d3_4_3 y z w b u)))+((d2_4_0 y z w b u)*(d3_3_4 y z w b u)))))+((-1)*(d4_7_4 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_2_4,d0_3_4,d0_4_3,d0_4_4,d0_5_2,d0_5_3,d0_5_4,d0_6_2,d0_6_3,d0_6_4,d0_7_2,d0_7_3,d0_7_4,d1_0_0,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_3_4,d3_4_3,d3_4_4,d3_5_2,d3_5_3,d3_5_4,d4_7_4]
-  ring
-#print axioms coefficient_7_4
-
-compact_certificate_declaration theorem coefficient_7_5 (y z w b u : ℂ) :
-    (innerCertificate7 y z w b u)[5]?=some 0 := by
-  change some (((((((d0_2_5 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_3_5 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_4_4 y z w b u)*(d1_3_1 y z w b u))+(((d0_4_5 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_5_3 y z w b u)*(d1_2_2 y z w b u))+(((d0_5_4 y z w b u)*(d1_2_1 y z w b u))+(((d0_5_5 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_6_3 y z w b u)*(d1_1_2 y z w b u))+(((d0_6_4 y z w b u)*(d1_1_1 y z w b u))+(((d0_6_5 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_7_3 y z w b u)*(d1_0_2 y z w b u))+(((d0_7_4 y z w b u)*(d1_0_1 y z w b u))+(((d0_7_5 y z w b u)*(d1_0_0 y z w b u))+0))))))))+((((d2_2_0 y z w b u)*(d3_5_5 y z w b u))+(((d2_2_1 y z w b u)*(d3_5_4 y z w b u))+((d2_2_2 y z w b u)*(d3_5_3 y z w b u))))+((((d2_3_0 y z w b u)*(d3_4_5 y z w b u))+((d2_3_1 y z w b u)*(d3_4_4 y z w b u)))+((d2_4_0 y z w b u)*(d3_3_5 y z w b u)))))+((-1)*(d4_7_5 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_2_5,d0_3_5,d0_4_4,d0_4_5,d0_5_3,d0_5_4,d0_5_5,d0_6_3,d0_6_4,d0_6_5,d0_7_3,d0_7_4,d0_7_5,d1_0_0,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_3_5,d3_4_4,d3_4_5,d3_5_3,d3_5_4,d3_5_5,d4_7_5]
-  ring
-#print axioms coefficient_7_5
-compact_certificate_declaration theorem coefficient_7_6 (y z w b u : ℂ) :
-    (innerCertificate7 y z w b u)[6]?=some 0 := by
-  change some (((((((d0_2_6 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_3_6 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_4_5 y z w b u)*(d1_3_1 y z w b u))+(((d0_4_6 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_5_4 y z w b u)*(d1_2_2 y z w b u))+(((d0_5_5 y z w b u)*(d1_2_1 y z w b u))+(((d0_5_6 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_6_4 y z w b u)*(d1_1_2 y z w b u))+(((d0_6_5 y z w b u)*(d1_1_1 y z w b u))+(((d0_6_6 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_7_4 y z w b u)*(d1_0_2 y z w b u))+(((d0_7_5 y z w b u)*(d1_0_1 y z w b u))+(((d0_7_6 y z w b u)*(d1_0_0 y z w b u))+0))))))))+((((d2_2_0 y z w b u)*(d3_5_6 y z w b u))+(((d2_2_1 y z w b u)*(d3_5_5 y z w b u))+((d2_2_2 y z w b u)*(d3_5_4 y z w b u))))+((((d2_3_0 y z w b u)*(d3_4_6 y z w b u))+((d2_3_1 y z w b u)*(d3_4_5 y z w b u)))+((d2_4_0 y z w b u)*(d3_3_6 y z w b u)))))+((-1)*(d4_7_6 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_2_6,d0_3_6,d0_4_5,d0_4_6,d0_5_4,d0_5_5,d0_5_6,d0_6_4,d0_6_5,d0_6_6,d0_7_4,d0_7_5,d0_7_6,d1_0_0,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_3_6,d3_4_5,d3_4_6,d3_5_4,d3_5_5,d3_5_6,d4_7_6]
-  ring
-#print axioms coefficient_7_6
-compact_certificate_declaration theorem coefficient_7_7 (y z w b u : ℂ) :
-    (innerCertificate7 y z w b u)[7]?=some 0 := by
-  change some (((((((d0_3_7 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_4_6 y z w b u)*(d1_3_1 y z w b u))+(((d0_4_7 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_5_5 y z w b u)*(d1_2_2 y z w b u))+(((d0_5_6 y z w b u)*(d1_2_1 y z w b u))+(((d0_5_7 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_6_5 y z w b u)*(d1_1_2 y z w b u))+(((d0_6_6 y z w b u)*(d1_1_1 y z w b u))+(((d0_6_7 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_7_5 y z w b u)*(d1_0_2 y z w b u))+(((d0_7_6 y z w b u)*(d1_0_1 y z w b u))+(((d0_7_7 y z w b u)*(d1_0_0 y z w b u))+0)))))))+((((d2_2_0 y z w b u)*(d3_5_7 y z w b u))+(((d2_2_1 y z w b u)*(d3_5_6 y z w b u))+((d2_2_2 y z w b u)*(d3_5_5 y z w b u))))+((((d2_3_0 y z w b u)*(d3_4_7 y z w b u))+((d2_3_1 y z w b u)*(d3_4_6 y z w b u)))+((d2_4_0 y z w b u)*(d3_3_7 y z w b u)))))+((-1)*(d4_7_7 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_3_7,d0_4_6,d0_4_7,d0_5_5,d0_5_6,d0_5_7,d0_6_5,d0_6_6,d0_6_7,d0_7_5,d0_7_6,d0_7_7,d1_0_0,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d1_4_0,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_3_7,d3_4_6,d3_4_7,d3_5_5,d3_5_6,d3_5_7,d4_7_7]
-  ring
-#print axioms coefficient_7_7
-
-compact_certificate_declaration theorem coefficient_7_8 (y z w b u : ℂ) :
-    (innerCertificate7 y z w b u)[8]?=some 0 := by
-  change some ((((((d0_4_7 y z w b u)*(d1_3_1 y z w b u))+((((d0_5_6 y z w b u)*(d1_2_2 y z w b u))+((d0_5_7 y z w b u)*(d1_2_1 y z w b u)))+((((d0_6_6 y z w b u)*(d1_1_2 y z w b u))+((d0_6_7 y z w b u)*(d1_1_1 y z w b u)))+(((d0_7_6 y z w b u)*(d1_0_2 y z w b u))+((d0_7_7 y z w b u)*(d1_0_1 y z w b u))))))+((((d2_2_1 y z w b u)*(d3_5_7 y z w b u))+((d2_2_2 y z w b u)*(d3_5_6 y z w b u)))+((d2_3_1 y z w b u)*(d3_4_7 y z w b u))))+((-1)*(d4_7_8 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_4_7,d0_5_6,d0_5_7,d0_6_6,d0_6_7,d0_7_6,d0_7_7,d1_0_1,d1_0_2,d1_1_1,d1_1_2,d1_2_1,d1_2_2,d1_3_1,d2_2_1,d2_2_2,d2_3_1,d3_4_7,d3_5_6,d3_5_7,d4_7_8]
-  ring
-#print axioms coefficient_7_8
-compact_certificate_declaration theorem coefficient_7_9 (y z w b u : ℂ) :
-    (innerCertificate7 y z w b u)[9]?=some 0 := by
-  change some ((((((d0_5_7 y z w b u)*(d1_2_2 y z w b u))+(((d0_6_7 y z w b u)*(d1_1_2 y z w b u))+((d0_7_7 y z w b u)*(d1_0_2 y z w b u))))+((d2_2_2 y z w b u)*(d3_5_7 y z w b u)))+((-1)*(d4_7_9 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_5_7,d0_6_7,d0_7_7,d1_0_2,d1_1_2,d1_2_2,d2_2_2,d3_5_7,d4_7_9]
-  ring
-#print axioms coefficient_7_9
-
 end SmallLevelTwentySixMMPPariTrace024
 end
 
@@ -781,7 +331,8 @@ set_option linter.unnecessarySeqFocus false
 namespace SmallLevelTwentySixMMPPariTrace024
 open SmallLevelPolynomialCoefficientCertificate
 compact_certificate_declaration theorem inner_length_8 (y z w b u : ℂ) : (innerCertificate8 y z w b u).length=10 := by
-  norm_num [innerCertificate8,add,multiply,scale,inner0_3,inner0_4,inner0_5,inner0_6,inner0_7,inner0_8,inner1_0,inner1_1,inner1_2,inner1_3,inner1_4,inner1_5,inner2_0,inner2_1,inner2_2,inner2_3,inner2_4,inner3_4,inner3_5,inner3_6,inner3_7,inner3_8,inner4_8]
+  simp only [innerCertificate8, length_add, length_multiply, length_scale]
+  norm_num [inner0_3,inner0_4,inner0_5,inner0_6,inner0_7,inner0_8,inner1_0,inner1_1,inner1_2,inner1_3,inner1_4,inner1_5,inner2_0,inner2_1,inner2_2,inner2_3,inner2_4,inner3_4,inner3_5,inner3_6,inner3_7,inner3_8,inner4_8, List.length_cons, List.length_nil]
 compact_certificate_declaration theorem inner_eval_8 (y z w a b u : ℂ) :
     evaluate a (innerCertificate8 y z w b u)=(((((c0_3 y z w a b u)*(c1_5 y z w a b u))+(((c0_4 y z w a b u)*(c1_4 y z w a b u))+(((c0_5 y z w a b u)*(c1_3 y z w a b u))+(((c0_6 y z w a b u)*(c1_2 y z w a b u))+(((c0_7 y z w a b u)*(c1_1 y z w a b u))+(((c0_8 y z w a b u)*(c1_0 y z w a b u))+0))))))+(((c2_0 y z w a b u)*(c3_8 y z w a b u))+(((c2_1 y z w a b u)*(c3_7 y z w a b u))+(((c2_2 y z w a b u)*(c3_6 y z w a b u))+(((c2_3 y z w a b u)*(c3_5 y z w a b u))+((c2_4 y z w a b u)*(c3_4 y z w a b u)))))))+((-1)*(c4_8 y z w a b u))) := by
   simp only [innerCertificate8,evaluate_add,evaluate_multiply,evaluate,
@@ -803,83 +354,6 @@ set_option maxRecDepth 32768
 namespace SmallLevelTwentySixMMPPariTrace024
 open SmallLevelPolynomialCoefficientCertificate
 
-compact_certificate_declaration theorem coefficient_8_0 (y z w b u : ℂ) :
-    (innerCertificate8 y z w b u)[0]?=some 0 := by
-  change some (((((((d0_3_0 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_4_0 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_5_0 y z w b u)*(d1_3_0 y z w b u))+0)+((((d0_6_0 y z w b u)*(d1_2_0 y z w b u))+0)+((((d0_7_0 y z w b u)*(d1_1_0 y z w b u))+0)+(((d0_8_0 y z w b u)*(d1_0_0 y z w b u))+0))))))+((((d2_2_0 y z w b u)*(d3_6_0 y z w b u))+0)+((((d2_3_0 y z w b u)*(d3_5_0 y z w b u))+0)+(((d2_4_0 y z w b u)*(d3_4_0 y z w b u))+0))))+(((-1)*(d4_8_0 y z w b u))+0)))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_3_0,d0_4_0,d0_5_0,d0_6_0,d0_7_0,d0_8_0,d1_0_0,d1_1_0,d1_2_0,d1_3_0,d1_4_0,d1_5_0,d2_2_0,d2_3_0,d2_4_0,d3_4_0,d3_5_0,d3_6_0,d4_8_0]
-  ring
-#print axioms coefficient_8_0
-
-compact_certificate_declaration theorem coefficient_8_1 (y z w b u : ℂ) :
-    (innerCertificate8 y z w b u)[1]?=some 0 := by
-  change some (((((((d0_3_1 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_4_1 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_5_0 y z w b u)*(d1_3_1 y z w b u))+(((d0_5_1 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_6_0 y z w b u)*(d1_2_1 y z w b u))+(((d0_6_1 y z w b u)*(d1_2_0 y z w b u))+0))+((((d0_7_0 y z w b u)*(d1_1_1 y z w b u))+(((d0_7_1 y z w b u)*(d1_1_0 y z w b u))+0))+(((d0_8_0 y z w b u)*(d1_0_1 y z w b u))+(((d0_8_1 y z w b u)*(d1_0_0 y z w b u))+0)))))))+((((d2_2_0 y z w b u)*(d3_6_1 y z w b u))+(((d2_2_1 y z w b u)*(d3_6_0 y z w b u))+0))+((((d2_3_0 y z w b u)*(d3_5_1 y z w b u))+(((d2_3_1 y z w b u)*(d3_5_0 y z w b u))+0))+((d2_4_0 y z w b u)*(d3_4_1 y z w b u)))))+((-1)*(d4_8_1 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_3_1,d0_4_1,d0_5_0,d0_5_1,d0_6_0,d0_6_1,d0_7_0,d0_7_1,d0_8_0,d0_8_1,d1_0_0,d1_0_1,d1_1_0,d1_1_1,d1_2_0,d1_2_1,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_0,d2_2_1,d2_3_0,d2_3_1,d2_4_0,d3_4_1,d3_5_0,d3_5_1,d3_6_0,d3_6_1,d4_8_1]
-  ring
-#print axioms coefficient_8_1
-
-compact_certificate_declaration theorem coefficient_8_2 (y z w b u : ℂ) :
-    (innerCertificate8 y z w b u)[2]?=some 0 := by
-  change some (((((((d0_3_2 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_4_2 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_5_1 y z w b u)*(d1_3_1 y z w b u))+(((d0_5_2 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_6_0 y z w b u)*(d1_2_2 y z w b u))+(((d0_6_1 y z w b u)*(d1_2_1 y z w b u))+(((d0_6_2 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_7_0 y z w b u)*(d1_1_2 y z w b u))+(((d0_7_1 y z w b u)*(d1_1_1 y z w b u))+(((d0_7_2 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_8_0 y z w b u)*(d1_0_2 y z w b u))+(((d0_8_1 y z w b u)*(d1_0_1 y z w b u))+(((d0_8_2 y z w b u)*(d1_0_0 y z w b u))+0))))))))+((((d2_2_0 y z w b u)*(d3_6_2 y z w b u))+(((d2_2_1 y z w b u)*(d3_6_1 y z w b u))+(((d2_2_2 y z w b u)*(d3_6_0 y z w b u))+0)))+((((d2_3_0 y z w b u)*(d3_5_2 y z w b u))+((d2_3_1 y z w b u)*(d3_5_1 y z w b u)))+((d2_4_0 y z w b u)*(d3_4_2 y z w b u)))))+((-1)*(d4_8_2 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_3_2,d0_4_2,d0_5_1,d0_5_2,d0_6_0,d0_6_1,d0_6_2,d0_7_0,d0_7_1,d0_7_2,d0_8_0,d0_8_1,d0_8_2,d1_0_0,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_4_2,d3_5_1,d3_5_2,d3_6_0,d3_6_1,d3_6_2,d4_8_2]
-  ring
-#print axioms coefficient_8_2
-
-compact_certificate_declaration theorem coefficient_8_3 (y z w b u : ℂ) :
-    (innerCertificate8 y z w b u)[3]?=some 0 := by
-  change some (((((((d0_3_3 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_4_3 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_5_2 y z w b u)*(d1_3_1 y z w b u))+(((d0_5_3 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_6_1 y z w b u)*(d1_2_2 y z w b u))+(((d0_6_2 y z w b u)*(d1_2_1 y z w b u))+(((d0_6_3 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_7_1 y z w b u)*(d1_1_2 y z w b u))+(((d0_7_2 y z w b u)*(d1_1_1 y z w b u))+(((d0_7_3 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_8_1 y z w b u)*(d1_0_2 y z w b u))+(((d0_8_2 y z w b u)*(d1_0_1 y z w b u))+(((d0_8_3 y z w b u)*(d1_0_0 y z w b u))+0))))))))+((((d2_2_0 y z w b u)*(d3_6_3 y z w b u))+(((d2_2_1 y z w b u)*(d3_6_2 y z w b u))+((d2_2_2 y z w b u)*(d3_6_1 y z w b u))))+((((d2_3_0 y z w b u)*(d3_5_3 y z w b u))+((d2_3_1 y z w b u)*(d3_5_2 y z w b u)))+((d2_4_0 y z w b u)*(d3_4_3 y z w b u)))))+((-1)*(d4_8_3 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_3_3,d0_4_3,d0_5_2,d0_5_3,d0_6_1,d0_6_2,d0_6_3,d0_7_1,d0_7_2,d0_7_3,d0_8_1,d0_8_2,d0_8_3,d1_0_0,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_4_3,d3_5_2,d3_5_3,d3_6_1,d3_6_2,d3_6_3,d4_8_3]
-  ring
-#print axioms coefficient_8_3
-
-compact_certificate_declaration theorem coefficient_8_4 (y z w b u : ℂ) :
-    (innerCertificate8 y z w b u)[4]?=some 0 := by
-  change some (((((((d0_3_4 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_4_4 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_5_3 y z w b u)*(d1_3_1 y z w b u))+(((d0_5_4 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_6_2 y z w b u)*(d1_2_2 y z w b u))+(((d0_6_3 y z w b u)*(d1_2_1 y z w b u))+(((d0_6_4 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_7_2 y z w b u)*(d1_1_2 y z w b u))+(((d0_7_3 y z w b u)*(d1_1_1 y z w b u))+(((d0_7_4 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_8_2 y z w b u)*(d1_0_2 y z w b u))+(((d0_8_3 y z w b u)*(d1_0_1 y z w b u))+(((d0_8_4 y z w b u)*(d1_0_0 y z w b u))+0))))))))+((((d2_2_0 y z w b u)*(d3_6_4 y z w b u))+(((d2_2_1 y z w b u)*(d3_6_3 y z w b u))+((d2_2_2 y z w b u)*(d3_6_2 y z w b u))))+((((d2_3_0 y z w b u)*(d3_5_4 y z w b u))+((d2_3_1 y z w b u)*(d3_5_3 y z w b u)))+((d2_4_0 y z w b u)*(d3_4_4 y z w b u)))))+((-1)*(d4_8_4 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_3_4,d0_4_4,d0_5_3,d0_5_4,d0_6_2,d0_6_3,d0_6_4,d0_7_2,d0_7_3,d0_7_4,d0_8_2,d0_8_3,d0_8_4,d1_0_0,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_4_4,d3_5_3,d3_5_4,d3_6_2,d3_6_3,d3_6_4,d4_8_4]
-  ring
-#print axioms coefficient_8_4
-
-compact_certificate_declaration theorem coefficient_8_5 (y z w b u : ℂ) :
-    (innerCertificate8 y z w b u)[5]?=some 0 := by
-  change some (((((((d0_3_5 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_4_5 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_5_4 y z w b u)*(d1_3_1 y z w b u))+(((d0_5_5 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_6_3 y z w b u)*(d1_2_2 y z w b u))+(((d0_6_4 y z w b u)*(d1_2_1 y z w b u))+(((d0_6_5 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_7_3 y z w b u)*(d1_1_2 y z w b u))+(((d0_7_4 y z w b u)*(d1_1_1 y z w b u))+(((d0_7_5 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_8_3 y z w b u)*(d1_0_2 y z w b u))+(((d0_8_4 y z w b u)*(d1_0_1 y z w b u))+(((d0_8_5 y z w b u)*(d1_0_0 y z w b u))+0))))))))+((((d2_2_0 y z w b u)*(d3_6_5 y z w b u))+(((d2_2_1 y z w b u)*(d3_6_4 y z w b u))+((d2_2_2 y z w b u)*(d3_6_3 y z w b u))))+((((d2_3_0 y z w b u)*(d3_5_5 y z w b u))+((d2_3_1 y z w b u)*(d3_5_4 y z w b u)))+((d2_4_0 y z w b u)*(d3_4_5 y z w b u)))))+((-1)*(d4_8_5 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_3_5,d0_4_5,d0_5_4,d0_5_5,d0_6_3,d0_6_4,d0_6_5,d0_7_3,d0_7_4,d0_7_5,d0_8_3,d0_8_4,d0_8_5,d1_0_0,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_4_5,d3_5_4,d3_5_5,d3_6_3,d3_6_4,d3_6_5,d4_8_5]
-  ring
-#print axioms coefficient_8_5
-compact_certificate_declaration theorem coefficient_8_6 (y z w b u : ℂ) :
-    (innerCertificate8 y z w b u)[6]?=some 0 := by
-  change some (((((((d0_3_6 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_4_6 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_5_5 y z w b u)*(d1_3_1 y z w b u))+(((d0_5_6 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_6_4 y z w b u)*(d1_2_2 y z w b u))+(((d0_6_5 y z w b u)*(d1_2_1 y z w b u))+(((d0_6_6 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_7_4 y z w b u)*(d1_1_2 y z w b u))+(((d0_7_5 y z w b u)*(d1_1_1 y z w b u))+(((d0_7_6 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_8_4 y z w b u)*(d1_0_2 y z w b u))+(((d0_8_5 y z w b u)*(d1_0_1 y z w b u))+(((d0_8_6 y z w b u)*(d1_0_0 y z w b u))+0))))))))+((((d2_2_0 y z w b u)*(d3_6_6 y z w b u))+(((d2_2_1 y z w b u)*(d3_6_5 y z w b u))+((d2_2_2 y z w b u)*(d3_6_4 y z w b u))))+((((d2_3_0 y z w b u)*(d3_5_6 y z w b u))+((d2_3_1 y z w b u)*(d3_5_5 y z w b u)))+((d2_4_0 y z w b u)*(d3_4_6 y z w b u)))))+((-1)*(d4_8_6 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_3_6,d0_4_6,d0_5_5,d0_5_6,d0_6_4,d0_6_5,d0_6_6,d0_7_4,d0_7_5,d0_7_6,d0_8_4,d0_8_5,d0_8_6,d1_0_0,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_4_6,d3_5_5,d3_5_6,d3_6_4,d3_6_5,d3_6_6,d4_8_6]
-  ring
-#print axioms coefficient_8_6
-compact_certificate_declaration theorem coefficient_8_7 (y z w b u : ℂ) :
-    (innerCertificate8 y z w b u)[7]?=some 0 := by
-  change some (((((((d0_3_7 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_4_7 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_5_6 y z w b u)*(d1_3_1 y z w b u))+(((d0_5_7 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_6_5 y z w b u)*(d1_2_2 y z w b u))+(((d0_6_6 y z w b u)*(d1_2_1 y z w b u))+(((d0_6_7 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_7_5 y z w b u)*(d1_1_2 y z w b u))+(((d0_7_6 y z w b u)*(d1_1_1 y z w b u))+(((d0_7_7 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_8_5 y z w b u)*(d1_0_2 y z w b u))+((d0_8_6 y z w b u)*(d1_0_1 y z w b u))))))))+((((d2_2_0 y z w b u)*(d3_6_7 y z w b u))+(((d2_2_1 y z w b u)*(d3_6_6 y z w b u))+((d2_2_2 y z w b u)*(d3_6_5 y z w b u))))+((((d2_3_0 y z w b u)*(d3_5_7 y z w b u))+((d2_3_1 y z w b u)*(d3_5_6 y z w b u)))+((d2_4_0 y z w b u)*(d3_4_7 y z w b u)))))+((-1)*(d4_8_7 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_3_7,d0_4_7,d0_5_6,d0_5_7,d0_6_5,d0_6_6,d0_6_7,d0_7_5,d0_7_6,d0_7_7,d0_8_5,d0_8_6,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_4_7,d3_5_6,d3_5_7,d3_6_5,d3_6_6,d3_6_7,d4_8_7]
-  ring
-#print axioms coefficient_8_7
-
-compact_certificate_declaration theorem coefficient_8_8 (y z w b u : ℂ) :
-    (innerCertificate8 y z w b u)[8]?=some 0 := by
-  change some ((((((d0_5_7 y z w b u)*(d1_3_1 y z w b u))+((((d0_6_6 y z w b u)*(d1_2_2 y z w b u))+((d0_6_7 y z w b u)*(d1_2_1 y z w b u)))+((((d0_7_6 y z w b u)*(d1_1_2 y z w b u))+((d0_7_7 y z w b u)*(d1_1_1 y z w b u)))+((d0_8_6 y z w b u)*(d1_0_2 y z w b u)))))+((((d2_2_1 y z w b u)*(d3_6_7 y z w b u))+((d2_2_2 y z w b u)*(d3_6_6 y z w b u)))+((d2_3_1 y z w b u)*(d3_5_7 y z w b u))))+((-1)*(d4_8_8 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_5_7,d0_6_6,d0_6_7,d0_7_6,d0_7_7,d0_8_6,d1_0_2,d1_1_1,d1_1_2,d1_2_1,d1_2_2,d1_3_1,d2_2_1,d2_2_2,d2_3_1,d3_5_7,d3_6_6,d3_6_7,d4_8_8]
-  ring
-#print axioms coefficient_8_8
-compact_certificate_declaration theorem coefficient_8_9 (y z w b u : ℂ) :
-    (innerCertificate8 y z w b u)[9]?=some 0 := by
-  change some ((((((d0_6_7 y z w b u)*(d1_2_2 y z w b u))+((d0_7_7 y z w b u)*(d1_1_2 y z w b u)))+((d2_2_2 y z w b u)*(d3_6_7 y z w b u)))+((-1)*(d4_8_9 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_6_7,d0_7_7,d1_1_2,d1_2_2,d2_2_2,d3_6_7,d4_8_9]
-  ring
-#print axioms coefficient_8_9
-
 end SmallLevelTwentySixMMPPariTrace024
 end
 
@@ -894,7 +368,8 @@ set_option linter.unnecessarySeqFocus false
 namespace SmallLevelTwentySixMMPPariTrace024
 open SmallLevelPolynomialCoefficientCertificate
 compact_certificate_declaration theorem inner_length_9 (y z w b u : ℂ) : (innerCertificate9 y z w b u).length=10 := by
-  norm_num [innerCertificate9,add,multiply,scale,inner0_4,inner0_5,inner0_6,inner0_7,inner0_8,inner0_9,inner1_0,inner1_1,inner1_2,inner1_3,inner1_4,inner1_5,inner2_0,inner2_1,inner2_2,inner2_3,inner2_4,inner3_5,inner3_6,inner3_7,inner3_8,inner3_9,inner4_9]
+  simp only [innerCertificate9, length_add, length_multiply, length_scale]
+  norm_num [inner0_4,inner0_5,inner0_6,inner0_7,inner0_8,inner0_9,inner1_0,inner1_1,inner1_2,inner1_3,inner1_4,inner1_5,inner2_0,inner2_1,inner2_2,inner2_3,inner2_4,inner3_5,inner3_6,inner3_7,inner3_8,inner3_9,inner4_9, List.length_cons, List.length_nil]
 compact_certificate_declaration theorem inner_eval_9 (y z w a b u : ℂ) :
     evaluate a (innerCertificate9 y z w b u)=(((((c0_4 y z w a b u)*(c1_5 y z w a b u))+(((c0_5 y z w a b u)*(c1_4 y z w a b u))+(((c0_6 y z w a b u)*(c1_3 y z w a b u))+(((c0_7 y z w a b u)*(c1_2 y z w a b u))+(((c0_8 y z w a b u)*(c1_1 y z w a b u))+(((c0_9 y z w a b u)*(c1_0 y z w a b u))+0))))))+(((c2_0 y z w a b u)*(c3_9 y z w a b u))+(((c2_1 y z w a b u)*(c3_8 y z w a b u))+(((c2_2 y z w a b u)*(c3_7 y z w a b u))+(((c2_3 y z w a b u)*(c3_6 y z w a b u))+((c2_4 y z w a b u)*(c3_5 y z w a b u)))))))+((-1)*(c4_9 y z w a b u))) := by
   simp only [innerCertificate9,evaluate_add,evaluate_multiply,evaluate,
@@ -916,83 +391,6 @@ set_option maxRecDepth 32768
 namespace SmallLevelTwentySixMMPPariTrace024
 open SmallLevelPolynomialCoefficientCertificate
 
-compact_certificate_declaration theorem coefficient_9_0 (y z w b u : ℂ) :
-    (innerCertificate9 y z w b u)[0]?=some 0 := by
-  change some (((((((d0_4_0 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_5_0 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_6_0 y z w b u)*(d1_3_0 y z w b u))+0)+((((d0_7_0 y z w b u)*(d1_2_0 y z w b u))+0)+((((d0_8_0 y z w b u)*(d1_1_0 y z w b u))+0)+(((d0_9_0 y z w b u)*(d1_0_0 y z w b u))+0))))))+((((d2_2_0 y z w b u)*(d3_7_0 y z w b u))+0)+((((d2_3_0 y z w b u)*(d3_6_0 y z w b u))+0)+(((d2_4_0 y z w b u)*(d3_5_0 y z w b u))+0))))+(((-1)*(d4_9_0 y z w b u))+0)))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_4_0,d0_5_0,d0_6_0,d0_7_0,d0_8_0,d0_9_0,d1_0_0,d1_1_0,d1_2_0,d1_3_0,d1_4_0,d1_5_0,d2_2_0,d2_3_0,d2_4_0,d3_5_0,d3_6_0,d3_7_0,d4_9_0]
-  ring
-#print axioms coefficient_9_0
-
-compact_certificate_declaration theorem coefficient_9_1 (y z w b u : ℂ) :
-    (innerCertificate9 y z w b u)[1]?=some 0 := by
-  change some (((((((d0_4_1 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_5_1 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_6_0 y z w b u)*(d1_3_1 y z w b u))+(((d0_6_1 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_7_0 y z w b u)*(d1_2_1 y z w b u))+(((d0_7_1 y z w b u)*(d1_2_0 y z w b u))+0))+((((d0_8_0 y z w b u)*(d1_1_1 y z w b u))+(((d0_8_1 y z w b u)*(d1_1_0 y z w b u))+0))+(((d0_9_0 y z w b u)*(d1_0_1 y z w b u))+(((d0_9_1 y z w b u)*(d1_0_0 y z w b u))+0)))))))+((((d2_2_0 y z w b u)*(d3_7_1 y z w b u))+(((d2_2_1 y z w b u)*(d3_7_0 y z w b u))+0))+((((d2_3_0 y z w b u)*(d3_6_1 y z w b u))+(((d2_3_1 y z w b u)*(d3_6_0 y z w b u))+0))+((d2_4_0 y z w b u)*(d3_5_1 y z w b u)))))+((-1)*(d4_9_1 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_4_1,d0_5_1,d0_6_0,d0_6_1,d0_7_0,d0_7_1,d0_8_0,d0_8_1,d0_9_0,d0_9_1,d1_0_0,d1_0_1,d1_1_0,d1_1_1,d1_2_0,d1_2_1,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_0,d2_2_1,d2_3_0,d2_3_1,d2_4_0,d3_5_1,d3_6_0,d3_6_1,d3_7_0,d3_7_1,d4_9_1]
-  ring
-#print axioms coefficient_9_1
-
-compact_certificate_declaration theorem coefficient_9_2 (y z w b u : ℂ) :
-    (innerCertificate9 y z w b u)[2]?=some 0 := by
-  change some (((((((d0_4_2 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_5_2 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_6_1 y z w b u)*(d1_3_1 y z w b u))+(((d0_6_2 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_7_0 y z w b u)*(d1_2_2 y z w b u))+(((d0_7_1 y z w b u)*(d1_2_1 y z w b u))+(((d0_7_2 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_8_0 y z w b u)*(d1_1_2 y z w b u))+(((d0_8_1 y z w b u)*(d1_1_1 y z w b u))+(((d0_8_2 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_9_0 y z w b u)*(d1_0_2 y z w b u))+(((d0_9_1 y z w b u)*(d1_0_1 y z w b u))+(((d0_9_2 y z w b u)*(d1_0_0 y z w b u))+0))))))))+((((d2_2_0 y z w b u)*(d3_7_2 y z w b u))+(((d2_2_1 y z w b u)*(d3_7_1 y z w b u))+(((d2_2_2 y z w b u)*(d3_7_0 y z w b u))+0)))+((((d2_3_0 y z w b u)*(d3_6_2 y z w b u))+((d2_3_1 y z w b u)*(d3_6_1 y z w b u)))+((d2_4_0 y z w b u)*(d3_5_2 y z w b u)))))+((-1)*(d4_9_2 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_4_2,d0_5_2,d0_6_1,d0_6_2,d0_7_0,d0_7_1,d0_7_2,d0_8_0,d0_8_1,d0_8_2,d0_9_0,d0_9_1,d0_9_2,d1_0_0,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_5_2,d3_6_1,d3_6_2,d3_7_0,d3_7_1,d3_7_2,d4_9_2]
-  ring
-#print axioms coefficient_9_2
-
-compact_certificate_declaration theorem coefficient_9_3 (y z w b u : ℂ) :
-    (innerCertificate9 y z w b u)[3]?=some 0 := by
-  change some (((((((d0_4_3 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_5_3 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_6_2 y z w b u)*(d1_3_1 y z w b u))+(((d0_6_3 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_7_1 y z w b u)*(d1_2_2 y z w b u))+(((d0_7_2 y z w b u)*(d1_2_1 y z w b u))+(((d0_7_3 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_8_1 y z w b u)*(d1_1_2 y z w b u))+(((d0_8_2 y z w b u)*(d1_1_1 y z w b u))+(((d0_8_3 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_9_1 y z w b u)*(d1_0_2 y z w b u))+(((d0_9_2 y z w b u)*(d1_0_1 y z w b u))+(((d0_9_3 y z w b u)*(d1_0_0 y z w b u))+0))))))))+((((d2_2_0 y z w b u)*(d3_7_3 y z w b u))+(((d2_2_1 y z w b u)*(d3_7_2 y z w b u))+((d2_2_2 y z w b u)*(d3_7_1 y z w b u))))+((((d2_3_0 y z w b u)*(d3_6_3 y z w b u))+((d2_3_1 y z w b u)*(d3_6_2 y z w b u)))+((d2_4_0 y z w b u)*(d3_5_3 y z w b u)))))+((-1)*(d4_9_3 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_4_3,d0_5_3,d0_6_2,d0_6_3,d0_7_1,d0_7_2,d0_7_3,d0_8_1,d0_8_2,d0_8_3,d0_9_1,d0_9_2,d0_9_3,d1_0_0,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_5_3,d3_6_2,d3_6_3,d3_7_1,d3_7_2,d3_7_3,d4_9_3]
-  ring
-#print axioms coefficient_9_3
-
-compact_certificate_declaration theorem coefficient_9_4 (y z w b u : ℂ) :
-    (innerCertificate9 y z w b u)[4]?=some 0 := by
-  change some (((((((d0_4_4 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_5_4 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_6_3 y z w b u)*(d1_3_1 y z w b u))+(((d0_6_4 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_7_2 y z w b u)*(d1_2_2 y z w b u))+(((d0_7_3 y z w b u)*(d1_2_1 y z w b u))+(((d0_7_4 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_8_2 y z w b u)*(d1_1_2 y z w b u))+(((d0_8_3 y z w b u)*(d1_1_1 y z w b u))+(((d0_8_4 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_9_2 y z w b u)*(d1_0_2 y z w b u))+(((d0_9_3 y z w b u)*(d1_0_1 y z w b u))+(((d0_9_4 y z w b u)*(d1_0_0 y z w b u))+0))))))))+((((d2_2_0 y z w b u)*(d3_7_4 y z w b u))+(((d2_2_1 y z w b u)*(d3_7_3 y z w b u))+((d2_2_2 y z w b u)*(d3_7_2 y z w b u))))+((((d2_3_0 y z w b u)*(d3_6_4 y z w b u))+((d2_3_1 y z w b u)*(d3_6_3 y z w b u)))+((d2_4_0 y z w b u)*(d3_5_4 y z w b u)))))+((-1)*(d4_9_4 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_4_4,d0_5_4,d0_6_3,d0_6_4,d0_7_2,d0_7_3,d0_7_4,d0_8_2,d0_8_3,d0_8_4,d0_9_2,d0_9_3,d0_9_4,d1_0_0,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_5_4,d3_6_3,d3_6_4,d3_7_2,d3_7_3,d3_7_4,d4_9_4]
-  ring
-#print axioms coefficient_9_4
-
-compact_certificate_declaration theorem coefficient_9_5 (y z w b u : ℂ) :
-    (innerCertificate9 y z w b u)[5]?=some 0 := by
-  change some (((((((d0_4_5 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_5_5 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_6_4 y z w b u)*(d1_3_1 y z w b u))+(((d0_6_5 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_7_3 y z w b u)*(d1_2_2 y z w b u))+(((d0_7_4 y z w b u)*(d1_2_1 y z w b u))+(((d0_7_5 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_8_3 y z w b u)*(d1_1_2 y z w b u))+(((d0_8_4 y z w b u)*(d1_1_1 y z w b u))+(((d0_8_5 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_9_3 y z w b u)*(d1_0_2 y z w b u))+(((d0_9_4 y z w b u)*(d1_0_1 y z w b u))+(((d0_9_5 y z w b u)*(d1_0_0 y z w b u))+0))))))))+((((d2_2_0 y z w b u)*(d3_7_5 y z w b u))+(((d2_2_1 y z w b u)*(d3_7_4 y z w b u))+((d2_2_2 y z w b u)*(d3_7_3 y z w b u))))+((((d2_3_0 y z w b u)*(d3_6_5 y z w b u))+((d2_3_1 y z w b u)*(d3_6_4 y z w b u)))+((d2_4_0 y z w b u)*(d3_5_5 y z w b u)))))+((-1)*(d4_9_5 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_4_5,d0_5_5,d0_6_4,d0_6_5,d0_7_3,d0_7_4,d0_7_5,d0_8_3,d0_8_4,d0_8_5,d0_9_3,d0_9_4,d0_9_5,d1_0_0,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_5_5,d3_6_4,d3_6_5,d3_7_3,d3_7_4,d3_7_5,d4_9_5]
-  ring
-#print axioms coefficient_9_5
-compact_certificate_declaration theorem coefficient_9_6 (y z w b u : ℂ) :
-    (innerCertificate9 y z w b u)[6]?=some 0 := by
-  change some (((((((d0_4_6 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_5_6 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_6_5 y z w b u)*(d1_3_1 y z w b u))+(((d0_6_6 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_7_4 y z w b u)*(d1_2_2 y z w b u))+(((d0_7_5 y z w b u)*(d1_2_1 y z w b u))+(((d0_7_6 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_8_4 y z w b u)*(d1_1_2 y z w b u))+(((d0_8_5 y z w b u)*(d1_1_1 y z w b u))+(((d0_8_6 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_9_4 y z w b u)*(d1_0_2 y z w b u))+(((d0_9_5 y z w b u)*(d1_0_1 y z w b u))+(((d0_9_6 y z w b u)*(d1_0_0 y z w b u))+0))))))))+((((d2_2_0 y z w b u)*(d3_7_6 y z w b u))+(((d2_2_1 y z w b u)*(d3_7_5 y z w b u))+((d2_2_2 y z w b u)*(d3_7_4 y z w b u))))+((((d2_3_0 y z w b u)*(d3_6_6 y z w b u))+((d2_3_1 y z w b u)*(d3_6_5 y z w b u)))+((d2_4_0 y z w b u)*(d3_5_6 y z w b u)))))+((-1)*(d4_9_6 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_4_6,d0_5_6,d0_6_5,d0_6_6,d0_7_4,d0_7_5,d0_7_6,d0_8_4,d0_8_5,d0_8_6,d0_9_4,d0_9_5,d0_9_6,d1_0_0,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_5_6,d3_6_5,d3_6_6,d3_7_4,d3_7_5,d3_7_6,d4_9_6]
-  ring
-#print axioms coefficient_9_6
-compact_certificate_declaration theorem coefficient_9_7 (y z w b u : ℂ) :
-    (innerCertificate9 y z w b u)[7]?=some 0 := by
-  change some (((((((d0_4_7 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_5_7 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_6_6 y z w b u)*(d1_3_1 y z w b u))+(((d0_6_7 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_7_5 y z w b u)*(d1_2_2 y z w b u))+(((d0_7_6 y z w b u)*(d1_2_1 y z w b u))+(((d0_7_7 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_8_5 y z w b u)*(d1_1_2 y z w b u))+((d0_8_6 y z w b u)*(d1_1_1 y z w b u)))+(((d0_9_5 y z w b u)*(d1_0_2 y z w b u))+((d0_9_6 y z w b u)*(d1_0_1 y z w b u))))))))+((((d2_2_0 y z w b u)*(d3_7_7 y z w b u))+(((d2_2_1 y z w b u)*(d3_7_6 y z w b u))+((d2_2_2 y z w b u)*(d3_7_5 y z w b u))))+((((d2_3_0 y z w b u)*(d3_6_7 y z w b u))+((d2_3_1 y z w b u)*(d3_6_6 y z w b u)))+((d2_4_0 y z w b u)*(d3_5_7 y z w b u)))))+((-1)*(d4_9_7 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_4_7,d0_5_7,d0_6_6,d0_6_7,d0_7_5,d0_7_6,d0_7_7,d0_8_5,d0_8_6,d0_9_5,d0_9_6,d1_0_1,d1_0_2,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_5_7,d3_6_6,d3_6_7,d3_7_5,d3_7_6,d3_7_7,d4_9_7]
-  ring
-#print axioms coefficient_9_7
-
-compact_certificate_declaration theorem coefficient_9_8 (y z w b u : ℂ) :
-    (innerCertificate9 y z w b u)[8]?=some 0 := by
-  change some ((((((d0_6_7 y z w b u)*(d1_3_1 y z w b u))+((((d0_7_6 y z w b u)*(d1_2_2 y z w b u))+((d0_7_7 y z w b u)*(d1_2_1 y z w b u)))+(((d0_8_6 y z w b u)*(d1_1_2 y z w b u))+((d0_9_6 y z w b u)*(d1_0_2 y z w b u)))))+((((d2_2_1 y z w b u)*(d3_7_7 y z w b u))+((d2_2_2 y z w b u)*(d3_7_6 y z w b u)))+((d2_3_1 y z w b u)*(d3_6_7 y z w b u))))+((-1)*(d4_9_8 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_6_7,d0_7_6,d0_7_7,d0_8_6,d0_9_6,d1_0_2,d1_1_2,d1_2_1,d1_2_2,d1_3_1,d2_2_1,d2_2_2,d2_3_1,d3_6_7,d3_7_6,d3_7_7,d4_9_8]
-  ring
-#print axioms coefficient_9_8
-compact_certificate_declaration theorem coefficient_9_9 (y z w b u : ℂ) :
-    (innerCertificate9 y z w b u)[9]?=some 0 := by
-  change some (((((d0_7_7 y z w b u)*(d1_2_2 y z w b u))+((d2_2_2 y z w b u)*(d3_7_7 y z w b u)))+((-1)*(d4_9_9 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_7_7,d1_2_2,d2_2_2,d3_7_7,d4_9_9]
-  ring
-#print axioms coefficient_9_9
-
 end SmallLevelTwentySixMMPPariTrace024
 end
 
@@ -1007,7 +405,8 @@ set_option linter.unnecessarySeqFocus false
 namespace SmallLevelTwentySixMMPPariTrace024
 open SmallLevelPolynomialCoefficientCertificate
 compact_certificate_declaration theorem inner_length_10 (y z w b u : ℂ) : (innerCertificate10 y z w b u).length=9 := by
-  norm_num [innerCertificate10,add,multiply,scale,inner0_10,inner0_5,inner0_6,inner0_7,inner0_8,inner0_9,inner1_0,inner1_1,inner1_2,inner1_3,inner1_4,inner1_5,inner2_0,inner2_1,inner2_2,inner2_3,inner2_4,inner3_10,inner3_6,inner3_7,inner3_8,inner3_9,inner4_10]
+  simp only [innerCertificate10, length_add, length_multiply, length_scale]
+  norm_num [inner0_10,inner0_5,inner0_6,inner0_7,inner0_8,inner0_9,inner1_0,inner1_1,inner1_2,inner1_3,inner1_4,inner1_5,inner2_0,inner2_1,inner2_2,inner2_3,inner2_4,inner3_10,inner3_6,inner3_7,inner3_8,inner3_9,inner4_10, List.length_cons, List.length_nil]
 compact_certificate_declaration theorem inner_eval_10 (y z w a b u : ℂ) :
     evaluate a (innerCertificate10 y z w b u)=(((((c0_5 y z w a b u)*(c1_5 y z w a b u))+(((c0_6 y z w a b u)*(c1_4 y z w a b u))+(((c0_7 y z w a b u)*(c1_3 y z w a b u))+(((c0_8 y z w a b u)*(c1_2 y z w a b u))+(((c0_9 y z w a b u)*(c1_1 y z w a b u))+(((c0_10 y z w a b u)*(c1_0 y z w a b u))+0))))))+(((c2_0 y z w a b u)*(c3_10 y z w a b u))+(((c2_1 y z w a b u)*(c3_9 y z w a b u))+(((c2_2 y z w a b u)*(c3_8 y z w a b u))+(((c2_3 y z w a b u)*(c3_7 y z w a b u))+((c2_4 y z w a b u)*(c3_6 y z w a b u)))))))+((-1)*(c4_10 y z w a b u))) := by
   simp only [innerCertificate10,evaluate_add,evaluate_multiply,evaluate,
@@ -1029,75 +428,6 @@ set_option maxRecDepth 32768
 namespace SmallLevelTwentySixMMPPariTrace024
 open SmallLevelPolynomialCoefficientCertificate
 
-compact_certificate_declaration theorem coefficient_10_0 (y z w b u : ℂ) :
-    (innerCertificate10 y z w b u)[0]?=some 0 := by
-  change some (((((((d0_5_0 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_6_0 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_7_0 y z w b u)*(d1_3_0 y z w b u))+0)+((((d0_8_0 y z w b u)*(d1_2_0 y z w b u))+0)+((((d0_9_0 y z w b u)*(d1_1_0 y z w b u))+0)+(((d0_10_0 y z w b u)*(d1_0_0 y z w b u))+0))))))+((((d2_2_0 y z w b u)*(d3_8_0 y z w b u))+0)+((((d2_3_0 y z w b u)*(d3_7_0 y z w b u))+0)+(((d2_4_0 y z w b u)*(d3_6_0 y z w b u))+0))))+(((-1)*(d4_10_0 y z w b u))+0)))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_10_0,d0_5_0,d0_6_0,d0_7_0,d0_8_0,d0_9_0,d1_0_0,d1_1_0,d1_2_0,d1_3_0,d1_4_0,d1_5_0,d2_2_0,d2_3_0,d2_4_0,d3_6_0,d3_7_0,d3_8_0,d4_10_0]
-  ring
-#print axioms coefficient_10_0
-
-compact_certificate_declaration theorem coefficient_10_1 (y z w b u : ℂ) :
-    (innerCertificate10 y z w b u)[1]?=some 0 := by
-  change some (((((((d0_5_1 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_6_1 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_7_0 y z w b u)*(d1_3_1 y z w b u))+(((d0_7_1 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_8_0 y z w b u)*(d1_2_1 y z w b u))+(((d0_8_1 y z w b u)*(d1_2_0 y z w b u))+0))+((((d0_9_0 y z w b u)*(d1_1_1 y z w b u))+(((d0_9_1 y z w b u)*(d1_1_0 y z w b u))+0))+(((d0_10_0 y z w b u)*(d1_0_1 y z w b u))+(((d0_10_1 y z w b u)*(d1_0_0 y z w b u))+0)))))))+((((d2_2_0 y z w b u)*(d3_8_1 y z w b u))+(((d2_2_1 y z w b u)*(d3_8_0 y z w b u))+0))+((((d2_3_0 y z w b u)*(d3_7_1 y z w b u))+(((d2_3_1 y z w b u)*(d3_7_0 y z w b u))+0))+((d2_4_0 y z w b u)*(d3_6_1 y z w b u)))))+((-1)*(d4_10_1 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_10_0,d0_10_1,d0_5_1,d0_6_1,d0_7_0,d0_7_1,d0_8_0,d0_8_1,d0_9_0,d0_9_1,d1_0_0,d1_0_1,d1_1_0,d1_1_1,d1_2_0,d1_2_1,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_0,d2_2_1,d2_3_0,d2_3_1,d2_4_0,d3_6_1,d3_7_0,d3_7_1,d3_8_0,d3_8_1,d4_10_1]
-  ring
-#print axioms coefficient_10_1
-
-compact_certificate_declaration theorem coefficient_10_2 (y z w b u : ℂ) :
-    (innerCertificate10 y z w b u)[2]?=some 0 := by
-  change some (((((((d0_5_2 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_6_2 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_7_1 y z w b u)*(d1_3_1 y z w b u))+(((d0_7_2 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_8_0 y z w b u)*(d1_2_2 y z w b u))+(((d0_8_1 y z w b u)*(d1_2_1 y z w b u))+(((d0_8_2 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_9_0 y z w b u)*(d1_1_2 y z w b u))+(((d0_9_1 y z w b u)*(d1_1_1 y z w b u))+(((d0_9_2 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_10_0 y z w b u)*(d1_0_2 y z w b u))+(((d0_10_1 y z w b u)*(d1_0_1 y z w b u))+(((d0_10_2 y z w b u)*(d1_0_0 y z w b u))+0))))))))+((((d2_2_0 y z w b u)*(d3_8_2 y z w b u))+(((d2_2_1 y z w b u)*(d3_8_1 y z w b u))+(((d2_2_2 y z w b u)*(d3_8_0 y z w b u))+0)))+((((d2_3_0 y z w b u)*(d3_7_2 y z w b u))+((d2_3_1 y z w b u)*(d3_7_1 y z w b u)))+((d2_4_0 y z w b u)*(d3_6_2 y z w b u)))))+((-1)*(d4_10_2 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_10_0,d0_10_1,d0_10_2,d0_5_2,d0_6_2,d0_7_1,d0_7_2,d0_8_0,d0_8_1,d0_8_2,d0_9_0,d0_9_1,d0_9_2,d1_0_0,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_6_2,d3_7_1,d3_7_2,d3_8_0,d3_8_1,d3_8_2,d4_10_2]
-  ring
-#print axioms coefficient_10_2
-
-compact_certificate_declaration theorem coefficient_10_3 (y z w b u : ℂ) :
-    (innerCertificate10 y z w b u)[3]?=some 0 := by
-  change some (((((((d0_5_3 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_6_3 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_7_2 y z w b u)*(d1_3_1 y z w b u))+(((d0_7_3 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_8_1 y z w b u)*(d1_2_2 y z w b u))+(((d0_8_2 y z w b u)*(d1_2_1 y z w b u))+(((d0_8_3 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_9_1 y z w b u)*(d1_1_2 y z w b u))+(((d0_9_2 y z w b u)*(d1_1_1 y z w b u))+(((d0_9_3 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_10_1 y z w b u)*(d1_0_2 y z w b u))+(((d0_10_2 y z w b u)*(d1_0_1 y z w b u))+(((d0_10_3 y z w b u)*(d1_0_0 y z w b u))+0))))))))+((((d2_2_0 y z w b u)*(d3_8_3 y z w b u))+(((d2_2_1 y z w b u)*(d3_8_2 y z w b u))+((d2_2_2 y z w b u)*(d3_8_1 y z w b u))))+((((d2_3_0 y z w b u)*(d3_7_3 y z w b u))+((d2_3_1 y z w b u)*(d3_7_2 y z w b u)))+((d2_4_0 y z w b u)*(d3_6_3 y z w b u)))))+((-1)*(d4_10_3 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_10_1,d0_10_2,d0_10_3,d0_5_3,d0_6_3,d0_7_2,d0_7_3,d0_8_1,d0_8_2,d0_8_3,d0_9_1,d0_9_2,d0_9_3,d1_0_0,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_6_3,d3_7_2,d3_7_3,d3_8_1,d3_8_2,d3_8_3,d4_10_3]
-  ring
-#print axioms coefficient_10_3
-
-compact_certificate_declaration theorem coefficient_10_4 (y z w b u : ℂ) :
-    (innerCertificate10 y z w b u)[4]?=some 0 := by
-  change some (((((((d0_5_4 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_6_4 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_7_3 y z w b u)*(d1_3_1 y z w b u))+(((d0_7_4 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_8_2 y z w b u)*(d1_2_2 y z w b u))+(((d0_8_3 y z w b u)*(d1_2_1 y z w b u))+(((d0_8_4 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_9_2 y z w b u)*(d1_1_2 y z w b u))+(((d0_9_3 y z w b u)*(d1_1_1 y z w b u))+(((d0_9_4 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_10_2 y z w b u)*(d1_0_2 y z w b u))+(((d0_10_3 y z w b u)*(d1_0_1 y z w b u))+(((d0_10_4 y z w b u)*(d1_0_0 y z w b u))+0))))))))+((((d2_2_0 y z w b u)*(d3_8_4 y z w b u))+(((d2_2_1 y z w b u)*(d3_8_3 y z w b u))+((d2_2_2 y z w b u)*(d3_8_2 y z w b u))))+((((d2_3_0 y z w b u)*(d3_7_4 y z w b u))+((d2_3_1 y z w b u)*(d3_7_3 y z w b u)))+((d2_4_0 y z w b u)*(d3_6_4 y z w b u)))))+((-1)*(d4_10_4 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_10_2,d0_10_3,d0_10_4,d0_5_4,d0_6_4,d0_7_3,d0_7_4,d0_8_2,d0_8_3,d0_8_4,d0_9_2,d0_9_3,d0_9_4,d1_0_0,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_6_4,d3_7_3,d3_7_4,d3_8_2,d3_8_3,d3_8_4,d4_10_4]
-  ring
-#print axioms coefficient_10_4
-compact_certificate_declaration theorem coefficient_10_5 (y z w b u : ℂ) :
-    (innerCertificate10 y z w b u)[5]?=some 0 := by
-  change some (((((((d0_5_5 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_6_5 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_7_4 y z w b u)*(d1_3_1 y z w b u))+(((d0_7_5 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_8_3 y z w b u)*(d1_2_2 y z w b u))+(((d0_8_4 y z w b u)*(d1_2_1 y z w b u))+(((d0_8_5 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_9_3 y z w b u)*(d1_1_2 y z w b u))+(((d0_9_4 y z w b u)*(d1_1_1 y z w b u))+(((d0_9_5 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_10_3 y z w b u)*(d1_0_2 y z w b u))+(((d0_10_4 y z w b u)*(d1_0_1 y z w b u))+(((d0_10_5 y z w b u)*(d1_0_0 y z w b u))+0))))))))+((((d2_2_0 y z w b u)*(d3_8_5 y z w b u))+(((d2_2_1 y z w b u)*(d3_8_4 y z w b u))+((d2_2_2 y z w b u)*(d3_8_3 y z w b u))))+((((d2_3_0 y z w b u)*(d3_7_5 y z w b u))+((d2_3_1 y z w b u)*(d3_7_4 y z w b u)))+((d2_4_0 y z w b u)*(d3_6_5 y z w b u)))))+((-1)*(d4_10_5 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_10_3,d0_10_4,d0_10_5,d0_5_5,d0_6_5,d0_7_4,d0_7_5,d0_8_3,d0_8_4,d0_8_5,d0_9_3,d0_9_4,d0_9_5,d1_0_0,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_6_5,d3_7_4,d3_7_5,d3_8_3,d3_8_4,d3_8_5,d4_10_5]
-  ring
-#print axioms coefficient_10_5
-
-compact_certificate_declaration theorem coefficient_10_6 (y z w b u : ℂ) :
-    (innerCertificate10 y z w b u)[6]?=some 0 := by
-  change some (((((((d0_5_6 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_6_6 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_7_5 y z w b u)*(d1_3_1 y z w b u))+(((d0_7_6 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_8_4 y z w b u)*(d1_2_2 y z w b u))+(((d0_8_5 y z w b u)*(d1_2_1 y z w b u))+(((d0_8_6 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_9_4 y z w b u)*(d1_1_2 y z w b u))+(((d0_9_5 y z w b u)*(d1_1_1 y z w b u))+(((d0_9_6 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_10_4 y z w b u)*(d1_0_2 y z w b u))+((d0_10_5 y z w b u)*(d1_0_1 y z w b u))))))))+((((d2_2_0 y z w b u)*(d3_8_6 y z w b u))+(((d2_2_1 y z w b u)*(d3_8_5 y z w b u))+((d2_2_2 y z w b u)*(d3_8_4 y z w b u))))+((((d2_3_0 y z w b u)*(d3_7_6 y z w b u))+((d2_3_1 y z w b u)*(d3_7_5 y z w b u)))+((d2_4_0 y z w b u)*(d3_6_6 y z w b u)))))+((-1)*(d4_10_6 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_10_4,d0_10_5,d0_5_6,d0_6_6,d0_7_5,d0_7_6,d0_8_4,d0_8_5,d0_8_6,d0_9_4,d0_9_5,d0_9_6,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_6_6,d3_7_5,d3_7_6,d3_8_4,d3_8_5,d3_8_6,d4_10_6]
-  ring
-#print axioms coefficient_10_6
-compact_certificate_declaration theorem coefficient_10_7 (y z w b u : ℂ) :
-    (innerCertificate10 y z w b u)[7]?=some 0 := by
-  change some (((((((d0_5_7 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_6_7 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_7_6 y z w b u)*(d1_3_1 y z w b u))+(((d0_7_7 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_8_5 y z w b u)*(d1_2_2 y z w b u))+((d0_8_6 y z w b u)*(d1_2_1 y z w b u)))+((((d0_9_5 y z w b u)*(d1_1_2 y z w b u))+((d0_9_6 y z w b u)*(d1_1_1 y z w b u)))+((d0_10_5 y z w b u)*(d1_0_2 y z w b u)))))))+((((d2_2_1 y z w b u)*(d3_8_6 y z w b u))+((d2_2_2 y z w b u)*(d3_8_5 y z w b u)))+((((d2_3_0 y z w b u)*(d3_7_7 y z w b u))+((d2_3_1 y z w b u)*(d3_7_6 y z w b u)))+((d2_4_0 y z w b u)*(d3_6_7 y z w b u)))))+((-1)*(d4_10_7 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_10_5,d0_5_7,d0_6_7,d0_7_6,d0_7_7,d0_8_5,d0_8_6,d0_9_5,d0_9_6,d1_0_2,d1_1_1,d1_1_2,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_6_7,d3_7_6,d3_7_7,d3_8_5,d3_8_6,d4_10_7]
-  ring
-#print axioms coefficient_10_7
-compact_certificate_declaration theorem coefficient_10_8 (y z w b u : ℂ) :
-    (innerCertificate10 y z w b u)[8]?=some 0 := by
-  change some ((((((d0_7_7 y z w b u)*(d1_3_1 y z w b u))+(((d0_8_6 y z w b u)*(d1_2_2 y z w b u))+((d0_9_6 y z w b u)*(d1_1_2 y z w b u))))+(((d2_2_2 y z w b u)*(d3_8_6 y z w b u))+((d2_3_1 y z w b u)*(d3_7_7 y z w b u))))+((-1)*(d4_10_8 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_7_7,d0_8_6,d0_9_6,d1_1_2,d1_2_2,d1_3_1,d2_2_2,d2_3_1,d3_7_7,d3_8_6,d4_10_8]
-  ring
-#print axioms coefficient_10_8
-
 end SmallLevelTwentySixMMPPariTrace024
 end
 
@@ -1112,7 +442,8 @@ set_option linter.unnecessarySeqFocus false
 namespace SmallLevelTwentySixMMPPariTrace024
 open SmallLevelPolynomialCoefficientCertificate
 compact_certificate_declaration theorem inner_length_11 (y z w b u : ℂ) : (innerCertificate11 y z w b u).length=9 := by
-  norm_num [innerCertificate11,add,multiply,scale,inner0_10,inner0_11,inner0_6,inner0_7,inner0_8,inner0_9,inner1_0,inner1_1,inner1_2,inner1_3,inner1_4,inner1_5,inner2_0,inner2_1,inner2_2,inner2_3,inner2_4,inner3_10,inner3_11,inner3_7,inner3_8,inner3_9,inner4_11]
+  simp only [innerCertificate11, length_add, length_multiply, length_scale]
+  norm_num [inner0_10,inner0_11,inner0_6,inner0_7,inner0_8,inner0_9,inner1_0,inner1_1,inner1_2,inner1_3,inner1_4,inner1_5,inner2_0,inner2_1,inner2_2,inner2_3,inner2_4,inner3_10,inner3_11,inner3_7,inner3_8,inner3_9,inner4_11, List.length_cons, List.length_nil]
 compact_certificate_declaration theorem inner_eval_11 (y z w a b u : ℂ) :
     evaluate a (innerCertificate11 y z w b u)=(((((c0_6 y z w a b u)*(c1_5 y z w a b u))+(((c0_7 y z w a b u)*(c1_4 y z w a b u))+(((c0_8 y z w a b u)*(c1_3 y z w a b u))+(((c0_9 y z w a b u)*(c1_2 y z w a b u))+(((c0_10 y z w a b u)*(c1_1 y z w a b u))+(((c0_11 y z w a b u)*(c1_0 y z w a b u))+0))))))+(((c2_0 y z w a b u)*(c3_11 y z w a b u))+(((c2_1 y z w a b u)*(c3_10 y z w a b u))+(((c2_2 y z w a b u)*(c3_9 y z w a b u))+(((c2_3 y z w a b u)*(c3_8 y z w a b u))+((c2_4 y z w a b u)*(c3_7 y z w a b u)))))))+((-1)*(c4_11 y z w a b u))) := by
   simp only [innerCertificate11,evaluate_add,evaluate_multiply,evaluate,
@@ -1134,75 +465,6 @@ set_option maxRecDepth 32768
 namespace SmallLevelTwentySixMMPPariTrace024
 open SmallLevelPolynomialCoefficientCertificate
 
-compact_certificate_declaration theorem coefficient_11_0 (y z w b u : ℂ) :
-    (innerCertificate11 y z w b u)[0]?=some 0 := by
-  change some (((((((d0_6_0 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_7_0 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_8_0 y z w b u)*(d1_3_0 y z w b u))+0)+((((d0_9_0 y z w b u)*(d1_2_0 y z w b u))+0)+((((d0_10_0 y z w b u)*(d1_1_0 y z w b u))+0)+(((d0_11_0 y z w b u)*(d1_0_0 y z w b u))+0))))))+((((d2_2_0 y z w b u)*(d3_9_0 y z w b u))+0)+((((d2_3_0 y z w b u)*(d3_8_0 y z w b u))+0)+(((d2_4_0 y z w b u)*(d3_7_0 y z w b u))+0))))+(((-1)*(d4_11_0 y z w b u))+0)))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_10_0,d0_11_0,d0_6_0,d0_7_0,d0_8_0,d0_9_0,d1_0_0,d1_1_0,d1_2_0,d1_3_0,d1_4_0,d1_5_0,d2_2_0,d2_3_0,d2_4_0,d3_7_0,d3_8_0,d3_9_0,d4_11_0]
-  ring
-#print axioms coefficient_11_0
-
-compact_certificate_declaration theorem coefficient_11_1 (y z w b u : ℂ) :
-    (innerCertificate11 y z w b u)[1]?=some 0 := by
-  change some (((((((d0_6_1 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_7_1 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_8_0 y z w b u)*(d1_3_1 y z w b u))+(((d0_8_1 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_9_0 y z w b u)*(d1_2_1 y z w b u))+(((d0_9_1 y z w b u)*(d1_2_0 y z w b u))+0))+((((d0_10_0 y z w b u)*(d1_1_1 y z w b u))+(((d0_10_1 y z w b u)*(d1_1_0 y z w b u))+0))+(((d0_11_0 y z w b u)*(d1_0_1 y z w b u))+(((d0_11_1 y z w b u)*(d1_0_0 y z w b u))+0)))))))+((((d2_2_0 y z w b u)*(d3_9_1 y z w b u))+(((d2_2_1 y z w b u)*(d3_9_0 y z w b u))+0))+((((d2_3_0 y z w b u)*(d3_8_1 y z w b u))+(((d2_3_1 y z w b u)*(d3_8_0 y z w b u))+0))+((d2_4_0 y z w b u)*(d3_7_1 y z w b u)))))+((-1)*(d4_11_1 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_10_0,d0_10_1,d0_11_0,d0_11_1,d0_6_1,d0_7_1,d0_8_0,d0_8_1,d0_9_0,d0_9_1,d1_0_0,d1_0_1,d1_1_0,d1_1_1,d1_2_0,d1_2_1,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_0,d2_2_1,d2_3_0,d2_3_1,d2_4_0,d3_7_1,d3_8_0,d3_8_1,d3_9_0,d3_9_1,d4_11_1]
-  ring
-#print axioms coefficient_11_1
-
-compact_certificate_declaration theorem coefficient_11_2 (y z w b u : ℂ) :
-    (innerCertificate11 y z w b u)[2]?=some 0 := by
-  change some (((((((d0_6_2 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_7_2 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_8_1 y z w b u)*(d1_3_1 y z w b u))+(((d0_8_2 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_9_0 y z w b u)*(d1_2_2 y z w b u))+(((d0_9_1 y z w b u)*(d1_2_1 y z w b u))+(((d0_9_2 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_10_0 y z w b u)*(d1_1_2 y z w b u))+(((d0_10_1 y z w b u)*(d1_1_1 y z w b u))+(((d0_10_2 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_11_0 y z w b u)*(d1_0_2 y z w b u))+(((d0_11_1 y z w b u)*(d1_0_1 y z w b u))+(((d0_11_2 y z w b u)*(d1_0_0 y z w b u))+0))))))))+((((d2_2_0 y z w b u)*(d3_9_2 y z w b u))+(((d2_2_1 y z w b u)*(d3_9_1 y z w b u))+(((d2_2_2 y z w b u)*(d3_9_0 y z w b u))+0)))+((((d2_3_0 y z w b u)*(d3_8_2 y z w b u))+((d2_3_1 y z w b u)*(d3_8_1 y z w b u)))+((d2_4_0 y z w b u)*(d3_7_2 y z w b u)))))+((-1)*(d4_11_2 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_10_0,d0_10_1,d0_10_2,d0_11_0,d0_11_1,d0_11_2,d0_6_2,d0_7_2,d0_8_1,d0_8_2,d0_9_0,d0_9_1,d0_9_2,d1_0_0,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_7_2,d3_8_1,d3_8_2,d3_9_0,d3_9_1,d3_9_2,d4_11_2]
-  ring
-#print axioms coefficient_11_2
-
-compact_certificate_declaration theorem coefficient_11_3 (y z w b u : ℂ) :
-    (innerCertificate11 y z w b u)[3]?=some 0 := by
-  change some (((((((d0_6_3 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_7_3 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_8_2 y z w b u)*(d1_3_1 y z w b u))+(((d0_8_3 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_9_1 y z w b u)*(d1_2_2 y z w b u))+(((d0_9_2 y z w b u)*(d1_2_1 y z w b u))+(((d0_9_3 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_10_1 y z w b u)*(d1_1_2 y z w b u))+(((d0_10_2 y z w b u)*(d1_1_1 y z w b u))+(((d0_10_3 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_11_1 y z w b u)*(d1_0_2 y z w b u))+(((d0_11_2 y z w b u)*(d1_0_1 y z w b u))+(((d0_11_3 y z w b u)*(d1_0_0 y z w b u))+0))))))))+((((d2_2_0 y z w b u)*(d3_9_3 y z w b u))+(((d2_2_1 y z w b u)*(d3_9_2 y z w b u))+((d2_2_2 y z w b u)*(d3_9_1 y z w b u))))+((((d2_3_0 y z w b u)*(d3_8_3 y z w b u))+((d2_3_1 y z w b u)*(d3_8_2 y z w b u)))+((d2_4_0 y z w b u)*(d3_7_3 y z w b u)))))+((-1)*(d4_11_3 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_10_1,d0_10_2,d0_10_3,d0_11_1,d0_11_2,d0_11_3,d0_6_3,d0_7_3,d0_8_2,d0_8_3,d0_9_1,d0_9_2,d0_9_3,d1_0_0,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_7_3,d3_8_2,d3_8_3,d3_9_1,d3_9_2,d3_9_3,d4_11_3]
-  ring
-#print axioms coefficient_11_3
-
-compact_certificate_declaration theorem coefficient_11_4 (y z w b u : ℂ) :
-    (innerCertificate11 y z w b u)[4]?=some 0 := by
-  change some (((((((d0_6_4 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_7_4 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_8_3 y z w b u)*(d1_3_1 y z w b u))+(((d0_8_4 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_9_2 y z w b u)*(d1_2_2 y z w b u))+(((d0_9_3 y z w b u)*(d1_2_1 y z w b u))+(((d0_9_4 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_10_2 y z w b u)*(d1_1_2 y z w b u))+(((d0_10_3 y z w b u)*(d1_1_1 y z w b u))+(((d0_10_4 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_11_2 y z w b u)*(d1_0_2 y z w b u))+(((d0_11_3 y z w b u)*(d1_0_1 y z w b u))+(((d0_11_4 y z w b u)*(d1_0_0 y z w b u))+0))))))))+((((d2_2_0 y z w b u)*(d3_9_4 y z w b u))+(((d2_2_1 y z w b u)*(d3_9_3 y z w b u))+((d2_2_2 y z w b u)*(d3_9_2 y z w b u))))+((((d2_3_0 y z w b u)*(d3_8_4 y z w b u))+((d2_3_1 y z w b u)*(d3_8_3 y z w b u)))+((d2_4_0 y z w b u)*(d3_7_4 y z w b u)))))+((-1)*(d4_11_4 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_10_2,d0_10_3,d0_10_4,d0_11_2,d0_11_3,d0_11_4,d0_6_4,d0_7_4,d0_8_3,d0_8_4,d0_9_2,d0_9_3,d0_9_4,d1_0_0,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_7_4,d3_8_3,d3_8_4,d3_9_2,d3_9_3,d3_9_4,d4_11_4]
-  ring
-#print axioms coefficient_11_4
-compact_certificate_declaration theorem coefficient_11_5 (y z w b u : ℂ) :
-    (innerCertificate11 y z w b u)[5]?=some 0 := by
-  change some (((((((d0_6_5 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_7_5 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_8_4 y z w b u)*(d1_3_1 y z w b u))+(((d0_8_5 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_9_3 y z w b u)*(d1_2_2 y z w b u))+(((d0_9_4 y z w b u)*(d1_2_1 y z w b u))+(((d0_9_5 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_10_3 y z w b u)*(d1_1_2 y z w b u))+(((d0_10_4 y z w b u)*(d1_1_1 y z w b u))+(((d0_10_5 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_11_3 y z w b u)*(d1_0_2 y z w b u))+((d0_11_4 y z w b u)*(d1_0_1 y z w b u))))))))+((((d2_2_0 y z w b u)*(d3_9_5 y z w b u))+(((d2_2_1 y z w b u)*(d3_9_4 y z w b u))+((d2_2_2 y z w b u)*(d3_9_3 y z w b u))))+((((d2_3_0 y z w b u)*(d3_8_5 y z w b u))+((d2_3_1 y z w b u)*(d3_8_4 y z w b u)))+((d2_4_0 y z w b u)*(d3_7_5 y z w b u)))))+((-1)*(d4_11_5 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_10_3,d0_10_4,d0_10_5,d0_11_3,d0_11_4,d0_6_5,d0_7_5,d0_8_4,d0_8_5,d0_9_3,d0_9_4,d0_9_5,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_7_5,d3_8_4,d3_8_5,d3_9_3,d3_9_4,d3_9_5,d4_11_5]
-  ring
-#print axioms coefficient_11_5
-compact_certificate_declaration theorem coefficient_11_6 (y z w b u : ℂ) :
-    (innerCertificate11 y z w b u)[6]?=some 0 := by
-  change some (((((((d0_6_6 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_7_6 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_8_5 y z w b u)*(d1_3_1 y z w b u))+(((d0_8_6 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_9_4 y z w b u)*(d1_2_2 y z w b u))+(((d0_9_5 y z w b u)*(d1_2_1 y z w b u))+(((d0_9_6 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_10_4 y z w b u)*(d1_1_2 y z w b u))+((d0_10_5 y z w b u)*(d1_1_1 y z w b u)))+((d0_11_4 y z w b u)*(d1_0_2 y z w b u)))))))+((((d2_2_0 y z w b u)*(d3_9_6 y z w b u))+(((d2_2_1 y z w b u)*(d3_9_5 y z w b u))+((d2_2_2 y z w b u)*(d3_9_4 y z w b u))))+((((d2_3_0 y z w b u)*(d3_8_6 y z w b u))+((d2_3_1 y z w b u)*(d3_8_5 y z w b u)))+((d2_4_0 y z w b u)*(d3_7_6 y z w b u)))))+((-1)*(d4_11_6 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_10_4,d0_10_5,d0_11_4,d0_6_6,d0_7_6,d0_8_5,d0_8_6,d0_9_4,d0_9_5,d0_9_6,d1_0_2,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_7_6,d3_8_5,d3_8_6,d3_9_4,d3_9_5,d3_9_6,d4_11_6]
-  ring
-#print axioms coefficient_11_6
-
-compact_certificate_declaration theorem coefficient_11_7 (y z w b u : ℂ) :
-    (innerCertificate11 y z w b u)[7]?=some 0 := by
-  change some (((((((d0_6_7 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_7_7 y z w b u)*(d1_4_0 y z w b u))+0)+(((d0_8_6 y z w b u)*(d1_3_1 y z w b u))+((((d0_9_5 y z w b u)*(d1_2_2 y z w b u))+((d0_9_6 y z w b u)*(d1_2_1 y z w b u)))+((d0_10_5 y z w b u)*(d1_1_2 y z w b u))))))+((((d2_2_1 y z w b u)*(d3_9_6 y z w b u))+((d2_2_2 y z w b u)*(d3_9_5 y z w b u)))+(((d2_3_1 y z w b u)*(d3_8_6 y z w b u))+((d2_4_0 y z w b u)*(d3_7_7 y z w b u)))))+((-1)*(d4_11_7 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_10_5,d0_6_7,d0_7_7,d0_8_6,d0_9_5,d0_9_6,d1_1_2,d1_2_1,d1_2_2,d1_3_1,d1_4_0,d1_5_0,d2_2_1,d2_2_2,d2_3_1,d2_4_0,d3_7_7,d3_8_6,d3_9_5,d3_9_6,d4_11_7]
-  ring
-#print axioms coefficient_11_7
-compact_certificate_declaration theorem coefficient_11_8 (y z w b u : ℂ) :
-    (innerCertificate11 y z w b u)[8]?=some 0 := by
-  change some (((((d0_9_6 y z w b u)*(d1_2_2 y z w b u))+((d2_2_2 y z w b u)*(d3_9_6 y z w b u)))+((-1)*(d4_11_8 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_9_6,d1_2_2,d2_2_2,d3_9_6,d4_11_8]
-  ring
-#print axioms coefficient_11_8
-
 end SmallLevelTwentySixMMPPariTrace024
 end
 
@@ -1217,7 +479,8 @@ set_option linter.unnecessarySeqFocus false
 namespace SmallLevelTwentySixMMPPariTrace024
 open SmallLevelPolynomialCoefficientCertificate
 compact_certificate_declaration theorem inner_length_12 (y z w b u : ℂ) : (innerCertificate12 y z w b u).length=8 := by
-  norm_num [innerCertificate12,add,multiply,scale,inner0_10,inner0_11,inner0_12,inner0_7,inner0_8,inner0_9,inner1_0,inner1_1,inner1_2,inner1_3,inner1_4,inner1_5,inner2_0,inner2_1,inner2_2,inner2_3,inner2_4,inner3_10,inner3_11,inner3_12,inner3_8,inner3_9,inner4_12]
+  simp only [innerCertificate12, length_add, length_multiply, length_scale]
+  norm_num [inner0_10,inner0_11,inner0_12,inner0_7,inner0_8,inner0_9,inner1_0,inner1_1,inner1_2,inner1_3,inner1_4,inner1_5,inner2_0,inner2_1,inner2_2,inner2_3,inner2_4,inner3_10,inner3_11,inner3_12,inner3_8,inner3_9,inner4_12, List.length_cons, List.length_nil]
 compact_certificate_declaration theorem inner_eval_12 (y z w a b u : ℂ) :
     evaluate a (innerCertificate12 y z w b u)=(((((c0_7 y z w a b u)*(c1_5 y z w a b u))+(((c0_8 y z w a b u)*(c1_4 y z w a b u))+(((c0_9 y z w a b u)*(c1_3 y z w a b u))+(((c0_10 y z w a b u)*(c1_2 y z w a b u))+(((c0_11 y z w a b u)*(c1_1 y z w a b u))+(((c0_12 y z w a b u)*(c1_0 y z w a b u))+0))))))+(((c2_0 y z w a b u)*(c3_12 y z w a b u))+(((c2_1 y z w a b u)*(c3_11 y z w a b u))+(((c2_2 y z w a b u)*(c3_10 y z w a b u))+(((c2_3 y z w a b u)*(c3_9 y z w a b u))+((c2_4 y z w a b u)*(c3_8 y z w a b u)))))))+((-1)*(c4_12 y z w a b u))) := by
   simp only [innerCertificate12,evaluate_add,evaluate_multiply,evaluate,
@@ -1239,67 +502,6 @@ set_option maxRecDepth 32768
 namespace SmallLevelTwentySixMMPPariTrace024
 open SmallLevelPolynomialCoefficientCertificate
 
-compact_certificate_declaration theorem coefficient_12_0 (y z w b u : ℂ) :
-    (innerCertificate12 y z w b u)[0]?=some 0 := by
-  change some (((((((d0_7_0 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_8_0 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_9_0 y z w b u)*(d1_3_0 y z w b u))+0)+((((d0_10_0 y z w b u)*(d1_2_0 y z w b u))+0)+((((d0_11_0 y z w b u)*(d1_1_0 y z w b u))+0)+(((d0_12_0 y z w b u)*(d1_0_0 y z w b u))+0))))))+((((d2_2_0 y z w b u)*(d3_10_0 y z w b u))+0)+((((d2_3_0 y z w b u)*(d3_9_0 y z w b u))+0)+(((d2_4_0 y z w b u)*(d3_8_0 y z w b u))+0))))+(((-1)*(d4_12_0 y z w b u))+0)))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_10_0,d0_11_0,d0_12_0,d0_7_0,d0_8_0,d0_9_0,d1_0_0,d1_1_0,d1_2_0,d1_3_0,d1_4_0,d1_5_0,d2_2_0,d2_3_0,d2_4_0,d3_10_0,d3_8_0,d3_9_0,d4_12_0]
-  ring
-#print axioms coefficient_12_0
-
-compact_certificate_declaration theorem coefficient_12_1 (y z w b u : ℂ) :
-    (innerCertificate12 y z w b u)[1]?=some 0 := by
-  change some (((((((d0_7_1 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_8_1 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_9_0 y z w b u)*(d1_3_1 y z w b u))+(((d0_9_1 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_10_0 y z w b u)*(d1_2_1 y z w b u))+(((d0_10_1 y z w b u)*(d1_2_0 y z w b u))+0))+((((d0_11_0 y z w b u)*(d1_1_1 y z w b u))+(((d0_11_1 y z w b u)*(d1_1_0 y z w b u))+0))+(((d0_12_0 y z w b u)*(d1_0_1 y z w b u))+(((d0_12_1 y z w b u)*(d1_0_0 y z w b u))+0)))))))+((((d2_2_0 y z w b u)*(d3_10_1 y z w b u))+(((d2_2_1 y z w b u)*(d3_10_0 y z w b u))+0))+((((d2_3_0 y z w b u)*(d3_9_1 y z w b u))+(((d2_3_1 y z w b u)*(d3_9_0 y z w b u))+0))+((d2_4_0 y z w b u)*(d3_8_1 y z w b u)))))+((-1)*(d4_12_1 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_10_0,d0_10_1,d0_11_0,d0_11_1,d0_12_0,d0_12_1,d0_7_1,d0_8_1,d0_9_0,d0_9_1,d1_0_0,d1_0_1,d1_1_0,d1_1_1,d1_2_0,d1_2_1,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_0,d2_2_1,d2_3_0,d2_3_1,d2_4_0,d3_10_0,d3_10_1,d3_8_1,d3_9_0,d3_9_1,d4_12_1]
-  ring
-#print axioms coefficient_12_1
-
-compact_certificate_declaration theorem coefficient_12_2 (y z w b u : ℂ) :
-    (innerCertificate12 y z w b u)[2]?=some 0 := by
-  change some (((((((d0_7_2 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_8_2 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_9_1 y z w b u)*(d1_3_1 y z w b u))+(((d0_9_2 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_10_0 y z w b u)*(d1_2_2 y z w b u))+(((d0_10_1 y z w b u)*(d1_2_1 y z w b u))+(((d0_10_2 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_11_0 y z w b u)*(d1_1_2 y z w b u))+(((d0_11_1 y z w b u)*(d1_1_1 y z w b u))+(((d0_11_2 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_12_0 y z w b u)*(d1_0_2 y z w b u))+(((d0_12_1 y z w b u)*(d1_0_1 y z w b u))+(((d0_12_2 y z w b u)*(d1_0_0 y z w b u))+0))))))))+((((d2_2_0 y z w b u)*(d3_10_2 y z w b u))+(((d2_2_1 y z w b u)*(d3_10_1 y z w b u))+(((d2_2_2 y z w b u)*(d3_10_0 y z w b u))+0)))+((((d2_3_0 y z w b u)*(d3_9_2 y z w b u))+((d2_3_1 y z w b u)*(d3_9_1 y z w b u)))+((d2_4_0 y z w b u)*(d3_8_2 y z w b u)))))+((-1)*(d4_12_2 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_10_0,d0_10_1,d0_10_2,d0_11_0,d0_11_1,d0_11_2,d0_12_0,d0_12_1,d0_12_2,d0_7_2,d0_8_2,d0_9_1,d0_9_2,d1_0_0,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_10_0,d3_10_1,d3_10_2,d3_8_2,d3_9_1,d3_9_2,d4_12_2]
-  ring
-#print axioms coefficient_12_2
-
-compact_certificate_declaration theorem coefficient_12_3 (y z w b u : ℂ) :
-    (innerCertificate12 y z w b u)[3]?=some 0 := by
-  change some (((((((d0_7_3 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_8_3 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_9_2 y z w b u)*(d1_3_1 y z w b u))+(((d0_9_3 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_10_1 y z w b u)*(d1_2_2 y z w b u))+(((d0_10_2 y z w b u)*(d1_2_1 y z w b u))+(((d0_10_3 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_11_1 y z w b u)*(d1_1_2 y z w b u))+(((d0_11_2 y z w b u)*(d1_1_1 y z w b u))+(((d0_11_3 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_12_1 y z w b u)*(d1_0_2 y z w b u))+(((d0_12_2 y z w b u)*(d1_0_1 y z w b u))+(((d0_12_3 y z w b u)*(d1_0_0 y z w b u))+0))))))))+((((d2_2_0 y z w b u)*(d3_10_3 y z w b u))+(((d2_2_1 y z w b u)*(d3_10_2 y z w b u))+((d2_2_2 y z w b u)*(d3_10_1 y z w b u))))+((((d2_3_0 y z w b u)*(d3_9_3 y z w b u))+((d2_3_1 y z w b u)*(d3_9_2 y z w b u)))+((d2_4_0 y z w b u)*(d3_8_3 y z w b u)))))+((-1)*(d4_12_3 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_10_1,d0_10_2,d0_10_3,d0_11_1,d0_11_2,d0_11_3,d0_12_1,d0_12_2,d0_12_3,d0_7_3,d0_8_3,d0_9_2,d0_9_3,d1_0_0,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_10_1,d3_10_2,d3_10_3,d3_8_3,d3_9_2,d3_9_3,d4_12_3]
-  ring
-#print axioms coefficient_12_3
-compact_certificate_declaration theorem coefficient_12_4 (y z w b u : ℂ) :
-    (innerCertificate12 y z w b u)[4]?=some 0 := by
-  change some (((((((d0_7_4 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_8_4 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_9_3 y z w b u)*(d1_3_1 y z w b u))+(((d0_9_4 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_10_2 y z w b u)*(d1_2_2 y z w b u))+(((d0_10_3 y z w b u)*(d1_2_1 y z w b u))+(((d0_10_4 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_11_2 y z w b u)*(d1_1_2 y z w b u))+(((d0_11_3 y z w b u)*(d1_1_1 y z w b u))+(((d0_11_4 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_12_2 y z w b u)*(d1_0_2 y z w b u))+(((d0_12_3 y z w b u)*(d1_0_1 y z w b u))+(((d0_12_4 y z w b u)*(d1_0_0 y z w b u))+0))))))))+((((d2_2_0 y z w b u)*(d3_10_4 y z w b u))+(((d2_2_1 y z w b u)*(d3_10_3 y z w b u))+((d2_2_2 y z w b u)*(d3_10_2 y z w b u))))+((((d2_3_0 y z w b u)*(d3_9_4 y z w b u))+((d2_3_1 y z w b u)*(d3_9_3 y z w b u)))+((d2_4_0 y z w b u)*(d3_8_4 y z w b u)))))+((-1)*(d4_12_4 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_10_2,d0_10_3,d0_10_4,d0_11_2,d0_11_3,d0_11_4,d0_12_2,d0_12_3,d0_12_4,d0_7_4,d0_8_4,d0_9_3,d0_9_4,d1_0_0,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_10_2,d3_10_3,d3_10_4,d3_8_4,d3_9_3,d3_9_4,d4_12_4]
-  ring
-#print axioms coefficient_12_4
-compact_certificate_declaration theorem coefficient_12_5 (y z w b u : ℂ) :
-    (innerCertificate12 y z w b u)[5]?=some 0 := by
-  change some (((((((d0_7_5 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_8_5 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_9_4 y z w b u)*(d1_3_1 y z w b u))+(((d0_9_5 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_10_3 y z w b u)*(d1_2_2 y z w b u))+(((d0_10_4 y z w b u)*(d1_2_1 y z w b u))+(((d0_10_5 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_11_3 y z w b u)*(d1_1_2 y z w b u))+((d0_11_4 y z w b u)*(d1_1_1 y z w b u)))+(((d0_12_3 y z w b u)*(d1_0_2 y z w b u))+((d0_12_4 y z w b u)*(d1_0_1 y z w b u))))))))+((((d2_2_0 y z w b u)*(d3_10_5 y z w b u))+(((d2_2_1 y z w b u)*(d3_10_4 y z w b u))+((d2_2_2 y z w b u)*(d3_10_3 y z w b u))))+((((d2_3_0 y z w b u)*(d3_9_5 y z w b u))+((d2_3_1 y z w b u)*(d3_9_4 y z w b u)))+((d2_4_0 y z w b u)*(d3_8_5 y z w b u)))))+((-1)*(d4_12_5 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_10_3,d0_10_4,d0_10_5,d0_11_3,d0_11_4,d0_12_3,d0_12_4,d0_7_5,d0_8_5,d0_9_4,d0_9_5,d1_0_1,d1_0_2,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_10_3,d3_10_4,d3_10_5,d3_8_5,d3_9_4,d3_9_5,d4_12_5]
-  ring
-#print axioms coefficient_12_5
-
-compact_certificate_declaration theorem coefficient_12_6 (y z w b u : ℂ) :
-    (innerCertificate12 y z w b u)[6]?=some 0 := by
-  change some (((((((d0_7_6 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_8_6 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_9_5 y z w b u)*(d1_3_1 y z w b u))+(((d0_9_6 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_10_4 y z w b u)*(d1_2_2 y z w b u))+((d0_10_5 y z w b u)*(d1_2_1 y z w b u)))+(((d0_11_4 y z w b u)*(d1_1_2 y z w b u))+((d0_12_4 y z w b u)*(d1_0_2 y z w b u)))))))+((((d2_2_1 y z w b u)*(d3_10_5 y z w b u))+((d2_2_2 y z w b u)*(d3_10_4 y z w b u)))+((((d2_3_0 y z w b u)*(d3_9_6 y z w b u))+((d2_3_1 y z w b u)*(d3_9_5 y z w b u)))+((d2_4_0 y z w b u)*(d3_8_6 y z w b u)))))+((-1)*(d4_12_6 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_10_4,d0_10_5,d0_11_4,d0_12_4,d0_7_6,d0_8_6,d0_9_5,d0_9_6,d1_0_2,d1_1_2,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_10_4,d3_10_5,d3_8_6,d3_9_5,d3_9_6,d4_12_6]
-  ring
-#print axioms coefficient_12_6
-compact_certificate_declaration theorem coefficient_12_7 (y z w b u : ℂ) :
-    (innerCertificate12 y z w b u)[7]?=some 0 := by
-  change some (((((((d0_7_7 y z w b u)*(d1_5_0 y z w b u))+0)+(((d0_9_6 y z w b u)*(d1_3_1 y z w b u))+((d0_10_5 y z w b u)*(d1_2_2 y z w b u))))+(((d2_2_2 y z w b u)*(d3_10_5 y z w b u))+((d2_3_1 y z w b u)*(d3_9_6 y z w b u))))+((-1)*(d4_12_7 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_10_5,d0_7_7,d0_9_6,d1_2_2,d1_3_1,d1_5_0,d2_2_2,d2_3_1,d3_10_5,d3_9_6,d4_12_7]
-  ring
-#print axioms coefficient_12_7
-
 end SmallLevelTwentySixMMPPariTrace024
 end
 
@@ -1314,7 +516,8 @@ set_option linter.unnecessarySeqFocus false
 namespace SmallLevelTwentySixMMPPariTrace024
 open SmallLevelPolynomialCoefficientCertificate
 compact_certificate_declaration theorem inner_length_13 (y z w b u : ℂ) : (innerCertificate13 y z w b u).length=7 := by
-  norm_num [innerCertificate13,add,multiply,scale,inner0_10,inner0_11,inner0_12,inner0_13,inner0_8,inner0_9,inner1_0,inner1_1,inner1_2,inner1_3,inner1_4,inner1_5,inner2_0,inner2_1,inner2_2,inner2_3,inner2_4,inner3_10,inner3_11,inner3_12,inner3_13,inner3_9,inner4_13]
+  simp only [innerCertificate13, length_add, length_multiply, length_scale]
+  norm_num [inner0_10,inner0_11,inner0_12,inner0_13,inner0_8,inner0_9,inner1_0,inner1_1,inner1_2,inner1_3,inner1_4,inner1_5,inner2_0,inner2_1,inner2_2,inner2_3,inner2_4,inner3_10,inner3_11,inner3_12,inner3_13,inner3_9,inner4_13, List.length_cons, List.length_nil]
 compact_certificate_declaration theorem inner_eval_13 (y z w a b u : ℂ) :
     evaluate a (innerCertificate13 y z w b u)=(((((c0_8 y z w a b u)*(c1_5 y z w a b u))+(((c0_9 y z w a b u)*(c1_4 y z w a b u))+(((c0_10 y z w a b u)*(c1_3 y z w a b u))+(((c0_11 y z w a b u)*(c1_2 y z w a b u))+(((c0_12 y z w a b u)*(c1_1 y z w a b u))+(((c0_13 y z w a b u)*(c1_0 y z w a b u))+0))))))+(((c2_0 y z w a b u)*(c3_13 y z w a b u))+(((c2_1 y z w a b u)*(c3_12 y z w a b u))+(((c2_2 y z w a b u)*(c3_11 y z w a b u))+(((c2_3 y z w a b u)*(c3_10 y z w a b u))+((c2_4 y z w a b u)*(c3_9 y z w a b u)))))))+((-1)*(c4_13 y z w a b u))) := by
   simp only [innerCertificate13,evaluate_add,evaluate_multiply,evaluate,
@@ -1336,59 +539,6 @@ set_option maxRecDepth 32768
 namespace SmallLevelTwentySixMMPPariTrace024
 open SmallLevelPolynomialCoefficientCertificate
 
-compact_certificate_declaration theorem coefficient_13_0 (y z w b u : ℂ) :
-    (innerCertificate13 y z w b u)[0]?=some 0 := by
-  change some (((((((d0_8_0 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_9_0 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_10_0 y z w b u)*(d1_3_0 y z w b u))+0)+((((d0_11_0 y z w b u)*(d1_2_0 y z w b u))+0)+((((d0_12_0 y z w b u)*(d1_1_0 y z w b u))+0)+(((d0_13_0 y z w b u)*(d1_0_0 y z w b u))+0))))))+((((d2_2_0 y z w b u)*(d3_11_0 y z w b u))+0)+((((d2_3_0 y z w b u)*(d3_10_0 y z w b u))+0)+(((d2_4_0 y z w b u)*(d3_9_0 y z w b u))+0))))+(((-1)*(d4_13_0 y z w b u))+0)))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_10_0,d0_11_0,d0_12_0,d0_13_0,d0_8_0,d0_9_0,d1_0_0,d1_1_0,d1_2_0,d1_3_0,d1_4_0,d1_5_0,d2_2_0,d2_3_0,d2_4_0,d3_10_0,d3_11_0,d3_9_0,d4_13_0]
-  ring
-#print axioms coefficient_13_0
-
-compact_certificate_declaration theorem coefficient_13_1 (y z w b u : ℂ) :
-    (innerCertificate13 y z w b u)[1]?=some 0 := by
-  change some (((((((d0_8_1 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_9_1 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_10_0 y z w b u)*(d1_3_1 y z w b u))+(((d0_10_1 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_11_0 y z w b u)*(d1_2_1 y z w b u))+(((d0_11_1 y z w b u)*(d1_2_0 y z w b u))+0))+((((d0_12_0 y z w b u)*(d1_1_1 y z w b u))+(((d0_12_1 y z w b u)*(d1_1_0 y z w b u))+0))+(((d0_13_0 y z w b u)*(d1_0_1 y z w b u))+(((d0_13_1 y z w b u)*(d1_0_0 y z w b u))+0)))))))+((((d2_2_0 y z w b u)*(d3_11_1 y z w b u))+(((d2_2_1 y z w b u)*(d3_11_0 y z w b u))+0))+((((d2_3_0 y z w b u)*(d3_10_1 y z w b u))+(((d2_3_1 y z w b u)*(d3_10_0 y z w b u))+0))+((d2_4_0 y z w b u)*(d3_9_1 y z w b u)))))+((-1)*(d4_13_1 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_10_0,d0_10_1,d0_11_0,d0_11_1,d0_12_0,d0_12_1,d0_13_0,d0_13_1,d0_8_1,d0_9_1,d1_0_0,d1_0_1,d1_1_0,d1_1_1,d1_2_0,d1_2_1,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_0,d2_2_1,d2_3_0,d2_3_1,d2_4_0,d3_10_0,d3_10_1,d3_11_0,d3_11_1,d3_9_1,d4_13_1]
-  ring
-#print axioms coefficient_13_1
-
-compact_certificate_declaration theorem coefficient_13_2 (y z w b u : ℂ) :
-    (innerCertificate13 y z w b u)[2]?=some 0 := by
-  change some (((((((d0_8_2 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_9_2 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_10_1 y z w b u)*(d1_3_1 y z w b u))+(((d0_10_2 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_11_0 y z w b u)*(d1_2_2 y z w b u))+(((d0_11_1 y z w b u)*(d1_2_1 y z w b u))+(((d0_11_2 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_12_0 y z w b u)*(d1_1_2 y z w b u))+(((d0_12_1 y z w b u)*(d1_1_1 y z w b u))+(((d0_12_2 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_13_0 y z w b u)*(d1_0_2 y z w b u))+(((d0_13_1 y z w b u)*(d1_0_1 y z w b u))+(((d0_13_2 y z w b u)*(d1_0_0 y z w b u))+0))))))))+((((d2_2_0 y z w b u)*(d3_11_2 y z w b u))+(((d2_2_1 y z w b u)*(d3_11_1 y z w b u))+(((d2_2_2 y z w b u)*(d3_11_0 y z w b u))+0)))+((((d2_3_0 y z w b u)*(d3_10_2 y z w b u))+((d2_3_1 y z w b u)*(d3_10_1 y z w b u)))+((d2_4_0 y z w b u)*(d3_9_2 y z w b u)))))+((-1)*(d4_13_2 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_10_1,d0_10_2,d0_11_0,d0_11_1,d0_11_2,d0_12_0,d0_12_1,d0_12_2,d0_13_0,d0_13_1,d0_13_2,d0_8_2,d0_9_2,d1_0_0,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_10_1,d3_10_2,d3_11_0,d3_11_1,d3_11_2,d3_9_2,d4_13_2]
-  ring
-#print axioms coefficient_13_2
-compact_certificate_declaration theorem coefficient_13_3 (y z w b u : ℂ) :
-    (innerCertificate13 y z w b u)[3]?=some 0 := by
-  change some (((((((d0_8_3 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_9_3 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_10_2 y z w b u)*(d1_3_1 y z w b u))+(((d0_10_3 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_11_1 y z w b u)*(d1_2_2 y z w b u))+(((d0_11_2 y z w b u)*(d1_2_1 y z w b u))+(((d0_11_3 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_12_1 y z w b u)*(d1_1_2 y z w b u))+(((d0_12_2 y z w b u)*(d1_1_1 y z w b u))+(((d0_12_3 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_13_1 y z w b u)*(d1_0_2 y z w b u))+(((d0_13_2 y z w b u)*(d1_0_1 y z w b u))+(((d0_13_3 y z w b u)*(d1_0_0 y z w b u))+0))))))))+((((d2_2_0 y z w b u)*(d3_11_3 y z w b u))+(((d2_2_1 y z w b u)*(d3_11_2 y z w b u))+((d2_2_2 y z w b u)*(d3_11_1 y z w b u))))+((((d2_3_0 y z w b u)*(d3_10_3 y z w b u))+((d2_3_1 y z w b u)*(d3_10_2 y z w b u)))+((d2_4_0 y z w b u)*(d3_9_3 y z w b u)))))+((-1)*(d4_13_3 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_10_2,d0_10_3,d0_11_1,d0_11_2,d0_11_3,d0_12_1,d0_12_2,d0_12_3,d0_13_1,d0_13_2,d0_13_3,d0_8_3,d0_9_3,d1_0_0,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_10_2,d3_10_3,d3_11_1,d3_11_2,d3_11_3,d3_9_3,d4_13_3]
-  ring
-#print axioms coefficient_13_3
-compact_certificate_declaration theorem coefficient_13_4 (y z w b u : ℂ) :
-    (innerCertificate13 y z w b u)[4]?=some 0 := by
-  change some (((((((d0_8_4 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_9_4 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_10_3 y z w b u)*(d1_3_1 y z w b u))+(((d0_10_4 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_11_2 y z w b u)*(d1_2_2 y z w b u))+(((d0_11_3 y z w b u)*(d1_2_1 y z w b u))+(((d0_11_4 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_12_2 y z w b u)*(d1_1_2 y z w b u))+(((d0_12_3 y z w b u)*(d1_1_1 y z w b u))+(((d0_12_4 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_13_2 y z w b u)*(d1_0_2 y z w b u))+((d0_13_3 y z w b u)*(d1_0_1 y z w b u))))))))+((((d2_2_0 y z w b u)*(d3_11_4 y z w b u))+(((d2_2_1 y z w b u)*(d3_11_3 y z w b u))+((d2_2_2 y z w b u)*(d3_11_2 y z w b u))))+((((d2_3_0 y z w b u)*(d3_10_4 y z w b u))+((d2_3_1 y z w b u)*(d3_10_3 y z w b u)))+((d2_4_0 y z w b u)*(d3_9_4 y z w b u)))))+((-1)*(d4_13_4 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_10_3,d0_10_4,d0_11_2,d0_11_3,d0_11_4,d0_12_2,d0_12_3,d0_12_4,d0_13_2,d0_13_3,d0_8_4,d0_9_4,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_10_3,d3_10_4,d3_11_2,d3_11_3,d3_11_4,d3_9_4,d4_13_4]
-  ring
-#print axioms coefficient_13_4
-
-compact_certificate_declaration theorem coefficient_13_5 (y z w b u : ℂ) :
-    (innerCertificate13 y z w b u)[5]?=some 0 := by
-  change some (((((((d0_8_5 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_9_5 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_10_4 y z w b u)*(d1_3_1 y z w b u))+(((d0_10_5 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_11_3 y z w b u)*(d1_2_2 y z w b u))+((d0_11_4 y z w b u)*(d1_2_1 y z w b u)))+((((d0_12_3 y z w b u)*(d1_1_2 y z w b u))+((d0_12_4 y z w b u)*(d1_1_1 y z w b u)))+((d0_13_3 y z w b u)*(d1_0_2 y z w b u)))))))+((((d2_2_1 y z w b u)*(d3_11_4 y z w b u))+((d2_2_2 y z w b u)*(d3_11_3 y z w b u)))+((((d2_3_0 y z w b u)*(d3_10_5 y z w b u))+((d2_3_1 y z w b u)*(d3_10_4 y z w b u)))+((d2_4_0 y z w b u)*(d3_9_5 y z w b u)))))+((-1)*(d4_13_5 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_10_4,d0_10_5,d0_11_3,d0_11_4,d0_12_3,d0_12_4,d0_13_3,d0_8_5,d0_9_5,d1_0_2,d1_1_1,d1_1_2,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_10_4,d3_10_5,d3_11_3,d3_11_4,d3_9_5,d4_13_5]
-  ring
-#print axioms coefficient_13_5
-compact_certificate_declaration theorem coefficient_13_6 (y z w b u : ℂ) :
-    (innerCertificate13 y z w b u)[6]?=some 0 := by
-  change some (((((((d0_8_6 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_9_6 y z w b u)*(d1_4_0 y z w b u))+0)+(((d0_10_5 y z w b u)*(d1_3_1 y z w b u))+(((d0_11_4 y z w b u)*(d1_2_2 y z w b u))+((d0_12_4 y z w b u)*(d1_1_2 y z w b u))))))+(((d2_2_2 y z w b u)*(d3_11_4 y z w b u))+(((d2_3_1 y z w b u)*(d3_10_5 y z w b u))+((d2_4_0 y z w b u)*(d3_9_6 y z w b u)))))+((-1)*(d4_13_6 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_10_5,d0_11_4,d0_12_4,d0_8_6,d0_9_6,d1_1_2,d1_2_2,d1_3_1,d1_4_0,d1_5_0,d2_2_2,d2_3_1,d2_4_0,d3_10_5,d3_11_4,d3_9_6,d4_13_6]
-  ring
-#print axioms coefficient_13_6
-
 end SmallLevelTwentySixMMPPariTrace024
 end
 
@@ -1403,7 +553,8 @@ set_option linter.unnecessarySeqFocus false
 namespace SmallLevelTwentySixMMPPariTrace024
 open SmallLevelPolynomialCoefficientCertificate
 compact_certificate_declaration theorem inner_length_14 (y z w b u : ℂ) : (innerCertificate14 y z w b u).length=7 := by
-  norm_num [innerCertificate14,add,multiply,scale,inner0_10,inner0_11,inner0_12,inner0_13,inner0_14,inner0_9,inner1_0,inner1_1,inner1_2,inner1_3,inner1_4,inner1_5,inner2_0,inner2_1,inner2_2,inner2_3,inner2_4,inner3_10,inner3_11,inner3_12,inner3_13,inner3_14,inner4_14]
+  simp only [innerCertificate14, length_add, length_multiply, length_scale]
+  norm_num [inner0_10,inner0_11,inner0_12,inner0_13,inner0_14,inner0_9,inner1_0,inner1_1,inner1_2,inner1_3,inner1_4,inner1_5,inner2_0,inner2_1,inner2_2,inner2_3,inner2_4,inner3_10,inner3_11,inner3_12,inner3_13,inner3_14,inner4_14, List.length_cons, List.length_nil]
 compact_certificate_declaration theorem inner_eval_14 (y z w a b u : ℂ) :
     evaluate a (innerCertificate14 y z w b u)=(((((c0_9 y z w a b u)*(c1_5 y z w a b u))+(((c0_10 y z w a b u)*(c1_4 y z w a b u))+(((c0_11 y z w a b u)*(c1_3 y z w a b u))+(((c0_12 y z w a b u)*(c1_2 y z w a b u))+(((c0_13 y z w a b u)*(c1_1 y z w a b u))+(((c0_14 y z w a b u)*(c1_0 y z w a b u))+0))))))+(((c2_0 y z w a b u)*(c3_14 y z w a b u))+(((c2_1 y z w a b u)*(c3_13 y z w a b u))+(((c2_2 y z w a b u)*(c3_12 y z w a b u))+(((c2_3 y z w a b u)*(c3_11 y z w a b u))+((c2_4 y z w a b u)*(c3_10 y z w a b u)))))))+((-1)*(c4_14 y z w a b u))) := by
   simp only [innerCertificate14,evaluate_add,evaluate_multiply,evaluate,
@@ -1425,58 +576,6 @@ set_option maxRecDepth 32768
 namespace SmallLevelTwentySixMMPPariTrace024
 open SmallLevelPolynomialCoefficientCertificate
 
-compact_certificate_declaration theorem coefficient_14_0 (y z w b u : ℂ) :
-    (innerCertificate14 y z w b u)[0]?=some 0 := by
-  change some (((((((d0_9_0 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_10_0 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_11_0 y z w b u)*(d1_3_0 y z w b u))+0)+((((d0_12_0 y z w b u)*(d1_2_0 y z w b u))+0)+((((d0_13_0 y z w b u)*(d1_1_0 y z w b u))+0)+(((d0_14_0 y z w b u)*(d1_0_0 y z w b u))+0))))))+((((d2_2_0 y z w b u)*(d3_12_0 y z w b u))+0)+((((d2_3_0 y z w b u)*(d3_11_0 y z w b u))+0)+(((d2_4_0 y z w b u)*(d3_10_0 y z w b u))+0))))+(((-1)*(d4_14_0 y z w b u))+0)))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_10_0,d0_11_0,d0_12_0,d0_13_0,d0_14_0,d0_9_0,d1_0_0,d1_1_0,d1_2_0,d1_3_0,d1_4_0,d1_5_0,d2_2_0,d2_3_0,d2_4_0,d3_10_0,d3_11_0,d3_12_0,d4_14_0]
-  ring
-#print axioms coefficient_14_0
-compact_certificate_declaration theorem coefficient_14_1 (y z w b u : ℂ) :
-    (innerCertificate14 y z w b u)[1]?=some 0 := by
-  change some (((((((d0_9_1 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_10_1 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_11_0 y z w b u)*(d1_3_1 y z w b u))+(((d0_11_1 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_12_0 y z w b u)*(d1_2_1 y z w b u))+(((d0_12_1 y z w b u)*(d1_2_0 y z w b u))+0))+((((d0_13_0 y z w b u)*(d1_1_1 y z w b u))+(((d0_13_1 y z w b u)*(d1_1_0 y z w b u))+0))+(((d0_14_0 y z w b u)*(d1_0_1 y z w b u))+(((d0_14_1 y z w b u)*(d1_0_0 y z w b u))+0)))))))+((((d2_2_0 y z w b u)*(d3_12_1 y z w b u))+(((d2_2_1 y z w b u)*(d3_12_0 y z w b u))+0))+((((d2_3_0 y z w b u)*(d3_11_1 y z w b u))+(((d2_3_1 y z w b u)*(d3_11_0 y z w b u))+0))+((d2_4_0 y z w b u)*(d3_10_1 y z w b u)))))+((-1)*(d4_14_1 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_10_1,d0_11_0,d0_11_1,d0_12_0,d0_12_1,d0_13_0,d0_13_1,d0_14_0,d0_14_1,d0_9_1,d1_0_0,d1_0_1,d1_1_0,d1_1_1,d1_2_0,d1_2_1,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_0,d2_2_1,d2_3_0,d2_3_1,d2_4_0,d3_10_1,d3_11_0,d3_11_1,d3_12_0,d3_12_1,d4_14_1]
-  ring
-#print axioms coefficient_14_1
-
-compact_certificate_declaration theorem coefficient_14_2 (y z w b u : ℂ) :
-    (innerCertificate14 y z w b u)[2]?=some 0 := by
-  change some (((((((d0_9_2 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_10_2 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_11_1 y z w b u)*(d1_3_1 y z w b u))+(((d0_11_2 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_12_0 y z w b u)*(d1_2_2 y z w b u))+(((d0_12_1 y z w b u)*(d1_2_1 y z w b u))+(((d0_12_2 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_13_0 y z w b u)*(d1_1_2 y z w b u))+(((d0_13_1 y z w b u)*(d1_1_1 y z w b u))+(((d0_13_2 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_14_0 y z w b u)*(d1_0_2 y z w b u))+(((d0_14_1 y z w b u)*(d1_0_1 y z w b u))+(((d0_14_2 y z w b u)*(d1_0_0 y z w b u))+0))))))))+((((d2_2_0 y z w b u)*(d3_12_2 y z w b u))+(((d2_2_1 y z w b u)*(d3_12_1 y z w b u))+(((d2_2_2 y z w b u)*(d3_12_0 y z w b u))+0)))+((((d2_3_0 y z w b u)*(d3_11_2 y z w b u))+((d2_3_1 y z w b u)*(d3_11_1 y z w b u)))+((d2_4_0 y z w b u)*(d3_10_2 y z w b u)))))+((-1)*(d4_14_2 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_10_2,d0_11_1,d0_11_2,d0_12_0,d0_12_1,d0_12_2,d0_13_0,d0_13_1,d0_13_2,d0_14_0,d0_14_1,d0_14_2,d0_9_2,d1_0_0,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_10_2,d3_11_1,d3_11_2,d3_12_0,d3_12_1,d3_12_2,d4_14_2]
-  ring
-#print axioms coefficient_14_2
-compact_certificate_declaration theorem coefficient_14_3 (y z w b u : ℂ) :
-    (innerCertificate14 y z w b u)[3]?=some 0 := by
-  change some (((((((d0_9_3 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_10_3 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_11_2 y z w b u)*(d1_3_1 y z w b u))+(((d0_11_3 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_12_1 y z w b u)*(d1_2_2 y z w b u))+(((d0_12_2 y z w b u)*(d1_2_1 y z w b u))+(((d0_12_3 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_13_1 y z w b u)*(d1_1_2 y z w b u))+(((d0_13_2 y z w b u)*(d1_1_1 y z w b u))+(((d0_13_3 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_14_1 y z w b u)*(d1_0_2 y z w b u))+((d0_14_2 y z w b u)*(d1_0_1 y z w b u))))))))+((((d2_2_0 y z w b u)*(d3_12_3 y z w b u))+(((d2_2_1 y z w b u)*(d3_12_2 y z w b u))+((d2_2_2 y z w b u)*(d3_12_1 y z w b u))))+((((d2_3_0 y z w b u)*(d3_11_3 y z w b u))+((d2_3_1 y z w b u)*(d3_11_2 y z w b u)))+((d2_4_0 y z w b u)*(d3_10_3 y z w b u)))))+((-1)*(d4_14_3 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_10_3,d0_11_2,d0_11_3,d0_12_1,d0_12_2,d0_12_3,d0_13_1,d0_13_2,d0_13_3,d0_14_1,d0_14_2,d0_9_3,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_10_3,d3_11_2,d3_11_3,d3_12_1,d3_12_2,d3_12_3,d4_14_3]
-  ring
-#print axioms coefficient_14_3
-compact_certificate_declaration theorem coefficient_14_4 (y z w b u : ℂ) :
-    (innerCertificate14 y z w b u)[4]?=some 0 := by
-  change some (((((((d0_9_4 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_10_4 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_11_3 y z w b u)*(d1_3_1 y z w b u))+(((d0_11_4 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_12_2 y z w b u)*(d1_2_2 y z w b u))+(((d0_12_3 y z w b u)*(d1_2_1 y z w b u))+(((d0_12_4 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_13_2 y z w b u)*(d1_1_2 y z w b u))+((d0_13_3 y z w b u)*(d1_1_1 y z w b u)))+((d0_14_2 y z w b u)*(d1_0_2 y z w b u)))))))+((((d2_2_0 y z w b u)*(d3_12_4 y z w b u))+(((d2_2_1 y z w b u)*(d3_12_3 y z w b u))+((d2_2_2 y z w b u)*(d3_12_2 y z w b u))))+((((d2_3_0 y z w b u)*(d3_11_4 y z w b u))+((d2_3_1 y z w b u)*(d3_11_3 y z w b u)))+((d2_4_0 y z w b u)*(d3_10_4 y z w b u)))))+((-1)*(d4_14_4 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_10_4,d0_11_3,d0_11_4,d0_12_2,d0_12_3,d0_12_4,d0_13_2,d0_13_3,d0_14_2,d0_9_4,d1_0_2,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_10_4,d3_11_3,d3_11_4,d3_12_2,d3_12_3,d3_12_4,d4_14_4]
-  ring
-#print axioms coefficient_14_4
-
-compact_certificate_declaration theorem coefficient_14_5 (y z w b u : ℂ) :
-    (innerCertificate14 y z w b u)[5]?=some 0 := by
-  change some (((((((d0_9_5 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_10_5 y z w b u)*(d1_4_0 y z w b u))+0)+(((d0_11_4 y z w b u)*(d1_3_1 y z w b u))+((((d0_12_3 y z w b u)*(d1_2_2 y z w b u))+((d0_12_4 y z w b u)*(d1_2_1 y z w b u)))+((d0_13_3 y z w b u)*(d1_1_2 y z w b u))))))+((((d2_2_1 y z w b u)*(d3_12_4 y z w b u))+((d2_2_2 y z w b u)*(d3_12_3 y z w b u)))+(((d2_3_1 y z w b u)*(d3_11_4 y z w b u))+((d2_4_0 y z w b u)*(d3_10_5 y z w b u)))))+((-1)*(d4_14_5 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_10_5,d0_11_4,d0_12_3,d0_12_4,d0_13_3,d0_9_5,d1_1_2,d1_2_1,d1_2_2,d1_3_1,d1_4_0,d1_5_0,d2_2_1,d2_2_2,d2_3_1,d2_4_0,d3_10_5,d3_11_4,d3_12_3,d3_12_4,d4_14_5]
-  ring
-#print axioms coefficient_14_5
-compact_certificate_declaration theorem coefficient_14_6 (y z w b u : ℂ) :
-    (innerCertificate14 y z w b u)[6]?=some 0 := by
-  change some (((((((d0_9_6 y z w b u)*(d1_5_0 y z w b u))+0)+((d0_12_4 y z w b u)*(d1_2_2 y z w b u)))+((d2_2_2 y z w b u)*(d3_12_4 y z w b u)))+((-1)*(d4_14_6 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_12_4,d0_9_6,d1_2_2,d1_5_0,d2_2_2,d3_12_4,d4_14_6]
-  ring
-#print axioms coefficient_14_6
-
 end SmallLevelTwentySixMMPPariTrace024
 end
 
@@ -1491,7 +590,8 @@ set_option linter.unnecessarySeqFocus false
 namespace SmallLevelTwentySixMMPPariTrace024
 open SmallLevelPolynomialCoefficientCertificate
 compact_certificate_declaration theorem inner_length_15 (y z w b u : ℂ) : (innerCertificate15 y z w b u).length=6 := by
-  norm_num [innerCertificate15,add,multiply,scale,inner0_10,inner0_11,inner0_12,inner0_13,inner0_14,inner0_15,inner1_0,inner1_1,inner1_2,inner1_3,inner1_4,inner1_5,inner2_0,inner2_1,inner2_2,inner2_3,inner2_4,inner3_11,inner3_12,inner3_13,inner3_14,inner3_15,inner4_15]
+  simp only [innerCertificate15, length_add, length_multiply, length_scale]
+  norm_num [inner0_10,inner0_11,inner0_12,inner0_13,inner0_14,inner0_15,inner1_0,inner1_1,inner1_2,inner1_3,inner1_4,inner1_5,inner2_0,inner2_1,inner2_2,inner2_3,inner2_4,inner3_11,inner3_12,inner3_13,inner3_14,inner3_15,inner4_15, List.length_cons, List.length_nil]
 compact_certificate_declaration theorem inner_eval_15 (y z w a b u : ℂ) :
     evaluate a (innerCertificate15 y z w b u)=(((((c0_10 y z w a b u)*(c1_5 y z w a b u))+(((c0_11 y z w a b u)*(c1_4 y z w a b u))+(((c0_12 y z w a b u)*(c1_3 y z w a b u))+(((c0_13 y z w a b u)*(c1_2 y z w a b u))+(((c0_14 y z w a b u)*(c1_1 y z w a b u))+(((c0_15 y z w a b u)*(c1_0 y z w a b u))+0))))))+(((c2_0 y z w a b u)*(c3_15 y z w a b u))+(((c2_1 y z w a b u)*(c3_14 y z w a b u))+(((c2_2 y z w a b u)*(c3_13 y z w a b u))+(((c2_3 y z w a b u)*(c3_12 y z w a b u))+((c2_4 y z w a b u)*(c3_11 y z w a b u)))))))+((-1)*(c4_15 y z w a b u))) := by
   simp only [innerCertificate15,evaluate_add,evaluate_multiply,evaluate,
@@ -1513,50 +613,6 @@ set_option maxRecDepth 32768
 namespace SmallLevelTwentySixMMPPariTrace024
 open SmallLevelPolynomialCoefficientCertificate
 
-compact_certificate_declaration theorem coefficient_15_0 (y z w b u : ℂ) :
-    (innerCertificate15 y z w b u)[0]?=some 0 := by
-  change some (((((((d0_10_0 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_11_0 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_12_0 y z w b u)*(d1_3_0 y z w b u))+0)+((((d0_13_0 y z w b u)*(d1_2_0 y z w b u))+0)+((((d0_14_0 y z w b u)*(d1_1_0 y z w b u))+0)+(((d0_15_0 y z w b u)*(d1_0_0 y z w b u))+0))))))+((((d2_2_0 y z w b u)*(d3_13_0 y z w b u))+0)+((((d2_3_0 y z w b u)*(d3_12_0 y z w b u))+0)+(((d2_4_0 y z w b u)*(d3_11_0 y z w b u))+0))))+(((-1)*(d4_15_0 y z w b u))+0)))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_10_0,d0_11_0,d0_12_0,d0_13_0,d0_14_0,d0_15_0,d1_0_0,d1_1_0,d1_2_0,d1_3_0,d1_4_0,d1_5_0,d2_2_0,d2_3_0,d2_4_0,d3_11_0,d3_12_0,d3_13_0,d4_15_0]
-  ring
-#print axioms coefficient_15_0
-compact_certificate_declaration theorem coefficient_15_1 (y z w b u : ℂ) :
-    (innerCertificate15 y z w b u)[1]?=some 0 := by
-  change some (((((((d0_10_1 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_11_1 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_12_0 y z w b u)*(d1_3_1 y z w b u))+(((d0_12_1 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_13_0 y z w b u)*(d1_2_1 y z w b u))+(((d0_13_1 y z w b u)*(d1_2_0 y z w b u))+0))+((((d0_14_0 y z w b u)*(d1_1_1 y z w b u))+(((d0_14_1 y z w b u)*(d1_1_0 y z w b u))+0))+(((d0_15_0 y z w b u)*(d1_0_1 y z w b u))+(((d0_15_1 y z w b u)*(d1_0_0 y z w b u))+0)))))))+((((d2_2_0 y z w b u)*(d3_13_1 y z w b u))+(((d2_2_1 y z w b u)*(d3_13_0 y z w b u))+0))+((((d2_3_0 y z w b u)*(d3_12_1 y z w b u))+(((d2_3_1 y z w b u)*(d3_12_0 y z w b u))+0))+((d2_4_0 y z w b u)*(d3_11_1 y z w b u)))))+((-1)*(d4_15_1 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_10_1,d0_11_1,d0_12_0,d0_12_1,d0_13_0,d0_13_1,d0_14_0,d0_14_1,d0_15_0,d0_15_1,d1_0_0,d1_0_1,d1_1_0,d1_1_1,d1_2_0,d1_2_1,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_0,d2_2_1,d2_3_0,d2_3_1,d2_4_0,d3_11_1,d3_12_0,d3_12_1,d3_13_0,d3_13_1,d4_15_1]
-  ring
-#print axioms coefficient_15_1
-compact_certificate_declaration theorem coefficient_15_2 (y z w b u : ℂ) :
-    (innerCertificate15 y z w b u)[2]?=some 0 := by
-  change some (((((((d0_10_2 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_11_2 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_12_1 y z w b u)*(d1_3_1 y z w b u))+(((d0_12_2 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_13_0 y z w b u)*(d1_2_2 y z w b u))+(((d0_13_1 y z w b u)*(d1_2_1 y z w b u))+(((d0_13_2 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_14_0 y z w b u)*(d1_1_2 y z w b u))+(((d0_14_1 y z w b u)*(d1_1_1 y z w b u))+(((d0_14_2 y z w b u)*(d1_1_0 y z w b u))+0)))+(((d0_15_0 y z w b u)*(d1_0_2 y z w b u))+((d0_15_1 y z w b u)*(d1_0_1 y z w b u))))))))+((((d2_2_0 y z w b u)*(d3_13_2 y z w b u))+(((d2_2_1 y z w b u)*(d3_13_1 y z w b u))+(((d2_2_2 y z w b u)*(d3_13_0 y z w b u))+0)))+((((d2_3_0 y z w b u)*(d3_12_2 y z w b u))+((d2_3_1 y z w b u)*(d3_12_1 y z w b u)))+((d2_4_0 y z w b u)*(d3_11_2 y z w b u)))))+((-1)*(d4_15_2 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_10_2,d0_11_2,d0_12_1,d0_12_2,d0_13_0,d0_13_1,d0_13_2,d0_14_0,d0_14_1,d0_14_2,d0_15_0,d0_15_1,d1_0_1,d1_0_2,d1_1_0,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_11_2,d3_12_1,d3_12_2,d3_13_0,d3_13_1,d3_13_2,d4_15_2]
-  ring
-#print axioms coefficient_15_2
-
-compact_certificate_declaration theorem coefficient_15_3 (y z w b u : ℂ) :
-    (innerCertificate15 y z w b u)[3]?=some 0 := by
-  change some (((((((d0_10_3 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_11_3 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_12_2 y z w b u)*(d1_3_1 y z w b u))+(((d0_12_3 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_13_1 y z w b u)*(d1_2_2 y z w b u))+(((d0_13_2 y z w b u)*(d1_2_1 y z w b u))+(((d0_13_3 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_14_1 y z w b u)*(d1_1_2 y z w b u))+((d0_14_2 y z w b u)*(d1_1_1 y z w b u)))+((d0_15_1 y z w b u)*(d1_0_2 y z w b u)))))))+((((d2_2_0 y z w b u)*(d3_13_3 y z w b u))+(((d2_2_1 y z w b u)*(d3_13_2 y z w b u))+((d2_2_2 y z w b u)*(d3_13_1 y z w b u))))+((((d2_3_0 y z w b u)*(d3_12_3 y z w b u))+((d2_3_1 y z w b u)*(d3_12_2 y z w b u)))+((d2_4_0 y z w b u)*(d3_11_3 y z w b u)))))+((-1)*(d4_15_3 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_10_3,d0_11_3,d0_12_2,d0_12_3,d0_13_1,d0_13_2,d0_13_3,d0_14_1,d0_14_2,d0_15_1,d1_0_2,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_11_3,d3_12_2,d3_12_3,d3_13_1,d3_13_2,d3_13_3,d4_15_3]
-  ring
-#print axioms coefficient_15_3
-compact_certificate_declaration theorem coefficient_15_4 (y z w b u : ℂ) :
-    (innerCertificate15 y z w b u)[4]?=some 0 := by
-  change some (((((((d0_10_4 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_11_4 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_12_3 y z w b u)*(d1_3_1 y z w b u))+(((d0_12_4 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_13_2 y z w b u)*(d1_2_2 y z w b u))+((d0_13_3 y z w b u)*(d1_2_1 y z w b u)))+((d0_14_2 y z w b u)*(d1_1_2 y z w b u))))))+((((d2_2_1 y z w b u)*(d3_13_3 y z w b u))+((d2_2_2 y z w b u)*(d3_13_2 y z w b u)))+((((d2_3_0 y z w b u)*(d3_12_4 y z w b u))+((d2_3_1 y z w b u)*(d3_12_3 y z w b u)))+((d2_4_0 y z w b u)*(d3_11_4 y z w b u)))))+((-1)*(d4_15_4 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_10_4,d0_11_4,d0_12_3,d0_12_4,d0_13_2,d0_13_3,d0_14_2,d1_1_2,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_11_4,d3_12_3,d3_12_4,d3_13_2,d3_13_3,d4_15_4]
-  ring
-#print axioms coefficient_15_4
-compact_certificate_declaration theorem coefficient_15_5 (y z w b u : ℂ) :
-    (innerCertificate15 y z w b u)[5]?=some 0 := by
-  change some (((((((d0_10_5 y z w b u)*(d1_5_0 y z w b u))+0)+(((d0_12_4 y z w b u)*(d1_3_1 y z w b u))+((d0_13_3 y z w b u)*(d1_2_2 y z w b u))))+(((d2_2_2 y z w b u)*(d3_13_3 y z w b u))+((d2_3_1 y z w b u)*(d3_12_4 y z w b u))))+((-1)*(d4_15_5 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_10_5,d0_12_4,d0_13_3,d1_2_2,d1_3_1,d1_5_0,d2_2_2,d2_3_1,d3_12_4,d3_13_3,d4_15_5]
-  ring
-#print axioms coefficient_15_5
-
 end SmallLevelTwentySixMMPPariTrace024
 end
 
@@ -1571,7 +627,8 @@ set_option linter.unnecessarySeqFocus false
 namespace SmallLevelTwentySixMMPPariTrace024
 open SmallLevelPolynomialCoefficientCertificate
 compact_certificate_declaration theorem inner_length_16 (y z w b u : ℂ) : (innerCertificate16 y z w b u).length=5 := by
-  norm_num [innerCertificate16,add,multiply,scale,inner0_11,inner0_12,inner0_13,inner0_14,inner0_15,inner0_16,inner1_0,inner1_1,inner1_2,inner1_3,inner1_4,inner1_5,inner2_1,inner2_2,inner2_3,inner2_4,inner3_12,inner3_13,inner3_14,inner3_15,inner4_16]
+  simp only [innerCertificate16, length_add, length_multiply, length_scale]
+  norm_num [inner0_11,inner0_12,inner0_13,inner0_14,inner0_15,inner0_16,inner1_0,inner1_1,inner1_2,inner1_3,inner1_4,inner1_5,inner2_1,inner2_2,inner2_3,inner2_4,inner3_12,inner3_13,inner3_14,inner3_15,inner4_16, List.length_cons, List.length_nil]
 compact_certificate_declaration theorem inner_eval_16 (y z w a b u : ℂ) :
     evaluate a (innerCertificate16 y z w b u)=(((((c0_11 y z w a b u)*(c1_5 y z w a b u))+(((c0_12 y z w a b u)*(c1_4 y z w a b u))+(((c0_13 y z w a b u)*(c1_3 y z w a b u))+(((c0_14 y z w a b u)*(c1_2 y z w a b u))+(((c0_15 y z w a b u)*(c1_1 y z w a b u))+(((c0_16 y z w a b u)*(c1_0 y z w a b u))+0))))))+(((c2_1 y z w a b u)*(c3_15 y z w a b u))+(((c2_2 y z w a b u)*(c3_14 y z w a b u))+(((c2_3 y z w a b u)*(c3_13 y z w a b u))+((c2_4 y z w a b u)*(c3_12 y z w a b u))))))+((-1)*(c4_16 y z w a b u))) := by
   simp only [innerCertificate16,evaluate_add,evaluate_multiply,evaluate,
@@ -1593,43 +650,6 @@ set_option maxRecDepth 32768
 namespace SmallLevelTwentySixMMPPariTrace024
 open SmallLevelPolynomialCoefficientCertificate
 
-compact_certificate_declaration theorem coefficient_16_0 (y z w b u : ℂ) :
-    (innerCertificate16 y z w b u)[0]?=some 0 := by
-  change some (((((((d0_11_0 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_12_0 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_13_0 y z w b u)*(d1_3_0 y z w b u))+0)+((((d0_14_0 y z w b u)*(d1_2_0 y z w b u))+0)+((((d0_15_0 y z w b u)*(d1_1_0 y z w b u))+0)+(((d0_16_0 y z w b u)*(d1_0_0 y z w b u))+0))))))+((((d2_2_0 y z w b u)*(d3_14_0 y z w b u))+0)+((((d2_3_0 y z w b u)*(d3_13_0 y z w b u))+0)+(((d2_4_0 y z w b u)*(d3_12_0 y z w b u))+0))))+(((-1)*(d4_16_0 y z w b u))+0)))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_11_0,d0_12_0,d0_13_0,d0_14_0,d0_15_0,d0_16_0,d1_0_0,d1_1_0,d1_2_0,d1_3_0,d1_4_0,d1_5_0,d2_2_0,d2_3_0,d2_4_0,d3_12_0,d3_13_0,d3_14_0,d4_16_0]
-  ring
-#print axioms coefficient_16_0
-compact_certificate_declaration theorem coefficient_16_1 (y z w b u : ℂ) :
-    (innerCertificate16 y z w b u)[1]?=some 0 := by
-  change some (((((((d0_11_1 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_12_1 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_13_0 y z w b u)*(d1_3_1 y z w b u))+(((d0_13_1 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_14_0 y z w b u)*(d1_2_1 y z w b u))+(((d0_14_1 y z w b u)*(d1_2_0 y z w b u))+0))+((((d0_15_0 y z w b u)*(d1_1_1 y z w b u))+(((d0_15_1 y z w b u)*(d1_1_0 y z w b u))+0))+((d0_16_0 y z w b u)*(d1_0_1 y z w b u)))))))+((((d2_2_0 y z w b u)*(d3_14_1 y z w b u))+(((d2_2_1 y z w b u)*(d3_14_0 y z w b u))+0))+((((d2_3_0 y z w b u)*(d3_13_1 y z w b u))+(((d2_3_1 y z w b u)*(d3_13_0 y z w b u))+0))+((d2_4_0 y z w b u)*(d3_12_1 y z w b u)))))+((-1)*(d4_16_1 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_11_1,d0_12_1,d0_13_0,d0_13_1,d0_14_0,d0_14_1,d0_15_0,d0_15_1,d0_16_0,d1_0_1,d1_1_0,d1_1_1,d1_2_0,d1_2_1,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_0,d2_2_1,d2_3_0,d2_3_1,d2_4_0,d3_12_1,d3_13_0,d3_13_1,d3_14_0,d3_14_1,d4_16_1]
-  ring
-#print axioms coefficient_16_1
-compact_certificate_declaration theorem coefficient_16_2 (y z w b u : ℂ) :
-    (innerCertificate16 y z w b u)[2]?=some 0 := by
-  change some (((((((d0_11_2 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_12_2 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_13_1 y z w b u)*(d1_3_1 y z w b u))+(((d0_13_2 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_14_0 y z w b u)*(d1_2_2 y z w b u))+(((d0_14_1 y z w b u)*(d1_2_1 y z w b u))+(((d0_14_2 y z w b u)*(d1_2_0 y z w b u))+0)))+((((d0_15_0 y z w b u)*(d1_1_2 y z w b u))+((d0_15_1 y z w b u)*(d1_1_1 y z w b u)))+((d0_16_0 y z w b u)*(d1_0_2 y z w b u)))))))+((((d2_2_0 y z w b u)*(d3_14_2 y z w b u))+(((d2_2_1 y z w b u)*(d3_14_1 y z w b u))+(((d2_2_2 y z w b u)*(d3_14_0 y z w b u))+0)))+((((d2_3_0 y z w b u)*(d3_13_2 y z w b u))+((d2_3_1 y z w b u)*(d3_13_1 y z w b u)))+((d2_4_0 y z w b u)*(d3_12_2 y z w b u)))))+((-1)*(d4_16_2 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_11_2,d0_12_2,d0_13_1,d0_13_2,d0_14_0,d0_14_1,d0_14_2,d0_15_0,d0_15_1,d0_16_0,d1_0_2,d1_1_1,d1_1_2,d1_2_0,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_12_2,d3_13_1,d3_13_2,d3_14_0,d3_14_1,d3_14_2,d4_16_2]
-  ring
-#print axioms coefficient_16_2
-
-compact_certificate_declaration theorem coefficient_16_3 (y z w b u : ℂ) :
-    (innerCertificate16 y z w b u)[3]?=some 0 := by
-  change some (((((((d0_11_3 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_12_3 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_13_2 y z w b u)*(d1_3_1 y z w b u))+(((d0_13_3 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_14_1 y z w b u)*(d1_2_2 y z w b u))+((d0_14_2 y z w b u)*(d1_2_1 y z w b u)))+((d0_15_1 y z w b u)*(d1_1_2 y z w b u))))))+((((d2_2_1 y z w b u)*(d3_14_2 y z w b u))+((d2_2_2 y z w b u)*(d3_14_1 y z w b u)))+((((d2_3_0 y z w b u)*(d3_13_3 y z w b u))+((d2_3_1 y z w b u)*(d3_13_2 y z w b u)))+((d2_4_0 y z w b u)*(d3_12_3 y z w b u)))))+((-1)*(d4_16_3 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_11_3,d0_12_3,d0_13_2,d0_13_3,d0_14_1,d0_14_2,d0_15_1,d1_1_2,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_12_3,d3_13_2,d3_13_3,d3_14_1,d3_14_2,d4_16_3]
-  ring
-#print axioms coefficient_16_3
-compact_certificate_declaration theorem coefficient_16_4 (y z w b u : ℂ) :
-    (innerCertificate16 y z w b u)[4]?=some 0 := by
-  change some (((((((d0_11_4 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_12_4 y z w b u)*(d1_4_0 y z w b u))+0)+(((d0_13_3 y z w b u)*(d1_3_1 y z w b u))+((d0_14_2 y z w b u)*(d1_2_2 y z w b u)))))+(((d2_2_2 y z w b u)*(d3_14_2 y z w b u))+(((d2_3_1 y z w b u)*(d3_13_3 y z w b u))+((d2_4_0 y z w b u)*(d3_12_4 y z w b u)))))+((-1)*(d4_16_4 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_11_4,d0_12_4,d0_13_3,d0_14_2,d1_2_2,d1_3_1,d1_4_0,d1_5_0,d2_2_2,d2_3_1,d2_4_0,d3_12_4,d3_13_3,d3_14_2,d4_16_4]
-  ring
-#print axioms coefficient_16_4
-
 end SmallLevelTwentySixMMPPariTrace024
 end
 
@@ -1644,7 +664,8 @@ set_option linter.unnecessarySeqFocus false
 namespace SmallLevelTwentySixMMPPariTrace024
 open SmallLevelPolynomialCoefficientCertificate
 compact_certificate_declaration theorem inner_length_17 (y z w b u : ℂ) : (innerCertificate17 y z w b u).length=5 := by
-  norm_num [innerCertificate17,add,multiply,scale,inner0_12,inner0_13,inner0_14,inner0_15,inner0_16,inner1_1,inner1_2,inner1_3,inner1_4,inner1_5,inner2_2,inner2_3,inner2_4,inner3_13,inner3_14,inner3_15,inner4_17]
+  simp only [innerCertificate17, length_add, length_multiply, length_scale]
+  norm_num [inner0_12,inner0_13,inner0_14,inner0_15,inner0_16,inner1_1,inner1_2,inner1_3,inner1_4,inner1_5,inner2_2,inner2_3,inner2_4,inner3_13,inner3_14,inner3_15,inner4_17, List.length_cons, List.length_nil]
 compact_certificate_declaration theorem inner_eval_17 (y z w a b u : ℂ) :
     evaluate a (innerCertificate17 y z w b u)=(((((c0_12 y z w a b u)*(c1_5 y z w a b u))+(((c0_13 y z w a b u)*(c1_4 y z w a b u))+(((c0_14 y z w a b u)*(c1_3 y z w a b u))+(((c0_15 y z w a b u)*(c1_2 y z w a b u))+((c0_16 y z w a b u)*(c1_1 y z w a b u))))))+(((c2_2 y z w a b u)*(c3_15 y z w a b u))+(((c2_3 y z w a b u)*(c3_14 y z w a b u))+((c2_4 y z w a b u)*(c3_13 y z w a b u)))))+((-1)*(c4_17 y z w a b u))) := by
   simp only [innerCertificate17,evaluate_add,evaluate_multiply,evaluate,
@@ -1666,43 +687,6 @@ set_option maxRecDepth 32768
 namespace SmallLevelTwentySixMMPPariTrace024
 open SmallLevelPolynomialCoefficientCertificate
 
-compact_certificate_declaration theorem coefficient_17_0 (y z w b u : ℂ) :
-    (innerCertificate17 y z w b u)[0]?=some 0 := by
-  change some (((((((d0_12_0 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_13_0 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_14_0 y z w b u)*(d1_3_0 y z w b u))+0)+((((d0_15_0 y z w b u)*(d1_2_0 y z w b u))+0)+(((d0_16_0 y z w b u)*(d1_1_0 y z w b u))+0)))))+((((d2_2_0 y z w b u)*(d3_15_0 y z w b u))+0)+((((d2_3_0 y z w b u)*(d3_14_0 y z w b u))+0)+(((d2_4_0 y z w b u)*(d3_13_0 y z w b u))+0))))+(((-1)*(d4_17_0 y z w b u))+0)))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_12_0,d0_13_0,d0_14_0,d0_15_0,d0_16_0,d1_1_0,d1_2_0,d1_3_0,d1_4_0,d1_5_0,d2_2_0,d2_3_0,d2_4_0,d3_13_0,d3_14_0,d3_15_0,d4_17_0]
-  ring
-#print axioms coefficient_17_0
-compact_certificate_declaration theorem coefficient_17_1 (y z w b u : ℂ) :
-    (innerCertificate17 y z w b u)[1]?=some 0 := by
-  change some (((((((d0_12_1 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_13_1 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_14_0 y z w b u)*(d1_3_1 y z w b u))+(((d0_14_1 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_15_0 y z w b u)*(d1_2_1 y z w b u))+(((d0_15_1 y z w b u)*(d1_2_0 y z w b u))+0))+((d0_16_0 y z w b u)*(d1_1_1 y z w b u))))))+((((d2_2_0 y z w b u)*(d3_15_1 y z w b u))+(((d2_2_1 y z w b u)*(d3_15_0 y z w b u))+0))+((((d2_3_0 y z w b u)*(d3_14_1 y z w b u))+(((d2_3_1 y z w b u)*(d3_14_0 y z w b u))+0))+((d2_4_0 y z w b u)*(d3_13_1 y z w b u)))))+((-1)*(d4_17_1 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_12_1,d0_13_1,d0_14_0,d0_14_1,d0_15_0,d0_15_1,d0_16_0,d1_1_1,d1_2_0,d1_2_1,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_0,d2_2_1,d2_3_0,d2_3_1,d2_4_0,d3_13_1,d3_14_0,d3_14_1,d3_15_0,d3_15_1,d4_17_1]
-  ring
-#print axioms coefficient_17_1
-compact_certificate_declaration theorem coefficient_17_2 (y z w b u : ℂ) :
-    (innerCertificate17 y z w b u)[2]?=some 0 := by
-  change some (((((((d0_12_2 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_13_2 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_14_1 y z w b u)*(d1_3_1 y z w b u))+(((d0_14_2 y z w b u)*(d1_3_0 y z w b u))+0))+((((d0_15_0 y z w b u)*(d1_2_2 y z w b u))+((d0_15_1 y z w b u)*(d1_2_1 y z w b u)))+((d0_16_0 y z w b u)*(d1_1_2 y z w b u))))))+((((d2_2_1 y z w b u)*(d3_15_1 y z w b u))+(((d2_2_2 y z w b u)*(d3_15_0 y z w b u))+0))+((((d2_3_0 y z w b u)*(d3_14_2 y z w b u))+((d2_3_1 y z w b u)*(d3_14_1 y z w b u)))+((d2_4_0 y z w b u)*(d3_13_2 y z w b u)))))+((-1)*(d4_17_2 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_12_2,d0_13_2,d0_14_1,d0_14_2,d0_15_0,d0_15_1,d0_16_0,d1_1_2,d1_2_1,d1_2_2,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_2_1,d2_2_2,d2_3_0,d2_3_1,d2_4_0,d3_13_2,d3_14_1,d3_14_2,d3_15_0,d3_15_1,d4_17_2]
-  ring
-#print axioms coefficient_17_2
-
-compact_certificate_declaration theorem coefficient_17_3 (y z w b u : ℂ) :
-    (innerCertificate17 y z w b u)[3]?=some 0 := by
-  change some (((((((d0_12_3 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_13_3 y z w b u)*(d1_4_0 y z w b u))+0)+(((d0_14_2 y z w b u)*(d1_3_1 y z w b u))+((d0_15_1 y z w b u)*(d1_2_2 y z w b u)))))+(((d2_2_2 y z w b u)*(d3_15_1 y z w b u))+(((d2_3_1 y z w b u)*(d3_14_2 y z w b u))+((d2_4_0 y z w b u)*(d3_13_3 y z w b u)))))+((-1)*(d4_17_3 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_12_3,d0_13_3,d0_14_2,d0_15_1,d1_2_2,d1_3_1,d1_4_0,d1_5_0,d2_2_2,d2_3_1,d2_4_0,d3_13_3,d3_14_2,d3_15_1,d4_17_3]
-  ring
-#print axioms coefficient_17_3
-compact_certificate_declaration theorem coefficient_17_4 (y z w b u : ℂ) :
-    (innerCertificate17 y z w b u)[4]?=some 0 := by
-  change some (((((d0_12_4 y z w b u)*(d1_5_0 y z w b u))+0)+((-1)*(d4_17_4 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_12_4,d1_5_0,d4_17_4]
-  ring
-#print axioms coefficient_17_4
-
 end SmallLevelTwentySixMMPPariTrace024
 end
 
@@ -1717,7 +701,8 @@ set_option linter.unnecessarySeqFocus false
 namespace SmallLevelTwentySixMMPPariTrace024
 open SmallLevelPolynomialCoefficientCertificate
 compact_certificate_declaration theorem inner_length_18 (y z w b u : ℂ) : (innerCertificate18 y z w b u).length=4 := by
-  norm_num [innerCertificate18,add,multiply,scale,inner0_13,inner0_14,inner0_15,inner0_16,inner1_2,inner1_3,inner1_4,inner1_5,inner2_3,inner2_4,inner3_14,inner3_15,inner4_18]
+  simp only [innerCertificate18, length_add, length_multiply, length_scale]
+  norm_num [inner0_13,inner0_14,inner0_15,inner0_16,inner1_2,inner1_3,inner1_4,inner1_5,inner2_3,inner2_4,inner3_14,inner3_15,inner4_18, List.length_cons, List.length_nil]
 compact_certificate_declaration theorem inner_eval_18 (y z w a b u : ℂ) :
     evaluate a (innerCertificate18 y z w b u)=(((((c0_13 y z w a b u)*(c1_5 y z w a b u))+(((c0_14 y z w a b u)*(c1_4 y z w a b u))+(((c0_15 y z w a b u)*(c1_3 y z w a b u))+((c0_16 y z w a b u)*(c1_2 y z w a b u)))))+(((c2_3 y z w a b u)*(c3_15 y z w a b u))+((c2_4 y z w a b u)*(c3_14 y z w a b u))))+((-1)*(c4_18 y z w a b u))) := by
   simp only [innerCertificate18,evaluate_add,evaluate_multiply,evaluate,
@@ -1739,36 +724,6 @@ set_option maxRecDepth 32768
 namespace SmallLevelTwentySixMMPPariTrace024
 open SmallLevelPolynomialCoefficientCertificate
 
-compact_certificate_declaration theorem coefficient_18_0 (y z w b u : ℂ) :
-    (innerCertificate18 y z w b u)[0]?=some 0 := by
-  change some (((((((d0_13_0 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_14_0 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_15_0 y z w b u)*(d1_3_0 y z w b u))+0)+(((d0_16_0 y z w b u)*(d1_2_0 y z w b u))+0))))+((((d2_3_0 y z w b u)*(d3_15_0 y z w b u))+0)+(((d2_4_0 y z w b u)*(d3_14_0 y z w b u))+0)))+(((-1)*(d4_18_0 y z w b u))+0)))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_13_0,d0_14_0,d0_15_0,d0_16_0,d1_2_0,d1_3_0,d1_4_0,d1_5_0,d2_3_0,d2_4_0,d3_14_0,d3_15_0,d4_18_0]
-  ring
-#print axioms coefficient_18_0
-compact_certificate_declaration theorem coefficient_18_1 (y z w b u : ℂ) :
-    (innerCertificate18 y z w b u)[1]?=some 0 := by
-  change some (((((((d0_13_1 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_14_1 y z w b u)*(d1_4_0 y z w b u))+0)+((((d0_15_0 y z w b u)*(d1_3_1 y z w b u))+(((d0_15_1 y z w b u)*(d1_3_0 y z w b u))+0))+((d0_16_0 y z w b u)*(d1_2_1 y z w b u)))))+((((d2_3_0 y z w b u)*(d3_15_1 y z w b u))+(((d2_3_1 y z w b u)*(d3_15_0 y z w b u))+0))+((d2_4_0 y z w b u)*(d3_14_1 y z w b u))))+((-1)*(d4_18_1 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_13_1,d0_14_1,d0_15_0,d0_15_1,d0_16_0,d1_2_1,d1_3_0,d1_3_1,d1_4_0,d1_5_0,d2_3_0,d2_3_1,d2_4_0,d3_14_1,d3_15_0,d3_15_1,d4_18_1]
-  ring
-#print axioms coefficient_18_1
-compact_certificate_declaration theorem coefficient_18_2 (y z w b u : ℂ) :
-    (innerCertificate18 y z w b u)[2]?=some 0 := by
-  change some (((((((d0_13_2 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_14_2 y z w b u)*(d1_4_0 y z w b u))+0)+(((d0_15_1 y z w b u)*(d1_3_1 y z w b u))+((d0_16_0 y z w b u)*(d1_2_2 y z w b u)))))+(((d2_3_1 y z w b u)*(d3_15_1 y z w b u))+((d2_4_0 y z w b u)*(d3_14_2 y z w b u))))+((-1)*(d4_18_2 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_13_2,d0_14_2,d0_15_1,d0_16_0,d1_2_2,d1_3_1,d1_4_0,d1_5_0,d2_3_1,d2_4_0,d3_14_2,d3_15_1,d4_18_2]
-  ring
-#print axioms coefficient_18_2
-
-compact_certificate_declaration theorem coefficient_18_3 (y z w b u : ℂ) :
-    (innerCertificate18 y z w b u)[3]?=some 0 := by
-  change some (((((d0_13_3 y z w b u)*(d1_5_0 y z w b u))+0)+((-1)*(d4_18_3 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_13_3,d1_5_0,d4_18_3]
-  ring
-#print axioms coefficient_18_3
-
 end SmallLevelTwentySixMMPPariTrace024
 end
 
@@ -1783,7 +738,8 @@ set_option linter.unnecessarySeqFocus false
 namespace SmallLevelTwentySixMMPPariTrace024
 open SmallLevelPolynomialCoefficientCertificate
 compact_certificate_declaration theorem inner_length_19 (y z w b u : ℂ) : (innerCertificate19 y z w b u).length=3 := by
-  norm_num [innerCertificate19,add,multiply,scale,inner0_14,inner0_15,inner0_16,inner1_3,inner1_4,inner1_5,inner2_4,inner3_15,inner4_19]
+  simp only [innerCertificate19, length_add, length_multiply, length_scale]
+  norm_num [inner0_14,inner0_15,inner0_16,inner1_3,inner1_4,inner1_5,inner2_4,inner3_15,inner4_19, List.length_cons, List.length_nil]
 compact_certificate_declaration theorem inner_eval_19 (y z w a b u : ℂ) :
     evaluate a (innerCertificate19 y z w b u)=(((((c0_14 y z w a b u)*(c1_5 y z w a b u))+(((c0_15 y z w a b u)*(c1_4 y z w a b u))+((c0_16 y z w a b u)*(c1_3 y z w a b u))))+((c2_4 y z w a b u)*(c3_15 y z w a b u)))+((-1)*(c4_19 y z w a b u))) := by
   simp only [innerCertificate19,evaluate_add,evaluate_multiply,evaluate,
@@ -1803,28 +759,6 @@ set_option linter.unnecessarySeqFocus false
 
 namespace SmallLevelTwentySixMMPPariTrace024
 open SmallLevelPolynomialCoefficientCertificate
-compact_certificate_declaration theorem coefficient_19_0 (y z w b u : ℂ) :
-    (innerCertificate19 y z w b u)[0]?=some 0 := by
-  change some (((((((d0_14_0 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_15_0 y z w b u)*(d1_4_0 y z w b u))+0)+(((d0_16_0 y z w b u)*(d1_3_0 y z w b u))+0)))+(((d2_4_0 y z w b u)*(d3_15_0 y z w b u))+0))+(((-1)*(d4_19_0 y z w b u))+0)))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_14_0,d0_15_0,d0_16_0,d1_3_0,d1_4_0,d1_5_0,d2_4_0,d3_15_0,d4_19_0]
-  ring
-#print axioms coefficient_19_0
-compact_certificate_declaration theorem coefficient_19_1 (y z w b u : ℂ) :
-    (innerCertificate19 y z w b u)[1]?=some 0 := by
-  change some (((((((d0_14_1 y z w b u)*(d1_5_0 y z w b u))+0)+((((d0_15_1 y z w b u)*(d1_4_0 y z w b u))+0)+((d0_16_0 y z w b u)*(d1_3_1 y z w b u))))+((d2_4_0 y z w b u)*(d3_15_1 y z w b u)))+((-1)*(d4_19_1 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_14_1,d0_15_1,d0_16_0,d1_3_1,d1_4_0,d1_5_0,d2_4_0,d3_15_1,d4_19_1]
-  ring
-#print axioms coefficient_19_1
-compact_certificate_declaration theorem coefficient_19_2 (y z w b u : ℂ) :
-    (innerCertificate19 y z w b u)[2]?=some 0 := by
-  change some (((((d0_14_2 y z w b u)*(d1_5_0 y z w b u))+0)+((-1)*(d4_19_2 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_14_2,d1_5_0,d4_19_2]
-  ring
-#print axioms coefficient_19_2
-
 end SmallLevelTwentySixMMPPariTrace024
 end
 
@@ -1839,7 +773,8 @@ set_option linter.unnecessarySeqFocus false
 namespace SmallLevelTwentySixMMPPariTrace024
 open SmallLevelPolynomialCoefficientCertificate
 compact_certificate_declaration theorem inner_length_20 (y z w b u : ℂ) : (innerCertificate20 y z w b u).length=2 := by
-  norm_num [innerCertificate20,add,multiply,scale,inner0_15,inner0_16,inner1_4,inner1_5,inner4_20]
+  simp only [innerCertificate20, length_add, length_multiply, length_scale]
+  norm_num [inner0_15,inner0_16,inner1_4,inner1_5,inner4_20, List.length_cons, List.length_nil]
 compact_certificate_declaration theorem inner_eval_20 (y z w a b u : ℂ) :
     evaluate a (innerCertificate20 y z w b u)=((((c0_15 y z w a b u)*(c1_5 y z w a b u))+((c0_16 y z w a b u)*(c1_4 y z w a b u)))+((-1)*(c4_20 y z w a b u))) := by
   simp only [innerCertificate20,evaluate_add,evaluate_multiply,evaluate,
@@ -1859,21 +794,6 @@ set_option linter.unnecessarySeqFocus false
 
 namespace SmallLevelTwentySixMMPPariTrace024
 open SmallLevelPolynomialCoefficientCertificate
-compact_certificate_declaration theorem coefficient_20_0 (y z w b u : ℂ) :
-    (innerCertificate20 y z w b u)[0]?=some 0 := by
-  change some ((((((d0_15_0 y z w b u)*(d1_5_0 y z w b u))+0)+(((d0_16_0 y z w b u)*(d1_4_0 y z w b u))+0))+(((-1)*(d4_20_0 y z w b u))+0)))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_15_0,d0_16_0,d1_4_0,d1_5_0,d4_20_0]
-  ring
-#print axioms coefficient_20_0
-compact_certificate_declaration theorem coefficient_20_1 (y z w b u : ℂ) :
-    (innerCertificate20 y z w b u)[1]?=some 0 := by
-  change some (((((d0_15_1 y z w b u)*(d1_5_0 y z w b u))+0)+((-1)*(d4_20_1 y z w b u))))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_15_1,d1_5_0,d4_20_1]
-  ring
-#print axioms coefficient_20_1
-
 end SmallLevelTwentySixMMPPariTrace024
 end
 
@@ -1888,7 +808,8 @@ set_option linter.unnecessarySeqFocus false
 namespace SmallLevelTwentySixMMPPariTrace024
 open SmallLevelPolynomialCoefficientCertificate
 compact_certificate_declaration theorem inner_length_21 (y z w b u : ℂ) : (innerCertificate21 y z w b u).length=1 := by
-  norm_num [innerCertificate21,add,multiply,scale,inner0_16,inner1_5,inner4_21]
+  simp only [innerCertificate21, length_add, length_multiply, length_scale]
+  norm_num [inner0_16,inner1_5,inner4_21, List.length_cons, List.length_nil]
 compact_certificate_declaration theorem inner_eval_21 (y z w a b u : ℂ) :
     evaluate a (innerCertificate21 y z w b u)=(((c0_16 y z w a b u)*(c1_5 y z w a b u))+((-1)*(c4_21 y z w a b u))) := by
   simp only [innerCertificate21,evaluate_add,evaluate_multiply,evaluate,
@@ -1908,14 +829,6 @@ set_option linter.unnecessarySeqFocus false
 
 namespace SmallLevelTwentySixMMPPariTrace024
 open SmallLevelPolynomialCoefficientCertificate
-compact_certificate_declaration theorem coefficient_21_0 (y z w b u : ℂ) :
-    (innerCertificate21 y z w b u)[0]?=some 0 := by
-  change some (((((d0_16_0 y z w b u)*(d1_5_0 y z w b u))+0)+(((-1)*(d4_21_0 y z w b u))+0)))=some (0:ℂ)
-  apply congrArg some
-  simp only [d0_16_0,d1_5_0,d4_21_0]
-  ring
-#print axioms coefficient_21_0
-
 end SmallLevelTwentySixMMPPariTrace024
 end
 
@@ -2293,7 +1206,8 @@ set_option linter.unnecessarySeqFocus false
 namespace SmallLevelTwentySixMMPPariTrace025
 open SmallLevelPolynomialCoefficientCertificate
 compact_certificate_declaration theorem certificate_length (y z w a b u : ℂ) : (certificate y z w a b u).length=22 := by
-  norm_num [certificate,add,multiply,scale,coefficients0,coefficients1,coefficients2,coefficients3,coefficients4,coefficients5,coefficients6]
+  simp only [certificate, length_add, length_multiply, length_scale]
+  norm_num [coefficients0,coefficients1,coefficients2,coefficients3,coefficients4,coefficients5,coefficients6, List.length_cons, List.length_nil]
 
 end SmallLevelTwentySixMMPPariTrace025
 end

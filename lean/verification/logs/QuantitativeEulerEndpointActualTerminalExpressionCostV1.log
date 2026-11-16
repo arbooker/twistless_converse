@@ -1,3 +1,0 @@
-'QuantitativeEulerEndpointBoundedIteration.exists_actual_terminal_expression_cost' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

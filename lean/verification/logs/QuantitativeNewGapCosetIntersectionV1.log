@@ -1,3 +1,0 @@
-'QuantitativeNewGap.jointFibre_card' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeNewGap.jointFibre_root_nonempty' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeNewGap.jointFibre_card_commute' depends on axioms: [propext, Classical.choice, Quot.sound]

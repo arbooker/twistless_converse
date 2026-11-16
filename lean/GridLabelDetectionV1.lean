@@ -29,13 +29,6 @@ theorem labelHit_strict {G : ℕ} (hG : 0<G) (a z : Fin G)
   apply Fin.ext
   simpa only [Nat.ModEq,Nat.mod_eq_of_lt z.isLt,Nat.mod_eq_of_lt a.isLt] using he
 
-theorem high_labels_zero {K : Type*} [AddCommMonoid K] {G : ℕ} (hG : 0<G)
-    (f : Fin G → K) (hf : ∀a,2<labelOrder a → ∑z∈labelHit a,f z=0) :
-    ∀a,2<labelOrder a → f a=0 :=
-  triangular_detect_above labelOrder 2 labelHit
-    (fun a _ => (mem_labelHit a a).mpr (Nat.ModEq.refl _))
-    (fun a _ z hz hne => labelHit_strict hG a z hz hne) f hf
-
 theorem small_order {G : ℕ} (hG : 0<G) (a : Fin G) (ha : labelOrder a≤2) :
     a.val=0 ∨ 2*a.val=G := by
   let : NeZero G := ⟨Nat.ne_of_gt hG⟩
@@ -56,19 +49,7 @@ theorem small_order {G : ℕ} (hG : 0<G) (a : Fin G) (ha : labelOrder a≤2) :
     · left; omega
     · right; omega
 
-theorem label_detect {K : Type*} [AddCommMonoid K] {G : ℕ} (hG : 0<G)
-    (f : Fin G → K) (hhigh : ∀a,2<labelOrder a → ∑z∈labelHit a,f z=0)
-    (hzero : f ⟨0,hG⟩=0)
-    (hpair : ∀a:Fin G,2*a.val=G → f ⟨0,hG⟩+f a=0) : f=0 := by
-  funext a
-  change f a=0
-  by_cases ha : 2<labelOrder a
-  · exact high_labels_zero hG f hhigh a ha
-  · rcases small_order hG a (by omega) with hz|hp
-    · have he : a=⟨0,hG⟩ := Fin.ext hz
-      simpa only [he] using hzero
-    · simpa only [hzero,zero_add] using hpair a hp
-
-#print axioms label_detect
+#print axioms labelHit_strict
+#print axioms small_order
 
 end GridLabelDetection

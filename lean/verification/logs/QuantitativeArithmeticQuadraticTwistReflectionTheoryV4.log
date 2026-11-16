@@ -1,6 +1,0 @@
-'QuantitativeArithmeticQuadraticTwistReflection.unscaled_reflection' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'QuantitativeArithmeticQuadraticTwistReflection.normal_form_reflection' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

@@ -1,2 +1,0 @@
-'QuantitativeNewGap.permutationSignRow_selfAdjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeNewGap.permutationSignProjections_commute' depends on axioms: [propext, Classical.choice, Quot.sound]

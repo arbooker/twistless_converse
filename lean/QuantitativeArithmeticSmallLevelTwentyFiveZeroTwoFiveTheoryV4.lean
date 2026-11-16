@@ -3,6 +3,12 @@ module
 public import QuantitativeArithmeticSevenLaurentRowsTheoryV4
 public import QuantitativeArithmeticSmallLevelTwentyFiveFullPlusLeadingTheoryV4
 public import QuantitativeArithmeticSmallLevelTwentyFiveOriginalFirstJetTheoryV4
+public meta import SmallLevelCertificateBatchCommandV1
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
+set_option linter.unusedSimpArgs false
+set_option linter.unnecessarySimpa false
+certificate_batch {
 
 /-! Consolidated chapter: QuantitativeArithmeticSmallLevelTwentyFive.ZeroTwoFive. Original declarations and local scopes are retained. -/
 
@@ -3380,3 +3386,5 @@ end QuantitativeArithmeticSmallLevelTwentyFive.ZeroTwoFive
 end
 end
 end
+
+}

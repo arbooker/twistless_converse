@@ -1,2 +1,0 @@
-'SmallLevelRamifiedPrimeAdditive.original_ramified_row' depends on axioms: [propext, Classical.choice, Quot.sound]
-

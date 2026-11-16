@@ -1,2 +1,0 @@
-'QuantitativeEulerEndpointPrepared.primeCut_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeEulerEndpointPrepared.primeCut_inverse_le' depends on axioms: [propext, Classical.choice, Quot.sound]

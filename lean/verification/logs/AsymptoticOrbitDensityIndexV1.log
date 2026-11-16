@@ -1,3 +1,0 @@
-'AsymptoticOrbitDensity.leftProductEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
-'AsymptoticOrbitDensity.subgroup_mass_eq_index' depends on axioms: [propext, Classical.choice, Quot.sound]
-'AsymptoticOrbitDensity.integral_eq_index_mul_volume' depends on axioms: [propext, Classical.choice, Quot.sound]

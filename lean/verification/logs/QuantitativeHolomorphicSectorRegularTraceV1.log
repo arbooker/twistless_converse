@@ -1,3 +1,0 @@
-'QuantitativeHolomorphic.sector_finrank_le_regular_source_trace' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

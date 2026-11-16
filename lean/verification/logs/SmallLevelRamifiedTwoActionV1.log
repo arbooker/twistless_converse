@@ -1,2 +1,0 @@
-'SmallLevelRamifiedTwo.eigen_square' depends on axioms: [propext, Classical.choice, Quot.sound]
-'SmallLevelRamifiedTwo.invariant_conjugate' depends on axioms: [propext, Classical.choice, Quot.sound]

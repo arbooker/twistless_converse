@@ -1,2 +1,0 @@
-'AsymptoticClassicalEigenbasis.commuting_operator_eigen' depends on axioms: [propext, Classical.choice, Quot.sound]
-'AsymptoticClassicalEigenbasis.commuting_involution_sign' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,4 +1,0 @@
-'FinitenessAllLevelCertificateBoundary.row_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
-'FinitenessAllLevelCertificateBoundary.row_outside' depends on axioms: [propext, Classical.choice, Quot.sound]
-'FinitenessAllLevelCertificateBoundary.cell_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
-

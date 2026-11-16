@@ -1,3 +1,0 @@
-'SmallLevelTwentyOneChiFive.exceptional_root_line' depends on axioms: [propext, Classical.choice, Quot.sound]
-'SmallLevelTwentyOneChiFive.shifted_obstruction_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]
-

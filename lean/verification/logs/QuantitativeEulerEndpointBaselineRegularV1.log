@@ -1,4 +1,0 @@
-'QuantitativeEulerEndpointPrepared.baseline_absolute_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeEulerEndpointPrepared.baseline_absolute_supported' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

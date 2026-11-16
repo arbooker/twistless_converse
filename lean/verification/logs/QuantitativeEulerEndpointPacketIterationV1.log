@@ -1,3 +1,0 @@
-'QuantitativeEulerEndpointPacketIteration.exists_step' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeEulerEndpointPacketIteration.next_supported' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeEulerEndpointPacketIteration.exists_iteration' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -2,6 +2,12 @@ module
 
 public import Mathlib.Tactic
 public import QuantitativeArithmeticSmallLevelTwentyFiveContinuationPositiveTheoryV4
+public meta import SmallLevelCertificateBatchCommandV1
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
+set_option linter.unusedSimpArgs false
+set_option linter.unnecessarySimpa false
+certificate_batch {
 
 /-! Consolidated chapter: QuantitativeArithmeticSmallLevelTwentyFive.ContinuationPositiveZeroTwo. Original declarations and local scopes are retained. -/
 
@@ -5878,3 +5884,5 @@ theorem reduced_step149 (x y z b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
 end QuantitativeArithmeticSmallLevelTwentyFive.ContinuationPositiveZeroTwo
 end
 end
+
+}

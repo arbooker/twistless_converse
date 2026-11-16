@@ -1,2 +1,0 @@
-'AsymptoticSharedApproximation.cylinder_bound_le' depends on axioms: [propext, Classical.choice, Quot.sound]
-'AsymptoticSharedApproximation.regular_bound_le' depends on axioms: [propext, Classical.choice, Quot.sound]

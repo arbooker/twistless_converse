@@ -1,3 +1,0 @@
-'FinitenessAllLevelPolynomialPresentation.Presentation.BranchCertificate.ambient_graph' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

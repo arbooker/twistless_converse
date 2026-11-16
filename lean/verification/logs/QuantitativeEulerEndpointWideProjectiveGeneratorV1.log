@@ -1,3 +1,0 @@
-'QuantitativeEulerEndpointPrepared.wide_good_prime_projective_generator_stack_bound' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

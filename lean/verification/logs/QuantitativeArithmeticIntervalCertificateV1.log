@@ -1,3 +1,0 @@
-'QuantitativeArithmeticIntervalCertificate.interval_union' does not depend on any axioms
-'QuantitativeArithmeticIntervalCertificate.interval_shift' depends on axioms: [propext, Quot.sound]
-

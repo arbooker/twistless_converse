@@ -1,8 +1,0 @@
-'QuantitativeArithmeticSmallLevelTwentyTwo.first_defect_relation' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'QuantitativeArithmeticSmallLevelTwentyTwo.B5_defect' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeArithmeticSmallLevelTwentyTwo.second_defect_relation' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-

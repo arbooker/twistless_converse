@@ -1,2 +1,0 @@
-'SmallLevelThree.lowerBranch_point' depends on axioms: [propext, Classical.choice, Quot.sound]
-'SmallLevelThree.lowerBranch_fricke' depends on axioms: [propext, Classical.choice, Quot.sound]

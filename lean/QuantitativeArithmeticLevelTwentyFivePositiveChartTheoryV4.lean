@@ -88,6 +88,12 @@ public import SmallLevelTwentyOneThirdShiftScaleV1
 public import SmallLevelUniversalFactoredFirstShiftV1
 public import SmallLevelUniversalHigherPoleVectorV1
 public import SmallLevelUniversalPoleDetectionV1
+public meta import SmallLevelCertificateBatchCommandV1
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
+set_option linter.unusedSimpArgs false
+set_option linter.unnecessarySimpa false
+certificate_batch {
 
 set_option Elab.async false
 set_option linter.unusedTactic false
@@ -2689,3 +2695,5 @@ end QuantitativeArithmeticSmallLevelTwentyFive.PositiveChart.MinimalSix
 end
 end
 
+
+}

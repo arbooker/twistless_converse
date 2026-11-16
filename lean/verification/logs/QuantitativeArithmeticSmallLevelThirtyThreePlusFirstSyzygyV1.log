@@ -1,7 +1,0 @@
-'QuantitativeArithmeticSmallLevelThirtyThreePlusFirstSyzygy.certificate' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'QuantitativeArithmeticSmallLevelThirtyThreePlusFirstSyzygy.annihilates' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-

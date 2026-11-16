@@ -1,3 +1,0 @@
-'QuantitativeEulerEndpointCommonReconstruction.physicalCylinder_retained_trace_rate' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

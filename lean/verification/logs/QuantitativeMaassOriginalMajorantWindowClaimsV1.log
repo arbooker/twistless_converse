@@ -1,0 +1,4 @@
+'QuantitativeMaass.requestedMaassWindow_parity_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeMaass.requestedMaassWindow_pointwise' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeMaass.originalMajorantWindow_claims' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantitativeMaass.requestedMaassWindow' depends on axioms: [propext, Classical.choice, Quot.sound]

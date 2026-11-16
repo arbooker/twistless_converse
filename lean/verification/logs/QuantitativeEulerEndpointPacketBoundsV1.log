@@ -1,3 +1,0 @@
-'QuantitativeEulerEndpointPrepared.primeRescaling_le' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeEulerEndpointPrepared.packet_twist_row_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeEulerEndpointPrepared.packet_twist_row_regular' depends on axioms: [propext, Classical.choice, Quot.sound]

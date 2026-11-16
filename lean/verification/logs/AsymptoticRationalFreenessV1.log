@@ -1,3 +1,0 @@
-'AsymptoticRationalFreeness.fixedPoints_null' depends on axioms: [propext, Classical.choice, Quot.sound]
-'AsymptoticRationalFreeness.ae_rational_returns_are_scalar' depends on axioms: [propext, Classical.choice, Quot.sound]
-'AsymptoticRationalFreeness.ae_rational_return_phase' depends on axioms: [propext, Classical.choice, Quot.sound]

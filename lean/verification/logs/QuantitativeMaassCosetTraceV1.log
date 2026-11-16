@@ -1,3 +1,0 @@
-'QuantitativeMaass.CosetTrace.value_out' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeMaass.CosetTrace.trace_invariant' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeMaass.CosetTrace.trace_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]

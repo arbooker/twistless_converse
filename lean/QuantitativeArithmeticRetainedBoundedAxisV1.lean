@@ -2,7 +2,6 @@ module
 
 public import SpanningFixedCandidatesV1
 public import QuantitativeArithmeticRetainedClosureV1
-public import SpanningFinalReductionV1
 
 @[expose] public section
 

@@ -1,2 +1,0 @@
-'QuantitativeEulerEndpointBlockMass.high_mass_complement' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeEulerEndpointBlockMass.block_detected_mass' depends on axioms: [propext, Classical.choice, Quot.sound]

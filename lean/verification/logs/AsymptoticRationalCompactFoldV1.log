@@ -1,3 +1,0 @@
-'AsymptoticRationalBranches.realMatrix_translation' depends on axioms: [propext, Classical.choice, Quot.sound]
-'AsymptoticRationalBranches.realMatrix_foldMatrix' depends on axioms: [propext, Classical.choice, Quot.sound]
-'AsymptoticRationalBranches.compactFold_action' depends on axioms: [propext, Classical.choice, Quot.sound]

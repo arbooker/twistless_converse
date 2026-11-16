@@ -1,2 +1,0 @@
-'QuantitativeEulerOldProjectionBlock.kernel_intertwine' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeEulerOldProjectionBlock.cosetBlock_new' depends on axioms: [propext, Classical.choice, Quot.sound]

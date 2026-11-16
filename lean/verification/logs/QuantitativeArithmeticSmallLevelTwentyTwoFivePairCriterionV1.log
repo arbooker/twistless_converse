@@ -1,5 +1,0 @@
-'QuantitativeArithmeticSmallLevelTwentyTwo.original_E_root' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeArithmeticSmallLevelTwentyTwo.original_Y_P_of_five_pair' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-

@@ -2,6 +2,10 @@ module
 public meta import QuantitativeArithmeticCompactCommandsV1
 public import QuantitativeArithmeticSmallLevelTwentyFiveCuspPlusLaurentTheoryV4
 set_option Elab.async false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
+set_option linter.unusedSimpArgs false
+set_option linter.unnecessarySimpa false
 set_option autoImplicit false
 set_option backward.isDefEq.respectTransparency false
 set_option synthInstance.maxSize 2048

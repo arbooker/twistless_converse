@@ -57,18 +57,7 @@ theorem small_period_kernel_zero {N Q P : ℕ} (hP : 0<P) {f : ℤ → K}
   exact hz _ (Int.emod_nonneg _ (by exact_mod_cast Nat.ne_of_gt hP))
     (Int.emod_lt_of_pos _ (by exact_mod_cast hP))
 
-theorem exists_grid_difference_detector {N G : ℕ} (hN : Admissible N) (hG : 0<G) (hNG : N∣G) :
-    ∃H R:ℕ,0<H ∧ 0<R ∧ ∀(v:ℕ)(hv0:0<v),H∣v → 16*R≤v →
-      ∀(P:ℕ)(f:ℤ → K),0<P → CompleteKernel (radius N) (G*v) f →
-      (P:ℝ)<3*(v:ℝ)/(40*R)-1 → (P:ℝ)<radius N (G*v) 1 →
-      (∀j:Fin (G*v),j∉Set.range (gridIndex hG hv0 (v/(8*R))) → difference P f j.val=0) → f=0 := by
-  obtain ⟨H,R,hH,hR,hdet⟩ := exists_buffered_grid hN hG hNG
-  refine ⟨H,R,hH,hR,?_⟩
-  intro v hv0 hHv hv P f hP hf hmargin hsize hsupp
-  have hd := hdet v hv0 hHv hv (difference P f) (difference_cyclic hf.1) hsupp
-    (difference_buffered hf hmargin)
-  exact small_period_kernel_zero hP hf ((difference_zero_iff P f).mp hd) hsize
-
-#print axioms exists_grid_difference_detector
+#print axioms difference_buffered
+#print axioms small_period_kernel_zero
 
 end SpanningKernelDifferences

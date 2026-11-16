@@ -1,2 +1,0 @@
-'AsymptoticFiberIsometry.compression_matrix' depends on axioms: [propext, Classical.choice, Quot.sound]
-'AsymptoticIsometryRange.cogram_comp' depends on axioms: [propext, Classical.choice, Quot.sound]

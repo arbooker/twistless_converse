@@ -1,3 +1,0 @@
-'QuantitativeEulerDiamondPolynomial.kernel_eval_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeEulerDiamondPolynomial.finite_diamond_recovery' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeEulerDiamondPolynomial.periodic_finite_recovery' depends on axioms: [propext, Classical.choice, Quot.sound]

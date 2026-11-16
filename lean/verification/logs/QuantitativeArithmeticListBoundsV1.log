@@ -1,1 +1,0 @@
-'QuantitativeArithmeticListBounds.getD_of_forall' depends on axioms: [propext, Classical.choice, Quot.sound]

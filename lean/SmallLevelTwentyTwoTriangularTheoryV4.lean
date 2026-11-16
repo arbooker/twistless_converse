@@ -1,6 +1,10 @@
 module
+public meta import SmallLevelCertificateBatchCommandV1
 
 public import SmallLevelTwentyTwoLaurentTheoryV4
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
+set_option linter.unnecessarySeqFocus false
 
 /-! Consolidated chapter: SmallLevelTwentyTwoTriangular. Original declarations and local scopes are retained. -/
 
@@ -17,6 +21,7 @@ set_option maxRecDepth 4000
 namespace SmallLevelTwentyTwoTriangular
 open Complex SmallLevelTwentyTwoLaurent
 
+certificate_batch {
 theorem pivot1_0 (X Y Z a : ℂ) (hX : X≠0) (hY : Y≠0) (hZ : Z≠0)
     (w : Fin 66→ℂ) (hw : coreRows (-1) (-1) (1) X Y Z a w=0) :
     (1)*w 0=0 := by
@@ -728,6 +733,8 @@ theorem pivot1_64 (X Y Z a : ℂ) (hX : X≠0) (hY : Y≠0) (hZ : Z≠0)
 
 #print axioms pivot1_64
 
+}
+
 end SmallLevelTwentyTwoTriangular
 end
 
@@ -741,6 +748,7 @@ set_option maxRecDepth 4000
 namespace SmallLevelTwentyTwoTriangular
 open Complex SmallLevelTwentyTwoLaurent
 
+certificate_batch {
 theorem pivot2_0 (X Y Z a : ℂ) (hX : X≠0) (hY : Y≠0) (hZ : Z≠0)
     (w : Fin 66→ℂ) (hw : coreRows (-1) (1) (-1) X Y Z a w=0) :
     (1)*w 0=0 := by
@@ -1452,6 +1460,8 @@ theorem pivot2_64 (X Y Z a : ℂ) (hX : X≠0) (hY : Y≠0) (hZ : Z≠0)
 
 #print axioms pivot2_64
 
+}
+
 end SmallLevelTwentyTwoTriangular
 end
 
@@ -1465,6 +1475,7 @@ set_option maxRecDepth 4000
 namespace SmallLevelTwentyTwoTriangular
 open Complex SmallLevelTwentyTwoLaurent
 
+certificate_batch {
 theorem pivot3_0 (X Y Z a : ℂ) (hX : X≠0) (hY : Y≠0) (hZ : Z≠0)
     (w : Fin 66→ℂ) (hw : coreRows (-1) (1) (1) X Y Z a w=0) :
     (1)*w 0=0 := by
@@ -2185,6 +2196,8 @@ theorem pivot3_64 (X Y Z a : ℂ) (hX : X≠0) (hY : Y≠0) (hZ : Z≠0)
 
 #print axioms pivot3_64
 
+}
+
 end SmallLevelTwentyTwoTriangular
 end
 
@@ -2198,6 +2211,7 @@ set_option maxRecDepth 4000
 namespace SmallLevelTwentyTwoTriangular
 open Complex SmallLevelTwentyTwoLaurent
 
+certificate_batch {
 theorem pivot4_0 (X Y Z a : ℂ) (hX : X≠0) (hY : Y≠0) (hZ : Z≠0)
     (w : Fin 66→ℂ) (hw : coreRows (1) (-1) (-1) X Y Z a w=0) :
     (1)*w 0=0 := by
@@ -2909,6 +2923,8 @@ theorem pivot4_64 (X Y Z a : ℂ) (hX : X≠0) (hY : Y≠0) (hZ : Z≠0)
 
 #print axioms pivot4_64
 
+}
+
 end SmallLevelTwentyTwoTriangular
 end
 
@@ -2922,6 +2938,7 @@ set_option maxRecDepth 4000
 namespace SmallLevelTwentyTwoTriangular
 open Complex SmallLevelTwentyTwoLaurent
 
+certificate_batch {
 theorem pivot5_0 (X Y Z a : ℂ) (hX : X≠0) (hY : Y≠0) (hZ : Z≠0)
     (w : Fin 66→ℂ) (hw : coreRows (1) (-1) (1) X Y Z a w=0) :
     (1)*w 0=0 := by
@@ -3642,6 +3659,8 @@ theorem pivot5_64 (X Y Z a : ℂ) (hX : X≠0) (hY : Y≠0) (hZ : Z≠0)
 
 #print axioms pivot5_64
 
+}
+
 end SmallLevelTwentyTwoTriangular
 end
 
@@ -3655,6 +3674,7 @@ set_option maxRecDepth 4000
 namespace SmallLevelTwentyTwoTriangular
 open Complex SmallLevelTwentyTwoLaurent
 
+certificate_batch {
 theorem pivot6_0 (X Y Z a : ℂ) (hX : X≠0) (hY : Y≠0) (hZ : Z≠0)
     (w : Fin 66→ℂ) (hw : coreRows (1) (1) (-1) X Y Z a w=0) :
     (1)*w 0=0 := by
@@ -4375,6 +4395,8 @@ theorem pivot6_64 (X Y Z a : ℂ) (hX : X≠0) (hY : Y≠0) (hZ : Z≠0)
 
 #print axioms pivot6_64
 
+}
+
 end SmallLevelTwentyTwoTriangular
 end
 
@@ -4388,6 +4410,7 @@ set_option maxRecDepth 4000
 namespace SmallLevelTwentyTwoTriangular
 open Complex SmallLevelTwentyTwoLaurent
 
+certificate_batch {
 theorem pivot7_0 (X Y Z a : ℂ) (hX : X≠0) (hY : Y≠0) (hZ : Z≠0)
     (w : Fin 66→ℂ) (hw : coreRows (1) (1) (1) X Y Z a w=0) :
     (1)*w 0=0 := by
@@ -5099,6 +5122,8 @@ theorem pivot7_64 (X Y Z a : ℂ) (hX : X≠0) (hY : Y≠0) (hZ : Z≠0)
 
 #print axioms pivot7_64
 
+}
+
 end SmallLevelTwentyTwoTriangular
 end
 end
@@ -5115,6 +5140,7 @@ set_option maxRecDepth 4000
 namespace SmallLevelTwentyTwoTriangular
 open Complex SmallLevelTwentyTwoLaurent
 
+certificate_batch {
 theorem kernel_case1 (X Y Z a : ℂ) (hX : X≠0) (hY : Y≠0) (hZ : Z≠0)
     (w : Fin 66→ℂ) (hw : coreRows (-1) (-1) (1) X Y Z a w=0) :
     ∀ j,w j=pole1 X Y Z a j*w 44 := by
@@ -6263,6 +6289,9 @@ theorem kernel_case3 (X Y Z a : ℂ) (hX : X≠0) (hY : Y≠0) (hZ : Z≠0)
   · exact z65
 
 #print axioms kernel_case3
+
+certificate_batch {
+}
 
 theorem kernel_case4 (X Y Z a : ℂ) (hX : X≠0) (hY : Y≠0) (hZ : Z≠0)
     (w : Fin 66→ℂ) (hw : coreRows (1) (-1) (-1) X Y Z a w=0) :
@@ -7413,6 +7442,9 @@ theorem kernel_case6 (X Y Z a : ℂ) (hX : X≠0) (hY : Y≠0) (hZ : Z≠0)
 
 #print axioms kernel_case6
 
+certificate_batch {
+}
+
 theorem kernel_case7 (X Y Z a : ℂ) (hX : X≠0) (hY : Y≠0) (hZ : Z≠0)
     (w : Fin 66→ℂ) (hw : coreRows (1) (1) (1) X Y Z a w=0) :
     ∀ j,w j=pole7 X Y Z a j*w 44 := by
@@ -7795,6 +7827,8 @@ theorem kernel_case7 (X Y Z a : ℂ) (hX : X≠0) (hY : Y≠0) (hZ : Z≠0)
   · exact z65
 
 #print axioms kernel_case7
+
+}
 
 end SmallLevelTwentyTwoTriangular
 end

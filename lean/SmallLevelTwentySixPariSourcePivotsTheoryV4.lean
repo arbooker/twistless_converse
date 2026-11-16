@@ -21,7 +21,7 @@ def source4 (x y z w a b u : ℂ) : ℂ :=
 theorem source4_binding (x y z w a b u : ℂ) :
     eval x y z w a b 1 (fun j => if j=0 then 1 else u)
       SmallLevelTwentySixGermPrimitiveSparseMMM.Row04.primitiveData=source4 x y z w a b u := by
-  norm_num [eval,monomial,SmallLevelTwentySixGermPrimitiveSparseMMM.Row04.primitiveData,SmallLevelTwentySixGermPrimitiveSparseMMM.Row04.primitiveData0,source4]
+  norm_num [Rat.divInt_eq_div,eval,monomial,SmallLevelTwentySixGermPrimitiveSparseMMM.Row04.primitiveData,SmallLevelTwentySixGermPrimitiveSparseMMM.Row04.primitiveData0,source4]
   ring
 
 def source6 (x y z w a b u : ℂ) : ℂ :=
@@ -30,7 +30,7 @@ def source6 (x y z w a b u : ℂ) : ℂ :=
 theorem source6_binding (x y z w a b u : ℂ) :
     eval x y z w a b 1 (fun j => if j=0 then 1 else u)
       SmallLevelTwentySixGermPrimitiveSparseMMM.Row06.primitiveData=source6 x y z w a b u := by
-  norm_num [eval,monomial,SmallLevelTwentySixGermPrimitiveSparseMMM.Row06.primitiveData,SmallLevelTwentySixGermPrimitiveSparseMMM.Row06.primitiveData0,source6]
+  norm_num [Rat.divInt_eq_div,eval,monomial,SmallLevelTwentySixGermPrimitiveSparseMMM.Row06.primitiveData,SmallLevelTwentySixGermPrimitiveSparseMMM.Row06.primitiveData0,source6]
   ring
 
 def zValue (x y w a b u : ℂ) : ℂ := -source4 x y 0 w a b u/(x^2/2)

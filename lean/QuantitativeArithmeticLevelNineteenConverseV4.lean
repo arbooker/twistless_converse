@@ -1,4 +1,7 @@
 module
+public import QuantitativeArithmeticSmallLevelNineteenOppositeFinalCertificateRootMergesV1
+public import QuantitativeArithmeticSmallLevelNineteenFinalCertificateRootMergesV1
+public meta import SmallLevelCertificateBatchCommandV1
 
 public import FinitenessFiniteOrderClosureV1
 public import Mathlib.Analysis.Analytic.Constructions
@@ -55,6 +58,11 @@ public import SmallLevelRamanujanReflectionOrderV1
 public import SmallLevelAnalyticRigidityTheoryV4
 public import SmallLevelSimplePoleTaylorTheoryV4
 public import SmallLevelUniversalPoleFirstShiftV1
+set_option Elab.async false
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
+set_option linter.unnecessarySeqFocus false
 
 set_option Elab.async false
 
@@ -69,6 +77,7 @@ set_option maxHeartbeats 1800000
 namespace QuantitativeArithmeticSmallLevelNineteenCentralX
 open Complex
 open scoped ComplexConjugate
+certificate_batch {
 
 /-- The cubic obtained from the leading rows has no unit-circle root. -/
 theorem cubic_not_unit (Y : ℂ) (hunit : ‖Y‖=1)
@@ -131,6 +140,8 @@ theorem five_rows_zero (Y B Z C w u v : ℂ) (hY : Y≠0) (hY1 : Y+1≠0)
 
 #print axioms cubic_not_unit
 #print axioms five_rows_zero
+
+}
 end QuantitativeArithmeticSmallLevelNineteenCentralX
 end
 end
@@ -148,6 +159,7 @@ set_option maxRecDepth 8192
 /-! Consolidated certificate family; original declaration bodies retained. -/
 namespace QuantitativeArithmeticSmallLevelNineteenCentralX
 open QuantitativeArithmeticSmallLevelNineteenPoleLeading
+certificate_batch {
 
 theorem row0_0 (x y z b : ℂ) (hx2 : x^2=1) (hy : y≠0) (v : Fin 114→ℂ) :
     2*y^2*residualRows0 x y z (-2*x) b v 0=((2:ℂ)*y^2 + (2:ℂ))*v 18 + ((-2:ℂ))*v 42 + ((2:ℂ))*v 72 := by
@@ -261,6 +273,8 @@ theorem row2_8 (x y z b : ℂ) (hx2 : x^2=1) (hy : y≠0) (v : Fin 114→ℂ) :
 
 #print axioms row2_8
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenCentralX
 end
 end
@@ -275,6 +289,7 @@ namespace QuantitativeArithmeticSmallLevelNineteenCentralX
 open Complex
 open QuantitativeArithmeticSmallLevelNineteenPoleLeading
 open QuantitativeArithmeticSmallLevelNineteenFullSystem
+certificate_batch {
 
 theorem reduced_central_x_zero0 (x y z b : ℂ) (hx2 : x^2=1) (hy : y≠0)
     (hY1 : y^2+1≠0) (hunit : ‖y^2‖=1)
@@ -355,6 +370,8 @@ theorem actual_central_x_kernel2 (x y z b : ℂ) (hx2 : x^2=1)
   exact hinj h18 h42 h72
 
 #print axioms actual_central_x_kernel2
+
+}
 end QuantitativeArithmeticSmallLevelNineteenCentralX
 end
 end
@@ -369,6 +386,7 @@ open Complex
 open QuantitativeArithmeticSmallLevelNineteen
 open QuantitativeArithmeticSmallLevelNineteenGridSystem
 open QuantitativeArithmeticPrimePowerTorsion
+certificate_batch {
 
 theorem norm_one_of_fourth (x : ℂ) (hx : x^4=1) : ‖x‖=1 := by
   have h : ‖x‖^4=1 := by simpa only [norm_pow, norm_one] using congrArg norm hx
@@ -430,6 +448,8 @@ theorem central_two_three_parameters (s : ℂ) (hx4 : ((2:ℂ)^s)^4=1) :
 
 #print axioms central_two_gap
 #print axioms central_two_three_parameters
+
+}
 end QuantitativeArithmeticSmallLevelNineteenCentralX
 end
 end
@@ -446,6 +466,7 @@ open QuantitativeArithmeticSmallLevelNineteenGridAnalytic
 open QuantitativeArithmeticSmallLevelNineteenFullRamanujan
 open QuantitativeArithmeticSmallLevelNineteenFullGroup
 open QuantitativeArithmeticSmallLevelNineteen (exceptionalCenter)
+certificate_batch {
 
 theorem original_center_rows {m : ℕ} (hm : 0<m) {f : ℕ → ℂ}
     (hf : FinitenessOriginalInput.IsSolution 19 (2*m) f) (i : Fin 13) :
@@ -538,6 +559,8 @@ theorem original_matrix_system {m : ℕ} (hm : 0<m) {f : ℕ → ℂ}
           hH j s (lt_of_le_of_lt (hBH j) hs)
 
 #print axioms original_matrix_system
+
+}
 end QuantitativeArithmeticSmallLevelNineteenFullSystem
 end
 end
@@ -553,6 +576,7 @@ open Complex Matrix Filter
 open scoped Topology
 open QuantitativeArithmeticSmallLevelNineteenGridAnalytic
 open QuantitativeArithmeticUniversalPoleVector
+certificate_batch {
 
 /-- The full734-row system continues as germs of the same grid continuation. -/
 theorem original_continued_rows {m : ℕ} (hm : 0<m) {f : ℕ→ℂ}
@@ -647,6 +671,8 @@ theorem leading_vector_first_shift {ρ : Type*} {m : ℕ} (hm : 0<m) {f : ℕ→
 #print axioms leading_vector_kernel
 #print axioms rightmost_pole_common_kernel
 #print axioms leading_vector_first_shift
+
+}
 end QuantitativeArithmeticSmallLevelNineteenFullSystem
 end
 end
@@ -660,6 +686,7 @@ set_option maxRecDepth 8192
 @[expose] public noncomputable section
 namespace QuantitativeArithmeticSmallLevelNineteenFullGroup
 open QuantitativeArithmeticSmallLevelNineteenGridSystem (threePrimeMonomial)
+certificate_batch {
 
 theorem symbolic_flip (X Y Z : ℂ) (i : Fin 516) :
     symbolic X Y (-Z) i=symbolic X Y Z i := by
@@ -669,16 +696,22 @@ theorem symbolic_flip (X Y Z : ℂ) (i : Fin 516) :
     fin_cases j <;> rfl
   simp only [symbolic,threePrimeMonomial,h,zpow_zero]
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenFullGroup
 namespace QuantitativeArithmeticSmallLevelNineteenFullRamanujan
 open QuantitativeArithmeticSmallLevelNineteenGridSystem (threePrimeMonomial)
+certificate_batch {
 
 theorem symbolic_flip (χ δ X Y Z : ℂ) (i : Fin 96) :
     symbolic (-χ) (-δ) X Y (-Z) i=symbolic χ δ X Y Z i := by
   fin_cases i <;> norm_num [symbolic,taylorSign,rowQ,powers,threePrimeMonomial]
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenFullRamanujan
 namespace QuantitativeArithmeticSmallLevelNineteenFullSystem
+certificate_batch {
 
 /-- Simultaneous sign reversal is absorbed by Z for the full leading system,
 including the ramified19 rows. Thus only two sign classes need certificates. -/
@@ -699,6 +732,8 @@ theorem first_rows_flip (χ δ X Y Z : ℂ) (v : Fin 114→ℂ) :
 
 #print axioms symbolic_rows_flip
 #print axioms first_rows_flip
+
+}
 end QuantitativeArithmeticSmallLevelNineteenFullSystem
 end
 end
@@ -711,6 +746,7 @@ namespace QuantitativeArithmeticSmallLevelNineteenZeroFirstJet
 open QuantitativeArithmeticSmallLevelNineteenGridSystem
 open QuantitativeArithmeticSmallLevelNineteenFullSystem
 open QuantitativeArithmeticSmallLevelNineteenFullGroup (primeParameter_shift)
+certificate_batch {
 
 theorem parameter_ne_zero {p : ℕ} (hp : p≠0) (m : ℕ) (s : ℂ) :
     primeParameter p m s≠0 :=
@@ -747,6 +783,8 @@ theorem first_rows_normalize (κ δ x y z : ℂ) (hκ : κ=1 ∨ κ=-1)
 #print axioms parameter_add_one_div
 #print axioms symbolic_rows_normalize
 #print axioms first_rows_normalize
+
+}
 end QuantitativeArithmeticSmallLevelNineteenZeroFirstJet
 end
 end
@@ -760,6 +798,7 @@ set_option maxRecDepth 4000
 namespace QuantitativeArithmeticSmallLevelNineteenGrid
 open Complex Filter
 open scoped Topology
+certificate_batch {
 
 theorem denominators0_common (a b : ℂ) : ∃ s : ℂ,
     denom0_0 ((2:ℂ)^s) ((3:ℂ)^s) ((19:ℂ)^s) a b≠0 ∧
@@ -1197,6 +1236,8 @@ theorem selected7_witness (a b : ℂ) :
 
 #print axioms selected7_witness
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGrid
 end
 end
@@ -1209,6 +1250,7 @@ set_option maxHeartbeats 2000000
 @[expose] public noncomputable section
 namespace QuantitativeArithmeticSmallLevelNineteenGridSystem
 open QuantitativeArithmeticSmallLevelNineteenGridRamanujan
+certificate_batch {
 
 theorem symbolicGroup_flip (X Y Z : ℂ) (i : Fin 45) :
     symbolicGroup X Y (-Z) i=symbolicGroup X Y Z i := by
@@ -1227,6 +1269,8 @@ theorem symbolicRows_flip (c d : Fin 8) (h : rowKind c=rowKind d)
   simp only [symbolicRows,assemble,h,symbolicGroup_flip,symbolicTaylor_flip]
 
 #print axioms symbolicRows_flip
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGridSystem
 end
 end
@@ -1245,6 +1289,7 @@ namespace QuantitativeArithmeticSmallLevelNineteenGridSystem
 open QuantitativeArithmeticSmallLevelNineteenGridAnalytic
 open QuantitativeArithmeticSmallLevelNineteenGridRamanujan
 open QuantitativeArithmeticSmallLevelNineteenGrid
+certificate_batch {
 
 /-- Exact comparison of actual row geometry with the checked algebraic
 certificate; every division is by a nonzero exponential coordinate. -/
@@ -1366,6 +1411,8 @@ theorem symbolic_rows7 (X Y Z b : ℂ)
 
 #print axioms symbolic_rows7
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGridSystem
 end
 end
@@ -1379,6 +1426,7 @@ set_option maxHeartbeats 2200000
 namespace QuantitativeArithmeticSmallLevelNineteenGridSystem
 open Complex Matrix
 open QuantitativeArithmeticSmallLevelNineteenGrid
+certificate_batch {
 
 theorem actual_rank0 (m : ℕ) (f : ℕ→ℂ) (ε : ℂ)
     (hχ : phaseRoot m ε=(-1)) (hδ : badNineteen f=(-1))
@@ -1580,6 +1628,8 @@ theorem original_rank_witness {m : ℕ} {f : ℕ→ℂ}
     · exact ⟨0,actual_rank0 m f ε hχ hδ ha⟩
 
 #print axioms original_rank_witness
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGridSystem
 end
 end
@@ -1597,6 +1647,7 @@ open QuantitativeArithmeticSmallLevelNineteenFullSystem
 open QuantitativeArithmeticSmallLevelNineteenGridAnalytic
 open QuantitativeArithmeticSmallLevelNineteenZeroFirstJet
 open QuantitativeArithmeticUniversalPoleVector
+certificate_batch {
 
 /-- Exclude the central-two exceptional stratum at any rightmost grid
 pole above a right-half-plane denominator zero, for every original sign. -/
@@ -1642,6 +1693,8 @@ theorem central_two_no_pole {m : ℕ} (hm : 0<m) {f : ℕ→ℂ}
   · exact hcase 1 (-1) (Or.inl rfl) (by simpa using hp) (by simpa using hb) (Or.inl rfl)
 
 #print axioms central_two_no_pole
+
+}
 end QuantitativeArithmeticSmallLevelNineteenCentralX
 end
 end
@@ -1652,6 +1705,7 @@ set_option autoImplicit false
 @[expose] public noncomputable section
 namespace QuantitativeArithmeticSmallLevelNineteenZeroPoleAlgebra
 open Complex QuantitativeArithmeticPrimePowerTorsion
+certificate_batch {
 
 /-- The scalar identity in the zero-eigenvalue first-Taylor certificate is
 incompatible with a negative real power of two. The identity itself must
@@ -1709,6 +1763,8 @@ theorem central_scalar_impossible (u : ℂ) (h2 : ((2:ℂ)^u)^2 = -1)
 #print axioms first_jet_scalar_impossible
 #print axioms negative_square_excludes_other_torsion
 #print axioms central_scalar_impossible
+
+}
 end QuantitativeArithmeticSmallLevelNineteenZeroPoleAlgebra
 end
 end
@@ -1729,6 +1785,7 @@ open Complex
 open QuantitativeArithmeticSmallLevelNineteenFullSystem
 open QuantitativeArithmeticSmallLevelNineteenPoleLeading
 open QuantitativeArithmeticSmallLevelNineteenZeroPoleAlgebra
+certificate_batch {
 
 theorem specialized_row0_case2 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0)
     (hxp : x^2+1≠0) (hgap : a= -x-1/x) (hy2 : y^2= -1)
@@ -1814,6 +1871,8 @@ theorem central_y_reduced2 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0)
   exact ⟨h13,hv42,hv72⟩
 
 #print axioms central_y_reduced2
+
+}
 end QuantitativeArithmeticSmallLevelNineteenCentralY
 end
 end
@@ -1834,6 +1893,7 @@ open Complex
 open QuantitativeArithmeticSmallLevelNineteenFullSystem
 open QuantitativeArithmeticSmallLevelNineteenPoleLeading
 open QuantitativeArithmeticSmallLevelNineteenZeroPoleAlgebra
+certificate_batch {
 
 theorem specialized_row0 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0)
     (hxp : x^2+1≠0) (hgap : a= -x-1/x) (hy2 : y^2= -1)
@@ -1919,6 +1979,8 @@ theorem central_y_reduced (x y z a b : ℂ) (hx : x≠0) (hy : y≠0)
   exact ⟨h13,hv42,hv72⟩
 
 #print axioms central_y_reduced
+
+}
 end QuantitativeArithmeticSmallLevelNineteenCentralY
 end
 end
@@ -1933,6 +1995,7 @@ open Complex
 open QuantitativeArithmeticSmallLevelNineteenFullSystem
 open QuantitativeArithmeticSmallLevelNineteenPoleLeading
 open QuantitativeArithmeticPrimePowerTorsion
+certificate_batch {
 
 theorem physical_parameters (s a : ℂ) (hy2 : ((3:ℂ)^s)^2= -1)
     (hgap : a= -(2:ℂ)^s-1/(2:ℂ)^s) :
@@ -2004,6 +2067,8 @@ theorem actual_central_y_kernel2 (s z a b : ℂ) (hz : z≠0)
   exact hinj h18 h42 h72
 
 #print axioms actual_central_y_kernel2
+
+}
 end QuantitativeArithmeticSmallLevelNineteenCentralY
 end
 end
@@ -2021,6 +2086,7 @@ open QuantitativeArithmeticSmallLevelNineteenFullSystem
 open QuantitativeArithmeticSmallLevelNineteenGridAnalytic
 open QuantitativeArithmeticSmallLevelNineteenZeroFirstJet
 open QuantitativeArithmeticUniversalPoleVector
+certificate_batch {
 
 /-- Exclude the central-three exceptional stratum at any rightmost grid
 pole above a right-half-plane denominator zero, for every original sign. -/
@@ -2061,6 +2127,8 @@ theorem central_three_no_pole {m : ℕ} (hm : 0<m) {f : ℕ→ℂ}
   · exact hcase 1 (-1) (Or.inl rfl) (by simpa using hp) (by simpa using hb) (Or.inl rfl)
 
 #print axioms central_three_no_pole
+
+}
 end QuantitativeArithmeticSmallLevelNineteenCentralY
 end
 end
@@ -2076,6 +2144,7 @@ namespace QuantitativeArithmeticSmallLevelNineteen
 
 open Matrix UpperHalfPlane SmallLevelNormalized Complex Filter Set
 open scoped MatrixGroups ModularForm Manifold Topology
+certificate_batch {
 
 def elliptic : SL(2,ℚ) := ⟨!![1,-1/2;38/5,-14/5], by norm_num [det_fin_two]⟩
 def ellipticReal : GL (Fin 2) ℝ := SpecialLinearGroup.mapGL ℝ elliptic
@@ -2227,6 +2296,8 @@ theorem A_of_five_pair {k : ℕ} (hk : 0<k) {f : ℕ → ℂ}
 #print axioms original_four_reduced
 #print axioms defect_elliptic_of_five_pair
 #print axioms A_of_five_pair
+
+}
 end QuantitativeArithmeticSmallLevelNineteen
 end
 end
@@ -2242,6 +2313,7 @@ set_option maxHeartbeats 12000000
 namespace QuantitativeArithmeticSmallLevelNineteen
 open Matrix ModularGroup SmallLevelGenerators
 open scoped MatrixGroups
+certificate_batch {
 
 def letter : Fin 11 → SL(2,ℤ)
   | 0 => T
@@ -2390,6 +2462,8 @@ theorem gamma0_mem (K : Subgroup SL(2,ℤ))
 #print axioms edgeT_checked
 #print axioms gamma0_mem
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteen
 end
 end
@@ -2402,6 +2476,7 @@ set_option autoImplicit false
 namespace QuantitativeArithmeticSmallLevelNineteen
 open Matrix ModularGroup SmallLevelGenerators SmallLevelOriginal SmallLevelNormalized
 open scoped MatrixGroups ModularForm
+certificate_batch {
 
 /-- The separated quadratic-residue pair at modulus five. Establishing this
 identity from the original Euler input is the remaining analytic obligation;
@@ -2449,6 +2524,8 @@ theorem modular_of_five_pair {k : ℕ} (hk : 0<k) (heven : Even k) {f : ℕ → 
 #print axioms B_of_five_pair
 #print axioms gamma_zero_of_five_pair
 #print axioms modular_of_five_pair
+
+}
 end QuantitativeArithmeticSmallLevelNineteen
 end
 end
@@ -2465,6 +2542,7 @@ open QuantitativeArithmeticSmallLevelNineteen
 open QuantitativeArithmeticQuadraticFive (quadraticFourier twist_five)
 open FinitenessOriginalFourier FinitenessFourierConstruction FinitenessAnalyticReconstruction
 open scoped MatrixGroups ModularForm
+certificate_batch {
 
 /-- The original Ramanujan5 law and quadratic5 law separate into the first
 actual even-pair Fricke laws, with the same original sign. -/
@@ -2573,6 +2651,8 @@ theorem five_pair_of_quadratic_fricke {k : ℕ} {f : ℕ → ℂ} (ε : ℂ)
   simpa only [ht, mul_one, SlashAction.slash_one, SlashAction.slash_mul, neg_div] using hh
 
 #print axioms five_pair_of_quadratic_fricke
+
+}
 end QuantitativeArithmeticSmallLevelNineteenChiFive
 end
 end
@@ -2588,6 +2668,7 @@ open Complex MeasureTheory SmallLevelNormalized SmallLevelOriginal
 open FinitenessFourierConstruction FinitenessOriginalFourier FinitenessRamanujanFourier
 open FinitenessNormalizedTwistProduct FinitenessAllLevelAxisDecay SmallLevelAdditive
 open scoped MatrixGroups ModularForm
+certificate_batch {
 
 theorem coherent_scaled_reflections (m : ℕ) (hm : 0<m) {f : ℕ → ℂ}
     (hf : FinitenessOriginalInput.IsSolution 19 (2*m) f) (ε : ℂ)
@@ -2677,6 +2758,8 @@ theorem coherent_unscaled_reflections (m : ℕ) (hm : 0<m) {f : ℕ → ℂ}
 
 
 #print axioms coherent_unscaled_reflections
+
+}
 end QuantitativeArithmeticSmallLevelNineteen
 end
 end
@@ -2690,6 +2773,7 @@ set_option maxHeartbeats 1800000
 namespace QuantitativeArithmeticSmallLevelNineteen
 open Complex Filter Set SmallLevelTaylor
 open scoped Topology
+certificate_batch {
 
 theorem original_numerator_bound (m : ℕ) (hm : 0<m) {f : ℕ→ℂ}
     (hf : FinitenessOriginalInput.IsSolution 19 (2*m) f) :
@@ -2763,6 +2847,8 @@ theorem uniform_finiteOrder {m : ℕ} (hm : 0<m) {f : ℕ → ℂ}
 
 #print axioms original_numerator_bound
 #print axioms uniform_finiteOrder
+
+}
 end QuantitativeArithmeticSmallLevelNineteen
 end
 end
@@ -2777,6 +2863,7 @@ namespace QuantitativeArithmeticSmallLevelNineteen
 open Complex Filter Set
 open FinitenessOriginalFourier FinitenessFourierConstruction
 open scoped Topology
+certificate_batch {
 
 /-- Any entire continuation of the quadratic-five combination automatically
 has finite order and the reflection law with the given original coherent sign. -/
@@ -2842,6 +2929,8 @@ theorem modular_of_quadratic_entire {m : ℕ} (hm : 0<m) {f : ℕ→ℂ}
 
 #print axioms quadratic_entire_laws
 #print axioms modular_of_quadratic_entire
+
+}
 end QuantitativeArithmeticSmallLevelNineteen
 end
 end
@@ -2860,6 +2949,7 @@ set_option maxRecDepth 8192
 /-! Consolidated certificate family; original declaration bodies retained. -/
 namespace QuantitativeArithmeticSmallLevelNineteenGenericCertificates
 open QuantitativeArithmeticSmallLevelNineteenPoleLeading
+certificate_batch {
 
 theorem leading_row1 (x y z a b t : ℂ) (hx : x≠0) (hy : y≠0) (ha : a≠0)
     (v : Fin 114→ℂ) (hw : v 18= -(x^4+(a^2-2)*x^2+1)*t)
@@ -2945,6 +3035,8 @@ theorem leading_row8 (x y z a b t : ℂ) (hx : x≠0) (hy : y≠0) (ha : a≠0)
   ring
 #print axioms leading_row8
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGenericCertificates
 end
 end
@@ -2958,6 +3050,7 @@ namespace QuantitativeArithmeticSmallLevelNineteenGenericCertificates
 open Complex
 open QuantitativeArithmeticSmallLevelNineteenPoleLeading
 open QuantitativeArithmeticSmallLevelNineteenFullSystem
+certificate_batch {
 
 /-- Nonzero leading kernel vectors have one free scale on the generic stratum. -/
 theorem normalized_leading_vector0 (x y z a b : ℂ)
@@ -3037,6 +3130,8 @@ theorem first_eight_zero (x y z a b : ℂ)
 
 #print axioms normalized_leading_vector0
 #print axioms first_eight_zero
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGenericCertificates
 end
 end
@@ -3055,6 +3150,7 @@ open QuantitativeArithmeticSmallLevelNineteenFullSystem
 open QuantitativeArithmeticSmallLevelNineteenGridAnalytic
 open QuantitativeArithmeticSmallLevelNineteenZeroFirstJet
 open QuantitativeArithmeticUniversalPoleVector
+certificate_batch {
 
 /-- The first eight published constraints follow from the original leading equations. -/
 theorem original_first_eight {m : ℕ} (hm : 0<m) {f : ℕ→ℂ}
@@ -3107,6 +3203,8 @@ theorem original_first_eight {m : ℕ} (hm : 0<m) {f : ℕ→ℂ}
   exact first_eight_zero _ _ _ _ _ hx hy hz ha hx4 hY hdich v hv.1 hlead
 
 #print axioms original_first_eight
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGenericCertificates
 end
 end
@@ -3118,6 +3216,7 @@ set_option maxHeartbeats 3000000
 set_option maxRecDepth 8192
 @[expose] public noncomputable section
 namespace QuantitativeArithmeticSmallLevelNineteenGenericCertificates
+certificate_batch {
 theorem dependency17 (B A Z Y X : ℂ) : poly17 B A Z Y X+144*poly10 B A Z Y X=0 := by
   simp only [poly17,poly10,QuantitativeArithmeticSmallLevelNineteenGenericJet39.compact39]
   ring
@@ -3134,6 +3233,8 @@ theorem dependency14 (B A Z Y X : ℂ) : poly14 B A Z Y X-poly12 B A Z Y X/4-pol
   simp only [poly14,poly12,poly10]
   ring
 #print axioms dependency14
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGenericCertificates
 end
 end
@@ -3155,6 +3256,7 @@ open QuantitativeArithmeticSmallLevelNineteenFullRamanujan
 open QuantitativeArithmeticSmallLevelNineteenFullSystem
 open QuantitativeArithmeticSmallLevelNineteenGridSystem
 open QuantitativeArithmeticSmallLevelNineteenGridAnalytic (gridIndex)
+certificate_batch {
 
 theorem lower_link0_0 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (v : Fin 114→ℂ) :
     ((((1:ℂ))/((1:ℂ)))*v 18 + (((19:ℂ)*y^(2:ℕ))/((9:ℂ)*z))*v 76)=symbolicRows (-1) (-1) (x/2) (y/3) (z/19) a b v (530:Fin 734) := by
@@ -3360,6 +3462,8 @@ theorem lower_link0_32 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) 
 
 #print axioms lower_link0_32
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGenericJet39
 end
 end
@@ -3381,6 +3485,7 @@ open QuantitativeArithmeticSmallLevelNineteenFullRamanujan
 open QuantitativeArithmeticSmallLevelNineteenFullSystem
 open QuantitativeArithmeticSmallLevelNineteenGridSystem
 open QuantitativeArithmeticSmallLevelNineteenGridAnalytic (gridIndex)
+certificate_batch {
 
 theorem lower_link0_0 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (v : Fin 114→ℂ) :
     ((((1:ℂ))/((1:ℂ)))*v 18 + (((19:ℂ)*y^(2:ℕ))/((9:ℂ)*z))*v 76)=symbolicRows (-1) (-1) (x/2) (y/3) (z/19) a b v (530:Fin 734) := by
@@ -3569,6 +3674,8 @@ theorem lower_link0_33 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) 
 
 #print axioms lower_link0_33
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGenericJet41
 end
 end
@@ -3590,6 +3697,7 @@ open QuantitativeArithmeticSmallLevelNineteenFullRamanujan
 open QuantitativeArithmeticSmallLevelNineteenFullSystem
 open QuantitativeArithmeticSmallLevelNineteenGridSystem
 open QuantitativeArithmeticSmallLevelNineteenGridAnalytic (gridIndex)
+certificate_batch {
 
 theorem lower_link0_0 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (v : Fin 114→ℂ) :
     ((((1:ℂ))/((1:ℂ)))*v 35 + (((1:ℂ))/((1:ℂ)))*v 92 + (((-2:ℂ)*a)/((1:ℂ)*x))*v 70 + (((4:ℂ))/((1:ℂ)*x^(2:ℕ)))*v 26)=symbolicRows (-1) (-1) (x/2) (y/3) (z/19) a b v (668:Fin 734) := by
@@ -4186,6 +4294,8 @@ theorem lower_link0_59 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) 
 
 #print axioms lower_link0_59
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGenericJet109
 end
 end
@@ -4207,6 +4317,7 @@ open QuantitativeArithmeticSmallLevelNineteenFullSystem
 open QuantitativeArithmeticSmallLevelNineteenFullRamanujan
 open QuantitativeArithmeticSmallLevelNineteenGridSystem
 open QuantitativeArithmeticSmallLevelNineteenGridAnalytic (gridIndex)
+certificate_batch {
 
 theorem upper_link0_0 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (v : Fin 114→ℂ) :
     ((((-19:ℂ)*y^(2:ℕ))/((3:ℂ)*z))*v 76)=firstRows (-1) (-1) x y z v (530:Fin 734) := by
@@ -4419,6 +4530,8 @@ theorem upper_link0_32 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) 
 
 #print axioms upper_link0_32
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGenericJet39
 end
 end
@@ -4440,6 +4553,7 @@ open QuantitativeArithmeticSmallLevelNineteenFullSystem
 open QuantitativeArithmeticSmallLevelNineteenFullRamanujan
 open QuantitativeArithmeticSmallLevelNineteenGridSystem
 open QuantitativeArithmeticSmallLevelNineteenGridAnalytic (gridIndex)
+certificate_batch {
 
 theorem upper_link0_0 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (v : Fin 114→ℂ) :
     ((((-19:ℂ)*y^(2:ℕ))/((3:ℂ)*z))*v 76)=firstRows (-1) (-1) x y z v (530:Fin 734) := by
@@ -4637,6 +4751,8 @@ theorem upper_link0_33 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) 
 
 #print axioms upper_link0_33
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGenericJet41
 end
 end
@@ -4658,6 +4774,7 @@ open QuantitativeArithmeticSmallLevelNineteenFullSystem
 open QuantitativeArithmeticSmallLevelNineteenFullRamanujan
 open QuantitativeArithmeticSmallLevelNineteenGridSystem
 open QuantitativeArithmeticSmallLevelNineteenGridAnalytic (gridIndex)
+certificate_batch {
 
 theorem upper_link0_0 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (v : Fin 114→ℂ) :
     (0:ℂ)=firstRows (-1) (-1) x y z v (668:Fin 734) := by
@@ -5256,6 +5373,8 @@ theorem upper_link0_59 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) 
 
 #print axioms upper_link0_59
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGenericJet109
 end
 end
@@ -5277,6 +5396,7 @@ open QuantitativeArithmeticSmallLevelNineteenFullRamanujan
 open QuantitativeArithmeticSmallLevelNineteenFullSystem
 open QuantitativeArithmeticSmallLevelNineteenGridSystem
 open QuantitativeArithmeticSmallLevelNineteenGridAnalytic (gridIndex)
+certificate_batch {
 
 theorem lower_link0_0 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (v : Fin 114→ℂ) :
     ((((1:ℂ))/((1:ℂ)))*v 35 + (((1:ℂ))/((1:ℂ)))*v 92 + (((-2:ℂ)*a)/((1:ℂ)*x))*v 70 + (((4:ℂ))/((1:ℂ)*x^(2:ℕ)))*v 26)=symbolicRows (-1) (-1) (x/2) (y/3) (z/19) a b v (668:Fin 734) := by
@@ -5811,6 +5931,8 @@ theorem lower_link0_59 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) 
 
 #print axioms lower_link0_59
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGenericJet115
 end
 end
@@ -5832,6 +5954,7 @@ open QuantitativeArithmeticSmallLevelNineteenFullSystem
 open QuantitativeArithmeticSmallLevelNineteenFullRamanujan
 open QuantitativeArithmeticSmallLevelNineteenGridSystem
 open QuantitativeArithmeticSmallLevelNineteenGridAnalytic (gridIndex)
+certificate_batch {
 
 theorem upper_link0_0 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (v : Fin 114→ℂ) :
     (0:ℂ)=firstRows (-1) (-1) x y z v (668:Fin 734) := by
@@ -6366,6 +6489,8 @@ theorem upper_link0_59 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) 
 
 #print axioms upper_link0_59
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGenericJet115
 end
 end
@@ -6387,6 +6512,7 @@ open QuantitativeArithmeticSmallLevelNineteenFullRamanujan
 open QuantitativeArithmeticSmallLevelNineteenFullSystem
 open QuantitativeArithmeticSmallLevelNineteenGridSystem
 open QuantitativeArithmeticSmallLevelNineteenGridAnalytic (gridIndex)
+certificate_batch {
 
 theorem lower_link2_0 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (v : Fin 114→ℂ) :
     ((((1:ℂ))/((1:ℂ)))*v 36 + (((1:ℂ))/((1:ℂ)))*v 93 + (((-2:ℂ)*a)/((1:ℂ)*x))*v 72 + (((4:ℂ))/((1:ℂ)*x^(2:ℕ)))*v 30)=symbolicRows (-1) (1) (x/2) (y/3) (z/19) a b v (669:Fin 734) := by
@@ -6715,6 +6841,8 @@ theorem lower_link2_52 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) 
 
 #print axioms lower_link2_52
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGenericJet200
 end
 end
@@ -6736,6 +6864,7 @@ open QuantitativeArithmeticSmallLevelNineteenFullSystem
 open QuantitativeArithmeticSmallLevelNineteenFullRamanujan
 open QuantitativeArithmeticSmallLevelNineteenGridSystem
 open QuantitativeArithmeticSmallLevelNineteenGridAnalytic (gridIndex)
+certificate_batch {
 
 theorem upper_link2_0 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (v : Fin 114→ℂ) :
     (0:ℂ)=firstRows (-1) (1) x y z v (669:Fin 734) := by
@@ -7083,6 +7212,8 @@ theorem upper_link2_52 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) 
 
 #print axioms upper_link2_52
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGenericJet200
 end
 end
@@ -7104,6 +7235,7 @@ open QuantitativeArithmeticSmallLevelNineteenFullRamanujan
 open QuantitativeArithmeticSmallLevelNineteenFullSystem
 open QuantitativeArithmeticSmallLevelNineteenGridSystem
 open QuantitativeArithmeticSmallLevelNineteenGridAnalytic (gridIndex)
+certificate_batch {
 
 theorem lower_link2_0 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (v : Fin 114→ℂ) :
     ((((1:ℂ))/((1:ℂ)))*v 34 + (((1:ℂ))/((1:ℂ)))*v 91 + (((-2:ℂ)*a)/((1:ℂ)*x))*v 68 + (((4:ℂ))/((1:ℂ)*x^(2:ℕ)))*v 22)=symbolicRows (-1) (1) (x/2) (y/3) (z/19) a b v (667:Fin 734) := by
@@ -7681,6 +7813,8 @@ theorem lower_link2_59 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) 
 
 #print axioms lower_link2_59
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGenericJet201
 end
 end
@@ -7702,6 +7836,7 @@ open QuantitativeArithmeticSmallLevelNineteenFullSystem
 open QuantitativeArithmeticSmallLevelNineteenFullRamanujan
 open QuantitativeArithmeticSmallLevelNineteenGridSystem
 open QuantitativeArithmeticSmallLevelNineteenGridAnalytic (gridIndex)
+certificate_batch {
 
 theorem upper_link2_0 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (v : Fin 114→ℂ) :
     (0:ℂ)=firstRows (-1) (1) x y z v (667:Fin 734) := by
@@ -8282,6 +8417,8 @@ theorem upper_link2_59 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) 
 
 #print axioms upper_link2_59
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGenericJet201
 end
 end
@@ -8303,6 +8440,7 @@ open QuantitativeArithmeticSmallLevelNineteenFullRamanujan
 open QuantitativeArithmeticSmallLevelNineteenFullSystem
 open QuantitativeArithmeticSmallLevelNineteenGridSystem
 open QuantitativeArithmeticSmallLevelNineteenGridAnalytic (gridIndex)
+certificate_batch {
 
 theorem lower_link2_0 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (v : Fin 114→ℂ) :
     ((((1:ℂ))/((1:ℂ)))*v 18 + (((1:ℂ))/((1:ℂ)))*v 75 + (((-2:ℂ)*a)/((1:ℂ)*x))*v 36 + (((4:ℂ))/((1:ℂ)*x^(2:ℕ)))*v 72)=symbolicRows (-1) (1) (x/2) (y/3) (z/19) a b v (651:Fin 734) := by
@@ -8529,6 +8667,8 @@ theorem lower_link2_42 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) 
 
 #print axioms lower_link2_42
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGenericJet202
 end
 end
@@ -8550,6 +8690,7 @@ open QuantitativeArithmeticSmallLevelNineteenFullSystem
 open QuantitativeArithmeticSmallLevelNineteenFullRamanujan
 open QuantitativeArithmeticSmallLevelNineteenGridSystem
 open QuantitativeArithmeticSmallLevelNineteenGridAnalytic (gridIndex)
+certificate_batch {
 
 theorem upper_link2_0 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (v : Fin 114→ℂ) :
     (0:ℂ)=firstRows (-1) (1) x y z v (651:Fin 734) := by
@@ -8774,6 +8915,8 @@ theorem upper_link2_42 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) 
 
 #print axioms upper_link2_42
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGenericJet202
 end
 end
@@ -8782,7 +8925,10 @@ end
 section
 @[expose] public noncomputable section
 namespace QuantitativeArithmeticSmallLevelNineteenGenericJet39
+certificate_batch {
 def rowIndices0 : Fin 33→Fin 734 := ![530,75,74,672,72,69,326,323,321,665,320,646,325,533,532,615,536,614,714,629,684,630,703,621,624,722,648,628,716,623,675,616,625]
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGenericJet39
 end
 end
@@ -8804,6 +8950,7 @@ open QuantitativeArithmeticSmallLevelNineteenFullRamanujan
 open QuantitativeArithmeticSmallLevelNineteenFullSystem
 open QuantitativeArithmeticSmallLevelNineteenGridSystem
 open QuantitativeArithmeticSmallLevelNineteenGridAnalytic (gridIndex)
+certificate_batch {
 
 theorem lower_link0_0 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (v : Fin 114→ℂ) :
     ((((1:ℂ))/((1:ℂ)))*v 36 + (((1:ℂ))/((1:ℂ)))*v 93 + (((-2:ℂ)*a)/((1:ℂ)*x))*v 72 + (((4:ℂ))/((1:ℂ)*x^(2:ℕ)))*v 30)=symbolicRows (-1) (-1) (x/2) (y/3) (z/19) a b v (669:Fin 734) := by
@@ -9057,6 +9204,8 @@ theorem lower_link0_47 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) 
 
 #print axioms lower_link0_47
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGenericJet43
 end
 end
@@ -9078,6 +9227,7 @@ open QuantitativeArithmeticSmallLevelNineteenFullSystem
 open QuantitativeArithmeticSmallLevelNineteenFullRamanujan
 open QuantitativeArithmeticSmallLevelNineteenGridSystem
 open QuantitativeArithmeticSmallLevelNineteenGridAnalytic (gridIndex)
+certificate_batch {
 
 theorem upper_link0_0 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (v : Fin 114→ℂ) :
     (0:ℂ)=firstRows (-1) (-1) x y z v (669:Fin 734) := by
@@ -9331,6 +9481,8 @@ theorem upper_link0_47 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) 
 
 #print axioms upper_link0_47
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGenericJet43
 end
 end
@@ -9350,6 +9502,7 @@ set_option maxRecDepth 8192
 
 namespace QuantitativeArithmeticSmallLevelNineteenGenericJet109
 open QuantitativeArithmeticSmallLevelNineteenFullSystem
+certificate_batch {
 theorem weighted_lower0 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (ha : a≠0) (v : Fin 114→ℂ) :
     (∑ i, weights0 x y z a b i*symbolicRows (-1) (-1) (x/2) (y/3) (z/19) a b v (rowIndices0 i))=0 := by
   rw [QuantitativeArithmeticFiniteRowEvaluation.sum_103]
@@ -9365,6 +9518,8 @@ theorem weighted_upper0 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
   unfold upper0
   ring
 #print axioms weighted_upper0
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGenericJet109
 end
 
@@ -9380,6 +9535,7 @@ set_option maxRecDepth 8192
 
 namespace QuantitativeArithmeticSmallLevelNineteenGenericJet115
 open QuantitativeArithmeticSmallLevelNineteenFullSystem
+certificate_batch {
 theorem weighted_lower0 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (ha : a≠0) (v : Fin 114→ℂ) :
     (∑ i, weights0 x y z a b i*symbolicRows (-1) (-1) (x/2) (y/3) (z/19) a b v (rowIndices0 i))=0 := by
   rw [QuantitativeArithmeticFiniteRowEvaluation.sum_103]
@@ -9395,6 +9551,8 @@ theorem weighted_upper0 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
   unfold upper0
   ring
 #print axioms weighted_upper0
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGenericJet115
 end
 
@@ -9410,6 +9568,7 @@ set_option maxRecDepth 8192
 
 namespace QuantitativeArithmeticSmallLevelNineteenGenericJet200
 open QuantitativeArithmeticSmallLevelNineteenFullSystem
+certificate_batch {
 theorem weighted_lower2 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (ha : a≠0) (v : Fin 114→ℂ) :
     (∑ i, weights2 x y z a b i*symbolicRows (-1) (1) (x/2) (y/3) (z/19) a b v (rowIndices2 i))=0 := by
   rw [QuantitativeArithmeticFiniteRowEvaluation.sum_53]
@@ -9425,6 +9584,8 @@ theorem weighted_upper2 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
   unfold upper2
   ring
 #print axioms weighted_upper2
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGenericJet200
 end
 
@@ -9440,6 +9601,7 @@ set_option maxRecDepth 8192
 
 namespace QuantitativeArithmeticSmallLevelNineteenGenericJet201
 open QuantitativeArithmeticSmallLevelNineteenFullSystem
+certificate_batch {
 theorem weighted_lower2 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (ha : a≠0) (v : Fin 114→ℂ) :
     (∑ i, weights2 x y z a b i*symbolicRows (-1) (1) (x/2) (y/3) (z/19) a b v (rowIndices2 i))=0 := by
   rw [QuantitativeArithmeticFiniteRowEvaluation.sum_101]
@@ -9455,6 +9617,8 @@ theorem weighted_upper2 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
   unfold upper2
   ring
 #print axioms weighted_upper2
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGenericJet201
 end
 
@@ -9470,6 +9634,7 @@ set_option maxRecDepth 8192
 
 namespace QuantitativeArithmeticSmallLevelNineteenGenericJet202
 open QuantitativeArithmeticSmallLevelNineteenFullSystem
+certificate_batch {
 theorem weighted_lower2 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (ha : a≠0) (v : Fin 114→ℂ) :
     (∑ i, weights2 x y z a b i*symbolicRows (-1) (1) (x/2) (y/3) (z/19) a b v (rowIndices2 i))=0 := by
   rw [QuantitativeArithmeticFiniteRowEvaluation.sum_43]
@@ -9485,6 +9650,8 @@ theorem weighted_upper2 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
   unfold upper2
   ring
 #print axioms weighted_upper2
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGenericJet202
 end
 
@@ -9500,6 +9667,7 @@ set_option maxRecDepth 8192
 
 namespace QuantitativeArithmeticSmallLevelNineteenGenericJet39
 open QuantitativeArithmeticSmallLevelNineteenFullSystem
+certificate_batch {
 theorem weighted_lower0 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (ha : a≠0) (v : Fin 114→ℂ) :
     (∑ i, weights0 x y z a b i*symbolicRows (-1) (-1) (x/2) (y/3) (z/19) a b v (rowIndices0 i))=0 := by
   rw [QuantitativeArithmeticFiniteRowEvaluation.sum_33]
@@ -9515,6 +9683,8 @@ theorem weighted_upper0 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
   unfold upper0
   ring
 #print axioms weighted_upper0
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGenericJet39
 end
 
@@ -9530,6 +9700,7 @@ set_option maxRecDepth 8192
 
 namespace QuantitativeArithmeticSmallLevelNineteenGenericJet41
 open QuantitativeArithmeticSmallLevelNineteenFullSystem
+certificate_batch {
 theorem weighted_lower0 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (ha : a≠0) (v : Fin 114→ℂ) :
     (∑ i, weights0 x y z a b i*symbolicRows (-1) (-1) (x/2) (y/3) (z/19) a b v (rowIndices0 i))=0 := by
   rw [QuantitativeArithmeticFiniteRowEvaluation.sum_34]
@@ -9545,6 +9716,8 @@ theorem weighted_upper0 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
   unfold upper0
   ring
 #print axioms weighted_upper0
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGenericJet41
 end
 
@@ -9560,6 +9733,7 @@ set_option maxRecDepth 8192
 
 namespace QuantitativeArithmeticSmallLevelNineteenGenericJet43
 open QuantitativeArithmeticSmallLevelNineteenFullSystem
+certificate_batch {
 theorem weighted_lower0 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (ha : a≠0) (v : Fin 114→ℂ) :
     (∑ i, weights0 x y z a b i*symbolicRows (-1) (-1) (x/2) (y/3) (z/19) a b v (rowIndices0 i))=0 := by
   rw [QuantitativeArithmeticFiniteRowEvaluation.sum_48]
@@ -9575,6 +9749,8 @@ theorem weighted_upper0 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
   unfold upper0
   ring
 #print axioms weighted_upper0
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGenericJet43
 end
 end
@@ -9596,6 +9772,7 @@ open Complex Matrix
 open QuantitativeArithmeticSmallLevelNineteenGridSystem
 open QuantitativeArithmeticSmallLevelNineteenFullSystem
 open QuantitativeArithmeticSelectedRowAnnihilator
+certificate_batch {
 
 def weightedMatrix0 (m : ℕ) (κ a b s : ℂ) : Matrix (Fin 1) (Fin 734) ℂ :=
   selector rowIndices0 (weights0 (primeParameter 2 m (s+1))
@@ -9656,6 +9833,8 @@ theorem matrix_first_evaluation0 (m : ℕ) (f : ℕ→ℂ) (ε κ s : ℂ)
 #print axioms matrix_analytic0
 #print axioms matrix_annihilates0
 #print axioms matrix_first_evaluation0
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGenericJet109
 end
 
@@ -9672,6 +9851,7 @@ open Complex Matrix
 open QuantitativeArithmeticSmallLevelNineteenGridSystem
 open QuantitativeArithmeticSmallLevelNineteenFullSystem
 open QuantitativeArithmeticSelectedRowAnnihilator
+certificate_batch {
 
 def weightedMatrix0 (m : ℕ) (κ a b s : ℂ) : Matrix (Fin 1) (Fin 734) ℂ :=
   selector rowIndices0 (weights0 (primeParameter 2 m (s+1))
@@ -9732,6 +9912,8 @@ theorem matrix_first_evaluation0 (m : ℕ) (f : ℕ→ℂ) (ε κ s : ℂ)
 #print axioms matrix_analytic0
 #print axioms matrix_annihilates0
 #print axioms matrix_first_evaluation0
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGenericJet115
 end
 
@@ -9748,6 +9930,7 @@ open Complex Matrix
 open QuantitativeArithmeticSmallLevelNineteenGridSystem
 open QuantitativeArithmeticSmallLevelNineteenFullSystem
 open QuantitativeArithmeticSelectedRowAnnihilator
+certificate_batch {
 
 def weightedMatrix2 (m : ℕ) (κ a b s : ℂ) : Matrix (Fin 1) (Fin 734) ℂ :=
   selector rowIndices2 (weights2 (primeParameter 2 m (s+1))
@@ -9808,6 +9991,8 @@ theorem matrix_first_evaluation2 (m : ℕ) (f : ℕ→ℂ) (ε κ s : ℂ)
 #print axioms matrix_analytic2
 #print axioms matrix_annihilates2
 #print axioms matrix_first_evaluation2
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGenericJet200
 end
 
@@ -9824,6 +10009,7 @@ open Complex Matrix
 open QuantitativeArithmeticSmallLevelNineteenGridSystem
 open QuantitativeArithmeticSmallLevelNineteenFullSystem
 open QuantitativeArithmeticSelectedRowAnnihilator
+certificate_batch {
 
 def weightedMatrix2 (m : ℕ) (κ a b s : ℂ) : Matrix (Fin 1) (Fin 734) ℂ :=
   selector rowIndices2 (weights2 (primeParameter 2 m (s+1))
@@ -9884,6 +10070,8 @@ theorem matrix_first_evaluation2 (m : ℕ) (f : ℕ→ℂ) (ε κ s : ℂ)
 #print axioms matrix_analytic2
 #print axioms matrix_annihilates2
 #print axioms matrix_first_evaluation2
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGenericJet201
 end
 
@@ -9900,6 +10088,7 @@ open Complex Matrix
 open QuantitativeArithmeticSmallLevelNineteenGridSystem
 open QuantitativeArithmeticSmallLevelNineteenFullSystem
 open QuantitativeArithmeticSelectedRowAnnihilator
+certificate_batch {
 
 def weightedMatrix2 (m : ℕ) (κ a b s : ℂ) : Matrix (Fin 1) (Fin 734) ℂ :=
   selector rowIndices2 (weights2 (primeParameter 2 m (s+1))
@@ -9960,6 +10149,8 @@ theorem matrix_first_evaluation2 (m : ℕ) (f : ℕ→ℂ) (ε κ s : ℂ)
 #print axioms matrix_analytic2
 #print axioms matrix_annihilates2
 #print axioms matrix_first_evaluation2
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGenericJet202
 end
 
@@ -9976,6 +10167,7 @@ open Complex Matrix
 open QuantitativeArithmeticSmallLevelNineteenGridSystem
 open QuantitativeArithmeticSmallLevelNineteenFullSystem
 open QuantitativeArithmeticSelectedRowAnnihilator
+certificate_batch {
 
 def weightedMatrix0 (m : ℕ) (κ a b s : ℂ) : Matrix (Fin 1) (Fin 734) ℂ :=
   selector rowIndices0 (weights0 (primeParameter 2 m (s+1))
@@ -10036,6 +10228,8 @@ theorem matrix_first_evaluation0 (m : ℕ) (f : ℕ→ℂ) (ε κ s : ℂ)
 #print axioms matrix_analytic0
 #print axioms matrix_annihilates0
 #print axioms matrix_first_evaluation0
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGenericJet39
 end
 
@@ -10052,6 +10246,7 @@ open Complex Matrix
 open QuantitativeArithmeticSmallLevelNineteenGridSystem
 open QuantitativeArithmeticSmallLevelNineteenFullSystem
 open QuantitativeArithmeticSelectedRowAnnihilator
+certificate_batch {
 
 def weightedMatrix0 (m : ℕ) (κ a b s : ℂ) : Matrix (Fin 1) (Fin 734) ℂ :=
   selector rowIndices0 (weights0 (primeParameter 2 m (s+1))
@@ -10112,6 +10307,8 @@ theorem matrix_first_evaluation0 (m : ℕ) (f : ℕ→ℂ) (ε κ s : ℂ)
 #print axioms matrix_analytic0
 #print axioms matrix_annihilates0
 #print axioms matrix_first_evaluation0
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGenericJet41
 end
 
@@ -10128,6 +10325,7 @@ open Complex Matrix
 open QuantitativeArithmeticSmallLevelNineteenGridSystem
 open QuantitativeArithmeticSmallLevelNineteenFullSystem
 open QuantitativeArithmeticSelectedRowAnnihilator
+certificate_batch {
 
 def weightedMatrix0 (m : ℕ) (κ a b s : ℂ) : Matrix (Fin 1) (Fin 734) ℂ :=
   selector rowIndices0 (weights0 (primeParameter 2 m (s+1))
@@ -10188,6 +10386,8 @@ theorem matrix_first_evaluation0 (m : ℕ) (f : ℕ→ℂ) (ε κ s : ℂ)
 #print axioms matrix_analytic0
 #print axioms matrix_annihilates0
 #print axioms matrix_first_evaluation0
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGenericJet43
 end
 end
@@ -10209,6 +10409,7 @@ open QuantitativeArithmeticSmallLevelNineteenFullSystem
 open QuantitativeArithmeticSmallLevelNineteenGridAnalytic
 open QuantitativeArithmeticSmallLevelNineteenZeroFirstJet
 open QuantitativeArithmeticUniversalPoleVector
+certificate_batch {
 
 /-- The ninth published polynomial constraint follows from the original
 continued Taylor equations at an equal-sign rightmost grid pole. -/
@@ -10255,6 +10456,8 @@ theorem original_scalar109 {m : ℕ} (hm : 0<m) {f : ℕ→ℂ}
   exact scalar_zero_of_output _ _ _ _ _ hx hy hz ha hx4 hY hdich v hv.1 hlead hout.symm
 
 #print axioms original_scalar109
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGenericJet109
 end
 
@@ -10271,6 +10474,7 @@ open QuantitativeArithmeticSmallLevelNineteenFullSystem
 open QuantitativeArithmeticSmallLevelNineteenGridAnalytic
 open QuantitativeArithmeticSmallLevelNineteenZeroFirstJet
 open QuantitativeArithmeticUniversalPoleVector
+certificate_batch {
 
 /-- The fifteenth published polynomial constraint follows from the original
 continued Taylor equations at an equal-sign rightmost grid pole. -/
@@ -10317,6 +10521,8 @@ theorem original_scalar115 {m : ℕ} (hm : 0<m) {f : ℕ→ℂ}
   exact scalar_zero_of_output _ _ _ _ _ hx hy hz ha hx4 hY hdich v hv.1 hlead hout.symm
 
 #print axioms original_scalar115
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGenericJet115
 end
 
@@ -10333,6 +10539,7 @@ open QuantitativeArithmeticSmallLevelNineteenFullSystem
 open QuantitativeArithmeticSmallLevelNineteenGridAnalytic
 open QuantitativeArithmeticSmallLevelNineteenZeroFirstJet
 open QuantitativeArithmeticUniversalPoleVector
+certificate_batch {
 
 /-- The opposite-sign polynomial constraint follows from the original
 continued Taylor equations at an opposite-sign rightmost grid pole. -/
@@ -10379,6 +10586,8 @@ theorem original_scalar200 {m : ℕ} (hm : 0<m) {f : ℕ→ℂ}
   exact scalar_zero_of_output _ _ _ _ _ hx hy hz ha hx4 hY hdich v hv.1 hlead hout.symm
 
 #print axioms original_scalar200
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGenericJet200
 end
 
@@ -10395,6 +10604,7 @@ open QuantitativeArithmeticSmallLevelNineteenFullSystem
 open QuantitativeArithmeticSmallLevelNineteenGridAnalytic
 open QuantitativeArithmeticSmallLevelNineteenZeroFirstJet
 open QuantitativeArithmeticUniversalPoleVector
+certificate_batch {
 
 /-- The opposite-sign polynomial constraint follows from the original
 continued Taylor equations at an opposite-sign rightmost grid pole. -/
@@ -10441,6 +10651,8 @@ theorem original_scalar201 {m : ℕ} (hm : 0<m) {f : ℕ→ℂ}
   exact scalar_zero_of_output _ _ _ _ _ hx hy hz ha hx4 hY hdich v hv.1 hlead hout.symm
 
 #print axioms original_scalar201
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGenericJet201
 end
 
@@ -10457,6 +10669,7 @@ open QuantitativeArithmeticSmallLevelNineteenFullSystem
 open QuantitativeArithmeticSmallLevelNineteenGridAnalytic
 open QuantitativeArithmeticSmallLevelNineteenZeroFirstJet
 open QuantitativeArithmeticUniversalPoleVector
+certificate_batch {
 
 /-- The opposite-sign polynomial constraint follows from the original
 continued Taylor equations at an opposite-sign rightmost grid pole. -/
@@ -10503,6 +10716,8 @@ theorem original_scalar202 {m : ℕ} (hm : 0<m) {f : ℕ→ℂ}
   exact scalar_zero_of_output _ _ _ _ _ hx hy hz ha hx4 hY hdich v hv.1 hlead hout.symm
 
 #print axioms original_scalar202
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGenericJet202
 end
 
@@ -10519,6 +10734,7 @@ open QuantitativeArithmeticSmallLevelNineteenFullSystem
 open QuantitativeArithmeticSmallLevelNineteenGridAnalytic
 open QuantitativeArithmeticSmallLevelNineteenZeroFirstJet
 open QuantitativeArithmeticUniversalPoleVector
+certificate_batch {
 
 /-- The seventeenth published polynomial constraint follows from the original
 continued Taylor equations at an equal-sign rightmost grid pole. -/
@@ -10565,6 +10781,8 @@ theorem original_scalar39 {m : ℕ} (hm : 0<m) {f : ℕ→ℂ}
   exact scalar_zero_of_output _ _ _ _ _ hx hy hz ha hx4 hY hdich v hv.1 hlead hout.symm
 
 #print axioms original_scalar39
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGenericJet39
 end
 
@@ -10581,6 +10799,7 @@ open QuantitativeArithmeticSmallLevelNineteenFullSystem
 open QuantitativeArithmeticSmallLevelNineteenGridAnalytic
 open QuantitativeArithmeticSmallLevelNineteenZeroFirstJet
 open QuantitativeArithmeticUniversalPoleVector
+certificate_batch {
 
 /-- The eighteenth published polynomial constraint follows from the original
 continued Taylor equations at an equal-sign rightmost grid pole. -/
@@ -10627,6 +10846,8 @@ theorem original_scalar41 {m : ℕ} (hm : 0<m) {f : ℕ→ℂ}
   exact scalar_zero_of_output _ _ _ _ _ hx hy hz ha hx4 hY hdich v hv.1 hlead hout.symm
 
 #print axioms original_scalar41
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGenericJet41
 end
 
@@ -10643,6 +10864,7 @@ open QuantitativeArithmeticSmallLevelNineteenFullSystem
 open QuantitativeArithmeticSmallLevelNineteenGridAnalytic
 open QuantitativeArithmeticSmallLevelNineteenZeroFirstJet
 open QuantitativeArithmeticUniversalPoleVector
+certificate_batch {
 
 /-- The published input 19 published polynomial constraint follows from the original
 continued Taylor equations at an equal-sign rightmost grid pole. -/
@@ -10689,6 +10911,8 @@ theorem original_scalar43 {m : ℕ} (hm : 0<m) {f : ℕ→ℂ}
   exact scalar_zero_of_output _ _ _ _ _ hx hy hz ha hx4 hY hdich v hv.1 hlead hout.symm
 
 #print axioms original_scalar43
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGenericJet43
 end
 end
@@ -10704,6 +10928,7 @@ open Complex
 open QuantitativeArithmeticSmallLevelNineteen
 open QuantitativeArithmeticSmallLevelNineteenGridSystem (primeParameter phaseRoot badNineteen)
 open QuantitativeArithmeticSmallLevelNineteenGridAnalytic
+certificate_batch {
 theorem original_required_constraints {m : ℕ} (hm : 0<m) {f : ℕ→ℂ}
     (hf : FinitenessOriginalInput.IsSolution 19 (2*m) f) (hf2 : f 2≠0)
     (ε κ : ℂ) (hlaw : QuantitativeArithmeticCoherentTaylor.CoherentLaw 19 (2*m) f ε)
@@ -10743,6 +10968,8 @@ theorem original_required_constraints {m : ℕ} (hm : 0<m) {f : ℕ→ℂ}
     linear_combination (1/144:ℂ)*hd17 - (1/144:ℂ)*h17
   exact ⟨h1,h2,h3,h4,h6,h9,h10,h15,h18,h19⟩
 #print axioms original_required_constraints
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGenericCertificates
 end
 end
@@ -10755,19 +10982,22 @@ set_option maxRecDepth 16384
 /-! Consolidated certificate family; original declaration bodies retained. -/
 namespace QuantitativeArithmeticSmallLevelNineteenFinalCertificate
 open QuantitativeArithmeticSparsePolynomialCertificate
+certificate_batch {
 
 theorem certificate0_checked : combineBounded inputs certificate0=target0 := by
   have h := node0_root_checked
   change combineBounded inputs certificate0=normal0_root at h
-  exact h.trans (by decide +kernel)
+  exact h.trans normal0_root_target
 #print axioms certificate0_checked
 
 theorem certificate1_checked : combineBounded inputs certificate1=target1 := by
   have h := node1_root_checked
   change combineBounded inputs certificate1=normal1_root at h
-  exact h.trans (by decide +kernel)
+  exact h.trans normal1_root_target
 #print axioms certificate1_checked
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenFinalCertificate
 end
 end
@@ -10783,6 +11013,7 @@ set_option maxRecDepth 16384
 namespace QuantitativeArithmeticSmallLevelNineteenFinalCertificate
 open QuantitativeArithmeticSparsePolynomialCertificate
 open QuantitativeArithmeticSmallLevelNineteenGenericCertificates
+certificate_batch {
 
 theorem input0_match (B A Z Y X : ℂ) : eval B A Z Y X input0=(1:ℂ)*poly1 B A Z Y X := by
   norm_num [input0,eval,monomial,poly1,safe1] <;> ring
@@ -10824,6 +11055,8 @@ theorem input9_match (B A Z Y X : ℂ) : eval B A Z Y X input9=(54:ℂ)*poly19 B
   norm_num [input9,eval,monomial,poly19] <;> ring
 #print axioms input9_match
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenFinalCertificate
 end
 end
@@ -10838,6 +11071,7 @@ set_option maxHeartbeats 3000000
 namespace QuantitativeArithmeticSmallLevelNineteenFinalCertificate
 open QuantitativeArithmeticSparsePolynomialCertificate
 open QuantitativeArithmeticSmallLevelNineteenGenericCertificates
+certificate_batch {
 theorem inputs_zero (B A Z Y X : ℂ)
     (h1 : poly1 B A Z Y X=0)
     (h2 : poly2 B A Z Y X=0)
@@ -10914,6 +11148,8 @@ theorem pole_gap_impossible (L : ℝ) (hL : 0<L) (X A : ℂ)
 #print axioms inputs_zero
 #print axioms constraints_force
 #print axioms pole_gap_impossible
+
+}
 end QuantitativeArithmeticSmallLevelNineteenFinalCertificate
 end
 end
@@ -10930,6 +11166,7 @@ open QuantitativeArithmeticSmallLevelNineteenGridSystem (primeParameter phaseRoo
 open QuantitativeArithmeticSmallLevelNineteenGridAnalytic
 open QuantitativeArithmeticSmallLevelNineteenPoleLeading
 open QuantitativeArithmeticSmallLevelNineteenFinalCertificate
+certificate_batch {
 theorem equal_sign_generic_no_pole {m : ℕ} (hm : 0<m) {f : ℕ→ℂ}
     (hf : FinitenessOriginalInput.IsSolution 19 (2*m) f) (hf2 : f 2≠0)
     (ε κ : ℂ) (hlaw : QuantitativeArithmeticCoherentTaylor.CoherentLaw 19 (2*m) f ε)
@@ -10960,6 +11197,8 @@ theorem equal_sign_generic_no_pole {m : ℕ} (hm : 0<m) {f : ℕ→ℂ}
     Complex.ofReal_pow,Complex.ofReal_ofNat] using hg
 
 #print axioms equal_sign_generic_no_pole
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGenericCertificates
 end
 end
@@ -10977,6 +11216,7 @@ set_option maxRecDepth 8192
 /-! Consolidated certificate family; original declaration bodies retained. -/
 namespace QuantitativeArithmeticSmallLevelNineteenGZero
 open QuantitativeArithmeticSmallLevelNineteenPoleLeading
+certificate_batch {
 
 theorem gzero_row0_8 (x y z b t : ℂ) (hx2 : x^2= -2) (hy : y≠0)
     (v : Fin 114→ℂ) (hw : v 18= -10*t) (hu : v 42=(y^2+1)*t)
@@ -11384,6 +11624,8 @@ theorem gzero_row2_21 (x y z b t : ℂ) (hx2 : x^2= -2) (hy : y≠0)
 
 #print axioms gzero_row2_21
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGZero
 end
 end
@@ -11395,6 +11637,7 @@ set_option maxHeartbeats 1600000
 @[expose] public noncomputable section
 namespace QuantitativeArithmeticSmallLevelNineteenGZero
 open Complex
+certificate_batch {
 
 theorem two_rows_quintic (Y B : ℂ) (hY : Y+1≠0)
     (h8 : (3*Y-1)*(Y+1)*B+4*Y^2-3*Y+3=0)
@@ -11423,6 +11666,8 @@ theorem quintic_not_norm_three (Y : ℂ) (hY : ‖Y‖=3)
 
 #print axioms two_rows_quintic
 #print axioms quintic_not_norm_three
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGZero
 end
 end
@@ -11436,6 +11681,7 @@ namespace QuantitativeArithmeticSmallLevelNineteenGZero
 open Complex
 open QuantitativeArithmeticSmallLevelNineteenPoleLeading
 open QuantitativeArithmeticSmallLevelNineteenFullSystem
+certificate_batch {
 
 theorem isolated_coordinates (x : ℂ) (hx2 : x^2= -2) :
     x≠0 ∧ x^4≠1 ∧ 1/x= -x-1/x ∧
@@ -11524,6 +11770,8 @@ theorem actual_gzero_kernel2 (x y z b : ℂ) (hx2 : x^2= -2)
   exact False.elim (quintic_not_norm_three (y^2) hyn (two_rows_quintic (y^2) (b*y) hY hp8 hp21))
 
 #print axioms actual_gzero_kernel2
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGZero
 end
 end
@@ -11535,6 +11783,7 @@ set_option maxHeartbeats 1000000
 @[expose] public noncomputable section
 namespace QuantitativeArithmeticSmallLevelNineteenGZero
 open Complex
+certificate_batch {
 
 theorem physical_norm_three (s : ℂ) (hx2 : ((2:ℂ)^s)^2= -2) :
     ‖((3:ℂ)^s)^2‖=3 := by
@@ -11558,6 +11807,8 @@ theorem physical_norm_three (s : ℂ) (hx2 : ((2:ℂ)^s)^2= -2) :
   rw [norm_pow,hn3,← hr,hre,Real.rpow_one]
 
 #print axioms physical_norm_three
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGZero
 end
 end
@@ -11570,6 +11821,7 @@ set_option maxHeartbeats 2000000
 @[expose] public noncomputable section
 namespace QuantitativeArithmeticSmallLevelNineteen
 open Complex
+certificate_batch {
 
 /-- The auxiliary exceptional factor G=X-2A+4 can vanish on a gap solution
 only at X=-2L, and the right-half-plane norm condition forces L≤2. -/
@@ -11633,6 +11885,8 @@ theorem denominator_gap_factor_zero (m n : ℕ) (f : ℕ → ℂ) (s : ℂ)
 
 #print axioms gap_factor_zero
 #print axioms denominator_gap_factor_zero
+
+}
 end QuantitativeArithmeticSmallLevelNineteen
 end
 end
@@ -11650,6 +11904,7 @@ open QuantitativeArithmeticSmallLevelNineteenFullSystem
 open QuantitativeArithmeticSmallLevelNineteenGridAnalytic
 open QuantitativeArithmeticSmallLevelNineteenZeroFirstJet
 open QuantitativeArithmeticUniversalPoleVector
+certificate_batch {
 
 /-- Exclude the isolated G=0 exceptional stratum at any rightmost grid
 pole above a right-half-plane denominator zero, for every original sign. -/
@@ -11707,6 +11962,8 @@ theorem gzero_no_pole {m : ℕ} (hm : 0<m) {f : ℕ→ℂ}
   · exact hcase 1 (-1) (Or.inl rfl) (by simpa using hp) (by simpa using hb) (Or.inl rfl)
 
 #print axioms gzero_no_pole
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGZero
 end
 end
@@ -11720,6 +11977,7 @@ set_option maxHeartbeats 1800000
 namespace QuantitativeArithmeticSmallLevelNineteenGridSystem
 open Complex Matrix
 open QuantitativeArithmeticSmallLevelNineteenGridAnalytic
+certificate_batch {
 
 /-- Meromorphic continuation of all 114 auxiliary additive twists, derived
 from the original hypotheses for every positive even weight and every
@@ -11744,6 +12002,8 @@ theorem original_grid_continuation {m : ℕ} (hm : 0<m) {f : ℕ→ℂ}
   exact ⟨ε,B,G,hε,hlaw,hG,hGF⟩
 
 #print axioms original_grid_continuation
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGridSystem
 end
 end
@@ -11754,6 +12014,7 @@ set_option autoImplicit false
 @[expose] public noncomputable section
 namespace QuantitativeArithmeticSmallLevelNineteenGrid
 open Complex
+certificate_batch {
 
 /-- Distinct exponential bases cannot cancel identically. Only finitely
 many integer evaluations are required, and no giant explicit inverse is used. -/
@@ -11774,6 +12035,8 @@ theorem grid_base_pow (u v w n : ℕ) :
 
 #print axioms finite_power_witness
 #print axioms grid_base_pow
+
+}
 end QuantitativeArithmeticSmallLevelNineteenGrid
 end
 end
@@ -11785,6 +12048,7 @@ set_option maxHeartbeats 1800000
 @[expose] public noncomputable section
 namespace QuantitativeArithmeticSmallLevelNineteen
 open Complex
+certificate_batch {
 
 /-- The original hypotheses give a meromorphic quadratic-five twist and its
 reflection law before any pole-exclusion argument is applied. -/
@@ -11810,6 +12074,8 @@ theorem original_quadratic_reflected_continuation {m : ℕ} (hm : 0<m) {f : ℕ�
   exact ⟨B,G,hG,hGF,hregular,he⟩
 
 #print axioms original_quadratic_reflected_continuation
+
+}
 end QuantitativeArithmeticSmallLevelNineteen
 end
 end
@@ -11826,6 +12092,7 @@ set_option maxRecDepth 8192
 @[expose] public noncomputable section
 namespace QuantitativeArithmeticSmallLevelNineteenOppositeCertificates
 open QuantitativeArithmeticSmallLevelNineteenPoleLeading
+certificate_batch {
 theorem leading_row1 (x y z a b t : ℂ) (hx : x≠0) (hy : y≠0) (ha : a≠0)
     (v : Fin 114→ℂ) (hw : v 18= -(x^4+(a^2-2)*x^2+1)*t)
     (hu : v 42=x*a*(y^2+1)*t) (hv : v 72= -x*a*(y^2+1)*t) :
@@ -11846,6 +12113,8 @@ theorem leading_row2 (x y z a b t : ℂ) (hx : x≠0) (hy : y≠0) (ha : a≠0)
   field_simp [hx,hy,ha]
   ring
 #print axioms leading_row2
+
+}
 end QuantitativeArithmeticSmallLevelNineteenOppositeCertificates
 end
 end
@@ -11859,6 +12128,7 @@ namespace QuantitativeArithmeticSmallLevelNineteenOppositeCertificates
 open Complex
 open QuantitativeArithmeticSmallLevelNineteenPoleLeading
 open QuantitativeArithmeticSmallLevelNineteenFullSystem
+certificate_batch {
 
 /-- Nonzero leading kernel vectors have one free scale on the generic stratum. -/
 theorem normalized_leading_vector2 (x y z a b : ℂ)
@@ -11905,6 +12175,8 @@ theorem first_two_zero (x y z a b : ℂ)
     exact (mul_eq_zero.mp ((mul_eq_zero.mp h.symm).resolve_right ht)).resolve_left (by norm_num : (1:ℂ)≠0)
 #print axioms normalized_leading_vector2
 #print axioms first_two_zero
+
+}
 end QuantitativeArithmeticSmallLevelNineteenOppositeCertificates
 end
 end
@@ -11923,6 +12195,7 @@ open QuantitativeArithmeticSmallLevelNineteenFullSystem
 open QuantitativeArithmeticSmallLevelNineteenGridAnalytic
 open QuantitativeArithmeticSmallLevelNineteenZeroFirstJet
 open QuantitativeArithmeticUniversalPoleVector
+certificate_batch {
 
 /-- The two opposite-sign constraints follow from the original leading equations. -/
 theorem original_first_two {m : ℕ} (hm : 0<m) {f : ℕ→ℂ}
@@ -11957,6 +12230,8 @@ theorem original_first_two {m : ℕ} (hm : 0<m) {f : ℕ→ℂ}
   exact first_two_zero _ _ _ _ _ hx hy hz ha hx4 hY hdich v hv.1 hlead
 
 #print axioms original_first_two
+
+}
 end QuantitativeArithmeticSmallLevelNineteenOppositeCertificates
 end
 end
@@ -11971,6 +12246,7 @@ open Complex
 open QuantitativeArithmeticSmallLevelNineteen
 open QuantitativeArithmeticSmallLevelNineteenGridSystem (primeParameter phaseRoot badNineteen)
 open QuantitativeArithmeticSmallLevelNineteenGridAnalytic
+certificate_batch {
 theorem original_required_constraints {m : ℕ} (hm : 0<m) {f : ℕ→ℂ}
     (hf : FinitenessOriginalInput.IsSolution 19 (2*m) f) (hf2 : f 2≠0)
     (ε κ : ℂ) (hlaw : QuantitativeArithmeticCoherentTaylor.CoherentLaw 19 (2*m) f ε)
@@ -11998,6 +12274,8 @@ theorem original_required_constraints {m : ℕ} (hm : 0<m) {f : ℕ→ℂ}
   change poly5 (((Real.sqrt 3:ℂ)*f 3)*primeParameter 3 m (s+n)) (((Real.sqrt 2:ℂ)*f 2)*primeParameter 2 m (s+n)) (κ*primeParameter 19 m (s+n)) ((primeParameter 3 m (s+n))^2) ((primeParameter 2 m (s+n))^2)=0 at h5
   exact ⟨h1,h2,h3,h4,h5⟩
 #print axioms original_required_constraints
+
+}
 end QuantitativeArithmeticSmallLevelNineteenOppositeCertificates
 end
 end
@@ -12011,19 +12289,22 @@ set_option maxRecDepth 16384
 /-! Consolidated certificate family; original declaration bodies retained. -/
 namespace QuantitativeArithmeticSmallLevelNineteenOppositeFinalCertificate
 open QuantitativeArithmeticSparsePolynomialCertificate
+certificate_batch {
 
 theorem certificate0_checked : combineBounded inputs certificate0=target0 := by
   have h := node0_root_checked
   change combineBounded inputs certificate0=normal0_root at h
-  exact h.trans (by decide +kernel)
+  exact h.trans normal0_root_target
 #print axioms certificate0_checked
 
 theorem certificate1_checked : combineBounded inputs certificate1=target1 := by
   have h := node1_root_checked
   change combineBounded inputs certificate1=normal1_root at h
-  exact h.trans (by decide +kernel)
+  exact h.trans normal1_root_target
 #print axioms certificate1_checked
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenOppositeFinalCertificate
 end
 end
@@ -12039,6 +12320,7 @@ set_option maxRecDepth 16384
 namespace QuantitativeArithmeticSmallLevelNineteenOppositeFinalCertificate
 open QuantitativeArithmeticSparsePolynomialCertificate
 open QuantitativeArithmeticSmallLevelNineteenOppositeCertificates
+certificate_batch {
 
 theorem input0_match (B A Z Y X : ℂ) : eval B A Z Y X input0=(1:ℂ)*poly1 B A Z Y X := by
   norm_num [input0,eval,monomial,poly1] <;> ring
@@ -12060,6 +12342,8 @@ theorem input4_match (B A Z Y X : ℂ) : eval B A Z Y X input4=(112:ℂ)*poly5 B
   norm_num [input4,eval,monomial,poly5] <;> ring
 #print axioms input4_match
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenOppositeFinalCertificate
 end
 end
@@ -12074,6 +12358,7 @@ set_option maxHeartbeats 4000000
 namespace QuantitativeArithmeticSmallLevelNineteenOppositeFinalCertificate
 open QuantitativeArithmeticSparsePolynomialCertificate
 open QuantitativeArithmeticSmallLevelNineteenOppositeCertificates
+certificate_batch {
 
 def unit (X Y A : ℂ) : ℂ := X*Y*A*(Y+1)*(X^2-1)*(X-2*A+4)
 
@@ -12138,6 +12423,8 @@ theorem unit_of_parameters_ne_zero (x y a : ℂ)
 #print axioms inputs_zero
 #print axioms constraints_force
 #print axioms unit_of_parameters_ne_zero
+
+}
 end QuantitativeArithmeticSmallLevelNineteenOppositeFinalCertificate
 end
 end
@@ -12155,6 +12442,7 @@ open QuantitativeArithmeticSmallLevelNineteenGridSystem (primeParameter phaseRoo
 open QuantitativeArithmeticSmallLevelNineteenGridAnalytic
 open QuantitativeArithmeticSmallLevelNineteenPoleLeading
 open QuantitativeArithmeticSmallLevelNineteenOppositeFinalCertificate
+certificate_batch {
 theorem opposite_sign_generic_no_pole {m : ℕ} (hm : 0<m) {f : ℕ→ℂ}
     (hf : FinitenessOriginalInput.IsSolution 19 (2*m) f) (hf2 : f 2≠0)
     (ε κ : ℂ) (hlaw : QuantitativeArithmeticCoherentTaylor.CoherentLaw 19 (2*m) f ε)
@@ -12184,6 +12472,8 @@ theorem opposite_sign_generic_no_pole {m : ℕ} (hm : 0<m) {f : ℕ→ℂ}
     simpa only [primeParameter,poleCoordinate,Nat.cast_ofNat] using hA
 
 #print axioms opposite_sign_generic_no_pole
+
+}
 end QuantitativeArithmeticSmallLevelNineteenOppositeCertificates
 end
 end
@@ -12195,6 +12485,7 @@ set_option maxHeartbeats 2400000
 set_option maxRecDepth 8192
 @[expose] public noncomputable section
 namespace QuantitativeArithmeticSmallLevelNineteenRealTop
+certificate_batch {
 def lin (X Y A : ℂ) : ℂ := ((1:ℂ)*X*Y^2 + (1:ℂ)*X*Y + (-1:ℂ)*Y^2 + (1:ℂ)*Y*A + (-1:ℂ)*Y + (1:ℂ)*A)
 
 def constant (X Y A : ℂ) : ℂ := ((1:ℂ)*X^5*Y + (1:ℂ)*X^4*Y*A + (-1:ℂ)*X^4*Y + (1:ℂ)*X^3*Y*A^2 + (-1:ℂ)*X^3*Y*A + (-1:ℂ)*X^3*Y + (1:ℂ)*X^3 + (1:ℂ)*X^2*Y*A^3 + (2:ℂ)*X^2*Y*A^2 + (2:ℂ)*X^2*Y + (1:ℂ)*X^2*A + (-1:ℂ)*X^2 + (-1:ℂ)*X*Y^2*A^2 + (1:ℂ)*X*Y^2 + (1:ℂ)*X*Y*A^3 + (-3:ℂ)*X*Y*A^2 + (-1:ℂ)*X*Y*A + (1:ℂ)*X*A^2 + (-2:ℂ)*X*A + (-1:ℂ)*Y^2*A^2 + (-2:ℂ)*Y^2*A + (-1:ℂ)*Y^2 + (1:ℂ)*Y*A^4 + (1:ℂ)*Y*A^3 + (1:ℂ)*Y*A^2 + (-1:ℂ)*Y*A + (-1:ℂ)*Y + (1:ℂ)*A^3 + (1:ℂ)*A^2 + (1:ℂ)*A)
@@ -12231,6 +12522,8 @@ theorem obstruction_zero (X Y A B : ℂ) (hY : Y+1≠0)
 
 #print axioms resultant_identity
 #print axioms obstruction_zero
+
+}
 end QuantitativeArithmeticSmallLevelNineteenRealTop
 end
 end
@@ -12248,6 +12541,7 @@ set_option maxRecDepth 8192
 /-! Consolidated certificate family; original declaration bodies retained. -/
 namespace QuantitativeArithmeticSmallLevelNineteenRealTop
 open QuantitativeArithmeticSmallLevelNineteenPoleLeading
+certificate_batch {
 
 theorem real_row0_8 (x y z a b t : ℂ) (hx : x≠0) (hy : y≠0) (ha : a≠0)
     (v : Fin 114→ℂ) (hw : v 18= -(x^4+(a^2-2)*x^2+1)*t)
@@ -12295,6 +12589,8 @@ theorem real_row2_21 (x y z a b t : ℂ) (hx : x≠0) (hy : y≠0) (ha : a≠0)
 
 #print axioms real_row2_21
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenRealTop
 end
 end
@@ -12308,6 +12604,7 @@ namespace QuantitativeArithmeticSmallLevelNineteenRealTop
 open Complex
 open QuantitativeArithmeticSmallLevelNineteenPoleLeading
 open QuantitativeArithmeticSmallLevelNineteenFullSystem
+certificate_batch {
 
 /-- A necessary resultant equation derived from the actual full leading
 kernel. The gap dichotomy is available for every actual denominator pole. -/
@@ -12380,6 +12677,8 @@ theorem actual_obstruction2 (x y z a b : ℂ)
   · exact (mul_eq_zero.mp h21.symm).resolve_right ht
 
 #print axioms actual_obstruction2
+
+}
 end QuantitativeArithmeticSmallLevelNineteenRealTop
 end
 end
@@ -12394,6 +12693,7 @@ namespace QuantitativeArithmeticSmallLevelNineteenRealTop
 open Complex
 open QuantitativeArithmeticSmallLevelNineteen
 open QuantitativeArithmeticSmallLevelNineteenGridSystem
+certificate_batch {
 
 theorem prime_at_weight (p m : ℕ) :
     primeParameter p m (2*(m:ℂ))=(p:ℂ)^m := by
@@ -12458,6 +12758,8 @@ theorem real_top_nondegenerate (m n : ℕ) (hm : 0<m) (s : ℂ)
 #print axioms real_top_gap
 #print axioms real_top_squares
 #print axioms real_top_nondegenerate
+
+}
 end QuantitativeArithmeticSmallLevelNineteenRealTop
 end
 end
@@ -12470,6 +12772,7 @@ set_option maxHeartbeats 2400000
 @[expose] public section
 namespace QuantitativeArithmeticSmallLevelNineteenRealTopCertificate
 open QuantitativeArithmeticFiniteAbelNegative
+certificate_batch {
 
 def shiftedRows : List (List ℤ) := [
 [-33268222352389652412879478921887744,0,0,-2079263897024353275804967432617984,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -12592,6 +12895,8 @@ theorem strip3_initial : ∀ x ∈ ([-569173280,-38301651682137250] : List ℤ),
 #print axioms strip1_negative
 #print axioms strip2_negative
 #print axioms strip3_negative
+
+}
 end QuantitativeArithmeticSmallLevelNineteenRealTopCertificate
 end
 end
@@ -12604,6 +12909,7 @@ set_option maxHeartbeats 1600000
 @[expose] public noncomputable section
 namespace QuantitativeArithmeticSmallLevelNineteenRealTopCertificate
 open QuantitativeArithmeticFiniteAbelNegative
+certificate_batch {
 
 theorem rows_length : shiftedRows.length=90 := by decide
 theorem rows_width : ∀ r∈shiftedRows, r.length=58 := by decide
@@ -12628,6 +12934,8 @@ theorem strip3_prefix (k : ℕ) (hk : 0<k) (hlen : k≤strip3.length) :
 #print axioms strip1_prefix
 #print axioms strip2_prefix
 #print axioms strip3_prefix
+
+}
 end QuantitativeArithmeticSmallLevelNineteenRealTopCertificate
 end
 end
@@ -12640,6 +12948,7 @@ set_option maxHeartbeats 2000000
 @[expose] public noncomputable section
 namespace QuantitativeArithmeticSmallLevelNineteenRealTopCertificate
 open QuantitativeArithmeticFiniteAbelNegative Finset
+certificate_batch {
 def alphaBases : List ℕ := [301989888,150994944,75497472,60466176,42467328,37748736,21233664,18874368,15116544,10616832,9437184,6718464,5971968,5308416,4718592,3779136,3359232,2985984,2654208,2359296,2097152,1679616,1492992,1327104,1179648,1048576,944784,839808,746496,663552,589824,524288,419904,373248,331776,294912,262144,209952,186624,165888,147456,131072,104976,93312,82944,73728,65536,52488,46656,41472,36864,32768,26244,23328,20736,18432,16384,13122,11664,10368,9216,8192,6561,5832,5184,4608,4096,2916,2592,2304,2048,1458,1296,1152,1024,729,648,576,512,324,288,256,162,144,128,72,64,36,32,16]
 def alphaBasesAt (i : ℕ) : ℕ := alphaBases[i]?.getD 1
 theorem alphaBases_last_pos : 0<alphaBasesAt 89 := by decide
@@ -12755,6 +13064,8 @@ theorem weightedStrip3_negative (n : ℕ) : weightedStrip3 n<0 := by
   simpa only [weightedStrip3,strip3_length] using h
 
 #print axioms weightedStrip3_negative
+
+}
 end QuantitativeArithmeticSmallLevelNineteenRealTopCertificate
 end
 end
@@ -12766,6 +13077,7 @@ set_option maxRecDepth 16384
 set_option maxHeartbeats 6000000
 @[expose] public noncomputable section
 namespace QuantitativeArithmeticSmallLevelNineteenRealTop
+certificate_batch {
 
 def expansionTerms : List (ℕ×ℕ×ℕ×ℤ) := [
 (25,1,13,-1),
@@ -13304,6 +13616,8 @@ theorem exponential_identity (n l : ℕ) :
 
 #print axioms expansion_identity
 #print axioms exponential_identity
+
+}
 end QuantitativeArithmeticSmallLevelNineteenRealTop
 end
 end
@@ -13318,6 +13632,7 @@ set_option maxRecDepth 16384
 /-! Consolidated certificate family; original declaration bodies retained. -/
 namespace QuantitativeArithmeticSmallLevelNineteenRealTopCertificate
 open QuantitativeArithmeticSmallLevelNineteenRealTop
+certificate_batch {
 
 def boundaryLeft0 (w : ℕ→ℝ) : ℝ :=
   (expansionTerms.map (fun t => ((t.2.2.2*(termAlpha t:ℤ)^0*(termBeta t:ℤ)^1:ℤ):ℝ)*w (termBeta t))).sum
@@ -13359,6 +13674,8 @@ theorem boundary_coefficients3 (w : ℕ→ℝ) :
 
 #print axioms boundary_coefficients3
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenRealTopCertificate
 end
 end
@@ -13371,6 +13688,7 @@ set_option maxHeartbeats 4000000
 @[expose] public noncomputable section
 namespace QuantitativeArithmeticSmallLevelNineteenRealTopCertificate
 open QuantitativeArithmeticSmallLevelNineteenRealTop
+certificate_batch {
 
 def tableTriples : List (ℕ×ℕ×ℤ) :=
   (((shiftedRows.zip alphaBases).flatMap fun ra =>
@@ -13386,6 +13704,8 @@ checked resultant expansion, including both exponential bases. -/
 theorem table_terms_eq : tableTriples=expansionTriples := by decide
 
 #print axioms table_terms_eq
+
+}
 end QuantitativeArithmeticSmallLevelNineteenRealTopCertificate
 end
 end
@@ -13400,6 +13720,7 @@ set_option backward.isDefEq.respectTransparency false
 namespace QuantitativeArithmeticSmallLevelNineteenRealTopCertificate
 open QuantitativeArithmeticSmallLevelNineteenRealTop
 open QuantitativeArithmeticFiniteAbelNegative Finset
+certificate_batch {
 
 def termValue (n l : ℕ) (t : ℕ×ℕ×ℤ) : ℝ := (t.2.2:ℝ)*(t.1:ℝ)^n*(t.2.1:ℝ)^l
 
@@ -13470,6 +13791,8 @@ theorem interior_exponential_ne_zero (n l : ℕ) : exponentialSum (n+2) (l+2)≠
 
 #print axioms table_evaluation
 #print axioms interior_exponential_ne_zero
+
+}
 end QuantitativeArithmeticSmallLevelNineteenRealTopCertificate
 end
 end
@@ -13482,6 +13805,7 @@ set_option maxHeartbeats 2000000
 @[expose] public noncomputable section
 namespace QuantitativeArithmeticSmallLevelNineteenRealTopCertificate
 open QuantitativeArithmeticSmallLevelNineteenRealTop
+certificate_batch {
 
 def integerSum (n l : ℕ) : ℤ :=
   (expansionTerms.map (fun t => t.2.2.2*(termAlpha t:ℤ)^n*(termBeta t:ℤ)^l)).sum
@@ -13510,6 +13834,8 @@ theorem exponential_initial_nonzero : exponentialSum 0 0≠0 ∧ exponentialSum 
   exact ⟨hc 0 0 h00,hc 1 0 h10,hc 2 0 h20,hc 0 1 h01,hc 1 1 h11⟩
 
 #print axioms exponential_initial_nonzero
+
+}
 end QuantitativeArithmeticSmallLevelNineteenRealTopCertificate
 end
 end
@@ -13525,6 +13851,7 @@ set_option linter.unusedSimpArgs false
 namespace QuantitativeArithmeticSmallLevelNineteenRealTopCertificate
 open QuantitativeArithmeticSmallLevelNineteenRealTop
 open QuantitativeArithmeticFiniteAbelNegative Finset
+certificate_batch {
 
 theorem boundary_evaluation0 (n : ℕ) :
     realExponentialSum 0 (n+1)=weightedStrip0 n := by
@@ -13648,6 +13975,8 @@ theorem obstruction_nonzero (n l : ℕ) :
   exact exponential_ne_zero n l
 
 #print axioms obstruction_nonzero
+
+}
 end QuantitativeArithmeticSmallLevelNineteenRealTopCertificate
 end
 end
@@ -13665,6 +13994,7 @@ open QuantitativeArithmeticSmallLevelNineteenFullSystem
 open QuantitativeArithmeticSmallLevelNineteenGridAnalytic
 open QuantitativeArithmeticSmallLevelNineteenZeroFirstJet
 open QuantitativeArithmeticUniversalPoleVector
+certificate_batch {
 
 /-- Exclude the real weight point at any rightmost grid
 pole above a right-half-plane denominator zero, for every original sign. -/
@@ -13715,6 +14045,8 @@ theorem real_top_no_pole {m : ℕ} (hm : 0<m) {f : ℕ→ℂ}
   · exact hcase 1 (-1) (Or.inl rfl) (by simpa using hp) (by simpa using hb) (Or.inl rfl)
 
 #print axioms real_top_no_pole
+
+}
 end QuantitativeArithmeticSmallLevelNineteenRealTop
 end
 end
@@ -13728,6 +14060,7 @@ namespace QuantitativeArithmeticSmallLevelNineteen
 open Complex
 open QuantitativeArithmeticSmallLevelNineteenGridSystem (primeParameter phaseRoot badNineteen phaseRoot_sign badNineteen_sign)
 open QuantitativeArithmeticSmallLevelNineteenGridAnalytic
+certificate_batch {
 theorem rightmost_nonzero_no_pole {m : ℕ} (hm : 0<m) {f : ℕ→ℂ}
     (hf : FinitenessOriginalInput.IsSolution 19 (2*m) f)
     (hf2 : f 2≠0) (ε : ℂ) (hε : ε=1 ∨ ε=-1)
@@ -13767,6 +14100,8 @@ theorem rightmost_nonzero_no_pole {m : ℕ} (hm : 0<m) {f : ℕ→ℂ}
   · exact hcase 1 1 (Or.inl rfl) (by simpa using hp) (by simpa using hb) (Or.inr rfl)
   · exact hcase 1 (-1) (Or.inl rfl) (by simpa using hp) (by simpa using hb) (Or.inl rfl)
 #print axioms rightmost_nonzero_no_pole
+
+}
 end QuantitativeArithmeticSmallLevelNineteen
 end
 end
@@ -13780,6 +14115,7 @@ set_option maxHeartbeats 2000000
 namespace QuantitativeArithmeticSmallLevelNineteenPartnerModels
 open Complex Set Filter MeasureTheory SmallLevelTaylor SmallLevelAdditive QuantitativeArithmeticSmallLevelNineteenGridAnalytic
 open FinitenessOriginalFourier FinitenessFourierConstruction
+certificate_batch {
 
 /-- A meromorphic partner grid gives meromorphic half-plane models of the actual additive twist. -/
 theorem original_partner_models {m : ℕ} {f : ℕ → ℂ}
@@ -13899,6 +14235,8 @@ theorem original_fifth_continuations {m : ℕ} (hm : 0<m) {f : ℕ → ℂ}
   exact hHF i s (lt_of_le_of_lt (show b i≤B from Finset.le_sup' b (Finset.mem_univ i)) hs)
 
 #print axioms original_fifth_continuations
+
+}
 end QuantitativeArithmeticSmallLevelNineteenPartnerModels
 end
 end
@@ -13914,6 +14252,7 @@ open Complex Filter Set SmallLevelAdditive
 open QuantitativeArithmeticSmallLevelNineteenGridAnalytic
 open QuantitativeArithmeticSmallLevelNineteen
 open scoped Topology
+certificate_batch {
 
 /-- Regularity of all nonnegative shifts of the partner grid forces
 regularity of the quadratic-five continuation at the base point. -/
@@ -13999,6 +14338,8 @@ theorem rightmost_grid_pole {m : ℕ} {f : ℕ → ℂ}
 
 #print axioms rightmost_grid_pole
 #print axioms quadratic_pole_reaches_grid
+
+}
 end QuantitativeArithmeticSmallLevelNineteenPartnerModels
 end
 end
@@ -14012,6 +14353,7 @@ namespace QuantitativeArithmeticSmallLevelNineteen
 open Complex
 open QuantitativeArithmeticSmallLevelNineteenGridSystem
 open QuantitativeArithmeticSmallLevelNineteenPartnerModels
+certificate_batch {
 
 theorem original_nonzero_quadratic_entire (m : ℕ) (hm : 0<m) {f : ℕ→ℂ}
     (hf : FinitenessOriginalInput.IsSolution 19 (2*m) f) (ha : f 2≠0) :
@@ -14033,6 +14375,8 @@ theorem original_nonzero_quadratic_entire (m : ℕ) (hm : 0<m) {f : ℕ→ℂ}
     exact rightmost_nonzero_no_pole hm hf ha ε hε hlaw BV V hV hVF s n hs hd hpole hshift
 
 #print axioms original_nonzero_quadratic_entire
+
+}
 end QuantitativeArithmeticSmallLevelNineteen
 end
 end
@@ -14048,6 +14392,7 @@ set_option linter.unusedTactic false
 set_option maxHeartbeats 1000000
 @[expose] public noncomputable section
 namespace QuantitativeArithmeticSmallLevelNineteenPoleLeading
+certificate_batch {
 
 theorem zero_short_relations1 (x y z a b : ℂ) (hx : x≠0)
     (v : Fin 114→ℂ) (hr : residualRows1 x y z a b v=0) :
@@ -14105,6 +14450,8 @@ theorem zero_central_relation (x y w u v : ℂ) (hx2 : x^2 = -1)
 #print axioms zero_short_relations3
 #print axioms zero_coordinates
 #print axioms zero_central_relation
+
+}
 end QuantitativeArithmeticSmallLevelNineteenPoleLeading
 end
 end
@@ -14122,6 +14469,7 @@ set_option maxRecDepth 8192
 @[expose] public noncomputable section
 /-! Consolidated certificate family; original declaration bodies retained. -/
 namespace QuantitativeArithmeticSmallLevelNineteenZeroCentral
+certificate_batch {
 
 def central1_r1_0 (B Z T Y : ℂ) : ℂ := ((-2:ℂ)*Z*Y^(3:ℕ) + (-6:ℂ)*Y^(4:ℕ) + (-4:ℂ)*Y^(3:ℕ) + (-4:ℂ)*Y^(2:ℕ))
 def central1_r1_1 (B Z T Y : ℂ) : ℂ := ((4:ℂ)*B*Y^(2:ℕ) + (-2:ℂ)*Y^(4:ℕ) + (4:ℂ)*Y^(3:ℕ) + (8:ℂ)*Y^(2:ℕ))
@@ -14221,6 +14569,8 @@ def central3_p20 (B Z T Y : ℂ) : ℂ := ((1:ℂ)*B*Y^(3:ℕ) + (-1:ℂ)*Y^(4:�
 def central3_p21 (B Z T Y : ℂ) : ℂ := ((-1:ℂ)*B*Y^(3:ℕ) + ((-1:ℂ)/2)*Y^(4:ℕ) + (1:ℂ)*B^(2:ℕ)*Z + (1:ℂ)*B^(2:ℕ)*Y + (-2:ℂ)*B*Z*Y + ((-11:ℂ)/2)*B*Y^(2:ℕ) + (1:ℂ)*Z*Y^(2:ℕ) + (1:ℂ)*Y^(3:ℕ) + (-4:ℂ)*B^(2:ℕ) + (1:ℂ)*B*Z + ((7:ℂ)/2)*B*Y + (-2:ℂ)*Z*Y + ((-15:ℂ)/2)*Y^(2:ℕ) + (-7:ℂ)*B + (4:ℂ)*Y + (-3:ℂ))
 def central3_p22 (B Z T Y : ℂ) : ℂ := ((1:ℂ)*T*Y^(2:ℕ) + (1:ℂ)*T*Y + (-1:ℂ))
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenZeroCentral
 end
 end
@@ -14233,6 +14583,7 @@ set_option maxRecDepth 8192
 @[expose] public noncomputable section
 /-! Consolidated certificate family; original declaration bodies retained. -/
 namespace QuantitativeArithmeticSmallLevelNineteenZeroCentral
+certificate_batch {
 
 /-- Exact polynomial identity, replayed by Lean; the exported Magma coordinates
 are only a proof certificate, not a trusted mathematical input. -/
@@ -14274,6 +14625,8 @@ theorem central_ideal3 (B Z T Y : ℂ)
   linear_combination (((-7:ℂ)/6)*B^2*Z*T*Y^3 + ((1:ℂ)/6)*B^2*Z*T*Y^2 + ((35:ℂ)/6)*B^2*T*Y^3 + ((-7:ℂ)/6)*B*T^2*Y^3 + ((-7:ℂ)/6)*B*T*Y^4 + ((7:ℂ)/6)*T^2*Y^4 + ((-5:ℂ)/6)*B^2*T*Y^2 + ((1:ℂ)/6)*B*T^2*Y^2 + ((7:ℂ)/3)*B*Z*Y^3 + ((13:ℂ)/3)*B*T*Y^3 + ((7:ℂ)/3)*Z*T*Y^3 + (1:ℂ)*T^2*Y^3 + ((-7:ℂ)/6)*B*Z*T*Y + ((-7:ℂ)/6)*B*T^2*Y + ((-3:ℂ)/2)*B*Z*Y^2 + ((1:ℂ)/6)*B*T*Y^2 + ((-3:ℂ)/2)*Z*T*Y^2 + ((-4:ℂ)/3)*T^2*Y^2 + ((-21:ℂ)/2)*B*Y^3 + ((7:ℂ)/2)*Z*Y^3 + (-1:ℂ)*T*Y^3 + ((1:ℂ)/6)*B*Z*T + ((1:ℂ)/6)*B*T^2 + ((-13:ℂ)/6)*B*Z*Y + ((7:ℂ)/2)*B*T*Y + ((-13:ℂ)/6)*Z*T*Y + ((-13:ℂ)/6)*T^2*Y + ((-19:ℂ)/6)*B*Y^2 + ((-17:ℂ)/6)*Z*Y^2 + ((-5:ℂ)/6)*T*Y^2 + ((-77:ℂ)/6)*Y^3 + ((1:ℂ)/3)*B*Z + ((-1:ℂ)/2)*B*T + ((1:ℂ)/3)*Z*T + ((1:ℂ)/3)*T^2 + ((2:ℂ)/3)*B*Y + ((-5:ℂ)/6)*Z*Y + ((29:ℂ)/6)*T*Y + ((-77:ℂ)/6)*Y^2 + ((1:ℂ)/6)*Z + ((-2:ℂ)/3)*T + ((8:ℂ)/3)*Y)*h4 + (((7:ℂ)/6)*B^2*Z*T*Y^3 + ((-1:ℂ)/6)*B^2*Z*T*Y^2 + ((-35:ℂ)/6)*B^2*T*Y^3 + ((7:ℂ)/6)*B*T^2*Y^3 + ((7:ℂ)/6)*B*T*Y^4 + ((-7:ℂ)/6)*T^2*Y^4 + ((7:ℂ)/6)*B^2*Z*T*Y + ((5:ℂ)/6)*B^2*T*Y^2 + ((-1:ℂ)/6)*B*T^2*Y^2 + ((-7:ℂ)/3)*B*Z*Y^3 + ((-13:ℂ)/3)*B*T*Y^3 + ((-7:ℂ)/3)*Z*T*Y^3 + (-1:ℂ)*T^2*Y^3 + ((-1:ℂ)/6)*B^2*Z*T + ((-35:ℂ)/6)*B^2*T*Y + ((7:ℂ)/6)*B*Z*T*Y + ((7:ℂ)/3)*B*T^2*Y + ((3:ℂ)/2)*B*Z*Y^2 + (1:ℂ)*B*T*Y^2 + ((3:ℂ)/2)*Z*T*Y^2 + ((1:ℂ)/6)*T^2*Y^2 + ((21:ℂ)/2)*B*Y^3 + ((-7:ℂ)/2)*Z*Y^3 + (1:ℂ)*T*Y^3 + ((5:ℂ)/6)*B^2*T + ((-1:ℂ)/6)*B*Z*T + ((-1:ℂ)/3)*B*T^2 + ((-1:ℂ)/6)*B*Z*Y + ((-47:ℂ)/6)*B*T*Y + ((-1:ℂ)/6)*Z*T*Y + ((7:ℂ)/6)*T^2*Y + ((19:ℂ)/6)*B*Y^2 + ((17:ℂ)/6)*Z*Y^2 + ((5:ℂ)/6)*T*Y^2 + ((77:ℂ)/6)*Y^3 + ((1:ℂ)/3)*B*T + ((-1:ℂ)/6)*T^2 + ((59:ℂ)/6)*B*Y + ((-1:ℂ)/3)*Z*Y + ((-3:ℂ)/2)*T*Y + ((7:ℂ)/3)*Y^2 + ((-3:ℂ)/2)*B + ((-7:ℂ)/6)*Y)*h5 + (((271:ℂ)/168)*B*Y + ((7:ℂ)/24)*Z*Y + ((7:ℂ)/24)*T*Y + ((13:ℂ)/24)*Y^2 + ((-15:ℂ)/56)*B + ((-1:ℂ)/24)*Z + ((-1:ℂ)/24)*T + ((41:ℂ)/28)*Y + ((-37:ℂ)/168))*h12 + (((-7:ℂ)/6)*B^2*Z^2*T*Y^2 + ((1:ℂ)/6)*B^2*Z^2*T*Y + ((49:ℂ)/6)*B^2*Z*T*Y^2 + ((-7:ℂ)/6)*B*Z*T^2*Y^2 + ((-7:ℂ)/6)*B*Z*T*Y^3 + ((7:ℂ)/6)*Z*T^2*Y^3 + ((-7:ℂ)/3)*B^2*Z*T*Y + ((1:ℂ)/6)*B*Z*T^2*Y + ((7:ℂ)/3)*B*Z^2*Y^2 + ((-35:ℂ)/3)*B^2*T*Y^2 + ((13:ℂ)/3)*B*Z*T*Y^2 + ((7:ℂ)/3)*Z^2*T*Y^2 + ((7:ℂ)/3)*B*T^2*Y^2 + (1:ℂ)*Z*T^2*Y^2 + ((7:ℂ)/3)*B*T*Y^3 + ((-7:ℂ)/3)*T^2*Y^3 + ((1:ℂ)/6)*B^2*Z*T + ((-3:ℂ)/2)*B*Z^2*Y + ((15:ℂ)/2)*B^2*T*Y + (-1:ℂ)*B*Z*T*Y + ((-1:ℂ)/3)*Z^2*T*Y + ((-3:ℂ)/2)*B*T^2*Y + ((-1:ℂ)/6)*Z*T^2*Y + ((-91:ℂ)/6)*B*Z*Y^2 + ((7:ℂ)/2)*Z^2*Y^2 + ((-59:ℂ)/6)*B*T*Y^2 + ((-17:ℂ)/3)*Z*T*Y^2 + ((-5:ℂ)/6)*T^2*Y^2 + ((1:ℂ)/6)*B*Z^2 + ((-5:ℂ)/6)*B^2*T + ((1:ℂ)/6)*B*Z*T + ((1:ℂ)/6)*B*T^2 + ((13:ℂ)/6)*B*Z*Y + ((-17:ℂ)/6)*Z^2*Y + ((59:ℂ)/6)*B*T*Y + ((-4:ℂ)/3)*Z*T*Y + (-1:ℂ)*T^2*Y + (21:ℂ)*B*Y^2 + ((-119:ℂ)/6)*Z*Y^2 + (2:ℂ)*T*Y^2 + ((1:ℂ)/3)*Z^2 + ((-2:ℂ)/3)*B*T + ((1:ℂ)/3)*Z*T + ((1:ℂ)/6)*T^2 + (-3:ℂ)*B*Y + ((41:ℂ)/6)*Z*Y + ((19:ℂ)/2)*T*Y + ((-1:ℂ)/2)*T + ((-11:ℂ)/2)*Y + ((-1:ℂ)/6))*h13 + (((-7:ℂ)/3)*B^2*Z*T*Y^2 + ((1:ℂ)/3)*B^2*Z*T*Y + ((35:ℂ)/3)*B^2*T*Y^2 + ((-7:ℂ)/3)*B*T^2*Y^2 + ((-7:ℂ)/3)*B*T*Y^3 + ((7:ℂ)/3)*T^2*Y^3 + ((-5:ℂ)/3)*B^2*T*Y + ((1:ℂ)/3)*B*T^2*Y + ((14:ℂ)/3)*B*Z*Y^2 + ((26:ℂ)/3)*B*T*Y^2 + ((14:ℂ)/3)*Z*T*Y^2 + (2:ℂ)*T^2*Y^2 + (-3:ℂ)*B*Z*Y + ((1:ℂ)/3)*B*T*Y + (-3:ℂ)*Z*T*Y + ((-8:ℂ)/3)*T^2*Y + (-21:ℂ)*B*Y^2 + (7:ℂ)*Z*Y^2 + (-2:ℂ)*T*Y^2 + ((1:ℂ)/3)*B*Z + ((1:ℂ)/3)*Z*T + ((1:ℂ)/3)*T^2 + ((-17:ℂ)/3)*B*Y + ((-9:ℂ)/2)*Z*Y + ((11:ℂ)/6)*T*Y + ((-47:ℂ)/2)*Y^2 + ((4:ℂ)/3)*B + ((1:ℂ)/2)*Z + ((-1:ℂ)/6)*T + ((2465:ℂ)/84)*Y + ((-205:ℂ)/84))*h14 + (((7:ℂ)/12)*B^2*Z*T*Y^2 + ((-1:ℂ)/12)*B^2*Z*T*Y + ((-35:ℂ)/12)*B^2*T*Y^2 + ((7:ℂ)/12)*B*T^2*Y^2 + ((7:ℂ)/12)*B*T*Y^3 + ((-7:ℂ)/12)*T^2*Y^3 + ((5:ℂ)/12)*B^2*T*Y + ((-1:ℂ)/12)*B*T^2*Y + ((-7:ℂ)/6)*B*Z*Y^2 + ((-13:ℂ)/6)*B*T*Y^2 + ((-7:ℂ)/6)*Z*T*Y^2 + ((-1:ℂ)/2)*T^2*Y^2 + ((3:ℂ)/4)*B*Z*Y + ((-1:ℂ)/12)*B*T*Y + ((3:ℂ)/4)*Z*T*Y + ((2:ℂ)/3)*T^2*Y + ((21:ℂ)/4)*B*Y^2 + ((-7:ℂ)/4)*Z*Y^2 + ((1:ℂ)/2)*T*Y^2 + ((-1:ℂ)/12)*B*Z + ((-1:ℂ)/12)*Z*T + ((-1:ℂ)/12)*T^2 + ((121:ℂ)/42)*B*Y + (2:ℂ)*Z*Y + ((5:ℂ)/12)*T*Y + ((15:ℂ)/2)*Y^2 + ((-43:ℂ)/84)*B + ((-1:ℂ)/4)*Z + ((-1:ℂ)/12)*T + ((815:ℂ)/84)*Y + ((-139:ℂ)/84))*h15 + (((-53:ℂ)/168)*B*Y + ((7:ℂ)/24)*Z*Y + ((7:ℂ)/24)*T*Y + ((13:ℂ)/24)*Y^2 + ((5:ℂ)/56)*B + ((-1:ℂ)/24)*Z + ((-1:ℂ)/24)*T + ((53:ℂ)/84)*Y + ((-3:ℂ)/56))*h16 + (((-109:ℂ)/42)*B*Y + ((-7:ℂ)/6)*Z*Y + ((-7:ℂ)/6)*T*Y + ((-13:ℂ)/6)*Y^2 + ((5:ℂ)/14)*B + ((1:ℂ)/6)*Z + ((1:ℂ)/6)*T + ((1:ℂ)/3)*Y + ((-1:ℂ)/6))*h17 + (((-109:ℂ)/84)*B*Y + ((-7:ℂ)/12)*Z*Y + ((-7:ℂ)/12)*T*Y + ((-13:ℂ)/12)*Y^2 + ((5:ℂ)/28)*B + ((1:ℂ)/12)*Z + ((1:ℂ)/12)*T + ((-1:ℂ)/6)*Y + ((-1:ℂ)/12))*h18 + (((-79:ℂ)/42)*Y + ((11:ℂ)/42))*h19 + (((7:ℂ)/3)*B^2*Z*T*Y^2 + ((-1:ℂ)/3)*B^2*Z*T*Y + ((-35:ℂ)/3)*B^2*T*Y^2 + ((7:ℂ)/3)*B*T^2*Y^2 + ((7:ℂ)/3)*B*T*Y^3 + ((-7:ℂ)/3)*T^2*Y^3 + ((5:ℂ)/3)*B^2*T*Y + ((-1:ℂ)/3)*B*T^2*Y + ((-14:ℂ)/3)*B*Z*Y^2 + ((-26:ℂ)/3)*B*T*Y^2 + ((-14:ℂ)/3)*Z*T*Y^2 + (-2:ℂ)*T^2*Y^2 + (3:ℂ)*B*Z*Y + ((-1:ℂ)/3)*B*T*Y + (3:ℂ)*Z*T*Y + ((8:ℂ)/3)*T^2*Y + (21:ℂ)*B*Y^2 + (-7:ℂ)*Z*Y^2 + (2:ℂ)*T*Y^2 + ((-1:ℂ)/3)*B*Z + ((-1:ℂ)/3)*Z*T + ((-1:ℂ)/3)*T^2 + ((19:ℂ)/3)*B*Y + ((17:ℂ)/3)*Z*Y + ((-2:ℂ)/3)*T*Y + ((77:ℂ)/3)*Y^2 + ((-4:ℂ)/3)*B + ((-2:ℂ)/3)*Z + ((-2047:ℂ)/84)*Y + ((51:ℂ)/28))*h20 + (((-7:ℂ)/12)*B^2*Z*T*Y^2 + ((1:ℂ)/12)*B^2*Z*T*Y + ((35:ℂ)/12)*B^2*T*Y^2 + ((-7:ℂ)/12)*B*T^2*Y^2 + ((-7:ℂ)/12)*B*T*Y^3 + ((7:ℂ)/12)*T^2*Y^3 + ((-5:ℂ)/12)*B^2*T*Y + ((1:ℂ)/12)*B*T^2*Y + ((7:ℂ)/6)*B*Z*Y^2 + ((13:ℂ)/6)*B*T*Y^2 + ((7:ℂ)/6)*Z*T*Y^2 + ((1:ℂ)/2)*T^2*Y^2 + ((-3:ℂ)/4)*B*Z*Y + ((1:ℂ)/12)*B*T*Y + ((-3:ℂ)/4)*Z*T*Y + ((-2:ℂ)/3)*T^2*Y + ((-21:ℂ)/4)*B*Y^2 + ((7:ℂ)/4)*Z*Y^2 + ((-1:ℂ)/2)*T*Y^2 + ((1:ℂ)/12)*B*Z + ((1:ℂ)/12)*Z*T + ((1:ℂ)/12)*T^2 + ((-121:ℂ)/42)*B*Y + (-2:ℂ)*Z*Y + ((-5:ℂ)/12)*T*Y + ((-15:ℂ)/2)*Y^2 + ((43:ℂ)/84)*B + ((1:ℂ)/4)*Z + ((1:ℂ)/12)*T + ((-13:ℂ)/12)*Y + ((5:ℂ)/12))*h21 + (((-7:ℂ)/6)*B^2*Z^2*Y + ((-7:ℂ)/3)*B^2*Z*Y^2 + ((1:ℂ)/6)*B^2*Z^2 + ((17:ℂ)/2)*B^2*Z*Y + ((-7:ℂ)/6)*B*Z^2*Y + ((-7:ℂ)/3)*B*Z*T*Y + ((35:ℂ)/3)*B^2*Y^2 + ((-7:ℂ)/3)*B*Z*Y^2 + ((-7:ℂ)/6)*Z^2*Y^2 + ((-14:ℂ)/3)*B*T*Y^2 + ((-7:ℂ)/3)*B*Y^3 + ((7:ℂ)/3)*T*Y^3 + ((-7:ℂ)/6)*B^2*Z + ((1:ℂ)/6)*B*Z^2 + ((1:ℂ)/3)*B*Z*T + ((-40:ℂ)/3)*B^2*Y + ((23:ℂ)/2)*B*Z*Y + ((4:ℂ)/3)*Z^2*Y + ((23:ℂ)/3)*B*T*Y + ((73:ℂ)/6)*B*Y^2 + ((35:ℂ)/6)*Z*Y^2 + ((-1:ℂ)/3)*T*Y^2 + ((-7:ℂ)/3)*Y^3 + ((5:ℂ)/3)*B^2 + ((-5:ℂ)/6)*B*Z + ((-1:ℂ)/6)*Z^2 + (-1:ℂ)*B*T + ((-64:ℂ)/3)*B*Y + ((-11:ℂ)/6)*Z*Y + ((7:ℂ)/3)*T*Y + ((-7:ℂ)/2)*Y^2 + ((3:ℂ)/2)*B + ((1:ℂ)/3)*Z + ((-1:ℂ)/3)*T + ((-25:ℂ)/6)*Y + (1:ℂ))*h22
 #print axioms central_ideal3
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenZeroCentral
 end
 end
@@ -14291,6 +14644,7 @@ set_option maxRecDepth 8192
 @[expose] public noncomputable section
 /-! Consolidated certificate family; original declaration bodies retained. -/
 namespace QuantitativeArithmeticSmallLevelNineteenZeroCentral
+certificate_batch {
 
 theorem central1_polynomial (B Z Y u v : ℂ) (hY : Y≠0) (hY1 : Y+1≠0) (huv : u≠0 ∨ v≠0)
     (h1 : central1_s1_0 B Z 0 Y*u+central1_s1_1 B Z 0 Y*v=0)
@@ -14494,6 +14848,8 @@ theorem central3_polynomial (B Z Y u v : ℂ) (hY : Y≠0) (hY1 : Y+1≠0) (huv 
   exact central_ideal3 B Z T Y hp4 hp5 hp12 hp13 hp14 hp15 hp16 hp17 hp18 hp19 hp20 hp21 hp22
 #print axioms central3_polynomial
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenZeroCentral
 end
 end
@@ -14512,6 +14868,7 @@ set_option maxRecDepth 8192
 /-! Consolidated certificate family; original declaration bodies retained. -/
 namespace QuantitativeArithmeticSmallLevelNineteenZeroCentral
 open QuantitativeArithmeticSmallLevelNineteenPoleLeading
+certificate_batch {
 
 theorem central1_row1 (x y z a b : ℂ) (hy : y≠0) (hx2 : x^2=(-1:ℂ)) (v : Fin 114→ℂ) (hr : residualRows1 x y z a b v=0) :
     central1_r1_0 (y*b) z 0 (y^2)*v 18 + central1_r1_1 (y*b) z 0 (y^2)*v 42 + central1_r1_2 (y*b) z 0 (y^2)*v 84=0 := by
@@ -14851,6 +15208,8 @@ theorem central3_row33 (x y z a b : ℂ) (hy : y≠0) (hx2 : x^2=(-1:ℂ)) (v : 
   linear_combination (norm := (field_simp [hy]; ring1)) (2*y^8)*h
 #print axioms central3_row33
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenZeroCentral
 end
 end
@@ -14868,6 +15227,7 @@ set_option maxHeartbeats 0
 namespace QuantitativeArithmeticSmallLevelNineteenZeroCentral
 open QuantitativeArithmeticSmallLevelNineteenPoleLeading
 open QuantitativeArithmeticSmallLevelNineteenZeroPoleAlgebra
+certificate_batch {
 
 /-- Central zero-eigenvalue residue obstruction, including all specialized-row
 and exact ideal-membership certificates. The original leading reduction supplies
@@ -14973,6 +15333,8 @@ theorem central3_kernel_zero (s z a b : ℂ) (v : Fin 114→ℂ)
   exact central_scalar_impossible s hx2 (central3_polynomial (((3:ℂ)^s)*b) z (((3:ℂ)^s)^2) (v 42) (v 84) hY hY1 huv hc1 hc22 hc24 hc25 hc26 hc27 hc33)
 #print axioms central3_kernel_zero
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenZeroCentral
 end
 end
@@ -14985,6 +15347,7 @@ set_option autoImplicit false
 namespace QuantitativeArithmeticSmallLevelNineteenZeroCentral
 open QuantitativeArithmeticSmallLevelNineteenFullSystem
 open QuantitativeArithmeticSmallLevelNineteenPoleLeading
+certificate_batch {
 
 /-- The actual 734-row symbolic system has trivial kernel in the central
 zero-eigenvalue case. All row reductions and ideal certificates are checked. -/
@@ -15010,6 +15373,8 @@ theorem actual_central_kernel3 (s z b : ℂ) (hz : z≠0)
 
 #print axioms actual_central_kernel3
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenZeroCentral
 end
 end
@@ -15027,6 +15392,7 @@ set_option maxRecDepth 8192
 @[expose] public noncomputable section
 /-! Consolidated certificate family; original declaration bodies retained. -/
 namespace QuantitativeArithmeticSmallLevelNineteenZeroFirstJet
+certificate_batch {
 
 def lower1 (x y z a b : ℂ) (v : Fin 114→ℂ) : ℂ := (((36:ℂ))/((1:ℂ)*x^(2:ℕ)*y^(2:ℕ)))*((((1:ℂ))/((1:ℂ)))*v 84 + (((-1:ℂ)*x^(2:ℕ)*y^(2:ℕ))/((36:ℂ)))*v 109) + (((-9:ℂ)*x^(2:ℕ) + (-36:ℂ))/((1:ℂ)*x^(2:ℕ)*y^(2:ℕ)))*((((1:ℂ))/((1:ℂ)))*v 78 + (((-1:ℂ)*y^(2:ℕ))/((9:ℂ)))*v 100) + (((-1:ℂ)*x^(2:ℕ) + (-4:ℂ))/((1:ℂ)*x^(2:ℕ)))*((((1:ℂ))/((1:ℂ)))*v 24 + (((1:ℂ))/((1:ℂ)))*v 81 + (((4:ℂ))/((1:ℂ)*x^(2:ℕ)))*v 96) + (((36:ℂ))/((1:ℂ)*x^(2:ℕ)*y^(2:ℕ)))*((((1:ℂ))/((1:ℂ)))*v 66 + (((-1:ℂ))/((1:ℂ)))*v 96) + (((4:ℂ))/((1:ℂ)*x^(2:ℕ)))*((((1:ℂ))/((1:ℂ)))*v 62 + (((-9:ℂ))/((1:ℂ)*y^(2:ℕ)))*v 84) + (((-4:ℂ))/((1:ℂ)*x^(2:ℕ)))*((((1:ℂ))/((1:ℂ)))*v 5 + (((1:ℂ))/((1:ℂ)))*v 62 + (((4:ℂ))/((1:ℂ)*x^(2:ℕ)))*v 20) + (((-1:ℂ))/((1:ℂ)))*((((1:ℂ))/((1:ℂ)))*v 5 + (((-36:ℂ))/((1:ℂ)*x^(2:ℕ)*y^(2:ℕ)))*v 30) + (((1:ℂ))/((1:ℂ)))*((((1:ℂ))/((1:ℂ)))*v 52 + (((1:ℂ))/((1:ℂ)))*v 109 + (((4:ℂ))/((1:ℂ)*x^(2:ℕ)))*v 94) + (((4:ℂ))/((1:ℂ)*x^(2:ℕ)))*((((1:ℂ))/((1:ℂ)))*v 52 + (((-9:ℂ))/((1:ℂ)*y^(2:ℕ)))*v 30) + (((76:ℂ)*y^(2:ℕ) + (684:ℂ))/((9:ℂ)*x^(2:ℕ)*z))*((((1:ℂ))/((1:ℂ)))*v 76 + (((9:ℂ)*z)/((19:ℂ)*y^(2:ℕ)))*v 18) + (((36:ℂ))/((1:ℂ)*x^(2:ℕ)*y^(2:ℕ)))*((((1:ℂ))/((1:ℂ)))*v 48 + (((-1:ℂ))/((1:ℂ)))*v 18) + (((-9:ℂ)*x^(2:ℕ) + (-36:ℂ))/((1:ℂ)*x^(2:ℕ)*y^(2:ℕ)))*((((1:ℂ))/((1:ℂ)))*v 36 + (((-1:ℂ)*y^(2:ℕ))/((9:ℂ)))*v 14) + (((-1:ℂ)*x^(2:ℕ) + (-4:ℂ))/((4:ℂ)))*((((1:ℂ))/((1:ℂ)))*v 51 + (((-4:ℂ))/((1:ℂ)*x^(2:ℕ)))*v 24) + (((3:ℂ)*b)/((1:ℂ)*y))*((((1:ℂ))/((1:ℂ)))*v 99 + (((-4:ℂ))/((1:ℂ)*x^(2:ℕ)))*v 72) + (((19:ℂ)*x^(2:ℕ) + (76:ℂ))/((4:ℂ)*z))*((((1:ℂ))/((1:ℂ)))*v 95 + (((36:ℂ)*z)/((19:ℂ)*x^(2:ℕ)*y^(2:ℕ)))*v 36) + (((1:ℂ)*x^(2:ℕ) + (4:ℂ))/((1:ℂ)*x^(2:ℕ)))*((((1:ℂ))/((1:ℂ)))*v 5 + (((1:ℂ))/((1:ℂ)))*v 43 + (((1:ℂ))/((1:ℂ)))*v 81 + (((-3:ℂ)*b)/((1:ℂ)*y))*v 15 + (((9:ℂ))/((1:ℂ)*y^(2:ℕ)))*v 45) + (((-12:ℂ)*b)/((1:ℂ)*x^(2:ℕ)*y))*((((1:ℂ))/((1:ℂ)))*v 42 + (((-1:ℂ)*x^(2:ℕ))/((4:ℂ)))*v 15) + (((19:ℂ)*x^(2:ℕ) + (76:ℂ))/((4:ℂ)*z))*((((1:ℂ))/((1:ℂ)))*v 19 + (((36:ℂ)*z)/((19:ℂ)*x^(2:ℕ)*y^(2:ℕ)))*v 78) + (((-19:ℂ)*x^(2:ℕ) + (-76:ℂ))/((4:ℂ)*z))*((((1:ℂ))/((1:ℂ)))*v 19 + (((1:ℂ))/((1:ℂ)))*v 95) + (((76:ℂ)*y^(2:ℕ) + (684:ℂ))/((9:ℂ)*x^(2:ℕ)*z))*((((1:ℂ))/((1:ℂ)))*v 38 + (((9:ℂ)*z)/((19:ℂ)*y^(2:ℕ)))*v 96) + (((-76:ℂ)*y^(2:ℕ) + (-684:ℂ))/((9:ℂ)*x^(2:ℕ)*z))*((((1:ℂ))/((1:ℂ)))*v 38 + (((1:ℂ))/((1:ℂ)))*v 76) + (((-9:ℂ)*x^(2:ℕ) + (-36:ℂ))/((1:ℂ)*x^(2:ℕ)*y^(2:ℕ)))*((((1:ℂ))/((1:ℂ)))*v 45 + (((1:ℂ))/((1:ℂ)))*v 102 + (((4:ℂ))/((1:ℂ)*x^(2:ℕ)))*v 66) + (((9:ℂ)*x^(2:ℕ) + (36:ℂ))/((1:ℂ)*x^(2:ℕ)*y^(2:ℕ)))*((((1:ℂ))/((1:ℂ)))*v 102) + (((4:ℂ))/((1:ℂ)*x^(2:ℕ)))*((((1:ℂ))/((1:ℂ)))*v 56) + (((-1:ℂ)*x^(2:ℕ) + (-4:ℂ))/((1:ℂ)*x^(2:ℕ)))*((((1:ℂ))/((1:ℂ)))*v 43 + (((1:ℂ))/((1:ℂ)))*v 100 + (((4:ℂ))/((1:ℂ)*x^(2:ℕ)))*v 58) + (((4:ℂ))/((1:ℂ)*x^(2:ℕ)))*((((1:ℂ))/((1:ℂ)))*v 58) + (((1:ℂ)*x^(2:ℕ) + (4:ℂ))/((4:ℂ)))*((((1:ℂ))/((1:ℂ)))*v 51 + (((1:ℂ))/((1:ℂ)))*v 108 + (((4:ℂ))/((1:ℂ)*x^(2:ℕ)))*v 90) + (((-1:ℂ)*x^(2:ℕ) + (-4:ℂ))/((4:ℂ)))*((((1:ℂ))/((1:ℂ)))*v 108) + (((-1:ℂ)*x^(2:ℕ) + (-4:ℂ))/((1:ℂ)*x^(2:ℕ)))*((((1:ℂ))/((1:ℂ)))*v 14 + (((1:ℂ))/((1:ℂ)))*v 52 + (((1:ℂ))/((1:ℂ)))*v 90 + (((-3:ℂ)*b)/((1:ℂ)*y))*v 42 + (((9:ℂ))/((1:ℂ)*y^(2:ℕ)))*v 12) + (((9:ℂ)*x^(2:ℕ) + (36:ℂ))/((1:ℂ)*x^(2:ℕ)*y^(2:ℕ)))*((((1:ℂ))/((1:ℂ)))*v 12) + (((16:ℂ))/((1:ℂ)*x^(4:ℕ)))*((((1:ℂ))/((1:ℂ)))*v 20 + (((1:ℂ))/((1:ℂ)))*v 58 + (((1:ℂ))/((1:ℂ)))*v 96 + (((-3:ℂ)*b)/((1:ℂ)*y))*v 60 + (((9:ℂ))/((1:ℂ)*y^(2:ℕ)))*v 66) + (((12:ℂ)*b)/((1:ℂ)*x^(2:ℕ)*y))*((((1:ℂ))/((1:ℂ)))*v 15 + (((1:ℂ))/((1:ℂ)))*v 72 + (((4:ℂ))/((1:ℂ)*x^(2:ℕ)))*v 60) + (((-4:ℂ))/((1:ℂ)*x^(2:ℕ)))*((((1:ℂ))/((1:ℂ)))*v 18 + (((1:ℂ))/((1:ℂ)))*v 56 + (((1:ℂ))/((1:ℂ)))*v 94 + (((-3:ℂ)*b)/((1:ℂ)*y))*v 54 + (((9:ℂ))/((1:ℂ)*y^(2:ℕ)))*v 48) + (((-3:ℂ)*b)/((1:ℂ)*y))*((((1:ℂ))/((1:ℂ)))*v 42 + (((1:ℂ))/((1:ℂ)))*v 99 + (((4:ℂ))/((1:ℂ)*x^(2:ℕ)))*v 54)
 def upper1 (x y z a b : ℂ) (v : Fin 114→ℂ) : ℂ := (((36:ℂ))/((1:ℂ)*x^(2:ℕ)*y^(2:ℕ)))*((((-19:ℂ)*x^(2:ℕ)*y^(2:ℕ))/((6:ℂ)))*v 109) + (((-9:ℂ)*x^(2:ℕ) + (-36:ℂ))/((1:ℂ)*x^(2:ℕ)*y^(2:ℕ)))*((((19:ℂ)*y^(2:ℕ))/((3:ℂ)))*v 100) + (((36:ℂ))/((1:ℂ)*x^(2:ℕ)*y^(2:ℕ)))*((((19:ℂ))/((1:ℂ)))*v 96) + (((4:ℂ))/((1:ℂ)*x^(2:ℕ)))*((((57:ℂ))/((1:ℂ)*y^(2:ℕ)))*v 84) + (((-1:ℂ))/((1:ℂ)))*((((-114:ℂ))/((1:ℂ)*x^(2:ℕ)*y^(2:ℕ)))*v 30) + (((4:ℂ))/((1:ℂ)*x^(2:ℕ)))*((((-57:ℂ))/((1:ℂ)*y^(2:ℕ)))*v 30) + (((76:ℂ)*y^(2:ℕ) + (684:ℂ))/((9:ℂ)*x^(2:ℕ)*z))*((((3:ℂ)*z)/((1:ℂ)*y^(2:ℕ)))*v 18) + (((36:ℂ))/((1:ℂ)*x^(2:ℕ)*y^(2:ℕ)))*((((-19:ℂ))/((1:ℂ)))*v 18) + (((-9:ℂ)*x^(2:ℕ) + (-36:ℂ))/((1:ℂ)*x^(2:ℕ)*y^(2:ℕ)))*((((-19:ℂ)*y^(2:ℕ))/((3:ℂ)))*v 14) + (((-1:ℂ)*x^(2:ℕ) + (-4:ℂ))/((4:ℂ)))*((((-38:ℂ))/((1:ℂ)*x^(2:ℕ)))*v 24) + (((3:ℂ)*b)/((1:ℂ)*y))*((((-38:ℂ))/((1:ℂ)*x^(2:ℕ)))*v 72) + (((19:ℂ)*x^(2:ℕ) + (76:ℂ))/((4:ℂ)*z))*((((6:ℂ)*z)/((1:ℂ)*x^(2:ℕ)*y^(2:ℕ)))*v 36) + (((-12:ℂ)*b)/((1:ℂ)*x^(2:ℕ)*y))*((((-19:ℂ)*x^(2:ℕ))/((2:ℂ)))*v 15) + (((19:ℂ)*x^(2:ℕ) + (76:ℂ))/((4:ℂ)*z))*((((-6:ℂ)*z)/((1:ℂ)*x^(2:ℕ)*y^(2:ℕ)))*v 78) + (((76:ℂ)*y^(2:ℕ) + (684:ℂ))/((9:ℂ)*x^(2:ℕ)*z))*((((-3:ℂ)*z)/((1:ℂ)*y^(2:ℕ)))*v 96)
@@ -15058,6 +15424,8 @@ theorem upper_identity3 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
 #print axioms lower_zero3
 #print axioms upper_identity3
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenZeroFirstJet
 end
 end
@@ -15074,6 +15442,7 @@ set_option maxHeartbeats 0
 @[expose] public noncomputable section
 /-! Consolidated certificate family; original declaration bodies retained. -/
 namespace QuantitativeArithmeticSmallLevelNineteenZeroFirstJet
+certificate_batch {
 
 theorem contracted_scalar1 (x y z a b c : ℂ) (hx : x≠0) (hy : y≠0)
     (hc : c≠0) (v : Fin 114→ℂ)
@@ -15121,6 +15490,8 @@ theorem contracted_negative_power_impossible3 (s z a b c : ℂ) (X : ℝ)
 
 #print axioms contracted_negative_power_impossible3
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenZeroFirstJet
 end
 end
@@ -15136,6 +15507,7 @@ open QuantitativeArithmeticSmallLevelNineteenFullSystem
 open QuantitativeArithmeticSmallLevelNineteenPoleLeading
 open QuantitativeArithmeticSmallLevelNineteenZeroCentral
 open QuantitativeArithmeticPrimePowerTorsion
+certificate_batch {
 
 /-- A negative square at two makes the corresponding square at three nonreal. -/
 theorem negative_square_three (s : ℂ) (X : ℝ) (hX : X<0)
@@ -15216,6 +15588,8 @@ theorem zero_kernel_with_output3 (s z b : ℂ) (hz : z≠0)
 #print axioms zero_kernel_with_output3
 
 #print axioms negative_parameter_square_away_weight
+
+}
 end QuantitativeArithmeticSmallLevelNineteenZeroFirstJet
 end
 end
@@ -15239,6 +15613,7 @@ open QuantitativeArithmeticSmallLevelNineteenFullRamanujan
 open QuantitativeArithmeticSmallLevelNineteenFullSystem
 open QuantitativeArithmeticSmallLevelNineteenGridSystem
 open QuantitativeArithmeticSmallLevelNineteenGridAnalytic (gridIndex)
+certificate_batch {
 
 theorem lower_link1_0 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (v : Fin 114→ℂ) :
     ((((1:ℂ))/((1:ℂ)))*v 84 + (((-1:ℂ)*x^(2:ℕ)*y^(2:ℕ))/((36:ℂ)))*v 109)=symbolicRows (-1) (-1) (x/2) (y/3) (z/19) 0 b v (264:Fin 734) := by
@@ -15450,6 +15825,8 @@ theorem lower_link1_33 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) 
 
 #print axioms lower_link1_33
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenZeroFirstJet
 end
 
@@ -15469,6 +15846,7 @@ open QuantitativeArithmeticSmallLevelNineteenFullRamanujan
 open QuantitativeArithmeticSmallLevelNineteenFullSystem
 open QuantitativeArithmeticSmallLevelNineteenGridSystem
 open QuantitativeArithmeticSmallLevelNineteenGridAnalytic (gridIndex)
+certificate_batch {
 
 theorem lower_link3_0 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (v : Fin 114→ℂ) :
     ((((1:ℂ))/((1:ℂ)))*v 84 + (((-1:ℂ)*x^(2:ℕ)*y^(2:ℕ))/((36:ℂ)))*v 109)=symbolicRows (-1) (1) (x/2) (y/3) (z/19) 0 b v (264:Fin 734) := by
@@ -15680,6 +16058,8 @@ theorem lower_link3_33 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) 
 
 #print axioms lower_link3_33
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenZeroFirstJet
 end
 end
@@ -15704,6 +16084,7 @@ open QuantitativeArithmeticSmallLevelNineteenFullSystem
 open QuantitativeArithmeticSmallLevelNineteenFullRamanujan
 open QuantitativeArithmeticSmallLevelNineteenGridSystem
 open QuantitativeArithmeticSmallLevelNineteenGridAnalytic (gridIndex)
+certificate_batch {
 
 theorem upper_link1_0 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (v : Fin 114→ℂ) :
     ((((-19:ℂ)*x^(2:ℕ)*y^(2:ℕ))/((6:ℂ)))*v 109)=firstRows (-1) (-1) x y z v (264:Fin 734) := by
@@ -15929,6 +16310,8 @@ theorem upper_link1_33 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) 
 
 #print axioms upper_link1_33
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenZeroFirstJet
 end
 
@@ -15948,6 +16331,7 @@ open QuantitativeArithmeticSmallLevelNineteenFullSystem
 open QuantitativeArithmeticSmallLevelNineteenFullRamanujan
 open QuantitativeArithmeticSmallLevelNineteenGridSystem
 open QuantitativeArithmeticSmallLevelNineteenGridAnalytic (gridIndex)
+certificate_batch {
 
 theorem upper_link3_0 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (v : Fin 114→ℂ) :
     ((((-19:ℂ)*x^(2:ℕ)*y^(2:ℕ))/((6:ℂ)))*v 109)=firstRows (-1) (1) x y z v (264:Fin 734) := by
@@ -16173,6 +16557,8 @@ theorem upper_link3_33 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) 
 
 #print axioms upper_link3_33
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenZeroFirstJet
 end
 end
@@ -16191,6 +16577,7 @@ set_option maxRecDepth 8192
 @[expose] public noncomputable section
 /-! Consolidated certificate family; original declaration bodies retained. -/
 namespace QuantitativeArithmeticSmallLevelNineteenZeroFirstJet
+certificate_batch {
 
 def indices1 : Fin 34→Fin 734 := ![264,75,657,72,69,638,285,685,326,537,323,320,325,150,533,695,321,532,615,536,614,678,629,626,676,627,684,630,704,624,710,648,708,675]
 def weights1 (x y z a b : ℂ) : Fin 34→ℂ := ![(((36:ℂ))/((1:ℂ)*x^(2:ℕ)*y^(2:ℕ))),(((-9:ℂ)*x^(2:ℕ) + (-36:ℂ))/((1:ℂ)*x^(2:ℕ)*y^(2:ℕ))),(((-1:ℂ)*x^(2:ℕ) + (-4:ℂ))/((1:ℂ)*x^(2:ℕ))),(((36:ℂ))/((1:ℂ)*x^(2:ℕ)*y^(2:ℕ))),(((4:ℂ))/((1:ℂ)*x^(2:ℕ))),(((-4:ℂ))/((1:ℂ)*x^(2:ℕ))),(((-1:ℂ))/((1:ℂ))),(((1:ℂ))/((1:ℂ))),(((4:ℂ))/((1:ℂ)*x^(2:ℕ))),(((76:ℂ)*y^(2:ℕ) + (684:ℂ))/((9:ℂ)*x^(2:ℕ)*z)),(((36:ℂ))/((1:ℂ)*x^(2:ℕ)*y^(2:ℕ))),(((-9:ℂ)*x^(2:ℕ) + (-36:ℂ))/((1:ℂ)*x^(2:ℕ)*y^(2:ℕ))),(((-1:ℂ)*x^(2:ℕ) + (-4:ℂ))/((4:ℂ))),(((3:ℂ)*b)/((1:ℂ)*y)),(((19:ℂ)*x^(2:ℕ) + (76:ℂ))/((4:ℂ)*z)),(((1:ℂ)*x^(2:ℕ) + (4:ℂ))/((1:ℂ)*x^(2:ℕ))),(((-12:ℂ)*b)/((1:ℂ)*x^(2:ℕ)*y)),(((19:ℂ)*x^(2:ℕ) + (76:ℂ))/((4:ℂ)*z)),(((-19:ℂ)*x^(2:ℕ) + (-76:ℂ))/((4:ℂ)*z)),(((76:ℂ)*y^(2:ℕ) + (684:ℂ))/((9:ℂ)*x^(2:ℕ)*z)),(((-76:ℂ)*y^(2:ℕ) + (-684:ℂ))/((9:ℂ)*x^(2:ℕ)*z)),(((-9:ℂ)*x^(2:ℕ) + (-36:ℂ))/((1:ℂ)*x^(2:ℕ)*y^(2:ℕ))),(((9:ℂ)*x^(2:ℕ) + (36:ℂ))/((1:ℂ)*x^(2:ℕ)*y^(2:ℕ))),(((4:ℂ))/((1:ℂ)*x^(2:ℕ))),(((-1:ℂ)*x^(2:ℕ) + (-4:ℂ))/((1:ℂ)*x^(2:ℕ))),(((4:ℂ))/((1:ℂ)*x^(2:ℕ))),(((1:ℂ)*x^(2:ℕ) + (4:ℂ))/((4:ℂ))),(((-1:ℂ)*x^(2:ℕ) + (-4:ℂ))/((4:ℂ))),(((-1:ℂ)*x^(2:ℕ) + (-4:ℂ))/((1:ℂ)*x^(2:ℕ))),(((9:ℂ)*x^(2:ℕ) + (36:ℂ))/((1:ℂ)*x^(2:ℕ)*y^(2:ℕ))),(((16:ℂ))/((1:ℂ)*x^(4:ℕ))),(((12:ℂ)*b)/((1:ℂ)*x^(2:ℕ)*y)),(((-4:ℂ))/((1:ℂ)*x^(2:ℕ))),(((-3:ℂ)*b)/((1:ℂ)*y))]
@@ -16198,6 +16585,8 @@ def weights1 (x y z a b : ℂ) : Fin 34→ℂ := ![(((36:ℂ))/((1:ℂ)*x^(2:ℕ
 def indices3 : Fin 34→Fin 734 := ![264,75,657,72,69,638,285,685,326,537,323,320,325,150,533,695,321,532,615,536,614,678,629,626,676,627,684,630,704,624,710,648,708,675]
 def weights3 (x y z a b : ℂ) : Fin 34→ℂ := ![(((36:ℂ))/((1:ℂ)*x^(2:ℕ)*y^(2:ℕ))),(((-9:ℂ)*x^(2:ℕ) + (-36:ℂ))/((1:ℂ)*x^(2:ℕ)*y^(2:ℕ))),(((-1:ℂ)*x^(2:ℕ) + (-4:ℂ))/((1:ℂ)*x^(2:ℕ))),(((36:ℂ))/((1:ℂ)*x^(2:ℕ)*y^(2:ℕ))),(((4:ℂ))/((1:ℂ)*x^(2:ℕ))),(((-4:ℂ))/((1:ℂ)*x^(2:ℕ))),(((-1:ℂ))/((1:ℂ))),(((1:ℂ))/((1:ℂ))),(((4:ℂ))/((1:ℂ)*x^(2:ℕ))),(((76:ℂ)*y^(2:ℕ) + (684:ℂ))/((9:ℂ)*x^(2:ℕ)*z)),(((36:ℂ))/((1:ℂ)*x^(2:ℕ)*y^(2:ℕ))),(((-9:ℂ)*x^(2:ℕ) + (-36:ℂ))/((1:ℂ)*x^(2:ℕ)*y^(2:ℕ))),(((-1:ℂ)*x^(2:ℕ) + (-4:ℂ))/((4:ℂ))),(((3:ℂ)*b)/((1:ℂ)*y)),(((19:ℂ)*x^(2:ℕ) + (76:ℂ))/((4:ℂ)*z)),(((1:ℂ)*x^(2:ℕ) + (4:ℂ))/((1:ℂ)*x^(2:ℕ))),(((-12:ℂ)*b)/((1:ℂ)*x^(2:ℕ)*y)),(((19:ℂ)*x^(2:ℕ) + (76:ℂ))/((4:ℂ)*z)),(((-19:ℂ)*x^(2:ℕ) + (-76:ℂ))/((4:ℂ)*z)),(((76:ℂ)*y^(2:ℕ) + (684:ℂ))/((9:ℂ)*x^(2:ℕ)*z)),(((-76:ℂ)*y^(2:ℕ) + (-684:ℂ))/((9:ℂ)*x^(2:ℕ)*z)),(((-9:ℂ)*x^(2:ℕ) + (-36:ℂ))/((1:ℂ)*x^(2:ℕ)*y^(2:ℕ))),(((9:ℂ)*x^(2:ℕ) + (36:ℂ))/((1:ℂ)*x^(2:ℕ)*y^(2:ℕ))),(((4:ℂ))/((1:ℂ)*x^(2:ℕ))),(((-1:ℂ)*x^(2:ℕ) + (-4:ℂ))/((1:ℂ)*x^(2:ℕ))),(((4:ℂ))/((1:ℂ)*x^(2:ℕ))),(((1:ℂ)*x^(2:ℕ) + (4:ℂ))/((4:ℂ))),(((-1:ℂ)*x^(2:ℕ) + (-4:ℂ))/((4:ℂ))),(((-1:ℂ)*x^(2:ℕ) + (-4:ℂ))/((1:ℂ)*x^(2:ℕ))),(((9:ℂ)*x^(2:ℕ) + (36:ℂ))/((1:ℂ)*x^(2:ℕ)*y^(2:ℕ))),(((16:ℂ))/((1:ℂ)*x^(4:ℕ))),(((12:ℂ)*b)/((1:ℂ)*x^(2:ℕ)*y)),(((-4:ℂ))/((1:ℂ)*x^(2:ℕ))),(((-3:ℂ)*b)/((1:ℂ)*y))]
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenZeroFirstJet
 end
 end
@@ -16216,6 +16605,7 @@ set_option maxRecDepth 8192
 /-! Consolidated certificate family; original declaration bodies retained. -/
 namespace QuantitativeArithmeticSmallLevelNineteenZeroFirstJet
 open QuantitativeArithmeticSmallLevelNineteenFullSystem
+certificate_batch {
 
 theorem weighted_lower1 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (v : Fin 114→ℂ) :
     (∑ i, weights1 x y z a b i*symbolicRows (-1) (-1) (x/2) (y/3) (z/19) 0 b v (indices1 i))=0 := by
@@ -16249,6 +16639,8 @@ theorem weighted_upper3 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
   ring
 #print axioms weighted_upper3
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenZeroFirstJet
 end
 end
@@ -16266,6 +16658,7 @@ set_option maxRecDepth 8192
 @[expose] public noncomputable section
 /-! Consolidated certificate family; original declaration bodies retained. -/
 namespace QuantitativeArithmeticSmallLevelNineteenZeroFirstJet
+certificate_batch {
 
 theorem weights_analytic1 (X Y Z : ℂ→ℂ) (a b s : ℂ)
     (hX : AnalyticAt ℂ X s) (hY : AnalyticAt ℂ Y s) (hZ : AnalyticAt ℂ Z s)
@@ -16417,6 +16810,8 @@ theorem weights_analytic3 (X Y Z : ℂ→ℂ) (a b s : ℂ)
     fun_prop (disch := simp_all)
 #print axioms weights_analytic3
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenZeroFirstJet
 end
 end
@@ -16435,6 +16830,7 @@ open Complex Matrix
 open QuantitativeArithmeticSmallLevelNineteenGridSystem
 open QuantitativeArithmeticSmallLevelNineteenFullSystem
 open QuantitativeArithmeticSelectedRowAnnihilator
+certificate_batch {
 
 def weightedMatrix1 (m : ℕ) (κ b s : ℂ) : Matrix (Fin 1) (Fin 734) ℂ :=
   selector indices1 (weights1 (primeParameter 2 m (s+1))
@@ -16556,6 +16952,8 @@ theorem matrix_first_evaluation3 (m : ℕ) (f : ℕ→ℂ) (ε κ s : ℂ)
 #print axioms matrix_annihilates3
 #print axioms matrix_first_evaluation3
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenZeroFirstJet
 end
 end
@@ -16575,6 +16973,7 @@ set_option maxRecDepth 8192
 namespace QuantitativeArithmeticSmallLevelNineteenZeroFirstJet
 open QuantitativeArithmeticSmallLevelNineteenPoleLeading
 open QuantitativeArithmeticSmallLevelNineteenFullSystem
+certificate_batch {
 
 theorem leading_vanish1 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
     (v : Fin 114→ℂ) (hv : symbolicRows (-1) (-1) x y z 0 b v=0) :
@@ -16900,6 +17299,8 @@ theorem leading_vanish3 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
   linear_combination (norm := (field_simp [hx,hy,hz]; ring1)) (((190:ℂ)*x^(4:ℕ) + (551:ℂ)*x^(2:ℕ) + (76:ℂ))/((2:ℂ)*x^(2:ℕ)*z))*h0 + (((-190:ℂ)*x^(4:ℕ) + (-551:ℂ)*x^(2:ℕ) + (-76:ℂ))/((2:ℂ)*x^(2:ℕ)*z))*h1 + (((190:ℂ)*x^(4:ℕ) + (551:ℂ)*x^(2:ℕ) + (76:ℂ))/((2:ℂ)*x^(2:ℕ)*z))*h2 + (((-1083:ℂ)*x^(6:ℕ) + (-5415:ℂ)*x^(4:ℕ) + (-209:ℂ)*x^(2:ℕ)*y^(2:ℕ) + (-399:ℂ)*x^(2:ℕ) + (-228:ℂ)*y^(2:ℕ) + (-684:ℂ))/((6:ℂ)*x^(4:ℕ)*z))*h3 + (((-114:ℂ))/((1:ℂ)*x^(2:ℕ)*y^(2:ℕ)))*h4 + (((-133:ℂ)*x^(2:ℕ) + (-532:ℂ))/((2:ℂ)*x^(2:ℕ)*y^(2:ℕ)))*h5 + (((19:ℂ)*x^(2:ℕ) + (76:ℂ))/((2:ℂ)*x^(2:ℕ)))*h6 + (((1083:ℂ)*x^(6:ℕ) + (5415:ℂ)*x^(4:ℕ) + (209:ℂ)*x^(2:ℕ)*y^(2:ℕ) + (399:ℂ)*x^(2:ℕ) + (228:ℂ)*y^(2:ℕ) + (684:ℂ))/((6:ℂ)*x^(2:ℕ)*y^(2:ℕ)))*h7 + (((1083:ℂ)*x^(6:ℕ) + (5415:ℂ)*x^(4:ℕ) + (209:ℂ)*x^(2:ℕ)*y^(2:ℕ) + (399:ℂ)*x^(2:ℕ) + (228:ℂ)*y^(2:ℕ) + (684:ℂ))/((6:ℂ)*x^(4:ℕ)*y^(2:ℕ)))*h8 + (((-19:ℂ)*x^(2:ℕ) + (-76:ℂ))/((2:ℂ)*x^(2:ℕ)))*h9 + (((-361:ℂ)*x^(2:ℕ) + (-1444:ℂ))/((2:ℂ)*y^(2:ℕ)))*h10 + (((1083:ℂ)*x^(6:ℕ) + (5415:ℂ)*x^(4:ℕ) + (209:ℂ)*x^(2:ℕ)*y^(2:ℕ) + (399:ℂ)*x^(2:ℕ) + (228:ℂ)*y^(2:ℕ) + (684:ℂ))/((6:ℂ)*x^(2:ℕ)*y^(2:ℕ)))*h11 + (((-209:ℂ)*x^(2:ℕ)*y^(2:ℕ) + (3363:ℂ)*x^(2:ℕ) + (-228:ℂ)*y^(2:ℕ) + (-228:ℂ))/((6:ℂ)*x^(2:ℕ)*y^(2:ℕ)))*h12 + (((361:ℂ)*x^(6:ℕ) + (1444:ℂ)*x^(4:ℕ) + (-190:ℂ)*x^(2:ℕ) + (152:ℂ))/((2:ℂ)*x^(4:ℕ)*y^(2:ℕ)))*h13 + (((209:ℂ)*x^(2:ℕ) + (-76:ℂ))/((2:ℂ)*x^(4:ℕ)))*h14 + (((209:ℂ)*x^(2:ℕ) + (-76:ℂ))/((2:ℂ)*x^(2:ℕ)))*h15 + (((-19:ℂ)*x^(2:ℕ) + (-76:ℂ))/((2:ℂ)*x^(2:ℕ)))*h16 + (((-19:ℂ)*x^(2:ℕ) + (-76:ℂ))/((2:ℂ)*x^(4:ℕ)))*h17 + (((-209:ℂ)*x^(2:ℕ) + (76:ℂ))/((2:ℂ)*x^(4:ℕ)*y^(2:ℕ)))*h18 + (((-19:ℂ)*x^(2:ℕ) + (-76:ℂ))/((2:ℂ)*x^(2:ℕ)*y^(2:ℕ)))*h19 + (((19:ℂ)*x^(2:ℕ) + (76:ℂ))/((2:ℂ)*x^(2:ℕ)))*h20 + (((209:ℂ)*x^(4:ℕ)*y*b + (152:ℂ)*x^(2:ℕ)*y*b + (-209:ℂ)*x^(2:ℕ) + (76:ℂ))/((2:ℂ)*x^(6:ℕ)*y^(2:ℕ)))*h21 + (((57:ℂ)*x^(2:ℕ) + (228:ℂ))/((1:ℂ)*x^(2:ℕ)*y^(2:ℕ)))*h22 + (((-209:ℂ)*x^(2:ℕ) + (76:ℂ))/((2:ℂ)*x^(4:ℕ)*y^(2:ℕ)))*h23 + (((-209:ℂ)*x^(2:ℕ) + (76:ℂ))/((2:ℂ)*x^(2:ℕ)))*h24 + (((209:ℂ)*x^(2:ℕ) + (-76:ℂ))/((2:ℂ)*x^(4:ℕ)*y^(2:ℕ)))*h25 + (((228:ℂ)*x^(2:ℕ)*y*b + (-209:ℂ)*x^(2:ℕ) + (76:ℂ))/((2:ℂ)*x^(4:ℕ)*y^(2:ℕ)))*h26 + (((209:ℂ)*x^(2:ℕ) + (-76:ℂ))/((1:ℂ)*x^(4:ℕ)*y^(2:ℕ)))*h27 + (((-19:ℂ)*x^(2:ℕ) + (-76:ℂ))/((2:ℂ)*x^(2:ℕ)))*h28 + (((209:ℂ)*x^(2:ℕ) + (-76:ℂ))/((2:ℂ)*x^(2:ℕ)))*h29 + (((627:ℂ)*x^(4:ℕ) + (228:ℂ)*x^(2:ℕ)*y*b + (-437:ℂ)*x^(2:ℕ) + (76:ℂ))/((2:ℂ)*x^(6:ℕ)*y^(2:ℕ)))*h30 + (((-209:ℂ)*x^(4:ℕ) + (57:ℂ)*x^(2:ℕ) + (-76:ℂ))/((2:ℂ)*x^(4:ℕ)*y^(2:ℕ)))*h31 + (((-19:ℂ)*x^(2:ℕ) + (-76:ℂ))/((2:ℂ)*x^(2:ℕ)))*h32 + (((209:ℂ)*x^(2:ℕ) + (-76:ℂ))/((2:ℂ)*x^(4:ℕ)))*h33 + (((19:ℂ)*x^(4:ℕ) + (-133:ℂ)*x^(2:ℕ) + (76:ℂ))/((2:ℂ)*x^(4:ℕ)))*h34 + (((209:ℂ)*x^(2:ℕ) + (-76:ℂ))/((2:ℂ)*x^(4:ℕ)*y^(2:ℕ)))*h35 + (((209:ℂ)*x^(6:ℕ) + (-893:ℂ)*x^(4:ℕ) + (-228:ℂ)*x^(2:ℕ)*y*b + (589:ℂ)*x^(2:ℕ) + (-76:ℂ))/((2:ℂ)*x^(6:ℕ)*y^(2:ℕ)))*h36 + (((209:ℂ)*x^(6:ℕ) + (-1102:ℂ)*x^(4:ℕ) + (-228:ℂ)*x^(2:ℕ)*y*b + (665:ℂ)*x^(2:ℕ) + (-76:ℂ))/((2:ℂ)*x^(6:ℕ)*y^(2:ℕ)))*h37
 #print axioms leading_vanish3
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenZeroFirstJet
 end
 end
@@ -16916,6 +17317,7 @@ open QuantitativeArithmeticSmallLevelNineteenGridSystem (primeParameter phaseRoo
 open QuantitativeArithmeticSmallLevelNineteenFullSystem
 open QuantitativeArithmeticSmallLevelNineteenGridAnalytic
 open QuantitativeArithmeticUniversalPoleVector
+certificate_batch {
 
 /-- Apply the actual continued rows and an analytic annihilator before
 extracting the first shifted principal part. No order bound at the lower
@@ -17000,6 +17402,8 @@ theorem negative_square_no_leading_vector3 {m : ℕ} (hm : 0<m) {f : ℕ→ℂ}
     ((Real.sqrt 3:ℂ)*f 3) hz X hX h2 v hlead hout.symm)
 
 #print axioms negative_square_no_leading_vector3
+
+}
 end QuantitativeArithmeticSmallLevelNineteenZeroFirstJet
 end
 end
@@ -17014,6 +17418,7 @@ open Complex
 open QuantitativeArithmeticSmallLevelNineteenGridSystem
 open QuantitativeArithmeticSmallLevelNineteenGridAnalytic
 open QuantitativeArithmeticUniversalPoleVector
+certificate_batch {
 
 /-- All four original sign choices are covered by the two checked first-jet
 certificates, using the sign change in the nineteen-parameter. -/
@@ -17041,6 +17446,8 @@ theorem negative_square_no_pole {m : ℕ} (hm : 0<m) {f : ℕ→ℂ}
       (by simpa using hp) (by simpa using hd) ha BG G hG hGF s v hv hshift X hX h2
 
 #print axioms negative_square_no_pole
+
+}
 end QuantitativeArithmeticSmallLevelNineteenZeroFirstJet
 end
 end
@@ -17055,6 +17462,7 @@ open Complex
 open QuantitativeArithmeticSmallLevelNineteenGridSystem
 open QuantitativeArithmeticSmallLevelNineteenPartnerModels
 open QuantitativeArithmeticSmallLevelNineteenZeroFirstJet
+certificate_batch {
 
 /-- For a zero eigenvalue at two, the quadratic-five twist is entire under
 only the original hypotheses. Continuation of auxiliary twists and all pole
@@ -17088,6 +17496,8 @@ theorem original_zero_quadratic_entire (m : ℕ) (hm : 0<m) {f : ℕ→ℂ}
     (s+n) hpole hshift (-((2:ℝ)^n)^2) hX h2
 
 #print axioms original_zero_quadratic_entire
+
+}
 end QuantitativeArithmeticSmallLevelNineteen
 end
 end
@@ -17097,6 +17507,7 @@ section
 set_option autoImplicit false
 @[expose] public noncomputable section
 namespace QuantitativeArithmeticSmallLevelNineteen
+certificate_batch {
 
 /-- Complete modularity for the zero eigenvalue at two, derived from the
 original level19 input, in every positive even weight. The nonzero eigenvalue
@@ -17111,6 +17522,8 @@ theorem modular_of_zero_two {k : ℕ} (hk : 0<k) (heven : Even k) {f : ℕ→ℂ
   exact modular_of_quadratic_entire (by omega) hf B G hG hGF
 
 #print axioms modular_of_zero_two
+
+}
 end QuantitativeArithmeticSmallLevelNineteen
 end
 end
@@ -17120,6 +17533,7 @@ section
 set_option autoImplicit false
 @[expose] public noncomputable section
 namespace QuantitativeArithmeticSmallLevelNineteen
+certificate_batch {
 
 theorem original_modular_all {k : ℕ} (hk : 0<k) (heven : Even k) {f : ℕ→ℂ}
     (hf : FinitenessOriginalInput.IsSolution 19 k f) :
@@ -17133,6 +17547,8 @@ theorem original_modular_all {k : ℕ} (hk : 0<k) (heven : Even k) {f : ℕ→�
   exact modular_of_quadratic_entire (by omega) hf B G hG hGF
 
 #print axioms original_modular_all
+
+}
 end QuantitativeArithmeticSmallLevelNineteen
 end
 end

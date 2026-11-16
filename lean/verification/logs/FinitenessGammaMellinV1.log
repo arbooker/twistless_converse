@@ -1,2 +1,0 @@
-'FinitenessGammaMellin.mellin_vertical' depends on axioms: [propext, Classical.choice, Quot.sound]
-'FinitenessGammaMellin.inverse_gamma' depends on axioms: [propext, Classical.choice, Quot.sound]

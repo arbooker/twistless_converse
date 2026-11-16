@@ -1,1 +1,0 @@
-'SpanningStationaryWords.exists_trace_family' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,4 +1,5 @@
 module
+public import SmallLevelTwentySixSparseTraceTenV1
 public import SmallLevelTwentySixMMPPariTraceIndexFamilyDataV4
 public meta import SmallLevelPolynomialCertificateCommandsV4
 public import SmallLevelPolynomialCoefficientCertificateTheoryV4
@@ -17,12 +18,7 @@ set_option linter.unusedVariables false
 set_option linter.unusedSimpArgs false
 set_option linter.unnecessarySeqFocus false
 
-namespace SmallLevelTwentySixMMPPariTrace010
-open SmallLevelPolynomialCoefficientCertificate
-compact_certificate_declaration theorem certificate_length (y z w a b u : ℂ) : (certificate y z w a b u).length=19 := by
-  norm_num [certificate,add,multiply,scale,coefficients0,coefficients1,coefficients2,coefficients3,coefficients4,coefficients5,coefficients6]
 
-end SmallLevelTwentySixMMPPariTrace010
 end
 
 section
@@ -34,13 +30,7 @@ set_option maxHeartbeats 0
 set_option maxRecDepth 32768
 
 /-! Consolidated certificate family; original declaration bodies retained. -/
-namespace SmallLevelTwentySixMMPPariTrace010
-open SmallLevelPolynomialCoefficientCertificate
 
-certify_coefficient_block (y z w a b u : ℂ) for (certificate y z w a b u)
-  indices 0 through 18 unfolding [c0_0, c0_1, c0_2, c0_3, c0_4, c0_5, c0_6, c0_7, c0_8, c0_9, c0_10, c0_11, c0_12, c0_13, c0_14, coefficients0, c1_0, c1_1, c1_2, coefficients1, c2_0, c2_1, coefficients2, c3_0, c3_1, c3_2, c3_3, c3_4, c3_5, c3_6, c3_7, c3_8, c3_9, c3_10, c3_11, c3_12, c3_13, c3_14, c3_15, c3_16, c3_17, coefficients3, c4_0, c4_1, c4_2, c4_3, c4_4, c4_5, c4_6, c4_7, c4_8, c4_9, c4_10, c4_11, c4_12, c4_13, c4_14, c4_15, c4_16, c4_17, c4_18, coefficients4, coefficients5, coefficients6, certificate]
-
-end SmallLevelTwentySixMMPPariTrace010
 end
 
 section
@@ -51,39 +41,7 @@ set_option linter.unusedVariables false
 set_option linter.unusedSimpArgs false
 set_option linter.unnecessarySeqFocus false
 
-namespace SmallLevelTwentySixMMPPariTrace010
-open SmallLevelPolynomialCoefficientCertificate
-compact_certificate_declaration theorem certificate_zero (y z w a b u : ℂ) : ∀ v∈certificate y z w a b u,v=0 := by
-  apply zero_of_getElem? _ 19 (certificate_length y z w a b u)
-  intro i
-  fin_cases i
-  · exact coefficient_0 y z w a b u
-  · exact coefficient_1 y z w a b u
-  · exact coefficient_2 y z w a b u
-  · exact coefficient_3 y z w a b u
-  · exact coefficient_4 y z w a b u
-  · exact coefficient_5 y z w a b u
-  · exact coefficient_6 y z w a b u
-  · exact coefficient_7 y z w a b u
-  · exact coefficient_8 y z w a b u
-  · exact coefficient_9 y z w a b u
-  · exact coefficient_10 y z w a b u
-  · exact coefficient_11 y z w a b u
-  · exact coefficient_12 y z w a b u
-  · exact coefficient_13 y z w a b u
-  · exact coefficient_14 y z w a b u
-  · exact coefficient_15 y z w a b u
-  · exact coefficient_16 y z w a b u
-  · exact coefficient_17 y z w a b u
-  · exact coefficient_18 y z w a b u
-compact_certificate_declaration theorem identity (x y z w a b u : ℂ) :
-    p0 x y z w a b u*p1 x y z w a b u+p2 x y z w a b u*p3 x y z w a b u=
-      p4 x y z w a b u+p5 x y z w a b u*p6 x y z w a b u := by
-  unfold p0 p1 p2 p3 p4 p5 p6
-  exact of_zero_coefficients x _ _ _ _ _ _ _ (certificate_zero y z w a b u)
-#print axioms identity
 
-end SmallLevelTwentySixMMPPariTrace010
 end
 end
 
@@ -99,7 +57,8 @@ set_option linter.unnecessarySeqFocus false
 namespace SmallLevelTwentySixMMPPariTrace011
 open SmallLevelPolynomialCoefficientCertificate
 compact_certificate_declaration theorem certificate_length (y z w a b u : ℂ) : (certificate y z w a b u).length=19 := by
-  norm_num [certificate,add,multiply,scale,coefficients0,coefficients1,coefficients2,coefficients3,coefficients4,coefficients5,coefficients6]
+  simp only [certificate, length_add, length_multiply, length_scale]
+  norm_num [coefficients0,coefficients1,coefficients2,coefficients3,coefficients4,coefficients5,coefficients6, List.length_cons, List.length_nil]
 
 end SmallLevelTwentySixMMPPariTrace011
 end
@@ -144,7 +103,8 @@ set_option linter.unnecessarySeqFocus false
 namespace SmallLevelTwentySixMMPPariTrace012
 open SmallLevelPolynomialCoefficientCertificate
 compact_certificate_declaration theorem certificate_length (y z w a b u : ℂ) : (certificate y z w a b u).length=19 := by
-  norm_num [certificate,add,multiply,scale,coefficients0,coefficients1,coefficients2,coefficients3,coefficients4,coefficients5,coefficients6]
+  simp only [certificate, length_add, length_multiply, length_scale]
+  norm_num [coefficients0,coefficients1,coefficients2,coefficients3,coefficients4,coefficients5,coefficients6, List.length_cons, List.length_nil]
 
 end SmallLevelTwentySixMMPPariTrace012
 end
@@ -160,7 +120,8 @@ set_option linter.unnecessarySeqFocus false
 namespace SmallLevelTwentySixMMPPariTrace012
 open SmallLevelPolynomialCoefficientCertificate
 compact_certificate_declaration theorem inner_length_0 (y z w b u : ℂ) : (innerCertificate0 y z w b u).length=1 := by
-  norm_num [innerCertificate0,add,multiply,scale,inner0_0,inner1_0,inner2_0,inner3_0,inner4_0]
+  simp only [innerCertificate0, length_add, length_multiply, length_scale]
+  norm_num [inner0_0,inner1_0,inner2_0,inner3_0,inner4_0, List.length_cons, List.length_nil]
 compact_certificate_declaration theorem inner_eval_0 (y z w a b u : ℂ) :
     evaluate a (innerCertificate0 y z w b u)=(((((c0_0 y z w a b u)*(c1_0 y z w a b u))+0)+(((c2_0 y z w a b u)*(c3_0 y z w a b u))+0))+((-1)*(c4_0 y z w a b u))) := by
   simp only [innerCertificate0,evaluate_add,evaluate_multiply,evaluate,
@@ -201,7 +162,8 @@ set_option linter.unnecessarySeqFocus false
 namespace SmallLevelTwentySixMMPPariTrace012
 open SmallLevelPolynomialCoefficientCertificate
 compact_certificate_declaration theorem inner_length_1 (y z w b u : ℂ) : (innerCertificate1 y z w b u).length=7 := by
-  norm_num [innerCertificate1,add,multiply,scale,inner0_0,inner0_1,inner1_0,inner1_1,inner2_0,inner2_1,inner3_0,inner3_1,inner4_1]
+  simp only [innerCertificate1, length_add, length_multiply, length_scale]
+  norm_num [inner0_0,inner0_1,inner1_0,inner1_1,inner2_0,inner2_1,inner3_0,inner3_1,inner4_1, List.length_cons, List.length_nil]
 compact_certificate_declaration theorem inner_eval_1 (y z w a b u : ℂ) :
     evaluate a (innerCertificate1 y z w b u)=(((((c0_0 y z w a b u)*(c1_1 y z w a b u))+(((c0_1 y z w a b u)*(c1_0 y z w a b u))+0))+(((c2_0 y z w a b u)*(c3_1 y z w a b u))+(((c2_1 y z w a b u)*(c3_0 y z w a b u))+0)))+((-1)*(c4_1 y z w a b u))) := by
   simp only [innerCertificate1,evaluate_add,evaluate_multiply,evaluate,
@@ -289,7 +251,8 @@ set_option linter.unnecessarySeqFocus false
 namespace SmallLevelTwentySixMMPPariTrace012
 open SmallLevelPolynomialCoefficientCertificate
 compact_certificate_declaration theorem inner_length_2 (y z w b u : ℂ) : (innerCertificate2 y z w b u).length=9 := by
-  norm_num [innerCertificate2,add,multiply,scale,inner0_0,inner0_1,inner0_2,inner1_0,inner1_1,inner1_2,inner2_0,inner2_1,inner2_2,inner3_0,inner3_1,inner3_2,inner4_2]
+  simp only [innerCertificate2, length_add, length_multiply, length_scale]
+  norm_num [inner0_0,inner0_1,inner0_2,inner1_0,inner1_1,inner1_2,inner2_0,inner2_1,inner2_2,inner3_0,inner3_1,inner3_2,inner4_2, List.length_cons, List.length_nil]
 compact_certificate_declaration theorem inner_eval_2 (y z w a b u : ℂ) :
     evaluate a (innerCertificate2 y z w b u)=(((((c0_0 y z w a b u)*(c1_2 y z w a b u))+(((c0_1 y z w a b u)*(c1_1 y z w a b u))+(((c0_2 y z w a b u)*(c1_0 y z w a b u))+0)))+(((c2_0 y z w a b u)*(c3_2 y z w a b u))+(((c2_1 y z w a b u)*(c3_1 y z w a b u))+(((c2_2 y z w a b u)*(c3_0 y z w a b u))+0))))+((-1)*(c4_2 y z w a b u))) := by
   simp only [innerCertificate2,evaluate_add,evaluate_multiply,evaluate,
@@ -391,7 +354,8 @@ set_option linter.unnecessarySeqFocus false
 namespace SmallLevelTwentySixMMPPariTrace012
 open SmallLevelPolynomialCoefficientCertificate
 compact_certificate_declaration theorem inner_length_3 (y z w b u : ℂ) : (innerCertificate3 y z w b u).length=9 := by
-  norm_num [innerCertificate3,add,multiply,scale,inner0_0,inner0_1,inner0_2,inner0_3,inner1_0,inner1_1,inner1_2,inner1_3,inner2_0,inner2_1,inner2_2,inner3_1,inner3_2,inner3_3,inner4_3]
+  simp only [innerCertificate3, length_add, length_multiply, length_scale]
+  norm_num [inner0_0,inner0_1,inner0_2,inner0_3,inner1_0,inner1_1,inner1_2,inner1_3,inner2_0,inner2_1,inner2_2,inner3_1,inner3_2,inner3_3,inner4_3, List.length_cons, List.length_nil]
 compact_certificate_declaration theorem inner_eval_3 (y z w a b u : ℂ) :
     evaluate a (innerCertificate3 y z w b u)=(((((c0_0 y z w a b u)*(c1_3 y z w a b u))+(((c0_1 y z w a b u)*(c1_2 y z w a b u))+(((c0_2 y z w a b u)*(c1_1 y z w a b u))+(((c0_3 y z w a b u)*(c1_0 y z w a b u))+0))))+(((c2_0 y z w a b u)*(c3_3 y z w a b u))+(((c2_1 y z w a b u)*(c3_2 y z w a b u))+((c2_2 y z w a b u)*(c3_1 y z w a b u)))))+((-1)*(c4_3 y z w a b u))) := by
   simp only [innerCertificate3,evaluate_add,evaluate_multiply,evaluate,
@@ -493,7 +457,8 @@ set_option linter.unnecessarySeqFocus false
 namespace SmallLevelTwentySixMMPPariTrace012
 open SmallLevelPolynomialCoefficientCertificate
 compact_certificate_declaration theorem inner_length_4 (y z w b u : ℂ) : (innerCertificate4 y z w b u).length=9 := by
-  norm_num [innerCertificate4,add,multiply,scale,inner0_0,inner0_1,inner0_2,inner0_3,inner0_4,inner1_0,inner1_1,inner1_2,inner1_3,inner1_4,inner2_0,inner2_1,inner2_2,inner3_2,inner3_3,inner3_4,inner4_4]
+  simp only [innerCertificate4, length_add, length_multiply, length_scale]
+  norm_num [inner0_0,inner0_1,inner0_2,inner0_3,inner0_4,inner1_0,inner1_1,inner1_2,inner1_3,inner1_4,inner2_0,inner2_1,inner2_2,inner3_2,inner3_3,inner3_4,inner4_4, List.length_cons, List.length_nil]
 compact_certificate_declaration theorem inner_eval_4 (y z w a b u : ℂ) :
     evaluate a (innerCertificate4 y z w b u)=(((((c0_0 y z w a b u)*(c1_4 y z w a b u))+(((c0_1 y z w a b u)*(c1_3 y z w a b u))+(((c0_2 y z w a b u)*(c1_2 y z w a b u))+(((c0_3 y z w a b u)*(c1_1 y z w a b u))+(((c0_4 y z w a b u)*(c1_0 y z w a b u))+0)))))+(((c2_0 y z w a b u)*(c3_4 y z w a b u))+(((c2_1 y z w a b u)*(c3_3 y z w a b u))+((c2_2 y z w a b u)*(c3_2 y z w a b u)))))+((-1)*(c4_4 y z w a b u))) := by
   simp only [innerCertificate4,evaluate_add,evaluate_multiply,evaluate,
@@ -595,7 +560,8 @@ set_option linter.unnecessarySeqFocus false
 namespace SmallLevelTwentySixMMPPariTrace012
 open SmallLevelPolynomialCoefficientCertificate
 compact_certificate_declaration theorem inner_length_5 (y z w b u : ℂ) : (innerCertificate5 y z w b u).length=9 := by
-  norm_num [innerCertificate5,add,multiply,scale,inner0_0,inner0_1,inner0_2,inner0_3,inner0_4,inner0_5,inner1_0,inner1_1,inner1_2,inner1_3,inner1_4,inner1_5,inner2_0,inner2_1,inner2_2,inner3_3,inner3_4,inner3_5,inner4_5]
+  simp only [innerCertificate5, length_add, length_multiply, length_scale]
+  norm_num [inner0_0,inner0_1,inner0_2,inner0_3,inner0_4,inner0_5,inner1_0,inner1_1,inner1_2,inner1_3,inner1_4,inner1_5,inner2_0,inner2_1,inner2_2,inner3_3,inner3_4,inner3_5,inner4_5, List.length_cons, List.length_nil]
 compact_certificate_declaration theorem inner_eval_5 (y z w a b u : ℂ) :
     evaluate a (innerCertificate5 y z w b u)=(((((c0_0 y z w a b u)*(c1_5 y z w a b u))+(((c0_1 y z w a b u)*(c1_4 y z w a b u))+(((c0_2 y z w a b u)*(c1_3 y z w a b u))+(((c0_3 y z w a b u)*(c1_2 y z w a b u))+(((c0_4 y z w a b u)*(c1_1 y z w a b u))+(((c0_5 y z w a b u)*(c1_0 y z w a b u))+0))))))+(((c2_0 y z w a b u)*(c3_5 y z w a b u))+(((c2_1 y z w a b u)*(c3_4 y z w a b u))+((c2_2 y z w a b u)*(c3_3 y z w a b u)))))+((-1)*(c4_5 y z w a b u))) := by
   simp only [innerCertificate5,evaluate_add,evaluate_multiply,evaluate,
@@ -697,7 +663,8 @@ set_option linter.unnecessarySeqFocus false
 namespace SmallLevelTwentySixMMPPariTrace012
 open SmallLevelPolynomialCoefficientCertificate
 compact_certificate_declaration theorem inner_length_6 (y z w b u : ℂ) : (innerCertificate6 y z w b u).length=9 := by
-  norm_num [innerCertificate6,add,multiply,scale,inner0_1,inner0_2,inner0_3,inner0_4,inner0_5,inner0_6,inner1_0,inner1_1,inner1_2,inner1_3,inner1_4,inner1_5,inner2_0,inner2_1,inner2_2,inner3_4,inner3_5,inner3_6,inner4_6]
+  simp only [innerCertificate6, length_add, length_multiply, length_scale]
+  norm_num [inner0_1,inner0_2,inner0_3,inner0_4,inner0_5,inner0_6,inner1_0,inner1_1,inner1_2,inner1_3,inner1_4,inner1_5,inner2_0,inner2_1,inner2_2,inner3_4,inner3_5,inner3_6,inner4_6, List.length_cons, List.length_nil]
 compact_certificate_declaration theorem inner_eval_6 (y z w a b u : ℂ) :
     evaluate a (innerCertificate6 y z w b u)=(((((c0_1 y z w a b u)*(c1_5 y z w a b u))+(((c0_2 y z w a b u)*(c1_4 y z w a b u))+(((c0_3 y z w a b u)*(c1_3 y z w a b u))+(((c0_4 y z w a b u)*(c1_2 y z w a b u))+(((c0_5 y z w a b u)*(c1_1 y z w a b u))+(((c0_6 y z w a b u)*(c1_0 y z w a b u))+0))))))+(((c2_0 y z w a b u)*(c3_6 y z w a b u))+(((c2_1 y z w a b u)*(c3_5 y z w a b u))+((c2_2 y z w a b u)*(c3_4 y z w a b u)))))+((-1)*(c4_6 y z w a b u))) := by
   simp only [innerCertificate6,evaluate_add,evaluate_multiply,evaluate,
@@ -799,7 +766,8 @@ set_option linter.unnecessarySeqFocus false
 namespace SmallLevelTwentySixMMPPariTrace012
 open SmallLevelPolynomialCoefficientCertificate
 compact_certificate_declaration theorem inner_length_7 (y z w b u : ℂ) : (innerCertificate7 y z w b u).length=9 := by
-  norm_num [innerCertificate7,add,multiply,scale,inner0_2,inner0_3,inner0_4,inner0_5,inner0_6,inner0_7,inner1_0,inner1_1,inner1_2,inner1_3,inner1_4,inner1_5,inner2_0,inner2_1,inner2_2,inner3_5,inner3_6,inner3_7,inner4_7]
+  simp only [innerCertificate7, length_add, length_multiply, length_scale]
+  norm_num [inner0_2,inner0_3,inner0_4,inner0_5,inner0_6,inner0_7,inner1_0,inner1_1,inner1_2,inner1_3,inner1_4,inner1_5,inner2_0,inner2_1,inner2_2,inner3_5,inner3_6,inner3_7,inner4_7, List.length_cons, List.length_nil]
 compact_certificate_declaration theorem inner_eval_7 (y z w a b u : ℂ) :
     evaluate a (innerCertificate7 y z w b u)=(((((c0_2 y z w a b u)*(c1_5 y z w a b u))+(((c0_3 y z w a b u)*(c1_4 y z w a b u))+(((c0_4 y z w a b u)*(c1_3 y z w a b u))+(((c0_5 y z w a b u)*(c1_2 y z w a b u))+(((c0_6 y z w a b u)*(c1_1 y z w a b u))+(((c0_7 y z w a b u)*(c1_0 y z w a b u))+0))))))+(((c2_0 y z w a b u)*(c3_7 y z w a b u))+(((c2_1 y z w a b u)*(c3_6 y z w a b u))+((c2_2 y z w a b u)*(c3_5 y z w a b u)))))+((-1)*(c4_7 y z w a b u))) := by
   simp only [innerCertificate7,evaluate_add,evaluate_multiply,evaluate,
@@ -901,7 +869,8 @@ set_option linter.unnecessarySeqFocus false
 namespace SmallLevelTwentySixMMPPariTrace012
 open SmallLevelPolynomialCoefficientCertificate
 compact_certificate_declaration theorem inner_length_8 (y z w b u : ℂ) : (innerCertificate8 y z w b u).length=8 := by
-  norm_num [innerCertificate8,add,multiply,scale,inner0_3,inner0_4,inner0_5,inner0_6,inner0_7,inner0_8,inner1_0,inner1_1,inner1_2,inner1_3,inner1_4,inner1_5,inner2_0,inner2_1,inner2_2,inner3_6,inner3_7,inner3_8,inner4_8]
+  simp only [innerCertificate8, length_add, length_multiply, length_scale]
+  norm_num [inner0_3,inner0_4,inner0_5,inner0_6,inner0_7,inner0_8,inner1_0,inner1_1,inner1_2,inner1_3,inner1_4,inner1_5,inner2_0,inner2_1,inner2_2,inner3_6,inner3_7,inner3_8,inner4_8, List.length_cons, List.length_nil]
 compact_certificate_declaration theorem inner_eval_8 (y z w a b u : ℂ) :
     evaluate a (innerCertificate8 y z w b u)=(((((c0_3 y z w a b u)*(c1_5 y z w a b u))+(((c0_4 y z w a b u)*(c1_4 y z w a b u))+(((c0_5 y z w a b u)*(c1_3 y z w a b u))+(((c0_6 y z w a b u)*(c1_2 y z w a b u))+(((c0_7 y z w a b u)*(c1_1 y z w a b u))+(((c0_8 y z w a b u)*(c1_0 y z w a b u))+0))))))+(((c2_0 y z w a b u)*(c3_8 y z w a b u))+(((c2_1 y z w a b u)*(c3_7 y z w a b u))+((c2_2 y z w a b u)*(c3_6 y z w a b u)))))+((-1)*(c4_8 y z w a b u))) := by
   simp only [innerCertificate8,evaluate_add,evaluate_multiply,evaluate,
@@ -996,7 +965,8 @@ set_option linter.unnecessarySeqFocus false
 namespace SmallLevelTwentySixMMPPariTrace012
 open SmallLevelPolynomialCoefficientCertificate
 compact_certificate_declaration theorem inner_length_9 (y z w b u : ℂ) : (innerCertificate9 y z w b u).length=8 := by
-  norm_num [innerCertificate9,add,multiply,scale,inner0_4,inner0_5,inner0_6,inner0_7,inner0_8,inner0_9,inner1_0,inner1_1,inner1_2,inner1_3,inner1_4,inner1_5,inner2_0,inner2_1,inner2_2,inner3_7,inner3_8,inner3_9,inner4_9]
+  simp only [innerCertificate9, length_add, length_multiply, length_scale]
+  norm_num [inner0_4,inner0_5,inner0_6,inner0_7,inner0_8,inner0_9,inner1_0,inner1_1,inner1_2,inner1_3,inner1_4,inner1_5,inner2_0,inner2_1,inner2_2,inner3_7,inner3_8,inner3_9,inner4_9, List.length_cons, List.length_nil]
 compact_certificate_declaration theorem inner_eval_9 (y z w a b u : ℂ) :
     evaluate a (innerCertificate9 y z w b u)=(((((c0_4 y z w a b u)*(c1_5 y z w a b u))+(((c0_5 y z w a b u)*(c1_4 y z w a b u))+(((c0_6 y z w a b u)*(c1_3 y z w a b u))+(((c0_7 y z w a b u)*(c1_2 y z w a b u))+(((c0_8 y z w a b u)*(c1_1 y z w a b u))+(((c0_9 y z w a b u)*(c1_0 y z w a b u))+0))))))+(((c2_0 y z w a b u)*(c3_9 y z w a b u))+(((c2_1 y z w a b u)*(c3_8 y z w a b u))+((c2_2 y z w a b u)*(c3_7 y z w a b u)))))+((-1)*(c4_9 y z w a b u))) := by
   simp only [innerCertificate9,evaluate_add,evaluate_multiply,evaluate,
@@ -1091,7 +1061,8 @@ set_option linter.unnecessarySeqFocus false
 namespace SmallLevelTwentySixMMPPariTrace012
 open SmallLevelPolynomialCoefficientCertificate
 compact_certificate_declaration theorem inner_length_10 (y z w b u : ℂ) : (innerCertificate10 y z w b u).length=8 := by
-  norm_num [innerCertificate10,add,multiply,scale,inner0_10,inner0_5,inner0_6,inner0_7,inner0_8,inner0_9,inner1_0,inner1_1,inner1_2,inner1_3,inner1_4,inner1_5,inner2_0,inner2_1,inner2_2,inner3_10,inner3_8,inner3_9,inner4_10]
+  simp only [innerCertificate10, length_add, length_multiply, length_scale]
+  norm_num [inner0_10,inner0_5,inner0_6,inner0_7,inner0_8,inner0_9,inner1_0,inner1_1,inner1_2,inner1_3,inner1_4,inner1_5,inner2_0,inner2_1,inner2_2,inner3_10,inner3_8,inner3_9,inner4_10, List.length_cons, List.length_nil]
 compact_certificate_declaration theorem inner_eval_10 (y z w a b u : ℂ) :
     evaluate a (innerCertificate10 y z w b u)=(((((c0_5 y z w a b u)*(c1_5 y z w a b u))+(((c0_6 y z w a b u)*(c1_4 y z w a b u))+(((c0_7 y z w a b u)*(c1_3 y z w a b u))+(((c0_8 y z w a b u)*(c1_2 y z w a b u))+(((c0_9 y z w a b u)*(c1_1 y z w a b u))+(((c0_10 y z w a b u)*(c1_0 y z w a b u))+0))))))+(((c2_0 y z w a b u)*(c3_10 y z w a b u))+(((c2_1 y z w a b u)*(c3_9 y z w a b u))+((c2_2 y z w a b u)*(c3_8 y z w a b u)))))+((-1)*(c4_10 y z w a b u))) := by
   simp only [innerCertificate10,evaluate_add,evaluate_multiply,evaluate,
@@ -1186,7 +1157,8 @@ set_option linter.unnecessarySeqFocus false
 namespace SmallLevelTwentySixMMPPariTrace012
 open SmallLevelPolynomialCoefficientCertificate
 compact_certificate_declaration theorem inner_length_11 (y z w b u : ℂ) : (innerCertificate11 y z w b u).length=7 := by
-  norm_num [innerCertificate11,add,multiply,scale,inner0_10,inner0_11,inner0_6,inner0_7,inner0_8,inner0_9,inner1_0,inner1_1,inner1_2,inner1_3,inner1_4,inner1_5,inner2_0,inner2_1,inner2_2,inner3_10,inner3_11,inner3_9,inner4_11]
+  simp only [innerCertificate11, length_add, length_multiply, length_scale]
+  norm_num [inner0_10,inner0_11,inner0_6,inner0_7,inner0_8,inner0_9,inner1_0,inner1_1,inner1_2,inner1_3,inner1_4,inner1_5,inner2_0,inner2_1,inner2_2,inner3_10,inner3_11,inner3_9,inner4_11, List.length_cons, List.length_nil]
 compact_certificate_declaration theorem inner_eval_11 (y z w a b u : ℂ) :
     evaluate a (innerCertificate11 y z w b u)=(((((c0_6 y z w a b u)*(c1_5 y z w a b u))+(((c0_7 y z w a b u)*(c1_4 y z w a b u))+(((c0_8 y z w a b u)*(c1_3 y z w a b u))+(((c0_9 y z w a b u)*(c1_2 y z w a b u))+(((c0_10 y z w a b u)*(c1_1 y z w a b u))+(((c0_11 y z w a b u)*(c1_0 y z w a b u))+0))))))+(((c2_0 y z w a b u)*(c3_11 y z w a b u))+(((c2_1 y z w a b u)*(c3_10 y z w a b u))+((c2_2 y z w a b u)*(c3_9 y z w a b u)))))+((-1)*(c4_11 y z w a b u))) := by
   simp only [innerCertificate11,evaluate_add,evaluate_multiply,evaluate,
@@ -1274,7 +1246,8 @@ set_option linter.unnecessarySeqFocus false
 namespace SmallLevelTwentySixMMPPariTrace012
 open SmallLevelPolynomialCoefficientCertificate
 compact_certificate_declaration theorem inner_length_12 (y z w b u : ℂ) : (innerCertificate12 y z w b u).length=7 := by
-  norm_num [innerCertificate12,add,multiply,scale,inner0_10,inner0_11,inner0_12,inner0_7,inner0_8,inner0_9,inner1_0,inner1_1,inner1_2,inner1_3,inner1_4,inner1_5,inner2_0,inner2_1,inner2_2,inner3_10,inner3_11,inner3_12,inner4_12]
+  simp only [innerCertificate12, length_add, length_multiply, length_scale]
+  norm_num [inner0_10,inner0_11,inner0_12,inner0_7,inner0_8,inner0_9,inner1_0,inner1_1,inner1_2,inner1_3,inner1_4,inner1_5,inner2_0,inner2_1,inner2_2,inner3_10,inner3_11,inner3_12,inner4_12, List.length_cons, List.length_nil]
 compact_certificate_declaration theorem inner_eval_12 (y z w a b u : ℂ) :
     evaluate a (innerCertificate12 y z w b u)=(((((c0_7 y z w a b u)*(c1_5 y z w a b u))+(((c0_8 y z w a b u)*(c1_4 y z w a b u))+(((c0_9 y z w a b u)*(c1_3 y z w a b u))+(((c0_10 y z w a b u)*(c1_2 y z w a b u))+(((c0_11 y z w a b u)*(c1_1 y z w a b u))+(((c0_12 y z w a b u)*(c1_0 y z w a b u))+0))))))+(((c2_0 y z w a b u)*(c3_12 y z w a b u))+(((c2_1 y z w a b u)*(c3_11 y z w a b u))+((c2_2 y z w a b u)*(c3_10 y z w a b u)))))+((-1)*(c4_12 y z w a b u))) := by
   simp only [innerCertificate12,evaluate_add,evaluate_multiply,evaluate,
@@ -1362,7 +1335,8 @@ set_option linter.unnecessarySeqFocus false
 namespace SmallLevelTwentySixMMPPariTrace012
 open SmallLevelPolynomialCoefficientCertificate
 compact_certificate_declaration theorem inner_length_13 (y z w b u : ℂ) : (innerCertificate13 y z w b u).length=6 := by
-  norm_num [innerCertificate13,add,multiply,scale,inner0_10,inner0_11,inner0_12,inner0_13,inner0_8,inner0_9,inner1_0,inner1_1,inner1_2,inner1_3,inner1_4,inner1_5,inner2_0,inner2_1,inner2_2,inner3_11,inner3_12,inner3_13,inner4_13]
+  simp only [innerCertificate13, length_add, length_multiply, length_scale]
+  norm_num [inner0_10,inner0_11,inner0_12,inner0_13,inner0_8,inner0_9,inner1_0,inner1_1,inner1_2,inner1_3,inner1_4,inner1_5,inner2_0,inner2_1,inner2_2,inner3_11,inner3_12,inner3_13,inner4_13, List.length_cons, List.length_nil]
 compact_certificate_declaration theorem inner_eval_13 (y z w a b u : ℂ) :
     evaluate a (innerCertificate13 y z w b u)=(((((c0_8 y z w a b u)*(c1_5 y z w a b u))+(((c0_9 y z w a b u)*(c1_4 y z w a b u))+(((c0_10 y z w a b u)*(c1_3 y z w a b u))+(((c0_11 y z w a b u)*(c1_2 y z w a b u))+(((c0_12 y z w a b u)*(c1_1 y z w a b u))+(((c0_13 y z w a b u)*(c1_0 y z w a b u))+0))))))+(((c2_0 y z w a b u)*(c3_13 y z w a b u))+(((c2_1 y z w a b u)*(c3_12 y z w a b u))+((c2_2 y z w a b u)*(c3_11 y z w a b u)))))+((-1)*(c4_13 y z w a b u))) := by
   simp only [innerCertificate13,evaluate_add,evaluate_multiply,evaluate,
@@ -1442,7 +1416,8 @@ set_option linter.unnecessarySeqFocus false
 namespace SmallLevelTwentySixMMPPariTrace012
 open SmallLevelPolynomialCoefficientCertificate
 compact_certificate_declaration theorem inner_length_14 (y z w b u : ℂ) : (innerCertificate14 y z w b u).length=5 := by
-  norm_num [innerCertificate14,add,multiply,scale,inner0_10,inner0_11,inner0_12,inner0_13,inner0_9,inner1_1,inner1_2,inner1_3,inner1_4,inner1_5,inner2_0,inner2_1,inner2_2,inner3_12,inner3_13,inner3_14,inner4_14]
+  simp only [innerCertificate14, length_add, length_multiply, length_scale]
+  norm_num [inner0_10,inner0_11,inner0_12,inner0_13,inner0_9,inner1_1,inner1_2,inner1_3,inner1_4,inner1_5,inner2_0,inner2_1,inner2_2,inner3_12,inner3_13,inner3_14,inner4_14, List.length_cons, List.length_nil]
 compact_certificate_declaration theorem inner_eval_14 (y z w a b u : ℂ) :
     evaluate a (innerCertificate14 y z w b u)=(((((c0_9 y z w a b u)*(c1_5 y z w a b u))+(((c0_10 y z w a b u)*(c1_4 y z w a b u))+(((c0_11 y z w a b u)*(c1_3 y z w a b u))+(((c0_12 y z w a b u)*(c1_2 y z w a b u))+((c0_13 y z w a b u)*(c1_1 y z w a b u))))))+(((c2_0 y z w a b u)*(c3_14 y z w a b u))+(((c2_1 y z w a b u)*(c3_13 y z w a b u))+((c2_2 y z w a b u)*(c3_12 y z w a b u)))))+((-1)*(c4_14 y z w a b u))) := by
   simp only [innerCertificate14,evaluate_add,evaluate_multiply,evaluate,
@@ -1515,7 +1490,8 @@ set_option linter.unnecessarySeqFocus false
 namespace SmallLevelTwentySixMMPPariTrace012
 open SmallLevelPolynomialCoefficientCertificate
 compact_certificate_declaration theorem inner_length_15 (y z w b u : ℂ) : (innerCertificate15 y z w b u).length=5 := by
-  norm_num [innerCertificate15,add,multiply,scale,inner0_10,inner0_11,inner0_12,inner0_13,inner1_2,inner1_3,inner1_4,inner1_5,inner2_0,inner2_1,inner2_2,inner3_13,inner3_14,inner3_15,inner4_15]
+  simp only [innerCertificate15, length_add, length_multiply, length_scale]
+  norm_num [inner0_10,inner0_11,inner0_12,inner0_13,inner1_2,inner1_3,inner1_4,inner1_5,inner2_0,inner2_1,inner2_2,inner3_13,inner3_14,inner3_15,inner4_15, List.length_cons, List.length_nil]
 compact_certificate_declaration theorem inner_eval_15 (y z w a b u : ℂ) :
     evaluate a (innerCertificate15 y z w b u)=(((((c0_10 y z w a b u)*(c1_5 y z w a b u))+(((c0_11 y z w a b u)*(c1_4 y z w a b u))+(((c0_12 y z w a b u)*(c1_3 y z w a b u))+((c0_13 y z w a b u)*(c1_2 y z w a b u)))))+(((c2_0 y z w a b u)*(c3_15 y z w a b u))+(((c2_1 y z w a b u)*(c3_14 y z w a b u))+((c2_2 y z w a b u)*(c3_13 y z w a b u)))))+((-1)*(c4_15 y z w a b u))) := by
   simp only [innerCertificate15,evaluate_add,evaluate_multiply,evaluate,
@@ -1588,7 +1564,8 @@ set_option linter.unnecessarySeqFocus false
 namespace SmallLevelTwentySixMMPPariTrace012
 open SmallLevelPolynomialCoefficientCertificate
 compact_certificate_declaration theorem inner_length_16 (y z w b u : ℂ) : (innerCertificate16 y z w b u).length=4 := by
-  norm_num [innerCertificate16,add,multiply,scale,inner0_11,inner0_12,inner0_13,inner1_3,inner1_4,inner1_5,inner2_0,inner2_1,inner2_2,inner3_14,inner3_15,inner3_16,inner4_16]
+  simp only [innerCertificate16, length_add, length_multiply, length_scale]
+  norm_num [inner0_11,inner0_12,inner0_13,inner1_3,inner1_4,inner1_5,inner2_0,inner2_1,inner2_2,inner3_14,inner3_15,inner3_16,inner4_16, List.length_cons, List.length_nil]
 compact_certificate_declaration theorem inner_eval_16 (y z w a b u : ℂ) :
     evaluate a (innerCertificate16 y z w b u)=(((((c0_11 y z w a b u)*(c1_5 y z w a b u))+(((c0_12 y z w a b u)*(c1_4 y z w a b u))+((c0_13 y z w a b u)*(c1_3 y z w a b u))))+(((c2_0 y z w a b u)*(c3_16 y z w a b u))+(((c2_1 y z w a b u)*(c3_15 y z w a b u))+((c2_2 y z w a b u)*(c3_14 y z w a b u)))))+((-1)*(c4_16 y z w a b u))) := by
   simp only [innerCertificate16,evaluate_add,evaluate_multiply,evaluate,
@@ -1654,7 +1631,8 @@ set_option linter.unnecessarySeqFocus false
 namespace SmallLevelTwentySixMMPPariTrace012
 open SmallLevelPolynomialCoefficientCertificate
 compact_certificate_declaration theorem inner_length_17 (y z w b u : ℂ) : (innerCertificate17 y z w b u).length=3 := by
-  norm_num [innerCertificate17,add,multiply,scale,inner0_12,inner0_13,inner1_4,inner1_5,inner2_1,inner2_2,inner3_15,inner3_16,inner4_17]
+  simp only [innerCertificate17, length_add, length_multiply, length_scale]
+  norm_num [inner0_12,inner0_13,inner1_4,inner1_5,inner2_1,inner2_2,inner3_15,inner3_16,inner4_17, List.length_cons, List.length_nil]
 compact_certificate_declaration theorem inner_eval_17 (y z w a b u : ℂ) :
     evaluate a (innerCertificate17 y z w b u)=(((((c0_12 y z w a b u)*(c1_5 y z w a b u))+((c0_13 y z w a b u)*(c1_4 y z w a b u)))+(((c2_1 y z w a b u)*(c3_16 y z w a b u))+((c2_2 y z w a b u)*(c3_15 y z w a b u))))+((-1)*(c4_17 y z w a b u))) := by
   simp only [innerCertificate17,evaluate_add,evaluate_multiply,evaluate,
@@ -1710,7 +1688,8 @@ set_option linter.unnecessarySeqFocus false
 namespace SmallLevelTwentySixMMPPariTrace012
 open SmallLevelPolynomialCoefficientCertificate
 compact_certificate_declaration theorem inner_length_18 (y z w b u : ℂ) : (innerCertificate18 y z w b u).length=2 := by
-  norm_num [innerCertificate18,add,multiply,scale,inner0_13,inner1_5,inner2_2,inner3_16,inner4_18]
+  simp only [innerCertificate18, length_add, length_multiply, length_scale]
+  norm_num [inner0_13,inner1_5,inner2_2,inner3_16,inner4_18, List.length_cons, List.length_nil]
 compact_certificate_declaration theorem inner_eval_18 (y z w a b u : ℂ) :
     evaluate a (innerCertificate18 y z w b u)=((((c0_13 y z w a b u)*(c1_5 y z w a b u))+((c2_2 y z w a b u)*(c3_16 y z w a b u)))+((-1)*(c4_18 y z w a b u))) := by
   simp only [innerCertificate18,evaluate_add,evaluate_multiply,evaluate,
@@ -2076,7 +2055,8 @@ set_option linter.unnecessarySeqFocus false
 namespace SmallLevelTwentySixMMPPariTrace013
 open SmallLevelPolynomialCoefficientCertificate
 compact_certificate_declaration theorem certificate_length (y z w a b u : ℂ) : (certificate y z w a b u).length=19 := by
-  norm_num [certificate,add,multiply,scale,coefficients0,coefficients1,coefficients2,coefficients3,coefficients4,coefficients5,coefficients6]
+  simp only [certificate, length_add, length_multiply, length_scale]
+  norm_num [coefficients0,coefficients1,coefficients2,coefficients3,coefficients4,coefficients5,coefficients6, List.length_cons, List.length_nil]
 
 end SmallLevelTwentySixMMPPariTrace013
 end
@@ -2108,3 +2088,4 @@ compact_certificate_declaration theorem identity_shift (x y z w a b u : ℂ) :
 end SmallLevelTwentySixMMPPariTrace013
 end
 end
+

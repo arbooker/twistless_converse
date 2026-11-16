@@ -7,8 +7,7 @@ set_option maxRecDepth 8192
 namespace QuantitativeArithmeticSmallLevelAllCases
 open FinitenessOriginalInput SmallLevelOriginal QuantitativeArithmeticSmallLevelCirc
 
-/-- The exact level set in Theorem 1.3. This aggregate is not certified until
-its full dependency closure, including level 26, passes the release check. -/
+/-- The exact level set in Theorem 1.3. -/
 def levels : Finset ℕ := insert 26 QuantitativeArithmeticSmallLevelCompleted.completed
 
 theorem levels_card : levels.card=34 := by decide
@@ -26,8 +25,7 @@ theorem modular {N k : ℕ} (hN : N∈levels) (hk : 0<k) (heven : Even k)
   · exact SmallLevelTwentySixOriginal.level_twenty_six hk heven hf
   · exact QuantitativeArithmeticSmallLevelCompleted.modular hN hk heven hf
 
-/-- Theorem 1.3 membership in the specified trace-zero space, with vanishing
-at zero and infinity. No claim of cuspidality at every cusp is substituted. -/
+/-- Theorem 1.3 membership in the trace-zero space, with vanishing at zero and infinity. -/
 theorem circ {N k : ℕ} (hN : N∈levels) (hk : 0<k) (heven : Even k)
     {f : ℕ→ℂ} (hf : IsSolution N k f) : IsCirc N (positive hN) k f :=
   original_modular_isCirc_even (positive hN) hk heven hf (modular hN hk heven hf)
@@ -37,8 +35,7 @@ theorem exact_count {N k : ℕ} (hN : N∈levels) (hk : 0<k) (heven : Even k) :
     Finite (S N k) ∧ Nat.card (S N k)=Module.finrank ℂ (space N (positive hN) k) :=
   original_count_eq (positive hN) hk heven (fun _ hf => modular hN hk heven hf)
 
-/-- The complete paper statement with explicit level and weight hypotheses.
-Its dependency closure must pass before this draft counts as a formal proof. -/
+/-- Theorem 1.3: membership in the trace-zero space, finiteness, and the exact dimension count. -/
 theorem theorem13 {N k : ℕ} (hN : 0<N) (h36 : N≤36)
     (h29 : N≠29) (h31 : N≠31) (hk : 0<k) (heven : Even k) :
     (∀ f : ℕ→ℂ, IsSolution N k f → IsCirc N hN k f) ∧

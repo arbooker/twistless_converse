@@ -1,4 +1,0 @@
-'QuantitativeArithmeticRadicalCountTheorem.radical_level_endpoint' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'QuantitativeArithmeticRadicalCountTheorem.literal_endpoint' depends on axioms: [propext, Classical.choice, Quot.sound]

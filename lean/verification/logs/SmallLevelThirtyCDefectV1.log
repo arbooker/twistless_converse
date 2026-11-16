@@ -1,2 +1,0 @@
-'SmallLevelThirtyC.actual_defect_square' depends on axioms: [propext, Classical.choice, Quot.sound]
-

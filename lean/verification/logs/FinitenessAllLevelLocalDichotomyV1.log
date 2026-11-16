@@ -1,3 +1,0 @@
-'FinitenessAllLevelPolynomialPresentation.Presentation.RootModel.local_dichotomy' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

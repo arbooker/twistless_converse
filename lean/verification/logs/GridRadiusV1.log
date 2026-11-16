@@ -1,2 +1,0 @@
-'GridRadius.grid_radius' depends on axioms: [propext, Classical.choice, Quot.sound]
-'GridRadius.order_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]

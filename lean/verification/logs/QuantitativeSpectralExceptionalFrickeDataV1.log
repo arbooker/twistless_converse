@@ -1,2 +1,0 @@
-'QuantitativeSpectralExceptionalFricke.residualData' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeSpectralExceptionalFricke.ResidualData.norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]

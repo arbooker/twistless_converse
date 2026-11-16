@@ -1,4 +1,0 @@
-'SmallLevelFifteen.actual_B_action' depends on axioms: [propext, Classical.choice, Quot.sound]
-'SmallLevelFifteen.defect_eigen' depends on axioms: [propext, Classical.choice, Quot.sound]
-'SmallLevelFifteen.actual_defect_square' depends on axioms: [propext, Classical.choice, Quot.sound]
-

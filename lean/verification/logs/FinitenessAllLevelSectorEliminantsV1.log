@@ -1,6 +1,0 @@
-'FinitenessAllLevelPolynomialPresentation.Presentation.connected_restriction' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'FinitenessAllLevelConstraintLocus.sector_analytic_eliminants' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

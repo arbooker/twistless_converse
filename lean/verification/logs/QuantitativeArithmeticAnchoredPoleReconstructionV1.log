@@ -1,3 +1,0 @@
-'QuantitativeArithmeticAnchoredPoleReconstruction.difference_has_analytic_germ' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

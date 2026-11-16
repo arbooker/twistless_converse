@@ -1,3 +1,0 @@
-'SmallLevelThirtySix.scaledFunction_holomorphic' depends on axioms: [propext, Classical.choice, Quot.sound]
-'SmallLevelThirtySix.obstruction_holomorphic' depends on axioms: [propext, Classical.choice, Quot.sound]
-'SmallLevelThirtySix.original_orbit_data' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,4 +1,5 @@
 module
+public meta import SmallLevelCertificateBatchCommandV1
 
 public import Mathlib.Analysis.Complex.Basic
 public import Mathlib.LinearAlgebra.Matrix.Notation
@@ -19,6 +20,9 @@ public import QuantitativeArithmeticSmallLevelNineteenPoleLeadingCaseIndexRowsIn
 public import QuantitativeArithmeticSmallLevelNineteenPoleLeadingCaseIndexRowsIndexPieceIndexDirectTypedSeriesV4
 public import QuantitativeArithmeticSmallLevelNineteenTheoryV4
 public meta import QuantitativeArithmeticCompactCommandsV1
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
+set_option linter.unnecessarySeqFocus false
 
 /-! Consolidated chapter: QuantitativeArithmeticSmallLevelNineteenPoleLeading. Original declarations and local scopes are retained. -/
 
@@ -31,6 +35,7 @@ set_option maxRecDepth 6000
 set_option linter.unusedVariables false
 @[expose] public noncomputable section
 namespace QuantitativeArithmeticSmallLevelNineteenPoleLeading
+certificate_batch {
 theorem pivot0_754 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (ha : a≠0) (v : Fin 114→ℂ)
     (hi : ((1))*v 54=0)
     : ((1))*v 54=0 := by
@@ -77,6 +82,8 @@ theorem pivot0_1189 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (ha
     : ((1))*v 2=0 := by
   linear_combination (norm := (field_simp [hx,hy,hz,ha]; all_goals ring1)) ((1))*(hi-((-1))*hp946)
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenPoleLeading
 end
 end
@@ -90,6 +97,7 @@ set_option maxRecDepth 6000
 set_option linter.unusedVariables false
 @[expose] public noncomputable section
 namespace QuantitativeArithmeticSmallLevelNineteenPoleLeading
+certificate_batch {
 theorem pivot0_3369 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (ha : a≠0) (v : Fin 114→ℂ)
     (hi : (((1))/(x^2))*v 18 + ((1))*v 33 + (((-1)*a)/(x))*v 66 + ((1))*v 90=0)
     (hp2704 : ((1))*v 18 + ((1))*v 66=0)
@@ -185,6 +193,8 @@ theorem pivot0_3481 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (ha
     : ((1))*v 21 + ((1))*v 42 + ((1))*v 72 + ((1))*v 93=0 := by
   linear_combination (norm := (field_simp [hx,hy,hz,ha]; all_goals ring1)) ((1))*(hi-((1))*hp3369-((1))*hp3343-((1))*hp3323-((1))*hp3303-(((-1)*x^2 + (1))/(x^2))*hp3249-(((-1)*x^2 + (1))/(x^2))*hp3195-((y^2)/(x^2))*hp3155-((y^2)/(x^2))*hp3115-((1))*hp3045-((1))*hp3011-(((2))/(x^2))*hp2862-(((1))/(x^2))*hp2774-(((3))/(x^2))*hp2704-((1))*hp2552-((1))*hp2443-(((1))/(x^2))*hp2329-((1))*hp2281-((y^2)/(x^2))*hp2135-((1))*hp2013-((1))*hp1979-((1))*hp1887-(((1))/(x^2))*hp1807-((1))*hp1783-((1))*hp1750-((1))*hp1621-(((1))/(x^2))*hp1527-((1))*hp1472-(((1))/(x^2))*hp1374-(((1))/(x^2))*hp1228-(((1))/(x^2))*hp989-(((1))/(x^2))*hp849-(((1))/(x^2))*hp754)
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenPoleLeading
 end
 end
@@ -198,6 +208,7 @@ set_option maxRecDepth 6000
 set_option linter.unusedVariables false
 @[expose] public noncomputable section
 namespace QuantitativeArithmeticSmallLevelNineteenPoleLeading
+certificate_batch {
 theorem pivot0_3513 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (ha : a≠0) (v : Fin 114→ℂ)
     (hi : ((1))*v 7 + (((-1)*a)/(x))*v 14 + (((1))/(x^2))*v 28 + ((1))*v 64=0)
     (hp2921 : ((-1)*x^2 + (-1)*x*a + (-1))*v 18 + ((1))*v 36=0)
@@ -271,6 +282,8 @@ theorem pivot0_3651 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (ha
     : ((x^3*y^2 + x^2*y^2*a + x^2*a + x*y^2 + x*a^2 + (-1)*x + a)/(x*y^2))*v 18 + ((a)/(x))*v 42 + (((1))/(x^2))*v 46 + ((1))*v 97=0 := by
   linear_combination (norm := (field_simp [hx,hy,hz,ha]; all_goals ring1)) ((1))*(hi-(((-1)*a)/(x))*hp3079-((1))*hp2975)
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenPoleLeading
 end
 end
@@ -284,6 +297,7 @@ set_option maxRecDepth 6000
 set_option linter.unusedVariables false
 @[expose] public noncomputable section
 namespace QuantitativeArithmeticSmallLevelNineteenPoleLeading
+certificate_batch {
 theorem pivot0_3659 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (ha : a≠0) (v : Fin 114→ℂ)
     (hi : ((1))*v 44 + (((1))/(x^2))*v 62 + (((-1)*a)/(x))*v 88 + ((1))*v 101=0)
     (hp3556 : (x^2 + x*a + (1))*v 18 + ((x^3*a + x^2*a^2 + x*a + (1))/(x^3*a))*v 42 + ((x^2*a + x + a)/(x^2*a))*v 72 + ((1))*v 93=0)
@@ -435,6 +449,8 @@ theorem pivot0_3840 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (ha
     : (((-1)*x^11*a + (-2)*x^10*a^2 + x^9*y*a*b + (-1)*x^9*a^3 + x^8*y*a^2*b + (-1)*x^8*a^2 + x^8 + x^7*y*a*b + (-2)*x^7*a^3 + (2)*x^7*a + (-1)*x^6*y^2 + x^6*y*a^2*b + (-1)*x^6*y*b + (-1)*x^6*a^4 + (-2)*x^6*a^2 + x^6 + (-1)*x^5*y^2*a + x^5*y*a^3*b + (-2)*x^5*a^3 + (-1)*x^4*y^2 + (4)*x^4*y*a^2*b + (-2)*x^4*y*b + x^4*z + (-1)*x^4*a^2 + (2)*x^4 + (-1)*x^3*y^3*a*b + (-2)*x^3*y^2*a + (2)*x^3*y*a^3*b + (-1)*x^3*y*a*b + x^3*z*a + (2)*x^3*a + x^2*y^2 + x^2*y*a^2*b + (2)*x^2 + (-1)*x*y*a*b + (2)*x*a + (-1))/(x^4*y^2))*v 18 + (((-1)*x^10*a^2 + (-2)*x^9*a^3 + x^9*a + x^8*y*a^2*b + (-1)*x^8*a^4 + x^7*y*a^3*b + (-1)*x^7*a + (-1)*x^5*y^2*a + (-1)*x^5*y*a^3*b + x^5*y*a*b + (-2)*x^5*a^3 + (2)*x^5*a + x^4*y^2*a^2*b^2 + (-1)*x^4*y^2*a^2 + (2)*x^4*y*a^2*b + x^4*y*b + (-2)*x^4*a^4 + (2)*x^4*a^2 + x^3*y^2*a*b^2 + (-1)*x^3*y^2*a + x^3*y*a*b + (-1)*x^3*a^3 + (-1)*x^3*a + (-1)*x^2*y*b + (2)*x^2 + (2)*x*a + (-1))/(x^5*y^2*a))*v 42 + (((-1)*x^9*a^2 + (-1)*x^8*a^3 + x^7*y*a^2*b + (-1)*x^7*a^2 + (-1)*x^6*a^3 + x^6*a + (-1)*x^5*y*a^2*b + x^5*y*b + (2)*x^5*a^2 + x^4*y^2*a*b^2 + (-1)*x^4*y^2*a + (-1)*x^4*y*a^3*b + (3)*x^4*y*a*b + (-2)*x^4*a + x^3*y^2*a^2*b^2 + x^3*y*a^2*b + (-1)*x^3*y*b + (-3)*x^3*a^2 + (2)*x^3 + (-1)*x^2*y*a*b + (-2)*x^2*a^3 + (5)*x^2*a + (2)*x*a^2 + (-1)*x + (-1)*a)/(x^4*y^2*a))*v 72 + ((1))*v 92=0 := by
   linear_combination (norm := (field_simp [hx,hy,hz,ha]; all_goals ring1)) ((1))*(hi-((1))*hp3816-(((-1)*x*a + (1))/(y^2))*hp3742-((1))*hp3691-((-1))*hp3659-((-1))*hp3607-(((-2)*x^2)/(y^2))*hp3556-((x^2)/(y^2))*hp3481-((1))*hp3463-((1))*hp3439-((1))*hp3403-(((2))/(y^2))*hp3249-(((1))/(y^2))*hp3195-((1))*hp3155-((1))*hp3079-((1))*hp2993-(((1))/(y^2))*hp2921-(((1))/(y^2))*hp2862-((1))*hp2826-(((1))/(y^2))*hp2774-(((-1)*z + (1))/(y^2))*hp2704-((1))*hp2622-((1))*hp2496-((1))*hp2392-((1))*hp2135-((1))*hp1863-(((1))/(y^2))*hp1807-((1))*hp1726-(((1))/(y^2))*hp1527-((1))*hp1440-(((1))/(y^2))*hp1374-((1))*hp1337-(((1))/(y^2))*hp1228-(((1))/(y^2))*hp1115-(((1))/(y^2))*hp989-(((1))/(y^2))*hp849-(((1))/(y^2))*hp754)
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenPoleLeading
 end
 end
@@ -448,6 +464,7 @@ set_option maxRecDepth 6000
 set_option linter.unusedVariables false
 @[expose] public noncomputable section
 namespace QuantitativeArithmeticSmallLevelNineteenPoleLeading
+certificate_batch {
 theorem pivot0_1228 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (ha : a≠0) (v : Fin 114→ℂ)
     (hi : ((1))*v 102 + ((-1))*v 108=0)
     (hp1115 : ((1))*v 102=0)
@@ -494,6 +511,8 @@ theorem pivot0_1527 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (ha
     : ((1))*v 0=0 := by
   linear_combination (norm := (field_simp [hx,hy,hz,ha]; all_goals ring1)) ((1))*(hi)
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenPoleLeading
 end
 end
@@ -507,6 +526,7 @@ set_option maxRecDepth 6000
 set_option linter.unusedVariables false
 @[expose] public noncomputable section
 namespace QuantitativeArithmeticSmallLevelNineteenPoleLeading
+certificate_batch {
 theorem pivot0_1621 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (ha : a≠0) (v : Fin 114→ℂ)
     (hi : ((1))*v 0 + ((-1)*x^2)*v 57=0)
     (hp1527 : ((1))*v 0=0)
@@ -549,6 +569,8 @@ theorem pivot0_1807 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (ha
     : ((-1))*v 18 + ((1))*v 48=0 := by
   linear_combination (norm := (field_simp [hx,hy,hz,ha]; all_goals ring1)) ((1))*(hi)
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenPoleLeading
 end
 end
@@ -562,6 +584,7 @@ set_option maxRecDepth 6000
 set_option linter.unusedVariables false
 @[expose] public noncomputable section
 namespace QuantitativeArithmeticSmallLevelNineteenPoleLeading
+certificate_batch {
 theorem pivot0_1863 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (ha : a≠0) (v : Fin 114→ℂ)
     (hi : (((-1)*x^2)/(y^2))*v 21 + ((1))*v 50=0)
     : (((-1)*x^2)/(y^2))*v 21 + ((1))*v 50=0 := by
@@ -603,6 +626,8 @@ theorem pivot0_2046 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (ha
     : ((1))*v 10 + (((-1))/(y^2))*v 72=0 := by
   linear_combination (norm := (field_simp [hx,hy,hz,ha]; all_goals ring1)) (((-1))/(y^2))*(hi)
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenPoleLeading
 end
 end
@@ -616,6 +641,7 @@ set_option maxRecDepth 6000
 set_option linter.unusedVariables false
 @[expose] public noncomputable section
 namespace QuantitativeArithmeticSmallLevelNineteenPoleLeading
+certificate_batch {
 theorem pivot0_2078 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (ha : a≠0) (v : Fin 114→ℂ)
     (hi : ((-1)*x^2*y^2)*v 11 + ((1))*v 90=0)
     : ((1))*v 11 + (((-1))/(x^2*y^2))*v 90=0 := by
@@ -661,6 +687,8 @@ theorem pivot0_2262 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (ha
     : (((-1))/(x^2))*v 104 + ((1))*v 107=0 := by
   linear_combination (norm := (field_simp [hx,hy,hz,ha]; all_goals ring1)) (((-1))/(x^2))*(hi)
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenPoleLeading
 end
 end
@@ -674,6 +702,7 @@ set_option maxRecDepth 6000
 set_option linter.unusedVariables false
 @[expose] public noncomputable section
 namespace QuantitativeArithmeticSmallLevelNineteenPoleLeading
+certificate_batch {
 theorem pivot0_2281 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (ha : a≠0) (v : Fin 114→ℂ)
     (hi : ((1))*v 7 + (((-1))/(x^2*y^2))*v 72=0)
     (hp2187 : ((1))*v 7 + (((-1))/(y^2))*v 99=0)
@@ -717,6 +746,8 @@ theorem pivot0_2552 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (ha
     : ((1))*v 69 + (((-1)*y^2)/(x^2))*v 98=0 := by
   linear_combination (norm := (field_simp [hx,hy,hz,ha]; all_goals ring1)) ((1))*(hi)
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenPoleLeading
 end
 end
@@ -730,6 +761,7 @@ set_option maxRecDepth 6000
 set_option linter.unusedVariables false
 @[expose] public noncomputable section
 namespace QuantitativeArithmeticSmallLevelNineteenPoleLeading
+certificate_batch {
 theorem pivot0_2578 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (ha : a≠0) (v : Fin 114→ℂ)
     (hi : ((1))*v 78 + ((-1)*y^2)*v 100=0)
     : (((-1))/(y^2))*v 78 + ((1))*v 100=0 := by
@@ -776,6 +808,8 @@ theorem pivot0_2774 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (ha
     : ((1))*v 36 + ((1))*v 78=0 := by
   linear_combination (norm := (field_simp [hx,hy,hz,ha]; all_goals ring1)) (((-1)*x^2*y^2)/(z))*(hi-((1))*hp2692-((1))*hp2680)
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenPoleLeading
 end
 end
@@ -789,6 +823,7 @@ set_option maxRecDepth 6000
 set_option linter.unusedVariables false
 @[expose] public noncomputable section
 namespace QuantitativeArithmeticSmallLevelNineteenPoleLeading
+certificate_batch {
 theorem pivot0_2826 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (ha : a≠0) (v : Fin 114→ℂ)
     (hi : (((1))/(z))*v 0 + ((1))*v 20 + (((1))/(z))*v 76 + ((1))*v 96=0)
     (hp2704 : ((1))*v 18 + ((1))*v 66=0)
@@ -854,6 +889,8 @@ theorem pivot0_3029 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (ha
     : ((1))*v 28 + ((1))*v 85=0 := by
   linear_combination (norm := (field_simp [hx,hy,hz,ha]; all_goals ring1)) ((1))*(hi-(((-1)*a)/(x))*hp1337-(((1))/(x^2))*hp1306)
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenPoleLeading
 end
 end
@@ -867,6 +904,7 @@ set_option maxRecDepth 6000
 set_option linter.unusedVariables false
 @[expose] public noncomputable section
 namespace QuantitativeArithmeticSmallLevelNineteenPoleLeading
+certificate_batch {
 theorem pivot0_3037 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (ha : a≠0) (v : Fin 114→ℂ)
     (hi : (((1))/(x^2))*v 2 + ((1))*v 29 + (((-1)*a)/(x))*v 58 + ((1))*v 86=0)
     (hp1189 : ((1))*v 2=0)
@@ -930,6 +968,8 @@ theorem pivot0_3147 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (ha
     : ((x^2*y^2 + (-1)*x*a + y^2 + (-1))/(x^2*y^2))*v 18 + ((1))*v 67 + (((1))/(y^2))*v 72=0 := by
   linear_combination (norm := (field_simp [hx,hy,hz,ha]; all_goals ring1)) ((1))*(hi-(((1))/(x^2))*hp2975-(((-1)*a)/(x))*hp2826-((1))*hp2046)
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenPoleLeading
 end
 end
@@ -943,6 +983,7 @@ set_option maxRecDepth 6000
 set_option linter.unusedVariables false
 @[expose] public noncomputable section
 namespace QuantitativeArithmeticSmallLevelNineteenPoleLeading
+certificate_batch {
 theorem pivot0_3155 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (ha : a≠0) (v : Fin 114→ℂ)
     (hi : ((1))*v 12 + (((-1)*a)/(x))*v 24 + (((1))/(x^2))*v 48 + ((1))*v 69=0)
     (hp2862 : ((1))*v 24 + ((1))*v 90=0)
@@ -1016,6 +1057,8 @@ theorem pivot0_3361 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (ha
     : ((1))*v 26 + (((-1))/(y^2))*v 72 + ((1))*v 83=0 := by
   linear_combination (norm := (field_simp [hx,hy,hz,ha]; all_goals ring1)) ((1))*(hi-(((-1)*a)/(x*y^2))*hp3195-(((1))/(x^2))*hp2392-(((-1)*a)/(x))*hp1922)
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenPoleLeading
 end
 end
@@ -1036,6 +1079,7 @@ set_option maxRecDepth 6000
 
 /-! Consolidated certificate family; original declaration bodies retained. -/
 namespace QuantitativeArithmeticSmallLevelNineteenPoleLeading
+certificate_batch {
 
 compact_certificate theorem pivot1_1770 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (v : Fin 114→ℂ)
     (hi : (((-1:ℂ)*y^(2:ℕ))/(x^(2:ℕ)))*v 16 + ((1:ℂ))*v 45=0)
@@ -1711,6 +1755,8 @@ compact_certificate theorem residual1_3822 (x y z a b : ℂ) (hx : x≠0) (hy : 
     ((x^(10:ℕ)*y^(2:ℕ) + (-1:ℂ)*x^(8:ℕ)*y^(2:ℕ) + x^(6:ℕ)*y^(4:ℕ) + x^(6:ℕ)*y^(3:ℕ)*b + (-2:ℂ)*x^(6:ℕ)*y^(2:ℕ) + x^(6:ℕ) + x^(4:ℕ)*y^(3:ℕ)*b + (-1:ℂ)*x^(4:ℕ)*y^(2:ℕ)*z + (-1:ℂ)*x^(4:ℕ)*y^(2:ℕ) + x^(2:ℕ)*y^(4:ℕ) + (-1:ℂ)*y^(4:ℕ) + (-1:ℂ)*y^(2:ℕ) + (-1:ℂ))/(y^(4:ℕ)))*v 18 + ((x^(10:ℕ)*y^(2:ℕ) + (-2:ℂ)*x^(8:ℕ)*y^(2:ℕ) + x^(6:ℕ)*y^(2:ℕ) + x^(4:ℕ)*y^(4:ℕ) + (-1:ℂ)*x^(4:ℕ)*y*b + (-1:ℂ)*x^(4:ℕ) + (-1:ℂ)*x^(2:ℕ)*y^(2:ℕ) + x^(2:ℕ)*y*b + (2:ℂ)*x^(2:ℕ) + y^(2:ℕ) + (-1:ℂ))/(x^(2:ℕ)*y^(4:ℕ)))*v 42 + (((-1:ℂ)*x^(6:ℕ)*y^(2:ℕ) + x^(4:ℕ)*y^(2:ℕ) + (-1:ℂ)*x^(2:ℕ) + (1:ℂ))/(y^(4:ℕ)))*v 84=0 := by
   linear_combination (norm := (field_simp [hx,hy,hz]; ring1)) ((1:ℂ))*hprev
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenPoleLeading
 end
 
@@ -1727,6 +1773,7 @@ set_option maxRecDepth 6000
 
 /-! Consolidated certificate family; original declaration bodies retained. -/
 namespace QuantitativeArithmeticSmallLevelNineteenPoleLeading
+certificate_batch {
 
 compact_certificate theorem residual3_3644 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (v : Fin 114→ℂ) (hprev : ((x^(10:ℕ)*y^(2:ℕ) + (-1:ℂ)*x^(8:ℕ)*y^(2:ℕ) + x^(6:ℕ)*y^(4:ℕ) + x^(6:ℕ)*y^(3:ℕ)*b + (-2:ℂ)*x^(6:ℕ)*y^(2:ℕ) + x^(6:ℕ) + x^(4:ℕ)*y^(3:ℕ)*b + (-1:ℂ)*x^(4:ℕ)*y^(2:ℕ)*z + x^(4:ℕ)*y^(2:ℕ) + x^(2:ℕ)*y^(4:ℕ) + (-1:ℂ)*y^(4:ℕ) + (-1:ℂ)*y^(2:ℕ) + (-1:ℂ))/(y^(4:ℕ)))*v 18 + ((x^(10:ℕ)*y^(2:ℕ) + (-2:ℂ)*x^(8:ℕ)*y^(2:ℕ) + x^(6:ℕ)*y^(2:ℕ) + x^(4:ℕ)*y^(4:ℕ) + (-1:ℂ)*x^(4:ℕ)*y*b + (-1:ℂ)*x^(4:ℕ) + (-1:ℂ)*x^(2:ℕ)*y^(2:ℕ) + x^(2:ℕ)*y*b + (2:ℂ)*x^(2:ℕ) + y^(2:ℕ) + (-1:ℂ))/(x^(2:ℕ)*y^(4:ℕ)))*v 42 + (((-1:ℂ)*x^(6:ℕ)*y^(2:ℕ) + x^(4:ℕ)*y^(2:ℕ) + (-1:ℂ)*x^(2:ℕ) + (1:ℂ))/(y^(4:ℕ)))*v 84=0) :
     ((x^(10:ℕ)*y^(2:ℕ) + (-1:ℂ)*x^(8:ℕ)*y^(2:ℕ) + x^(6:ℕ)*y^(4:ℕ) + x^(6:ℕ)*y^(3:ℕ)*b + (-2:ℂ)*x^(6:ℕ)*y^(2:ℕ) + x^(6:ℕ) + x^(4:ℕ)*y^(3:ℕ)*b + (-1:ℂ)*x^(4:ℕ)*y^(2:ℕ)*z + x^(4:ℕ)*y^(2:ℕ) + x^(2:ℕ)*y^(4:ℕ) + (-1:ℂ)*y^(4:ℕ) + (-1:ℂ)*y^(2:ℕ) + (-1:ℂ))/(y^(4:ℕ)))*v 18 + ((x^(10:ℕ)*y^(2:ℕ) + (-2:ℂ)*x^(8:ℕ)*y^(2:ℕ) + x^(6:ℕ)*y^(2:ℕ) + x^(4:ℕ)*y^(4:ℕ) + (-1:ℂ)*x^(4:ℕ)*y*b + (-1:ℂ)*x^(4:ℕ) + (-1:ℂ)*x^(2:ℕ)*y^(2:ℕ) + x^(2:ℕ)*y*b + (2:ℂ)*x^(2:ℕ) + y^(2:ℕ) + (-1:ℂ))/(x^(2:ℕ)*y^(4:ℕ)))*v 42 + (((-1:ℂ)*x^(6:ℕ)*y^(2:ℕ) + x^(4:ℕ)*y^(2:ℕ) + (-1:ℂ)*x^(2:ℕ) + (1:ℂ))/(y^(4:ℕ)))*v 84=0 := by
@@ -1870,6 +1917,8 @@ compact_certificate theorem residual3_3711 (x y z a b : ℂ) (hx : x≠0) (hy : 
     ((y^(2:ℕ) + (1:ℂ))/(x^(2:ℕ)*y^(2:ℕ)))*v 18 + (((-1:ℂ)*x^(2:ℕ) + (1:ℂ))/(x^(4:ℕ)*y^(2:ℕ)))*v 42 + ((x^(2:ℕ) + (-1:ℂ))/(x^(2:ℕ)*y^(2:ℕ)))*v 84=0 := by
   linear_combination (norm := (field_simp [hx,hy,hz]; ring1)) ((1:ℂ))*hprev
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenPoleLeading
 end
 end
@@ -1883,6 +1932,7 @@ set_option maxRecDepth 8192
 @[expose] public noncomputable section
 /-! Consolidated certificate family; original declaration bodies retained. -/
 namespace QuantitativeArithmeticSmallLevelNineteenPoleLeading
+certificate_batch {
 
 theorem pivot3_1722 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (v : Fin 114→ℂ)
     (hi : (((-1:ℂ)*y^(2:ℕ))/(x^(2:ℕ)))*v 16 + ((1:ℂ))*v 45=0)
@@ -2416,6 +2466,8 @@ theorem residual3_3638 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) 
     : (((-1:ℂ)*x^(2:ℕ)*y*b + (-1:ℂ)*x^(2:ℕ) + y*b + (1:ℂ))/(x^(4:ℕ)*y^(2:ℕ)))*v 42=0 := by
   exact residual1_3760 x y z a b hx hy hz v hi hp3599 hp3324 hp2941 hp2933 hp2904 hp2513 hp2202
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenPoleLeading
 end
 end
@@ -2431,6 +2483,7 @@ set_option maxRecDepth 6000
 set_option linter.unusedVariables false
 
 namespace QuantitativeArithmeticSmallLevelNineteenPoleLeading
+certificate_batch {
 def selectedRows0 (x y z a b : ℂ) (v : Fin 114→ℂ) : Fin 138→ℂ :=
   ![((1:ℂ))*v 0 + ((-1:ℂ)*x^(2:ℕ))*v 57,
     ((1:ℂ))*v 6 + ((-1:ℂ)*y^(2:ℕ))*v 58,
@@ -3186,6 +3239,8 @@ def residualRows3 (x y z a b : ℂ) (v : Fin 114→ℂ) : Fin 43→ℂ :=
     ((x^(10:ℕ)*y^(2:ℕ) + (-1:ℂ)*x^(8:ℕ)*y^(2:ℕ) + x^(6:ℕ)*y^(4:ℕ) + x^(6:ℕ)*y^(3:ℕ)*b + (-2:ℂ)*x^(6:ℕ)*y^(2:ℕ) + x^(6:ℕ) + x^(4:ℕ)*y^(3:ℕ)*b + (-1:ℂ)*x^(4:ℕ)*y^(2:ℕ)*z + x^(4:ℕ)*y^(2:ℕ) + x^(2:ℕ)*y^(4:ℕ) + (-1:ℂ)*y^(4:ℕ) + (-1:ℂ)*y^(2:ℕ) + (-1:ℂ))/(y^(4:ℕ)))*v 18 + ((x^(10:ℕ)*y^(2:ℕ) + (-2:ℂ)*x^(8:ℕ)*y^(2:ℕ) + x^(6:ℕ)*y^(2:ℕ) + x^(4:ℕ)*y^(4:ℕ) + (-1:ℂ)*x^(4:ℕ)*y*b + (-1:ℂ)*x^(4:ℕ) + (-1:ℂ)*x^(2:ℕ)*y^(2:ℕ) + x^(2:ℕ)*y*b + (2:ℂ)*x^(2:ℕ) + y^(2:ℕ) + (-1:ℂ))/(x^(2:ℕ)*y^(4:ℕ)))*v 42 + (((-1:ℂ)*x^(6:ℕ)*y^(2:ℕ) + x^(4:ℕ)*y^(2:ℕ) + (-1:ℂ)*x^(2:ℕ) + (1:ℂ))/(y^(4:ℕ)))*v 84,
     ((y^(2:ℕ) + (1:ℂ))/(x^(2:ℕ)*y^(2:ℕ)))*v 18 + (((-1:ℂ)*x^(2:ℕ) + (1:ℂ))/(x^(4:ℕ)*y^(2:ℕ)))*v 42 + ((x^(2:ℕ) + (-1:ℂ))/(x^(2:ℕ)*y^(2:ℕ)))*v 84]
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenPoleLeading
 end
 end
@@ -3212,6 +3267,7 @@ open QuantitativeArithmeticSmallLevelNineteenFullGroup
 open QuantitativeArithmeticSmallLevelNineteenFullRamanujan
 open QuantitativeArithmeticSmallLevelNineteenGridAnalytic (gridIndex)
 open QuantitativeArithmeticSmallLevelNineteenGridSystem (threePrimeMonomial symbolicHecke)
+certificate_batch {
 
 compact_certificate theorem identify0_0 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (v : Fin 114→ℂ) :
     selectedRows0 x y z a b v (0:Fin 138)=
@@ -4041,6 +4097,8 @@ compact_certificate theorem identify0_59 (x y z a b : ℂ) (hx : x≠0) (hy : y�
   change ((x^(2:ℕ))/(z))*v 19 + ((1:ℂ))*v 42 + ((x^(2:ℕ))/(z))*v 57 + ((1:ℂ))*v 80 = sumRow 3 (4) v - ((-1:ℂ) * threePrimeMonomial (2, 0, -1) x y z) * sumRow 3 (-19) v
   norm_num [threePrimeMonomial, symbolicHecke, sumRow, FinitenessRamanujanSum.residues, Finset.sum_filter, Finset.sum_range_succ, gridIndex] <;> field_simp [hx,hy,hz] <;> ring <;> simp
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenPoleLeading
 end
 
@@ -4062,6 +4120,7 @@ open QuantitativeArithmeticSmallLevelNineteenFullGroup
 open QuantitativeArithmeticSmallLevelNineteenFullRamanujan
 open QuantitativeArithmeticSmallLevelNineteenGridAnalytic (gridIndex)
 open QuantitativeArithmeticSmallLevelNineteenGridSystem (threePrimeMonomial symbolicHecke)
+certificate_batch {
 
 compact_certificate theorem identify1_0 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (v : Fin 114→ℂ) :
     selectedRows1 x y z a b v (0:Fin 154)=
@@ -4987,6 +5046,8 @@ compact_certificate theorem identify1_59 (x y z a b : ℂ) (hx : x≠0) (hy : y�
   change ((x^(2:ℕ))/(z))*v 19 + ((1:ℂ))*v 42 + ((x^(2:ℕ))/(z))*v 57 + ((1:ℂ))*v 80 = sumRow 3 (4) v - ((-1:ℂ) * threePrimeMonomial (2, 0, -1) x y z) * sumRow 3 (-19) v
   norm_num [threePrimeMonomial, symbolicHecke, sumRow, FinitenessRamanujanSum.residues, Finset.sum_filter, Finset.sum_range_succ, gridIndex] <;> field_simp [hx,hy,hz] <;> ring <;> simp
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenPoleLeading
 end
 
@@ -5008,6 +5069,7 @@ open QuantitativeArithmeticSmallLevelNineteenFullGroup
 open QuantitativeArithmeticSmallLevelNineteenFullRamanujan
 open QuantitativeArithmeticSmallLevelNineteenGridAnalytic (gridIndex)
 open QuantitativeArithmeticSmallLevelNineteenGridSystem (threePrimeMonomial symbolicHecke)
+certificate_batch {
 
 compact_certificate theorem identify2_0 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (v : Fin 114→ℂ) :
     selectedRows2 x y z a b v (0:Fin 138)=
@@ -5837,6 +5899,8 @@ compact_certificate theorem identify2_59 (x y z a b : ℂ) (hx : x≠0) (hy : y�
   change ((x^(2:ℕ))/(z))*v 19 + ((1:ℂ))*v 42 + ((x^(2:ℕ))/(z))*v 57 + ((1:ℂ))*v 80 = sumRow 3 (4) v - ((-1:ℂ) * threePrimeMonomial (2, 0, -1) x y z) * sumRow 3 (-19) v
   norm_num [threePrimeMonomial, symbolicHecke, sumRow, FinitenessRamanujanSum.residues, Finset.sum_filter, Finset.sum_range_succ, gridIndex] <;> field_simp [hx,hy,hz] <;> ring <;> simp
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenPoleLeading
 end
 
@@ -5858,6 +5922,7 @@ open QuantitativeArithmeticSmallLevelNineteenFullGroup
 open QuantitativeArithmeticSmallLevelNineteenFullRamanujan
 open QuantitativeArithmeticSmallLevelNineteenGridAnalytic (gridIndex)
 open QuantitativeArithmeticSmallLevelNineteenGridSystem (threePrimeMonomial symbolicHecke)
+certificate_batch {
 
 compact_certificate theorem identify3_0 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (v : Fin 114→ℂ) :
     selectedRows3 x y z a b v (0:Fin 154)=
@@ -6783,6 +6848,8 @@ compact_certificate theorem identify3_59 (x y z a b : ℂ) (hx : x≠0) (hy : y�
   change ((x^(2:ℕ))/(z))*v 19 + ((1:ℂ))*v 42 + ((x^(2:ℕ))/(z))*v 57 + ((1:ℂ))*v 80 = sumRow 3 (4) v - ((-1:ℂ) * threePrimeMonomial (2, 0, -1) x y z) * sumRow 3 (-19) v
   norm_num [threePrimeMonomial, symbolicHecke, sumRow, FinitenessRamanujanSum.residues, Finset.sum_filter, Finset.sum_range_succ, gridIndex] <;> field_simp [hx,hy,hz] <;> ring <;> simp
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenPoleLeading
 end
 end
@@ -6803,6 +6870,7 @@ open QuantitativeArithmeticSmallLevelNineteenFullGroup
 open QuantitativeArithmeticSmallLevelNineteenFullRamanujan
 open QuantitativeArithmeticSmallLevelNineteenGridAnalytic (gridIndex)
 open QuantitativeArithmeticSmallLevelNineteenGridSystem (threePrimeMonomial symbolicHecke)
+certificate_batch {
 theorem selected_agree0 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (v : Fin 114→ℂ) : selectedRows0 x y z a b v=
     (fun i => (symbolicRows (-1) (-1) x y z a b v) (inputIndex0 i)) := by
   funext i
@@ -6947,6 +7015,8 @@ theorem selected_agree0 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
   · exact identify0_137 x y z a b hx hy hz v
 
 #print axioms selected_agree0
+
+}
 end QuantitativeArithmeticSmallLevelNineteenPoleLeading
 end
 
@@ -6967,6 +7037,7 @@ open QuantitativeArithmeticSmallLevelNineteenFullGroup
 open QuantitativeArithmeticSmallLevelNineteenFullRamanujan
 open QuantitativeArithmeticSmallLevelNineteenGridAnalytic (gridIndex)
 open QuantitativeArithmeticSmallLevelNineteenGridSystem (threePrimeMonomial symbolicHecke)
+certificate_batch {
 theorem selected_agree1 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (v : Fin 114→ℂ) : selectedRows1 x y z a b v=
     (fun i => (symbolicRows (-1) (-1) x y z 0 b v) (inputIndex1 i)) := by
   funext i
@@ -7433,6 +7504,8 @@ theorem selected_agree3 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0)
   · exact identify3_153 x y z a b hx hy hz v
 
 #print axioms selected_agree3
+
+}
 end QuantitativeArithmeticSmallLevelNineteenPoleLeading
 end
 end
@@ -7452,6 +7525,7 @@ set_option maxRecDepth 8192
 
 /-! Consolidated certificate family; original declaration bodies retained. -/
 namespace QuantitativeArithmeticSmallLevelNineteenPoleLeading
+certificate_batch {
 
 compact_certificate theorem pivot1_754 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (v : Fin 114→ℂ)
     (hi : ((1:ℂ))*v 54=0)
@@ -7773,6 +7847,8 @@ compact_certificate theorem pivot1_3161 (x y z a b : ℂ) (hx : x≠0) (hy : y�
     : (((1:ℂ))/(x^(2:ℕ)*y^(2:ℕ)))*v 18 + ((1:ℂ))*v 37 + ((1:ℂ))*v 75=0 := by
   exact pivot0_3071 x y z 1 b hx hy hz one_ne_zero v hi hp2675 hp2595 hp1515
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenPoleLeading
 end
 
@@ -7783,6 +7859,7 @@ set_option maxRecDepth 8192
 
 /-! Consolidated certificate family; original declaration bodies retained. -/
 namespace QuantitativeArithmeticSmallLevelNineteenPoleLeading
+certificate_batch {
 
 compact_certificate theorem pivot2_754 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (ha : a≠0) (v : Fin 114→ℂ)
     (hi : ((1:ℂ))*v 54=0)
@@ -8691,6 +8768,8 @@ compact_certificate theorem pivot2_3245 (x y z a b : ℂ) (hx : x≠0) (hy : y�
     : ((1:ℂ))*v 26 + (((-1:ℂ))/(y^(2:ℕ)))*v 72 + ((1:ℂ))*v 83=0 := by
   exact pivot0_3361 x y z a b hx hy hz ha v hi hp3099 hp2328 hp1866
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenPoleLeading
 end
 
@@ -8701,6 +8780,7 @@ set_option maxRecDepth 8192
 
 /-! Consolidated certificate family; original declaration bodies retained. -/
 namespace QuantitativeArithmeticSmallLevelNineteenPoleLeading
+certificate_batch {
 
 compact_certificate theorem pivot3_754 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (v : Fin 114→ℂ)
     (hi : ((1:ℂ))*v 54=0)
@@ -9022,6 +9102,8 @@ compact_certificate theorem pivot3_3049 (x y z a b : ℂ) (hx : x≠0) (hy : y�
     : (((1:ℂ))/(x^(2:ℕ)*y^(2:ℕ)))*v 18 + ((1:ℂ))*v 37 + ((1:ℂ))*v 75=0 := by
   exact pivot0_3071 x y z 1 b hx hy hz one_ne_zero v hi hp2611 hp2531 hp1475
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenPoleLeading
 end
 end
@@ -9036,6 +9118,7 @@ set_option linter.unusedVariables false
 set_option maxRecDepth 8192
 
 namespace QuantitativeArithmeticSmallLevelNineteenPoleLeading
+certificate_batch {
 def matrixCase1Piece111_R0 (x y z a b : ℂ) : Fin 44 → ℂ := ![(((1:ℂ))*((1:ℂ))),((x^(2:ℕ)*y^(2:ℕ))*((1:ℂ))),(((1:ℂ))*((1:ℂ))),((x^(2:ℕ)*y^(2:ℕ))*((1:ℂ))),(((1:ℂ))*((1:ℂ))),((x^(2:ℕ)*y^(2:ℕ))*((1:ℂ))),(((1:ℂ))*((1:ℂ))),((x^(2:ℕ)*y^(2:ℕ))*((1:ℂ))),(((1:ℂ))*((1:ℂ))),0,((x^(2:ℕ)*y^(2:ℕ))*((1:ℂ))),(((1:ℂ))*((1:ℂ))),0,((x^(2:ℕ)*y^(2:ℕ))*((1:ℂ))),0,0,((x^(2:ℕ)*y^(2:ℕ))*((1:ℂ))),(((1:ℂ))*((1:ℂ))),((x^(2:ℕ)*y^(2:ℕ))*((1:ℂ))),(((1:ℂ))*((1:ℂ))),((x^(2:ℕ)*y^(2:ℕ))*((1:ℂ))),(((1:ℂ))*((1:ℂ))),((x^(2:ℕ)*y^(2:ℕ))*((1:ℂ))),(((1:ℂ))*((1:ℂ))),((x^(2:ℕ)*y^(2:ℕ))*((1:ℂ))),(((1:ℂ))*((1:ℂ))),((x^(2:ℕ)*y^(2:ℕ))*((1:ℂ))),(((1:ℂ))*((1:ℂ))),((x^(2:ℕ)*y^(2:ℕ))*((1:ℂ))),(((1:ℂ))*((1:ℂ))),((x^(2:ℕ)*y^(2:ℕ))*((1:ℂ))),(((1:ℂ))*((1:ℂ))),0,((x^(2:ℕ)*y^(2:ℕ))*((1:ℂ))),(((1:ℂ))*((1:ℂ))),0,0,((x^(2:ℕ)*y^(2:ℕ))*((1:ℂ))),(((1:ℂ))*((1:ℂ))),((x^(2:ℕ)*y^(2:ℕ))*((1:ℂ))),(((1:ℂ))*((1:ℂ))),0,((x^(2:ℕ)*y^(2:ℕ))*((1:ℂ))),(((1:ℂ))*((1:ℂ)))]
 def matrixCase1Piece111_R1 (x y z a b : ℂ) : Fin 44 → ℂ := ![0,0,0,0,0,0,((x^(2:ℕ))*((-1:ℂ)*x^(10:ℕ)*y^(2:ℕ) + x^(8:ℕ)*y^(2:ℕ) + (-1:ℂ)*x^(6:ℕ)*y^(4:ℕ) + (-1:ℂ)*x^(6:ℕ)*y^(3:ℕ)*b + (2:ℂ)*x^(6:ℕ)*y^(2:ℕ) + (-1:ℂ)*x^(6:ℕ) + (-2:ℂ)*x^(4:ℕ)*y^(3:ℕ)*b + x^(4:ℕ)*y^(2:ℕ)*z + (2:ℂ)*x^(4:ℕ)*y^(2:ℕ) + x^(2:ℕ)*y^(2:ℕ) + y^(4:ℕ) + y^(2:ℕ) + (1:ℂ))),0,0,0,0,0,0,0,0,0,0,(((1:ℂ))*(x^(8:ℕ)*y^(2:ℕ) + (-1:ℂ)*x^(6:ℕ)*y^(4:ℕ) + (-1:ℂ)*x^(6:ℕ)*y^(2:ℕ) + x^(4:ℕ)*y^(3:ℕ)*b + x^(4:ℕ)*y*b + x^(4:ℕ) + (-1:ℂ)*x^(2:ℕ)*y^(3:ℕ)*b + (-1:ℂ)*x^(2:ℕ)*y^(2:ℕ) + (-1:ℂ)*x^(2:ℕ)*y*b + (-2:ℂ)*x^(2:ℕ) + y^(2:ℕ) + (1:ℂ))),0,0,0,0,0,0,0,0,0,0,0,0,0,((x^(2:ℕ))*(x^(6:ℕ)*y^(2:ℕ) + (-1:ℂ)*x^(4:ℕ)*y^(2:ℕ) + (-1:ℂ)*x^(2:ℕ)*y^(2:ℕ) + x^(2:ℕ) + (-1:ℂ))),0,0,0,((x^(6:ℕ)*y^(4:ℕ))*((1:ℂ))),0,0,0,0,0,0,0,0]
 def matrixCase1Piece111_R2 (x y z a b : ℂ) : Fin 44 → ℂ := ![0,0,0,0,0,0,((x^(2:ℕ))*(x^(4:ℕ)*y*b + (-1:ℂ)*x^(2:ℕ) + (-1:ℂ)*y^(2:ℕ) + (-1:ℂ))),0,0,0,0,0,((x^(6:ℕ)*y^(2:ℕ))*((1:ℂ))),0,0,0,0,(((1:ℂ))*((-1:ℂ)*x^(4:ℕ)*y*b + x^(2:ℕ)*y*b + x^(2:ℕ) + (-1:ℂ))),0,0,0,0,0,0,0,0,0,0,0,0,0,((x^(2:ℕ))*((1:ℂ))),0,0,0,0,0,0,0,0,0,0,0,0]
@@ -9515,6 +9598,8 @@ def matrixCase3Piece149_A (x y z a b : ℂ) : Fin 9 → Fin 11 → ℂ := ![matr
 def matrixCase3Piece149_C (x y z a b : ℂ) : Fin 11 → ℂ := ![((x^(2:ℕ))*(x^(14:ℕ)*y^(2:ℕ) + x^(10:ℕ)*y^(4:ℕ) + x^(10:ℕ)*y^(3:ℕ)*b + (-3:ℂ)*x^(10:ℕ)*y^(2:ℕ) + x^(10:ℕ) + x^(8:ℕ)*y^(4:ℕ) + (2:ℂ)*x^(8:ℕ)*y^(3:ℕ)*b + (-1:ℂ)*x^(8:ℕ)*y^(2:ℕ)*z + (-1:ℂ)*x^(8:ℕ)*y^(2:ℕ) + x^(8:ℕ) + x^(6:ℕ)*y^(4:ℕ) + x^(6:ℕ)*y^(3:ℕ)*b + (-1:ℂ)*x^(6:ℕ)*y^(2:ℕ)*z + x^(6:ℕ)*y^(2:ℕ) + (-1:ℂ)*x^(4:ℕ)*y^(2:ℕ) + (-1:ℂ)*x^(4:ℕ) + (-1:ℂ)*x^(2:ℕ) + y^(4:ℕ) + y^(2:ℕ))),0,(((1:ℂ))*(x^(14:ℕ)*y^(2:ℕ) + (-1:ℂ)*x^(12:ℕ)*y^(2:ℕ) + (-1:ℂ)*x^(10:ℕ)*y^(2:ℕ) + x^(8:ℕ)*y^(4:ℕ) + x^(8:ℕ)*y^(2:ℕ) + (-1:ℂ)*x^(8:ℕ)*y*b + (-1:ℂ)*x^(8:ℕ) + x^(6:ℕ)*y^(4:ℕ) + x^(6:ℕ) + x^(4:ℕ)*y^(3:ℕ)*b + x^(4:ℕ)*y*b + x^(4:ℕ) + (-1:ℂ)*x^(2:ℕ)*y^(3:ℕ)*b + (-1:ℂ)*x^(2:ℕ)*y^(2:ℕ) + (-1:ℂ)*x^(2:ℕ) + y^(2:ℕ))),0,0,0,0,((x^(2:ℕ))*((-1:ℂ)*x^(10:ℕ)*y^(2:ℕ) + x^(6:ℕ)*y^(2:ℕ) + (-1:ℂ)*x^(6:ℕ) + x^(4:ℕ)*y^(2:ℕ) + x^(2:ℕ) + (-1:ℂ)*y^(2:ℕ))),0,0,0]
 def matrixCase3Piece149_w (x y z a b : ℂ) : Fin 9 → ℂ := ![(x^(6:ℕ)*y^(2:ℕ)),((-1:ℂ)*y^(2:ℕ)),(x^(6:ℕ)),((-1:ℂ)*x^(2:ℕ)),((-1:ℂ)*x^(6:ℕ)*y^(2:ℕ)),(x^(6:ℕ)*y^(3:ℕ)*b),(x^(6:ℕ)*y^(3:ℕ)*b),((-1:ℂ)*x^(6:ℕ)*y^(4:ℕ)),((-1:ℂ)*x^(6:ℕ)*y^(2:ℕ))]
 def matrixCase3Piece149_vv (v : Fin 114→ℂ) : Fin 11 → ℂ := ![v 18,v 32,v 42,v 46,v 60,v 66,v 70,v 84,v 90,v 96,v 108]
+
+}
 end QuantitativeArithmeticSmallLevelNineteenPoleLeading
 end
 end
@@ -9535,6 +9620,7 @@ set_option maxRecDepth 8192
 
 /-! Consolidated certificate family; original declaration bodies retained. -/
 namespace QuantitativeArithmeticSmallLevelNineteenPoleLeading
+certificate_batch {
 
 compact_certificate theorem matrixCase1Piece111_coordinate0 (x y z a b : ℂ) : (x^(4:ℕ)*y^(2:ℕ))*(matrixCase1Piece111_C x y z a b) (0:Fin 44) = ∑ i, (matrixCase1Piece111_w x y z a b) i * (matrixCase1Piece111_A x y z a b) i (0:Fin 44) := by
   exact (combination1_3812_0_bundled x y z a b).trans (QuantitativeArithmeticFiniteRowEvaluation.sum_42 (fun i => (matrixCase1Piece111_w x y z a b) i * (matrixCase1Piece111_A x y z a b) i (0:Fin 44))).symm
@@ -9630,6 +9716,8 @@ compact_certificate theorem matrixCase1Piece111_coordinate42 (x y z a b : ℂ) :
 compact_certificate theorem matrixCase1Piece111_coordinate43 (x y z a b : ℂ) : (x^(4:ℕ)*y^(2:ℕ))*(matrixCase1Piece111_C x y z a b) (43:Fin 44) = ∑ i, (matrixCase1Piece111_w x y z a b) i * (matrixCase1Piece111_A x y z a b) i (43:Fin 44) := by
   exact (combination1_3812_108_bundled x y z a b).trans (QuantitativeArithmeticFiniteRowEvaluation.sum_42 (fun i => (matrixCase1Piece111_w x y z a b) i * (matrixCase1Piece111_A x y z a b) i (43:Fin 44))).symm
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenPoleLeading
 end
 
@@ -9641,6 +9729,7 @@ set_option maxRecDepth 8192
 
 /-! Consolidated certificate family; original declaration bodies retained. -/
 namespace QuantitativeArithmeticSmallLevelNineteenPoleLeading
+certificate_batch {
 
 compact_certificate theorem matrixCase1Piece112_coordinate0 (x y z a b : ℂ) : ((1:ℂ))*(matrixCase1Piece112_C x y z a b) (0:Fin 39) = ∑ i, (matrixCase1Piece112_w x y z a b) i * (matrixCase1Piece112_A x y z a b) i (0:Fin 39) := by
   exact (combination1_3765_0_bundled x y z a b).trans (QuantitativeArithmeticFiniteRowEvaluation.sum_36 (fun i => (matrixCase1Piece112_w x y z a b) i * (matrixCase1Piece112_A x y z a b) i (0:Fin 39))).symm
@@ -9725,6 +9814,8 @@ compact_certificate theorem matrixCase1Piece112_coordinate37 (x y z a b : ℂ) :
 compact_certificate theorem matrixCase1Piece112_coordinate38 (x y z a b : ℂ) : ((1:ℂ))*(matrixCase1Piece112_C x y z a b) (38:Fin 39) = ∑ i, (matrixCase1Piece112_w x y z a b) i * (matrixCase1Piece112_A x y z a b) i (38:Fin 39) := by
   exact (combination1_3765_10_bundled8 x y z a b).trans (QuantitativeArithmeticFiniteRowEvaluation.sum_36 (fun i => (matrixCase1Piece112_w x y z a b) i * (matrixCase1Piece112_A x y z a b) i (38:Fin 39))).symm
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenPoleLeading
 end
 
@@ -9736,6 +9827,7 @@ set_option maxRecDepth 8192
 
 /-! Consolidated certificate family; original declaration bodies retained. -/
 namespace QuantitativeArithmeticSmallLevelNineteenPoleLeading
+certificate_batch {
 
 compact_certificate theorem matrixCase1Piece120_coordinate0 (x y z a b : ℂ) : (x^(4:ℕ))*(matrixCase1Piece120_C x y z a b) (0:Fin 78) = ∑ i, (matrixCase1Piece120_w x y z a b) i * (matrixCase1Piece120_A x y z a b) i (0:Fin 78) := by
   exact (combination1_3820_0_bundled x y z a b).trans (QuantitativeArithmeticFiniteRowEvaluation.sum_76 (fun i => (matrixCase1Piece120_w x y z a b) i * (matrixCase1Piece120_A x y z a b) i (0:Fin 78))).symm
@@ -9903,6 +9995,8 @@ compact_certificate theorem matrixCase1Piece120_coordinate76 (x y z a b : ℂ) :
 compact_certificate theorem matrixCase1Piece120_coordinate77 (x y z a b : ℂ) : (x^(4:ℕ))*(matrixCase1Piece120_C x y z a b) (77:Fin 78) = ∑ i, (matrixCase1Piece120_w x y z a b) i * (matrixCase1Piece120_A x y z a b) i (77:Fin 78) := by
   exact (combination1_3820_11_bundled3 x y z a b).trans (QuantitativeArithmeticFiniteRowEvaluation.sum_76 (fun i => (matrixCase1Piece120_w x y z a b) i * (matrixCase1Piece120_A x y z a b) i (77:Fin 78))).symm
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenPoleLeading
 end
 
@@ -9914,6 +10008,7 @@ set_option maxRecDepth 8192
 
 /-! Consolidated certificate family; original declaration bodies retained. -/
 namespace QuantitativeArithmeticSmallLevelNineteenPoleLeading
+certificate_batch {
 
 compact_certificate theorem matrixCase1Piece149_coordinate0 (x y z a b : ℂ) : ((1:ℂ))*(matrixCase1Piece149_C x y z a b) (0:Fin 11) = ∑ i, (matrixCase1Piece149_w x y z a b) i * (matrixCase1Piece149_A x y z a b) i (0:Fin 11) := by
   exact (combination1_3808_18_bundled x y z a b).trans (QuantitativeArithmeticFiniteRowEvaluation.sum_9 (fun i => (matrixCase1Piece149_w x y z a b) i * (matrixCase1Piece149_A x y z a b) i (0:Fin 11))).symm
@@ -9939,6 +10034,8 @@ compact_certificate theorem matrixCase1Piece149_coordinate9 (x y z a b : ℂ) : 
 compact_certificate theorem matrixCase1Piece149_coordinate10 (x y z a b : ℂ) : ((1:ℂ))*(matrixCase1Piece149_C x y z a b) (10:Fin 11) = ∑ i, (matrixCase1Piece149_w x y z a b) i * (matrixCase1Piece149_A x y z a b) i (10:Fin 11) := by
   exact (combination1_3808_108_bundled x y z a b).trans (QuantitativeArithmeticFiniteRowEvaluation.sum_9 (fun i => (matrixCase1Piece149_w x y z a b) i * (matrixCase1Piece149_A x y z a b) i (10:Fin 11))).symm
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenPoleLeading
 end
 
@@ -9950,6 +10047,7 @@ set_option maxRecDepth 8192
 
 /-! Consolidated certificate family; original declaration bodies retained. -/
 namespace QuantitativeArithmeticSmallLevelNineteenPoleLeading
+certificate_batch {
 
 compact_certificate theorem matrixCase3Piece102_coordinate0 (x y z a b : ℂ) : (x^(2:ℕ))*(matrixCase3Piece102_C x y z a b) (0:Fin 36) = ∑ i, (matrixCase3Piece102_w x y z a b) i * (matrixCase3Piece102_A x y z a b) i (0:Fin 36) := by
   exact (combination3_3509_0_bundled x y z a b).trans (QuantitativeArithmeticFiniteRowEvaluation.sum_29 (fun i => (matrixCase3Piece102_w x y z a b) i * (matrixCase3Piece102_A x y z a b) i (0:Fin 36))).symm
@@ -10028,6 +10126,8 @@ compact_certificate theorem matrixCase3Piece102_coordinate34 (x y z a b : ℂ) :
 compact_certificate theorem matrixCase3Piece102_coordinate35 (x y z a b : ℂ) : (x^(2:ℕ))*(matrixCase3Piece102_C x y z a b) (35:Fin 36) = ∑ i, (matrixCase3Piece102_w x y z a b) i * (matrixCase3Piece102_A x y z a b) i (35:Fin 36) := by
   exact (combination3_3509_111_bundled x y z a b).trans (QuantitativeArithmeticFiniteRowEvaluation.sum_29 (fun i => (matrixCase3Piece102_w x y z a b) i * (matrixCase3Piece102_A x y z a b) i (35:Fin 36))).symm
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenPoleLeading
 end
 
@@ -10039,6 +10139,7 @@ set_option maxRecDepth 8192
 
 /-! Consolidated certificate family; original declaration bodies retained. -/
 namespace QuantitativeArithmeticSmallLevelNineteenPoleLeading
+certificate_batch {
 
 compact_certificate theorem matrixCase3Piece108_coordinate0 (x y z a b : ℂ) : ((1:ℂ))*(matrixCase3Piece108_C x y z a b) (0:Fin 45) = ∑ i, (matrixCase3Piece108_w x y z a b) i * (matrixCase3Piece108_A x y z a b) i (0:Fin 45) := by
   exact (combination3_3642_0_bundled x y z a b).trans (QuantitativeArithmeticFiniteRowEvaluation.sum_40 (fun i => (matrixCase3Piece108_w x y z a b) i * (matrixCase3Piece108_A x y z a b) i (0:Fin 45))).symm
@@ -10136,6 +10237,8 @@ compact_certificate theorem matrixCase3Piece108_coordinate43 (x y z a b : ℂ) :
 compact_certificate theorem matrixCase3Piece108_coordinate44 (x y z a b : ℂ) : ((1:ℂ))*(matrixCase3Piece108_C x y z a b) (44:Fin 45) = ∑ i, (matrixCase3Piece108_w x y z a b) i * (matrixCase3Piece108_A x y z a b) i (44:Fin 45) := by
   exact (combination3_3642_109_bundled x y z a b).trans (QuantitativeArithmeticFiniteRowEvaluation.sum_40 (fun i => (matrixCase3Piece108_w x y z a b) i * (matrixCase3Piece108_A x y z a b) i (44:Fin 45))).symm
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenPoleLeading
 end
 
@@ -10147,6 +10250,7 @@ set_option maxRecDepth 8192
 
 /-! Consolidated certificate family; original declaration bodies retained. -/
 namespace QuantitativeArithmeticSmallLevelNineteenPoleLeading
+certificate_batch {
 
 compact_certificate theorem matrixCase3Piece110_coordinate0 (x y z a b : ℂ) : ((1:ℂ))*(matrixCase3Piece110_C x y z a b) (0:Fin 40) = ∑ i, (matrixCase3Piece110_w x y z a b) i * (matrixCase3Piece110_A x y z a b) i (0:Fin 40) := by
   exact (combination3_3689_0_bundled x y z a b).trans (QuantitativeArithmeticFiniteRowEvaluation.sum_37 (fun i => (matrixCase3Piece110_w x y z a b) i * (matrixCase3Piece110_A x y z a b) i (0:Fin 40))).symm
@@ -10233,6 +10337,8 @@ compact_certificate theorem matrixCase3Piece110_coordinate38 (x y z a b : ℂ) :
 compact_certificate theorem matrixCase3Piece110_coordinate39 (x y z a b : ℂ) : ((1:ℂ))*(matrixCase3Piece110_C x y z a b) (39:Fin 40) = ∑ i, (matrixCase3Piece110_w x y z a b) i * (matrixCase3Piece110_A x y z a b) i (39:Fin 40) := by
   exact (combination3_3689_110_bundled x y z a b).trans (QuantitativeArithmeticFiniteRowEvaluation.sum_37 (fun i => (matrixCase3Piece110_w x y z a b) i * (matrixCase3Piece110_A x y z a b) i (39:Fin 40))).symm
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenPoleLeading
 end
 
@@ -10244,6 +10350,7 @@ set_option maxRecDepth 8192
 
 /-! Consolidated certificate family; original declaration bodies retained. -/
 namespace QuantitativeArithmeticSmallLevelNineteenPoleLeading
+certificate_batch {
 
 compact_certificate theorem matrixCase3Piece111_coordinate0 (x y z a b : ℂ) : (x^(4:ℕ)*y^(2:ℕ))*(matrixCase3Piece111_C x y z a b) (0:Fin 44) = ∑ i, (matrixCase3Piece111_w x y z a b) i * (matrixCase3Piece111_A x y z a b) i (0:Fin 44) := by
   exact (combination3_3690_0_bundled x y z a b).trans (QuantitativeArithmeticFiniteRowEvaluation.sum_40 (fun i => (matrixCase3Piece111_w x y z a b) i * (matrixCase3Piece111_A x y z a b) i (0:Fin 44))).symm
@@ -10339,6 +10446,8 @@ compact_certificate theorem matrixCase3Piece111_coordinate42 (x y z a b : ℂ) :
 compact_certificate theorem matrixCase3Piece111_coordinate43 (x y z a b : ℂ) : (x^(4:ℕ)*y^(2:ℕ))*(matrixCase3Piece111_C x y z a b) (43:Fin 44) = ∑ i, (matrixCase3Piece111_w x y z a b) i * (matrixCase3Piece111_A x y z a b) i (43:Fin 44) := by
   exact (combination3_3690_108_bundled x y z a b).trans (QuantitativeArithmeticFiniteRowEvaluation.sum_40 (fun i => (matrixCase3Piece111_w x y z a b) i * (matrixCase3Piece111_A x y z a b) i (43:Fin 44))).symm
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenPoleLeading
 end
 
@@ -10350,6 +10459,7 @@ set_option maxRecDepth 8192
 
 /-! Consolidated certificate family; original declaration bodies retained. -/
 namespace QuantitativeArithmeticSmallLevelNineteenPoleLeading
+certificate_batch {
 
 compact_certificate theorem matrixCase3Piece112_coordinate0 (x y z a b : ℂ) : ((1:ℂ))*(matrixCase3Piece112_C x y z a b) (0:Fin 39) = ∑ i, (matrixCase3Piece112_w x y z a b) i * (matrixCase3Piece112_A x y z a b) i (0:Fin 39) := by
   exact (combination3_3643_0_bundled x y z a b).trans (QuantitativeArithmeticFiniteRowEvaluation.sum_32 (fun i => (matrixCase3Piece112_w x y z a b) i * (matrixCase3Piece112_A x y z a b) i (0:Fin 39))).symm
@@ -10434,6 +10544,8 @@ compact_certificate theorem matrixCase3Piece112_coordinate37 (x y z a b : ℂ) :
 compact_certificate theorem matrixCase3Piece112_coordinate38 (x y z a b : ℂ) : ((1:ℂ))*(matrixCase3Piece112_C x y z a b) (38:Fin 39) = ∑ i, (matrixCase3Piece112_w x y z a b) i * (matrixCase3Piece112_A x y z a b) i (38:Fin 39) := by
   exact (combination3_3643_10_bundled8 x y z a b).trans (QuantitativeArithmeticFiniteRowEvaluation.sum_32 (fun i => (matrixCase3Piece112_w x y z a b) i * (matrixCase3Piece112_A x y z a b) i (38:Fin 39))).symm
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenPoleLeading
 end
 
@@ -10445,6 +10557,7 @@ set_option maxRecDepth 8192
 
 /-! Consolidated certificate family; original declaration bodies retained. -/
 namespace QuantitativeArithmeticSmallLevelNineteenPoleLeading
+certificate_batch {
 
 compact_certificate theorem matrixCase3Piece120_coordinate0 (x y z a b : ℂ) : (x^(4:ℕ))*(matrixCase3Piece120_C x y z a b) (0:Fin 78) = ∑ i, (matrixCase3Piece120_w x y z a b) i * (matrixCase3Piece120_A x y z a b) i (0:Fin 78) := by
   exact (combination3_3698_0_bundled x y z a b).trans (QuantitativeArithmeticFiniteRowEvaluation.sum_75 (fun i => (matrixCase3Piece120_w x y z a b) i * (matrixCase3Piece120_A x y z a b) i (0:Fin 78))).symm
@@ -10612,6 +10725,8 @@ compact_certificate theorem matrixCase3Piece120_coordinate76 (x y z a b : ℂ) :
 compact_certificate theorem matrixCase3Piece120_coordinate77 (x y z a b : ℂ) : (x^(4:ℕ))*(matrixCase3Piece120_C x y z a b) (77:Fin 78) = ∑ i, (matrixCase3Piece120_w x y z a b) i * (matrixCase3Piece120_A x y z a b) i (77:Fin 78) := by
   exact (combination3_3698_11_bundled3 x y z a b).trans (QuantitativeArithmeticFiniteRowEvaluation.sum_75 (fun i => (matrixCase3Piece120_w x y z a b) i * (matrixCase3Piece120_A x y z a b) i (77:Fin 78))).symm
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenPoleLeading
 end
 
@@ -10623,6 +10738,7 @@ set_option maxRecDepth 8192
 
 /-! Consolidated certificate family; original declaration bodies retained. -/
 namespace QuantitativeArithmeticSmallLevelNineteenPoleLeading
+certificate_batch {
 
 compact_certificate theorem matrixCase3Piece149_coordinate0 (x y z a b : ℂ) : ((1:ℂ))*(matrixCase3Piece149_C x y z a b) (0:Fin 11) = ∑ i, (matrixCase3Piece149_w x y z a b) i * (matrixCase3Piece149_A x y z a b) i (0:Fin 11) := by
   exact (combination3_3686_18_bundled x y z a b).trans (QuantitativeArithmeticFiniteRowEvaluation.sum_9 (fun i => (matrixCase3Piece149_w x y z a b) i * (matrixCase3Piece149_A x y z a b) i (0:Fin 11))).symm
@@ -10648,6 +10764,8 @@ compact_certificate theorem matrixCase3Piece149_coordinate9 (x y z a b : ℂ) : 
 compact_certificate theorem matrixCase3Piece149_coordinate10 (x y z a b : ℂ) : ((1:ℂ))*(matrixCase3Piece149_C x y z a b) (10:Fin 11) = ∑ i, (matrixCase3Piece149_w x y z a b) i * (matrixCase3Piece149_A x y z a b) i (10:Fin 11) := by
   exact (combination3_3686_108_bundled x y z a b).trans (QuantitativeArithmeticFiniteRowEvaluation.sum_9 (fun i => (matrixCase3Piece149_w x y z a b) i * (matrixCase3Piece149_A x y z a b) i (10:Fin 11))).symm
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenPoleLeading
 end
 end
@@ -10663,6 +10781,7 @@ set_option maxRecDepth 8192
 set_option maxHeartbeats 1000000
 
 namespace QuantitativeArithmeticSmallLevelNineteenPoleLeading
+certificate_batch {
 theorem matrixCase1Piece111_combination (x y z a b : ℂ) : ∀ j, (x^(4:ℕ)*y^(2:ℕ))*(matrixCase1Piece111_C x y z a b) j = ∑ i, (matrixCase1Piece111_w x y z a b) i * (matrixCase1Piece111_A x y z a b) i j := by
   intro j
   fin_cases j
@@ -11182,6 +11301,8 @@ theorem matrixCase3Piece149_combination (x y z a b : ℂ) : ∀ j, ((1:ℂ))*(ma
   · exact matrixCase3Piece149_coordinate9 x y z a b
   · exact matrixCase3Piece149_coordinate10 x y z a b
 #print axioms matrixCase3Piece149_combination
+
+}
 end QuantitativeArithmeticSmallLevelNineteenPoleLeading
 end
 end
@@ -11202,6 +11323,7 @@ set_option maxRecDepth 6000
 set_option linter.unusedVariables false
 
 namespace QuantitativeArithmeticSmallLevelNineteenPoleLeading
+certificate_batch {
 theorem residual1_3812 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (v : Fin 114→ℂ)
     (hi : (((1:ℂ))/(x^(2:ℕ)*y^(2:ℕ)))*v 0 + ((1:ℂ))*v 5 + (((1:ℂ))/(x^(2:ℕ)*y^(2:ℕ)))*v 6 + ((1:ℂ))*v 11 + (((1:ℂ))/(x^(2:ℕ)*y^(2:ℕ)))*v 12 + ((1:ℂ))*v 17 + (((1:ℂ))/(x^(2:ℕ)*y^(2:ℕ)))*v 18 + ((1:ℂ))*v 23 + (((1:ℂ))/(x^(2:ℕ)*y^(2:ℕ)))*v 24 + ((1:ℂ))*v 29 + (((1:ℂ))/(x^(2:ℕ)*y^(2:ℕ)))*v 30 + ((1:ℂ))*v 35 + ((1:ℂ))*v 41 + (((1:ℂ))/(x^(2:ℕ)*y^(2:ℕ)))*v 42 + ((1:ℂ))*v 47 + (((1:ℂ))/(x^(2:ℕ)*y^(2:ℕ)))*v 48 + ((1:ℂ))*v 53 + (((1:ℂ))/(x^(2:ℕ)*y^(2:ℕ)))*v 54 + ((1:ℂ))*v 59 + (((1:ℂ))/(x^(2:ℕ)*y^(2:ℕ)))*v 60 + ((1:ℂ))*v 65 + (((1:ℂ))/(x^(2:ℕ)*y^(2:ℕ)))*v 66 + ((1:ℂ))*v 71 + (((1:ℂ))/(x^(2:ℕ)*y^(2:ℕ)))*v 72 + ((1:ℂ))*v 77 + (((1:ℂ))/(x^(2:ℕ)*y^(2:ℕ)))*v 78 + ((1:ℂ))*v 83 + (((1:ℂ))/(x^(2:ℕ)*y^(2:ℕ)))*v 84 + ((1:ℂ))*v 89 + (((1:ℂ))/(x^(2:ℕ)*y^(2:ℕ)))*v 90 + ((1:ℂ))*v 95 + (((1:ℂ))/(x^(2:ℕ)*y^(2:ℕ)))*v 96 + ((1:ℂ))*v 101 + (((1:ℂ))/(x^(2:ℕ)*y^(2:ℕ)))*v 102 + ((1:ℂ))*v 107 + (((1:ℂ))/(x^(2:ℕ)*y^(2:ℕ)))*v 108=0)
     (hp3811 : (((-1:ℂ)*x^(10:ℕ)*y^(2:ℕ) + x^(8:ℕ)*y^(2:ℕ) + (-1:ℂ)*x^(6:ℕ)*y^(4:ℕ) + (-1:ℂ)*x^(6:ℕ)*y^(3:ℕ)*b + (2:ℂ)*x^(6:ℕ)*y^(2:ℕ) + (-1:ℂ)*x^(6:ℕ) + (-2:ℂ)*x^(4:ℕ)*y^(3:ℕ)*b + x^(4:ℕ)*y^(2:ℕ)*z + (2:ℂ)*x^(4:ℕ)*y^(2:ℕ) + x^(2:ℕ)*y^(2:ℕ) + y^(4:ℕ) + y^(2:ℕ) + (1:ℂ))/(x^(4:ℕ)*y^(4:ℕ)))*v 18 + ((x^(8:ℕ)*y^(2:ℕ) + (-1:ℂ)*x^(6:ℕ)*y^(4:ℕ) + (-1:ℂ)*x^(6:ℕ)*y^(2:ℕ) + x^(4:ℕ)*y^(3:ℕ)*b + x^(4:ℕ)*y*b + x^(4:ℕ) + (-1:ℂ)*x^(2:ℕ)*y^(3:ℕ)*b + (-1:ℂ)*x^(2:ℕ)*y^(2:ℕ) + (-1:ℂ)*x^(2:ℕ)*y*b + (-2:ℂ)*x^(2:ℕ) + y^(2:ℕ) + (1:ℂ))/(x^(6:ℕ)*y^(4:ℕ)))*v 42 + ((x^(6:ℕ)*y^(2:ℕ) + (-1:ℂ)*x^(4:ℕ)*y^(2:ℕ) + (-1:ℂ)*x^(2:ℕ)*y^(2:ℕ) + x^(2:ℕ) + (-1:ℂ))/(x^(4:ℕ)*y^(4:ℕ)))*v 84 + ((1:ℂ))*v 92=0)
@@ -13982,6 +14104,8 @@ theorem residual3_3686 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) 
   have hmul : (x^(6:ℕ)*y^(4:ℕ))*(((x^(14:ℕ)*y^(2:ℕ) + x^(10:ℕ)*y^(4:ℕ) + x^(10:ℕ)*y^(3:ℕ)*b + (-3:ℂ)*x^(10:ℕ)*y^(2:ℕ) + x^(10:ℕ) + x^(8:ℕ)*y^(4:ℕ) + (2:ℂ)*x^(8:ℕ)*y^(3:ℕ)*b + (-1:ℂ)*x^(8:ℕ)*y^(2:ℕ)*z + (-1:ℂ)*x^(8:ℕ)*y^(2:ℕ) + x^(8:ℕ) + x^(6:ℕ)*y^(4:ℕ) + x^(6:ℕ)*y^(3:ℕ)*b + (-1:ℂ)*x^(6:ℕ)*y^(2:ℕ)*z + x^(6:ℕ)*y^(2:ℕ) + (-1:ℂ)*x^(4:ℕ)*y^(2:ℕ) + (-1:ℂ)*x^(4:ℕ) + (-1:ℂ)*x^(2:ℕ) + y^(4:ℕ) + y^(2:ℕ))/(x^(4:ℕ)*y^(4:ℕ)))*v 18 + ((x^(14:ℕ)*y^(2:ℕ) + (-1:ℂ)*x^(12:ℕ)*y^(2:ℕ) + (-1:ℂ)*x^(10:ℕ)*y^(2:ℕ) + x^(8:ℕ)*y^(4:ℕ) + x^(8:ℕ)*y^(2:ℕ) + (-1:ℂ)*x^(8:ℕ)*y*b + (-1:ℂ)*x^(8:ℕ) + x^(6:ℕ)*y^(4:ℕ) + x^(6:ℕ) + x^(4:ℕ)*y^(3:ℕ)*b + x^(4:ℕ)*y*b + x^(4:ℕ) + (-1:ℂ)*x^(2:ℕ)*y^(3:ℕ)*b + (-1:ℂ)*x^(2:ℕ)*y^(2:ℕ) + (-1:ℂ)*x^(2:ℕ) + y^(2:ℕ))/(x^(6:ℕ)*y^(4:ℕ)))*v 42 + (((-1:ℂ)*x^(10:ℕ)*y^(2:ℕ) + x^(6:ℕ)*y^(2:ℕ) + (-1:ℂ)*x^(6:ℕ) + x^(4:ℕ)*y^(2:ℕ) + x^(2:ℕ) + (-1:ℂ)*y^(2:ℕ))/(x^(4:ℕ)*y^(4:ℕ)))*v 84)=0 := eq_target.trans hzP
   exact (mul_eq_zero.mp hmul).resolve_left ((mul_ne_zero (pow_ne_zero 6 hx) (pow_ne_zero 4 hy)))
 
+
+}
 end QuantitativeArithmeticSmallLevelNineteenPoleLeading
 end
 end
@@ -13998,6 +14122,7 @@ set_option maxRecDepth 6000
 set_option linter.unusedVariables false
 
 namespace QuantitativeArithmeticSmallLevelNineteenPoleLeading
+certificate_batch {
 theorem reduce0 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (ha : a≠0) (v : Fin 114→ℂ) (hv : selectedRows0 x y z a b v=0) :
     residualRows0 x y z a b v=0 ∧
     (v 18=0 → v 42=0 → v 72=0 → v=0) := by
@@ -17853,6 +17978,8 @@ theorem reduce3 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (hz : z≠0) (v : Fi
     fin_cases i <;> assumption
 
 #print axioms reduce3
+
+}
 end QuantitativeArithmeticSmallLevelNineteenPoleLeading
 end
 end
@@ -17866,6 +17993,7 @@ set_option autoImplicit false
 
 namespace QuantitativeArithmeticSmallLevelNineteenPoleLeading
 open QuantitativeArithmeticSmallLevelNineteenFullSystem
+certificate_batch {
 
 /-- The finite reduction applies to the actual symbolic twist rows, not an
 independently assumed certificate matrix. This is a kernel reduction, not
@@ -17929,6 +18057,8 @@ theorem actual_symbolic_kernel_reduce3 (x y z a b : ℂ)
     (congrFun hv (inputIndex3 i))
 
 #print axioms actual_symbolic_kernel_reduce3
+
+}
 end QuantitativeArithmeticSmallLevelNineteenPoleLeading
 end
 end
@@ -17948,6 +18078,7 @@ set_option linter.unusedVariables false
 set_option linter.unnecessarySeqFocus false
 @[expose] public noncomputable section
 namespace QuantitativeArithmeticSmallLevelNineteenPoleLeading
+certificate_batch {
 
 /-- At gap zero the missing short relation already follows from leading
 rows 13 and 19; no first Taylor coefficient or exclusion of the weight point
@@ -18014,6 +18145,8 @@ theorem gap_zero_short_rows2 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0)
     linear_combination (norm := (field_simp [hy]; ring1)) y^2*h
 
 #print axioms gap_zero_short_rows2
+
+}
 end QuantitativeArithmeticSmallLevelNineteenPoleLeading
 end
 end
@@ -18028,6 +18161,7 @@ set_option linter.unnecessarySeqFocus false
 namespace QuantitativeArithmeticSmallLevelNineteenPoleLeading
 open Complex
 open QuantitativeArithmeticSmallLevelNineteen
+certificate_batch {
 
 /-- For a positive gap, the leading Hecke quadratic cannot vanish at the
 upper pole: its putative root would contradict the right-half-plane bound. -/
@@ -18093,6 +18227,8 @@ theorem short_fricke_row2 (x y z a b : ℂ) (hx : x≠0) (hy : y≠0) (ha : a≠
 #print axioms short_fricke_row2
 
 #print axioms denominator_positive_gap_factor
+
+}
 end QuantitativeArithmeticSmallLevelNineteenPoleLeading
 end
 end
@@ -18106,6 +18242,7 @@ namespace QuantitativeArithmeticSmallLevelNineteenPoleLeading
 open Complex
 open QuantitativeArithmeticSmallLevelNineteen
 open QuantitativeArithmeticSmallLevelNineteenFullSystem
+certificate_batch {
 
 theorem denominator_gap_dichotomy (m n : ℕ) (f : ℕ→ℂ) (s : ℂ)
     (hs : (m:ℝ)≤s.re) (hd : denominator (2*m) f s=0) :
@@ -18208,6 +18345,8 @@ theorem actual_gap_coordinates2 (m n : ℕ) (f : ℕ→ℂ) (s z b : ℂ)
     (denominator_gap_dichotomy m n f s hs hd) v hr
 
 #print axioms actual_gap_coordinates2
+
+}
 end QuantitativeArithmeticSmallLevelNineteenPoleLeading
 end
 end

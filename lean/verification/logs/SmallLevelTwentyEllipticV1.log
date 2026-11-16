@@ -1,1 +1,0 @@
-'SmallLevelTwenty.elliptic_defect_zero' depends on axioms: [propext, Classical.choice, Quot.sound]

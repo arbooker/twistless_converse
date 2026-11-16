@@ -1,4 +1,0 @@
-'AsymptoticCylinderRamified.coefficient_row' depends on axioms: [propext, Classical.choice, Quot.sound]
-'AsymptoticCylinderRamified.operator_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
-'AsymptoticCylinderRamified.sector_annihilated' depends on axioms: [propext, Classical.choice, Quot.sound]
-

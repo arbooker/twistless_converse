@@ -1,3 +1,0 @@
-'SpanningIntegerCertificates.rational_injective_certificate' depends on axioms: [propext, Classical.choice, Quot.sound]
-'SpanningIntegerCertificates.common_denominators' depends on axioms: [propext, Classical.choice, Quot.sound]
-'SpanningIntegerCertificates.integer_certificate_injective' depends on axioms: [propext, Classical.choice, Quot.sound]

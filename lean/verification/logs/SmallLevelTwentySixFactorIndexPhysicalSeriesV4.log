@@ -1,5 +1,0 @@
-'SmallLevelTwentySixFactor6Physical.all_intervals_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]
-'SmallLevelTwentySixFactor6Physical.no_signed_low_curve' depends on axioms: [propext, Classical.choice, Quot.sound]
-'SmallLevelTwentySixFactor7Physical.all_intervals_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]
-'SmallLevelTwentySixFactor7Physical.no_signed_low_curve' depends on axioms: [propext, Classical.choice, Quot.sound]
-

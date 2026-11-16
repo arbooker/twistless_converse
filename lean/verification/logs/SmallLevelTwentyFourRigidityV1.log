@@ -1,3 +1,0 @@
-'SmallLevelTwentyFour.invariant_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
-'SmallLevelTwentyFour.original_A' depends on axioms: [propext, Classical.choice, Quot.sound]
-

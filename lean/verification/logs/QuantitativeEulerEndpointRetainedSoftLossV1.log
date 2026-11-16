@@ -1,3 +1,0 @@
-'QuantitativeEulerEndpointSoftUpdate.exists_sharpened_update_with_loss_scalar' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

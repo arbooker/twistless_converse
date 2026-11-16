@@ -1,3 +1,0 @@
-'QuantitativeEulerEndpointPrepared.fundamental_low_source_observability' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

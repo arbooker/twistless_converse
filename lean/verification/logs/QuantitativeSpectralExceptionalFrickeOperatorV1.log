@@ -1,5 +1,0 @@
-'QuantitativeSpectralExceptionalFricke.weightedRow_coordinate' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'QuantitativeSpectralExceptionalFricke.weightedRow_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeSpectralExceptionalFricke.weightedRow_regular' depends on axioms: [propext, Classical.choice, Quot.sound]

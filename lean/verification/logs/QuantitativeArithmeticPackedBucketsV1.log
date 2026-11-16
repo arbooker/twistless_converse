@@ -1,3 +1,0 @@
-'QuantitativeArithmeticPackedBuckets.eval_decompose' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeArithmeticPackedBuckets.packed_zero_of_buckets' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeArithmeticPackedBuckets.substitution_zero' depends on axioms: [propext, Classical.choice, Quot.sound]

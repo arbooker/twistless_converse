@@ -1,6 +1,11 @@
 module
+public meta import SmallLevelCertificateBatchCommandV1
 
 public import SmallLevelPolynomialCoefficientCertificateTheoryV4
+-- Bounded certificate elaboration.
+set_option Elab.async false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-! Consolidated chapter: QuantitativeArithmeticSmallLevelTwentySixSourceW89. Original declarations and local scopes are retained. -/
 
@@ -15,6 +20,7 @@ set_option linter.unnecessarySeqFocus false
 @[expose] public noncomputable section
 namespace QuantitativeArithmeticSmallLevelTwentySixSourceW89
 open SmallLevelPolynomialCoefficientCertificate
+certificate_batch {
 def c0_0 (y z w a b u : ℂ) : ℂ := 0
 def c0_1 (y z w a b u : ℂ) : ℂ := ((1)*y+(((1)*u)*a+((-1)*u+(-1))))
 def c0_2 (y z w a b u : ℂ) : ℂ := ((-1)*y+((-1)*u))
@@ -104,6 +110,8 @@ theorem certificate_length (y z w a b u : ℂ) : (certificate y z w a b u).lengt
   simp only [certificate,length_add,length_multiply,length_scale]
   norm_num [coefficients0,coefficients1,coefficients2,coefficients3,coefficients4,coefficients5,coefficients6]
 
+}
+
 end QuantitativeArithmeticSmallLevelTwentySixSourceW89
 end
 end
@@ -121,6 +129,7 @@ set_option maxRecDepth 32768
 namespace QuantitativeArithmeticSmallLevelTwentySixSourceW89
 open SmallLevelPolynomialCoefficientCertificate
 
+certificate_batch {
 theorem coefficient_0 (y z w a b u : ℂ) :
     (certificate y z w a b u)[0]?=some 0 := by
   change some (((((c0_0 y z w a b u)*(c1_0 y z w a b u))+0)+(((c2_0 y z w a b u)*(c3_0 y z w a b u))+0))+(((-1)*(c4_0 y z w a b u))+((-1)*0)))=some (0:ℂ)
@@ -279,6 +288,8 @@ theorem coefficient_20 (y z w a b u : ℂ) :
   ring
 #print axioms coefficient_20
 
+}
+
 end QuantitativeArithmeticSmallLevelTwentySixSourceW89
 end
 end
@@ -294,6 +305,7 @@ set_option linter.unnecessarySeqFocus false
 @[expose] public noncomputable section
 namespace QuantitativeArithmeticSmallLevelTwentySixSourceW89
 open SmallLevelPolynomialCoefficientCertificate
+certificate_batch {
 theorem certificate_zero (y z w a b u : ℂ) : ∀ v∈certificate y z w a b u,v=0 := by
   apply zero_of_getElem? _ 21 (certificate_length y z w a b u)
   intro i
@@ -325,6 +337,8 @@ theorem identity (x y z w a b u : ℂ) :
   unfold p0 p1 p2 p3 p4 p5 p6
   exact of_zero_coefficients x _ _ _ _ _ _ _ (certificate_zero y z w a b u)
 #print axioms identity
+
+}
 
 end QuantitativeArithmeticSmallLevelTwentySixSourceW89
 end

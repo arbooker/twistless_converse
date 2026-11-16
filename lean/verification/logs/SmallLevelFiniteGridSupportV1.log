@@ -1,2 +1,0 @@
-'SmallLevelFiniteGridSupport.extend_at' depends on axioms: [propext, Classical.choice, Quot.sound]
-'SmallLevelFiniteGridSupport.matrix_kernel_of_support' depends on axioms: [propext, Classical.choice, Quot.sound]

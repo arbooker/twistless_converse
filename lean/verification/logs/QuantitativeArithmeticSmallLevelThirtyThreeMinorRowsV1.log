@@ -1,7 +1,0 @@
-'QuantitativeArithmeticSmallLevelThirtyThreeMinorRows.minor_eq' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'QuantitativeArithmeticSmallLevelThirtyThreeMinorRows.two_rows_zero' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-

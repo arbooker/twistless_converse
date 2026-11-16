@@ -107,6 +107,7 @@ def FiniteCorner : Type _ := cornerSubalgebra (regionProjection G α hact s hs)
   (regionProjection_idempotent G α hact s hs)
   (regionProjection_selfAdjoint G α hact s hs)
 
+set_option maxHeartbeats 0 in
 noncomputable instance finiteCornerCStar : CStarAlgebra (FiniteCorner G α hact s hs) :=
   inferInstanceAs (CStarAlgebra (cornerSubalgebra (regionProjection G α hact s hs)
     (regionProjection_idempotent G α hact s hs)

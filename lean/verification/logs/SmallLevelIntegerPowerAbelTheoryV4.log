@@ -1,2 +1,0 @@
-'SmallLevelIntegerPowerAbel.positive_from_threshold' depends on axioms: [propext, Classical.choice, Quot.sound]
-'SmallLevelIntegerPowerAbel.powerSum_eq_total' depends on axioms: [propext, Classical.choice, Quot.sound]

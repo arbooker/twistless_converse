@@ -1,2 +1,0 @@
-'GridUnitChoice.positive_unit_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
-'GridUnitChoice.positive_unit_to_gcd' depends on axioms: [propext, Classical.choice, Quot.sound]

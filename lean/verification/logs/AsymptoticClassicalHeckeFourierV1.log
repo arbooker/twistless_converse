@@ -1,3 +1,0 @@
-'AsymptoticClassicalCusp.root_filter' depends on axioms: [propext, Classical.choice, Quot.sound]
-'AsymptoticClassicalCusp.qParam_hecke_branch' depends on axioms: [propext, Classical.choice, Quot.sound]
-'AsymptoticClassicalCusp.qParam_width_pow' depends on axioms: [propext, Classical.choice, Quot.sound]

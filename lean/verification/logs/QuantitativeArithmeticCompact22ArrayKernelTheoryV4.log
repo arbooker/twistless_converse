@@ -1,3 +1,0 @@
-'QuantitativeArithmeticCompact22ArrayKernel.checked' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeArithmeticCompact22ArrayKernel.support' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeArithmeticCompact22ArrayKernel.inputs_eq' depends on axioms: [propext, Classical.choice, Quot.sound]

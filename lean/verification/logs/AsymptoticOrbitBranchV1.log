@@ -1,4 +1,0 @@
-'AsymptoticOrbitBranch.reindex_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
-'AsymptoticOrbitBranch.operator_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
-'AsymptoticOrbitBranch.operator_covariant' depends on axioms: [propext, Classical.choice, Quot.sound]
-'AsymptoticOrbitBranch.operator_matrix_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]

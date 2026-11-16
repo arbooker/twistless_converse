@@ -33,17 +33,6 @@ theorem grid_radius {N G s r : ℕ} (hN : 0<N) (hG : 0<G) (hr : 0<r)
     ((m:ℝ)*v)/((r:ℝ)*Real.sqrt (levelPart N s))
   field_simp
 
-theorem order_ratio {N s : ℕ} (hN : Admissible N) (hs : 2<s) :
-    (6:ℝ)/5≤(s:ℝ)/Real.sqrt (levelPart N s) := by
-  have hn : 0<levelPart N s := Nat.pos_of_ne_zero (part_ne_zero (Nat.ne_of_gt hN.1) _)
-  have hp : (0:ℝ)<Real.sqrt (levelPart N s) := Real.sqrt_pos.mpr (by exact_mod_cast hn)
-  have hgap : (3:ℝ)*levelPart N s≤2*(s:ℝ)^2 := by exact_mod_cast level_gap hN hs
-  have hsq := Real.sq_sqrt (Nat.cast_nonneg (levelPart N s))
-  apply (le_div_iff₀ hp).mpr
-  have hsR : (0:ℝ)≤s := Nat.cast_nonneg s
-  nlinarith
-
 #print axioms grid_radius
-#print axioms order_ratio
 
 end GridRadius

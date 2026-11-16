@@ -1,3 +1,0 @@
-'FinitenessAllLevelFormalContinuation.global_height_of_equations' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

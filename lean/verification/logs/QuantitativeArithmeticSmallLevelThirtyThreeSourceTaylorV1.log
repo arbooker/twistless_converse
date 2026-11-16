@@ -1,4 +1,0 @@
-'QuantitativeArithmeticSmallLevelThirtyThreeKnownWords.source_taylor_of_fricke' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-

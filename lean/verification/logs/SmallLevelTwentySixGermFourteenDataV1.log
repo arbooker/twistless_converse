@@ -1,3 +1,0 @@
-'SmallLevelTwentySixGermFourteen.rows_support' depends on axioms: [propext, Classical.choice, Quot.sound]
-'SmallLevelTwentySixGermFourteen.eval_replay_top' depends on axioms: [propext, Classical.choice, Quot.sound]
-

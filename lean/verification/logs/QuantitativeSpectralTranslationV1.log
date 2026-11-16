@@ -1,3 +1,0 @@
-'QuantitativeSpectralTranslation.realMeasure_shift' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeSpectralTranslation.low_mass_shift' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeSpectralTranslation.low_mass_double_shift' depends on axioms: [propext, Classical.choice, Quot.sound]

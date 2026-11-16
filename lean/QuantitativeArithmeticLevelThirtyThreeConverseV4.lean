@@ -6250,14 +6250,14 @@ open scoped MatrixGroups
 theorem edgeSRow_checked : ∀ c d : ZMod 33, (∃ a b : ZMod 33, a*d-b*c=1) →
     repRow c d*S*(repRow d (-c))⁻¹=word (edgeSRow c d) := by
   intro c d h
-  exact (by decide +kernel : ∀ c d : ZMod 33,
+  exact (by intro c; fin_cases c <;> decide +kernel : ∀ c d : ZMod 33,
     Nat.gcd (Nat.gcd c.val d.val) 33 = 1 →
     repRow c d*S*(repRow d (-c))⁻¹=word (edgeSRow c d)) c d (QuantitativeArithmeticPrimitiveResiduePair.gcd_eq_one c d h)
 
 theorem edgeTRow_checked : ∀ c d : ZMod 33, (∃ a b : ZMod 33, a*d-b*c=1) →
     repRow c d*T*(repRow c (c+d))⁻¹=word (edgeTRow c d) := by
   intro c d h
-  exact (by decide +kernel : ∀ c d : ZMod 33,
+  exact (by intro c; fin_cases c <;> decide +kernel : ∀ c d : ZMod 33,
     Nat.gcd (Nat.gcd c.val d.val) 33 = 1 →
     repRow c d*T*(repRow c (c+d))⁻¹=word (edgeTRow c d)) c d (QuantitativeArithmeticPrimitiveResiduePair.gcd_eq_one c d h)
 

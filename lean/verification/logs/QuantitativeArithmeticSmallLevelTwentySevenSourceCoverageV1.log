@@ -1,2 +1,0 @@
-'QuantitativeArithmeticSmallLevelTwentySevenSourceCoverage.coverage' depends on axioms: [propext, Quot.sound]
-

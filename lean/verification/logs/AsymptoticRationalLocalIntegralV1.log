@@ -1,2 +1,0 @@
-'AsymptoticRationalLocalIntegral.integer_of_all_padic' depends on axioms: [propext, Classical.choice, Quot.sound]
-'AsymptoticRationalLocalIntegral.all_padic_iff_integer' depends on axioms: [propext, Classical.choice, Quot.sound]

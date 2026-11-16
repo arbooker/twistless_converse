@@ -1,9 +1,13 @@
 module
+public meta import SmallLevelCertificateBatchCommandV1
 
 public import QuantitativeArithmeticSevenLaurentRowsTheoryV4
 public import QuantitativeArithmeticSmallLevelTwentyFiveAuxPlusLaurentTheoryV4
 public import QuantitativeArithmeticSmallLevelTwentyFiveCuspGridLiftV1
 
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
+certificate_batch {
 /-! Consolidated chapter: QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusLaurent. Original declarations and local scopes are retained. -/
 
 /-! ## QuantitativeArithmeticSmallLevelTwentyFiveCuspPlusLaurentScalarsV1 -/
@@ -5759,3 +5763,7 @@ end QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusLaurent
 end
 end
 end
+
+}
+
+#print axioms QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusLaurent.physicalPart_eq

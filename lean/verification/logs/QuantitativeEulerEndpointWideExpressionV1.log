@@ -1,4 +1,0 @@
-'QuantitativeEulerEndpointPrepared.wideCompactData' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeEulerEndpointPrepared.wideCompactExpression_bounds' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

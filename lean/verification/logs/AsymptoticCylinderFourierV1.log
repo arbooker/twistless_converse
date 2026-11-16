@@ -1,2 +1,0 @@
-'AsymptoticCylinder.modeInSpace_orthogonal_eq_bot' depends on axioms: [propext, Classical.choice, Quot.sound]
-'AsymptoticCylinder.unitMode_orthonormal' depends on axioms: [propext, Classical.choice, Quot.sound]

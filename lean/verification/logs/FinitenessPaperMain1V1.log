@@ -1,3 +1,0 @@
-'FinitenessPaperMain1.uniform_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
-'FinitenessPaperMain1.count_isBigO' depends on axioms: [propext, Classical.choice, Quot.sound]
-'FinitenessPaperMain1.main1' depends on axioms: [propext, Classical.choice, Quot.sound]

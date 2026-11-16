@@ -1,4 +1,0 @@
-'QuantitativeSpectralObservability.oldResidualData' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeSpectralObservability.OldResidualData.old_norm_le' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

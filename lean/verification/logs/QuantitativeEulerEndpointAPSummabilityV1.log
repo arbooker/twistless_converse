@@ -1,4 +1,0 @@
-'QuantitativeEulerEndpointAP.exception_block_counts_summable' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeEulerEndpointAP.divisorException_reciprocal_summable' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

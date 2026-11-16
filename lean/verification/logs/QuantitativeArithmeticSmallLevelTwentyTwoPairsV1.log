@@ -1,5 +1,0 @@
-'QuantitativeArithmeticSmallLevelTwentyTwo.original_E' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeArithmeticSmallLevelTwentyTwo.original_three_defect' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-

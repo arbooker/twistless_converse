@@ -61,36 +61,7 @@ theorem primeHit_strict {G p : ℕ} (hG : 0 < G) (hp : p.Prime) (hpG : p ∣ G)
   have hpos : 0 < labelOrder a := addOrderOf_pos (a.val : ZMod G)
   nlinarith [hp.two_le]
 
-/-- Mix legal label rows with complete prime rows. There is no admissibility
-restriction on the level: each omitted legal row only needs a prime not
-dividing its pivot order. This is the combinatorial detector used by
-retained-prime reconstruction. -/
-theorem mixed_label_detect {K : Type*} [AddCommMonoid K] {G : ℕ} (hG : 0 < G)
-    (good : Fin G → Prop) [DecidablePred good] (p : Fin G → ℕ)
-    (hp : ∀ a, ¬ good a → (p a).Prime)
-    (hpG : ∀ a, ¬ good a → p a ∣ G)
-    (hpa : ∀ a, ¬ good a → ¬ p a ∣ labelOrder a)
-    (f : Fin G → K)
-    (hgood : ∀ a, good a → ∑ z ∈ labelHit a, f z = 0)
-    (hbad : ∀ a, ¬ good a → ∑ z ∈ primeHit (p a) a, f z = 0) : f = 0 := by
-  classical
-  apply triangular_detect labelOrder (fun a => if good a then labelHit a else primeHit (p a) a)
-  · intro a
-    split_ifs
-    · exact (mem_labelHit a a).mpr (Nat.ModEq.refl _)
-    · exact (mem_primeHit a a).mpr (Nat.ModEq.refl _)
-  · intro a z hz hne
-    by_cases ha : good a
-    · simp only [ite_eq_left ha] at hz
-      exact labelHit_strict hG a z hz hne
-    · simp only [ite_eq_right ha] at hz
-      exact primeHit_strict hG (hp a ha) (hpG a ha) a z (hpa a ha) hz hne
-  · intro a
-    by_cases ha : good a
-    · simpa only [ite_eq_left ha] using hgood a ha
-    · simpa only [ite_eq_right ha] using hbad a ha
-
 #print axioms primeHit_order
-#print axioms mixed_label_detect
+#print axioms primeHit_strict
 
 end QuantitativeArithmeticMixedLabelDetection

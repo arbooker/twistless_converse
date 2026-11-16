@@ -1,6 +1,0 @@
-'QuantitativeEulerEndpointPrepared.localSignRow_mem_localRowSpan' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'QuantitativeEulerEndpointPrepared.globalSignRow_mem_localRowSpan' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

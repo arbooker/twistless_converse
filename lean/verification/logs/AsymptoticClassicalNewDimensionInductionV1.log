@@ -1,1 +1,0 @@
-'AsymptoticClassicalDimension.partial_dimension_difference' depends on axioms: [propext, Classical.choice, Quot.sound]

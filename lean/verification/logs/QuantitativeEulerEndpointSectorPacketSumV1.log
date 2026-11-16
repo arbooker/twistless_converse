@@ -1,7 +1,0 @@
-'QuantitativeEulerEndpointPrepared.sectorPacketWitness' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeEulerEndpointPrepared.SectorPacketWitness.packet_bound' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'QuantitativeEulerEndpointPrepared.prepared_sector_packet_sum' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

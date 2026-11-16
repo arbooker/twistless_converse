@@ -1,9 +1,0 @@
-'QuantitativeArithmeticSmallLevelEisenstein.tendsto_slash_triangular' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'QuantitativeArithmeticSmallLevelEisenstein.cuspBoundary_left' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'QuantitativeArithmeticSmallLevelEisenstein.cuspBoundary_triangular' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

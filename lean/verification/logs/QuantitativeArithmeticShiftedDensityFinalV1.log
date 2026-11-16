@@ -1,3 +1,0 @@
-'QuantitativeArithmetic.relativePrimeDensityOne_prime_shifted_class' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

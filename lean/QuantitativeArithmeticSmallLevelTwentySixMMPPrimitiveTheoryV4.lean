@@ -1180,7 +1180,7 @@ open QuantitativeArithmeticSevenLaurentRows SmallLevelLaurentPhysicalSubstitutio
 
 theorem raw_binding (i : Fin 12) : rawRows i =
     QuantitativeArithmeticSmallLevelTwentySixMMPCompactReplay.selectedRows i := by
-  fin_cases i <;> rfl
+  fin_cases i <;> decide +kernel
 
 #print axioms raw_binding
 

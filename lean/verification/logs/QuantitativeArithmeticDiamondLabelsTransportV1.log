@@ -1,5 +1,0 @@
-'QuantitativeArithmeticDiamondLabels.fricke_intertwine_label' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeArithmeticDiamondLabels.frickeConjugate_label' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeArithmeticDiamondLabels.canonical_right_difference' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

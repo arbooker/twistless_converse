@@ -1,2 +1,0 @@
-'MaassSqrtRescaling.W₁_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
-'MaassSqrtRescaling.rescaled_ode' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,3 +1,0 @@
-'QuantitativeArithmeticSmallLevelThirteen.original_row_3' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeArithmeticSmallLevelThirteen.original_row_4' depends on axioms: [propext, Classical.choice, Quot.sound]
-

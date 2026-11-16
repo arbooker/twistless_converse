@@ -1,4 +1,0 @@
-'SmallLevelTwentyOneKnownWords.FirstJetCertificate.pole_conditions' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-

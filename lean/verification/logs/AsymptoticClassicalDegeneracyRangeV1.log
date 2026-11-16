@@ -1,1 +1,0 @@
-'AsymptoticClassicalCusp.frickeOld_range_eq_degeneracy' depends on axioms: [propext, Classical.choice, Quot.sound]

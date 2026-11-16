@@ -1,3 +1,0 @@
-'QuantitativeArithmeticCurvedTaylor.meromorphic_continuation' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeArithmeticCurvedTaylor.analytic_away_weight' depends on axioms: [propext, Classical.choice, Quot.sound]
-

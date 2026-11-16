@@ -1,2 +1,0 @@
-'FinitenessMellinSeries.exchange' depends on axioms: [propext, Classical.choice, Quot.sound]
-'FinitenessMellinSeries.inverse' depends on axioms: [propext, Classical.choice, Quot.sound]

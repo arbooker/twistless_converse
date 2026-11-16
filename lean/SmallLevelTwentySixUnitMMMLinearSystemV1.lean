@@ -104,7 +104,7 @@ theorem sourceRows_analytic (m : ℕ) (a b : ℂ) (v : Fin 780→ℂ) (i : Fin 3
   · exact analyticAt_const
 
 theorem support_injective : Function.Injective support := by
-  have hs : StrictMono support := Fin.strictMono_iff_lt_succ.mpr (by decide)
+  have hs : StrictMono support := Fin.strictMono_iff_lt_succ.mpr (by decide +kernel)
   exact hs.injective
 
 def leadingMatrix (m : ℕ) (a b s : ℂ) : Matrix (Fin 366) (Fin 320) ℂ :=

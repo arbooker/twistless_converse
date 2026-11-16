@@ -1,9 +1,0 @@
-'QuantitativeArithmeticSmallLevelThirteen.original_G₂' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeArithmeticSmallLevelThirteen.original_defect_laws' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'QuantitativeArithmeticSmallLevelThirteen.original_defect_holomorphic' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'QuantitativeArithmeticSmallLevelThirteen.defect_cyclic' depends on axioms: [propext, Classical.choice, Quot.sound]
-

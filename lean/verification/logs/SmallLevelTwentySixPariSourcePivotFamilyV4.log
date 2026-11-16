@@ -1,2 +1,0 @@
-'SmallLevelTwentySixPariSourcePivot87.identity' depends on axioms: [propext, Classical.choice, Quot.sound]
-'SmallLevelTwentySixPariSourcePivot8.identity' depends on axioms: [propext, Classical.choice, Quot.sound]

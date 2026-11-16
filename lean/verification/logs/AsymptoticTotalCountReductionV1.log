@@ -1,3 +1,0 @@
-'AsymptoticCompactObservationCount.count_littleO_of_total_newspace_inputs' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

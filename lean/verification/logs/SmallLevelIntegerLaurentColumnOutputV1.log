@@ -1,2 +1,0 @@
-'SmallLevelIntegerLaurentColumnOutput.column_output' depends on axioms: [propext, Classical.choice, Quot.sound]
-'SmallLevelIntegerLaurentColumnOutput.output_of_columns' depends on axioms: [propext, Classical.choice, Quot.sound]

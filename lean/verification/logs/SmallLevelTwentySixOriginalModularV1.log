@@ -1,3 +1,0 @@
-'SmallLevelTwentySixOriginal.even_weight' depends on axioms: [propext, Classical.choice, Quot.sound]
-'SmallLevelTwentySixOriginal.level_twenty_six' depends on axioms: [propext, Classical.choice, Quot.sound]
-

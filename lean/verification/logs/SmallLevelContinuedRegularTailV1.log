@@ -1,1 +1,0 @@
-'SmallLevelFiniteShift.continued_regular_tail' depends on axioms: [propext, Classical.choice, Quot.sound]

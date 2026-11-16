@@ -1,9 +1,6 @@
 module
 
-public import QuantitativeArithmeticRetainedGridV1
-public import QuantitativeArithmeticRetainedBoundedAxisV1
-public import QuantitativeArithmeticRetainedTraceRemovalV1
-public import QuantitativeArithmeticRetainedCertificateV1
+public import SpanningCriterionSufficiencyV1
 
 @[expose] public section
 
@@ -18,10 +15,8 @@ theorem zero_kernel {N : ℕ} (hN : 0 < N) (P : Finset ℕ)
     (hP : ∀ p ∈ P, p.Prime) (hlarge : N < (∏ p ∈ P, p)^2) :
     ∃ Q : ℕ, 0 < Q ∧ N ∣ Q ∧ (∀ p ∈ P, p ∣ Q) ∧
       ∀ f : ℤ → ℚ, Augmented N (P : Set ℕ) Q f → f = 0 := by
-  have hpos : ∀ p ∈ P, 0 < p := fun p hp => (hP p hp).pos
-  exact QuantitativeArithmeticRetainedTraceRemoval.retained_zero_of_bounded_axis hN P hpos
-    (QuantitativeArithmeticRetainedBoundedAxis.bounded_axis hN P hpos
-      (QuantitativeArithmeticRetainedGrid.grid_difference_detector hN P hP hlarge))
+  exact SpanningCriterion.zero_kernel hN P hP
+    (SpanningCriterion.condition_of_product hN P hP hlarge)
 
 /-- The row-span form of the general augmented spanning theorem. -/
 theorem spanning {N : ℕ} (hN : 0 < N) (P : Finset ℕ)

@@ -1,4 +1,0 @@
-'SmallLevelTwentyOneKnownWords.original_normalized_augmented_pole_constraints' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-

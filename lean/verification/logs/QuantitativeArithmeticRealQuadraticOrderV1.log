@@ -1,3 +1,0 @@
-'QuantitativeArithmeticQuadraticTwistQuotient.finiteOrder_of_real_quadratic' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

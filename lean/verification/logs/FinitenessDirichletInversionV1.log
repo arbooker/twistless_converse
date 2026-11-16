@@ -1,2 +1,0 @@
-'FinitenessDirichletInversion.right_rapid' depends on axioms: [propext, Classical.choice, Quot.sound]
-'FinitenessDirichletInversion.inversion' depends on axioms: [propext, Classical.choice, Quot.sound]

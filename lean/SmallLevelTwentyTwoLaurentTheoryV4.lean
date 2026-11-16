@@ -1,6 +1,10 @@
 module
+public meta import SmallLevelCertificateBatchCommandV1
 
 public import SmallLevelTwentyTwoFirstJetAlgebraV1
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
+set_option linter.unnecessarySeqFocus false
 
 /-! Consolidated chapter: SmallLevelTwentyTwoLaurent. Original declarations and local scopes are retained. -/
 
@@ -18,6 +22,7 @@ namespace SmallLevelTwentyTwoLaurent
 open Complex
 
 /- Exact selected 66-grid rows, augmented by Hecke-two rows 6 and 28. -/
+certificate_batch {
 def leadingRows (η u v X Y Z a : ℂ) (w : Fin 66→ℂ) : Fin 68→ℂ
   | 0 => ((1))*w 0 + (η*((-1)*X*Z))*w 63
   | 1 => (η*(((-1))/(X*Y^2*Z)))*w 0 + ((1))*w 1
@@ -705,6 +710,8 @@ def pole7 (X Y Z a : ℂ) : Fin 66→ℂ
   | 64 => 0
   | _ => 0
 
+}
+
 end SmallLevelTwentyTwoLaurent
 end
 end
@@ -718,6 +725,7 @@ set_option maxHeartbeats 12000000
 namespace SmallLevelTwentyTwoLaurent
 open Complex
 
+certificate_batch {
 def positiveTaylorRows (η u v X Y Z : ℂ) (n : ℕ) (w : Fin 66→ℂ) : Fin 68→ℂ
   | 0 => (η*(22*X*Z))*(22)^n*w 63
   | 1 => (η*((1)/(3*X*Y^2*Z)))*((1)/3)^n*w 0
@@ -798,6 +806,8 @@ theorem positiveTaylorRows_scale (η u v X Y Z c : ℂ) (n : ℕ) (w : Fin 66→
 
 #print axioms leadingRows_scale
 #print axioms positiveTaylorRows_scale
+}
+
 end SmallLevelTwentyTwoLaurent
 end
 end
@@ -813,6 +823,7 @@ set_option maxHeartbeats 0
 namespace SmallLevelTwentyTwoLaurent
 open Complex
 
+certificate_batch {
 theorem normalized_row0_0 (X Y Z a : ℂ) (_hX : X≠0) (_hY : Y≠0) (_hZ : Z≠0) (w : Fin 66→ℂ)
     (hw : coreRows (-1) (-1) (-1) X Y Z a w=0) : (1)*w 0 + (1*X*Z)*w 63=0 := by
   have h := congrFun hw (0:Fin 66)
@@ -2099,6 +2110,9 @@ theorem normalized_row2_10 (X Y Z a : ℂ) (_hX : X≠0) (_hY : Y≠0) (_hZ : Z�
   linear_combination (norm := (field_simp [_hX,_hY,_hZ]; all_goals ring)) h
 
 #print axioms normalized_row2_10
+
+certificate_batch {
+}
 
 theorem normalized_row2_11 (X Y Z a : ℂ) (_hX : X≠0) (_hY : Y≠0) (_hZ : Z≠0) (w : Fin 66→ℂ)
     (hw : coreRows (-1) (1) (-1) X Y Z a w=0) : (1)*w 32 + (1*X)*w 65=0 := by
@@ -3396,6 +3410,9 @@ theorem normalized_row4_22 (X Y Z a : ℂ) (_hX : X≠0) (_hY : Y≠0) (_hZ : Z�
 
 #print axioms normalized_row4_22
 
+certificate_batch {
+}
+
 theorem normalized_row4_23 (X Y Z a : ℂ) (_hX : X≠0) (_hY : Y≠0) (_hZ : Z≠0) (w : Fin 66→ℂ)
     (hw : coreRows (1) (-1) (-1) X Y Z a w=0) : (1)*w 38 + (((-1)*X)/(Y^2))*w 51=0 := by
   have h := congrFun hw (23:Fin 66)
@@ -4692,6 +4709,9 @@ theorem normalized_row6_34 (X Y Z a : ℂ) (_hX : X≠0) (_hY : Y≠0) (_hZ : Z�
 
 #print axioms normalized_row6_34
 
+certificate_batch {
+}
+
 theorem normalized_row6_35 (X Y Z a : ℂ) (_hX : X≠0) (_hY : Y≠0) (_hZ : Z≠0) (w : Fin 66→ℂ)
     (hw : coreRows (1) (1) (-1) X Y Z a w=0) : (((-1)*X)/(Z))*w 11 + (1)*w 24 + (((-1)*X)/(Z))*w 33 + (1)*w 46=0 := by
   have h := congrFun hw (35:Fin 66)
@@ -5565,6 +5585,8 @@ theorem normalized_row7_65 (X Y Z a : ℂ) (_hX : X≠0) (_hY : Y≠0) (_hZ : Z�
 
 #print axioms normalized_row7_65
 
+}
+
 end SmallLevelTwentyTwoLaurent
 end
 end
@@ -5580,6 +5602,7 @@ set_option maxRecDepth 4000
 namespace SmallLevelTwentyTwoLaurent
 open Complex
 
+certificate_batch {
 theorem coordinate0_0 (X Y Z a : ℂ) (hX : X≠0) (hY : Y≠0) (hZ : Z≠0)
     (w : Fin 66→ℂ) (hw : coreRows (-1) (-1) (-1) X Y Z a w=0) :
     w 0=pole0 X Y Z a 0*w 44 := by
@@ -6334,6 +6357,9 @@ theorem coordinate0_30 (X Y Z a : ℂ) (hX : X≠0) (hY : Y≠0) (hZ : Z≠0)
 
 #print axioms coordinate0_30
 
+certificate_batch {
+}
+
 theorem coordinate0_31 (X Y Z a : ℂ) (hX : X≠0) (hY : Y≠0) (hZ : Z≠0)
     (w : Fin 66→ℂ) (hw : coreRows (-1) (-1) (-1) X Y Z a w=0) :
     w 31=pole0 X Y Z a 31*w 44 := by
@@ -7043,6 +7069,9 @@ theorem coordinate0_57 (X Y Z a : ℂ) (hX : X≠0) (hY : Y≠0) (hZ : Z≠0)
 
 #print axioms coordinate0_57
 
+certificate_batch {
+}
+
 theorem coordinate0_58 (X Y Z a : ℂ) (hX : X≠0) (hY : Y≠0) (hZ : Z≠0)
     (w : Fin 66→ℂ) (hw : coreRows (-1) (-1) (-1) X Y Z a w=0) :
     w 58=pole0 X Y Z a 58*w 44 := by
@@ -7196,6 +7225,8 @@ theorem coordinate0_65 (X Y Z a : ℂ) (hX : X≠0) (hY : Y≠0) (hZ : Z≠0)
   linear_combination (norm := (field_simp [hX,hY,hZ]; all_goals ring)) (1)*h3 + (((-1))/(X*Y^2*Z))*h46
 
 #print axioms coordinate0_65
+
+}
 
 end SmallLevelTwentyTwoLaurent
 end

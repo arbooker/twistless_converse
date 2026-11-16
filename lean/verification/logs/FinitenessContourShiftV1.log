@@ -1,2 +1,0 @@
-'FinitenessContourShift.horizontal_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
-'FinitenessContourShift.vertical_eq' depends on axioms: [propext, Classical.choice, Quot.sound]

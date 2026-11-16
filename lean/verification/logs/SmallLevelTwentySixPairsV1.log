@@ -1,3 +1,0 @@
-'SmallLevelTwentySix.original_pair4' depends on axioms: [propext, Classical.choice, Quot.sound]
-'SmallLevelTwentySix.original_pair6' depends on axioms: [propext, Classical.choice, Quot.sound]
-

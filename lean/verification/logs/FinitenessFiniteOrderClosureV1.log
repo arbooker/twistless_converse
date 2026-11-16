@@ -1,2 +1,0 @@
-'FinitenessFiniteOrderClosure.add' depends on axioms: [propext, Classical.choice, Quot.sound]
-'FinitenessFiniteOrderClosure.prod' depends on axioms: [propext, Classical.choice, Quot.sound]

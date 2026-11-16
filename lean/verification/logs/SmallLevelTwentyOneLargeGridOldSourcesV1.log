@@ -1,4 +1,0 @@
-'SmallLevelTwentyOneLargeGridModel.embedded_grid' depends on axioms: [propext, Classical.choice, Quot.sound]
-'SmallLevelTwentyOneLargeGridModel.oldFiveSource_meromorphic' depends on axioms: [propext, Classical.choice, Quot.sound]
-'SmallLevelTwentyOneLargeGridModel.original_five_source' depends on axioms: [propext, Classical.choice, Quot.sound]
-

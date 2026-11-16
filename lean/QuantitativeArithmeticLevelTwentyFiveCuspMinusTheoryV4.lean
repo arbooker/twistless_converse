@@ -90,6 +90,13 @@ public import SmallLevelUniversalHigherPoleVectorV1
 public import SmallLevelUniversalPoleDetectionV1
 
 public import QuantitativeArithmeticLevelTwentyFiveAuxiliaryTheoryV4
+public meta import SmallLevelCertificateBatchCommandV1
+public import QuantitativeArithmeticSmallLevelTwentyFiveCuspMinusLowerResidualZeroCertificatesV6
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
+set_option linter.unusedSimpArgs false
+set_option linter.unnecessarySimpa false
+certificate_batch {
 set_option Elab.async false
 set_option linter.unusedTactic false
 set_option linter.unreachableTactic false
@@ -1422,8 +1429,8 @@ compact_certificate theorem row_identity_0 (x z σ : ℂ) (v : ℕ → ℂ)
   rcases hσ with rfl | rfl
   all_goals
     norm_num [CuspMinusLowerResidual.c166, CuspMinusLowerResidual.c174, CuspMinusLowerResidual.c178, CuspMinusLowerResidual.c184, CuspMinusLowerResidual.c193, CuspMinusLowerResidual.c242, CuspMinusLowerResidual.c251, CuspMinusLowerResidual.c255, CuspMinusLowerResidual.c258, CuspMinusLowerResidual.c264, CuspMinusLowerResidual.c270, CuspMinusLowerResidual.e1, CuspMinusLowerResidual.e102, CuspMinusLowerResidual.e103, CuspMinusLowerResidual.e106, CuspMinusLowerResidual.e108, CuspMinusLowerResidual.e113, CuspMinusLowerResidual.e119, CuspMinusLowerResidual.e12, CuspMinusLowerResidual.e13, CuspMinusLowerResidual.e16, CuspMinusLowerResidual.e18, CuspMinusLowerResidual.e19, CuspMinusLowerResidual.e2, CuspMinusLowerResidual.e21, CuspMinusLowerResidual.e24, CuspMinusLowerResidual.e25, CuspMinusLowerResidual.e28, CuspMinusLowerResidual.e29, CuspMinusLowerResidual.e3, CuspMinusLowerResidual.e30, CuspMinusLowerResidual.e32, CuspMinusLowerResidual.e33, CuspMinusLowerResidual.e35, CuspMinusLowerResidual.e38, CuspMinusLowerResidual.e39, CuspMinusLowerResidual.e4, CuspMinusLowerResidual.e40, CuspMinusLowerResidual.e43, CuspMinusLowerResidual.e44, CuspMinusLowerResidual.e47, CuspMinusLowerResidual.e48, CuspMinusLowerResidual.e49, CuspMinusLowerResidual.e53, CuspMinusLowerResidual.e59, CuspMinusLowerResidual.e60, CuspMinusLowerResidual.e61, CuspMinusLowerResidual.e63, CuspMinusLowerResidual.e7, CuspMinusLowerResidual.e74, CuspMinusLowerResidual.e75, CuspMinusLowerResidual.e77, CuspMinusLowerResidual.e8, CuspMinusLowerResidual.e80, CuspMinusLowerResidual.e83, CuspMinusLowerResidual.e93, CuspMinusLowerResidual.e96, CuspMinusLowerResidual.e97, CuspMinusLowerResidual.upperResidual, CuspMinusBranchMatrix.c361, CuspMinusBranchMatrix.c382, CuspMinusBranchMatrix.c385, CuspMinusBranchMatrix.c389, CuspMinusBranchMatrix.c392, CuspMinusBranchMatrix.c397, CuspMinusBranchMatrix.c400, CuspMinusBranchMatrix.c408, CuspMinusBranchMatrix.c417, CuspMinusBranchMatrix.c423, CuspMinusBranchMatrix.e0, CuspMinusBranchMatrix.e2, CuspMinusBranchMatrix.e4, CuspMinusBranchMatrix.e6, CuspMinusBranchMatrix.e9, CuspMinusBranchMatrix.rows, eval, monomial, topValues, lowerValues, topFree]
-    field_simp [hx,hz]
-    ring
+    norm_num [Rat.cast_divInt]
+    field_simp [hx,hz] <;> ring_nf <;> field_simp [hx,hz] <;> ring
 #print axioms row_identity_0
 
 compact_certificate theorem row_identity_1 (x z σ : ℂ) (v : ℕ → ℂ)
@@ -1434,8 +1441,8 @@ compact_certificate theorem row_identity_1 (x z σ : ℂ) (v : ℕ → ℂ)
   rcases hσ with rfl | rfl
   all_goals
     norm_num [CuspMinusLowerResidual.c10, CuspMinusLowerResidual.c100, CuspMinusLowerResidual.c104, CuspMinusLowerResidual.c112, CuspMinusLowerResidual.c115, CuspMinusLowerResidual.c119, CuspMinusLowerResidual.c125, CuspMinusLowerResidual.c135, CuspMinusLowerResidual.c143, CuspMinusLowerResidual.c144, CuspMinusLowerResidual.c147, CuspMinusLowerResidual.c157, CuspMinusLowerResidual.c159, CuspMinusLowerResidual.c16, CuspMinusLowerResidual.c163, CuspMinusLowerResidual.c165, CuspMinusLowerResidual.c170, CuspMinusLowerResidual.c175, CuspMinusLowerResidual.c177, CuspMinusLowerResidual.c182, CuspMinusLowerResidual.c187, CuspMinusLowerResidual.c258, CuspMinusLowerResidual.c260, CuspMinusLowerResidual.c270, CuspMinusLowerResidual.c272, CuspMinusLowerResidual.c278, CuspMinusLowerResidual.c282, CuspMinusLowerResidual.c284, CuspMinusLowerResidual.c287, CuspMinusLowerResidual.c294, CuspMinusLowerResidual.c298, CuspMinusLowerResidual.c300, CuspMinusLowerResidual.c303, CuspMinusLowerResidual.c308, CuspMinusLowerResidual.c314, CuspMinusLowerResidual.c320, CuspMinusLowerResidual.c328, CuspMinusLowerResidual.c329, CuspMinusLowerResidual.c334, CuspMinusLowerResidual.c348, CuspMinusLowerResidual.c359, CuspMinusLowerResidual.c366, CuspMinusLowerResidual.c374, CuspMinusLowerResidual.c381, CuspMinusLowerResidual.c50, CuspMinusLowerResidual.c64, CuspMinusLowerResidual.c76, CuspMinusLowerResidual.c78, CuspMinusLowerResidual.c92, CuspMinusLowerResidual.c94, CuspMinusLowerResidual.c96, CuspMinusLowerResidual.e1, CuspMinusLowerResidual.e102, CuspMinusLowerResidual.e103, CuspMinusLowerResidual.e106, CuspMinusLowerResidual.e108, CuspMinusLowerResidual.e113, CuspMinusLowerResidual.e119, CuspMinusLowerResidual.e12, CuspMinusLowerResidual.e13, CuspMinusLowerResidual.e16, CuspMinusLowerResidual.e18, CuspMinusLowerResidual.e19, CuspMinusLowerResidual.e2, CuspMinusLowerResidual.e21, CuspMinusLowerResidual.e24, CuspMinusLowerResidual.e25, CuspMinusLowerResidual.e28, CuspMinusLowerResidual.e29, CuspMinusLowerResidual.e3, CuspMinusLowerResidual.e30, CuspMinusLowerResidual.e32, CuspMinusLowerResidual.e33, CuspMinusLowerResidual.e35, CuspMinusLowerResidual.e38, CuspMinusLowerResidual.e39, CuspMinusLowerResidual.e4, CuspMinusLowerResidual.e40, CuspMinusLowerResidual.e43, CuspMinusLowerResidual.e44, CuspMinusLowerResidual.e47, CuspMinusLowerResidual.e48, CuspMinusLowerResidual.e49, CuspMinusLowerResidual.e53, CuspMinusLowerResidual.e59, CuspMinusLowerResidual.e60, CuspMinusLowerResidual.e61, CuspMinusLowerResidual.e63, CuspMinusLowerResidual.e7, CuspMinusLowerResidual.e74, CuspMinusLowerResidual.e75, CuspMinusLowerResidual.e77, CuspMinusLowerResidual.e8, CuspMinusLowerResidual.e80, CuspMinusLowerResidual.e83, CuspMinusLowerResidual.e93, CuspMinusLowerResidual.e96, CuspMinusLowerResidual.e97, CuspMinusLowerResidual.lowerResidual, CuspMinusLowerResidual.c100, CuspMinusLowerResidual.c115, CuspMinusLowerResidual.c12, CuspMinusLowerResidual.c125, CuspMinusLowerResidual.c129, CuspMinusLowerResidual.c13, CuspMinusLowerResidual.c130, CuspMinusLowerResidual.c14, CuspMinusLowerResidual.c15, CuspMinusLowerResidual.c150, CuspMinusLowerResidual.c24, CuspMinusLowerResidual.c26, CuspMinusLowerResidual.c261, CuspMinusLowerResidual.c285, CuspMinusLowerResidual.c296, CuspMinusLowerResidual.c298, CuspMinusLowerResidual.c299, CuspMinusLowerResidual.c302, CuspMinusLowerResidual.c304, CuspMinusLowerResidual.c309, CuspMinusLowerResidual.c31, CuspMinusLowerResidual.c311, CuspMinusLowerResidual.c314, CuspMinusLowerResidual.c318, CuspMinusLowerResidual.c32, CuspMinusLowerResidual.c321, CuspMinusLowerResidual.c328, CuspMinusLowerResidual.c329, CuspMinusLowerResidual.c33, CuspMinusLowerResidual.c330, CuspMinusLowerResidual.c331, CuspMinusLowerResidual.c332, CuspMinusLowerResidual.c338, CuspMinusLowerResidual.c340, CuspMinusLowerResidual.c341, CuspMinusLowerResidual.c342, CuspMinusLowerResidual.c346, CuspMinusLowerResidual.c355, CuspMinusLowerResidual.c360, CuspMinusLowerResidual.c372, CuspMinusLowerResidual.c381, CuspMinusLowerResidual.c396, CuspMinusLowerResidual.c4, CuspMinusLowerResidual.c400, CuspMinusLowerResidual.c41, CuspMinusLowerResidual.c42, CuspMinusLowerResidual.c43, CuspMinusLowerResidual.c5, CuspMinusLowerResidual.c56, CuspMinusLowerResidual.c60, CuspMinusLowerResidual.c64, CuspMinusLowerResidual.c65, CuspMinusLowerResidual.c72, CuspMinusLowerResidual.c83, CuspMinusLowerResidual.c87, CuspMinusLowerResidual.c88, CuspMinusLowerResidual.c9, CuspMinusLowerResidual.c92, CuspMinusLowerResidual.c94, CuspMinusLowerResidual.e1, CuspMinusLowerResidual.e102, CuspMinusLowerResidual.e103, CuspMinusLowerResidual.e106, CuspMinusLowerResidual.e108, CuspMinusLowerResidual.e113, CuspMinusLowerResidual.e119, CuspMinusLowerResidual.e12, CuspMinusLowerResidual.e13, CuspMinusLowerResidual.e16, CuspMinusLowerResidual.e18, CuspMinusLowerResidual.e19, CuspMinusLowerResidual.e24, CuspMinusLowerResidual.e25, CuspMinusLowerResidual.e28, CuspMinusLowerResidual.e29, CuspMinusLowerResidual.e3, CuspMinusLowerResidual.e30, CuspMinusLowerResidual.e32, CuspMinusLowerResidual.e33, CuspMinusLowerResidual.e35, CuspMinusLowerResidual.e38, CuspMinusLowerResidual.e39, CuspMinusLowerResidual.e4, CuspMinusLowerResidual.e40, CuspMinusLowerResidual.e43, CuspMinusLowerResidual.e44, CuspMinusLowerResidual.e47, CuspMinusLowerResidual.e48, CuspMinusLowerResidual.e49, CuspMinusLowerResidual.e53, CuspMinusLowerResidual.e59, CuspMinusLowerResidual.e60, CuspMinusLowerResidual.e61, CuspMinusLowerResidual.e63, CuspMinusLowerResidual.e66, CuspMinusLowerResidual.e7, CuspMinusLowerResidual.e74, CuspMinusLowerResidual.e75, CuspMinusLowerResidual.e77, CuspMinusLowerResidual.e80, CuspMinusLowerResidual.e83, CuspMinusLowerResidual.e93, CuspMinusLowerResidual.e96, CuspMinusLowerResidual.e97, CuspMinusLowerResidual.firstResidual, CuspMinusBranchMatrix.c298, CuspMinusBranchMatrix.c319, CuspMinusBranchMatrix.c324, CuspMinusBranchMatrix.c325, CuspMinusBranchMatrix.c330, CuspMinusBranchMatrix.c362, CuspMinusBranchMatrix.c363, CuspMinusBranchMatrix.c366, CuspMinusBranchMatrix.c369, CuspMinusBranchMatrix.c381, CuspMinusBranchMatrix.c386, CuspMinusBranchMatrix.c396, CuspMinusBranchMatrix.c403, CuspMinusBranchMatrix.c410, CuspMinusBranchMatrix.c413, CuspMinusBranchMatrix.c418, CuspMinusBranchMatrix.c421, CuspMinusBranchMatrix.c425, CuspMinusBranchMatrix.c427, CuspMinusBranchMatrix.c431, CuspMinusBranchMatrix.c433, CuspMinusBranchMatrix.c444, CuspMinusBranchMatrix.c450, CuspMinusBranchMatrix.c458, CuspMinusBranchMatrix.c465, CuspMinusBranchMatrix.e0, CuspMinusBranchMatrix.e2, CuspMinusBranchMatrix.e4, CuspMinusBranchMatrix.e6, CuspMinusBranchMatrix.e9, CuspMinusBranchMatrix.rows, eval, monomial, topValues, lowerValues, topFree]
-    field_simp [hx,hz]
-    ring
+    norm_num [Rat.cast_divInt]
+    field_simp [hx,hz] <;> ring_nf <;> field_simp [hx,hz] <;> ring
 #print axioms row_identity_1
 
 compact_certificate theorem row_identity_2 (x z σ : ℂ) (v : ℕ → ℂ)
@@ -1445,8 +1452,8 @@ compact_certificate theorem row_identity_2 (x z σ : ℂ) (v : ℕ → ℂ)
   rcases hσ with rfl | rfl
   all_goals
     norm_num [CuspMinusLowerResidual.c161, CuspMinusLowerResidual.c166, CuspMinusLowerResidual.c169, CuspMinusLowerResidual.c174, CuspMinusLowerResidual.c178, CuspMinusLowerResidual.c184, CuspMinusLowerResidual.c193, CuspMinusLowerResidual.c242, CuspMinusLowerResidual.c251, CuspMinusLowerResidual.c258, CuspMinusLowerResidual.c262, CuspMinusLowerResidual.c264, CuspMinusLowerResidual.c267, CuspMinusLowerResidual.e10, CuspMinusLowerResidual.e102, CuspMinusLowerResidual.e103, CuspMinusLowerResidual.e108, CuspMinusLowerResidual.e113, CuspMinusLowerResidual.e12, CuspMinusLowerResidual.e13, CuspMinusLowerResidual.e16, CuspMinusLowerResidual.e18, CuspMinusLowerResidual.e20, CuspMinusLowerResidual.e21, CuspMinusLowerResidual.e22, CuspMinusLowerResidual.e24, CuspMinusLowerResidual.e25, CuspMinusLowerResidual.e28, CuspMinusLowerResidual.e29, CuspMinusLowerResidual.e30, CuspMinusLowerResidual.e32, CuspMinusLowerResidual.e33, CuspMinusLowerResidual.e34, CuspMinusLowerResidual.e35, CuspMinusLowerResidual.e38, CuspMinusLowerResidual.e39, CuspMinusLowerResidual.e40, CuspMinusLowerResidual.e41, CuspMinusLowerResidual.e43, CuspMinusLowerResidual.e44, CuspMinusLowerResidual.e45, CuspMinusLowerResidual.e47, CuspMinusLowerResidual.e50, CuspMinusLowerResidual.e54, CuspMinusLowerResidual.e59, CuspMinusLowerResidual.e61, CuspMinusLowerResidual.e63, CuspMinusLowerResidual.e64, CuspMinusLowerResidual.e66, CuspMinusLowerResidual.e67, CuspMinusLowerResidual.e7, CuspMinusLowerResidual.e70, CuspMinusLowerResidual.e72, CuspMinusLowerResidual.e74, CuspMinusLowerResidual.e75, CuspMinusLowerResidual.e8, CuspMinusLowerResidual.e80, CuspMinusLowerResidual.e81, CuspMinusLowerResidual.e83, CuspMinusLowerResidual.e85, CuspMinusLowerResidual.e88, CuspMinusLowerResidual.e9, CuspMinusLowerResidual.e90, CuspMinusLowerResidual.e93, CuspMinusLowerResidual.e94, CuspMinusLowerResidual.e97, CuspMinusLowerResidual.upperResidual, CuspMinusBranchMatrix.c374, CuspMinusBranchMatrix.c380, CuspMinusBranchMatrix.c386, CuspMinusBranchMatrix.c388, CuspMinusBranchMatrix.c390, CuspMinusBranchMatrix.c399, CuspMinusBranchMatrix.c401, CuspMinusBranchMatrix.c402, CuspMinusBranchMatrix.c404, CuspMinusBranchMatrix.c412, CuspMinusBranchMatrix.e0, CuspMinusBranchMatrix.e2, CuspMinusBranchMatrix.e4, CuspMinusBranchMatrix.e9, CuspMinusBranchMatrix.rows, eval, monomial, topValues, lowerValues, topFree]
-    field_simp [hx,hz]
-    ring
+    norm_num [Rat.cast_divInt]
+    field_simp [hx,hz] <;> ring_nf <;> field_simp [hx,hz] <;> ring
 #print axioms row_identity_2
 
 compact_certificate theorem row_identity_3 (x z σ : ℂ) (v : ℕ → ℂ)
@@ -1457,8 +1464,8 @@ compact_certificate theorem row_identity_3 (x z σ : ℂ) (v : ℕ → ℂ)
   rcases hσ with rfl | rfl
   all_goals
     norm_num [CuspMinusLowerResidual.c100, CuspMinusLowerResidual.c115, CuspMinusLowerResidual.c126, CuspMinusLowerResidual.c133, CuspMinusLowerResidual.c147, CuspMinusLowerResidual.c150, CuspMinusLowerResidual.c158, CuspMinusLowerResidual.c161, CuspMinusLowerResidual.c163, CuspMinusLowerResidual.c165, CuspMinusLowerResidual.c171, CuspMinusLowerResidual.c172, CuspMinusLowerResidual.c174, CuspMinusLowerResidual.c177, CuspMinusLowerResidual.c178, CuspMinusLowerResidual.c183, CuspMinusLowerResidual.c184, CuspMinusLowerResidual.c187, CuspMinusLowerResidual.c189, CuspMinusLowerResidual.c198, CuspMinusLowerResidual.c258, CuspMinusLowerResidual.c259, CuspMinusLowerResidual.c271, CuspMinusLowerResidual.c280, CuspMinusLowerResidual.c282, CuspMinusLowerResidual.c286, CuspMinusLowerResidual.c287, CuspMinusLowerResidual.c289, CuspMinusLowerResidual.c293, CuspMinusLowerResidual.c294, CuspMinusLowerResidual.c296, CuspMinusLowerResidual.c301, CuspMinusLowerResidual.c306, CuspMinusLowerResidual.c312, CuspMinusLowerResidual.c317, CuspMinusLowerResidual.c320, CuspMinusLowerResidual.c328, CuspMinusLowerResidual.c353, CuspMinusLowerResidual.c36, CuspMinusLowerResidual.c378, CuspMinusLowerResidual.c380, CuspMinusLowerResidual.c381, CuspMinusLowerResidual.c387, CuspMinusLowerResidual.c46, CuspMinusLowerResidual.c48, CuspMinusLowerResidual.c50, CuspMinusLowerResidual.c52, CuspMinusLowerResidual.c57, CuspMinusLowerResidual.c58, CuspMinusLowerResidual.c85, CuspMinusLowerResidual.c87, CuspMinusLowerResidual.c94, CuspMinusLowerResidual.e10, CuspMinusLowerResidual.e102, CuspMinusLowerResidual.e103, CuspMinusLowerResidual.e108, CuspMinusLowerResidual.e113, CuspMinusLowerResidual.e12, CuspMinusLowerResidual.e13, CuspMinusLowerResidual.e16, CuspMinusLowerResidual.e18, CuspMinusLowerResidual.e20, CuspMinusLowerResidual.e21, CuspMinusLowerResidual.e22, CuspMinusLowerResidual.e24, CuspMinusLowerResidual.e25, CuspMinusLowerResidual.e28, CuspMinusLowerResidual.e29, CuspMinusLowerResidual.e30, CuspMinusLowerResidual.e32, CuspMinusLowerResidual.e33, CuspMinusLowerResidual.e34, CuspMinusLowerResidual.e35, CuspMinusLowerResidual.e38, CuspMinusLowerResidual.e39, CuspMinusLowerResidual.e40, CuspMinusLowerResidual.e41, CuspMinusLowerResidual.e43, CuspMinusLowerResidual.e44, CuspMinusLowerResidual.e45, CuspMinusLowerResidual.e47, CuspMinusLowerResidual.e50, CuspMinusLowerResidual.e54, CuspMinusLowerResidual.e59, CuspMinusLowerResidual.e61, CuspMinusLowerResidual.e63, CuspMinusLowerResidual.e64, CuspMinusLowerResidual.e66, CuspMinusLowerResidual.e67, CuspMinusLowerResidual.e7, CuspMinusLowerResidual.e70, CuspMinusLowerResidual.e72, CuspMinusLowerResidual.e74, CuspMinusLowerResidual.e75, CuspMinusLowerResidual.e8, CuspMinusLowerResidual.e80, CuspMinusLowerResidual.e81, CuspMinusLowerResidual.e83, CuspMinusLowerResidual.e85, CuspMinusLowerResidual.e88, CuspMinusLowerResidual.e9, CuspMinusLowerResidual.e90, CuspMinusLowerResidual.e93, CuspMinusLowerResidual.e94, CuspMinusLowerResidual.e97, CuspMinusLowerResidual.lowerResidual, CuspMinusLowerResidual.c0, CuspMinusLowerResidual.c1, CuspMinusLowerResidual.c100, CuspMinusLowerResidual.c106, CuspMinusLowerResidual.c108, CuspMinusLowerResidual.c109, CuspMinusLowerResidual.c111, CuspMinusLowerResidual.c116, CuspMinusLowerResidual.c117, CuspMinusLowerResidual.c118, CuspMinusLowerResidual.c125, CuspMinusLowerResidual.c127, CuspMinusLowerResidual.c130, CuspMinusLowerResidual.c138, CuspMinusLowerResidual.c144, CuspMinusLowerResidual.c159, CuspMinusLowerResidual.c172, CuspMinusLowerResidual.c187, CuspMinusLowerResidual.c22, CuspMinusLowerResidual.c243, CuspMinusLowerResidual.c254, CuspMinusLowerResidual.c27, CuspMinusLowerResidual.c271, CuspMinusLowerResidual.c274, CuspMinusLowerResidual.c294, CuspMinusLowerResidual.c3, CuspMinusLowerResidual.c306, CuspMinusLowerResidual.c308, CuspMinusLowerResidual.c312, CuspMinusLowerResidual.c316, CuspMinusLowerResidual.c335, CuspMinusLowerResidual.c347, CuspMinusLowerResidual.c349, CuspMinusLowerResidual.c350, CuspMinusLowerResidual.c354, CuspMinusLowerResidual.c357, CuspMinusLowerResidual.c362, CuspMinusLowerResidual.c366, CuspMinusLowerResidual.c367, CuspMinusLowerResidual.c371, CuspMinusLowerResidual.c375, CuspMinusLowerResidual.c377, CuspMinusLowerResidual.c385, CuspMinusLowerResidual.c388, CuspMinusLowerResidual.c39, CuspMinusLowerResidual.c394, CuspMinusLowerResidual.c49, CuspMinusLowerResidual.c57, CuspMinusLowerResidual.c63, CuspMinusLowerResidual.c64, CuspMinusLowerResidual.c71, CuspMinusLowerResidual.c73, CuspMinusLowerResidual.c74, CuspMinusLowerResidual.c77, CuspMinusLowerResidual.c8, CuspMinusLowerResidual.c80, CuspMinusLowerResidual.c82, CuspMinusLowerResidual.c84, CuspMinusLowerResidual.c86, CuspMinusLowerResidual.c90, CuspMinusLowerResidual.c94, CuspMinusLowerResidual.c95, CuspMinusLowerResidual.c99, CuspMinusLowerResidual.e10, CuspMinusLowerResidual.e102, CuspMinusLowerResidual.e103, CuspMinusLowerResidual.e108, CuspMinusLowerResidual.e113, CuspMinusLowerResidual.e12, CuspMinusLowerResidual.e13, CuspMinusLowerResidual.e16, CuspMinusLowerResidual.e18, CuspMinusLowerResidual.e20, CuspMinusLowerResidual.e24, CuspMinusLowerResidual.e25, CuspMinusLowerResidual.e28, CuspMinusLowerResidual.e30, CuspMinusLowerResidual.e32, CuspMinusLowerResidual.e33, CuspMinusLowerResidual.e35, CuspMinusLowerResidual.e38, CuspMinusLowerResidual.e39, CuspMinusLowerResidual.e40, CuspMinusLowerResidual.e41, CuspMinusLowerResidual.e43, CuspMinusLowerResidual.e44, CuspMinusLowerResidual.e47, CuspMinusLowerResidual.e50, CuspMinusLowerResidual.e53, CuspMinusLowerResidual.e54, CuspMinusLowerResidual.e55, CuspMinusLowerResidual.e59, CuspMinusLowerResidual.e61, CuspMinusLowerResidual.e63, CuspMinusLowerResidual.e64, CuspMinusLowerResidual.e66, CuspMinusLowerResidual.e67, CuspMinusLowerResidual.e7, CuspMinusLowerResidual.e70, CuspMinusLowerResidual.e72, CuspMinusLowerResidual.e74, CuspMinusLowerResidual.e75, CuspMinusLowerResidual.e80, CuspMinusLowerResidual.e81, CuspMinusLowerResidual.e83, CuspMinusLowerResidual.e85, CuspMinusLowerResidual.e88, CuspMinusLowerResidual.e9, CuspMinusLowerResidual.e90, CuspMinusLowerResidual.e93, CuspMinusLowerResidual.e94, CuspMinusLowerResidual.e96, CuspMinusLowerResidual.e97, CuspMinusLowerResidual.firstResidual, CuspMinusBranchMatrix.c317, CuspMinusBranchMatrix.c329, CuspMinusBranchMatrix.c335, CuspMinusBranchMatrix.c344, CuspMinusBranchMatrix.c348, CuspMinusBranchMatrix.c357, CuspMinusBranchMatrix.c364, CuspMinusBranchMatrix.c366, CuspMinusBranchMatrix.c368, CuspMinusBranchMatrix.c372, CuspMinusBranchMatrix.c381, CuspMinusBranchMatrix.c384, CuspMinusBranchMatrix.c389, CuspMinusBranchMatrix.c398, CuspMinusBranchMatrix.c406, CuspMinusBranchMatrix.c409, CuspMinusBranchMatrix.c414, CuspMinusBranchMatrix.c421, CuspMinusBranchMatrix.c426, CuspMinusBranchMatrix.c429, CuspMinusBranchMatrix.c437, CuspMinusBranchMatrix.c443, CuspMinusBranchMatrix.c448, CuspMinusBranchMatrix.c461, CuspMinusBranchMatrix.e0, CuspMinusBranchMatrix.e2, CuspMinusBranchMatrix.e4, CuspMinusBranchMatrix.e6, CuspMinusBranchMatrix.e9, CuspMinusBranchMatrix.rows, eval, monomial, topValues, lowerValues, topFree]
-    field_simp [hx,hz]
-    ring
+    norm_num [Rat.cast_divInt]
+    field_simp [hx,hz] <;> ring_nf <;> field_simp [hx,hz] <;> ring
 #print axioms row_identity_3
 
 compact_certificate theorem row_identity_4 (x z σ : ℂ) (v : ℕ → ℂ)
@@ -1469,8 +1476,8 @@ compact_certificate theorem row_identity_4 (x z σ : ℂ) (v : ℕ → ℂ)
   rcases hσ with rfl | rfl
   all_goals
     norm_num [CuspMinusLowerResidual.c193, CuspMinusLowerResidual.c251, CuspMinusLowerResidual.c270, CuspMinusLowerResidual.e21, CuspMinusLowerResidual.e34, CuspMinusLowerResidual.e51, CuspMinusLowerResidual.lowerResidual, CuspMinusLowerResidual.c115, CuspMinusLowerResidual.c155, CuspMinusLowerResidual.c276, CuspMinusLowerResidual.e21, CuspMinusLowerResidual.e34, CuspMinusLowerResidual.e51, CuspMinusLowerResidual.firstResidual, CuspMinusBranchMatrix.c373, CuspMinusBranchMatrix.c386, CuspMinusBranchMatrix.c393, CuspMinusBranchMatrix.c405, CuspMinusBranchMatrix.e3, CuspMinusBranchMatrix.e5, CuspMinusBranchMatrix.rows, eval, monomial, topValues, lowerValues, topFree]
-    field_simp [hx,_hz]
-    ring
+    norm_num [Rat.cast_divInt]
+    field_simp [hx,_hz] <;> ring_nf <;> field_simp [hx,_hz] <;> ring
 #print axioms row_identity_4
 
 compact_certificate theorem row_identity_5 (x z σ : ℂ) (v : ℕ → ℂ)
@@ -1481,8 +1488,8 @@ compact_certificate theorem row_identity_5 (x z σ : ℂ) (v : ℕ → ℂ)
   rcases hσ with rfl | rfl
   all_goals
     norm_num [CuspMinusLowerResidual.c161, CuspMinusLowerResidual.c166, CuspMinusLowerResidual.c171, CuspMinusLowerResidual.c182, CuspMinusLowerResidual.c242, CuspMinusLowerResidual.c272, CuspMinusLowerResidual.c300, CuspMinusLowerResidual.c313, CuspMinusLowerResidual.e13, CuspMinusLowerResidual.e21, CuspMinusLowerResidual.e29, CuspMinusLowerResidual.e31, CuspMinusLowerResidual.e40, CuspMinusLowerResidual.e51, CuspMinusLowerResidual.e61, CuspMinusLowerResidual.e77, CuspMinusLowerResidual.lowerResidual, CuspMinusLowerResidual.c139, CuspMinusLowerResidual.c155, CuspMinusLowerResidual.c162, CuspMinusLowerResidual.c169, CuspMinusLowerResidual.c269, CuspMinusLowerResidual.c289, CuspMinusLowerResidual.c290, CuspMinusLowerResidual.c87, CuspMinusLowerResidual.e13, CuspMinusLowerResidual.e21, CuspMinusLowerResidual.e29, CuspMinusLowerResidual.e34, CuspMinusLowerResidual.e40, CuspMinusLowerResidual.e51, CuspMinusLowerResidual.e61, CuspMinusLowerResidual.e77, CuspMinusLowerResidual.firstResidual, CuspMinusBranchMatrix.c367, CuspMinusBranchMatrix.c376, CuspMinusBranchMatrix.c378, CuspMinusBranchMatrix.c389, CuspMinusBranchMatrix.c406, CuspMinusBranchMatrix.c410, CuspMinusBranchMatrix.c419, CuspMinusBranchMatrix.c420, CuspMinusBranchMatrix.c421, CuspMinusBranchMatrix.e1, CuspMinusBranchMatrix.e3, CuspMinusBranchMatrix.e5, CuspMinusBranchMatrix.rows, eval, monomial, topValues, lowerValues, topFree]
-    field_simp [hx,_hz]
-    ring
+    norm_num [Rat.cast_divInt]
+    field_simp [hx,_hz] <;> ring_nf <;> field_simp [hx,_hz] <;> ring
 #print axioms row_identity_5
 
 compact_certificate theorem row_identity_6 (x z σ : ℂ) (v : ℕ → ℂ)
@@ -1492,8 +1499,8 @@ compact_certificate theorem row_identity_6 (x z σ : ℂ) (v : ℕ → ℂ)
   rcases hσ with rfl | rfl
   all_goals
     norm_num [CuspMinusLowerResidual.c166, CuspMinusLowerResidual.c174, CuspMinusLowerResidual.c178, CuspMinusLowerResidual.c184, CuspMinusLowerResidual.c193, CuspMinusLowerResidual.c242, CuspMinusLowerResidual.c251, CuspMinusLowerResidual.c255, CuspMinusLowerResidual.c258, CuspMinusLowerResidual.c264, CuspMinusLowerResidual.c270, CuspMinusLowerResidual.e102, CuspMinusLowerResidual.e103, CuspMinusLowerResidual.e104, CuspMinusLowerResidual.e106, CuspMinusLowerResidual.e108, CuspMinusLowerResidual.e113, CuspMinusLowerResidual.e116, CuspMinusLowerResidual.e117, CuspMinusLowerResidual.e119, CuspMinusLowerResidual.e120, CuspMinusLowerResidual.e122, CuspMinusLowerResidual.e123, CuspMinusLowerResidual.e125, CuspMinusLowerResidual.e127, CuspMinusLowerResidual.e18, CuspMinusLowerResidual.e21, CuspMinusLowerResidual.e24, CuspMinusLowerResidual.e25, CuspMinusLowerResidual.e32, CuspMinusLowerResidual.e34, CuspMinusLowerResidual.e38, CuspMinusLowerResidual.e40, CuspMinusLowerResidual.e43, CuspMinusLowerResidual.e47, CuspMinusLowerResidual.e48, CuspMinusLowerResidual.e51, CuspMinusLowerResidual.e53, CuspMinusLowerResidual.e55, CuspMinusLowerResidual.e59, CuspMinusLowerResidual.e61, CuspMinusLowerResidual.e63, CuspMinusLowerResidual.e66, CuspMinusLowerResidual.e67, CuspMinusLowerResidual.e70, CuspMinusLowerResidual.e74, CuspMinusLowerResidual.e75, CuspMinusLowerResidual.e77, CuspMinusLowerResidual.e80, CuspMinusLowerResidual.e81, CuspMinusLowerResidual.e83, CuspMinusLowerResidual.e84, CuspMinusLowerResidual.e85, CuspMinusLowerResidual.e88, CuspMinusLowerResidual.e93, CuspMinusLowerResidual.e94, CuspMinusLowerResidual.e95, CuspMinusLowerResidual.e96, CuspMinusLowerResidual.upperResidual, CuspMinusBranchMatrix.c361, CuspMinusBranchMatrix.c374, CuspMinusBranchMatrix.c382, CuspMinusBranchMatrix.c389, CuspMinusBranchMatrix.c392, CuspMinusBranchMatrix.c394, CuspMinusBranchMatrix.c400, CuspMinusBranchMatrix.c417, CuspMinusBranchMatrix.c423, CuspMinusBranchMatrix.e12, CuspMinusBranchMatrix.e2, CuspMinusBranchMatrix.e4, CuspMinusBranchMatrix.e6, CuspMinusBranchMatrix.e9, CuspMinusBranchMatrix.rows, eval, monomial, topValues, lowerValues, topFree]
-    field_simp [hx,hz]
-    ring
+    norm_num [Rat.cast_divInt]
+    field_simp [hx,hz] <;> ring_nf <;> field_simp [hx,hz] <;> ring
 #print axioms row_identity_6
 
 compact_certificate theorem row_identity_7 (x z σ : ℂ) (v : ℕ → ℂ)
@@ -1504,8 +1511,8 @@ compact_certificate theorem row_identity_7 (x z σ : ℂ) (v : ℕ → ℂ)
   rcases hσ with rfl | rfl
   all_goals
     norm_num [CuspMinusLowerResidual.c100, CuspMinusLowerResidual.c112, CuspMinusLowerResidual.c115, CuspMinusLowerResidual.c129, CuspMinusLowerResidual.c133, CuspMinusLowerResidual.c135, CuspMinusLowerResidual.c142, CuspMinusLowerResidual.c144, CuspMinusLowerResidual.c147, CuspMinusLowerResidual.c150, CuspMinusLowerResidual.c153, CuspMinusLowerResidual.c157, CuspMinusLowerResidual.c158, CuspMinusLowerResidual.c165, CuspMinusLowerResidual.c171, CuspMinusLowerResidual.c172, CuspMinusLowerResidual.c174, CuspMinusLowerResidual.c175, CuspMinusLowerResidual.c181, CuspMinusLowerResidual.c183, CuspMinusLowerResidual.c186, CuspMinusLowerResidual.c187, CuspMinusLowerResidual.c190, CuspMinusLowerResidual.c191, CuspMinusLowerResidual.c193, CuspMinusLowerResidual.c195, CuspMinusLowerResidual.c196, CuspMinusLowerResidual.c199, CuspMinusLowerResidual.c203, CuspMinusLowerResidual.c251, CuspMinusLowerResidual.c253, CuspMinusLowerResidual.c254, CuspMinusLowerResidual.c257, CuspMinusLowerResidual.c265, CuspMinusLowerResidual.c271, CuspMinusLowerResidual.c272, CuspMinusLowerResidual.c277, CuspMinusLowerResidual.c282, CuspMinusLowerResidual.c289, CuspMinusLowerResidual.c296, CuspMinusLowerResidual.c301, CuspMinusLowerResidual.c303, CuspMinusLowerResidual.c308, CuspMinusLowerResidual.c320, CuspMinusLowerResidual.c332, CuspMinusLowerResidual.c340, CuspMinusLowerResidual.c348, CuspMinusLowerResidual.c36, CuspMinusLowerResidual.c361, CuspMinusLowerResidual.c44, CuspMinusLowerResidual.c85, CuspMinusLowerResidual.e102, CuspMinusLowerResidual.e103, CuspMinusLowerResidual.e104, CuspMinusLowerResidual.e106, CuspMinusLowerResidual.e108, CuspMinusLowerResidual.e113, CuspMinusLowerResidual.e116, CuspMinusLowerResidual.e117, CuspMinusLowerResidual.e119, CuspMinusLowerResidual.e120, CuspMinusLowerResidual.e122, CuspMinusLowerResidual.e123, CuspMinusLowerResidual.e125, CuspMinusLowerResidual.e127, CuspMinusLowerResidual.e18, CuspMinusLowerResidual.e21, CuspMinusLowerResidual.e24, CuspMinusLowerResidual.e25, CuspMinusLowerResidual.e32, CuspMinusLowerResidual.e34, CuspMinusLowerResidual.e38, CuspMinusLowerResidual.e40, CuspMinusLowerResidual.e43, CuspMinusLowerResidual.e47, CuspMinusLowerResidual.e48, CuspMinusLowerResidual.e51, CuspMinusLowerResidual.e53, CuspMinusLowerResidual.e55, CuspMinusLowerResidual.e59, CuspMinusLowerResidual.e61, CuspMinusLowerResidual.e63, CuspMinusLowerResidual.e66, CuspMinusLowerResidual.e67, CuspMinusLowerResidual.e70, CuspMinusLowerResidual.e74, CuspMinusLowerResidual.e75, CuspMinusLowerResidual.e77, CuspMinusLowerResidual.e80, CuspMinusLowerResidual.e81, CuspMinusLowerResidual.e83, CuspMinusLowerResidual.e84, CuspMinusLowerResidual.e85, CuspMinusLowerResidual.e88, CuspMinusLowerResidual.e93, CuspMinusLowerResidual.e94, CuspMinusLowerResidual.e95, CuspMinusLowerResidual.e96, CuspMinusLowerResidual.lowerResidual, CuspMinusLowerResidual.c101, CuspMinusLowerResidual.c105, CuspMinusLowerResidual.c110, CuspMinusLowerResidual.c113, CuspMinusLowerResidual.c115, CuspMinusLowerResidual.c117, CuspMinusLowerResidual.c122, CuspMinusLowerResidual.c124, CuspMinusLowerResidual.c125, CuspMinusLowerResidual.c128, CuspMinusLowerResidual.c131, CuspMinusLowerResidual.c135, CuspMinusLowerResidual.c141, CuspMinusLowerResidual.c142, CuspMinusLowerResidual.c146, CuspMinusLowerResidual.c149, CuspMinusLowerResidual.c150, CuspMinusLowerResidual.c155, CuspMinusLowerResidual.c156, CuspMinusLowerResidual.c157, CuspMinusLowerResidual.c163, CuspMinusLowerResidual.c167, CuspMinusLowerResidual.c173, CuspMinusLowerResidual.c177, CuspMinusLowerResidual.c183, CuspMinusLowerResidual.c20, CuspMinusLowerResidual.c239, CuspMinusLowerResidual.c261, CuspMinusLowerResidual.c271, CuspMinusLowerResidual.c280, CuspMinusLowerResidual.c283, CuspMinusLowerResidual.c298, CuspMinusLowerResidual.c30, CuspMinusLowerResidual.c301, CuspMinusLowerResidual.c304, CuspMinusLowerResidual.c307, CuspMinusLowerResidual.c308, CuspMinusLowerResidual.c320, CuspMinusLowerResidual.c322, CuspMinusLowerResidual.c323, CuspMinusLowerResidual.c326, CuspMinusLowerResidual.c327, CuspMinusLowerResidual.c333, CuspMinusLowerResidual.c34, CuspMinusLowerResidual.c340, CuspMinusLowerResidual.c352, CuspMinusLowerResidual.c364, CuspMinusLowerResidual.c368, CuspMinusLowerResidual.c37, CuspMinusLowerResidual.c370, CuspMinusLowerResidual.c38, CuspMinusLowerResidual.c390, CuspMinusLowerResidual.c393, CuspMinusLowerResidual.c398, CuspMinusLowerResidual.c399, CuspMinusLowerResidual.c47, CuspMinusLowerResidual.c59, CuspMinusLowerResidual.c62, CuspMinusLowerResidual.c66, CuspMinusLowerResidual.c75, CuspMinusLowerResidual.c79, CuspMinusLowerResidual.c81, CuspMinusLowerResidual.c87, CuspMinusLowerResidual.c89, CuspMinusLowerResidual.c91, CuspMinusLowerResidual.e102, CuspMinusLowerResidual.e103, CuspMinusLowerResidual.e104, CuspMinusLowerResidual.e106, CuspMinusLowerResidual.e108, CuspMinusLowerResidual.e113, CuspMinusLowerResidual.e116, CuspMinusLowerResidual.e117, CuspMinusLowerResidual.e119, CuspMinusLowerResidual.e12, CuspMinusLowerResidual.e120, CuspMinusLowerResidual.e122, CuspMinusLowerResidual.e123, CuspMinusLowerResidual.e125, CuspMinusLowerResidual.e127, CuspMinusLowerResidual.e13, CuspMinusLowerResidual.e16, CuspMinusLowerResidual.e17, CuspMinusLowerResidual.e18, CuspMinusLowerResidual.e21, CuspMinusLowerResidual.e24, CuspMinusLowerResidual.e25, CuspMinusLowerResidual.e28, CuspMinusLowerResidual.e29, CuspMinusLowerResidual.e32, CuspMinusLowerResidual.e34, CuspMinusLowerResidual.e38, CuspMinusLowerResidual.e40, CuspMinusLowerResidual.e43, CuspMinusLowerResidual.e45, CuspMinusLowerResidual.e47, CuspMinusLowerResidual.e48, CuspMinusLowerResidual.e51, CuspMinusLowerResidual.e53, CuspMinusLowerResidual.e55, CuspMinusLowerResidual.e59, CuspMinusLowerResidual.e61, CuspMinusLowerResidual.e63, CuspMinusLowerResidual.e66, CuspMinusLowerResidual.e67, CuspMinusLowerResidual.e70, CuspMinusLowerResidual.e74, CuspMinusLowerResidual.e75, CuspMinusLowerResidual.e77, CuspMinusLowerResidual.e80, CuspMinusLowerResidual.e81, CuspMinusLowerResidual.e83, CuspMinusLowerResidual.e84, CuspMinusLowerResidual.e85, CuspMinusLowerResidual.e88, CuspMinusLowerResidual.e93, CuspMinusLowerResidual.e94, CuspMinusLowerResidual.e95, CuspMinusLowerResidual.e96, CuspMinusLowerResidual.e97, CuspMinusLowerResidual.firstResidual, CuspMinusBranchMatrix.c301, CuspMinusBranchMatrix.c320, CuspMinusBranchMatrix.c326, CuspMinusBranchMatrix.c331, CuspMinusBranchMatrix.c334, CuspMinusBranchMatrix.c345, CuspMinusBranchMatrix.c358, CuspMinusBranchMatrix.c368, CuspMinusBranchMatrix.c371, CuspMinusBranchMatrix.c379, CuspMinusBranchMatrix.c381, CuspMinusBranchMatrix.c383, CuspMinusBranchMatrix.c387, CuspMinusBranchMatrix.c389, CuspMinusBranchMatrix.c391, CuspMinusBranchMatrix.c396, CuspMinusBranchMatrix.c414, CuspMinusBranchMatrix.c415, CuspMinusBranchMatrix.c418, CuspMinusBranchMatrix.c424, CuspMinusBranchMatrix.c432, CuspMinusBranchMatrix.c434, CuspMinusBranchMatrix.c439, CuspMinusBranchMatrix.c440, CuspMinusBranchMatrix.c474, CuspMinusBranchMatrix.e12, CuspMinusBranchMatrix.e2, CuspMinusBranchMatrix.e4, CuspMinusBranchMatrix.e6, CuspMinusBranchMatrix.e9, CuspMinusBranchMatrix.rows, eval, monomial, topValues, lowerValues, topFree]
-    field_simp [hx,hz]
-    ring
+    norm_num [Rat.cast_divInt]
+    field_simp [hx,hz] <;> ring_nf <;> field_simp [hx,hz] <;> ring
 #print axioms row_identity_7
 
 compact_certificate theorem row_identity_8 (x z σ : ℂ) (v : ℕ → ℂ)
@@ -1516,8 +1523,8 @@ compact_certificate theorem row_identity_8 (x z σ : ℂ) (v : ℕ → ℂ)
   rcases hσ with rfl | rfl
   all_goals
     norm_num [CuspMinusLowerResidual.c100, CuspMinusLowerResidual.c112, CuspMinusLowerResidual.c115, CuspMinusLowerResidual.c125, CuspMinusLowerResidual.c126, CuspMinusLowerResidual.c133, CuspMinusLowerResidual.c135, CuspMinusLowerResidual.c142, CuspMinusLowerResidual.c143, CuspMinusLowerResidual.c144, CuspMinusLowerResidual.c150, CuspMinusLowerResidual.c157, CuspMinusLowerResidual.c158, CuspMinusLowerResidual.c163, CuspMinusLowerResidual.c170, CuspMinusLowerResidual.c172, CuspMinusLowerResidual.c175, CuspMinusLowerResidual.c177, CuspMinusLowerResidual.c181, CuspMinusLowerResidual.c182, CuspMinusLowerResidual.c183, CuspMinusLowerResidual.c186, CuspMinusLowerResidual.c187, CuspMinusLowerResidual.c189, CuspMinusLowerResidual.c191, CuspMinusLowerResidual.c196, CuspMinusLowerResidual.c198, CuspMinusLowerResidual.c255, CuspMinusLowerResidual.c258, CuspMinusLowerResidual.c263, CuspMinusLowerResidual.c280, CuspMinusLowerResidual.c282, CuspMinusLowerResidual.c286, CuspMinusLowerResidual.c287, CuspMinusLowerResidual.c289, CuspMinusLowerResidual.c292, CuspMinusLowerResidual.c293, CuspMinusLowerResidual.c294, CuspMinusLowerResidual.c301, CuspMinusLowerResidual.c306, CuspMinusLowerResidual.c312, CuspMinusLowerResidual.c320, CuspMinusLowerResidual.c328, CuspMinusLowerResidual.c329, CuspMinusLowerResidual.c331, CuspMinusLowerResidual.c334, CuspMinusLowerResidual.c348, CuspMinusLowerResidual.c36, CuspMinusLowerResidual.c361, CuspMinusLowerResidual.c365, CuspMinusLowerResidual.c381, CuspMinusLowerResidual.c387, CuspMinusLowerResidual.c46, CuspMinusLowerResidual.c52, CuspMinusLowerResidual.c58, CuspMinusLowerResidual.c85, CuspMinusLowerResidual.c87, CuspMinusLowerResidual.c94, CuspMinusLowerResidual.c96, CuspMinusLowerResidual.e102, CuspMinusLowerResidual.e103, CuspMinusLowerResidual.e107, CuspMinusLowerResidual.e108, CuspMinusLowerResidual.e109, CuspMinusLowerResidual.e113, CuspMinusLowerResidual.e114, CuspMinusLowerResidual.e116, CuspMinusLowerResidual.e117, CuspMinusLowerResidual.e12, CuspMinusLowerResidual.e120, CuspMinusLowerResidual.e125, CuspMinusLowerResidual.e13, CuspMinusLowerResidual.e16, CuspMinusLowerResidual.e18, CuspMinusLowerResidual.e21, CuspMinusLowerResidual.e24, CuspMinusLowerResidual.e25, CuspMinusLowerResidual.e28, CuspMinusLowerResidual.e29, CuspMinusLowerResidual.e30, CuspMinusLowerResidual.e32, CuspMinusLowerResidual.e33, CuspMinusLowerResidual.e35, CuspMinusLowerResidual.e36, CuspMinusLowerResidual.e38, CuspMinusLowerResidual.e39, CuspMinusLowerResidual.e40, CuspMinusLowerResidual.e41, CuspMinusLowerResidual.e43, CuspMinusLowerResidual.e44, CuspMinusLowerResidual.e45, CuspMinusLowerResidual.e47, CuspMinusLowerResidual.e49, CuspMinusLowerResidual.e59, CuspMinusLowerResidual.e60, CuspMinusLowerResidual.e63, CuspMinusLowerResidual.e64, CuspMinusLowerResidual.e66, CuspMinusLowerResidual.e68, CuspMinusLowerResidual.e70, CuspMinusLowerResidual.e72, CuspMinusLowerResidual.e74, CuspMinusLowerResidual.e75, CuspMinusLowerResidual.e76, CuspMinusLowerResidual.e78, CuspMinusLowerResidual.e80, CuspMinusLowerResidual.e81, CuspMinusLowerResidual.e83, CuspMinusLowerResidual.e85, CuspMinusLowerResidual.e88, CuspMinusLowerResidual.e90, CuspMinusLowerResidual.e93, CuspMinusLowerResidual.e94, CuspMinusLowerResidual.e95, CuspMinusLowerResidual.e96, CuspMinusLowerResidual.e97, CuspMinusLowerResidual.lowerResidual, CuspMinusLowerResidual.c100, CuspMinusLowerResidual.c103, CuspMinusLowerResidual.c107, CuspMinusLowerResidual.c114, CuspMinusLowerResidual.c115, CuspMinusLowerResidual.c121, CuspMinusLowerResidual.c123, CuspMinusLowerResidual.c125, CuspMinusLowerResidual.c134, CuspMinusLowerResidual.c136, CuspMinusLowerResidual.c140, CuspMinusLowerResidual.c142, CuspMinusLowerResidual.c147, CuspMinusLowerResidual.c152, CuspMinusLowerResidual.c160, CuspMinusLowerResidual.c165, CuspMinusLowerResidual.c18, CuspMinusLowerResidual.c2, CuspMinusLowerResidual.c248, CuspMinusLowerResidual.c25, CuspMinusLowerResidual.c259, CuspMinusLowerResidual.c266, CuspMinusLowerResidual.c273, CuspMinusLowerResidual.c275, CuspMinusLowerResidual.c278, CuspMinusLowerResidual.c28, CuspMinusLowerResidual.c282, CuspMinusLowerResidual.c286, CuspMinusLowerResidual.c288, CuspMinusLowerResidual.c289, CuspMinusLowerResidual.c291, CuspMinusLowerResidual.c301, CuspMinusLowerResidual.c308, CuspMinusLowerResidual.c312, CuspMinusLowerResidual.c316, CuspMinusLowerResidual.c328, CuspMinusLowerResidual.c336, CuspMinusLowerResidual.c337, CuspMinusLowerResidual.c339, CuspMinusLowerResidual.c343, CuspMinusLowerResidual.c345, CuspMinusLowerResidual.c356, CuspMinusLowerResidual.c357, CuspMinusLowerResidual.c358, CuspMinusLowerResidual.c363, CuspMinusLowerResidual.c367, CuspMinusLowerResidual.c369, CuspMinusLowerResidual.c372, CuspMinusLowerResidual.c382, CuspMinusLowerResidual.c386, CuspMinusLowerResidual.c389, CuspMinusLowerResidual.c45, CuspMinusLowerResidual.c51, CuspMinusLowerResidual.c53, CuspMinusLowerResidual.c54, CuspMinusLowerResidual.c6, CuspMinusLowerResidual.c61, CuspMinusLowerResidual.c64, CuspMinusLowerResidual.c68, CuspMinusLowerResidual.c69, CuspMinusLowerResidual.c7, CuspMinusLowerResidual.c70, CuspMinusLowerResidual.c71, CuspMinusLowerResidual.c76, CuspMinusLowerResidual.c83, CuspMinusLowerResidual.c93, CuspMinusLowerResidual.c96, CuspMinusLowerResidual.c97, CuspMinusLowerResidual.c98, CuspMinusLowerResidual.e102, CuspMinusLowerResidual.e103, CuspMinusLowerResidual.e107, CuspMinusLowerResidual.e108, CuspMinusLowerResidual.e109, CuspMinusLowerResidual.e113, CuspMinusLowerResidual.e114, CuspMinusLowerResidual.e116, CuspMinusLowerResidual.e117, CuspMinusLowerResidual.e12, CuspMinusLowerResidual.e120, CuspMinusLowerResidual.e125, CuspMinusLowerResidual.e13, CuspMinusLowerResidual.e16, CuspMinusLowerResidual.e18, CuspMinusLowerResidual.e21, CuspMinusLowerResidual.e24, CuspMinusLowerResidual.e25, CuspMinusLowerResidual.e28, CuspMinusLowerResidual.e29, CuspMinusLowerResidual.e30, CuspMinusLowerResidual.e32, CuspMinusLowerResidual.e33, CuspMinusLowerResidual.e35, CuspMinusLowerResidual.e36, CuspMinusLowerResidual.e38, CuspMinusLowerResidual.e39, CuspMinusLowerResidual.e40, CuspMinusLowerResidual.e41, CuspMinusLowerResidual.e43, CuspMinusLowerResidual.e44, CuspMinusLowerResidual.e47, CuspMinusLowerResidual.e49, CuspMinusLowerResidual.e53, CuspMinusLowerResidual.e55, CuspMinusLowerResidual.e59, CuspMinusLowerResidual.e60, CuspMinusLowerResidual.e63, CuspMinusLowerResidual.e64, CuspMinusLowerResidual.e66, CuspMinusLowerResidual.e68, CuspMinusLowerResidual.e70, CuspMinusLowerResidual.e72, CuspMinusLowerResidual.e74, CuspMinusLowerResidual.e75, CuspMinusLowerResidual.e76, CuspMinusLowerResidual.e78, CuspMinusLowerResidual.e80, CuspMinusLowerResidual.e81, CuspMinusLowerResidual.e83, CuspMinusLowerResidual.e85, CuspMinusLowerResidual.e88, CuspMinusLowerResidual.e90, CuspMinusLowerResidual.e93, CuspMinusLowerResidual.e94, CuspMinusLowerResidual.e95, CuspMinusLowerResidual.e96, CuspMinusLowerResidual.e97, CuspMinusLowerResidual.firstResidual, CuspMinusBranchMatrix.c306, CuspMinusBranchMatrix.c307, CuspMinusBranchMatrix.c328, CuspMinusBranchMatrix.c341, CuspMinusBranchMatrix.c349, CuspMinusBranchMatrix.c351, CuspMinusBranchMatrix.c354, CuspMinusBranchMatrix.c355, CuspMinusBranchMatrix.c369, CuspMinusBranchMatrix.c370, CuspMinusBranchMatrix.c375, CuspMinusBranchMatrix.c377, CuspMinusBranchMatrix.c378, CuspMinusBranchMatrix.c383, CuspMinusBranchMatrix.c387, CuspMinusBranchMatrix.c389, CuspMinusBranchMatrix.c391, CuspMinusBranchMatrix.c395, CuspMinusBranchMatrix.c407, CuspMinusBranchMatrix.c411, CuspMinusBranchMatrix.c416, CuspMinusBranchMatrix.c418, CuspMinusBranchMatrix.c421, CuspMinusBranchMatrix.c423, CuspMinusBranchMatrix.c428, CuspMinusBranchMatrix.c451, CuspMinusBranchMatrix.c453, CuspMinusBranchMatrix.c454, CuspMinusBranchMatrix.c457, CuspMinusBranchMatrix.c462, CuspMinusBranchMatrix.c467, CuspMinusBranchMatrix.e0, CuspMinusBranchMatrix.e12, CuspMinusBranchMatrix.e2, CuspMinusBranchMatrix.e4, CuspMinusBranchMatrix.e6, CuspMinusBranchMatrix.e9, CuspMinusBranchMatrix.rows, eval, monomial, topValues, lowerValues, topFree]
-    field_simp [hx,hz]
-    ring
+    norm_num [Rat.cast_divInt]
+    field_simp [hx,hz] <;> ring_nf <;> field_simp [hx,hz] <;> ring
 #print axioms row_identity_8
 
 end QuantitativeArithmeticSmallLevelTwentyFive.CuspMinusBranchParameters
@@ -2592,8 +2599,946 @@ compact_certificate def auxiliaryIndex (j : ℕ) : ℕ := ([2, 5, 7, 8, 10, 12, 
 compact_certificate theorem actual_physical (i : Fin 117) : actual i.val=.physical (physicalRows i.val) := by
   fin_cases i <;> rfl
 
+compact_certificate private theorem actual_eq_singleton0 : ∀ i < 1,
+    actual (i+0)=AuxMinusLaurent.actual (auxiliaryIndex (i+0)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource2488
+
+compact_certificate private theorem actual_eq_singleton1 : ∀ i < 1,
+    actual (i+1)=AuxMinusLaurent.actual (auxiliaryIndex (i+1)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource2491
+
+compact_certificate private theorem actual_eq_singleton2 : ∀ i < 1,
+    actual (i+2)=AuxMinusLaurent.actual (auxiliaryIndex (i+2)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource2493
+
+compact_certificate private theorem actual_eq_singleton3 : ∀ i < 1,
+    actual (i+3)=AuxMinusLaurent.actual (auxiliaryIndex (i+3)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource2494
+
+compact_certificate private theorem actual_eq_singleton4 : ∀ i < 1,
+    actual (i+4)=AuxMinusLaurent.actual (auxiliaryIndex (i+4)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource2496
+
+compact_certificate private theorem actual_eq_singleton5 : ∀ i < 1,
+    actual (i+5)=AuxMinusLaurent.actual (auxiliaryIndex (i+5)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource2498
+
+compact_certificate private theorem actual_eq_singleton6 : ∀ i < 1,
+    actual (i+6)=AuxMinusLaurent.actual (auxiliaryIndex (i+6)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource2499
+
+compact_certificate private theorem actual_eq_singleton7 : ∀ i < 1,
+    actual (i+7)=AuxMinusLaurent.actual (auxiliaryIndex (i+7)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource2501
+
+compact_certificate private theorem actual_eq_singleton8 : ∀ i < 1,
+    actual (i+8)=AuxMinusLaurent.actual (auxiliaryIndex (i+8)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource2504
+
+compact_certificate private theorem actual_eq_singleton9 : ∀ i < 1,
+    actual (i+9)=AuxMinusLaurent.actual (auxiliaryIndex (i+9)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource4410
+
+compact_certificate private theorem actual_eq_singleton10 : ∀ i < 1,
+    actual (i+10)=AuxMinusLaurent.actual (auxiliaryIndex (i+10)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource2515
+
+compact_certificate private theorem actual_eq_singleton11 : ∀ i < 1,
+    actual (i+11)=AuxMinusLaurent.actual (auxiliaryIndex (i+11)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource2518
+
+compact_certificate private theorem actual_eq_singleton12 : ∀ i < 1,
+    actual (i+12)=AuxMinusLaurent.actual (auxiliaryIndex (i+12)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource2520
+
+compact_certificate private theorem actual_eq_singleton13 : ∀ i < 1,
+    actual (i+13)=AuxMinusLaurent.actual (auxiliaryIndex (i+13)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource2521
+
+compact_certificate private theorem actual_eq_singleton14 : ∀ i < 1,
+    actual (i+14)=AuxMinusLaurent.actual (auxiliaryIndex (i+14)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource2523
+
+compact_certificate private theorem actual_eq_singleton15 : ∀ i < 1,
+    actual (i+15)=AuxMinusLaurent.actual (auxiliaryIndex (i+15)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource2525
+
+compact_certificate private theorem actual_eq_singleton16 : ∀ i < 1,
+    actual (i+16)=AuxMinusLaurent.actual (auxiliaryIndex (i+16)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource2526
+
+compact_certificate private theorem actual_eq_singleton17 : ∀ i < 1,
+    actual (i+17)=AuxMinusLaurent.actual (auxiliaryIndex (i+17)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource2528
+
+compact_certificate private theorem actual_eq_singleton18 : ∀ i < 1,
+    actual (i+18)=AuxMinusLaurent.actual (auxiliaryIndex (i+18)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource2531
+
+compact_certificate private theorem actual_eq_singleton19 : ∀ i < 1,
+    actual (i+19)=AuxMinusLaurent.actual (auxiliaryIndex (i+19)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource4425
+
+compact_certificate private theorem actual_eq_singleton20 : ∀ i < 1,
+    actual (i+20)=AuxMinusLaurent.actual (auxiliaryIndex (i+20)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource3399
+
+compact_certificate private theorem actual_eq_singleton21 : ∀ i < 1,
+    actual (i+21)=AuxMinusLaurent.actual (auxiliaryIndex (i+21)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource3403
+
+compact_certificate private theorem actual_eq_singleton22 : ∀ i < 1,
+    actual (i+22)=AuxMinusLaurent.actual (auxiliaryIndex (i+22)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource3405
+
+compact_certificate private theorem actual_eq_singleton23 : ∀ i < 1,
+    actual (i+23)=AuxMinusLaurent.actual (auxiliaryIndex (i+23)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource3407
+
+compact_certificate private theorem actual_eq_singleton24 : ∀ i < 1,
+    actual (i+24)=AuxMinusLaurent.actual (auxiliaryIndex (i+24)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource3409
+
+compact_certificate private theorem actual_eq_singleton25 : ∀ i < 1,
+    actual (i+25)=AuxMinusLaurent.actual (auxiliaryIndex (i+25)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource3414
+
+compact_certificate private theorem actual_eq_singleton26 : ∀ i < 1,
+    actual (i+26)=AuxMinusLaurent.actual (auxiliaryIndex (i+26)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource3415
+
+compact_certificate private theorem actual_eq_singleton27 : ∀ i < 1,
+    actual (i+27)=AuxMinusLaurent.actual (auxiliaryIndex (i+27)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource3417
+
+compact_certificate private theorem actual_eq_singleton28 : ∀ i < 1,
+    actual (i+28)=AuxMinusLaurent.actual (auxiliaryIndex (i+28)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource3421
+
+compact_certificate private theorem actual_eq_singleton29 : ∀ i < 1,
+    actual (i+29)=AuxMinusLaurent.actual (auxiliaryIndex (i+29)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource3422
+
+compact_certificate private theorem actual_eq_singleton30 : ∀ i < 1,
+    actual (i+30)=AuxMinusLaurent.actual (auxiliaryIndex (i+30)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource3423
+
+compact_certificate private theorem actual_eq_singleton31 : ∀ i < 1,
+    actual (i+31)=AuxMinusLaurent.actual (auxiliaryIndex (i+31)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource3426
+
+compact_certificate private theorem actual_eq_singleton32 : ∀ i < 1,
+    actual (i+32)=AuxMinusLaurent.actual (auxiliaryIndex (i+32)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource3429
+
+compact_certificate private theorem actual_eq_singleton33 : ∀ i < 1,
+    actual (i+33)=AuxMinusLaurent.actual (auxiliaryIndex (i+33)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource3432
+
+compact_certificate private theorem actual_eq_singleton34 : ∀ i < 1,
+    actual (i+34)=AuxMinusLaurent.actual (auxiliaryIndex (i+34)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource3435
+
+compact_certificate private theorem actual_eq_singleton35 : ∀ i < 1,
+    actual (i+35)=AuxMinusLaurent.actual (auxiliaryIndex (i+35)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource3436
+
+compact_certificate private theorem actual_eq_singleton36 : ∀ i < 1,
+    actual (i+36)=AuxMinusLaurent.actual (auxiliaryIndex (i+36)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource3437
+
+compact_certificate private theorem actual_eq_singleton37 : ∀ i < 1,
+    actual (i+37)=AuxMinusLaurent.actual (auxiliaryIndex (i+37)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource3441
+
+compact_certificate private theorem actual_eq_singleton38 : ∀ i < 1,
+    actual (i+38)=AuxMinusLaurent.actual (auxiliaryIndex (i+38)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource3444
+
+compact_certificate private theorem actual_eq_singleton39 : ∀ i < 1,
+    actual (i+39)=AuxMinusLaurent.actual (auxiliaryIndex (i+39)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource3308
+
+compact_certificate private theorem actual_eq_singleton40 : ∀ i < 1,
+    actual (i+40)=AuxMinusLaurent.actual (auxiliaryIndex (i+40)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource2456
+
+compact_certificate private theorem actual_eq_singleton41 : ∀ i < 1,
+    actual (i+41)=AuxMinusLaurent.actual (auxiliaryIndex (i+41)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource2463
+
+compact_certificate private theorem actual_eq_singleton42 : ∀ i < 1,
+    actual (i+42)=AuxMinusLaurent.actual (auxiliaryIndex (i+42)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource2465
+
+compact_certificate private theorem actual_eq_singleton43 : ∀ i < 1,
+    actual (i+43)=AuxMinusLaurent.actual (auxiliaryIndex (i+43)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource3220
+
+compact_certificate private theorem actual_eq_singleton44 : ∀ i < 1,
+    actual (i+44)=AuxMinusLaurent.actual (auxiliaryIndex (i+44)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource2781
+
+compact_certificate private theorem actual_eq_singleton45 : ∀ i < 1,
+    actual (i+45)=AuxMinusLaurent.actual (auxiliaryIndex (i+45)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource2787
+
+compact_certificate private theorem actual_eq_singleton46 : ∀ i < 1,
+    actual (i+46)=AuxMinusLaurent.actual (auxiliaryIndex (i+46)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource2801
+
+compact_certificate private theorem actual_eq_singleton47 : ∀ i < 1,
+    actual (i+47)=AuxMinusLaurent.actual (auxiliaryIndex (i+47)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource2808
+
+compact_certificate private theorem actual_eq_singleton48 : ∀ i < 1,
+    actual (i+48)=AuxMinusLaurent.actual (auxiliaryIndex (i+48)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource2809
+
+compact_certificate private theorem actual_eq_singleton49 : ∀ i < 1,
+    actual (i+49)=AuxMinusLaurent.actual (auxiliaryIndex (i+49)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource3029
+
+compact_certificate private theorem actual_eq_singleton50 : ∀ i < 1,
+    actual (i+50)=AuxMinusLaurent.actual (auxiliaryIndex (i+50)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource3045
+
+compact_certificate private theorem actual_eq_singleton51 : ∀ i < 1,
+    actual (i+51)=AuxMinusLaurent.actual (auxiliaryIndex (i+51)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource2133
+
+compact_certificate private theorem actual_eq_singleton52 : ∀ i < 1,
+    actual (i+52)=AuxMinusLaurent.actual (auxiliaryIndex (i+52)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource249
+
+compact_certificate private theorem actual_eq_singleton53 : ∀ i < 1,
+    actual (i+53)=AuxMinusLaurent.actual (auxiliaryIndex (i+53)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource236
+
+compact_certificate private theorem actual_eq_singleton54 : ∀ i < 1,
+    actual (i+54)=AuxMinusLaurent.actual (auxiliaryIndex (i+54)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource252
+
+compact_certificate private theorem actual_eq_singleton55 : ∀ i < 1,
+    actual (i+55)=AuxMinusLaurent.actual (auxiliaryIndex (i+55)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource233
+
+compact_certificate private theorem actual_eq_singleton56 : ∀ i < 1,
+    actual (i+56)=AuxMinusLaurent.actual (auxiliaryIndex (i+56)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource232
+
+compact_certificate private theorem actual_eq_singleton57 : ∀ i < 1,
+    actual (i+57)=AuxMinusLaurent.actual (auxiliaryIndex (i+57)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource256
+
+compact_certificate private theorem actual_eq_singleton58 : ∀ i < 1,
+    actual (i+58)=AuxMinusLaurent.actual (auxiliaryIndex (i+58)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource357
+
+compact_certificate private theorem actual_eq_singleton59 : ∀ i < 1,
+    actual (i+59)=AuxMinusLaurent.actual (auxiliaryIndex (i+59)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource361
+
+compact_certificate private theorem actual_eq_singleton60 : ∀ i < 1,
+    actual (i+60)=AuxMinusLaurent.actual (auxiliaryIndex (i+60)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource340
+
+compact_certificate private theorem actual_eq_singleton61 : ∀ i < 1,
+    actual (i+61)=AuxMinusLaurent.actual (auxiliaryIndex (i+61)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource365
+
+compact_certificate private theorem actual_eq_singleton62 : ∀ i < 1,
+    actual (i+62)=AuxMinusLaurent.actual (auxiliaryIndex (i+62)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource367
+
+compact_certificate private theorem actual_eq_singleton63 : ∀ i < 1,
+    actual (i+63)=AuxMinusLaurent.actual (auxiliaryIndex (i+63)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource369
+
+compact_certificate private theorem actual_eq_singleton64 : ∀ i < 1,
+    actual (i+64)=AuxMinusLaurent.actual (auxiliaryIndex (i+64)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource371
+
+compact_certificate private theorem actual_eq_singleton65 : ∀ i < 1,
+    actual (i+65)=AuxMinusLaurent.actual (auxiliaryIndex (i+65)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource330
+
+compact_certificate private theorem actual_eq_singleton66 : ∀ i < 1,
+    actual (i+66)=AuxMinusLaurent.actual (auxiliaryIndex (i+66)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource376
+
+compact_certificate private theorem actual_eq_singleton67 : ∀ i < 1,
+    actual (i+67)=AuxMinusLaurent.actual (auxiliaryIndex (i+67)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource377
+
+compact_certificate private theorem actual_eq_singleton68 : ∀ i < 1,
+    actual (i+68)=AuxMinusLaurent.actual (auxiliaryIndex (i+68)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource379
+
+compact_certificate private theorem actual_eq_singleton69 : ∀ i < 1,
+    actual (i+69)=AuxMinusLaurent.actual (auxiliaryIndex (i+69)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource322
+
+compact_certificate private theorem actual_eq_singleton70 : ∀ i < 1,
+    actual (i+70)=AuxMinusLaurent.actual (auxiliaryIndex (i+70)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource383
+
+compact_certificate private theorem actual_eq_singleton71 : ∀ i < 1,
+    actual (i+71)=AuxMinusLaurent.actual (auxiliaryIndex (i+71)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource2135
+
+compact_certificate private theorem actual_eq_singleton72 : ∀ i < 1,
+    actual (i+72)=AuxMinusLaurent.actual (auxiliaryIndex (i+72)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource443
+
+compact_certificate private theorem actual_eq_singleton73 : ∀ i < 1,
+    actual (i+73)=AuxMinusLaurent.actual (auxiliaryIndex (i+73)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource438
+
+compact_certificate private theorem actual_eq_singleton74 : ∀ i < 1,
+    actual (i+74)=AuxMinusLaurent.actual (auxiliaryIndex (i+74)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource534
+
+compact_certificate private theorem actual_eq_singleton75 : ∀ i < 1,
+    actual (i+75)=AuxMinusLaurent.actual (auxiliaryIndex (i+75)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource527
+
+compact_certificate private theorem actual_eq_singleton76 : ∀ i < 1,
+    actual (i+76)=AuxMinusLaurent.actual (auxiliaryIndex (i+76)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource609
+
+compact_certificate private theorem actual_eq_singleton77 : ∀ i < 1,
+    actual (i+77)=AuxMinusLaurent.actual (auxiliaryIndex (i+77)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource669
+
+compact_certificate private theorem actual_eq_singleton78 : ∀ i < 1,
+    actual (i+78)=AuxMinusLaurent.actual (auxiliaryIndex (i+78)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource664
+
+compact_certificate private theorem actual_eq_singleton79 : ∀ i < 1,
+    actual (i+79)=AuxMinusLaurent.actual (auxiliaryIndex (i+79)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource856
+
+compact_certificate private theorem actual_eq_singleton80 : ∀ i < 1,
+    actual (i+80)=AuxMinusLaurent.actual (auxiliaryIndex (i+80)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource910
+
+compact_certificate private theorem actual_eq_singleton81 : ∀ i < 1,
+    actual (i+81)=AuxMinusLaurent.actual (auxiliaryIndex (i+81)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource924
+
+compact_certificate private theorem actual_eq_singleton82 : ∀ i < 1,
+    actual (i+82)=AuxMinusLaurent.actual (auxiliaryIndex (i+82)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource931
+
+compact_certificate private theorem actual_eq_singleton83 : ∀ i < 1,
+    actual (i+83)=AuxMinusLaurent.actual (auxiliaryIndex (i+83)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource945
+
+compact_certificate private theorem actual_eq_singleton84 : ∀ i < 1,
+    actual (i+84)=AuxMinusLaurent.actual (auxiliaryIndex (i+84)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource952
+
+compact_certificate private theorem actual_eq_singleton85 : ∀ i < 1,
+    actual (i+85)=AuxMinusLaurent.actual (auxiliaryIndex (i+85)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource959
+
+compact_certificate private theorem actual_eq_singleton86 : ∀ i < 1,
+    actual (i+86)=AuxMinusLaurent.actual (auxiliaryIndex (i+86)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource980
+
+compact_certificate private theorem actual_eq_singleton87 : ∀ i < 1,
+    actual (i+87)=AuxMinusLaurent.actual (auxiliaryIndex (i+87)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource987
+
+compact_certificate private theorem actual_eq_singleton88 : ∀ i < 1,
+    actual (i+88)=AuxMinusLaurent.actual (auxiliaryIndex (i+88)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource994
+
+compact_certificate private theorem actual_eq_singleton89 : ∀ i < 1,
+    actual (i+89)=AuxMinusLaurent.actual (auxiliaryIndex (i+89)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource1001
+
+compact_certificate private theorem actual_eq_singleton90 : ∀ i < 1,
+    actual (i+90)=AuxMinusLaurent.actual (auxiliaryIndex (i+90)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource1008
+
+compact_certificate private theorem actual_eq_singleton91 : ∀ i < 1,
+    actual (i+91)=AuxMinusLaurent.actual (auxiliaryIndex (i+91)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource1015
+
+compact_certificate private theorem actual_eq_singleton92 : ∀ i < 1,
+    actual (i+92)=AuxMinusLaurent.actual (auxiliaryIndex (i+92)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource1036
+
+compact_certificate private theorem actual_eq_singleton93 : ∀ i < 1,
+    actual (i+93)=AuxMinusLaurent.actual (auxiliaryIndex (i+93)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource1043
+
+compact_certificate private theorem actual_eq_singleton94 : ∀ i < 1,
+    actual (i+94)=AuxMinusLaurent.actual (auxiliaryIndex (i+94)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource1057
+
+compact_certificate private theorem actual_eq_singleton95 : ∀ i < 1,
+    actual (i+95)=AuxMinusLaurent.actual (auxiliaryIndex (i+95)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource1064
+
+compact_certificate private theorem actual_eq_singleton96 : ∀ i < 1,
+    actual (i+96)=AuxMinusLaurent.actual (auxiliaryIndex (i+96)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource1113
+
+compact_certificate private theorem actual_eq_singleton97 : ∀ i < 1,
+    actual (i+97)=AuxMinusLaurent.actual (auxiliaryIndex (i+97)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource1120
+
+compact_certificate private theorem actual_eq_singleton98 : ∀ i < 1,
+    actual (i+98)=AuxMinusLaurent.actual (auxiliaryIndex (i+98)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource1127
+
+compact_certificate private theorem actual_eq_singleton99 : ∀ i < 1,
+    actual (i+99)=AuxMinusLaurent.actual (auxiliaryIndex (i+99)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource1148
+
+compact_certificate private theorem actual_eq_singleton100 : ∀ i < 1,
+    actual (i+100)=AuxMinusLaurent.actual (auxiliaryIndex (i+100)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource1162
+
+compact_certificate private theorem actual_eq_singleton101 : ∀ i < 1,
+    actual (i+101)=AuxMinusLaurent.actual (auxiliaryIndex (i+101)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource1169
+
+compact_certificate private theorem actual_eq_singleton102 : ∀ i < 1,
+    actual (i+102)=AuxMinusLaurent.actual (auxiliaryIndex (i+102)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource1190
+
+compact_certificate private theorem actual_eq_singleton103 : ∀ i < 1,
+    actual (i+103)=AuxMinusLaurent.actual (auxiliaryIndex (i+103)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource1218
+
+compact_certificate private theorem actual_eq_singleton104 : ∀ i < 1,
+    actual (i+104)=AuxMinusLaurent.actual (auxiliaryIndex (i+104)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource1225
+
+compact_certificate private theorem actual_eq_singleton105 : ∀ i < 1,
+    actual (i+105)=AuxMinusLaurent.actual (auxiliaryIndex (i+105)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource1267
+
+compact_certificate private theorem actual_eq_singleton106 : ∀ i < 1,
+    actual (i+106)=AuxMinusLaurent.actual (auxiliaryIndex (i+106)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource1372
+
+compact_certificate private theorem actual_eq_singleton107 : ∀ i < 1,
+    actual (i+107)=AuxMinusLaurent.actual (auxiliaryIndex (i+107)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource1463
+
+compact_certificate private theorem actual_eq_singleton108 : ∀ i < 1,
+    actual (i+108)=AuxMinusLaurent.actual (auxiliaryIndex (i+108)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource1477
+
+compact_certificate private theorem actual_eq_singleton109 : ∀ i < 1,
+    actual (i+109)=AuxMinusLaurent.actual (auxiliaryIndex (i+109)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource1491
+
+compact_certificate private theorem actual_eq_singleton110 : ∀ i < 1,
+    actual (i+110)=AuxMinusLaurent.actual (auxiliaryIndex (i+110)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource1498
+
+compact_certificate private theorem actual_eq_singleton111 : ∀ i < 1,
+    actual (i+111)=AuxMinusLaurent.actual (auxiliaryIndex (i+111)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource1547
+
+compact_certificate private theorem actual_eq_singleton112 : ∀ i < 1,
+    actual (i+112)=AuxMinusLaurent.actual (auxiliaryIndex (i+112)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource1645
+
+compact_certificate private theorem actual_eq_singleton113 : ∀ i < 1,
+    actual (i+113)=AuxMinusLaurent.actual (auxiliaryIndex (i+113)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource1694
+
+compact_certificate private theorem actual_eq_singleton114 : ∀ i < 1,
+    actual (i+114)=AuxMinusLaurent.actual (auxiliaryIndex (i+114)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource1715
+
+compact_certificate private theorem actual_eq_singleton115 : ∀ i < 1,
+    actual (i+115)=AuxMinusLaurent.actual (auxiliaryIndex (i+115)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource1729
+
+compact_certificate private theorem actual_eq_singleton116 : ∀ i < 1,
+    actual (i+116)=AuxMinusLaurent.actual (auxiliaryIndex (i+116)) := by
+  intro i hi
+  have hzero : i = 0 := by omega
+  subst i
+  exact Eq.refl QuantitativeArithmeticSmallLevelTwentyFiveAuxGridData.auxSource1848
+
 compact_certificate theorem actual_eq (i : Fin 117) : actual i.val=AuxMinusLaurent.actual (auxiliaryIndex i.val) := by
-  fin_cases i <;> rfl
+  have h : ∀ j < 117, actual (j+0)=AuxMinusLaurent.actual (auxiliaryIndex (j+0)) :=
+    finite_range% (fun j => actual j=AuxMinusLaurent.actual (auxiliaryIndex j)) 0 [
+      1 => actual_eq_singleton0,
+      1 => actual_eq_singleton1,
+      1 => actual_eq_singleton2,
+      1 => actual_eq_singleton3,
+      1 => actual_eq_singleton4,
+      1 => actual_eq_singleton5,
+      1 => actual_eq_singleton6,
+      1 => actual_eq_singleton7,
+      1 => actual_eq_singleton8,
+      1 => actual_eq_singleton9,
+      1 => actual_eq_singleton10,
+      1 => actual_eq_singleton11,
+      1 => actual_eq_singleton12,
+      1 => actual_eq_singleton13,
+      1 => actual_eq_singleton14,
+      1 => actual_eq_singleton15,
+      1 => actual_eq_singleton16,
+      1 => actual_eq_singleton17,
+      1 => actual_eq_singleton18,
+      1 => actual_eq_singleton19,
+      1 => actual_eq_singleton20,
+      1 => actual_eq_singleton21,
+      1 => actual_eq_singleton22,
+      1 => actual_eq_singleton23,
+      1 => actual_eq_singleton24,
+      1 => actual_eq_singleton25,
+      1 => actual_eq_singleton26,
+      1 => actual_eq_singleton27,
+      1 => actual_eq_singleton28,
+      1 => actual_eq_singleton29,
+      1 => actual_eq_singleton30,
+      1 => actual_eq_singleton31,
+      1 => actual_eq_singleton32,
+      1 => actual_eq_singleton33,
+      1 => actual_eq_singleton34,
+      1 => actual_eq_singleton35,
+      1 => actual_eq_singleton36,
+      1 => actual_eq_singleton37,
+      1 => actual_eq_singleton38,
+      1 => actual_eq_singleton39,
+      1 => actual_eq_singleton40,
+      1 => actual_eq_singleton41,
+      1 => actual_eq_singleton42,
+      1 => actual_eq_singleton43,
+      1 => actual_eq_singleton44,
+      1 => actual_eq_singleton45,
+      1 => actual_eq_singleton46,
+      1 => actual_eq_singleton47,
+      1 => actual_eq_singleton48,
+      1 => actual_eq_singleton49,
+      1 => actual_eq_singleton50,
+      1 => actual_eq_singleton51,
+      1 => actual_eq_singleton52,
+      1 => actual_eq_singleton53,
+      1 => actual_eq_singleton54,
+      1 => actual_eq_singleton55,
+      1 => actual_eq_singleton56,
+      1 => actual_eq_singleton57,
+      1 => actual_eq_singleton58,
+      1 => actual_eq_singleton59,
+      1 => actual_eq_singleton60,
+      1 => actual_eq_singleton61,
+      1 => actual_eq_singleton62,
+      1 => actual_eq_singleton63,
+      1 => actual_eq_singleton64,
+      1 => actual_eq_singleton65,
+      1 => actual_eq_singleton66,
+      1 => actual_eq_singleton67,
+      1 => actual_eq_singleton68,
+      1 => actual_eq_singleton69,
+      1 => actual_eq_singleton70,
+      1 => actual_eq_singleton71,
+      1 => actual_eq_singleton72,
+      1 => actual_eq_singleton73,
+      1 => actual_eq_singleton74,
+      1 => actual_eq_singleton75,
+      1 => actual_eq_singleton76,
+      1 => actual_eq_singleton77,
+      1 => actual_eq_singleton78,
+      1 => actual_eq_singleton79,
+      1 => actual_eq_singleton80,
+      1 => actual_eq_singleton81,
+      1 => actual_eq_singleton82,
+      1 => actual_eq_singleton83,
+      1 => actual_eq_singleton84,
+      1 => actual_eq_singleton85,
+      1 => actual_eq_singleton86,
+      1 => actual_eq_singleton87,
+      1 => actual_eq_singleton88,
+      1 => actual_eq_singleton89,
+      1 => actual_eq_singleton90,
+      1 => actual_eq_singleton91,
+      1 => actual_eq_singleton92,
+      1 => actual_eq_singleton93,
+      1 => actual_eq_singleton94,
+      1 => actual_eq_singleton95,
+      1 => actual_eq_singleton96,
+      1 => actual_eq_singleton97,
+      1 => actual_eq_singleton98,
+      1 => actual_eq_singleton99,
+      1 => actual_eq_singleton100,
+      1 => actual_eq_singleton101,
+      1 => actual_eq_singleton102,
+      1 => actual_eq_singleton103,
+      1 => actual_eq_singleton104,
+      1 => actual_eq_singleton105,
+      1 => actual_eq_singleton106,
+      1 => actual_eq_singleton107,
+      1 => actual_eq_singleton108,
+      1 => actual_eq_singleton109,
+      1 => actual_eq_singleton110,
+      1 => actual_eq_singleton111,
+      1 => actual_eq_singleton112,
+      1 => actual_eq_singleton113,
+      1 => actual_eq_singleton114,
+      1 => actual_eq_singleton115,
+      1 => actual_eq_singleton116]
+  simpa only [Nat.add_zero] using h i.val i.isLt
 
 compact_certificate theorem auxiliaryIndex_bound : ∀ i : Fin 117, auxiliaryIndex i.val<4600 := by decide +kernel
 
@@ -3122,16 +4067,13 @@ set_option maxHeartbeats 2400000
 namespace QuantitativeArithmeticSmallLevelTwentyFive.CuspMinusLowerResidual
 open QuantitativeArithmeticSevenLaurentRows
 compact_certificate theorem upper_checked_0 : substitute upperSource (upperOperation 0)=upperResidual 0 := by
-  simp only [← substituteCompute_eq]
-  decide +kernel
+  exact upper_checked_0_compact
 #print axioms upper_checked_0
 compact_certificate theorem lower_checked_0 : substitute lowerSource (lowerOperation 0)=lowerResidual 0 := by
-  simp only [← substituteCompute_eq]
-  decide +kernel
+  exact lower_checked_0_compact
 #print axioms lower_checked_0
 compact_certificate theorem first_checked_0 : substitute (fun j => substitute CuspMinusLaurent.basis (rawJet j)) (lowerOperation 0)=firstResidual 0 := by
-  simp only [← substituteCompute_eq]
-  decide +kernel
+  exact first_checked_0_compact
 #print axioms first_checked_0
 end QuantitativeArithmeticSmallLevelTwentyFive.CuspMinusLowerResidual
 end
@@ -8394,3 +9336,5 @@ end QuantitativeArithmeticSmallLevelTwentyFive.CuspMinusLaurent
 end
 end
 
+
+}

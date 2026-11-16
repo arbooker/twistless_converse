@@ -1,2 +1,0 @@
-'QuantitativeMaass.OrbitIntegral.lintegral_normalizer' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeMaass.OrbitIntegral.lintegral_finite_cover' depends on axioms: [propext, Classical.choice, Quot.sound]

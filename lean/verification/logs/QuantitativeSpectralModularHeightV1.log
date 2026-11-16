@@ -1,3 +1,0 @@
-'QuantitativeSpectralModularHeight.modular_height_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeSpectralModularHeight.cap_inverse_of_height' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeSpectralModularHeight.cap_inverse_modular' depends on axioms: [propext, Classical.choice, Quot.sound]

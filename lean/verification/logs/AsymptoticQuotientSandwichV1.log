@@ -1,2 +1,0 @@
-'AsymptoticQuotientOperators.separated_column' depends on axioms: [propext, Classical.choice, Quot.sound]
-'AsymptoticQuotientOperators.separated_sandwich' depends on axioms: [propext, Classical.choice, Quot.sound]

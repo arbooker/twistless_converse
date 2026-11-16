@@ -1,6 +1,0 @@
-'QuantitativeEulerEndpointTerminalExpression.physical_residual' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'QuantitativeEulerEndpointBoundedIteration.actualFiniteExpression_physical_residual' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

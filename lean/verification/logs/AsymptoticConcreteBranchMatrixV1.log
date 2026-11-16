@@ -1,3 +1,0 @@
-'AsymptoticConcreteRationalBranch.operator_ofMatrix' depends on axioms: [propext, Classical.choice, Quot.sound]
-'AsymptoticConcreteRationalBranch.operator_fold' depends on axioms: [propext, Classical.choice, Quot.sound]
-'AsymptoticConcreteRationalBranch.operator_compactFold' depends on axioms: [propext, Classical.choice, Quot.sound]

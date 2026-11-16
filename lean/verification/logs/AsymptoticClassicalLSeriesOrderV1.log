@@ -1,3 +1,0 @@
-'AsymptoticClassicalLSeries.lambda_finiteOrder' depends on axioms: [propext, Classical.choice, Quot.sound]
-'AsymptoticClassicalLSeries.conductor_finiteOrder' depends on axioms: [propext, Classical.choice, Quot.sound]
-'AsymptoticClassicalLSeries.entireCompletion_finiteOrder' depends on axioms: [propext, Classical.choice, Quot.sound]

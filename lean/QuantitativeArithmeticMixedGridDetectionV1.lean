@@ -34,53 +34,6 @@ theorem prime_coset_sum {K : Type*} [AddCommMonoid K] {G v J p : ℕ}
   rw [restricted_primeHit] at he
   exact he
 
-/-- Grid reconstruction from selected legal rows at good labels and complete
-prime rows at all remaining labels. This replaces the admissible-level
-detector without any field or characteristic restrictions. -/
-theorem mixed_grid_detect {K : Type*} [AddCommMonoid K] {G v J : ℕ}
-    (hG : 0 < G) (hv : 0 < v) (hJv : 2*J < v)
-    (good : Fin G → Prop) [DecidablePred good]
-    (r w c p : Fin G → ℕ)
-    (hw : ∀ a, good a → 0 < w a)
-    (hvw : ∀ a, good a → v = r a*w a)
-    (hD : ∀ a, good a → labelModulus a*w a ∣ G*v)
-    (hJw : ∀ a, good a → 2*J < w a)
-    (hc : ∀ a, good a → Nat.Coprime (labelModulus a) (r a))
-    (ha : ∀ a, good a → Nat.ModEq (labelModulus a) (r a*a.val) (c a))
-    (hp : ∀ a, ¬ good a → (p a).Prime)
-    (hpG : ∀ a, ¬ good a → p a ∣ G)
-    (hpa : ∀ a, ¬ good a → ¬ p a ∣ labelOrder a)
-    (f : ℤ → K) (hcyc : Cyclic (G*v) f)
-    (hsupport : ∀ j : Fin (G*v), j ∉ Set.range (gridIndex hG hv J) → f j.val = 0)
-    (hrows : ∀ a, good a → ∀ t : Offsets J,
-      cosetSum (G*v) (labelModulus a*w a) ((c a : ℤ)*w a+t.val) f = 0)
-    (hprimes : ∀ a, ¬ good a → ∀ t : Offsets J,
-      cosetSum (G*v) ((G/p a)*v) ((a.val : ℤ)*v+t.val) f = 0) : f = 0 := by
-  have hgrid : ∀ x : Fin G × Offsets J, f (gridIndex hG hv J x).val = 0 := by
-    intro x
-    let g := fun z : Fin G => f (gridIndex hG hv J (z,x.2)).val
-    have hg : g = 0 := mixed_label_detect hG good p hp hpG hpa g (by
-        intro a hgood
-        have he := selected_coset_sum hG hv (hw a hgood) (hvw a hgood) (hD a hgood)
-          hJv (hJw a hgood) a x.2 (hc a hgood) (ha a hgood) f hsupport
-        rw [restricted_labelHit] at he
-        exact he.symm.trans (hrows a hgood x.2)) (by
-        intro a hbad
-        exact (prime_coset_sum hG hv (hpG a hbad) hJv a x.2 f hsupport).symm.trans
-          (hprimes a hbad x.2))
-    exact congrFun hg x.1
-  have hfin : ∀ j : Fin (G*v), f j.val = 0 := by
-    intro j
-    by_cases hj : j ∈ Set.range (gridIndex hG hv J)
-    · obtain ⟨x,rfl⟩ := hj
-      exact hgrid x
-    · exact hsupport j hj
-  funext j
-  change f j = 0
-  rw [←cyclic_residue (Nat.mul_pos hG hv) f hcyc j]
-  exact hfin _
-
 #print axioms prime_coset_sum
-#print axioms mixed_grid_detect
 
 end QuantitativeArithmeticMixedGridDetection

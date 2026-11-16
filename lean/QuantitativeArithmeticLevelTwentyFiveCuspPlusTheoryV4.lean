@@ -113,6 +113,13 @@ public import QuantitativeArithmeticLevelTwentyFiveCuspPlusGermNamedEquality3V4
 public import QuantitativeArithmeticLevelTwentyFiveCuspPlusGermNamedEquality4V4
 public import QuantitativeArithmeticLevelTwentyFiveCuspPlusGermNamedEquality5V4
 public import QuantitativeArithmeticLevelTwentyFiveCuspPlusGermNamedEquality6V4
+public meta import SmallLevelCertificateBatchCommandV1
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
+set_option linter.unusedSimpArgs false
+set_option linter.unnecessarySimpa false
+open scoped ComplexConjugate
+certificate_batch {
 set_option Elab.async false
 set_option linter.unusedTactic false
 set_option linter.unreachableTactic false
@@ -4114,3 +4121,5 @@ end QuantitativeArithmeticSmallLevelTwentyFive.CuspPlusLaurent
 end
 end
 
+
+}

@@ -1,3 +1,0 @@
-'QuantitativeArithmeticUniversalPoleVector.IsLeadingVector.first_shift' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

@@ -1,2 +1,0 @@
-'MaassMellin.fullKernel_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
-'MaassMellin.actual_full_line' depends on axioms: [propext, Classical.choice, Quot.sound]

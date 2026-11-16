@@ -1,8 +1,0 @@
-'QuantitativeArithmetic.half_coprimeHarmonic_le_denominator' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeArithmetic.shiftedSieveDenominator_harmonic_lower' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'QuantitativeArithmetic.shiftedSieveDenominator_log_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
-'QuantitativeArithmetic.eventually_shiftedSieveDenominator_log_lower' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

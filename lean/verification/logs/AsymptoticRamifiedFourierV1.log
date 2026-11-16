@@ -1,2 +1,0 @@
-'AsymptoticRamifiedFourier.average' depends on axioms: [propext, Classical.choice, Quot.sound]
-'AsymptoticRamifiedFourier.average_of_row' depends on axioms: [propext, Classical.choice, Quot.sound]

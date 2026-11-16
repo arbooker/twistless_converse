@@ -75,7 +75,7 @@ theorem pivot8Raw_binding (x y z w a b u : ℂ) :
     eval x y z w a b 1 (fun j => if j=0 then 1 else u)
       SmallLevelTwentySixGermPrimitiveSparseMMM.Row08.primitiveData=
       SmallLevelTwentySixPariSourcePivot8.p6 x y z w a b u := by
-  norm_num [eval,monomial,SmallLevelTwentySixGermPrimitiveSparseMMM.Row08.primitiveData,
+  norm_num [Rat.divInt_eq_div,eval,monomial,SmallLevelTwentySixGermPrimitiveSparseMMM.Row08.primitiveData,
     SmallLevelTwentySixGermPrimitiveSparseMMM.Row08.primitiveData0,SmallLevelTwentySixPariSourcePivot8.p6,SmallLevelTwentySixPariSourcePivot8.coefficients6,SmallLevelTwentySixPariSourcePivot8.c6_0,SmallLevelTwentySixPariSourcePivot8.c6_1,SmallLevelTwentySixPariSourcePivot8.c6_2,SmallLevelTwentySixPariSourcePivot8.c6_3,SmallLevelTwentySixPariSourcePivot8.c6_4,SmallLevelTwentySixPariSourcePivot8.c6_5,SmallLevelPolynomialCoefficientCertificate.evaluate]
   ring
 #print axioms pivot8Raw_binding
